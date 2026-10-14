@@ -599,6 +599,7 @@ main {
   letter-spacing: -0.035em;
   margin: 12px 0 12px;
   font-weight: 630;
+  overflow-wrap: anywhere;
 }
 .feed-card p {
   font-size: 11px;
