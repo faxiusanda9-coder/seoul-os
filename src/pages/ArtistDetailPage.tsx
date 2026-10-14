@@ -71,6 +71,11 @@ export function ArtistDetailPage() {
                   }).format(new Date(syncedAt!)) })
                 : t("artists.relatedSample")}
             </p>
+            {status === "fallback" && (
+              <button className="text-button" type="button" onClick={() => loadChannel(artistId)}>
+                {t("common.retryLoading")}
+              </button>
+            )}
           </div>
         </div>
         <div className="feed-list">

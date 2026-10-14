@@ -487,6 +487,7 @@ main {
   letter-spacing: 0.17em;
   font-weight: 700;
   color: #8a958c;
+  white-space: nowrap;
 }
 .text-link,
 .text-button {
@@ -2657,14 +2658,18 @@ main > .page-wrap {
     scroll-margin-top: 80px;
   }
   .feed-section .section-heading {
+    display: block;
+    position: relative;
     margin-bottom: 21px;
   }
   .feed-section .section-heading h2 {
     font-size: clamp(29px, 8vw, 36px);
   }
   .feed-section .section-action {
-    align-self: start;
-    padding-top: 7px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
   }
   .feed-filters {
     grid-template-columns: repeat(2, minmax(0, 1fr));

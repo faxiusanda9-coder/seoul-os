@@ -54,6 +54,25 @@ function initialArtist() {
   return "twice";
 }
 
+async function readChannel(channel: ChannelConfig) {
+  let lastError: unknown;
+  for (let attempt = 0; attempt < 2; attempt++) {
+    try {
+      const response = await fetch(`${import.meta.env.BASE_URL}data/youtube/${channel.artistId}.json`, { cache: "no-cache" });
+      if (!response.ok) throw new Error(`No published snapshot for ${channel.artistId}`);
+      const snapshot = parseChannelSnapshot(await response.json(), channel);
+      if (!snapshot?.fetchedAt || !snapshot.items.length ||
+          Date.now() - Date.parse(snapshot.fetchedAt) >= 30 * 24 * 60 * 60 * 1000)
+        throw new Error(`No current videos for ${channel.artistId}`);
+      return snapshot;
+    } catch (error) {
+      lastError = error;
+      if (attempt === 0) await new Promise((done) => setTimeout(done, 650));
+    }
+  }
+  throw lastError;
+}
+
 export function ContentProvider({ children }: { children: ReactNode }) {
   const [selectedArtistId, setSelectedArtistId] = useState(initialArtist);
   const [views, setViews] = useState<Record<string, ChannelView>>({});
@@ -64,13 +83,8 @@ export function ContentProvider({ children }: { children: ReactNode }) {
     if (!channel || inflight.current.has(artistId)) return;
     inflight.current.add(artistId);
     setViews((current) => ({ ...current, [artistId]: { feed: fallback(artistId).feed, status: "loading", syncedAt: null } }));
-    fetch(`${import.meta.env.BASE_URL}data/youtube/${artistId}.json`, { cache: "no-cache" })
-      .then(async (response) => {
-        if (!response.ok) throw new Error(`No published snapshot for ${artistId}`);
-        const snapshot = parseChannelSnapshot(await response.json(), channel);
-        if (!snapshot?.fetchedAt || !snapshot.items.length ||
-            Date.now() - Date.parse(snapshot.fetchedAt) >= 30 * 24 * 60 * 60 * 1000)
-          throw new Error(`No current videos for ${artistId}`);
+    readChannel(channel)
+      .then((snapshot) => {
         setViews((current) => ({ ...current, [artistId]: {
           feed: snapshot.items.map(toFeedItem), status: "live", syncedAt: snapshot.fetchedAt,
         } }));

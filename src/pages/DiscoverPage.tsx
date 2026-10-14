@@ -13,7 +13,7 @@ import { selectFeed, type FeedSort } from "../utils/feed";
 import { useI18n } from "../locales/i18n";
 
 export function DiscoverPage() {
-  const { feed, status, syncedAt, selectedArtistId, channels, selectArtist } = useContent();
+  const { feed, status, syncedAt, selectedArtistId, channels, selectArtist, loadChannel } = useContent();
   const { t, locale } = useI18n();
   const reducedMotion = useReducedMotion();
   const [type, setType] = useState<"All types" | ContentType>("All types");
@@ -109,6 +109,11 @@ export function DiscoverPage() {
             onSort={setSort}
           />
           <p className="tiny-note">{t("discover.editorialTypeNote")}</p>
+          {status === "fallback" && (
+            <button className="text-button" type="button" onClick={() => loadChannel(selectedArtistId)}>
+              {t("common.retryLoading")}
+            </button>
+          )}
           <div className="feed-list">
             {visible.length ? (
               visible.map((item) => <FeedCard key={item.id} item={item} />)
