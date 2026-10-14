@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="SEOUL.OS">
+  <rect width="64" height="64" rx="11" fill="#F8F7F3"/>
+  <path d="M17 22c3-6 10-9 19-9 9 0 15 4 15 11 0 7-5 10-14 12l-7 2c-5 1-7 3-7 6 0 4 4 6 10 6 7 0 12-3 15-8" fill="none" stroke="#242824" stroke-linecap="round" stroke-width="7"/>
+  <circle cx="50" cy="51" r="5" fill="#91AD9A"/>
+</svg>
