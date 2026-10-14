@@ -2,7 +2,9 @@
   "schemaVersion": 1,
   "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
   "uploadsPlaylistId": "UUzgxx_DM2Dcb9Y1spb9mUJA",
-  "fetchedAt": "2026-10-14T12:36:39.291Z",
+  "artistId": "twice",
+  "syncStatus": "ok",
+  "fetchedAt": "2026-10-14T13:10:32.669Z",
   "items": [
     {
       "id": "yt-U7cZw1XoNtw",
@@ -21,7 +23,9 @@
       "thumbnail": "https://i.ytimg.com/vi/U7cZw1XoNtw/mqdefault.jpg",
       "publishedAt": "2026-10-14T09:00:28.000Z",
       "url": "https://www.youtube.com/watch?v=U7cZw1XoNtw",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -41,7 +45,9 @@
       "thumbnail": "https://i.ytimg.com/vi/8kuIx0Rj-ic/mqdefault.jpg",
       "publishedAt": "2026-10-14T05:00:04.000Z",
       "url": "https://www.youtube.com/watch?v=8kuIx0Rj-ic",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -61,7 +67,9 @@
       "thumbnail": "https://i.ytimg.com/vi/llLK9F-4RVw/mqdefault.jpg",
       "publishedAt": "2026-10-13T10:00:06.000Z",
       "url": "https://www.youtube.com/watch?v=llLK9F-4RVw",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "teaser"
     },
     {
@@ -81,7 +89,9 @@
       "thumbnail": "https://i.ytimg.com/vi/k5iulf6nUA0/mqdefault.jpg",
       "publishedAt": "2026-10-13T09:00:12.000Z",
       "url": "https://www.youtube.com/watch?v=k5iulf6nUA0",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -101,7 +111,9 @@
       "thumbnail": "https://i.ytimg.com/vi/jQh3dRdplPw/mqdefault.jpg",
       "publishedAt": "2026-10-12T10:00:06.000Z",
       "url": "https://www.youtube.com/watch?v=jQh3dRdplPw",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -121,7 +133,9 @@
       "thumbnail": "https://i.ytimg.com/vi/x0CIkIV-RaA/mqdefault.jpg",
       "publishedAt": "2026-10-12T09:00:37.000Z",
       "url": "https://www.youtube.com/watch?v=x0CIkIV-RaA",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -141,7 +155,9 @@
       "thumbnail": "https://i.ytimg.com/vi/exa4_Yvrc7A/mqdefault.jpg",
       "publishedAt": "2026-10-09T04:00:28.000Z",
       "url": "https://www.youtube.com/watch?v=exa4_Yvrc7A",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -161,7 +177,9 @@
       "thumbnail": "https://i.ytimg.com/vi/n3xV37dqqJk/mqdefault.jpg",
       "publishedAt": "2026-10-08T11:00:15.000Z",
       "url": "https://www.youtube.com/watch?v=n3xV37dqqJk",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -181,7 +199,9 @@
       "thumbnail": "https://i.ytimg.com/vi/yZZg4lnVptI/mqdefault.jpg",
       "publishedAt": "2026-10-08T09:00:37.000Z",
       "url": "https://www.youtube.com/watch?v=yZZg4lnVptI",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -201,7 +221,9 @@
       "thumbnail": "https://i.ytimg.com/vi/8wPUJrJKMuQ/mqdefault.jpg",
       "publishedAt": "2026-10-08T06:00:39.000Z",
       "url": "https://www.youtube.com/watch?v=8wPUJrJKMuQ",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -221,7 +243,9 @@
       "thumbnail": "https://i.ytimg.com/vi/1wf24BuDr-Q/mqdefault.jpg",
       "publishedAt": "2026-10-08T04:00:00.000Z",
       "url": "https://www.youtube.com/watch?v=1wf24BuDr-Q",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -241,7 +265,9 @@
       "thumbnail": "https://i.ytimg.com/vi/GTSNOMtXMsA/mqdefault.jpg",
       "publishedAt": "2026-10-07T10:00:34.000Z",
       "url": "https://www.youtube.com/watch?v=GTSNOMtXMsA",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -261,7 +287,9 @@
       "thumbnail": "https://i.ytimg.com/vi/nRy5Nzf45fE/mqdefault.jpg",
       "publishedAt": "2026-10-07T09:00:18.000Z",
       "url": "https://www.youtube.com/watch?v=nRy5Nzf45fE",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -281,7 +309,9 @@
       "thumbnail": "https://i.ytimg.com/vi/r6YmwMysYZo/mqdefault.jpg",
       "publishedAt": "2026-10-06T09:00:11.000Z",
       "url": "https://www.youtube.com/watch?v=r6YmwMysYZo",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -301,7 +331,9 @@
       "thumbnail": "https://i.ytimg.com/vi/cRS10T0Ruq8/mqdefault.jpg",
       "publishedAt": "2026-10-06T02:00:05.000Z",
       "url": "https://www.youtube.com/watch?v=cRS10T0Ruq8",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "teaser"
     },
     {
@@ -321,7 +353,9 @@
       "thumbnail": "https://i.ytimg.com/vi/9ZuYGCx356Q/mqdefault.jpg",
       "publishedAt": "2026-10-05T11:00:21.000Z",
       "url": "https://www.youtube.com/watch?v=9ZuYGCx356Q",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -341,7 +375,9 @@
       "thumbnail": "https://i.ytimg.com/vi/hORna2Ccv9c/mqdefault.jpg",
       "publishedAt": "2026-10-05T09:00:00.000Z",
       "url": "https://www.youtube.com/watch?v=hORna2Ccv9c",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -361,7 +397,9 @@
       "thumbnail": "https://i.ytimg.com/vi/MqLv9B23nUY/mqdefault.jpg",
       "publishedAt": "2026-10-04T14:58:27.000Z",
       "url": "https://www.youtube.com/watch?v=MqLv9B23nUY",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -381,7 +419,9 @@
       "thumbnail": "https://i.ytimg.com/vi/ECP09iHOc2U/mqdefault.jpg",
       "publishedAt": "2026-10-02T09:00:22.000Z",
       "url": "https://www.youtube.com/watch?v=ECP09iHOc2U",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -401,7 +441,9 @@
       "thumbnail": "https://i.ytimg.com/vi/5AeG4o0gEzQ/mqdefault.jpg",
       "publishedAt": "2026-10-02T05:00:36.000Z",
       "url": "https://www.youtube.com/watch?v=5AeG4o0gEzQ",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -421,7 +463,9 @@
       "thumbnail": "https://i.ytimg.com/vi/23bMwtoFoWY/mqdefault.jpg",
       "publishedAt": "2026-10-01T09:00:38.000Z",
       "url": "https://www.youtube.com/watch?v=23bMwtoFoWY",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -441,7 +485,9 @@
       "thumbnail": "https://i.ytimg.com/vi/nkEthV0jgbI/mqdefault.jpg",
       "publishedAt": "2026-09-30T09:00:31.000Z",
       "url": "https://www.youtube.com/watch?v=nkEthV0jgbI",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -461,7 +507,9 @@
       "thumbnail": "https://i.ytimg.com/vi/WyF0RTbrD0k/mqdefault.jpg",
       "publishedAt": "2026-09-23T09:00:22.000Z",
       "url": "https://www.youtube.com/watch?v=WyF0RTbrD0k",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "teaser"
     },
     {
@@ -481,7 +529,9 @@
       "thumbnail": "https://i.ytimg.com/vi/XmkxstvR5XY/mqdefault.jpg",
       "publishedAt": "2026-09-23T04:00:14.000Z",
       "url": "https://www.youtube.com/watch?v=XmkxstvR5XY",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -501,7 +551,9 @@
       "thumbnail": "https://i.ytimg.com/vi/4R87juS92h0/mqdefault.jpg",
       "publishedAt": "2026-09-23T03:00:14.000Z",
       "url": "https://www.youtube.com/watch?v=4R87juS92h0",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -521,7 +573,9 @@
       "thumbnail": "https://i.ytimg.com/vi/h5P5aCqg3qw/mqdefault.jpg",
       "publishedAt": "2026-09-21T03:00:18.000Z",
       "url": "https://www.youtube.com/watch?v=h5P5aCqg3qw",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -541,7 +595,9 @@
       "thumbnail": "https://i.ytimg.com/vi/uZ6wJJiYgFM/mqdefault.jpg",
       "publishedAt": "2026-09-20T11:00:33.000Z",
       "url": "https://www.youtube.com/watch?v=uZ6wJJiYgFM",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -561,7 +617,9 @@
       "thumbnail": "https://i.ytimg.com/vi/s12mZ_BY6B8/mqdefault.jpg",
       "publishedAt": "2026-09-19T05:00:31.000Z",
       "url": "https://www.youtube.com/watch?v=s12mZ_BY6B8",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -581,7 +639,9 @@
       "thumbnail": "https://i.ytimg.com/vi/tz1Sm5SShTc/mqdefault.jpg",
       "publishedAt": "2026-09-07T09:00:08.000Z",
       "url": "https://www.youtube.com/watch?v=tz1Sm5SShTc",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -601,7 +661,9 @@
       "thumbnail": "https://i.ytimg.com/vi/jYJjq9iOm6E/mqdefault.jpg",
       "publishedAt": "2026-08-31T09:00:03.000Z",
       "url": "https://www.youtube.com/watch?v=jYJjq9iOm6E",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -621,7 +683,9 @@
       "thumbnail": "https://i.ytimg.com/vi/UI9sJjUT2fc/mqdefault.jpg",
       "publishedAt": "2026-08-24T09:00:03.000Z",
       "url": "https://www.youtube.com/watch?v=UI9sJjUT2fc",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -641,7 +705,9 @@
       "thumbnail": "https://i.ytimg.com/vi/bp4InMLGJl8/mqdefault.jpg",
       "publishedAt": "2026-08-14T09:00:01.000Z",
       "url": "https://www.youtube.com/watch?v=bp4InMLGJl8",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "performance"
     },
     {
@@ -661,7 +727,9 @@
       "thumbnail": "https://i.ytimg.com/vi/h_5NFu_UmRA/mqdefault.jpg",
       "publishedAt": "2026-08-13T09:00:10.000Z",
       "url": "https://www.youtube.com/watch?v=h_5NFu_UmRA",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -681,7 +749,9 @@
       "thumbnail": "https://i.ytimg.com/vi/FD_oc92GO6k/mqdefault.jpg",
       "publishedAt": "2026-08-11T09:00:04.000Z",
       "url": "https://www.youtube.com/watch?v=FD_oc92GO6k",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "performance"
     },
     {
@@ -701,7 +771,9 @@
       "thumbnail": "https://i.ytimg.com/vi/c6IPi5QIyUs/mqdefault.jpg",
       "publishedAt": "2026-08-10T09:00:02.000Z",
       "url": "https://www.youtube.com/watch?v=c6IPi5QIyUs",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "performance"
     },
     {
@@ -721,7 +793,9 @@
       "thumbnail": "https://i.ytimg.com/vi/tO6tvHGrYQI/mqdefault.jpg",
       "publishedAt": "2026-08-06T09:00:02.000Z",
       "url": "https://www.youtube.com/watch?v=tO6tvHGrYQI",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -741,7 +815,9 @@
       "thumbnail": "https://i.ytimg.com/vi/vekEedAibDs/mqdefault.jpg",
       "publishedAt": "2026-07-31T05:00:43.000Z",
       "url": "https://www.youtube.com/watch?v=vekEedAibDs",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -761,7 +837,9 @@
       "thumbnail": "https://i.ytimg.com/vi/DYo0LYySde4/mqdefault.jpg",
       "publishedAt": "2026-07-30T09:00:32.000Z",
       "url": "https://www.youtube.com/watch?v=DYo0LYySde4",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -781,7 +859,9 @@
       "thumbnail": "https://i.ytimg.com/vi/tRGj-9aqXg4/mqdefault.jpg",
       "publishedAt": "2026-07-23T09:00:09.000Z",
       "url": "https://www.youtube.com/watch?v=tRGj-9aqXg4",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -801,7 +881,9 @@
       "thumbnail": "https://i.ytimg.com/vi/0ucLN5ED6-U/mqdefault.jpg",
       "publishedAt": "2026-07-21T07:00:37.000Z",
       "url": "https://www.youtube.com/watch?v=0ucLN5ED6-U",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -821,7 +903,9 @@
       "thumbnail": "https://i.ytimg.com/vi/hSnI7nbJ7Ls/mqdefault.jpg",
       "publishedAt": "2026-07-20T09:00:04.000Z",
       "url": "https://www.youtube.com/watch?v=hSnI7nbJ7Ls",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -841,7 +925,9 @@
       "thumbnail": "https://i.ytimg.com/vi/8X6Kzb6NvBs/mqdefault.jpg",
       "publishedAt": "2026-07-16T09:00:03.000Z",
       "url": "https://www.youtube.com/watch?v=8X6Kzb6NvBs",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -861,7 +947,9 @@
       "thumbnail": "https://i.ytimg.com/vi/D1_ryQAQvig/mqdefault.jpg",
       "publishedAt": "2026-07-16T03:00:11.000Z",
       "url": "https://www.youtube.com/watch?v=D1_ryQAQvig",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -881,7 +969,9 @@
       "thumbnail": "https://i.ytimg.com/vi/yqRozxU-Bqw/mqdefault.jpg",
       "publishedAt": "2026-07-15T09:00:04.000Z",
       "url": "https://www.youtube.com/watch?v=yqRozxU-Bqw",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -901,7 +991,9 @@
       "thumbnail": "https://i.ytimg.com/vi/UPsCaaaqRe0/mqdefault.jpg",
       "publishedAt": "2026-07-13T09:00:01.000Z",
       "url": "https://www.youtube.com/watch?v=UPsCaaaqRe0",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -921,7 +1013,9 @@
       "thumbnail": "https://i.ytimg.com/vi/YMB4aDkERHQ/mqdefault.jpg",
       "publishedAt": "2026-07-13T08:00:05.000Z",
       "url": "https://www.youtube.com/watch?v=YMB4aDkERHQ",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -941,7 +1035,9 @@
       "thumbnail": "https://i.ytimg.com/vi/WJURfGcbG2Y/mqdefault.jpg",
       "publishedAt": "2026-07-12T12:49:00.000Z",
       "url": "https://www.youtube.com/watch?v=WJURfGcbG2Y",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -961,7 +1057,9 @@
       "thumbnail": "https://i.ytimg.com/vi/Lip4VdQI3ZI/mqdefault.jpg",
       "publishedAt": "2026-07-11T13:20:44.000Z",
       "url": "https://www.youtube.com/watch?v=Lip4VdQI3ZI",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -981,7 +1079,9 @@
       "thumbnail": "https://i.ytimg.com/vi/blbuuC2N6Bs/mqdefault.jpg",
       "publishedAt": "2026-07-11T07:00:18.000Z",
       "url": "https://www.youtube.com/watch?v=blbuuC2N6Bs",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     },
     {
@@ -1001,7 +1101,9 @@
       "thumbnail": "https://i.ytimg.com/vi/DM6JtU6VQYk/mqdefault.jpg",
       "publishedAt": "2026-07-10T14:04:48.000Z",
       "url": "https://www.youtube.com/watch?v=DM6JtU6VQYk",
-      "fetchedAt": "2026-10-14T12:36:39.291Z",
+      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
       "type": "other"
     }
   ]
