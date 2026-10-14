@@ -62,4 +62,6 @@
 
 ## 部署状态
 
-本报告随最终代码推送后由 `Deploy SEOUL.OS to GitHub Pages` 工作流发布。上线成功与实际资源访问的最终结果在提交和部署后补记；本地构建成功不代表 Pages 已更新。
+视觉代码提交 `2eb2c8a` 后，[Pages 工作流 run 38604343279](https://github.com/faxiusanda9-coder/seoul-os/actions/runs/38604343279) 的 build 和 deploy 两个 Job 均成功。线上入口：[SEOUL.OS](https://faxiusanda9-coder.github.io/seoul-os/)。
+
+实际 HTTP 检查：`/seoul-os/artist-images/twice-960.jpg`、`/seoul-os/artist-images/stray-kids-1920.jpg`、`/seoul-os/data/youtube/twice.json` 全部返回 200；线上 TWICE JSON 为 schema v2、50 条、首条 `U7cZw1XoNtw` 含 5 档实际缩略图。线上 Playwright 在 375px 和 1440px 加载了艺人照片与 YouTube 视频图，页面宽度恰为视口宽度，`pageerror` 为 0。此处验证的是访问与图片加载，不代表已测遍所有地区网络或所有 700 条视频。
