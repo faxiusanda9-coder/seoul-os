@@ -1,0 +1,1110 @@
+{
+  "schemaVersion": 1,
+  "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+  "uploadsPlaylistId": "UUp-pqXsizklX3ZHvLxXyhxw",
+  "artistId": "day6",
+  "syncStatus": "ok",
+  "fetchedAt": "2026-10-14T13:17:23.489Z",
+  "items": [
+    {
+      "id": "yt-MHEGF8qRy1o",
+      "source": {
+        "platform": "youtube",
+        "videoId": "MHEGF8qRy1o",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[데식이들] Young K x 2026 동국대학교 가을 대동제 ＜DIRVANA＞ 비하인드",
+      "description": "[데식이들] Young K x 2026 동국대학교 가을 대동제 ＜DIRVANA＞ 비하인드\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/",
+      "thumbnail": "https://i.ytimg.com/vi/MHEGF8qRy1o/mqdefault.jpg",
+      "publishedAt": "2026-10-14T09:00:01.000Z",
+      "url": "https://www.youtube.com/watch?v=MHEGF8qRy1o",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-uzNhTg7Wugw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "uzNhTg7Wugw",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "Young K Solo Tour ＜YOUNGEST＞ in BANGKOK🚪 Recap Shorts📱",
+      "description": "Young K Solo Tour ＜YOUNGEST＞ in BANGKOK🚪 Recap Shorts📱\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitt",
+      "thumbnail": "https://i.ytimg.com/vi/uzNhTg7Wugw/mqdefault.jpg",
+      "publishedAt": "2026-10-14T03:00:03.000Z",
+      "url": "https://www.youtube.com/watch?v=uzNhTg7Wugw",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-4d5fhILeRMQ",
+      "source": {
+        "platform": "youtube",
+        "videoId": "4d5fhILeRMQ",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[DAY6 무리회] 보법이 남다른 데식 애교 😘",
+      "description": "[DAY6 무리회]\n보법이 남다른 데식 애교 😘\n\n#DAY6 #데이식스\n#무리회",
+      "thumbnail": "https://i.ytimg.com/vi/4d5fhILeRMQ/mqdefault.jpg",
+      "publishedAt": "2026-10-12T04:00:09.000Z",
+      "url": "https://www.youtube.com/watch?v=4d5fhILeRMQ",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-WmmNsDYaeZE",
+      "source": {
+        "platform": "youtube",
+        "videoId": "WmmNsDYaeZE",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[DAY6 무리회] 지독한 도운 사랑단 영케이🫰",
+      "description": "[DAY6 무리회]\n지독한 도운 사랑단 영케이🫰\n\n#DAY6 #데이식스\n#무리회",
+      "thumbnail": "https://i.ytimg.com/vi/WmmNsDYaeZE/mqdefault.jpg",
+      "publishedAt": "2026-10-12T04:00:06.000Z",
+      "url": "https://www.youtube.com/watch?v=WmmNsDYaeZE",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-BkPpRMInypM",
+      "source": {
+        "platform": "youtube",
+        "videoId": "BkPpRMInypM",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[DAY6 무리회] DAY6 댄스라인 근황🕺",
+      "description": "[DAY6 무리회]\nDAY6 댄스라인 근황🕺\n\n#DAY6 #데이식스\n#무리회",
+      "thumbnail": "https://i.ytimg.com/vi/BkPpRMInypM/mqdefault.jpg",
+      "publishedAt": "2026-10-12T04:00:01.000Z",
+      "url": "https://www.youtube.com/watch?v=BkPpRMInypM",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-0nug-6yKCR8",
+      "source": {
+        "platform": "youtube",
+        "videoId": "0nug-6yKCR8",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[DAY6 무리회] EP3. 노래는 이렇게 하는 거야",
+      "description": "[DAY6 무리회] EP3. 노래는 이렇게 하는 거야\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY6Official\nDAY6 FA",
+      "thumbnail": "https://i.ytimg.com/vi/0nug-6yKCR8/mqdefault.jpg",
+      "publishedAt": "2026-10-09T09:00:03.000Z",
+      "url": "https://www.youtube.com/watch?v=0nug-6yKCR8",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-NULtQbxwmWA",
+      "source": {
+        "platform": "youtube",
+        "videoId": "NULtQbxwmWA",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[DAY6 VLOG] 강영현 브이로그 in 미국 | NYC 접수 완료 🐱🐾",
+      "description": "[DAY6 VLOG] 강영현 브이로그 in 미국 | NYC 접수 완료 🐱🐾\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY6Of",
+      "thumbnail": "https://i.ytimg.com/vi/NULtQbxwmWA/mqdefault.jpg",
+      "publishedAt": "2026-10-08T11:00:02.000Z",
+      "url": "https://www.youtube.com/watch?v=NULtQbxwmWA",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-nU_Ld_7wE14",
+      "source": {
+        "platform": "youtube",
+        "videoId": "nU_Ld_7wE14",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "𝕏𝕄𝔽 𝟚𝟘𝟚𝟞, 𝕨𝕚𝕥𝕙 𝔻𝔸𝕐𝟞 🎸",
+      "description": "𝕏𝕄𝔽 𝟚𝟘𝟚𝟞, 𝕨𝕚𝕥𝕙 𝔻𝔸𝕐𝟞 🎸\n#DAY6 #데이식스\n#XMF #XMF2026",
+      "thumbnail": "https://i.ytimg.com/vi/nU_Ld_7wE14/mqdefault.jpg",
+      "publishedAt": "2026-10-05T05:00:18.000Z",
+      "url": "https://www.youtube.com/watch?v=nU_Ld_7wE14",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-aRzAH24Dky8",
+      "source": {
+        "platform": "youtube",
+        "videoId": "aRzAH24Dky8",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[DAY6 무리회] EP2. 난 이미 이걸 좋아해",
+      "description": "[DAY6 무리회] EP2. 난 이미 이걸 좋아해\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY6Official\nDAY6 FANS",
+      "thumbnail": "https://i.ytimg.com/vi/aRzAH24Dky8/mqdefault.jpg",
+      "publishedAt": "2026-10-02T09:00:05.000Z",
+      "url": "https://www.youtube.com/watch?v=aRzAH24Dky8",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-MNWcaKQEu64",
+      "source": {
+        "platform": "youtube",
+        "videoId": "MNWcaKQEu64",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[LIVE] Goodbye, Love｜Young K Solo Tour ＜YOUNGEST＞",
+      "description": "[LIVE] Goodbye, Love｜Young K Solo Tour ＜YOUNGEST＞\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/",
+      "thumbnail": "https://i.ytimg.com/vi/MNWcaKQEu64/mqdefault.jpg",
+      "publishedAt": "2026-10-01T10:00:17.000Z",
+      "url": "https://www.youtube.com/watch?v=MNWcaKQEu64",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-iqpvTEd6flI",
+      "source": {
+        "platform": "youtube",
+        "videoId": "iqpvTEd6flI",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[LIVE] Shut The Door｜Young K Solo Tour ＜YOUNGEST＞",
+      "description": "[LIVE] Shut The Door｜Young K Solo Tour ＜YOUNGEST＞\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/",
+      "thumbnail": "https://i.ytimg.com/vi/iqpvTEd6flI/mqdefault.jpg",
+      "publishedAt": "2026-10-01T10:00:13.000Z",
+      "url": "https://www.youtube.com/watch?v=iqpvTEd6flI",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-QUWoT4v0L6o",
+      "source": {
+        "platform": "youtube",
+        "videoId": "QUWoT4v0L6o",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[LIVE] STRANGE + SPIKE｜Young K Solo Tour ＜YOUNGEST＞",
+      "description": "[LIVE] STRANGE + SPIKE｜Young K Solo Tour ＜YOUNGEST＞\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.co",
+      "thumbnail": "https://i.ytimg.com/vi/QUWoT4v0L6o/mqdefault.jpg",
+      "publishedAt": "2026-10-01T10:00:07.000Z",
+      "url": "https://www.youtube.com/watch?v=QUWoT4v0L6o",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-kSIRXDOddqE",
+      "source": {
+        "platform": "youtube",
+        "videoId": "kSIRXDOddqE",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[LIVE] whatever｜Young K Solo Tour ＜YOUNGEST＞",
+      "description": "[LIVE] whatever｜Young K Solo Tour ＜YOUNGEST＞\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY6O",
+      "thumbnail": "https://i.ytimg.com/vi/kSIRXDOddqE/mqdefault.jpg",
+      "publishedAt": "2026-10-01T10:00:04.000Z",
+      "url": "https://www.youtube.com/watch?v=kSIRXDOddqE",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-tK2BZTbjlBQ",
+      "source": {
+        "platform": "youtube",
+        "videoId": "tK2BZTbjlBQ",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[LIVE] 집으로 향한다｜Young K Solo Tour ＜YOUNGEST＞",
+      "description": "[LIVE] 집으로 향한다｜Young K Solo Tour ＜YOUNGEST＞\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY6Of",
+      "thumbnail": "https://i.ytimg.com/vi/tK2BZTbjlBQ/mqdefault.jpg",
+      "publishedAt": "2026-09-30T10:00:10.000Z",
+      "url": "https://www.youtube.com/watch?v=tK2BZTbjlBQ",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-rB1vPiMFxjo",
+      "source": {
+        "platform": "youtube",
+        "videoId": "rB1vPiMFxjo",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[LIVE] 베스트 송｜Young K Solo Tour ＜YOUNGEST＞",
+      "description": "[LIVE] 베스트 송｜Young K Solo Tour ＜YOUNGEST＞\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY6Offi",
+      "thumbnail": "https://i.ytimg.com/vi/rB1vPiMFxjo/mqdefault.jpg",
+      "publishedAt": "2026-09-30T10:00:06.000Z",
+      "url": "https://www.youtube.com/watch?v=rB1vPiMFxjo",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-1pPc-PUjO3Q",
+      "source": {
+        "platform": "youtube",
+        "videoId": "1pPc-PUjO3Q",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[LIVE] 응원가｜Young K Solo Tour ＜YOUNGEST＞",
+      "description": "[LIVE] 응원가｜Young K Solo Tour ＜YOUNGEST＞\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY6Offici",
+      "thumbnail": "https://i.ytimg.com/vi/1pPc-PUjO3Q/mqdefault.jpg",
+      "publishedAt": "2026-09-30T10:00:01.000Z",
+      "url": "https://www.youtube.com/watch?v=1pPc-PUjO3Q",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-j4Eyxn1uN0Q",
+      "source": {
+        "platform": "youtube",
+        "videoId": "j4Eyxn1uN0Q",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[LIVE] natural｜Young K Solo Tour ＜YOUNGEST＞",
+      "description": "[LIVE] natural｜Young K Solo Tour ＜YOUNGEST＞\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY6Of",
+      "thumbnail": "https://i.ytimg.com/vi/j4Eyxn1uN0Q/mqdefault.jpg",
+      "publishedAt": "2026-09-29T10:01:08.000Z",
+      "url": "https://www.youtube.com/watch?v=j4Eyxn1uN0Q",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-ATkX8a7Vq0g",
+      "source": {
+        "platform": "youtube",
+        "videoId": "ATkX8a7Vq0g",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[LIVE] what is..｜Young K Solo Tour ＜YOUNGEST＞",
+      "description": "[LIVE] what is..｜Young K Solo Tour ＜YOUNGEST＞\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY6",
+      "thumbnail": "https://i.ytimg.com/vi/ATkX8a7Vq0g/mqdefault.jpg",
+      "publishedAt": "2026-09-29T10:00:14.000Z",
+      "url": "https://www.youtube.com/watch?v=ATkX8a7Vq0g",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-V_mKqRmQZV8",
+      "source": {
+        "platform": "youtube",
+        "videoId": "V_mKqRmQZV8",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[LIVE] Yonge St.｜Young K Solo Tour ＜YOUNGEST＞",
+      "description": "[LIVE] Yonge St.｜Young K Solo Tour ＜YOUNGEST＞\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY6",
+      "thumbnail": "https://i.ytimg.com/vi/V_mKqRmQZV8/mqdefault.jpg",
+      "publishedAt": "2026-09-29T10:00:08.000Z",
+      "url": "https://www.youtube.com/watch?v=V_mKqRmQZV8",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-PzPLQBnlTXw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "PzPLQBnlTXw",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[데식이들] Young K x 사운드 플래닛 페스티벌 2026 비하인드",
+      "description": "[데식이들] Young K x 사운드 플래닛 페스티벌 2026 비하인드\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY6Offici",
+      "thumbnail": "https://i.ytimg.com/vi/PzPLQBnlTXw/mqdefault.jpg",
+      "publishedAt": "2026-09-29T09:00:06.000Z",
+      "url": "https://www.youtube.com/watch?v=PzPLQBnlTXw",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-fsHh9-jCSqM",
+      "source": {
+        "platform": "youtube",
+        "videoId": "fsHh9-jCSqM",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[LIVE] F world｜Young K Solo Tour ＜YOUNGEST＞",
+      "description": "[LIVE] F world｜Young K Solo Tour ＜YOUNGEST＞\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY6Of",
+      "thumbnail": "https://i.ytimg.com/vi/fsHh9-jCSqM/mqdefault.jpg",
+      "publishedAt": "2026-09-28T10:00:20.000Z",
+      "url": "https://www.youtube.com/watch?v=fsHh9-jCSqM",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-osXbq8zESW0",
+      "source": {
+        "platform": "youtube",
+        "videoId": "osXbq8zESW0",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[LIVE] Drivin′ into Hell｜Young K Solo Tour ＜YOUNGEST＞",
+      "description": "[LIVE] Drivin′ into Hell｜Young K Solo Tour ＜YOUNGEST＞\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.",
+      "thumbnail": "https://i.ytimg.com/vi/osXbq8zESW0/mqdefault.jpg",
+      "publishedAt": "2026-09-28T10:00:15.000Z",
+      "url": "https://www.youtube.com/watch?v=osXbq8zESW0",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-XhXDyz_X70c",
+      "source": {
+        "platform": "youtube",
+        "videoId": "XhXDyz_X70c",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[LIVE] Marionette｜Young K Solo Tour ＜YOUNGEST＞",
+      "description": "[LIVE] Marionette｜Young K Solo Tour ＜YOUNGEST＞\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY",
+      "thumbnail": "https://i.ytimg.com/vi/XhXDyz_X70c/mqdefault.jpg",
+      "publishedAt": "2026-09-28T10:00:05.000Z",
+      "url": "https://www.youtube.com/watch?v=XhXDyz_X70c",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-j6nPs2n4KWg",
+      "source": {
+        "platform": "youtube",
+        "videoId": "j6nPs2n4KWg",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[DAY6 무리회] EP1. 이 구역 춤 짱",
+      "description": "[DAY6 무리회] EP1. 이 구역 춤 짱\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY6Official\nDAY6 FANS Ap",
+      "thumbnail": "https://i.ytimg.com/vi/j6nPs2n4KWg/mqdefault.jpg",
+      "publishedAt": "2026-09-25T09:00:03.000Z",
+      "url": "https://www.youtube.com/watch?v=j6nPs2n4KWg",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-sCr6tph1Xjo",
+      "source": {
+        "platform": "youtube",
+        "videoId": "sCr6tph1Xjo",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[LIVE] Love me or Leave me + Sweet Chaos + Shoot Me | DAY6(데이식스) ＜The DECADE＞ FINALE in SEOUL",
+      "description": "[LIVE] Love me or Leave me + Sweet Chaos + Shoot Me | DAY6(데이식스) ＜The DECADE＞ FINALE in SEOUL\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDA",
+      "thumbnail": "https://i.ytimg.com/vi/sCr6tph1Xjo/mqdefault.jpg",
+      "publishedAt": "2026-09-24T10:00:01.000Z",
+      "url": "https://www.youtube.com/watch?v=sCr6tph1Xjo",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-0qJhdPUM9H0",
+      "source": {
+        "platform": "youtube",
+        "videoId": "0qJhdPUM9H0",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[DAY6 VLOG] 강영현 브이로그 in 상하이 | 왕홍 케이 상하이에 등장 ₊*ෆ🐱ෆ*₊",
+      "description": "[DAY6 VLOG] 강영현 브이로그 in 상하이 | 왕홍 케이 상하이에 등장 ₊*ෆ🐱ෆ*₊\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.c",
+      "thumbnail": "https://i.ytimg.com/vi/0qJhdPUM9H0/mqdefault.jpg",
+      "publishedAt": "2026-09-24T09:00:08.000Z",
+      "url": "https://www.youtube.com/watch?v=0qJhdPUM9H0",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-jzZLckHqBLw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "jzZLckHqBLw",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[LIVE] Take All My Heart｜DAY6(데이식스) 10th Anniversary Tour ＜The DECADE＞ FINALE in SEOUL",
+      "description": "[LIVE] Take All My Heart｜DAY6(데이식스) 10th Anniversary Tour ＜The DECADE＞ FINALE in SEOUL\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Offi",
+      "thumbnail": "https://i.ytimg.com/vi/jzZLckHqBLw/mqdefault.jpg",
+      "publishedAt": "2026-09-23T10:00:14.000Z",
+      "url": "https://www.youtube.com/watch?v=jzZLckHqBLw",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-HjI3Vj4BjK4",
+      "source": {
+        "platform": "youtube",
+        "videoId": "HjI3Vj4BjK4",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[LIVE] 해야 뜨지 말아 줘 + 행복했던 날들이었다｜DAY6(데이식스) 10th Anniversary Tour ＜The DECADE＞ FINALE in SEOUL",
+      "description": "[LIVE] 해야 뜨지 말아 줘 + 행복했던 날들이었다｜DAY6(데이식스) 10th Anniversary Tour ＜The DECADE＞ FINALE in SEOUL\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY",
+      "thumbnail": "https://i.ytimg.com/vi/HjI3Vj4BjK4/mqdefault.jpg",
+      "publishedAt": "2026-09-23T10:00:07.000Z",
+      "url": "https://www.youtube.com/watch?v=HjI3Vj4BjK4",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-JtEfz_qSRGk",
+      "source": {
+        "platform": "youtube",
+        "videoId": "JtEfz_qSRGk",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "Young K Solo Tour 〈YOUNGEST〉 | Spot Video",
+      "description": "Young K Solo Tour 〈YOUNGEST〉 | Spot Video\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY6Offi",
+      "thumbnail": "https://i.ytimg.com/vi/JtEfz_qSRGk/mqdefault.jpg",
+      "publishedAt": "2026-09-22T13:00:06.000Z",
+      "url": "https://www.youtube.com/watch?v=JtEfz_qSRGk",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-3UPp5y3XGNI",
+      "source": {
+        "platform": "youtube",
+        "videoId": "3UPp5y3XGNI",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[LIVE] INSIDE OUT｜DAY6(데이식스) 10th Anniversary Tour ＜The DECADE＞ FINALE in SEOUL",
+      "description": "[LIVE] INSIDE OUT｜DAY6(데이식스) 10th Anniversary Tour ＜The DECADE＞ FINALE in SEOUL\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Tw",
+      "thumbnail": "https://i.ytimg.com/vi/3UPp5y3XGNI/mqdefault.jpg",
+      "publishedAt": "2026-09-22T10:00:09.000Z",
+      "url": "https://www.youtube.com/watch?v=3UPp5y3XGNI",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-qJUfN7l9oOg",
+      "source": {
+        "platform": "youtube",
+        "videoId": "qJUfN7l9oOg",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[LIVE] 꿈의 버스｜DAY6(데이식스) 10th Anniversary Tour ＜The DECADE＞ FINALE in SEOUL",
+      "description": "[LIVE] 꿈의 버스｜DAY6(데이식스) 10th Anniversary Tour ＜The DECADE＞ FINALE in SEOUL\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter",
+      "thumbnail": "https://i.ytimg.com/vi/qJUfN7l9oOg/mqdefault.jpg",
+      "publishedAt": "2026-09-22T10:00:05.000Z",
+      "url": "https://www.youtube.com/watch?v=qJUfN7l9oOg",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-PRGmm4kvlZw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "PRGmm4kvlZw",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[DAY6 무리회] Teaser. DAY6가 왜이리 무리회 🤡",
+      "description": "[DAY6 무리회] Teaser. DAY6가 왜이리 무리회 🤡\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY6Official\nD",
+      "thumbnail": "https://i.ytimg.com/vi/PRGmm4kvlZw/mqdefault.jpg",
+      "publishedAt": "2026-09-21T12:00:01.000Z",
+      "url": "https://www.youtube.com/watch?v=PRGmm4kvlZw",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "teaser"
+    },
+    {
+      "id": "yt-COS63FxdLrQ",
+      "source": {
+        "platform": "youtube",
+        "videoId": "COS63FxdLrQ",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "#Shut_The_Door Challenge with #펭수 님🚪",
+      "description": "#Shut_The_Door Challenge with #펭수 님🚪\n\n#DAY6 #데이식스\n#YoungK #영케이\n#YOUNGEST\n@giantpengtv",
+      "thumbnail": "https://i.ytimg.com/vi/COS63FxdLrQ/mqdefault.jpg",
+      "publishedAt": "2026-09-19T03:00:14.000Z",
+      "url": "https://www.youtube.com/watch?v=COS63FxdLrQ",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-PzJmRnnCACg",
+      "source": {
+        "platform": "youtube",
+        "videoId": "PzJmRnnCACg",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "DAY6 5TH FANMEETING 〈EVERY DAY6, EVERY My Day〉 🌌 Sketch Film 📸",
+      "description": "DAY6 5TH FANMEETING\n〈EVERY DAY6, EVERY My Day〉 🌌\n\n#WONPIL #원필\n#DOWOON #도운 \nSketch Film 📸\n\n2026.10.23 | 10.24 | 10.25 + Beyond LIVE\n\n@ INSPIRE ARENA\n\n#DAY6 #데이식스\n#MyDay #마이데이\n#DAY6_5TH_FANMEETING\n#EVERY_DAY6_EVERY_My_Day",
+      "thumbnail": "https://i.ytimg.com/vi/PzJmRnnCACg/mqdefault.jpg",
+      "publishedAt": "2026-09-15T09:07:23.000Z",
+      "url": "https://www.youtube.com/watch?v=PzJmRnnCACg",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-AJHS9WbC9HE",
+      "source": {
+        "platform": "youtube",
+        "videoId": "AJHS9WbC9HE",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "DAY6 5TH FANMEETING 〈EVERY DAY6, EVERY My Day〉 🌌 Sketch Film 📸",
+      "description": "DAY6 5TH FANMEETING\n〈EVERY DAY6, EVERY My Day〉 🌌\n\n#SUNGJIN #성진\n#YoungK #영케이 \nSketch Film 📸\n\n2026.10.23 | 10.24 | 10.25 + Beyond LIVE\n\n@ INSPIRE ARENA\n\n#DAY6 #데이식스\n#MyDay #마이데이\n#DAY6_5TH_FANMEETING\n#EVERY_DAY6_EVERY_My_Day",
+      "thumbnail": "https://i.ytimg.com/vi/AJHS9WbC9HE/mqdefault.jpg",
+      "publishedAt": "2026-09-14T09:07:37.000Z",
+      "url": "https://www.youtube.com/watch?v=AJHS9WbC9HE",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt--FzmiLkC0GI",
+      "source": {
+        "platform": "youtube",
+        "videoId": "-FzmiLkC0GI",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[데식이들] 원필 x KIA 타이거즈 세 번째 시구 비하인드",
+      "description": "[데식이들] 원필 x KIA 타이거즈 세 번째 시구 비하인드\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY6Official\nDAY",
+      "thumbnail": "https://i.ytimg.com/vi/-FzmiLkC0GI/mqdefault.jpg",
+      "publishedAt": "2026-09-12T03:00:01.000Z",
+      "url": "https://www.youtube.com/watch?v=-FzmiLkC0GI",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-UiRzMcwwsfs",
+      "source": {
+        "platform": "youtube",
+        "videoId": "UiRzMcwwsfs",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[데식이들] 2026 가족사진 비하인드",
+      "description": "[데식이들] 2026 가족사진 비하인드\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY6Official\nDAY6 FANS App S",
+      "thumbnail": "https://i.ytimg.com/vi/UiRzMcwwsfs/mqdefault.jpg",
+      "publishedAt": "2026-09-08T12:07:07.000Z",
+      "url": "https://www.youtube.com/watch?v=UiRzMcwwsfs",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-W2ktAJbaYnA",
+      "source": {
+        "platform": "youtube",
+        "videoId": "W2ktAJbaYnA",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "My Day Pick❗️어디서나 당당하게 걷기💗",
+      "description": "My Day Pick❗️\n어디서나 당당하게 걷기💗\n\n#DAY6 #데이식스\n#DAY6_11th_Anniversary",
+      "thumbnail": "https://i.ytimg.com/vi/W2ktAJbaYnA/mqdefault.jpg",
+      "publishedAt": "2026-09-07T15:53:47.000Z",
+      "url": "https://www.youtube.com/watch?v=W2ktAJbaYnA",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-Hee4wgZ7a3M",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Hee4wgZ7a3M",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "My Day Pick❗️하지하지마를 하지하지마 🙅",
+      "description": "My Day Pick❗️\n하지하지마를 하지하지마 🙅\n\n#DAY6 #데이식스\n#DAY6_11th_Anniversary",
+      "thumbnail": "https://i.ytimg.com/vi/Hee4wgZ7a3M/mqdefault.jpg",
+      "publishedAt": "2026-09-07T15:50:13.000Z",
+      "url": "https://www.youtube.com/watch?v=Hee4wgZ7a3M",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-ASSRx03COS0",
+      "source": {
+        "platform": "youtube",
+        "videoId": "ASSRx03COS0",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "My Day Pick❗️나는 MJ 말고 𝓜(𝔂)𝓓(𝓪𝔂) 🕷️🕸️",
+      "description": "My Day Pick❗️\n나는 MJ 말고 𝓜(𝔂)𝓓(𝓪𝔂) 🕷️🕸️\n\n#DAY6 #데이식스\n#DAY6_11th_Anniversary",
+      "thumbnail": "https://i.ytimg.com/vi/ASSRx03COS0/mqdefault.jpg",
+      "publishedAt": "2026-09-07T15:44:24.000Z",
+      "url": "https://www.youtube.com/watch?v=ASSRx03COS0",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-etcA8OjEV6s",
+      "source": {
+        "platform": "youtube",
+        "videoId": "etcA8OjEV6s",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "DAY6 11th Anniversary Live🥳 〈Welcome to the Party〉",
+      "description": "DAY6 11th Anniversary Live🥳 〈Welcome to the Party〉",
+      "thumbnail": "https://i.ytimg.com/vi/etcA8OjEV6s/mqdefault.jpg",
+      "publishedAt": "2026-09-07T13:48:26.000Z",
+      "url": "https://www.youtube.com/watch?v=etcA8OjEV6s",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-3J1diKFzBGM",
+      "source": {
+        "platform": "youtube",
+        "videoId": "3J1diKFzBGM",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "Young K Solo Tour ＜YOUNGEST＞ Concert Behind #2",
+      "description": "Young K Solo Tour ＜YOUNGEST＞ Concert Behind #2\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY",
+      "thumbnail": "https://i.ytimg.com/vi/3J1diKFzBGM/mqdefault.jpg",
+      "publishedAt": "2026-09-06T09:00:02.000Z",
+      "url": "https://www.youtube.com/watch?v=3J1diKFzBGM",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-Tqt-cMVDT1k",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Tqt-cMVDT1k",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "Young K Solo Tour ＜YOUNGEST＞ Concert Behind #1",
+      "description": "Young K Solo Tour ＜YOUNGEST＞ Concert Behind #1 \n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DA",
+      "thumbnail": "https://i.ytimg.com/vi/Tqt-cMVDT1k/mqdefault.jpg",
+      "publishedAt": "2026-08-28T09:00:02.000Z",
+      "url": "https://www.youtube.com/watch?v=Tqt-cMVDT1k",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-NNkCxSzceaY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "NNkCxSzceaY",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[데식이들] 원필 x 2026 SBS 가요대전 SUMMER 비하인드",
+      "description": "[데식이들] 원필 x 2026 SBS 가요대전 SUMMER 비하인드\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY6Official",
+      "thumbnail": "https://i.ytimg.com/vi/NNkCxSzceaY/mqdefault.jpg",
+      "publishedAt": "2026-08-27T09:00:05.000Z",
+      "url": "https://www.youtube.com/watch?v=NNkCxSzceaY",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-PIBWqReObCU",
+      "source": {
+        "platform": "youtube",
+        "videoId": "PIBWqReObCU",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "My Day와 함께해 더 아름답게 물든 도운이의 여름 ⋆⁺₊⋆ ☀︎ ⋆⁺₊⋆",
+      "description": "My Day와 함께해 더 아름답게 물든 도운이의 여름 ⋆⁺₊⋆ ☀︎ ⋆⁺₊⋆\n\n#DAY6 #데이식스\n#DOWOON #도운 \n#도운으로_물든_여름\n#Our_Summer_DOWOON",
+      "thumbnail": "https://i.ytimg.com/vi/PIBWqReObCU/mqdefault.jpg",
+      "publishedAt": "2026-08-25T11:25:03.000Z",
+      "url": "https://www.youtube.com/watch?v=PIBWqReObCU",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-LXj2lFsayR8",
+      "source": {
+        "platform": "youtube",
+        "videoId": "LXj2lFsayR8",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "#Shut_The_Door Challenge with #Kep1er #김채현 님🚪",
+      "description": "#Shut_The_Door Challenge with #Kep1er #김채현 님🚪\n\n#DAY6 #데이식스\n#YoungK #영케이\n#YOUNGEST\n@Kep1er_Offcl",
+      "thumbnail": "https://i.ytimg.com/vi/LXj2lFsayR8/mqdefault.jpg",
+      "publishedAt": "2026-08-22T03:00:19.000Z",
+      "url": "https://www.youtube.com/watch?v=LXj2lFsayR8",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt--YDCtzvexLg",
+      "source": {
+        "platform": "youtube",
+        "videoId": "-YDCtzvexLg",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "#Shut_The_Door Challenge with #YOUNITE #은호 님🚪",
+      "description": "#Shut_The_Door Challenge with #YOUNITE #은호 님🚪\n\n#DAY6 #데이식스\n#YoungK #영케이\n#YOUNGEST\n@YOUNITEOFFICIAL",
+      "thumbnail": "https://i.ytimg.com/vi/-YDCtzvexLg/mqdefault.jpg",
+      "publishedAt": "2026-08-20T08:30:35.000Z",
+      "url": "https://www.youtube.com/watch?v=-YDCtzvexLg",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-LlsgSILVH_8",
+      "source": {
+        "platform": "youtube",
+        "videoId": "LlsgSILVH_8",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "#Shut_The_Door Challenge with #EVAN 님🚪",
+      "description": "#Shut_The_Door Challenge with #EVAN 님🚪\n\n#DAY6 #데이식스\n#YoungK #영케이\n#YOUNGEST\n@h_evva_n",
+      "thumbnail": "https://i.ytimg.com/vi/LlsgSILVH_8/mqdefault.jpg",
+      "publishedAt": "2026-08-20T06:30:17.000Z",
+      "url": "https://www.youtube.com/watch?v=LlsgSILVH_8",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-hmwxs3U2l8g",
+      "source": {
+        "platform": "youtube",
+        "videoId": "hmwxs3U2l8g",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "#Shut_The_Door Challenge with #8TURN #윤성 님🚪",
+      "description": "#Shut_The_Door Challenge with #8TURN #윤성 님🚪\n\n#DAY6 #데이식스\n#YoungK #영케이\n#YOUNGEST\n@8TURN.official",
+      "thumbnail": "https://i.ytimg.com/vi/hmwxs3U2l8g/mqdefault.jpg",
+      "publishedAt": "2026-08-19T11:00:39.000Z",
+      "url": "https://www.youtube.com/watch?v=hmwxs3U2l8g",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-yA0dGkKEPRQ",
+      "source": {
+        "platform": "youtube",
+        "videoId": "yA0dGkKEPRQ",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "Young K “Shut The Door” Music Show Behind",
+      "description": "Young K “Shut The Door” Music Show Behind\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY6Offi",
+      "thumbnail": "https://i.ytimg.com/vi/yA0dGkKEPRQ/mqdefault.jpg",
+      "publishedAt": "2026-08-19T09:00:25.000Z",
+      "url": "https://www.youtube.com/watch?v=yA0dGkKEPRQ",
+      "fetchedAt": "2026-10-14T13:17:23.489Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:17:23.489Z",
+      "type": "other"
+    }
+  ]
+}
