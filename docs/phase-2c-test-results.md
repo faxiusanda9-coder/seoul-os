@@ -15,5 +15,6 @@
 | 实际 X widget 渲染 | 本地未成功 | 未拦截脚本的 TWICE 试验建立了 X iframe，查询参数 `dnt=true`，但高度保持 0，12 秒后回退到官方账号链接。不能宣称时间线成功呈现；不同网络仍待验证。X 帖文不进入本地 JSON。 |
 | 官网公告／活动在线同步 | 未执行 | 来源矩阵中无 A 类许可；真实导入公告 0、活动 0。当前产品只提供核实官网入口。 |
 | GitHub Pages | 通过 | [运行 38608324768](https://github.com/faxiusanda9-coder/seoul-os/actions/runs/38608324768) success；站点 200、`/seoul-os/assets/index-B4VMXCO7.js`、TWICE JSON v3/50 条。生产 Playwright 重做官网／Calendar／X 降级（375、412、1440）、分类／收藏（375、1440），并验证 `/#/official` 刷新；无 pageerror 和横向溢出。 |
+| 最终 X 隐私提示部署 | 通过 | [运行 38609518275](https://github.com/faxiusanda9-coder/seoul-os/actions/runs/38609518275) success；脚本路径 `/seoul-os/assets/index-C06M2Zq6.js`。生产 375px 检查可见 IP/Cookie 提示与 X 隐私退出设置链接，点击前 widgets.js 请求数为 0；官网／日历／X 失败降级重新通过 375、412、1440。 |
 
 截图：[375px 官网来源](screenshots/phase-2c-official-375.png)、[1440px 官网来源](screenshots/phase-2c-official-1440.png)、[375px 日历](screenshots/phase-2c-calendar-375.png)。截图取自本地实际渲染，不代表官网数据同步。

@@ -47,6 +47,8 @@ JYP 网站的公开页面和分页可以阅读，但直接查询的 `robots.txt`
 
 现有 YouTube GitHub Actions 仍按北京时间 08:00、20:00 运行；本轮没有官方网页自动同步工作流。提交 [`a68cf3c`](https://github.com/faxiusanda9-coder/seoul-os/commit/a68cf3c6df29db2afd1477a268c6aa0e4b4a2083) 触发的 [Pages 部署运行 38608324768](https://github.com/faxiusanda9-coder/seoul-os/actions/runs/38608324768) 已于 GitHub Actions 显示 **success**。实际访问 [站点](https://faxiusanda9-coder.github.io/seoul-os/) 返回 200，脚本路径为 `/seoul-os/assets/index-B4VMXCO7.js`；[TWICE JSON](https://faxiusanda9-coder.github.io/seoul-os/data/youtube/twice.json) 返回 schema v3、50 条、稳定 `yt-` ID。HashRouter 的 `/#/official` 刷新已在生产浏览器验证。
 
+后续 X 隐私提示与次级导航修订提交 [`af277e3`](https://github.com/faxiusanda9-coder/seoul-os/commit/af277e360e9bafbbf5dfe9ab88f96438b2818982) 的 [最终代码部署运行 38609518275](https://github.com/faxiusanda9-coder/seoul-os/actions/runs/38609518275) 也已显示 **success**；线上脚本已更新为 `/seoul-os/assets/index-C06M2Zq6.js`。随后生产 Playwright 再次通过 375、412、1440 页面流程，并在 375px 确认 X 隐私说明、退出选项链接存在且点击前没有加载第三方脚本。
+
 ## 6. 测试、成本及未解决问题
 
 [完整测试记录和截图](phase-2c-test-results.md)：TypeScript 和构建通过；分类 4/4、官网 4/4、同步回归 9/9、语言 1/1；本地及生产 Playwright 检查 375、412、1440 宽度，官网入口／日历／X 失败降级无页面错误和横向溢出；生产 375、1440 验证分类、搜索与收藏刷新。构建有既存主包 >500 kB 的非阻断警告。
