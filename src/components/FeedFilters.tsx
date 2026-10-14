@@ -2,6 +2,7 @@ import { artists } from "../data/artists";
 import { contentTypes } from "../data/feed";
 import type { ContentType } from "../types";
 import type { FeedSort } from "../utils/feed";
+import { contentTypeLabel, useI18n } from "../locales/i18n";
 
 export function FeedFilters({
   artist,
@@ -22,16 +23,17 @@ export function FeedFilters({
   onSearch: (value: string) => void;
   onSort: (value: FeedSort) => void;
 }) {
+  const { t, locale } = useI18n();
   return (
     <div className="feed-filters">
       <label className="select-field">
-        <span>Artist</span>
+        <span>{t("discover.filterArtist")}</span>
         <select
           value={artist}
           onChange={(e) => onArtist(e.target.value)}
-          aria-label="按艺人筛选动态"
+          aria-label={t("discover.filterArtist")}
         >
-          <option value="all">All artists</option>
+          <option value="all">{t("common.allArtists")}</option>
           {artists.map((item) => (
             <option value={item.id} key={item.id}>
               {item.name}
@@ -40,37 +42,39 @@ export function FeedFilters({
         </select>
       </label>
       <label className="select-field">
-        <span>Content</span>
+        <span>{t("discover.filterContent")}</span>
         <select
           value={type}
-          aria-label="按内容类型筛选动态"
+          aria-label={t("discover.filterContent")}
           onChange={(e) => onType(e.target.value as "All types" | ContentType)}
         >
           {contentTypes.map((item) => (
             <option key={item} value={item}>
-              {item}
+              {item === "All types"
+                ? t("discover.allTypes")
+                : contentTypeLabel(locale, item)}
             </option>
           ))}
         </select>
       </label>
       <label className="feed-search">
-        <span className="sr-only">搜索动态内容</span>
+        <span className="sr-only">{t("search.input")}</span>
         <input
           type="search"
           value={search}
           onChange={(e) => onSearch(e.target.value)}
-          placeholder="搜索艺人或内容"
+          placeholder={t("discover.searchPlaceholder")}
         />
       </label>
       <label className="select-field sort-field">
-        <span>Sort</span>
+        <span>{t("discover.sort")}</span>
         <select
           value={sort}
           onChange={(e) => onSort(e.target.value as FeedSort)}
-          aria-label="按发布时间排序"
+          aria-label={t("discover.sort")}
         >
-          <option value="newest">最新优先</option>
-          <option value="oldest">最早优先</option>
+          <option value="newest">{t("discover.sortNewest")}</option>
+          <option value="oldest">{t("discover.sortOldest")}</option>
         </select>
       </label>
     </div>

@@ -47,6 +47,10 @@ function toFeedItem(item: Content): FeedItem {
     publishedAt: item.publishedAt,
     videoId: item.source.videoId,
     thumbnailUrl: item.thumbnail,
+    localizedTitle: item.localizedTitle,
+    localizedDescription: item.localizedDescription,
+    originalLanguage: item.originalLanguage,
+    translationVerified: item.translationVerified,
   };
 }
 

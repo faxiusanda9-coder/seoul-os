@@ -1,5 +1,6 @@
 import { artistById } from "../data/artists";
 import type { ContentType, FeedItem } from "../types";
+import { contentTypeLabel, translate, type Locale } from "../locales/i18n";
 
 export type FeedSort = "newest" | "oldest";
 export type FeedQuery = {
@@ -9,15 +10,30 @@ export type FeedQuery = {
   sort: FeedSort;
 };
 
-export function selectFeed(items: FeedItem[], query: FeedQuery): FeedItem[] {
+/** Localized search terms supplement the untouched official title. */
+export function searchableFeedText(item: FeedItem, locale: Locale): string {
+  const type = contentTypeLabel(locale, item.type);
+  const demoTitle =
+    item.kind === "demo" ? translate(locale, "demo.feedTitle", { type }) : "";
+  const sourceLabel =
+    item.kind === "demo"
+      ? translate(locale, "common.demoSource")
+      : item.kind === "live"
+        ? translate(locale, "common.officialYouTube")
+        : translate(locale, "common.officialSample");
+  return `${item.title} ${item.translationVerified ? (item.localizedTitle ?? "") : ""} ${demoTitle} ${item.type} ${type} ${sourceLabel} ${item.source} ${artistById(item.artistId)?.name ?? ""}`.toLocaleLowerCase();
+}
+
+export function selectFeed(
+  items: FeedItem[],
+  query: FeedQuery,
+  locale: Locale = "zh-CN",
+): FeedItem[] {
   const needle = query.search.trim().toLocaleLowerCase();
   return items
     .filter((item) => {
       const matchesText =
-        !needle ||
-        `${item.title} ${item.type} ${item.source} ${artistById(item.artistId)?.name ?? ""}`
-          .toLocaleLowerCase()
-          .includes(needle);
+        !needle || searchableFeedText(item, locale).includes(needle);
       return (
         (query.artist === "all" || item.artistId === query.artist) &&
         (query.type === "All types" || item.type === query.type) &&
@@ -34,12 +50,28 @@ export function selectFeed(items: FeedItem[], query: FeedQuery): FeedItem[] {
     });
 }
 
-export function publishedLabel(item: FeedItem) {
+export function publishedLabel(item: FeedItem, locale: Locale) {
   if (item.kind === "live" && item.publishedAt)
-    return `发布 ${new Intl.DateTimeFormat("zh-CN", { timeZone: "Asia/Shanghai", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit" }).format(new Date(item.publishedAt))}（北京时间）`;
+    return translate(locale, "common.publishedTime", {
+      date: new Intl.DateTimeFormat(locale, {
+        timeZone: "Asia/Shanghai",
+        year: "numeric",
+        month: "short",
+        day: "numeric",
+        hour: "2-digit",
+        minute: "2-digit",
+      }).format(new Date(item.publishedAt)),
+    });
   return item.publishedAt
-    ? `发布 ${item.publishedAt.replaceAll("-", ".")}（日期）`
+    ? translate(locale, "common.publishedDate", {
+        date: new Intl.DateTimeFormat(locale, {
+          year: "numeric",
+          month: "short",
+          day: "numeric",
+          timeZone: "UTC",
+        }).format(new Date(`${item.publishedAt}T12:00:00Z`)),
+      })
     : item.kind === "official"
-      ? "官方视频 · 发布时间未核实"
-      : "演示内容 · 无真实发布时间";
+      ? translate(locale, "common.noVerifiedDate")
+      : translate(locale, "common.noDemoDate");
 }

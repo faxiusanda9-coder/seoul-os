@@ -1,7 +1,9 @@
 import { artists } from "../data/artists";
 import { ArtistCard } from "../components/ArtistCard";
+import { useI18n } from "../locales/i18n";
 
 export function ArtistsPage() {
+  const { t } = useI18n();
   return (
     <div className="page-wrap page-pad">
       <div className="page-intro">
@@ -11,13 +13,15 @@ export function ArtistsPage() {
           <br />
           <em>their own colors.</em>
         </h1>
-        <p>
-          九个入口，九种不同的音乐气质。官方视频缩略图帮助你认出熟悉的面孔；文字封面延续各自的视觉章节。
-        </p>
+        <p>{t("artists.intro")}</p>
       </div>
       <div className="directory-head">
         <span>JYP ARTIST FILES</span>
-        <span>{String(artists.length).padStart(2, "0")} ARTISTS</span>
+        <span>
+          {t("artists.count", {
+            count: String(artists.length).padStart(2, "0"),
+          })}
+        </span>
       </div>
       <div className="artist-grid directory-grid">
         {artists.map((item, index) => (

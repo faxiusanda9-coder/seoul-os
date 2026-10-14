@@ -6,6 +6,7 @@ import type { FeedItem } from "../types";
 import { publishedLabel } from "../utils/feed";
 import { visualVideoForItem } from "../utils/media";
 import { FeedThumbnail } from "./FeedThumbnail";
+import { contentTypeLabel, useI18n } from "../locales/i18n";
 
 export function FeedCard({
   item,
@@ -16,6 +17,7 @@ export function FeedCard({
 }) {
   const artist = artistById(item.artistId);
   const { isSaved, toggleSaved } = useArchive();
+  const { t, locale } = useI18n();
   if (!artist) return null;
   const active = isSaved(item.id);
   const visual = visualVideoForItem(item);
@@ -28,8 +30,8 @@ export function FeedCard({
         rel="noopener noreferrer"
         aria-label={
           item.kind !== "demo"
-            ? `观看 ${item.title} 官方视频，新窗口`
-            : `观看 ${artist.name} 封面参考的官方视频，新窗口；非本条演示内容`
+            ? t("common.watchOfficial", { title: item.title })
+            : t("common.watchReference", { artist: artist.name })
         }
       >
         <FeedThumbnail item={item} />
@@ -38,29 +40,46 @@ export function FeedCard({
         <div className="feed-meta">
           <Link to={`/artists/${artist.id}`}>{artist.name}</Link>
           <span className="meta-dot" aria-hidden="true" />
-          <span>{item.type}</span>
+          <span>{contentTypeLabel(locale, item.type)}</span>
           <span
             className={`feed-kind ${item.kind === "demo" ? "feed-kind--demo" : ""}`}
           >
             {item.kind === "live"
-              ? "Official YouTube Source"
+              ? t("common.officialYouTube")
               : item.kind === "official"
-                ? "精选官方视频"
-                : "DEMO"}
+                ? t("common.officialSample")
+                : t("common.demo")}
           </span>
         </div>
-        <h3>{item.title}</h3>
+        <h3>
+          {item.kind === "demo"
+            ? t("demo.feedTitle", { type: contentTypeLabel(locale, item.type) })
+            : item.title}
+        </h3>
+        {locale === "zh-CN" &&
+          item.translationVerified &&
+          item.localizedTitle && (
+            <p className="feed-local-title">{item.localizedTitle}</p>
+          )}
         <div className="feed-source-time">
-          <span>{item.source}</span>
+          <span>
+            {item.kind === "demo"
+              ? t("common.demoSource")
+              : item.kind === "official"
+                ? t("common.sampleSource")
+                : item.source}
+          </span>
           {item.publishedAt ? (
-            <time dateTime={item.publishedAt}>{publishedLabel(item)}</time>
+            <time dateTime={item.publishedAt}>
+              {publishedLabel(item, locale)}
+            </time>
           ) : (
-            <span>{publishedLabel(item)}</span>
+            <span>{publishedLabel(item, locale)}</span>
           )}
         </div>
         {item.kind === "demo" && visual && (
           <p className="reference-credit">
-            封面参考：{visual.title} · 非本条演示内容
+            {t("common.coverReference", { title: visual.title })}
           </p>
         )}
       </div>
@@ -68,9 +87,15 @@ export function FeedCard({
         <button
           className={`icon-button ${active ? "is-active" : ""}`}
           type="button"
-          aria-label={active ? `取消收藏 ${item.title}` : `收藏 ${item.title}`}
+          aria-label={
+            active
+              ? t("common.removeBookmark", { title: item.title })
+              : t("common.bookmark", { title: item.title })
+          }
           aria-pressed={active}
-          title={active ? "取消收藏" : "收藏"}
+          title={
+            active ? t("common.removeBookmarkShort") : t("common.bookmarkShort")
+          }
           onClick={() => toggleSaved(item.id, item.category)}
         >
           <Bookmark size={20} fill={active ? "currentColor" : "none"} />
@@ -82,11 +107,13 @@ export function FeedCard({
           rel="noopener noreferrer"
           aria-label={
             item.kind !== "demo"
-              ? `打开 ${item.title} 官方视频，新窗口`
-              : "打开 JYP 官方频道，新窗口（演示条目无对应视频）"
+              ? t("common.openOfficial", { title: item.title })
+              : t("common.openDemoChannel")
           }
           title={
-            item.kind !== "demo" ? "观看官方视频" : "打开官方频道（演示条目）"
+            item.kind !== "demo"
+              ? t("common.watchVideo")
+              : t("common.openDemoChannelShort")
           }
         >
           <ArrowUpRight size={20} />

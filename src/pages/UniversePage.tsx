@@ -2,10 +2,12 @@ import { useState } from "react";
 import { ArrowUpRight } from "lucide-react";
 import { artistById } from "../data/artists";
 import { timeline } from "../data/timeline";
+import { timelineDescription, useI18n } from "../locales/i18n";
 
 const years = [...new Set(timeline.map((item) => item.year))];
 
 export function UniversePage() {
+  const { t, locale } = useI18n();
   const [year, setYear] = useState(years[0]);
   const entries = timeline.filter((item) => item.year === year);
   return (
@@ -17,13 +19,10 @@ export function UniversePage() {
           <br />
           <em>has a sound.</em>
         </h1>
-        <p>
-          通过年份回看经 JYP
-          官方页面确认的发行节点。时间轴将随来源整理逐步扩充。
-        </p>
+        <p>{t("universe.intro")}</p>
       </div>
       <div className="universe-layout">
-        <div className="year-rail" aria-label="选择年份">
+        <div className="year-rail" aria-label={t("universe.yearPicker")}>
           {years.map((item) => (
             <button
               key={item}
@@ -38,11 +37,12 @@ export function UniversePage() {
         </div>
         <section className="timeline-content" aria-live="polite">
           <div className="timeline-year">
-            <span>SELECTED YEAR</span>
+            <span>{t("universe.selectedYear")}</span>
             <strong>{year}</strong>
             <span>
-              {String(entries.length).padStart(2, "0")} CURATED MOMENT
-              {entries.length > 1 ? "S" : ""}
+              {t("universe.momentCount", {
+                count: String(entries.length).padStart(2, "0"),
+              })}
             </span>
           </div>
           <div className="timeline-list">
@@ -52,10 +52,18 @@ export function UniversePage() {
                 <div>
                   <p className="eyebrow">
                     {artistById(item.artistId)?.name} /{" "}
-                    {item.status === "verified" ? "VERIFIED RELEASE" : "DEMO"}
+                    {item.status === "verified"
+                      ? t("universe.verifiedRelease")
+                      : t("common.demo")}
                   </p>
                   <h2>{item.title}</h2>
-                  <p>{item.description}</p>
+                  <p>
+                    {timelineDescription(
+                      locale,
+                      item.artistId,
+                      item.description,
+                    )}
+                  </p>
                   {item.status === "verified" ? (
                     <a
                       className="text-link"
@@ -63,10 +71,10 @@ export function UniversePage() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      JYP 官方来源 <ArrowUpRight size={16} />
+                      {t("universe.officialSource")} <ArrowUpRight size={16} />
                     </a>
                   ) : (
-                    <span className="muted">演示占位，无事实来源</span>
+                    <span className="muted">{t("universe.demoNoSource")}</span>
                   )}
                 </div>
               </article>
@@ -74,9 +82,7 @@ export function UniversePage() {
           </div>
         </section>
       </div>
-      <p className="timeline-disclaimer">
-        历史节点只记录官方来源可核实的发行事实；当前未列出的年份不代表该年没有活动。
-      </p>
+      <p className="timeline-disclaimer">{t("universe.disclaimer")}</p>
     </div>
   );
 }

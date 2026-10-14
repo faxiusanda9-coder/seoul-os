@@ -2,8 +2,10 @@ import { useState } from "react";
 import type { Artist } from "../types";
 import { officialVideoForArtist, thumbnailUrl } from "../utils/media";
 import { ArtistArt } from "./ArtistArt";
+import { useI18n } from "../locales/i18n";
 
 export function ArtistVideoCover({ artist }: { artist: Artist }) {
+  const { t } = useI18n();
   const [imageState, setImageState] = useState<"loading" | "ready" | "failed">(
     "loading",
   );
@@ -21,7 +23,10 @@ export function ArtistVideoCover({ artist }: { artist: Artist }) {
         <img
           className={imageState === "loading" ? "is-loading" : ""}
           src={thumbnailUrl(video.videoId)}
-          alt={`${artist.name} 官方视频《${video.title}》缩略图`}
+          alt={t("common.artistVideoThumbnail", {
+            artist: artist.name,
+            title: video.title,
+          })}
           loading="lazy"
           decoding="async"
           onError={() => setImageState("failed")}
@@ -35,9 +40,7 @@ export function ArtistVideoCover({ artist }: { artist: Artist }) {
       <div className="artist-video-cover-label">
         <ArtistArt artist={artist} variant="mini" />
       </div>
-      <span className="artist-video-credit">
-        官方视频缩略图 · YouTube
-      </span>
+      <span className="artist-video-credit">{t("common.thumbnailCredit")}</span>
     </div>
   );
 }

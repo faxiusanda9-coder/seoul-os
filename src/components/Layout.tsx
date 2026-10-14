@@ -8,22 +8,35 @@ import {
   Search,
   UserRound,
   X,
+  type LucideIcon,
 } from "lucide-react";
 import { Link, NavLink, Outlet, useLocation } from "react-router-dom";
 import { useArchive } from "../store/ArchiveContext";
+import { useI18n, type MessageKey } from "../locales/i18n";
 
-const nav = [
-  { to: "/", label: "Discover", icon: Compass },
-  { to: "/artists", label: "Artists", icon: Disc3 },
-  { to: "/calendar", label: "Calendar", icon: CalendarDays },
-  { to: "/archive", label: "Archive", icon: FolderHeart },
-  { to: "/my-space", label: "My Space", icon: UserRound },
+const nav: Array<{
+  to: string;
+  label: string;
+  key: MessageKey;
+  icon: LucideIcon;
+}> = [
+  { to: "/", label: "Discover", key: "nav.discover", icon: Compass },
+  { to: "/artists", label: "Artists", key: "nav.artists", icon: Disc3 },
+  {
+    to: "/calendar",
+    label: "Calendar",
+    key: "nav.calendar",
+    icon: CalendarDays,
+  },
+  { to: "/archive", label: "Archive", key: "nav.archive", icon: FolderHeart },
+  { to: "/my-space", label: "My Space", key: "nav.mySpace", icon: UserRound },
 ];
 
 export function Layout() {
   const [notificationsOpen, setNotificationsOpen] = useState(false);
   const location = useLocation();
   const { storageWarning } = useArchive();
+  const { t, storageWarning: languageStorageWarning } = useI18n();
   useEffect(() => {
     const frame = window.requestAnimationFrame(() => {
       if (location.hash) {
@@ -40,14 +53,14 @@ export function Layout() {
   return (
     <>
       <a className="skip-link" href="#main-content">
-        跳至主要内容
+        {t("nav.skip")}
       </a>
       <header className="site-header">
         <div className="header-inner">
-          <Link className="brand" to="/" aria-label="SEOUL.OS 首页">
+          <Link className="brand" to="/" aria-label={t("nav.home")}>
             SEOUL<span className="brand-dot">.</span>OS
           </Link>
-          <nav className="desktop-nav" aria-label="主导航">
+          <nav className="desktop-nav" aria-label={t("nav.main")}>
             {nav.map((item) => (
               <NavLink
                 end={item.to === "/"}
@@ -56,6 +69,7 @@ export function Layout() {
                 className={({ isActive }) =>
                   isActive ? "nav-link active" : "nav-link"
                 }
+                title={t(item.key)}
               >
                 {item.label}
               </NavLink>
@@ -65,7 +79,7 @@ export function Layout() {
             <Link
               className={`icon-button ${location.pathname === "/search" ? "is-active" : ""}`}
               to="/search"
-              aria-label="搜索内容与艺人"
+              aria-label={t("nav.search")}
             >
               <Search size={20} />
             </Link>
@@ -73,7 +87,7 @@ export function Layout() {
               <button
                 className={`icon-button ${notificationsOpen ? "is-active" : ""}`}
                 onClick={() => setNotificationsOpen((value) => !value)}
-                aria-label="通知"
+                aria-label={t("nav.notifications")}
                 aria-expanded={notificationsOpen}
                 type="button"
               >
@@ -84,27 +98,31 @@ export function Layout() {
                   <button
                     className="popover-close"
                     type="button"
-                    aria-label="关闭通知"
+                    aria-label={t("nav.closeNotifications")}
                     onClick={() => setNotificationsOpen(false)}
                   >
                     <X size={16} />
                   </button>
-                  <strong>通知中心</strong>
-                  <p>实时通知将在后续版本开放。当前没有新通知。</p>
-                  <span>COMING SOON</span>
+                  <strong>{t("nav.notificationCenter")}</strong>
+                  <p>{t("nav.noNotifications")}</p>
+                  <span>{t("common.comingSoon")}</span>
                 </div>
               )}
             </div>
-            <Link className="avatar" to="/my-space" aria-label="打开 My Space">
+            <Link
+              className="avatar"
+              to="/my-space"
+              aria-label={t("nav.openSpace")}
+            >
               S
             </Link>
           </div>
         </div>
       </header>
       <main id="main-content">
-        {storageWarning && (
+        {(storageWarning || languageStorageWarning) && (
           <p className="storage-warning" role="status">
-            当前浏览器未允许本地存储；收藏与关注只会保留到页面关闭。
+            {t("common.storageWarning")}
           </p>
         )}
         <Outlet />
@@ -115,10 +133,10 @@ export function Layout() {
             SEOUL<span className="brand-dot">.</span>OS
           </span>
           <p>One company. Every artist. Your universe.</p>
-          <span>独立粉丝概念原型 · 非 JYP 官方产品</span>
+          <span>{t("common.disclosure")}</span>
         </div>
       </footer>
-      <nav className="mobile-nav" aria-label="移动端主导航">
+      <nav className="mobile-nav" aria-label={t("nav.mobile")}>
         {nav.map((item) => (
           <NavLink
             end={item.to === "/"}
@@ -129,7 +147,7 @@ export function Layout() {
             }
           >
             <item.icon size={21} strokeWidth={1.8} />
-            <span>{item.label}</span>
+            <span>{t(item.key)}</span>
           </NavLink>
         ))}
       </nav>

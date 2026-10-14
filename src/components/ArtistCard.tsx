@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useArchive } from "../store/ArchiveContext";
 import type { Artist } from "../types";
 import { ArtistVideoCover } from "./ArtistVideoCover";
+import { useI18n } from "../locales/i18n";
 
 export function ArtistCard({
   artist,
@@ -12,13 +13,14 @@ export function ArtistCard({
   index?: number;
 }) {
   const { followedArtists, toggleFollow } = useArchive();
+  const { t } = useI18n();
   const following = followedArtists.includes(artist.id);
   return (
     <article className="artist-card">
       <Link
         className="artist-card-link"
         to={`/artists/${artist.id}`}
-        aria-label={`查看 ${artist.name} 档案`}
+        aria-label={t("artists.viewFile", { artist: artist.name })}
       >
         <ArtistVideoCover artist={artist} />
         <div className="artist-card-info">
@@ -35,12 +37,14 @@ export function ArtistCard({
         type="button"
         aria-pressed={following}
         aria-label={
-          following ? `取消关注 ${artist.name}` : `关注 ${artist.name}`
+          following
+            ? t("artists.unfollowLabel", { artist: artist.name })
+            : t("artists.followLabel", { artist: artist.name })
         }
         onClick={() => toggleFollow(artist.id)}
       >
         <Heart size={16} fill={following ? "currentColor" : "none"} />
-        {following ? "Following" : "Follow"}
+        {following ? t("artists.following") : t("artists.follow")}
       </button>
     </article>
   );

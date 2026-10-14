@@ -10,17 +10,19 @@ import { ArtistCard } from "../components/ArtistCard";
 import { SectionHeading } from "../components/SectionHeading";
 import type { ContentType } from "../types";
 import { selectFeed, type FeedSort } from "../utils/feed";
+import { useI18n } from "../locales/i18n";
 
 export function DiscoverPage() {
   const { feed, status, syncedAt } = useContent();
+  const { t, locale } = useI18n();
   const reducedMotion = useReducedMotion();
   const [artist, setArtist] = useState("all");
   const [type, setType] = useState<"All types" | ContentType>("All types");
   const [search, setSearch] = useState("");
   const [sort, setSort] = useState<FeedSort>("newest");
   const visible = useMemo(
-    () => selectFeed(feed, { artist, type, search, sort }),
-    [feed, artist, type, search, sort],
+    () => selectFeed(feed, { artist, type, search, sort }, locale),
+    [feed, artist, type, search, sort, locale],
   );
   return (
     <>
@@ -34,7 +36,7 @@ export function DiscoverPage() {
           <img
             className="hero-image"
             src={`${import.meta.env.BASE_URL}hero-concept.png`}
-            alt="原创概念摄影：四位匿名音乐人在排练室，非任何艺人官方照片"
+            alt={t("discover.heroAlt")}
           />
           <div className="hero-shade" />
           <div className="hero-top">
@@ -50,9 +52,7 @@ export function DiscoverPage() {
               <br />
               <em>All yours.</em>
             </h1>
-            <p className="hero-description">
-              从最新内容到珍藏舞台，让喜欢的每一份心动都有自己的位置。
-            </p>
+            <p className="hero-description">{t("discover.heroDescription")}</p>
             <button
               className="hero-button"
               type="button"
@@ -62,10 +62,10 @@ export function DiscoverPage() {
                 })
               }
             >
-              Explore the feed <ArrowDown size={17} />
+              {t("common.exploreFeed")} <ArrowDown size={17} />
             </button>
           </div>
-          <p className="hero-credit">原创 AI 概念视觉 · 非官方艺人照片</p>
+          <p className="hero-credit">{t("discover.heroCredit")}</p>
         </motion.section>
         <div className="intro-line">
           <span>YOUR K-POP UNIVERSE, ORGANIZED.</span>
@@ -75,16 +75,25 @@ export function DiscoverPage() {
           <SectionHeading
             eyebrow="01 / THE EDIT"
             title="Daily JYP Feed"
+            subtitle={t("discover.feedSubtitle")}
             note={
               status === "live"
-                ? `TWICE 官方 YouTube 数据 · 最近同步 ${new Intl.DateTimeFormat("zh-CN", { timeZone: "Asia/Shanghai", dateStyle: "medium", timeStyle: "short" }).format(new Date(syncedAt!))}（北京时间）；其他艺人为精选或演示内容。`
+                ? t("discover.feedLive", {
+                    date: new Intl.DateTimeFormat(locale, {
+                      timeZone: "Asia/Shanghai",
+                      dateStyle: "medium",
+                      timeStyle: "short",
+                    }).format(new Date(syncedAt!)),
+                  })
                 : status === "loading"
-                  ? "正在检查官方 YouTube 数据；当前显示精选内容。"
-                  : "Demo Content / 精选历史视频与演示条目；TWICE 自动数据暂不可用。"
+                  ? t("discover.feedLoading")
+                  : t("discover.feedFallback")
             }
             action={
               <span className="count-label" aria-live="polite">
-                {visible.length.toString().padStart(2, "0")} STORIES
+                {t("discover.storyCount", {
+                  count: visible.length.toString().padStart(2, "0"),
+                })}
               </span>
             }
           />
@@ -104,8 +113,8 @@ export function DiscoverPage() {
             ) : (
               <div className="empty-state">
                 <Sparkles size={25} />
-                <h3>暂时没有匹配内容</h3>
-                <p>试试更换艺人、类型或搜索词。</p>
+                <h3>{t("discover.noResultsTitle")}</h3>
+                <p>{t("discover.noResultsBody")}</p>
                 <button
                   className="text-button"
                   type="button"
@@ -116,7 +125,7 @@ export function DiscoverPage() {
                     setSort("newest");
                   }}
                 >
-                  清除筛选 <ArrowRight size={16} />
+                  {t("common.clearFilters")} <ArrowRight size={16} />
                 </button>
               </div>
             )}
@@ -126,10 +135,10 @@ export function DiscoverPage() {
           <SectionHeading
             eyebrow="02 / THE PEOPLE"
             title="The artists"
-            note="每个声音，都有自己的视觉章节。"
+            note={t("discover.artistsNote")}
             action={
               <Link className="text-link" to="/artists">
-                View all artists <ArrowUpRight size={17} />
+                {t("discover.viewAllArtists")} <ArrowUpRight size={17} />
               </Link>
             }
           />
@@ -147,9 +156,9 @@ export function DiscoverPage() {
               <br />
               <em>what stays.</em>
             </h2>
-            <p>沿着年份回看经官方来源确认的出道发行节点。</p>
+            <p>{t("discover.timelineNote")}</p>
             <Link className="light-button" to="/universe">
-              Explore the timeline <ArrowUpRight size={17} />
+              {t("discover.exploreTimeline")} <ArrowUpRight size={17} />
             </Link>
           </div>
           <div className="orbit-graphic" aria-hidden="true">

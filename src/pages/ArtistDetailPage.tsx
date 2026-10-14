@@ -6,28 +6,34 @@ import { useArchive } from "../store/ArchiveContext";
 import { ArtistArt } from "../components/ArtistArt";
 import { FeedCard } from "../components/FeedCard";
 import { NotFoundPage } from "./NotFoundPage";
+import { artistDescription, useI18n } from "../locales/i18n";
 
 export function ArtistDetailPage() {
   const { feed, status } = useContent();
   const { artistId = "" } = useParams();
   const artist = artistById(artistId);
   const { followedArtists, toggleFollow } = useArchive();
+  const { t, locale } = useI18n();
   if (!artist) return <NotFoundPage />;
   const following = followedArtists.includes(artist.id);
   return (
     <div className="page-wrap page-pad">
       <Link to="/artists" className="back-link">
-        <ArrowLeft size={17} /> All artists
+        <ArrowLeft size={17} /> {t("artists.back")}
       </Link>
       <div className="artist-detail-hero">
         <div className="artist-detail-art">
           <ArtistArt artist={artist} variant="hero" />
         </div>
         <div className="artist-detail-copy">
-          <p className="eyebrow">ARTIST FILE / {artist.debut}</p>
+          <p className="eyebrow" lang={locale}>
+            {t("artists.file")} / {artist.debut}
+          </p>
           <h1>{artist.name}</h1>
           <p className="detail-subtitle">{artist.subtitle}</p>
-          <p className="detail-description">{artist.description}</p>
+          <p className="detail-description">
+            {artistDescription(locale, artist.id, artist.description)}
+          </p>
           <div className="detail-actions">
             <button
               className={`primary-button ${following ? "following" : ""}`}
@@ -36,7 +42,7 @@ export function ArtistDetailPage() {
               aria-pressed={following}
             >
               <Heart size={17} fill={following ? "currentColor" : "none"} />
-              {following ? "Following" : "Follow artist"}
+              {following ? t("artists.following") : t("artists.follow")}
             </button>
             <a
               className="outline-button"
@@ -44,12 +50,10 @@ export function ArtistDetailPage() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Official site <ArrowUpRight size={17} />
+              {t("common.officialSite")} <ArrowUpRight size={17} />
             </a>
           </div>
-          <p className="tiny-note">
-            本页视觉为专辑气质的原创设计诠释，非官方封面或照片。
-          </p>
+          <p className="tiny-note">{t("artists.detailVisualNote")}</p>
         </div>
       </div>
       <section className="content-section">
@@ -59,8 +63,8 @@ export function ArtistDetailPage() {
             <h2>In your orbit</h2>
             <p className="section-note">
               {status === "live" && artist.id === "twice"
-                ? "TWICE 官方 YouTube 视频由静态数据每日同步。"
-                : "官方视频样本与演示条目均有明确标记。"}
+                ? t("artists.relatedLive")
+                : t("artists.relatedSample")}
             </p>
           </div>
         </div>

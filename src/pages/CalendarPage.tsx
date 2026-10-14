@@ -12,9 +12,14 @@ import { ChevronLeft, ChevronRight, Clock3, MapPin } from "lucide-react";
 import { artists, artistById } from "../data/artists";
 import { events, formatEventTime, kstDate } from "../data/events";
 import type { CalendarEvent } from "../types";
+import {
+  demoEventNote,
+  demoEventTitle,
+  eventTypeLabel,
+  useI18n,
+} from "../locales/i18n";
 
 const dateKey = (date: Date) => format(date, "yyyy-MM-dd");
-const weekdays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 const todayInSeoul = () =>
   new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Seoul" }).format(
     new Date(),
@@ -24,6 +29,13 @@ const monthForDate = (value: string) =>
 const demoDate = kstDate(events[0].startsAt);
 
 export function CalendarPage() {
+  const { t, locale } = useI18n();
+  const weekdays = Array.from({ length: 7 }, (_, index) =>
+    new Intl.DateTimeFormat(locale, {
+      weekday: "short",
+      timeZone: "UTC",
+    }).format(new Date(Date.UTC(2023, 0, index + 1))),
+  );
   const [month, setMonth] = useState(() => monthForDate(todayInSeoul()));
   const [selected, setSelected] = useState(todayInSeoul);
   const [artist, setArtist] = useState("all");
@@ -79,14 +91,12 @@ export function CalendarPage() {
           <br />
           <em>in your time.</em>
         </h1>
-        <p>
-          当前尚未接入已核实的官方日程。开启虚构样例后，可体验筛选和时区切换。
-        </p>
+        <p>{t("calendar.intro")}</p>
       </div>
       <div className="calendar-status">
         <div>
-          <strong>官方日程尚未接入</strong>
-          <p>这里没有已核实的活动记录；日历空白不代表艺人当天没有活动。</p>
+          <strong>{t("calendar.statusTitle")}</strong>
+          <p>{t("calendar.statusBody")}</p>
         </div>
         <label className="calendar-demo-switch">
           <input
@@ -94,21 +104,26 @@ export function CalendarPage() {
             checked={showDemo}
             onChange={(event) => toggleDemo(event.target.checked)}
           />
-          <span>显示 2099 年虚构演示活动</span>
+          <span>{t("calendar.showDemo")}</span>
         </label>
       </div>
       <div className="calendar-layout">
-        <section className="calendar-panel" aria-label="活动日历">
+        <section className="calendar-panel" aria-label={t("calendar.label")}>
           <div className="calendar-toolbar">
             <div>
               <p className="eyebrow">EVENT CALENDAR</p>
-              <h2>{format(month, "MMMM yyyy")}</h2>
+              <h2>
+                {new Intl.DateTimeFormat(locale, {
+                  month: "long",
+                  year: "numeric",
+                }).format(month)}
+              </h2>
             </div>
             <div className="month-controls">
               <button
                 className="icon-button outlined"
                 type="button"
-                aria-label="上一个月"
+                aria-label={t("calendar.previous")}
                 onClick={() => changeMonth(subMonths(month, 1))}
               >
                 <ChevronLeft size={21} />
@@ -116,7 +131,7 @@ export function CalendarPage() {
               <button
                 className="icon-button outlined"
                 type="button"
-                aria-label="下一个月"
+                aria-label={t("calendar.next")}
                 onClick={() => changeMonth(addMonths(month, 1))}
               >
                 <ChevronRight size={21} />
@@ -126,7 +141,7 @@ export function CalendarPage() {
           {showDemo && (
             <div className="calendar-filter-row">
               <label className="select-field">
-                <span>Artist</span>
+                <span>{t("discover.filterArtist")}</span>
                 <select
                   value={artist}
                   onChange={(e) => {
@@ -134,7 +149,7 @@ export function CalendarPage() {
                     setSelectedEvent(null);
                   }}
                 >
-                  <option value="all">All artists</option>
+                  <option value="all">{t("common.allArtists")}</option>
                   {artists.map((item) => (
                     <option key={item.id} value={item.id}>
                       {item.name}
@@ -148,7 +163,7 @@ export function CalendarPage() {
                   checked={showBeijing}
                   onChange={(e) => setShowBeijing(e.target.checked)}
                 />
-                <span>显示北京时间</span>
+                <span>{t("calendar.showBeijing")}</span>
               </label>
             </div>
           )}
@@ -172,7 +187,14 @@ export function CalendarPage() {
                   key={key}
                   className={`calendar-day ${selected === key ? "selected" : ""} ${dayEvents.length ? "has-event" : ""}`}
                   onClick={() => chooseDate(key)}
-                  aria-label={`${key}，${showDemo ? `${dayEvents.length} 个虚构演示活动` : "官方日程未接入"}`}
+                  aria-label={
+                    showDemo
+                      ? t("calendar.dayDemoCount", {
+                          date: key,
+                          count: dayEvents.length,
+                        })
+                      : t("calendar.dayNoOfficial", { date: key })
+                  }
                   aria-pressed={selected === key}
                 >
                   <span>{format(day, "d")}</span>
@@ -191,29 +213,40 @@ export function CalendarPage() {
           {showDemo && (
             <div className="calendar-legend">
               <span>
-                <i className="dot-release" /> Release
+                <i className="dot-release" />{" "}
+                {eventTypeLabel(locale, "Release")}
               </span>
               <span>
-                <i className="dot-live" /> Live
+                <i className="dot-live" /> {eventTypeLabel(locale, "Live")}
               </span>
               <span>
-                <i className="dot-fan-event" /> Fan Event
+                <i className="dot-fan-event" />{" "}
+                {eventTypeLabel(locale, "Fan Event")}
               </span>
             </div>
           )}
         </section>
         <aside className="event-panel">
           <div className="event-panel-head">
-            <p className="eyebrow">
-              {showDemo ? "虚构演示 · 非真实日程" : "未接入官方日程"}
+            <p className="eyebrow" lang={locale}>
+              {showDemo
+                ? t("calendar.demoLabel")
+                : t("calendar.noOfficialLabel")}
             </p>
-            <h2>{selected}</h2>
+            <h2>
+              <time dateTime={selected}>
+                {new Intl.DateTimeFormat(locale, {
+                  dateStyle: "long",
+                  timeZone: "UTC",
+                }).format(new Date(`${selected}T12:00:00Z`))}
+              </time>
+            </h2>
             <p>
               {showDemo
                 ? selectedEvents.length
-                  ? `${selectedEvents.length} 个虚构演示活动`
-                  : "这一天没有演示样例"
-                : "尚无已核实的活动记录"}
+                  ? t("calendar.demoCount", { count: selectedEvents.length })
+                  : t("calendar.noDemoDay")
+                : t("calendar.noVerifiedDay")}
             </p>
           </div>
           <div className="event-list">
@@ -227,23 +260,25 @@ export function CalendarPage() {
                 <span
                   className={`event-type dot-${event.type.toLowerCase().replace(" ", "-")}`}
                 >
-                  虚构演示 · {event.type}
+                  {t("calendar.demoPrefix", {
+                    type: eventTypeLabel(locale, event.type),
+                  })}
                 </span>
-                <strong>{event.title}</strong>
+                <strong>{demoEventTitle(locale, event.id, event.title)}</strong>
                 <small>{artistById(event.artistId)?.name}</small>
               </button>
             ))}
             {!selectedEvents.length && (
               <div className="event-empty">
                 {showDemo
-                  ? "选择带有彩色圆点的日期查看虚构样例。"
-                  : "官方日程尚未接入，不能据此判断这一天是否有活动。"}
+                  ? t("calendar.selectDotted")
+                  : t("calendar.noOfficialInference")}
               </div>
             )}
           </div>
           <div className="upcoming">
             <p className="eyebrow">
-              {showDemo ? "本月虚构演示样例" : "本月已核实日程"}
+              {showDemo ? t("calendar.monthDemo") : t("calendar.monthVerified")}
             </p>
             {monthEvents.length ? (
               monthEvents.map((event) => (
@@ -257,14 +292,18 @@ export function CalendarPage() {
                 >
                   <span>{kstDate(event.startsAt).slice(8)}</span>
                   {artistById(event.artistId)?.name}{" "}
-                  <small>虚构 · {event.type}</small>
+                  <small>
+                    {t("calendar.demoShort", {
+                      type: eventTypeLabel(locale, event.type),
+                    })}
+                  </small>
                 </button>
               ))
             ) : (
               <p className="muted">
                 {showDemo
-                  ? "本月没有虚构演示样例。"
-                  : "尚未收录官方日程；不代表本月没有活动。"}
+                  ? t("calendar.noDemoMonth")
+                  : t("calendar.noOfficialMonth")}
               </p>
             )}
           </div>
@@ -274,19 +313,22 @@ export function CalendarPage() {
         <section className="event-detail">
           <div>
             <p className="eyebrow">EVENT DETAIL / DEMO</p>
-            <h2>{selectedEvent.title}</h2>
-            <p>{selectedEvent.note}</p>
+            <h2>
+              {demoEventTitle(locale, selectedEvent.id, selectedEvent.title)}
+            </h2>
+            <p>{demoEventNote(locale, selectedEvent.id, selectedEvent.note)}</p>
           </div>
           <div className="event-detail-meta">
             <span>
               <MapPin size={17} /> {artistById(selectedEvent.artistId)?.name} ·{" "}
-              {selectedEvent.type}
+              {eventTypeLabel(locale, selectedEvent.type)}
             </span>
             <span>
               <Clock3 size={17} />{" "}
               {formatEventTime(
                 selectedEvent.startsAt,
                 showBeijing ? "Asia/Shanghai" : "Asia/Seoul",
+                locale,
               )}{" "}
               {showBeijing ? "BJT" : "KST"}
             </span>
@@ -295,7 +337,9 @@ export function CalendarPage() {
               type="button"
               onClick={() => setShowBeijing((value) => !value)}
             >
-              切换至{showBeijing ? "韩国标准时间" : "北京时间"}
+              {showBeijing
+                ? t("calendar.switchToKst")
+                : t("calendar.switchToBjt")}
             </button>
           </div>
         </section>

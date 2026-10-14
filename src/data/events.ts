@@ -65,8 +65,9 @@ export function kstDate(startsAt: string) {
 export function formatEventTime(
   startsAt: string,
   timeZone: "Asia/Seoul" | "Asia/Shanghai",
+  locale: "zh-CN" | "en" = "zh-CN",
 ) {
-  return new Intl.DateTimeFormat("zh-CN", {
+  return new Intl.DateTimeFormat(locale, {
     timeZone,
     month: "long",
     day: "numeric",

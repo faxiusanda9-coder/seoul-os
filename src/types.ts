@@ -38,6 +38,11 @@ export interface FeedItem {
   publishedAt: string | null;
   videoId?: string;
   thumbnailUrl?: string;
+  /** Shown only as a secondary line when editorial verification exists. */
+  localizedTitle?: string;
+  localizedDescription?: string;
+  originalLanguage?: string;
+  translationVerified?: boolean;
 }
 
 export interface CalendarEvent {

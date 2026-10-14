@@ -138,3 +138,19 @@ test("repeat sync is idempotent and does not duplicate uploads", async (t) => {
   assert.deepEqual(next, { changed: false, count: 1 });
   assert.equal(await readFile(dataFile, "utf8"), before);
 });
+
+test("localized video metadata requires an explicit verified flag", async (t) => {
+  const dataFile = await fixture(t);
+  await syncTwice({
+    apiKey: "test-key",
+    fetchImpl: mockFetch,
+    dataFile,
+    now: TIME,
+  });
+  const snapshot = JSON.parse(await readFile(dataFile, "utf8"));
+  snapshot.items[0].localizedTitle = "已核实的测试译名";
+  assert.equal(parseContentSnapshot(snapshot), null);
+  snapshot.items[0].translationVerified = true;
+  assert.ok(parseContentSnapshot(snapshot));
+  assert.equal(snapshot.items[0].title, "TWICE TEST M/V");
+});

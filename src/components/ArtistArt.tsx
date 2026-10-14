@@ -1,4 +1,5 @@
 import type { Artist } from "../types";
+import { useI18n } from "../locales/i18n";
 
 export function ArtistArt({
   artist,
@@ -7,6 +8,7 @@ export function ArtistArt({
   artist: Artist;
   variant?: "card" | "mini" | "hero";
 }) {
+  const { t } = useI18n();
   return (
     <div
       className={`artist-art artist-art--${variant} artist-art--${artist.id}`}
@@ -17,7 +19,7 @@ export function ArtistArt({
           "--art-accent": artist.accent,
         } as React.CSSProperties
       }
-      aria-label={`${artist.name} 非官方概念视觉`}
+      aria-label={t("common.artistArtwork", { artist: artist.name })}
       role="img"
     >
       <span className="art-top">SEOUL.OS / ARTIST FILE</span>

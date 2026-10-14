@@ -5,9 +5,12 @@ import { artists } from "../data/artists";
 import { useContent } from "../store/ContentContext";
 import { ArtistArt } from "../components/ArtistArt";
 import { FeedCard } from "../components/FeedCard";
+import { useI18n } from "../locales/i18n";
+import { searchableFeedText } from "../utils/feed";
 
 export function SearchPage() {
   const { feed } = useContent();
+  const { t, locale } = useI18n();
   const [query, setQuery] = useState("");
   const normalized = query.trim().toLocaleLowerCase();
   const matches = useMemo(
@@ -21,26 +24,24 @@ export function SearchPage() {
         : artists,
       feed: normalized
         ? feed.filter((item) =>
-            `${item.title} ${item.type} ${artists.find((artist) => artist.id === item.artistId)?.name}`
-              .toLocaleLowerCase()
-              .includes(normalized),
+            searchableFeedText(item, locale).includes(normalized),
           )
         : feed.slice(0, 4),
     }),
-    [normalized, feed],
+    [normalized, feed, locale],
   );
   return (
     <div className="page-wrap page-pad">
       <div className="page-intro compact-intro">
         <p className="eyebrow">FIND YOUR NEXT FAVORITE</p>
         <h1>Search the universe.</h1>
-        <p>搜索本地艺人档案、已同步的 TWICE 视频、精选官方视频与演示内容。</p>
+        <p>{t("search.intro")}</p>
       </div>
       <div className="search-box">
         <Search size={24} />
         <input
-          aria-label="搜索艺人或内容"
-          placeholder="搜索艺人、视频、内容类型…"
+          aria-label={t("search.input")}
+          placeholder={t("search.placeholder")}
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
@@ -48,7 +49,7 @@ export function SearchPage() {
           <button
             className="icon-button"
             type="button"
-            aria-label="清除搜索"
+            aria-label={t("common.clearSearch")}
             onClick={() => setQuery("")}
           >
             <X size={20} />
@@ -60,24 +61,24 @@ export function SearchPage() {
       matches.feed.length === 0 ? (
         <div className="empty-state search-empty">
           <Search size={28} />
-          <h2>没有找到相关内容</h2>
-          <p>试试艺人的英文名称，或清除搜索词查看全部档案。</p>
+          <h2>{t("search.emptyTitle")}</h2>
+          <p>{t("search.emptyBody")}</p>
           <button
             className="primary-button"
             type="button"
             onClick={() => setQuery("")}
           >
-            清除搜索
+            {t("common.clearSearch")}
           </button>
           <Link className="text-link" to="/artists">
-            Browse artists
+            {t("common.browseArtists")}
           </Link>
         </div>
       ) : (
         <div className="search-results">
           <section>
             <h2>
-              Artists <span>{matches.artists.length}</span>
+              {t("search.artistCount")} <span>{matches.artists.length}</span>
             </h2>
             {matches.artists.length ? (
               <div className="search-artist-list">
@@ -96,12 +97,12 @@ export function SearchPage() {
                 ))}
               </div>
             ) : (
-              <p className="muted">没有匹配的艺人。</p>
+              <p className="muted">{t("search.noArtists")}</p>
             )}
           </section>
           <section>
             <h2>
-              Curated feed <span>{matches.feed.length}</span>
+              {t("search.feedCount")} <span>{matches.feed.length}</span>
             </h2>
             {matches.feed.length ? (
               <div className="feed-list">
@@ -110,7 +111,7 @@ export function SearchPage() {
                 ))}
               </div>
             ) : (
-              <p className="muted">没有匹配的内容。</p>
+              <p className="muted">{t("search.noContent")}</p>
             )}
           </section>
         </div>

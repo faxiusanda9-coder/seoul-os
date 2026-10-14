@@ -18,6 +18,7 @@ npm run check
 npm run build
 npm run preview
 npm run test:sync
+npm run test:i18n
 ```
 
 The production preview is normally at `http://localhost:4173/seoul-os/`.
@@ -36,6 +37,12 @@ The production preview is normally at `http://localhost:4173/seoul-os/`.
 
 Bookmarks and followed artists are stored in browser `localStorage`, under `seoul-os-archive-v1` and `seoul-os-follow-v1`. They are local to a browser profile and do not sync across devices.
 Saved IDs and followed artist IDs are validated on load. YouTube bookmarks use stable `yt-<videoId>` IDs; when a saved video leaves the recent static dataset, Archive keeps a working YouTube link and a remove control. Obsolete removed demo IDs are discarded. If local storage is unavailable, the interface shows a warning and state lasts only for the current page session.
+
+## Interface languages
+
+The interface defaults to **Simplified Chinese**. Open **My Space → Interface settings** to choose 简体中文 or English; the choice is stored as `seoul-os-locale-v1` in `localStorage`, independently of bookmarks and follows. `src/locales/zh-CN.json` and `src/locales/en.json` hold UI messages; `src/locales/i18n.tsx` provides typed keys, parameter substitution, content/category labels and the React language context. The locale test checks that both dictionaries have the same keys and parameters. Dates are formatted with `Intl.DateTimeFormat` in the selected interface locale while source timestamps and event time zones stay unchanged.
+
+Editorial English headings, SEOUL.OS branding, artist names and original official music/video titles remain in their original form. Chinese or English copy explains controls, status and empty states. Fictional demo titles are translated because they are interface fixtures. Official YouTube titles are not machine-translated. The `Content` and `FeedItem` contracts reserve optional localized fields; a secondary translated title can appear only when its translation is explicitly verified. No translation API or account service is used.
 
 ## TWICE YouTube sync (Phase 2B-1)
 

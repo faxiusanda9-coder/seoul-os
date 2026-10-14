@@ -1,11 +1,19 @@
-import { ArrowUpRight, Heart, FolderHeart, Bell } from "lucide-react";
+import {
+  ArrowUpRight,
+  Heart,
+  FolderHeart,
+  Bell,
+  Languages,
+} from "lucide-react";
 import { Link } from "react-router-dom";
 import { artists } from "../data/artists";
 import { useArchive } from "../store/ArchiveContext";
 import { ArtistArt } from "../components/ArtistArt";
+import { useI18n } from "../locales/i18n";
 
 export function MySpacePage() {
   const { saved, followedArtists, toggleFollow } = useArchive();
+  const { t, locale, setLocale, storageWarning } = useI18n();
   const followed = artists.filter((item) => followedArtists.includes(item.id));
   return (
     <div className="page-wrap page-pad">
@@ -14,34 +22,32 @@ export function MySpacePage() {
         <h1>
           My Space<span className="period">.</span>
         </h1>
-        <p>
-          选择你关注的艺人，慢慢建立自己的 K-pop 宇宙。偏好只保存在当前浏览器。
-        </p>
+        <p>{t("space.intro")}</p>
       </div>
       <div className="space-summary">
         <div>
           <Heart size={22} />
           <strong>{followed.length}</strong>
-          <span>followed artists</span>
+          <span>{t("space.followCount")}</span>
         </div>
         <div>
           <FolderHeart size={22} />
           <strong>{saved.length}</strong>
-          <span>saved pieces</span>
+          <span>{t("space.savedCount")}</span>
         </div>
         <Link to="/archive">
-          Open archive <ArrowUpRight size={18} />
+          {t("space.openArchive")} <ArrowUpRight size={18} />
         </Link>
       </div>
       <section className="content-section">
         <div className="section-heading">
           <div>
             <p className="eyebrow">YOUR ORBIT</p>
-            <h2>Following</h2>
-            <p className="section-note">点击艺人卡片旁的按钮可取消关注。</p>
+            <h2>{t("space.following")}</h2>
+            <p className="section-note">{t("space.followNote")}</p>
           </div>
           <Link className="text-link" to="/artists">
-            Explore artists <ArrowUpRight size={17} />
+            {t("space.exploreArtists")} <ArrowUpRight size={17} />
           </Link>
         </div>
         {followed.length ? (
@@ -59,9 +65,9 @@ export function MySpacePage() {
                   type="button"
                   className="outline-button"
                   onClick={() => toggleFollow(item.id)}
-                  aria-label={`取消关注 ${item.name}`}
+                  aria-label={t("artists.unfollowLabel", { artist: item.name })}
                 >
-                  Following ✓
+                  {t("artists.following")} ✓
                 </button>
               </div>
             ))}
@@ -69,12 +75,10 @@ export function MySpacePage() {
         ) : (
           <div className="empty-state">
             <Heart size={28} />
-            <h3>你的关注列表还空着。</h3>
-            <p>
-              去艺人目录选择喜欢的组合；无需登录，点击卡片上的 Follow 即可。
-            </p>
+            <h3>{t("space.emptyTitle")}</h3>
+            <p>{t("space.emptyBody")}</p>
             <Link className="text-button" to="/artists">
-              Browse artists <ArrowUpRight size={17} />
+              {t("common.browseArtists")} <ArrowUpRight size={17} />
             </Link>
           </div>
         )}
@@ -82,11 +86,51 @@ export function MySpacePage() {
       <div className="coming-panel">
         <Bell size={22} />
         <div>
-          <strong>Personal notifications</strong>
-          <p>关注艺人的实时提醒将在后续版本开放。</p>
+          <strong>{t("space.notifications")}</strong>
+          <p>{t("space.notificationsNote")}</p>
         </div>
-        <span>COMING SOON</span>
+        <span>{t("common.comingSoon")}</span>
       </div>
+      <section
+        className="language-settings"
+        id="settings"
+        aria-labelledby="language-title"
+      >
+        <Languages size={22} aria-hidden="true" />
+        <div>
+          <p className="eyebrow">SETTINGS / LANGUAGE</p>
+          <h2 id="language-title">{t("space.settings")}</h2>
+          <p>{t("space.languageNote")}</p>
+          <fieldset className="language-options">
+            <legend>{t("space.language")}</legend>
+            <label className={locale === "zh-CN" ? "active" : ""}>
+              <input
+                type="radio"
+                name="interface-language"
+                value="zh-CN"
+                checked={locale === "zh-CN"}
+                onChange={() => setLocale("zh-CN")}
+              />
+              {t("space.languageZh")}
+            </label>
+            <label className={locale === "en" ? "active" : ""}>
+              <input
+                type="radio"
+                name="interface-language"
+                value="en"
+                checked={locale === "en"}
+                onChange={() => setLocale("en")}
+              />
+              {t("space.languageEn")}
+            </label>
+          </fieldset>
+          <p className="language-saved" role="status">
+            {storageWarning
+              ? t("space.languageUnavailable")
+              : t("space.languageSaved")}
+          </p>
+        </div>
+      </section>
     </div>
   );
 }

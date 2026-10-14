@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { HashRouter, Route, Routes } from "react-router-dom";
 import { ArchiveProvider } from "./store/ArchiveContext";
+import { I18nProvider } from "./locales/i18n";
 import { ContentProvider } from "./store/ContentContext";
 import { Layout } from "./components/Layout";
 import { DiscoverPage } from "./pages/DiscoverPage";
@@ -17,24 +18,29 @@ import "./styles.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <ArchiveProvider>
-      <ContentProvider>
-        <HashRouter>
-          <Routes>
-            <Route element={<Layout />}>
-              <Route path="/" element={<DiscoverPage />} />
-              <Route path="/artists" element={<ArtistsPage />} />
-              <Route path="/artists/:artistId" element={<ArtistDetailPage />} />
-              <Route path="/calendar" element={<CalendarPage />} />
-              <Route path="/archive" element={<ArchivePage />} />
-              <Route path="/my-space" element={<MySpacePage />} />
-              <Route path="/universe" element={<UniversePage />} />
-              <Route path="/search" element={<SearchPage />} />
-              <Route path="*" element={<NotFoundPage />} />
-            </Route>
-          </Routes>
-        </HashRouter>
-      </ContentProvider>
-    </ArchiveProvider>
+    <I18nProvider>
+      <ArchiveProvider>
+        <ContentProvider>
+          <HashRouter>
+            <Routes>
+              <Route element={<Layout />}>
+                <Route path="/" element={<DiscoverPage />} />
+                <Route path="/artists" element={<ArtistsPage />} />
+                <Route
+                  path="/artists/:artistId"
+                  element={<ArtistDetailPage />}
+                />
+                <Route path="/calendar" element={<CalendarPage />} />
+                <Route path="/archive" element={<ArchivePage />} />
+                <Route path="/my-space" element={<MySpacePage />} />
+                <Route path="/universe" element={<UniversePage />} />
+                <Route path="/search" element={<SearchPage />} />
+                <Route path="*" element={<NotFoundPage />} />
+              </Route>
+            </Routes>
+          </HashRouter>
+        </ContentProvider>
+      </ArchiveProvider>
+    </I18nProvider>
   </React.StrictMode>,
 );

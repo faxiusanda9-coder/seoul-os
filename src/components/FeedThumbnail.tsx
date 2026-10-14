@@ -3,8 +3,10 @@ import { artistById } from "../data/artists";
 import type { FeedItem } from "../types";
 import { thumbnailUrl, visualVideoForItem } from "../utils/media";
 import { ArtistArt } from "./ArtistArt";
+import { useI18n } from "../locales/i18n";
 
 export function FeedThumbnail({ item }: { item: FeedItem }) {
+  const { t } = useI18n();
   const [imageState, setImageState] = useState<"loading" | "ready" | "failed">(
     "loading",
   );
@@ -25,8 +27,14 @@ export function FeedThumbnail({ item }: { item: FeedItem }) {
             src={visual.thumbnailUrl ?? thumbnailUrl(visual.videoId)}
             alt={
               item.kind !== "demo"
-                ? `${artist.name}《${visual.title}》官方 YouTube 视频缩略图`
-                : `${artist.name} 官方视频《${visual.title}》的参考缩略图；不是本条演示内容`
+                ? t("common.videoThumbnail", {
+                    artist: artist.name,
+                    title: visual.title,
+                  })
+                : t("common.referenceThumbnail", {
+                    artist: artist.name,
+                    title: visual.title,
+                  })
             }
             loading="lazy"
             decoding="async"

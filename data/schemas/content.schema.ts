@@ -7,6 +7,13 @@ export interface Content {
   artist: { id: string; name: string };
   title: string;
   description: string;
+  /** Optional future translation fields; title/description remain the original API metadata. */
+  originalTitle?: string;
+  localizedTitle?: string;
+  originalDescription?: string;
+  localizedDescription?: string;
+  originalLanguage?: string;
+  translationVerified?: boolean;
   thumbnail: string;
   publishedAt: string;
   url: string;
@@ -74,6 +81,24 @@ export function isContent(value: unknown): value is Content {
     value.title.length <= 200 &&
     typeof value.description === "string" &&
     value.description.length <= 280 &&
+    (value.originalTitle === undefined ||
+      (typeof value.originalTitle === "string" &&
+        value.originalTitle.length <= 200)) &&
+    (value.originalDescription === undefined ||
+      (typeof value.originalDescription === "string" &&
+        value.originalDescription.length <= 280)) &&
+    (value.originalLanguage === undefined ||
+      (typeof value.originalLanguage === "string" &&
+        value.originalLanguage.length <= 30)) &&
+    (value.localizedTitle === undefined ||
+      (typeof value.localizedTitle === "string" &&
+        value.localizedTitle.length <= 200)) &&
+    (value.localizedDescription === undefined ||
+      (typeof value.localizedDescription === "string" &&
+        value.localizedDescription.length <= 280)) &&
+    ((value.localizedTitle === undefined &&
+      value.localizedDescription === undefined) ||
+      value.translationVerified === true) &&
     isYouTubeThumbnail(value.thumbnail) &&
     utcTime(value.publishedAt) &&
     value.url === `https://www.youtube.com/watch?v=${videoId}` &&

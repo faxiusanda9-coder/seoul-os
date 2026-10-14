@@ -9,10 +9,16 @@ import { useArchive } from "../store/ArchiveContext";
 import type { ArchiveCategory } from "../types";
 import { publishedLabel } from "../utils/feed";
 import { visualVideoForItem } from "../utils/media";
+import {
+  archiveCategoryLabel,
+  contentTypeLabel,
+  useI18n,
+} from "../locales/i18n";
 
 export function ArchivePage() {
   const { feed } = useContent();
   const { saved, toggleSaved, moveSaved } = useArchive();
+  const { t, locale } = useI18n();
   const [category, setCategory] = useState<ArchiveCategory>(
     () => saved[0]?.category ?? "Favorite Stages",
   );
@@ -26,16 +32,14 @@ export function ArchivePage() {
         <h1>
           My Archive<span className="period">.</span>
         </h1>
-        <p>
-          把值得重看的舞台、音乐影像和稍后观看内容放在一个地方。收藏只保存在当前浏览器。
-        </p>
+        <p>{t("archive.intro")}</p>
       </div>
       <div className="archive-overview">
         <span>{String(saved.length).padStart(2, "0")}</span>
-        <p>pieces in your personal archive</p>
+        <p>{t("archive.count", { count: saved.length })}</p>
         <Bookmark size={27} strokeWidth={1.4} />
       </div>
-      <div className="archive-tabs" aria-label="收藏分类">
+      <div className="archive-tabs" aria-label={t("archive.categories")}>
         {archiveCategories.map((item) => (
           <button
             type="button"
@@ -44,7 +48,7 @@ export function ArchivePage() {
             key={item}
             onClick={() => setCategory(item)}
           >
-            {item}
+            {archiveCategoryLabel(locale, item)}
             <span>
               {saved.filter((entry) => entry.category === item).length}
             </span>
@@ -61,12 +65,14 @@ export function ArchivePage() {
                   key={entry.id}
                 >
                   <div className="archive-card-copy">
-                    <p className="eyebrow">YOUTUBE / 已保存</p>
-                    <h2>曾收藏的官方视频</h2>
-                    <p>该视频已退出最近同步列表；收藏仍保留。</p>
+                    <p className="eyebrow">
+                      YOUTUBE / {t("common.bookmarkShort")}
+                    </p>
+                    <h2>{t("archive.savedVideo")}</h2>
+                    <p>{t("archive.savedVideoNote")}</p>
                     <div className="archive-card-actions">
                       <label className="select-field small-select">
-                        <span>归档至</span>
+                        <span>{t("archive.moveTo")}</span>
                         <select
                           value={category}
                           onChange={(e) => {
@@ -74,11 +80,11 @@ export function ArchivePage() {
                             moveSaved(entry.id, next);
                             setCategory(next);
                           }}
-                          aria-label="移动已保存视频到分类"
+                          aria-label={t("archive.moveSaved")}
                         >
                           {archiveCategories.map((option) => (
                             <option key={option} value={option}>
-                              {option}
+                              {archiveCategoryLabel(locale, option)}
                             </option>
                           ))}
                         </select>
@@ -86,7 +92,7 @@ export function ArchivePage() {
                       <button
                         className="icon-button"
                         type="button"
-                        aria-label="取消收藏已保存视频"
+                        aria-label={t("archive.removeSaved")}
                         onClick={() => toggleSaved(entry.id, category)}
                       >
                         <Bookmark size={18} fill="currentColor" />
@@ -96,7 +102,7 @@ export function ArchivePage() {
                         href={`https://www.youtube.com/watch?v=${entry.id.slice(3)}`}
                         target="_blank"
                         rel="noopener noreferrer"
-                        aria-label="在 YouTube 打开已保存视频"
+                        aria-label={t("archive.openSaved")}
                       >
                         <ArrowUpRight size={18} />
                       </a>
@@ -115,28 +121,44 @@ export function ArchivePage() {
                   rel="noopener noreferrer"
                   aria-label={
                     item.kind === "demo"
-                      ? `观看 ${artist.name} 封面参考的官方视频，新窗口；非本条演示内容`
-                      : `打开 ${item.title} 来源，新窗口`
+                      ? t("common.watchReference", { artist: artist.name })
+                      : t("archive.openNamed", { title: item.title })
                   }
                 >
                   <FeedThumbnail item={item} />
                 </a>
                 <div className="archive-card-copy">
                   <p className="eyebrow">
-                    {artist.name} / {item.type}
+                    {artist.name} / {contentTypeLabel(locale, item.type)}
                   </p>
-                  <h2>{item.title}</h2>
+                  <h2>
+                    {item.kind === "demo"
+                      ? t("demo.feedTitle", {
+                          type: contentTypeLabel(locale, item.type),
+                        })
+                      : item.title}
+                  </h2>
+                  {locale === "zh-CN" &&
+                    item.translationVerified &&
+                    item.localizedTitle && (
+                      <p className="feed-local-title">{item.localizedTitle}</p>
+                    )}
                   <p>
-                    {item.source} · {publishedLabel(item)}
+                    {item.kind === "demo"
+                      ? t("common.demoSource")
+                      : item.kind === "official"
+                        ? t("common.sampleSource")
+                        : item.source}{" "}
+                    · {publishedLabel(item, locale)}
                   </p>
                   {item.kind === "demo" && visual && (
                     <p className="reference-credit">
-                      封面参考：{visual.title} · 非本条演示内容
+                      {t("common.coverReference", { title: visual.title })}
                     </p>
                   )}
                   <div className="archive-card-actions">
                     <label className="select-field small-select">
-                      <span>归档至</span>
+                      <span>{t("archive.moveTo")}</span>
                       <select
                         value={category}
                         onChange={(e) => {
@@ -144,11 +166,13 @@ export function ArchivePage() {
                           moveSaved(item.id, next);
                           setCategory(next);
                         }}
-                        aria-label={`移动 ${item.title} 到分类`}
+                        aria-label={t("archive.moveNamed", {
+                          title: item.title,
+                        })}
                       >
                         {archiveCategories.map((option) => (
                           <option key={option} value={option}>
-                            {option}
+                            {archiveCategoryLabel(locale, option)}
                           </option>
                         ))}
                       </select>
@@ -156,7 +180,9 @@ export function ArchivePage() {
                     <button
                       className="icon-button"
                       type="button"
-                      aria-label={`取消收藏 ${item.title}`}
+                      aria-label={t("common.removeBookmark", {
+                        title: item.title,
+                      })}
                       onClick={() => toggleSaved(item.id, category)}
                     >
                       <Bookmark size={18} fill="currentColor" />
@@ -166,7 +192,7 @@ export function ArchivePage() {
                       href={item.sourceUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      aria-label={`打开 ${item.title} 来源，新窗口`}
+                      aria-label={t("archive.openNamed", { title: item.title })}
                     >
                       <ArrowUpRight size={18} />
                     </a>
@@ -181,16 +207,18 @@ export function ArchivePage() {
           <Bookmark size={28} />
           <h2>
             {saved.length
-              ? `暂无 ${category} 收藏。`
-              : "这一页，还等着你的收藏。"}
+              ? t("archive.emptyCategory", {
+                  category: archiveCategoryLabel(locale, category),
+                })
+              : t("archive.emptyAll")}
           </h2>
           <p>
             {saved.length
-              ? "可以切换上方分类，或去动态列表收藏新内容。"
-              : "从 Daily JYP Feed 点击书签图标，内容会出现在对应分类。"}
+              ? t("archive.emptyCategoryBody")
+              : t("archive.emptyAllBody")}
           </p>
           <Link className="primary-button" to="/#daily-feed">
-            Explore the feed <ArrowRight size={17} />
+            {t("common.exploreFeed")} <ArrowRight size={17} />
           </Link>
         </div>
       )}
