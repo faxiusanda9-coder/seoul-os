@@ -15,7 +15,7 @@ export async function loadChannels() {
 }
 
 const dataPath = (artistId) => resolve(`data/youtube/${artistId}.json`);
-const emptySnapshot = (channel) => ({ schemaVersion: 1, channelId: channel.channelId,
+const emptySnapshot = (channel) => ({ schemaVersion: 2, channelId: channel.channelId,
   uploadsPlaylistId: channel.uploadsPlaylistId, artistId: channel.artistId,
   syncStatus: "empty", fetchedAt: null, items: [] });
 
@@ -84,9 +84,18 @@ function normalizeVideo(video, now, channel) {
   if (typeof id !== "string" || !/^[A-Za-z0-9_-]{11}$/.test(id) ||
       snippet?.channelId !== channel.channelId || !snippet?.title || !snippet?.publishedAt ||
       video?.status?.privacyStatus !== "public") return null;
-  const thumbnail = ["medium", "default", "high"]
-    .map((size) => snippet.thumbnails?.[size]?.url)
-    .find((url) => typeof url === "string" && /^https:\/\/i\.ytimg\.com\//.test(url));
+  const qualityOrder = ["default", "medium", "high", "standard", "maxres", "fhd", "qhd", "uhd"];
+  const thumbnails = qualityOrder.flatMap((quality) => {
+    const variant = snippet.thumbnails?.[quality];
+    if (!variant || typeof variant.url !== "string" || !/^https:\/\/i\.ytimg\.com\//.test(variant.url) ||
+        !Number.isInteger(variant.width) || !Number.isInteger(variant.height) ||
+        variant.width <= 0 || variant.height <= 0) return [];
+    return [{ quality, url: variant.url, width: variant.width, height: variant.height }];
+  });
+  // Keep the v1 field so older clients still receive a valid image.
+  const thumbnail = [...thumbnails].sort((a, b) => b.width - a.width)[0]?.url ??
+    qualityOrder.map((quality) => snippet.thumbnails?.[quality]?.url)
+      .find((url) => typeof url === "string" && /^https:\/\/i\.ytimg\.com\//.test(url));
   if (!thumbnail) return null;
   const title = snippet.title.trim().slice(0, 200);
   return {
@@ -94,6 +103,7 @@ function normalizeVideo(video, now, channel) {
     source: { platform: "youtube", videoId: id, channelId: channel.channelId, verification: "official-channel" },
     artist: { id: channel.artistId, name: channel.displayName },
     title, description: (snippet.description ?? "").slice(0, 280), thumbnail,
+    ...(thumbnails.length ? { thumbnails } : {}),
     publishedAt: new Date(snippet.publishedAt).toISOString(),
     url: `https://www.youtube.com/watch?v=${id}`,
     fetchedAt: now, availabilityStatus: "public", lastValidatedAt: now,
@@ -132,11 +142,11 @@ export async function syncChannel({ channel, apiKey = process.env.YOUTUBE_API_KE
     return item;
   }).sort((a, b) => b.publishedAt.localeCompare(a.publishedAt) || a.id.localeCompare(b.id));
   const changed = JSON.stringify(previous.items) !== JSON.stringify(items) ||
-    previous.artistId !== channel.artistId || previous.syncStatus !== "ok";
+    previous.schemaVersion !== 2 || previous.artistId !== channel.artistId || previous.syncStatus !== "ok";
   const newCount = items.filter((item) => !oldById.has(item.id)).length;
   const updatedCount = items.filter((item) => oldById.has(item.id) && item !== oldById.get(item.id)).length;
   if (!changed) return { changed: false, count: items.length, newCount, updatedCount, ...counter };
-  const next = { schemaVersion: 1, channelId: channel.channelId, uploadsPlaylistId: channel.uploadsPlaylistId,
+  const next = { schemaVersion: 2, channelId: channel.channelId, uploadsPlaylistId: channel.uploadsPlaylistId,
     artistId: channel.artistId, syncStatus: "ok", fetchedAt: now, items };
   if (!parseChannelSnapshot(next, channel)) throw new Error(`${channel.artistId}: generated snapshot failed validation`);
   await atomicWrite(dataFile, next);

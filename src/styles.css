@@ -2419,8 +2419,7 @@ main {
   height: 100%;
   object-fit: contain;
 }
-.feed-thumb img.is-loading,
-.artist-video-frame img.is-loading {
+.feed-thumb img.is-loading {
   opacity: 0;
 }
 .media-loading {
@@ -2493,48 +2492,30 @@ main {
   outline: 2px solid #63856d;
   outline-offset: 3px;
 }
-.artist-video-cover {
-  min-width: 0;
-}
-.artist-video-frame {
-  position: relative;
-  aspect-ratio: 16 / 9;
+.artist-visual {
+  width: 100%;
+  overflow: hidden;
   background: var(--soft);
 }
-.artist-video-frame > img {
-  position: absolute;
-  inset: 0;
+.artist-visual--hero,
+.artist-detail-art .artist-visual {
+  height: 100%;
+}
+.artist-visual > .artist-art {
+  width: 100%;
+}
+.artist-visual--hero > .artist-art {
+  height: 100%;
+}
+.artist-visual > img {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
-.artist-video-cover-label {
-  height: 91px;
-}
-.artist-video-cover-label .artist-art {
-  height: 100%;
-  aspect-ratio: auto;
-  padding: 11px 14px;
-}
-.artist-video-cover-label .art-top,
-.artist-video-cover-label .art-bottom {
-  display: none;
-}
-.artist-video-cover-label .art-name {
-  font-size: clamp(23px, 2.6vw, 36px);
-  line-height: 1;
-}
-.artist-video-credit {
-  display: block;
-  padding-top: 6px;
-  color: #66756b;
-  font-size: 10px;
-  line-height: 1.35;
-}
-.artist-card:hover .artist-video-cover .artist-art {
-  transform: none;
-  filter: none;
+.artist-visual--card > img {
+  height: auto;
+  aspect-ratio: 4 / 3.7;
 }
 .artist-follow {
   display: inline-flex;
@@ -2734,18 +2715,6 @@ main > .page-wrap {
   }
   .artist-card h3 {
     overflow-wrap: anywhere;
-  }
-  .artist-video-cover-label {
-    height: 76px;
-  }
-  .artist-video-cover-label .artist-art {
-    padding: 8px 10px;
-  }
-  .artist-video-cover-label .art-name {
-    font-size: clamp(18px, 5vw, 24px);
-  }
-  .artist-video-credit {
-    font-size: 11px;
   }
   .artist-card p {
     font-size: 12px;

@@ -2,7 +2,7 @@ import { ArrowUpRight, Heart } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useArchive } from "../store/ArchiveContext";
 import type { Artist } from "../types";
-import { ArtistVideoCover } from "./ArtistVideoCover";
+import { ArtistVisual } from "./ArtistVisual";
 import { useI18n } from "../locales/i18n";
 
 export function ArtistCard({
@@ -22,7 +22,7 @@ export function ArtistCard({
         to={`/artists/${artist.id}`}
         aria-label={t("artists.viewFile", { artist: artist.name })}
       >
-        <ArtistVideoCover artist={artist} />
+        <ArtistVisual artist={artist} />
         <div className="artist-card-info">
           <span className="artist-index">
             {String(index + 1).padStart(2, "0")} / ARTIST

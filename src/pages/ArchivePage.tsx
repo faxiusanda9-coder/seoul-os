@@ -137,7 +137,7 @@ export function ArchivePage() {
                       : t("archive.openNamed", { title: item.title })
                   }
                 >
-                  <FeedThumbnail item={item} />
+                  <FeedThumbnail item={item} sizes="(max-width: 600px) 88vw, (max-width: 900px) 40vw, 360px" />
                 </a>
                 <div className="archive-card-copy">
                   <p className="eyebrow">

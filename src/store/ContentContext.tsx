@@ -36,7 +36,7 @@ function toFeedItem(item: Content): FeedItem {
     sourceUrl: item.url,
     category: type === "Music Video" ? "Music Videos" : type === "Performance" ? "Favorite Stages" : "Watch Later",
     visual: item.artist.id, kind: "live", publishedAt: item.publishedAt,
-    videoId: item.source.videoId, thumbnailUrl: item.thumbnail,
+    videoId: item.source.videoId, thumbnailUrl: item.thumbnail, thumbnails: item.thumbnails,
     localizedTitle: item.localizedTitle, localizedDescription: item.localizedDescription,
     originalLanguage: item.originalLanguage, translationVerified: item.translationVerified,
   };

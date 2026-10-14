@@ -1,6 +1,14 @@
 export type ContentKind =
   "music-video" | "performance" | "teaser" | "announcement" | "other";
 
+export type ThumbnailQuality = "default" | "medium" | "high" | "standard" | "maxres" | "fhd" | "qhd" | "uhd";
+export interface ThumbnailVariant {
+  quality: ThumbnailQuality;
+  url: string;
+  width: number;
+  height: number;
+}
+
 export interface Content {
   id: string;
   source: {
@@ -20,6 +28,8 @@ export interface Content {
   originalLanguage?: string;
   translationVerified?: boolean;
   thumbnail: string;
+  /** API-provided variants only. Absent in schema v1 snapshots. */
+  thumbnails?: ThumbnailVariant[];
   publishedAt: string;
   url: string;
   fetchedAt: string;
@@ -45,7 +55,7 @@ export interface ChannelsConfig {
 }
 
 export interface ContentSnapshot {
-  schemaVersion: 1;
+  schemaVersion: 1 | 2;
   channelId: string;
   uploadsPlaylistId: string;
   artistId?: string;
@@ -65,6 +75,9 @@ const KINDS = new Set<ContentKind>([
   "teaser",
   "announcement",
   "other",
+]);
+const THUMBNAIL_QUALITIES = new Set<ThumbnailQuality>([
+  "default", "medium", "high", "standard", "maxres", "fhd", "qhd", "uhd",
 ]);
 
 function record(value: unknown): value is Record<string, unknown> {
@@ -87,6 +100,13 @@ function isYouTubeThumbnail(value: unknown): value is string {
   } catch {
     return false;
   }
+}
+
+function isThumbnailVariant(value: unknown): value is ThumbnailVariant {
+  return record(value) && THUMBNAIL_QUALITIES.has(value.quality as ThumbnailQuality) &&
+    isYouTubeThumbnail(value.url) && Number.isInteger(value.width) &&
+    Number.isInteger(value.height) && (value.width as number) > 0 &&
+    (value.height as number) > 0;
 }
 
 export function isContent(value: unknown, channel?: ChannelConfig): value is Content {
@@ -126,6 +146,11 @@ export function isContent(value: unknown, channel?: ChannelConfig): value is Con
       value.localizedDescription === undefined) ||
       value.translationVerified === true) &&
     isYouTubeThumbnail(value.thumbnail) &&
+    (value.thumbnails === undefined || (Array.isArray(value.thumbnails) &&
+      value.thumbnails.length > 0 && value.thumbnails.length <= THUMBNAIL_QUALITIES.size &&
+      value.thumbnails.every(isThumbnailVariant) &&
+      new Set(value.thumbnails.map((item: ThumbnailVariant) => item.quality)).size === value.thumbnails.length &&
+      value.thumbnails.some((item: ThumbnailVariant) => item.url === value.thumbnail))) &&
     utcTime(value.publishedAt) &&
     value.url === `https://www.youtube.com/watch?v=${videoId}` &&
     utcTime(value.fetchedAt) &&
@@ -138,7 +163,8 @@ export function isContent(value: unknown, channel?: ChannelConfig): value is Con
 export function parseChannelSnapshot(value: unknown, channel: ChannelConfig): ContentSnapshot | null {
   if (
     !record(value) ||
-    value.schemaVersion !== 1 ||
+    ![1, 2].includes(value.schemaVersion as number) ||
+    (value.schemaVersion === 2 && !Array.isArray(value.items)) ||
     value.channelId !== channel.channelId ||
     value.uploadsPlaylistId !== channel.uploadsPlaylistId ||
     (value.artistId !== undefined && value.artistId !== channel.artistId) ||

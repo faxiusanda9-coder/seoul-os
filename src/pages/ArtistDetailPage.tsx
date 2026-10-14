@@ -4,7 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import { artistById } from "../data/artists";
 import { useContent } from "../store/ContentContext";
 import { useArchive } from "../store/ArchiveContext";
-import { ArtistArt } from "../components/ArtistArt";
+import { ArtistVisual } from "../components/ArtistVisual";
 import { FeedCard } from "../components/FeedCard";
 import { NotFoundPage } from "./NotFoundPage";
 import { artistDescription, useI18n } from "../locales/i18n";
@@ -26,7 +26,7 @@ export function ArtistDetailPage() {
       </Link>
       <div className="artist-detail-hero">
         <div className="artist-detail-art">
-          <ArtistArt artist={artist} variant="hero" />
+          <ArtistVisual artist={artist} variant="hero" />
         </div>
         <div className="artist-detail-copy">
           <p className="eyebrow" lang={locale}>

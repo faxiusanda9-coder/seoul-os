@@ -9,6 +9,7 @@ export type ContentType =
 export type ArchiveCategory =
   "Favorite Stages" | "Music Videos" | "Albums" | "Watch Later";
 export type EventType = "Release" | "Live" | "Fan Event";
+import type { ThumbnailVariant } from "../data/schemas/content.schema";
 
 export interface Artist {
   id: string;
@@ -38,6 +39,7 @@ export interface FeedItem {
   publishedAt: string | null;
   videoId?: string;
   thumbnailUrl?: string;
+  thumbnails?: ThumbnailVariant[];
   /** Shown only as a secondary line when editorial verification exists. */
   localizedTitle?: string;
   localizedDescription?: string;

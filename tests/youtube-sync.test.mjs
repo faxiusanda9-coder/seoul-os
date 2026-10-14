@@ -61,7 +61,10 @@ function mockFetch(url) {
                   thumbnails: {
                     medium: {
                       url: `https://i.ytimg.com/vi/${VIDEO_ID}/mqdefault.jpg`,
+                      width: 320, height: 180,
                     },
+                    standard: { url: `https://i.ytimg.com/vi/${VIDEO_ID}/sddefault.jpg`, width: 640, height: 480 },
+                    maxres: { url: `https://i.ytimg.com/vi/${VIDEO_ID}/maxresdefault.jpg`, width: 1280, height: 720 },
                   },
                 },
                 status: { privacyStatus: "public" },
@@ -88,6 +91,23 @@ test("valid official uploads produce one canonical content row", async (t) => {
   assert.equal(snapshot.items[0].type, "music-video");
   assert.equal(snapshot.items[0].source.channelId, TWICE_CHANNEL_ID);
   assert.equal(snapshot.items[0].source.verification, "official-channel");
+  assert.equal(snapshot.schemaVersion, 2);
+  assert.equal(snapshot.items[0].thumbnail, `https://i.ytimg.com/vi/${VIDEO_ID}/maxresdefault.jpg`);
+  assert.deepEqual(snapshot.items[0].thumbnails.map((item) => [item.quality, item.width, item.height]),
+    [["medium", 320, 180], ["standard", 640, 480], ["maxres", 1280, 720]]);
+});
+
+test("v1 snapshot remains readable; invalid or invented variants are rejected", async (t) => {
+  const dataFile = await fixture(t);
+  await syncTwice({ apiKey: "test-key", fetchImpl: mockFetch, dataFile, now: TIME });
+  const snapshot = JSON.parse(await readFile(dataFile, "utf8"));
+  snapshot.schemaVersion = 1;
+  delete snapshot.items[0].thumbnails;
+  snapshot.items[0].thumbnail = `https://i.ytimg.com/vi/${VIDEO_ID}/mqdefault.jpg`;
+  assert.ok(parseContentSnapshot(snapshot));
+  snapshot.schemaVersion = 2;
+  snapshot.items[0].thumbnails = [{ quality: "maxres", url: "https://example.com/fake.jpg", width: 1280, height: 720 }];
+  assert.equal(parseContentSnapshot(snapshot), null);
 });
 
 test("missing key reports error and retains old bytes", async (t) => {
