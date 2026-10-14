@@ -172,8 +172,14 @@ export async function syncEnabledChannels({ artistId = "all", apiKey = process.e
       results.push({ artistId: channel.artistId, status: "success", ...result });
     } catch (error) {
       quotaExceeded = Boolean(error.quotaExceeded);
-      const expired = await expireStaleChannel(channel, resolve(dataDir, `${channel.artistId}.json`));
-      results.push({ artistId: channel.artistId, status: "failed", reason: error.message, expired, ...counter });
+      let expired = false;
+      let expiryError = "";
+      try {
+        expired = await expireStaleChannel(channel, resolve(dataDir, `${channel.artistId}.json`));
+      } catch (expiryFailure) {
+        expiryError = `; expiry check failed: ${expiryFailure.message}`;
+      }
+      results.push({ artistId: channel.artistId, status: "failed", reason: `${error.message}${expiryError}`, expired, ...counter });
     }
   }
   return results;

@@ -236,6 +236,11 @@ test("enabled channels stay independent when one API request fails", async (t) =
   const twice = JSON.parse(await readFile(join(dir, "twice.json"), "utf8"));
   const itzy = JSON.parse(await readFile(join(dir, "itzy.json"), "utf8"));
   assert.notEqual(twice.items[0].id, itzy.items[0].id);
+  await writeFile(join(dir, "stray-kids.json"), "{invalid json");
+  const third = await syncEnabledChannels({ apiKey: "test-key", fetchImpl: fetchFor(), dataDir: dir });
+  assert.equal(third.find((item) => item.artistId === "stray-kids")?.status, "failed");
+  assert.ok(third.find((item) => item.artistId === "stray-kids")?.reason.includes("expiry check failed"));
+  assert.equal(third.find((item) => item.artistId === "itzy")?.status, "success");
 });
 
 test("expired API metadata is removed while the file remains schema-valid", async (t) => {
