@@ -14,10 +14,12 @@ export function FeedThumbnail({ item, sizes = "(max-width: 600px) 40vw, (max-wid
   const artist = artistById(item.artistId);
   if (!artist) return null;
   const visual = visualVideoForItem(item);
-  const { urls, srcSet } = responsiveThumbnail(visual?.thumbnails ?? [], visual?.thumbnailUrl ?? (visual?.videoId ? thumbnailUrl(visual.videoId) : undefined));
   const [failedUrls, setFailedUrls] = useState<string[]>([]);
-  const activeUrls = urls.filter((url) => !failedUrls.includes(url));
-  const activeSrcSet = failedUrls.length ? "" : srcSet;
+  const legacyUrl = visual?.thumbnailUrl ?? (visual?.videoId ? thumbnailUrl(visual.videoId) : undefined);
+  const { urls: activeUrls, srcSet: activeSrcSet } = responsiveThumbnail(
+    (visual?.thumbnails ?? []).filter((variant) => !failedUrls.includes(variant.url)),
+    legacyUrl && !failedUrls.includes(legacyUrl) ? legacyUrl : undefined,
+  );
   return (
     <div className="feed-thumb">
       {visual?.videoId && activeUrls.length > 0 && imageState !== "failed" ? (
@@ -53,9 +55,7 @@ export function FeedThumbnail({ item, sizes = "(max-width: 600px) 40vw, (max-wid
               if (activeUrls.length <= 1) setImageState("failed");
             }}
             onLoad={(event) => {
-              if (event.currentTarget.naturalWidth < 100 && activeUrls.length > 1) {
-                setFailedUrls((current) => [...current, event.currentTarget.currentSrc]);
-              } else setImageState("ready");
+              if (event.currentTarget.naturalWidth > 0) setImageState("ready");
             }}
           />
         </>

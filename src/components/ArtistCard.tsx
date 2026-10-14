@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useArchive } from "../store/ArchiveContext";
 import type { Artist } from "../types";
 import { ArtistVisual } from "./ArtistVisual";
+import { ArtistPhotoCredit } from "./ArtistPhotoCredit";
 import { useI18n } from "../locales/i18n";
 
 export function ArtistCard({
@@ -32,6 +33,7 @@ export function ArtistCard({
         <h3>{artist.name}</h3>
         <p>{artist.subtitle}</p>
       </Link>
+      <ArtistPhotoCredit artistId={artist.id} reserveSpace />
       <button
         className={`artist-follow ${following ? "is-following" : ""}`}
         type="button"

@@ -2,9 +2,11 @@ import { useEffect } from "react";
 import { ArrowLeft, ArrowUpRight, Heart } from "lucide-react";
 import { Link, useParams } from "react-router-dom";
 import { artistById } from "../data/artists";
+import { artistVisuals } from "../data/artistVisuals";
 import { useContent } from "../store/ContentContext";
 import { useArchive } from "../store/ArchiveContext";
 import { ArtistVisual } from "../components/ArtistVisual";
+import { ArtistPhotoCredit } from "../components/ArtistPhotoCredit";
 import { FeedCard } from "../components/FeedCard";
 import { NotFoundPage } from "./NotFoundPage";
 import { artistDescription, useI18n } from "../locales/i18n";
@@ -27,6 +29,7 @@ export function ArtistDetailPage() {
       <div className="artist-detail-hero">
         <div className="artist-detail-art">
           <ArtistVisual artist={artist} variant="hero" />
+          <ArtistPhotoCredit artistId={artist.id} />
         </div>
         <div className="artist-detail-copy">
           <p className="eyebrow" lang={locale}>
@@ -56,7 +59,7 @@ export function ArtistDetailPage() {
               {t(artist.officialUrl.includes("youtube.com") ? "common.officialChannel" : "common.officialSite")} <ArrowUpRight size={17} />
             </a>
           </div>
-          <p className="tiny-note">{t("artists.detailVisualNote")}</p>
+          <p className="tiny-note">{t(artistVisuals[artist.id]?.imageLicenseStatus === "licensed" ? "artists.photoVisualNote" : "artists.detailVisualNote")}</p>
         </div>
       </div>
       <section className="content-section">
