@@ -87,6 +87,7 @@ test("valid official uploads produce one canonical content row", async (t) => {
   assert.equal(snapshot.items[0].id, `yt-${VIDEO_ID}`);
   assert.equal(snapshot.items[0].type, "music-video");
   assert.equal(snapshot.items[0].source.channelId, TWICE_CHANNEL_ID);
+  assert.equal(snapshot.items[0].source.verification, "official-channel");
 });
 
 test("missing key reports error and retains old bytes", async (t) => {
@@ -137,6 +138,46 @@ test("repeat sync is idempotent and does not duplicate uploads", async (t) => {
   });
   assert.deepEqual(next, { changed: false, count: 1 });
   assert.equal(await readFile(dataFile, "utf8"), before);
+});
+
+test("private videos are removed after a successful refresh", async (t) => {
+  const dataFile = await fixture(t);
+  await syncTwice({ apiKey: "test-key", fetchImpl: mockFetch, dataFile, now: TIME });
+  const replacementId = "ZyXwVuTs987";
+  const replacementFetch = async (url) => {
+    const endpoint = new URL(url).pathname.split("/").at(-1);
+    if (endpoint === "playlistItems")
+      return { ok: true, json: async () => ({ items: [
+        { contentDetails: { videoId: VIDEO_ID } },
+        { contentDetails: { videoId: replacementId } },
+      ] }) };
+    if (endpoint === "videos")
+      return { ok: true, json: async () => ({ items: [{
+        id: replacementId,
+        snippet: {
+          channelId: TWICE_CHANNEL_ID,
+          title: "TWICE TEST performance",
+          description: "Test fixture only",
+          publishedAt: TIME,
+          thumbnails: { medium: { url: `https://i.ytimg.com/vi/${replacementId}/mqdefault.jpg` } },
+        },
+        status: { privacyStatus: "public" },
+      }, {
+        id: VIDEO_ID,
+        snippet: {
+          channelId: TWICE_CHANNEL_ID,
+          title: "Private fixture",
+          publishedAt: TIME,
+          thumbnails: { medium: { url: `https://i.ytimg.com/vi/${VIDEO_ID}/mqdefault.jpg` } },
+        },
+        status: { privacyStatus: "private" },
+      }] }) };
+    return mockFetch(url);
+  };
+  await syncTwice({ apiKey: "test-key", fetchImpl: replacementFetch, dataFile, now: "2026-10-15T00:00:00.000Z" });
+  const snapshot = parseContentSnapshot(JSON.parse(await readFile(dataFile, "utf8")));
+  assert.ok(snapshot);
+  assert.deepEqual(snapshot.items.map((item) => item.id), [`yt-${replacementId}`]);
 });
 
 test("localized video metadata requires an explicit verified flag", async (t) => {

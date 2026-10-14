@@ -61,7 +61,12 @@ function normalizeVideo(video, now) {
   const title = snippet.title.trim().slice(0, 200);
   return {
     id: `yt-${id}`,
-    source: { platform: "youtube", videoId: id, channelId: TWICE_CHANNEL_ID },
+    source: {
+      platform: "youtube",
+      videoId: id,
+      channelId: TWICE_CHANNEL_ID,
+      verification: "official-channel",
+    },
     artist: { id: "twice", name: "TWICE" },
     title,
     description: (snippet.description ?? "").slice(0, 280),
@@ -135,11 +140,9 @@ export async function syncTwice({
     throw new Error(
       "No valid public TWICE videos returned; existing data was not changed",
     );
+  // Keep only videos still present and public in this verified uploads window.
+  // Reusing older rows here could continue publishing deleted/private videos.
   const retained = new Map();
-  for (const item of previous.items) {
-    if (Date.parse(now) - Date.parse(item.fetchedAt) < RETENTION_MS)
-      retained.set(item.id, item);
-  }
   for (const item of fresh) {
     const old = oldById.get(item.id);
     if (old) {

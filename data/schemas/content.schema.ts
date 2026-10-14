@@ -3,7 +3,12 @@ export type ContentKind =
 
 export interface Content {
   id: string;
-  source: { platform: "youtube"; videoId: string; channelId: string };
+  source: {
+    platform: "youtube";
+    videoId: string;
+    channelId: string;
+    verification: "official-channel";
+  };
   artist: { id: string; name: string };
   title: string;
   description: string;
@@ -74,6 +79,7 @@ export function isContent(value: unknown): value is Content {
     value.id === `yt-${videoId}` &&
     value.source.platform === "youtube" &&
     value.source.channelId === TWICE_CHANNEL_ID &&
+    value.source.verification === "official-channel" &&
     value.artist.id === "twice" &&
     value.artist.name === "TWICE" &&
     typeof value.title === "string" &&
