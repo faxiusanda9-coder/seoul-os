@@ -1,31 +1,35 @@
 import type { ChannelConfig } from "../../data/schemas/content.schema";
-import { contentTypes } from "../data/feed";
-import type { ContentType } from "../types";
+import type { ContentCategory } from "../utils/contentClassifier";
 import type { FeedSort } from "../utils/feed";
-import { contentTypeLabel, useI18n } from "../locales/i18n";
+import { useI18n } from "../locales/i18n";
+import { ContentCategorySelect } from "./ContentCategorySelect";
 
 export function FeedFilters({
   artist,
   channels,
-  type,
+  category,
+  categoryCounts,
+  categoryTotal,
   search,
   sort,
   onArtist,
-  onType,
+  onCategory,
   onSearch,
   onSort,
 }: {
   artist: string;
   channels: ChannelConfig[];
-  type: "All types" | ContentType;
+  category: "all" | ContentCategory;
+  categoryCounts: Record<ContentCategory, number>;
+  categoryTotal: number;
   search: string;
   sort: FeedSort;
   onArtist: (value: string) => void;
-  onType: (value: "All types" | ContentType) => void;
+  onCategory: (value: "all" | ContentCategory) => void;
   onSearch: (value: string) => void;
   onSort: (value: FeedSort) => void;
 }) {
-  const { t, locale } = useI18n();
+  const { t } = useI18n();
   return (
     <div className="feed-filters">
       <label className="select-field">
@@ -42,22 +46,8 @@ export function FeedFilters({
           ))}
         </select>
       </label>
-      <label className="select-field">
-        <span>{t("discover.filterContent")}</span>
-        <select
-          value={type}
-          aria-label={t("discover.filterContent")}
-          onChange={(e) => onType(e.target.value as "All types" | ContentType)}
-        >
-          {contentTypes.map((item) => (
-            <option key={item} value={item}>
-              {item === "All types"
-                ? t("discover.allTypes")
-                : contentTypeLabel(locale, item)}
-            </option>
-          ))}
-        </select>
-      </label>
+      <ContentCategorySelect value={category} counts={categoryCounts}
+        total={categoryTotal} onChange={onCategory} />
       <label className="feed-search">
         <span className="sr-only">{t("search.input")}</span>
         <input

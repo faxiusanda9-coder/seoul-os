@@ -3,6 +3,9 @@ import { ArrowLeft, ArrowUpRight, Heart } from "lucide-react";
 import { Link, useParams } from "react-router-dom";
 import { artistById } from "../data/artists";
 import { artistVisuals } from "../data/artistVisuals";
+import { sourceForArtist } from "../data/officialSources";
+import { socialForArtist } from "../data/officialSocialAccounts";
+import { OfficialXTimeline } from "../components/OfficialXTimeline";
 import { useContent } from "../store/ContentContext";
 import { useArchive } from "../store/ArchiveContext";
 import { ArtistVisual } from "../components/ArtistVisual";
@@ -21,6 +24,8 @@ export function ArtistDetailPage() {
   const { t, locale } = useI18n();
   if (!artist) return <NotFoundPage />;
   const following = followedArtists.includes(artist.id);
+  const officialSource = sourceForArtist(artist.id);
+  const social = socialForArtist(artist.id);
   return (
     <div className="page-wrap page-pad">
       <Link to="/artists" className="back-link">
@@ -89,6 +94,15 @@ export function ArtistDetailPage() {
             ))}
         </div>
       </section>
+      {officialSource && <section className="content-section official-artist-links">
+        <div className="section-heading"><div><p className="eyebrow">OFFICIAL SOURCE</p>
+          <h2>Updates & schedule.</h2><p className="section-note">{t("official.linkOnly")}</p></div></div>
+        <div className="official-source-actions">
+          {officialSource.noticeUrl && <a className="outline-button" href={officialSource.noticeUrl} target="_blank" rel="noopener noreferrer">{t("official.openNotice")} <ArrowUpRight size={17} /></a>}
+          {officialSource.scheduleUrl && <a className="outline-button" href={officialSource.scheduleUrl} target="_blank" rel="noopener noreferrer">{t("official.openSchedule")} <ArrowUpRight size={17} /></a>}
+        </div>
+      </section>}
+      {social && <OfficialXTimeline account={social} />}
     </div>
   );
 }

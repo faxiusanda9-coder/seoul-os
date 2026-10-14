@@ -10,6 +10,7 @@ export type ArchiveCategory =
   "Favorite Stages" | "Music Videos" | "Albums" | "Watch Later";
 export type EventType = "Release" | "Live" | "Fan Event";
 import type { ThumbnailVariant } from "../data/schemas/content.schema";
+import type { ContentCategory, Classification } from "./utils/contentClassifier";
 
 export interface Artist {
   id: string;
@@ -29,6 +30,9 @@ export interface FeedItem {
   artistId: string;
   title: string;
   type: ContentType;
+  contentCategory: ContentCategory;
+  subcategory?: string;
+  classification?: Classification;
   source: string;
   sourceUrl: string;
   category: ArchiveCategory;

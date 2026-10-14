@@ -7,6 +7,7 @@ import {
   type ReactNode,
 } from "react";
 import type { ArchiveCategory, ContentType, EventType } from "../types";
+import type { ContentCategory } from "../utils/contentClassifier";
 import zh from "./zh-CN.json";
 import en from "./en.json";
 
@@ -39,6 +40,16 @@ const typeKeys: Record<ContentType, MessageKey> = {
   Live: "common.content.live",
   Other: "common.content.other",
 };
+const contentCategoryKeys: Record<ContentCategory, MessageKey> = {
+  music: "common.taxonomy.music",
+  stage: "common.taxonomy.stage",
+  behind: "common.taxonomy.behind",
+  notice: "common.taxonomy.notice",
+  live: "common.taxonomy.live",
+  variety: "common.taxonomy.variety",
+  fan: "common.taxonomy.fan",
+  other: "common.taxonomy.other",
+};
 const categoryKeys: Record<ArchiveCategory, MessageKey> = {
   "Favorite Stages": "common.category.stages",
   "Music Videos": "common.category.videos",
@@ -53,6 +64,9 @@ const eventKeys: Record<EventType, MessageKey> = {
 
 export function contentTypeLabel(locale: Locale, type: ContentType) {
   return translate(locale, typeKeys[type]);
+}
+export function contentCategoryLabel(locale: Locale, category: ContentCategory) {
+  return translate(locale, contentCategoryKeys[category]);
 }
 export function archiveCategoryLabel(
   locale: Locale,

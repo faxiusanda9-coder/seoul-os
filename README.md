@@ -12,6 +12,8 @@ npm run dev
 npm run check
 npm run test:sync
 npm run test:i18n
+npm run test:taxonomy
+npm run test:official
 npm run build
 npm run preview
 ```
@@ -47,6 +49,14 @@ node --env-file=.env scripts/youtube-sync.mjs --channel=all
 
 `src/locales/zh-CN.json` 和 `src/locales/en.json` 管理操作文案；YouTube 原始标题不自动翻译。日历未接入官方演出数据，默认没有活动；2099 年演示事件需要主动启用。JYP Universe 仅展示有来源的历史节点。
 
+## 内容分类与官方资讯入口
+
+视频使用 SEOUL.OS 的八类语义标签（音乐、舞台、幕后、公告视频、直播、综艺、粉丝向、其他）。同步时按标题及有限描述规则分类，分类依据和规则 ID 存在每个频道的 v3 JSON；旧 v1/v2 快照仍可读取。Discover 与 Search 只显示当前搜索结果中有内容的类别及数量。`npm run test:taxonomy` 可验证规则、历史快照和版本兼容；`node scripts/backfill-taxonomy.mjs` 可离线回填旧快照，不调用 YouTube API。
+
+**官网公告与视频分类不同。** `/#/official` 是官方公告／行程的**已核实链接索引**，目前没有获得官网数据定时采集与再发布的明确依据，因此未建立 JYP 网页抓取工作流、公告 JSON 或真实活动数据；Calendar 默认仍显示 0 条官方活动，并提供八个已核实的艺人官网 Schedule 链接。搜索来源或选择艺人只筛选入口，不能被误认为已同步公告。详见 [来源矩阵](docs/jyp-official-source-matrix.md) 与 [Phase 2C 审计](docs/phase-2c-source-audit.md)。
+
+艺人详情页对八个从艺人官网核实的 X 账号提供时间线入口。用户主动点击后才加载 X 官方嵌入脚本；加载失败仍可打开原账号。SEOUL.OS 不使用 X API、不缓存帖文。`src/types/official.ts` 预留公告与活动独立模型，`src/data/officialSources.ts` 明确标注 `automationAllowed=false`；只有将来取得足够授权并重新核实来源后才可编写启用自动同步适配器。`npm run test:official` 检查来源域名、安全日期与保守语义分类。
+
 ## 项目结构
 
 ```text
@@ -58,6 +68,9 @@ src/components/           通用编辑式界面组件
 src/data/                 艺人档案及明确标注的演示数据
 src/locales/              中文、英文操作文案
 src/pages/                Discover、Artists、Calendar、Archive 等页面
+src/types/official.ts      官网公告与事件的预留类型
+src/data/officialSources.ts  已核实链接和自动使用状态
+src/data/officialSocialAccounts.ts  从艺人官网核实的 X 账号
 src/store/                视频频道状态、收藏与关注状态
 .github/workflows/        独立同步与 GitHub Pages 部署
 tests/                    Mock API、错误隔离、语言字典测试

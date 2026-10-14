@@ -1,17 +1,20 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Search, X } from "lucide-react";
 import { Link } from "react-router-dom";
 import { artists } from "../data/artists";
 import { useContent } from "../store/ContentContext";
 import { ArtistArt } from "../components/ArtistArt";
 import { FeedCard } from "../components/FeedCard";
+import { ContentCategorySelect } from "../components/ContentCategorySelect";
 import { useI18n } from "../locales/i18n";
-import { searchableFeedText } from "../utils/feed";
+import { countContentCategories, searchableFeedText } from "../utils/feed";
+import type { ContentCategory } from "../utils/contentClassifier";
 
 export function SearchPage() {
   const { feed, selectedArtistId, channels } = useContent();
   const { t, locale } = useI18n();
   const [query, setQuery] = useState("");
+  const [category, setCategory] = useState<"all" | ContentCategory>("all");
   const normalized = query.trim().toLocaleLowerCase();
   const matches = useMemo(
     () => ({
@@ -30,6 +33,13 @@ export function SearchPage() {
     }),
     [normalized, feed, locale],
   );
+  const categoryCounts = useMemo(() => countContentCategories(matches.feed), [matches.feed]);
+  const activeCategory = category === "all" || categoryCounts[category] > 0 ? category : "all";
+  useEffect(() => {
+    if (activeCategory !== category) setCategory("all");
+  }, [activeCategory, category]);
+  const visibleFeed = activeCategory === "all" ? matches.feed :
+    matches.feed.filter((item) => item.contentCategory === activeCategory);
   return (
     <div className="page-wrap page-pad">
       <div className="page-intro compact-intro">
@@ -105,11 +115,13 @@ export function SearchPage() {
           </section>
           <section>
             <h2>
-              {t("search.feedCount")} <span>{matches.feed.length}</span>
+              {t("search.feedCount")} <span>{visibleFeed.length}</span>
             </h2>
-            {matches.feed.length ? (
+            {matches.feed.length > 0 && <ContentCategorySelect value={activeCategory}
+              counts={categoryCounts} total={matches.feed.length} onChange={setCategory} />}
+            {visibleFeed.length ? (
               <div className="feed-list">
-                {matches.feed.map((item) => (
+                {visibleFeed.map((item) => (
                   <FeedCard key={item.id} item={item} compact />
                 ))}
               </div>

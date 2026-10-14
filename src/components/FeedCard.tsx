@@ -6,7 +6,7 @@ import type { FeedItem } from "../types";
 import { publishedLabel } from "../utils/feed";
 import { visualVideoForItem } from "../utils/media";
 import { FeedThumbnail } from "./FeedThumbnail";
-import { contentTypeLabel, useI18n } from "../locales/i18n";
+import { contentCategoryLabel, contentTypeLabel, useI18n } from "../locales/i18n";
 
 export function FeedCard({
   item,
@@ -40,7 +40,7 @@ export function FeedCard({
         <div className="feed-meta">
           <Link to={`/artists/${artist.id}`}>{artist.name}</Link>
           <span className="meta-dot" aria-hidden="true" />
-          <span>{contentTypeLabel(locale, item.type)}</span>
+          <span>{contentCategoryLabel(locale, item.contentCategory)}</span>
           <span
             className={`feed-kind ${item.kind === "demo" ? "feed-kind--demo" : ""}`}
           >

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
   "uploadsPlaylistId": "UUzgxx_DM2Dcb9Y1spb9mUJA",
   "artistId": "twice",
@@ -58,7 +58,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-8kuIx0Rj-ic",
@@ -112,7 +118,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-llLK9F-4RVw",
@@ -166,7 +178,14 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "teaser"
+      "type": "teaser",
+      "category": "variety",
+      "subcategory": "series",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.9,
+        "ruleId": "variety-series"
+      }
     },
     {
       "id": "yt-k5iulf6nUA0",
@@ -220,7 +239,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-jQh3dRdplPw",
@@ -274,7 +299,14 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
     },
     {
       "id": "yt-x0CIkIV-RaA",
@@ -328,7 +360,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-exa4_Yvrc7A",
@@ -382,7 +420,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-n3xV37dqqJk",
@@ -436,7 +480,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-yZZg4lnVptI",
@@ -490,7 +540,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-8wPUJrJKMuQ",
@@ -544,7 +600,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-1wf24BuDr-Q",
@@ -598,7 +660,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-GTSNOMtXMsA",
@@ -652,7 +720,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-nRy5Nzf45fE",
@@ -706,7 +780,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-r6YmwMysYZo",
@@ -760,7 +840,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-cRS10T0Ruq8",
@@ -814,7 +900,14 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "teaser"
+      "type": "teaser",
+      "category": "fan",
+      "subcategory": "fan-content",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.86,
+        "ruleId": "fan-message"
+      }
     },
     {
       "id": "yt-9ZuYGCx356Q",
@@ -868,7 +961,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-hORna2Ccv9c",
@@ -922,7 +1021,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-MqLv9B23nUY",
@@ -976,7 +1081,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-ECP09iHOc2U",
@@ -1030,7 +1141,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-5AeG4o0gEzQ",
@@ -1084,7 +1201,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-23bMwtoFoWY",
@@ -1138,7 +1261,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-nkEthV0jgbI",
@@ -1192,7 +1321,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-WyF0RTbrD0k",
@@ -1246,7 +1381,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "teaser"
+      "type": "teaser",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-XmkxstvR5XY",
@@ -1300,7 +1441,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-4R87juS92h0",
@@ -1354,7 +1501,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-h5P5aCqg3qw",
@@ -1408,7 +1561,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-uZ6wJJiYgFM",
@@ -1462,7 +1621,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-s12mZ_BY6B8",
@@ -1516,7 +1681,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-tz1Sm5SShTc",
@@ -1570,7 +1741,14 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
     },
     {
       "id": "yt-jYJjq9iOm6E",
@@ -1624,7 +1802,14 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
     },
     {
       "id": "yt-UI9sJjUT2fc",
@@ -1678,7 +1863,14 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "variety",
+      "subcategory": "series",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.9,
+        "ruleId": "variety-series"
+      }
     },
     {
       "id": "yt-bp4InMLGJl8",
@@ -1732,7 +1924,14 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "performance"
+      "type": "performance",
+      "category": "stage",
+      "subcategory": "live-stage",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.94,
+        "ruleId": "stage"
+      }
     },
     {
       "id": "yt-h_5NFu_UmRA",
@@ -1786,7 +1985,14 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
     },
     {
       "id": "yt-FD_oc92GO6k",
@@ -1840,7 +2046,14 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "performance"
+      "type": "performance",
+      "category": "stage",
+      "subcategory": "live-stage",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.94,
+        "ruleId": "stage"
+      }
     },
     {
       "id": "yt-c6IPi5QIyUs",
@@ -1894,7 +2107,14 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "performance"
+      "type": "performance",
+      "category": "stage",
+      "subcategory": "live-stage",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.94,
+        "ruleId": "stage"
+      }
     },
     {
       "id": "yt-tO6tvHGrYQI",
@@ -1948,7 +2168,14 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "variety",
+      "subcategory": "series",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.9,
+        "ruleId": "variety-series"
+      }
     },
     {
       "id": "yt-vekEedAibDs",
@@ -2002,7 +2229,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-DYo0LYySde4",
@@ -2056,7 +2289,14 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "variety",
+      "subcategory": "series",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.9,
+        "ruleId": "variety-series"
+      }
     },
     {
       "id": "yt-tRGj-9aqXg4",
@@ -2110,7 +2350,14 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "variety",
+      "subcategory": "series",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.9,
+        "ruleId": "variety-series"
+      }
     },
     {
       "id": "yt-0ucLN5ED6-U",
@@ -2164,7 +2411,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-hSnI7nbJ7Ls",
@@ -2218,7 +2471,14 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
     },
     {
       "id": "yt-8X6Kzb6NvBs",
@@ -2272,7 +2532,14 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "variety",
+      "subcategory": "series",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.9,
+        "ruleId": "variety-series"
+      }
     },
     {
       "id": "yt-D1_ryQAQvig",
@@ -2326,7 +2593,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-yqRozxU-Bqw",
@@ -2380,7 +2653,14 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "variety",
+      "subcategory": "series",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.9,
+        "ruleId": "variety-series"
+      }
     },
     {
       "id": "yt-UPsCaaaqRe0",
@@ -2434,7 +2714,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-YMB4aDkERHQ",
@@ -2488,7 +2774,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-WJURfGcbG2Y",
@@ -2542,7 +2834,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-Lip4VdQI3ZI",
@@ -2596,7 +2894,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-blbuuC2N6Bs",
@@ -2650,7 +2954,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     },
     {
       "id": "yt-DM6JtU6VQYk",
@@ -2704,7 +3014,13 @@
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other"
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
     }
   ]
 }

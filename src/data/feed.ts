@@ -32,6 +32,7 @@ export const feed: FeedItem[] = [
     artistId,
     title: `${artistName} — ${title} (M/V)`,
     type: "Music Video" as const,
+    contentCategory: "music" as const,
     source: "YouTube · JYP Entertainment",
     sourceUrl: `https://www.youtube.com/watch?v=${videoId}`,
     category: "Music Videos" as const,
@@ -53,6 +54,9 @@ export const feed: FeedItem[] = [
     artistId,
     title: `演示 · ${type} 内容卡片`,
     type,
+    contentCategory: type === "Performance" ? "stage" as const :
+      type === "Live" ? "live" as const :
+      type === "Announcement" || type === "Comeback" || type === "Teaser" ? "notice" as const : "other" as const,
     source: "演示占位 · JYP 官方频道入口",
     sourceUrl: "https://www.youtube.com/@JYPEntertainment",
     category,
@@ -62,16 +66,6 @@ export const feed: FeedItem[] = [
   })),
 ];
 
-export const contentTypes = [
-  "All types",
-  "Music Video",
-  "Performance",
-  "Comeback",
-  "Teaser",
-  "Announcement",
-  "Live",
-  "Other",
-] as const;
 export const archiveCategories = [
   "Favorite Stages",
   "Music Videos",

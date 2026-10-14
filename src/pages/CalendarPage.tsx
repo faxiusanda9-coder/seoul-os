@@ -10,6 +10,7 @@ import {
 } from "date-fns";
 import { ChevronLeft, ChevronRight, Clock3, MapPin } from "lucide-react";
 import { artists, artistById } from "../data/artists";
+import { officialSources } from "../data/officialSources";
 import { events, formatEventTime, kstDate } from "../data/events";
 import type { CalendarEvent } from "../types";
 import {
@@ -344,6 +345,16 @@ export function CalendarPage() {
           </div>
         </section>
       )}
+      <section className="content-section official-calendar-links">
+        <div className="section-heading"><div><p className="eyebrow">OFFICIAL SCHEDULES</p>
+          <h2>{t("official.scheduleTitle")}</h2><p className="section-note">{t("official.calendarNote")}</p></div></div>
+        <div className="official-schedule-grid">
+          {officialSources.filter((source) => source.scheduleUrl).map((source) =>
+            <a className="official-schedule-link" key={source.artistId} href={source.scheduleUrl} target="_blank" rel="noopener noreferrer">
+              <strong>{artistById(source.artistId)?.name}</strong><span>{t("official.openSchedule")} ↗</span>
+            </a>)}
+        </div>
+      </section>
     </div>
   );
 }

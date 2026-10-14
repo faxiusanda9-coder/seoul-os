@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { ArrowDown, ArrowRight, ArrowUpRight, Sparkles } from "lucide-react";
 import { motion, useReducedMotion } from "motion/react";
 import { Link } from "react-router-dom";
@@ -8,21 +8,28 @@ import { FeedCard } from "../components/FeedCard";
 import { FeedFilters } from "../components/FeedFilters";
 import { ArtistCard } from "../components/ArtistCard";
 import { SectionHeading } from "../components/SectionHeading";
-import type { ContentType } from "../types";
-import { selectFeed, type FeedSort } from "../utils/feed";
+import { countContentCategories, selectFeed, type FeedSort } from "../utils/feed";
+import type { ContentCategory } from "../utils/contentClassifier";
 import { useI18n } from "../locales/i18n";
 
 export function DiscoverPage() {
   const { feed, status, syncedAt, selectedArtistId, channels, selectArtist, loadChannel } = useContent();
   const { t, locale } = useI18n();
   const reducedMotion = useReducedMotion();
-  const [type, setType] = useState<"All types" | ContentType>("All types");
+  const [category, setCategory] = useState<"all" | ContentCategory>("all");
   const [search, setSearch] = useState("");
   const [sort, setSort] = useState<FeedSort>("newest");
-  const visible = useMemo(
-    () => selectFeed(feed, { artist: selectedArtistId, type, search, sort }, locale),
-    [feed, selectedArtistId, type, search, sort, locale],
+  const matching = useMemo(
+    () => selectFeed(feed, { artist: selectedArtistId, category: "all", search, sort }, locale),
+    [feed, selectedArtistId, search, sort, locale],
   );
+  const categoryCounts = useMemo(() => countContentCategories(matching), [matching]);
+  const activeCategory = category === "all" || categoryCounts[category] > 0 ? category : "all";
+  useEffect(() => {
+    if (activeCategory !== category) setCategory("all");
+  }, [activeCategory, category]);
+  const visible = activeCategory === "all" ? matching :
+    matching.filter((item) => item.contentCategory === activeCategory);
   return (
     <>
       <div className="page-wrap">
@@ -100,11 +107,13 @@ export function DiscoverPage() {
           <FeedFilters
             artist={selectedArtistId}
             channels={channels}
-            type={type}
+            category={activeCategory}
+            categoryCounts={categoryCounts}
+            categoryTotal={matching.length}
             search={search}
             sort={sort}
-            onArtist={selectArtist}
-            onType={setType}
+            onArtist={(artistId) => { selectArtist(artistId); setCategory("all"); }}
+            onCategory={setCategory}
             onSearch={setSearch}
             onSort={setSort}
           />
@@ -126,7 +135,7 @@ export function DiscoverPage() {
                   className="text-button"
                   type="button"
                   onClick={() => {
-                    setType("All types");
+                    setCategory("all");
                     setSearch("");
                     setSort("newest");
                   }}
@@ -135,6 +144,19 @@ export function DiscoverPage() {
                 </button>
               </div>
             )}
+          </div>
+        </section>
+        <section className="content-section official-preview">
+          <SectionHeading
+            eyebrow="02 / SOURCE INDEX"
+            title="Official Updates"
+            subtitle={t("official.subtitle")}
+            note={t("official.previewNote")}
+            action={<Link className="text-link" to="/official">{t("official.browseSources")} <ArrowUpRight size={17} /></Link>}
+          />
+          <div className="official-preview-links">
+            <Link to="/official" className="official-preview-link"><span>01</span><strong>{t("official.noticeLinks")}</strong><ArrowUpRight size={18} /></Link>
+            <Link to="/calendar" className="official-preview-link"><span>02</span><strong>{t("official.scheduleLinks")}</strong><ArrowUpRight size={18} /></Link>
           </div>
         </section>
         <section className="content-section artists-section">

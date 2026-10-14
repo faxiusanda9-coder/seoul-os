@@ -1,3 +1,5 @@
+import { contentCategories, type ContentCategory, type Classification } from "../../src/utils/contentClassifier.ts";
+
 export type ContentKind =
   "music-video" | "performance" | "teaser" | "announcement" | "other";
 
@@ -36,6 +38,10 @@ export interface Content {
   availabilityStatus?: "public";
   lastValidatedAt?: string;
   type: ContentKind;
+  /** SEOUL.OS editorial classification; required in schema v3 snapshots. */
+  category?: ContentCategory;
+  subcategory?: string;
+  classification?: Classification;
 }
 
 export interface ChannelConfig {
@@ -55,7 +61,7 @@ export interface ChannelsConfig {
 }
 
 export interface ContentSnapshot {
-  schemaVersion: 1 | 2;
+  schemaVersion: 1 | 2 | 3;
   channelId: string;
   uploadsPlaylistId: string;
   artistId?: string;
@@ -76,6 +82,7 @@ const KINDS = new Set<ContentKind>([
   "announcement",
   "other",
 ]);
+const CATEGORIES = new Set<ContentCategory>(contentCategories);
 const THUMBNAIL_QUALITIES = new Set<ThumbnailQuality>([
   "default", "medium", "high", "standard", "maxres", "fhd", "qhd", "uhd",
 ]);
@@ -156,15 +163,23 @@ export function isContent(value: unknown, channel?: ChannelConfig): value is Con
     utcTime(value.fetchedAt) &&
     (value.availabilityStatus === undefined || value.availabilityStatus === "public") &&
     (value.lastValidatedAt === undefined || utcTime(value.lastValidatedAt)) &&
-    KINDS.has(value.type as ContentKind)
+    KINDS.has(value.type as ContentKind) &&
+    (value.category === undefined || CATEGORIES.has(value.category as ContentCategory)) &&
+    (value.subcategory === undefined || (typeof value.subcategory === "string" &&
+      value.subcategory.length > 0 && value.subcategory.length <= 80)) &&
+    (value.classification === undefined || (record(value.classification) &&
+      ["rule", "fallback"].includes(String(value.classification.method)) &&
+      typeof value.classification.ruleId === "string" &&
+      value.classification.ruleId.length > 0 && value.classification.ruleId.length <= 80 &&
+      typeof value.classification.confidence === "number" &&
+      value.classification.confidence >= 0 && value.classification.confidence <= 1))
   );
 }
 
 export function parseChannelSnapshot(value: unknown, channel: ChannelConfig): ContentSnapshot | null {
   if (
     !record(value) ||
-    ![1, 2].includes(value.schemaVersion as number) ||
-    (value.schemaVersion === 2 && !Array.isArray(value.items)) ||
+    ![1, 2, 3].includes(value.schemaVersion as number) ||
     value.channelId !== channel.channelId ||
     value.uploadsPlaylistId !== channel.uploadsPlaylistId ||
     (value.artistId !== undefined && value.artistId !== channel.artistId) ||
@@ -176,6 +191,9 @@ export function parseChannelSnapshot(value: unknown, channel: ChannelConfig): Co
   )
     return null;
   const items = value.items as Content[];
+  if (value.schemaVersion === 3 && items.some((item) => !item.category || !item.classification ||
+    (item.category === "other" && item.classification.method !== "fallback") ||
+    (item.category !== "other" && item.classification.method !== "rule"))) return null;
   if (new Set(items.map((item) => item.id)).size !== items.length) return null;
   return value as unknown as ContentSnapshot;
 }

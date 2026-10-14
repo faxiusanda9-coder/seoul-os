@@ -1,11 +1,12 @@
 import { artistById } from "../data/artists";
-import type { ContentType, FeedItem } from "../types";
-import { contentTypeLabel, translate, type Locale } from "../locales/i18n";
+import type { FeedItem } from "../types";
+import { contentCategoryLabel, contentTypeLabel, translate, type Locale } from "../locales/i18n";
+import { contentCategories, type ContentCategory } from "./contentClassifier";
 
 export type FeedSort = "newest" | "oldest";
 export type FeedQuery = {
   artist: string;
-  type: "All types" | ContentType;
+  category: "all" | ContentCategory;
   search: string;
   sort: FeedSort;
 };
@@ -13,6 +14,7 @@ export type FeedQuery = {
 /** Localized search terms supplement the untouched official title. */
 export function searchableFeedText(item: FeedItem, locale: Locale): string {
   const type = contentTypeLabel(locale, item.type);
+  const category = contentCategoryLabel(locale, item.contentCategory);
   const demoTitle =
     item.kind === "demo" ? translate(locale, "demo.feedTitle", { type }) : "";
   const sourceLabel =
@@ -21,7 +23,13 @@ export function searchableFeedText(item: FeedItem, locale: Locale): string {
       : item.kind === "live"
         ? translate(locale, "common.officialYouTube")
         : translate(locale, "common.officialSample");
-  return `${item.title} ${item.translationVerified ? (item.localizedTitle ?? "") : ""} ${demoTitle} ${item.type} ${type} ${sourceLabel} ${item.source} ${artistById(item.artistId)?.name ?? ""}`.toLocaleLowerCase();
+  return `${item.title} ${item.translationVerified ? (item.localizedTitle ?? "") : ""} ${demoTitle} ${item.type} ${type} ${category} ${sourceLabel} ${item.source} ${artistById(item.artistId)?.name ?? ""}`.toLocaleLowerCase();
+}
+
+export function countContentCategories(items: FeedItem[]): Record<ContentCategory, number> {
+  const counts = Object.fromEntries(contentCategories.map((category) => [category, 0])) as Record<ContentCategory, number>;
+  for (const item of items) counts[item.contentCategory]++;
+  return counts;
 }
 
 export function selectFeed(
@@ -36,7 +44,7 @@ export function selectFeed(
         !needle || searchableFeedText(item, locale).includes(needle);
       return (
         (query.artist === "all" || item.artistId === query.artist) &&
-        (query.type === "All types" || item.type === query.type) &&
+        (query.category === "all" || item.contentCategory === query.category) &&
         matchesText
       );
     })

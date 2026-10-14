@@ -11,6 +11,7 @@ import { publishedLabel } from "../utils/feed";
 import { visualVideoForItem } from "../utils/media";
 import {
   archiveCategoryLabel,
+  contentCategoryLabel,
   contentTypeLabel,
   useI18n,
 } from "../locales/i18n";
@@ -141,7 +142,7 @@ export function ArchivePage() {
                 </a>
                 <div className="archive-card-copy">
                   <p className="eyebrow">
-                    {artist.name} / {contentTypeLabel(locale, item.type)}
+                    {artist.name} / {contentCategoryLabel(locale, item.contentCategory)}
                   </p>
                   <h2>
                     {item.kind === "demo"

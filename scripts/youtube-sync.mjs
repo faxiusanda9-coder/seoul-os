@@ -2,6 +2,7 @@ import { readFile, rename, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { pathToFileURL } from "node:url";
 import { parseChannelSnapshot, parseChannelsConfig } from "../data/schemas/content.schema.ts";
+import { classifyContent } from "../src/utils/contentClassifier.ts";
 
 const API_ROOT = "https://www.googleapis.com/youtube/v3";
 const RETENTION_MS = 30 * 24 * 60 * 60 * 1000;
@@ -15,7 +16,7 @@ export async function loadChannels() {
 }
 
 const dataPath = (artistId) => resolve(`data/youtube/${artistId}.json`);
-const emptySnapshot = (channel) => ({ schemaVersion: 2, channelId: channel.channelId,
+const emptySnapshot = (channel) => ({ schemaVersion: 3, channelId: channel.channelId,
   uploadsPlaylistId: channel.uploadsPlaylistId, artistId: channel.artistId,
   syncStatus: "empty", fetchedAt: null, items: [] });
 
@@ -98,16 +99,18 @@ function normalizeVideo(video, now, channel) {
       .find((url) => typeof url === "string" && /^https:\/\/i\.ytimg\.com\//.test(url));
   if (!thumbnail) return null;
   const title = snippet.title.trim().slice(0, 200);
+  const description = (snippet.description ?? "").slice(0, 280);
   return {
     id: `yt-${id}`,
     source: { platform: "youtube", videoId: id, channelId: channel.channelId, verification: "official-channel" },
     artist: { id: channel.artistId, name: channel.displayName },
-    title, description: (snippet.description ?? "").slice(0, 280), thumbnail,
+    title, description, thumbnail,
     ...(thumbnails.length ? { thumbnails } : {}),
     publishedAt: new Date(snippet.publishedAt).toISOString(),
     url: `https://www.youtube.com/watch?v=${id}`,
     fetchedAt: now, availabilityStatus: "public", lastValidatedAt: now,
     type: typeFromTitle(title),
+    ...classifyContent(title, description),
   };
 }
 
@@ -142,11 +145,11 @@ export async function syncChannel({ channel, apiKey = process.env.YOUTUBE_API_KE
     return item;
   }).sort((a, b) => b.publishedAt.localeCompare(a.publishedAt) || a.id.localeCompare(b.id));
   const changed = JSON.stringify(previous.items) !== JSON.stringify(items) ||
-    previous.schemaVersion !== 2 || previous.artistId !== channel.artistId || previous.syncStatus !== "ok";
+    previous.schemaVersion !== 3 || previous.artistId !== channel.artistId || previous.syncStatus !== "ok";
   const newCount = items.filter((item) => !oldById.has(item.id)).length;
   const updatedCount = items.filter((item) => oldById.has(item.id) && item !== oldById.get(item.id)).length;
   if (!changed) return { changed: false, count: items.length, newCount, updatedCount, ...counter };
-  const next = { schemaVersion: 2, channelId: channel.channelId, uploadsPlaylistId: channel.uploadsPlaylistId,
+  const next = { schemaVersion: 3, channelId: channel.channelId, uploadsPlaylistId: channel.uploadsPlaylistId,
     artistId: channel.artistId, syncStatus: "ok", fetchedAt: now, items };
   if (!parseChannelSnapshot(next, channel)) throw new Error(`${channel.artistId}: generated snapshot failed validation`);
   await atomicWrite(dataFile, next);

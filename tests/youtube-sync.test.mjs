@@ -91,7 +91,10 @@ test("valid official uploads produce one canonical content row", async (t) => {
   assert.equal(snapshot.items[0].type, "music-video");
   assert.equal(snapshot.items[0].source.channelId, TWICE_CHANNEL_ID);
   assert.equal(snapshot.items[0].source.verification, "official-channel");
-  assert.equal(snapshot.schemaVersion, 2);
+  assert.equal(snapshot.schemaVersion, 3);
+  assert.equal(snapshot.items[0].category, "music");
+  assert.equal(snapshot.items[0].subcategory, "official-mv");
+  assert.equal(snapshot.items[0].classification.method, "rule");
   assert.equal(snapshot.items[0].thumbnail, `https://i.ytimg.com/vi/${VIDEO_ID}/maxresdefault.jpg`);
   assert.deepEqual(snapshot.items[0].thumbnails.map((item) => [item.quality, item.width, item.height]),
     [["medium", 320, 180], ["standard", 640, 480], ["maxres", 1280, 720]]);

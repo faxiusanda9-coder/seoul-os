@@ -3,6 +3,7 @@ import rawChannels from "../../data/youtube/channels.json";
 import { feed as curatedFeed } from "../data/feed";
 import { parseChannelSnapshot, parseChannelsConfig, type Content, type ChannelConfig } from "../../data/schemas/content.schema";
 import type { ContentType, FeedItem } from "../types";
+import { classifyContent } from "../utils/contentClassifier";
 
 type ChannelView = {
   feed: FeedItem[];
@@ -30,8 +31,13 @@ const TYPE_MAP: Record<Content["type"], ContentType> = {
 
 function toFeedItem(item: Content): FeedItem {
   const type = TYPE_MAP[item.type];
+  const taxonomy = item.category && item.classification
+    ? { category: item.category, subcategory: item.subcategory, classification: item.classification }
+    : classifyContent(item.title, item.description);
   return {
     id: item.id, artistId: item.artist.id, title: item.title, type,
+    contentCategory: taxonomy.category, subcategory: taxonomy.subcategory,
+    classification: taxonomy.classification,
     source: `YouTube · ${item.artist.name}`,
     sourceUrl: item.url,
     category: type === "Music Video" ? "Music Videos" : type === "Performance" ? "Favorite Stages" : "Watch Later",
