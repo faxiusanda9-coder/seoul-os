@@ -1,0 +1,1110 @@
+{
+  "schemaVersion": 1,
+  "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+  "uploadsPlaylistId": "UUmq9jjpHA69PwAwlA0DwOsg",
+  "artistId": "kickflip",
+  "syncStatus": "ok",
+  "fetchedAt": "2026-10-14T13:22:09.442Z",
+  "items": [
+    {
+      "id": "yt-WqtonYLvrCw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "WqtonYLvrCw",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "뭘 해도 #벨리곰 은 아름다울 거니까 🧸💖",
+      "description": "#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1\n#미완성 #Puzzle_Piece\n\n@bellygomtv",
+      "thumbnail": "https://i.ytimg.com/vi/WqtonYLvrCw/mqdefault.jpg",
+      "publishedAt": "2026-10-14T13:00:34.000Z",
+      "url": "https://www.youtube.com/watch?v=WqtonYLvrCw",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-0vg4SlSmmE4",
+      "source": {
+        "platform": "youtube",
+        "videoId": "0vg4SlSmmE4",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "KickFlip(킥플립) \"Kick Off The Wall (Feat. iann dior)\" MV Reaction",
+      "description": "#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1\n#KickOffTheWall",
+      "thumbnail": "https://i.ytimg.com/vi/0vg4SlSmmE4/mqdefault.jpg",
+      "publishedAt": "2026-10-14T11:00:06.000Z",
+      "url": "https://www.youtube.com/watch?v=0vg4SlSmmE4",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-HiZT1mQyAxc",
+      "source": {
+        "platform": "youtube",
+        "videoId": "HiZT1mQyAxc",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "뭘 해도 #Lilas 선배님은 아름다울 거니까 🎤",
+      "description": "#KickFlip #킥플립\n#幾田りら\n#KICKOFFTHEWALL_Pt1\n#미완성 #Puzzle_Piece\n\n@Lilas_0925",
+      "thumbnail": "https://i.ytimg.com/vi/HiZT1mQyAxc/mqdefault.jpg",
+      "publishedAt": "2026-10-14T10:00:01.000Z",
+      "url": "https://www.youtube.com/watch?v=HiZT1mQyAxc",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-Tn7j1-UNbEw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Tn7j1-UNbEw",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "그동안 즐거웠어 #브롤스타즈 🌵❤️",
+      "description": "#KickFlip #킥플립\n#BrawlStars #주간브롤돌",
+      "thumbnail": "https://i.ytimg.com/vi/Tn7j1-UNbEw/mqdefault.jpg",
+      "publishedAt": "2026-10-14T09:00:16.000Z",
+      "url": "https://www.youtube.com/watch?v=Tn7j1-UNbEw",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-c_QplSGfRw0",
+      "source": {
+        "platform": "youtube",
+        "videoId": "c_QplSGfRw0",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "뭘 해도 #MAY 선배님은 아름다울 거니까 𐂐( ˆoˆ )𐂐",
+      "description": "#KickFlip #킥플립\n#RESCENE #리센느\n#KICKOFFTHEWALL_Pt1\n#미완성 #Puzzle_Piece\n\n@RESCENE_official",
+      "thumbnail": "https://i.ytimg.com/vi/c_QplSGfRw0/mqdefault.jpg",
+      "publishedAt": "2026-10-14T07:00:34.000Z",
+      "url": "https://www.youtube.com/watch?v=c_QplSGfRw0",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-ZjxxkYXXFTM",
+      "source": {
+        "platform": "youtube",
+        "videoId": "ZjxxkYXXFTM",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "𓆏   (ᐢ. ̫.ᐢ)",
+      "description": "#Donghwa #Donghyeon\n#KICKOFFTHEWALL_Pt1\n#미완성 #Puzzle_Piece",
+      "thumbnail": "https://i.ytimg.com/vi/ZjxxkYXXFTM/mqdefault.jpg",
+      "publishedAt": "2026-10-13T12:00:19.000Z",
+      "url": "https://www.youtube.com/watch?v=ZjxxkYXXFTM",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-7HnM4laoaVw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "7HnM4laoaVw",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "🐺 × 🐱ྀི",
+      "description": "#Minje #Keiju\n#KICKOFFTHEWALL_Pt1\n#미완성 #Puzzle_Piece",
+      "thumbnail": "https://i.ytimg.com/vi/7HnM4laoaVw/mqdefault.jpg",
+      "publishedAt": "2026-10-13T11:00:07.000Z",
+      "url": "https://www.youtube.com/watch?v=7HnM4laoaVw",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-R4EcUErkvCo",
+      "source": {
+        "platform": "youtube",
+        "videoId": "R4EcUErkvCo",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "ฅ՞•ﻌ•՞ฅ♡",
+      "description": "#Kyehoon #Juwang\n#KICKOFFTHEWALL_Pt1\n#미완성 #Puzzle_Piece",
+      "thumbnail": "https://i.ytimg.com/vi/R4EcUErkvCo/mqdefault.jpg",
+      "publishedAt": "2026-10-13T10:00:27.000Z",
+      "url": "https://www.youtube.com/watch?v=R4EcUErkvCo",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-UMIOC1sJA2w",
+      "source": {
+        "platform": "youtube",
+        "videoId": "UMIOC1sJA2w",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "お前が大事😉",
+      "description": "#KickFlip #킥플립\n#민제 #Minje #케이주 #Keiju",
+      "thumbnail": "https://i.ytimg.com/vi/UMIOC1sJA2w/mqdefault.jpg",
+      "publishedAt": "2026-10-13T09:00:14.000Z",
+      "url": "https://www.youtube.com/watch?v=UMIOC1sJA2w",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-3_k81x9o9H0",
+      "source": {
+        "platform": "youtube",
+        "videoId": "3_k81x9o9H0",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "뭘 해도 #Camila #Kendall 선배님은 아름다울 거니까 💞",
+      "description": "#KickFlip #킥플립\n#GIRLSET\n#KICKOFFTHEWALL_Pt1\n#미완성 #Puzzle_Piece\n\n@GIRLSET",
+      "thumbnail": "https://i.ytimg.com/vi/3_k81x9o9H0/mqdefault.jpg",
+      "publishedAt": "2026-10-13T08:00:28.000Z",
+      "url": "https://www.youtube.com/watch?v=3_k81x9o9H0",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-f6pnPHrligA",
+      "source": {
+        "platform": "youtube",
+        "videoId": "f6pnPHrligA",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "뭘 해도 #닉쿤 선배님은 아름다울 거니까 ❣️",
+      "description": "#KickFlip #킥플립\n#2PM\n#KICKOFFTHEWALL_Pt1\n#미완성 #Puzzle_Piece\n\n@2pm",
+      "thumbnail": "https://i.ytimg.com/vi/f6pnPHrligA/mqdefault.jpg",
+      "publishedAt": "2026-10-13T07:00:13.000Z",
+      "url": "https://www.youtube.com/watch?v=f6pnPHrligA",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-vDiYeUVgRQY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "vDiYeUVgRQY",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "뭘 해도 #유병재 선배님은 아름다울 거니까 🦒💛",
+      "description": "#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1\n#미완성 #Puzzle_Piece\n\n@KoreanCryingGuy",
+      "thumbnail": "https://i.ytimg.com/vi/vDiYeUVgRQY/mqdefault.jpg",
+      "publishedAt": "2026-10-13T06:00:25.000Z",
+      "url": "https://www.youtube.com/watch?v=vDiYeUVgRQY",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-KRCSWYi5sAg",
+      "source": {
+        "platform": "youtube",
+        "videoId": "KRCSWYi5sAg",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "I'm movin’ through with #EVAN 님 〰️",
+      "description": "#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1\n#KickOffTheWall\n\n@h_evva_n",
+      "thumbnail": "https://i.ytimg.com/vi/KRCSWYi5sAg/mqdefault.jpg",
+      "publishedAt": "2026-10-12T11:00:05.000Z",
+      "url": "https://www.youtube.com/watch?v=KRCSWYi5sAg",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-tcLf0YhJE-k",
+      "source": {
+        "platform": "youtube",
+        "videoId": "tcLf0YhJE-k",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "킥플립이 음악방송 출근하는 법 🛹",
+      "description": "#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1\n#KickOffTheWall",
+      "thumbnail": "https://i.ytimg.com/vi/tcLf0YhJE-k/mqdefault.jpg",
+      "publishedAt": "2026-10-12T10:00:12.000Z",
+      "url": "https://www.youtube.com/watch?v=tcLf0YhJE-k",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-jEYN82xjrpo",
+      "source": {
+        "platform": "youtube",
+        "videoId": "jEYN82xjrpo",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "〈주간 브롤돌〉 브롤스타즈 커뮤니티 매니저 킥플립 🛹💥",
+      "description": "미션 달성 전까지 언제 어디서나 브롤스타즈와 함께하는 킥플립 🎮\n음악방송 대기실에서도, 형들에게 잔소리를 들을 때도!\n\n위플립도 지금 바로 브롤스타즈에서 미션에 도전하고 특별한 보상까지 받아 가세요! 🎁💥\n\n#KickFlip #킥플립 \n#BrawlStars #브롤스타즈 #주간브롤돌",
+      "thumbnail": "https://i.ytimg.com/vi/jEYN82xjrpo/mqdefault.jpg",
+      "publishedAt": "2026-10-12T09:00:23.000Z",
+      "url": "https://www.youtube.com/watch?v=jEYN82xjrpo",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-hEqoPX-aT7M",
+      "source": {
+        "platform": "youtube",
+        "videoId": "hEqoPX-aT7M",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "I'm movin’ through with #리쿠 선배님 🐱",
+      "description": "#KickFlip #킥플립\n#NiziU #니쥬\n#KICKOFFTHEWALL_Pt1\n#KickOffTheWall\n\n@NiziUOfficial",
+      "thumbnail": "https://i.ytimg.com/vi/hEqoPX-aT7M/mqdefault.jpg",
+      "publishedAt": "2026-10-12T07:00:14.000Z",
+      "url": "https://www.youtube.com/watch?v=hEqoPX-aT7M",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-QHIQGYcF72c",
+      "source": {
+        "platform": "youtube",
+        "videoId": "QHIQGYcF72c",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "뭘 해도 #RYO 선배님은 아름다울 거니까 💖",
+      "description": "#KickFlip #킥플립\n#NCTWISH\n#KICKOFFTHEWALL_Pt1\n#미완성 #Puzzle_Piece\n\n@NCTWISH",
+      "thumbnail": "https://i.ytimg.com/vi/QHIQGYcF72c/mqdefault.jpg",
+      "publishedAt": "2026-10-12T06:30:31.000Z",
+      "url": "https://www.youtube.com/watch?v=QHIQGYcF72c",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-oJTpEMiG1Hc",
+      "source": {
+        "platform": "youtube",
+        "videoId": "oJTpEMiG1Hc",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "👶🏻👶🏻👶🏻",
+      "description": "#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1\n#KickOffTheWall",
+      "thumbnail": "https://i.ytimg.com/vi/oJTpEMiG1Hc/mqdefault.jpg",
+      "publishedAt": "2026-10-11T12:00:25.000Z",
+      "url": "https://www.youtube.com/watch?v=oJTpEMiG1Hc",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-9Ap8Uv-_Dcw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "9Ap8Uv-_Dcw",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "😈💢💢💢💢💢💢💢",
+      "description": "#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1\n#미완성 #Puzzle_Piece\n#KickOffTheWall",
+      "thumbnail": "https://i.ytimg.com/vi/9Ap8Uv-_Dcw/mqdefault.jpg",
+      "publishedAt": "2026-10-11T11:00:23.000Z",
+      "url": "https://www.youtube.com/watch?v=9Ap8Uv-_Dcw",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt--1bkUKmoG5g",
+      "source": {
+        "platform": "youtube",
+        "videoId": "-1bkUKmoG5g",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "[KickFlip B-roll] \"Kick Off The Wall (Feat. iann dior)\" M/V Behind Part.1",
+      "description": "#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1",
+      "thumbnail": "https://i.ytimg.com/vi/-1bkUKmoG5g/mqdefault.jpg",
+      "publishedAt": "2026-10-11T10:00:09.000Z",
+      "url": "https://www.youtube.com/watch?v=-1bkUKmoG5g",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "music-video"
+    },
+    {
+      "id": "yt-8oS3fnEKSPI",
+      "source": {
+        "platform": "youtube",
+        "videoId": "8oS3fnEKSPI",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "KickKickKickKick",
+      "description": "#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1\n#KickOffTheWall",
+      "thumbnail": "https://i.ytimg.com/vi/8oS3fnEKSPI/mqdefault.jpg",
+      "publishedAt": "2026-10-11T09:00:38.000Z",
+      "url": "https://www.youtube.com/watch?v=8oS3fnEKSPI",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-GSB3m5UvrJs",
+      "source": {
+        "platform": "youtube",
+        "videoId": "GSB3m5UvrJs",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "뭘 해도 #원필 선배님은 아름다울 거니까 ✨",
+      "description": "#KickFlip #킥플립\n#DAY6 #데이식스\n#KICKOFFTHEWALL_Pt1\n#미완성 #Puzzle_Piece\n\n@DAY6Official",
+      "thumbnail": "https://i.ytimg.com/vi/GSB3m5UvrJs/mqdefault.jpg",
+      "publishedAt": "2026-10-11T08:00:09.000Z",
+      "url": "https://www.youtube.com/watch?v=GSB3m5UvrJs",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-zCs9wNrNT7U",
+      "source": {
+        "platform": "youtube",
+        "videoId": "zCs9wNrNT7U",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "I'm movin’ through with #지우 선배님 🤍",
+      "description": "#KickFlip #킥플립\n#NMIXX #엔믹스\n#KICKOFFTHEWALL_Pt1\n#KickOffTheWall\n\n@NMIXXOfficial",
+      "thumbnail": "https://i.ytimg.com/vi/zCs9wNrNT7U/mqdefault.jpg",
+      "publishedAt": "2026-10-11T07:00:37.000Z",
+      "url": "https://www.youtube.com/watch?v=zCs9wNrNT7U",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-FmrPQfCpP9M",
+      "source": {
+        "platform": "youtube",
+        "videoId": "FmrPQfCpP9M",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "뭘 해도 #창빈 선배님은 아름다울 거니까 🖤",
+      "description": "#KickFlip #킥플립\n#StrayKids #스트레이키즈\n#KICKOFFTHEWALL_Pt1\n#미완성 #Puzzle_Piece\n\n@StrayKids",
+      "thumbnail": "https://i.ytimg.com/vi/FmrPQfCpP9M/mqdefault.jpg",
+      "publishedAt": "2026-10-10T11:00:22.000Z",
+      "url": "https://www.youtube.com/watch?v=FmrPQfCpP9M",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-XOj2zzkXz18",
+      "source": {
+        "platform": "youtube",
+        "videoId": "XOj2zzkXz18",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "I'm movin’ through with #채령 선배님 🩵",
+      "description": "#KickFlip #킥플립\n#ITZY\n#KICKOFFTHEWALL_Pt1\n#KickOffTheWall\n\n@ITZY",
+      "thumbnail": "https://i.ytimg.com/vi/XOj2zzkXz18/mqdefault.jpg",
+      "publishedAt": "2026-10-10T10:00:14.000Z",
+      "url": "https://www.youtube.com/watch?v=XOj2zzkXz18",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-Nplakaqvh6c",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Nplakaqvh6c",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "I'm movin’ through with 🐥",
+      "description": "#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1\n#KickOffTheWall #유아돌",
+      "thumbnail": "https://i.ytimg.com/vi/Nplakaqvh6c/mqdefault.jpg",
+      "publishedAt": "2026-10-09T10:00:31.000Z",
+      "url": "https://www.youtube.com/watch?v=Nplakaqvh6c",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-F1IFHgxS4g8",
+      "source": {
+        "platform": "youtube",
+        "videoId": "F1IFHgxS4g8",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "𝗝𝘂𝘀𝘁 𝗸𝗲𝗲𝗽 𝗶𝘁 𝗿𝗼𝗹𝗹𝗶𝗻’",
+      "description": "#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1\n#KickOffTheWall",
+      "thumbnail": "https://i.ytimg.com/vi/F1IFHgxS4g8/mqdefault.jpg",
+      "publishedAt": "2026-10-09T09:00:27.000Z",
+      "url": "https://www.youtube.com/watch?v=F1IFHgxS4g8",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-BC5t77qUK0w",
+      "source": {
+        "platform": "youtube",
+        "videoId": "BC5t77qUK0w",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "I'm movin’ through with #바다쌤",
+      "description": "#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1\n#KickOffTheWall",
+      "thumbnail": "https://i.ytimg.com/vi/BC5t77qUK0w/mqdefault.jpg",
+      "publishedAt": "2026-10-08T12:30:08.000Z",
+      "url": "https://www.youtube.com/watch?v=BC5t77qUK0w",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-nO-FS-hH9ks",
+      "source": {
+        "platform": "youtube",
+        "videoId": "nO-FS-hH9ks",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "뭘 해도 #바다쌤 은 아름다울 거니까 🌊",
+      "description": "#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1\n#미완성 #Puzzle_Piece",
+      "thumbnail": "https://i.ytimg.com/vi/nO-FS-hH9ks/mqdefault.jpg",
+      "publishedAt": "2026-10-08T12:00:35.000Z",
+      "url": "https://www.youtube.com/watch?v=nO-FS-hH9ks",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-sqDFouPgLiE",
+      "source": {
+        "platform": "youtube",
+        "videoId": "sqDFouPgLiE",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "KickFlip(킥플립) “Kick Off The Wall” Dance Practice Video",
+      "description": "#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1 #KickOffTheWall",
+      "thumbnail": "https://i.ytimg.com/vi/sqDFouPgLiE/mqdefault.jpg",
+      "publishedAt": "2026-10-08T11:02:08.000Z",
+      "url": "https://www.youtube.com/watch?v=sqDFouPgLiE",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "performance"
+    },
+    {
+      "id": "yt-Jw5GmMqVI_c",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Jw5GmMqVI_c",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "KickFlip(킥플립) “미완성(Puzzle Piece)” Dance Practice Video",
+      "description": "#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1 #미완성 #Puzzle_Piece",
+      "thumbnail": "https://i.ytimg.com/vi/Jw5GmMqVI_c/mqdefault.jpg",
+      "publishedAt": "2026-10-08T11:00:32.000Z",
+      "url": "https://www.youtube.com/watch?v=Jw5GmMqVI_c",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "performance"
+    },
+    {
+      "id": "yt-8JxaRFLWLYU",
+      "source": {
+        "platform": "youtube",
+        "videoId": "8JxaRFLWLYU",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "Kick 🥁🎸",
+      "description": "#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1\n#KickOffTheWall",
+      "thumbnail": "https://i.ytimg.com/vi/8JxaRFLWLYU/mqdefault.jpg",
+      "publishedAt": "2026-10-08T10:30:22.000Z",
+      "url": "https://www.youtube.com/watch?v=8JxaRFLWLYU",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-ZaWIuOItzvY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "ZaWIuOItzvY",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "𝙏𝙝𝙖𝙩'𝙨 𝙝𝙤𝙬 𝙬𝙚 𝙠𝙞𝙘𝙠 𝙤𝙛𝙛 𝙩𝙝𝙚 𝙬𝙖𝙡𝙡",
+      "description": "#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1\n#KickOffTheWall",
+      "thumbnail": "https://i.ytimg.com/vi/ZaWIuOItzvY/mqdefault.jpg",
+      "publishedAt": "2026-10-08T10:00:26.000Z",
+      "url": "https://www.youtube.com/watch?v=ZaWIuOItzvY",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-MnwANlDDdaY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "MnwANlDDdaY",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "ɪ'ᴠᴇ ʙᴇᴇɴ ᴡᴀɪᴛɪɴɢ ꜰᴏʀ ᴛʜɪꜱ ᴍᴏᴍᴇɴᴛ 🎤",
+      "description": "#KickFlip #킥플립 #IANNDIOR\n#KICKOFFTHEWALL_Pt1\n#KickOffTheWall\n\n@ianndior",
+      "thumbnail": "https://i.ytimg.com/vi/MnwANlDDdaY/mqdefault.jpg",
+      "publishedAt": "2026-10-08T09:00:17.000Z",
+      "url": "https://www.youtube.com/watch?v=MnwANlDDdaY",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-O2FQtXynbf4",
+      "source": {
+        "platform": "youtube",
+        "videoId": "O2FQtXynbf4",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "誰がいちばん可愛いですか？",
+      "description": "#anation2026\n#KickFlip #킥플립",
+      "thumbnail": "https://i.ytimg.com/vi/O2FQtXynbf4/mqdefault.jpg",
+      "publishedAt": "2026-10-08T08:30:28.000Z",
+      "url": "https://www.youtube.com/watch?v=O2FQtXynbf4",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-sQiql3UYNaw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "sQiql3UYNaw",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "ハイタッチしよう！",
+      "description": "#anation2026\n#KickFlip #킥플립",
+      "thumbnail": "https://i.ytimg.com/vi/sQiql3UYNaw/mqdefault.jpg",
+      "publishedAt": "2026-10-08T08:05:31.000Z",
+      "url": "https://www.youtube.com/watch?v=sQiql3UYNaw",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-VidoMmcjHWE",
+      "source": {
+        "platform": "youtube",
+        "videoId": "VidoMmcjHWE",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "KickFlip Live @ a-nation 2026 (Full Show)",
+      "description": "00:00 INTRO\n00:28 응 그래 (Umm Great)\n02:52 Like A Monster\n05:42 Ment 1\n09:25 Gas On It\n12:13 거꾸로 (Backward)\n14:28 Ment 2\n17:38 Twenty\n20:47 처음 불러보는 노래 (My First Love Song)\n23:34 Ment 3\n\n#anation #anation2026 #킥플립 #KickFlip",
+      "thumbnail": "https://i.ytimg.com/vi/VidoMmcjHWE/mqdefault.jpg",
+      "publishedAt": "2026-10-08T04:30:20.000Z",
+      "url": "https://www.youtube.com/watch?v=VidoMmcjHWE",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-I9UTPvXcte8",
+      "source": {
+        "platform": "youtube",
+        "videoId": "I9UTPvXcte8",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "KickFlip(킥플립) “미완성(Puzzle Piece)” MV Reaction",
+      "description": "#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1 #미완성 #Puzzle_Piece",
+      "thumbnail": "https://i.ytimg.com/vi/I9UTPvXcte8/mqdefault.jpg",
+      "publishedAt": "2026-10-07T11:00:20.000Z",
+      "url": "https://www.youtube.com/watch?v=I9UTPvXcte8",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-vIo3LP95elI",
+      "source": {
+        "platform": "youtube",
+        "videoId": "vIo3LP95elI",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "𝐊𝐢𝐜𝐤 𝐊𝐢𝐜𝐤 𝐊𝐢𝐜𝐤 𝐊𝐢𝐜𝐤",
+      "description": "KickFlip The 5th Mini Album \"KICK OFF THE WALL Pt. 1\"\n2026.10.06 6PM (KST) Release!\n\n#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1\n#KickOffTheWall",
+      "thumbnail": "https://i.ytimg.com/vi/vIo3LP95elI/mqdefault.jpg",
+      "publishedAt": "2026-10-07T10:00:06.000Z",
+      "url": "https://www.youtube.com/watch?v=vIo3LP95elI",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-QyY5vTkfc8A",
+      "source": {
+        "platform": "youtube",
+        "videoId": "QyY5vTkfc8A",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "𝗜 𝘄𝗮𝘀 𝗺𝗮𝗱𝗲 𝗳𝗼𝗿 𝗮 𝗯𝗶𝗴𝗴𝗲𝗿 𝗹𝗶𝗳𝗲 🔥",
+      "description": "KickFlip The 5th Mini Album \"KICK OFF THE WALL Pt. 1\"\n2026.10.06 6PM (KST) Release!\n\n#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1\n#KickOffTheWall",
+      "thumbnail": "https://i.ytimg.com/vi/QyY5vTkfc8A/mqdefault.jpg",
+      "publishedAt": "2026-10-07T09:00:38.000Z",
+      "url": "https://www.youtube.com/watch?v=QyY5vTkfc8A",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-7PpP_wlp83s",
+      "source": {
+        "platform": "youtube",
+        "videoId": "7PpP_wlp83s",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "주간 브롤돌 커뮤니티 매니저, KickFlip 취임 완료 🛹",
+      "description": "#KickFlip #킥플립\n#브롤스타즈 #주간브롤돌\n#KICKOFFTHEWALL_Pt1 #KickOffTheWall",
+      "thumbnail": "https://i.ytimg.com/vi/7PpP_wlp83s/mqdefault.jpg",
+      "publishedAt": "2026-10-07T08:30:06.000Z",
+      "url": "https://www.youtube.com/watch?v=7PpP_wlp83s",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-l5sP30L_Fu8",
+      "source": {
+        "platform": "youtube",
+        "videoId": "l5sP30L_Fu8",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "𝙒𝙚 𝙜𝙤𝙣’ 𝙠𝙞𝙘𝙠 𝙤𝙛𝙛 𝙩𝙝𝙚 𝙬𝙖𝙡𝙡",
+      "description": "KickFlip The 5th Mini Album \"KICK OFF THE WALL Pt. 1\"\n2026.10.06 6PM (KST) Release!\n\n#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1\n#KickOffTheWall",
+      "thumbnail": "https://i.ytimg.com/vi/l5sP30L_Fu8/mqdefault.jpg",
+      "publishedAt": "2026-10-07T08:00:32.000Z",
+      "url": "https://www.youtube.com/watch?v=l5sP30L_Fu8",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-AB7TeaOMyts",
+      "source": {
+        "platform": "youtube",
+        "videoId": "AB7TeaOMyts",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "HAPPY BIRTHDAY KEIJU🎂",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/AB7TeaOMyts/mqdefault.jpg",
+      "publishedAt": "2026-10-07T05:30:19.000Z",
+      "url": "https://www.youtube.com/watch?v=AB7TeaOMyts",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-4df4fcrvU64",
+      "source": {
+        "platform": "youtube",
+        "videoId": "4df4fcrvU64",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "뭘 해도 #조나단 님은 아름다울 거니까 ✈️",
+      "description": "KickFlip The 5th Mini Album \"KICK OFF THE WALL Pt. 1\"\n2026.10.06 6PM (KST) Release!\n\n#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1\n#미완성 #Puzzle_Piece\n\n@yjonathan",
+      "thumbnail": "https://i.ytimg.com/vi/4df4fcrvU64/mqdefault.jpg",
+      "publishedAt": "2026-10-07T03:00:27.000Z",
+      "url": "https://www.youtube.com/watch?v=4df4fcrvU64",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-HB3i72Wyr6E",
+      "source": {
+        "platform": "youtube",
+        "videoId": "HB3i72Wyr6E",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "ᴊᴜᴍᴘ ᴏɴ ᴛʜᴇ ʙᴏᴀʀᴅᴀɴᴅ ɴᴏᴡ ᴡᴇ ʟᴏꜱᴇ ᴄᴏɴᴛʀᴏʟ",
+      "description": "KickFlip The 5th Mini Album \"KICK OFF THE WALL Pt. 1\"\n2026.10.06 6PM (KST) Release!\n\n#Juwang #Minje\n#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1",
+      "thumbnail": "https://i.ytimg.com/vi/HB3i72Wyr6E/mqdefault.jpg",
+      "publishedAt": "2026-10-06T13:00:20.000Z",
+      "url": "https://www.youtube.com/watch?v=HB3i72Wyr6E",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-dEnbVgkkXCs",
+      "source": {
+        "platform": "youtube",
+        "videoId": "dEnbVgkkXCs",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "𝗪𝗲 𝗻𝗲𝘃𝗲𝗿 𝘀𝘁𝗼𝗽 ‼️",
+      "description": "KickFlip The 5th Mini Album \"KICK OFF THE WALL Pt. 1\"\n2026.10.06 6PM (KST) Release!\n\n#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1",
+      "thumbnail": "https://i.ytimg.com/vi/dEnbVgkkXCs/mqdefault.jpg",
+      "publishedAt": "2026-10-06T12:00:01.000Z",
+      "url": "https://www.youtube.com/watch?v=dEnbVgkkXCs",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-XAQSIdo3oD4",
+      "source": {
+        "platform": "youtube",
+        "videoId": "XAQSIdo3oD4",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "“Kick Off The Wall” Cheering Guide",
+      "description": "00:00 INTRO\n01:05 “Kick Off The Wall” Cheering Guide\n03:45 OUTRO\n\n#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1 #KickOffTheWall",
+      "thumbnail": "https://i.ytimg.com/vi/XAQSIdo3oD4/mqdefault.jpg",
+      "publishedAt": "2026-10-06T09:32:15.000Z",
+      "url": "https://www.youtube.com/watch?v=XAQSIdo3oD4",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-yFG3OzukT9A",
+      "source": {
+        "platform": "youtube",
+        "videoId": "yFG3OzukT9A",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "“미완성(Puzzle Piece)” Cheering Guide",
+      "description": "00:00 INTRO\n00:53 “미완성(Puzzle Piece)” Cheering Guide\n03:41 OUTRO\n\n#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1 #미완성 #Puzzle_Piece",
+      "thumbnail": "https://i.ytimg.com/vi/yFG3OzukT9A/mqdefault.jpg",
+      "publishedAt": "2026-10-06T09:30:32.000Z",
+      "url": "https://www.youtube.com/watch?v=yFG3OzukT9A",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-il0lkXDRAxw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "il0lkXDRAxw",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "🎮 KickFlip × BRAWL STARS GAME LIVE",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/il0lkXDRAxw/mqdefault.jpg",
+      "publishedAt": "2026-10-05T12:00:28.000Z",
+      "url": "https://www.youtube.com/watch?v=il0lkXDRAxw",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-9XoJguELsvg",
+      "source": {
+        "platform": "youtube",
+        "videoId": "9XoJguELsvg",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "Songwriting Diary: KickFlip the 5th Mini Album “KICK OFF THE WALL Pt. 1”",
+      "description": "#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1",
+      "thumbnail": "https://i.ytimg.com/vi/9XoJguELsvg/mqdefault.jpg",
+      "publishedAt": "2026-10-05T11:00:29.000Z",
+      "url": "https://www.youtube.com/watch?v=9XoJguELsvg",
+      "fetchedAt": "2026-10-14T13:22:09.442Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:22:09.442Z",
+      "type": "other"
+    }
+  ]
+}
