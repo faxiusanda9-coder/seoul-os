@@ -1,10 +1,10 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
   "uploadsPlaylistId": "UUZlgP_2MRnrPXRmqR5320BQ",
   "artistId": "boy-story",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-14T13:26:13.398Z",
+  "fetchedAt": "2026-10-14T16:52:40.490Z",
   "items": [
     {
       "id": "yt-KidzbwMSlVM",
@@ -20,12 +20,44 @@
       },
       "title": "Happy birthday! 🎉🎂 스무 살의 밍루이 여전히 눈부시게 빛나는 중 ✨#BOYSTORY #明睿 #MINGRUI #밍루이",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/KidzbwMSlVM/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/KidzbwMSlVM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/KidzbwMSlVM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/KidzbwMSlVM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/KidzbwMSlVM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/KidzbwMSlVM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/KidzbwMSlVM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-28T10:00:02.000Z",
       "url": "https://www.youtube.com/watch?v=KidzbwMSlVM",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -42,12 +74,38 @@
       },
       "title": "MINGRUI Chengdu One‑Day Store Manager VLOG｜Experienced Chengdu teahouse culture🍵",
       "description": "Welcome to Chengdu! 🤟🏻😎\n\nWhat do college guys do during summer vacation｜Chengdu Episode📍\n\nTime for some cultural immersion 📖🍵\nExperienced teahouse culture and tried the long‑spout teapot tea art.Got myself an intangible cultural heritage skill! Might come in handy for my su",
-      "thumbnail": "https://i.ytimg.com/vi/rWJzcsElLW8/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/rWJzcsElLW8/sddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/rWJzcsElLW8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/rWJzcsElLW8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/rWJzcsElLW8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/rWJzcsElLW8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "publishedAt": "2026-08-27T10:00:14.000Z",
       "url": "https://www.youtube.com/watch?v=rWJzcsElLW8",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -64,12 +122,44 @@
       },
       "title": "같이 불고기 먹으러 갈까?! #BOYSTORY #明睿 #MINGRUI #밍루이",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/BJn9UsCvnZQ/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/BJn9UsCvnZQ/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/BJn9UsCvnZQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/BJn9UsCvnZQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/BJn9UsCvnZQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/BJn9UsCvnZQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/BJn9UsCvnZQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-18T10:00:05.000Z",
       "url": "https://www.youtube.com/watch?v=BJn9UsCvnZQ",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -86,12 +176,44 @@
       },
       "title": "밍나디 대꼬갈 사람, 손!🤔💡#BOYSTORY #明睿 #MINGRUI #밍루이",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/PJHfeYRRmDY/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/PJHfeYRRmDY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/PJHfeYRRmDY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/PJHfeYRRmDY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/PJHfeYRRmDY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/PJHfeYRRmDY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/PJHfeYRRmDY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-07T10:00:16.000Z",
       "url": "https://www.youtube.com/watch?v=PJHfeYRRmDY",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -108,12 +230,44 @@
       },
       "title": "우리가 만든 여름 시나리오🎧🌱#BOYSTORY #明睿 #MINGRUI #밍루이",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/PKOg0V3GltM/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/PKOg0V3GltM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/PKOg0V3GltM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/PKOg0V3GltM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/PKOg0V3GltM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/PKOg0V3GltM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/PKOg0V3GltM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-30T10:00:34.000Z",
       "url": "https://www.youtube.com/watch?v=PKOg0V3GltM",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -130,12 +284,44 @@
       },
       "title": "귀여운 거 인정하는 인간들 숨 쉬어~ ՞⦁ᴥ⦁՞#BOYSTORY #明睿 #MINGRUI #밍루이",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/y9iwBY8A-Yk/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/y9iwBY8A-Yk/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/y9iwBY8A-Yk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/y9iwBY8A-Yk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/y9iwBY8A-Yk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/y9iwBY8A-Yk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/y9iwBY8A-Yk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-24T10:00:28.000Z",
       "url": "https://www.youtube.com/watch?v=y9iwBY8A-Yk",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -152,12 +338,44 @@
       },
       "title": "온 김에 도전해보자!!🏍️#BOYSTORY #明睿 #MINGRUI #밍루이",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/_tVo2rXBkLo/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/_tVo2rXBkLo/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/_tVo2rXBkLo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/_tVo2rXBkLo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/_tVo2rXBkLo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/_tVo2rXBkLo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/_tVo2rXBkLo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-22T10:00:36.000Z",
       "url": "https://www.youtube.com/watch?v=_tVo2rXBkLo",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -174,12 +392,50 @@
       },
       "title": "[KR/EN] MINGRUI Chongqing One-Day Store Manager VLOG | Eating ChuanChuan🍲,Motorbike Experience🏍️😉",
       "description": "What does a young college guy do during summer break? Chongqing Edition📍\n\nDigging into hotpot and Chuan Chuan🍲, plus the highly anticipated (not really lol) motorcycle challenge experience🏍️💥\n\nEven on the days we couldn't see each other,  MINGRU has been living life to the fu",
-      "thumbnail": "https://i.ytimg.com/vi/pAQz2CYGfmc/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/pAQz2CYGfmc/fhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/pAQz2CYGfmc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/pAQz2CYGfmc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/pAQz2CYGfmc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/pAQz2CYGfmc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/pAQz2CYGfmc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "fhd",
+          "url": "https://i.ytimg.com/vi/pAQz2CYGfmc/fhddefault.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
       "publishedAt": "2026-07-22T10:00:16.000Z",
       "url": "https://www.youtube.com/watch?v=pAQz2CYGfmc",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -196,12 +452,44 @@
       },
       "title": "#ggez 추는거 보고싶다는 소문이! 여기까지 들리네~#BOYSTORY #明睿 #MINGRUI #밍루이",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/mr7xOszYHgo/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/mr7xOszYHgo/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/mr7xOszYHgo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/mr7xOszYHgo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/mr7xOszYHgo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/mr7xOszYHgo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/mr7xOszYHgo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-20T10:00:02.000Z",
       "url": "https://www.youtube.com/watch?v=mr7xOszYHgo",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -218,12 +506,38 @@
       },
       "title": "[KR/EN] MINGRUI Shanghai One-Day Store Manager VLOG | Lunch with Special Guest🍴 | A Day Full of Fun!",
       "description": "#BOYSTORY #밍루이 #MINGRUI #BEHIND\n\n[KR/EN] MINGRUI Shanghai One-Day Store Manager VLOG | Lunch with Special Guest🍴 | A Day Full of Fun!\n\nHad lunch with a special guest at the hotel,\nand the chemistry was so good I couldn’t stop laughing🤣\n\nEveryone at the event was so warm and ene",
-      "thumbnail": "https://i.ytimg.com/vi/T8_BvSzEzsU/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/T8_BvSzEzsU/sddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/T8_BvSzEzsU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/T8_BvSzEzsU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/T8_BvSzEzsU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/T8_BvSzEzsU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "publishedAt": "2026-05-03T10:00:29.000Z",
       "url": "https://www.youtube.com/watch?v=T8_BvSzEzsU",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -240,12 +554,44 @@
       },
       "title": "🐾🐾🐾 #BOSS #BOYSTORY #보이스토리 #MINGRUI #明睿 #밍루이",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/PwlbDDKzyPY/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/PwlbDDKzyPY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/PwlbDDKzyPY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/PwlbDDKzyPY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/PwlbDDKzyPY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/PwlbDDKzyPY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/PwlbDDKzyPY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-04-26T06:33:30.000Z",
       "url": "https://www.youtube.com/watch?v=PwlbDDKzyPY",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -262,12 +608,50 @@
       },
       "title": "[KR/EN] Dance Class with Yejun🔥Joined NAUGHTINESS | DUCKDIVE BIG STAGE",
       "description": "#BOYSTORY #지아한위 #HANYU #BEHIND\n\n[KR/EN] Dance Class with Yejun🔥Joined NAUGHTINESS | DUCKDIVE BIG STAGE\n\nLong time no see✌\nI had so much fun taking this class with Yejun!!!\n\nIt’s been a while since I saw you all, so it still feels a bit new😸\nbut I’m really happy we got to dance ",
-      "thumbnail": "https://i.ytimg.com/vi/NMTHGawr9Lc/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/NMTHGawr9Lc/fhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/NMTHGawr9Lc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/NMTHGawr9Lc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/NMTHGawr9Lc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/NMTHGawr9Lc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/NMTHGawr9Lc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "fhd",
+          "url": "https://i.ytimg.com/vi/NMTHGawr9Lc/fhddefault.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
       "publishedAt": "2026-03-28T10:00:04.000Z",
       "url": "https://www.youtube.com/watch?v=NMTHGawr9Lc",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "performance"
     },
     {
@@ -284,12 +668,44 @@
       },
       "title": "[KR/EN] One-day Store Manager Vlog | 🍲 Trying Lu Cuisine & Sharing My College Life",
       "description": "#BOYSTORY #밍루이 #MINGRUI #BEHIND\n\n[KR/EN] One-day Store Manager Vlog | 🍲 Trying Lu Cuisine & Sharing My College Life\n\nMINGRUI’s One-Day Store Manager Vlog in Jinan  \nThere are so many people here‼️\nTrying authentic Lu cuisine 🍲 Shandong jianbing with scallions 🫔 Braised pork be",
-      "thumbnail": "https://i.ytimg.com/vi/QPGGH27dMRE/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/QPGGH27dMRE/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/QPGGH27dMRE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/QPGGH27dMRE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/QPGGH27dMRE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/QPGGH27dMRE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/QPGGH27dMRE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-12-27T10:00:44.000Z",
       "url": "https://www.youtube.com/watch?v=QPGGH27dMRE",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -306,12 +722,44 @@
       },
       "title": "Born to be 🐶🐶 #BOSS #BOYSTORY #MINGRUI #明睿 #밍루이",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/bEc5qSjcfhQ/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/bEc5qSjcfhQ/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/bEc5qSjcfhQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/bEc5qSjcfhQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/bEc5qSjcfhQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/bEc5qSjcfhQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/bEc5qSjcfhQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-12-24T12:07:36.000Z",
       "url": "https://www.youtube.com/watch?v=bEc5qSjcfhQ",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -328,12 +776,44 @@
       },
       "title": "[KR/EN] 🎬 HANYU & MINGRUI’s First Acting Experience (Part 2) | We successfully wrapped the shoot👏🎉",
       "description": "#BOYSTORY #보이스토리\n#HANYU #MINGRUI #한위 #밍루이 #ACTING #BEHIND\n\n[KR/EN] 🎬 HANYU & MINGRUI’s First Acting Experience (Part 2) | We successfully wrapped the shoot👏🎉\n\nFrom showcasing true acting talent to the final wrap, here’s the last behind-the-scenes moment! 🎥🌟\n\nFLO: https://flo",
-      "thumbnail": "https://i.ytimg.com/vi/r65RV-RkHpA/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/r65RV-RkHpA/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/r65RV-RkHpA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/r65RV-RkHpA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/r65RV-RkHpA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/r65RV-RkHpA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/r65RV-RkHpA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-12-01T10:00:11.000Z",
       "url": "https://www.youtube.com/watch?v=r65RV-RkHpA",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -350,12 +830,44 @@
       },
       "title": "[KR/EN] 🎬 HANYU & MINGRUI’s First Acting Experience (Part 1) | Script Prep Behind-the-Scenes📒",
       "description": "#BOYSTORY #보이스토리\n#HANYU #MINGRUI #한위 #밍루이 #ACTING #BEHIND\n\n[KR/EN] 🎬 HANYU & MINGRUI’s First Acting Experience (Part 1) | Script Prep Behind-the-Scenes📒 \n\nHANYU & MINGRUI’s first acting challenge behind the scenes! 🎬✨\nFrom memorizing the script to the tense and exciting atmosp",
-      "thumbnail": "https://i.ytimg.com/vi/ddib561-oeo/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/ddib561-oeo/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/ddib561-oeo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/ddib561-oeo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/ddib561-oeo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/ddib561-oeo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/ddib561-oeo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-11-29T10:01:09.000Z",
       "url": "https://www.youtube.com/watch?v=ddib561-oeo",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -372,12 +884,44 @@
       },
       "title": "[KR/EN] One-day Café Manager Vlog | Exploring Guangzhou and enjoying herbal tea🍵",
       "description": "#BOYSTORY #밍루이 #MINGRUI #BEHIND\n\n[KR/EN] One-day Café Manager Vlog | Exploring Guangzhou’s old town and enjoying herbal tea🍵 \n\nBehind-the-scenes from my one-day café manager event is here in Guangzhou!📷\nI had a wonderful day, and I truly enjoyed sharing it with my fans💫\n\nFLO: ",
-      "thumbnail": "https://i.ytimg.com/vi/zBahF4M6ZVM/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/zBahF4M6ZVM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/zBahF4M6ZVM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/zBahF4M6ZVM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/zBahF4M6ZVM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/zBahF4M6ZVM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/zBahF4M6ZVM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-11-28T10:01:14.000Z",
       "url": "https://www.youtube.com/watch?v=zBahF4M6ZVM",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -394,12 +938,44 @@
       },
       "title": "어! 좋아한다? 아닌데 나는 사랑하는데~ #보이스토리 #BOYSTORY#밍루이 #MINGRUI #明睿",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/vHaxJJnLZo0/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/vHaxJJnLZo0/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/vHaxJJnLZo0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/vHaxJJnLZo0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/vHaxJJnLZo0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/vHaxJJnLZo0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/vHaxJJnLZo0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-11-24T10:01:34.000Z",
       "url": "https://www.youtube.com/watch?v=vHaxJJnLZo0",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -416,12 +992,44 @@
       },
       "title": "1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣ 𝗕𝗮𝗰𝗸 𝗮𝘁 𝗶𝘁 #보이스토리 #BOYSTORY #리즈하오 #즈하오 #梓豪 #ZIHAO",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/TXATHsRRo0c/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/TXATHsRRo0c/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/TXATHsRRo0c/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/TXATHsRRo0c/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/TXATHsRRo0c/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/TXATHsRRo0c/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/TXATHsRRo0c/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-11-02T09:00:45.000Z",
       "url": "https://www.youtube.com/watch?v=TXATHsRRo0c",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -438,12 +1046,44 @@
       },
       "title": "Our POP-UP is still on🫶 come join us! 💝 #보이스토리 #BOYSTORY #지아한위 #한위 #涵予 #HANYU #리즈하오 #즈하오 #梓豪 #ZIHAO",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/6gz_7Fo9sCE/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/6gz_7Fo9sCE/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/6gz_7Fo9sCE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/6gz_7Fo9sCE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/6gz_7Fo9sCE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/6gz_7Fo9sCE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/6gz_7Fo9sCE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-10-31T15:04:14.000Z",
       "url": "https://www.youtube.com/watch?v=6gz_7Fo9sCE",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -460,12 +1100,44 @@
       },
       "title": "[KR/EN] ZIHAO’s Busy Day in Shanghai☕📷| I’ll Miss You💞",
       "description": "#BOYSTORY #리즈하오 #ZIHAO #BEHIND\n\n[KR/EN] ZIHAO’s Busy Day in Shanghai☕📷| I’ll Miss You💞\n\nBehind-the-scenes from my one-day café manager event is here!\nIt was a long day, but I was so happy to spend it with my new and longtime fans💫\n\nFLO: https://flomuz.io/s/a.C2Wgy\nMelon: https",
-      "thumbnail": "https://i.ytimg.com/vi/oniLLYjZDL8/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/oniLLYjZDL8/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/oniLLYjZDL8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/oniLLYjZDL8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/oniLLYjZDL8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/oniLLYjZDL8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/oniLLYjZDL8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-10-30T10:01:34.000Z",
       "url": "https://www.youtube.com/watch?v=oniLLYjZDL8",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -482,12 +1154,44 @@
       },
       "title": "[KR/EN] Unlock ZIHAO’s Behind-the-Scenes Moments🎬",
       "description": "#BOYSTORY #리즈하오 #ZIHAO #BEHIND\n\n[KR/EN] Unlock ZIHAO’s Behind-the-Scenes Moments🎬\n\nA busy weekend always comes with some fun behind-the-scenes clips! \nLet’s unlock mine now~🌰\n\nFLO: https://flomuz.io/s/a.C2Wgy\nMelon: https://kko.to/0_vioBwJ5q\ngenie: http://genie.co.kr/RR7AL6\nBug",
-      "thumbnail": "https://i.ytimg.com/vi/cW1POfZUA0w/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/cW1POfZUA0w/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/cW1POfZUA0w/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/cW1POfZUA0w/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/cW1POfZUA0w/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/cW1POfZUA0w/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/cW1POfZUA0w/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-10-28T10:01:10.000Z",
       "url": "https://www.youtube.com/watch?v=cW1POfZUA0w",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -504,12 +1208,44 @@
       },
       "title": "으으응우우우웅~ #보이스토리 #BOYSTORY #리즈하오 #즈하오 #梓豪 #ZIHAO",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/i2sv4TwH198/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/i2sv4TwH198/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/i2sv4TwH198/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/i2sv4TwH198/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/i2sv4TwH198/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/i2sv4TwH198/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/i2sv4TwH198/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-10-28T09:01:21.000Z",
       "url": "https://www.youtube.com/watch?v=i2sv4TwH198",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -526,12 +1262,44 @@
       },
       "title": "Little Moments🧩 #보이스토리 #BOYSTORY #리즈하오 #즈하오 #梓豪 #ZIHAO #HAPPYZIHAODAY #HappyBirthday",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/hFcxpAvHP5Q/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/hFcxpAvHP5Q/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/hFcxpAvHP5Q/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/hFcxpAvHP5Q/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/hFcxpAvHP5Q/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/hFcxpAvHP5Q/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/hFcxpAvHP5Q/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-10-23T10:01:19.000Z",
       "url": "https://www.youtube.com/watch?v=hFcxpAvHP5Q",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -548,12 +1316,44 @@
       },
       "title": "𝑴𝒂𝒌𝒆 𝒂 𝒘𝒊𝒔𝒉 𝒇𝒐𝒓 𝒚𝒐𝒖, 𝒍𝒐𝒗𝒆 𝒚𝒐𝒖 𝒂𝒍𝒍 💫 #리즈하오 #즈하오 #梓豪 #ZIHAO #HappyBirthday #HappyBirthdayZIHAO",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/JbrWYHEG7K4/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/JbrWYHEG7K4/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/JbrWYHEG7K4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/JbrWYHEG7K4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/JbrWYHEG7K4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/JbrWYHEG7K4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/JbrWYHEG7K4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-10-22T11:00:49.000Z",
       "url": "https://www.youtube.com/watch?v=JbrWYHEG7K4",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -570,12 +1370,44 @@
       },
       "title": "[KR/EN] ZIHAO’s Birthday Special🎂 Favorite GAME TIME | HAPPY ZIHAO DAY",
       "description": "#BOYSTORY #ZIHAO #HappyBirthday\n\n[KR/EN] ZIHAO’s Birthday Special🎂 Favorite GAME TIME | HAPPY ZIHAO DAY\n\nThe most relaxing and joyful moments! little memories from the arcade🎮\nHappy 21st Birthday, ZIHAO🤎 Our love for you goes far beyond this day🩷\n\nFLO: https://flomuz.io/s/a.C",
-      "thumbnail": "https://i.ytimg.com/vi/u3l1HkjQyDE/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/u3l1HkjQyDE/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/u3l1HkjQyDE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/u3l1HkjQyDE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/u3l1HkjQyDE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/u3l1HkjQyDE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/u3l1HkjQyDE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-10-22T10:01:36.000Z",
       "url": "https://www.youtube.com/watch?v=u3l1HkjQyDE",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -592,12 +1424,44 @@
       },
       "title": "Put your body (#동네스타K쇼 ver.) #보이스토리 #BOYSTORY #리즈하오 #즈하오 #梓豪 #ZIHAO #KStarNextDoorShow",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/gB6FurgVTm4/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/gB6FurgVTm4/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/gB6FurgVTm4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/gB6FurgVTm4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/gB6FurgVTm4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/gB6FurgVTm4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/gB6FurgVTm4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-10-14T11:01:29.000Z",
       "url": "https://www.youtube.com/watch?v=gB6FurgVTm4",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -614,12 +1478,44 @@
       },
       "title": "[KR/EN] HANYU’s School VLOG📖| A Day in the Life of a College Student!",
       "description": "#BOYSTORY #지아한위 #HANYU #VLOG\n\n[KR/EN] HANYU’s School VLOG📖| A Day in the Life of a College Student!\n\nThe long-promised school VLOG is finally here~\nJoin me for a full day as a college student — from 8 AM to 8 PM✍️\n\nFLO: https://flomuz.io/s/a.C2Wgy\nMelon: https://kko.to/0_vioBwJ5",
-      "thumbnail": "https://i.ytimg.com/vi/yStLJEdTxnI/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/yStLJEdTxnI/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/yStLJEdTxnI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/yStLJEdTxnI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/yStLJEdTxnI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/yStLJEdTxnI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/yStLJEdTxnI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-10-13T10:01:37.000Z",
       "url": "https://www.youtube.com/watch?v=yStLJEdTxnI",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -636,12 +1532,44 @@
       },
       "title": "🤙🤙#리즈하오 #즈하오 #梓豪 #ZIHAO #야오천 #姚琛 #YAOCHEN @yaochen_official",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/taO5yWOttNE/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/taO5yWOttNE/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/taO5yWOttNE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/taO5yWOttNE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/taO5yWOttNE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/taO5yWOttNE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/taO5yWOttNE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-10-10T16:26:16.000Z",
       "url": "https://www.youtube.com/watch?v=taO5yWOttNE",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -658,12 +1586,44 @@
       },
       "title": "𝑳𝒊𝒌𝒆 𝑺𝒖𝒈𝒂𝒓 𝑶𝒏 𝑴𝒚\r\r#보이스토리 #BOYSTORY\r#리즈하오 #즈하오 #梓豪 #ZIHAO",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/6vQLbQhBKmM/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/6vQLbQhBKmM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/6vQLbQhBKmM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/6vQLbQhBKmM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/6vQLbQhBKmM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/6vQLbQhBKmM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/6vQLbQhBKmM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-10-04T11:00:16.000Z",
       "url": "https://www.youtube.com/watch?v=6vQLbQhBKmM",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -680,12 +1640,44 @@
       },
       "title": "[KR/EN] ZIHAO BOYS II PLANET❤️‍🔥 BEHIND THE SCENES",
       "description": "#BOYSTORY #리즈하오 #ZIHAO #BEHIND\n\n[KR/EN] ZIHAO BOYS II PLANET❤️‍🔥 BEHIND THE SCENES\n\nAn unforgettable experience that taught me so much!🌰\nThank you to my new friends and new fans.\nJust like I said: \"This is only the beginning\".🙌\n💤H, welcome to my BOYS II PLANET Behind the Scen",
-      "thumbnail": "https://i.ytimg.com/vi/9_bHIqWpoqY/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/9_bHIqWpoqY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/9_bHIqWpoqY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/9_bHIqWpoqY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/9_bHIqWpoqY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/9_bHIqWpoqY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/9_bHIqWpoqY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-10-04T10:00:26.000Z",
       "url": "https://www.youtube.com/watch?v=9_bHIqWpoqY",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -702,12 +1694,44 @@
       },
       "title": "toma toma🫴 #보이스토리 #BOYSTORY #리즈하오 #즈하오 #梓豪 #ZIHAO",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/CgDZRS0jubw/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/CgDZRS0jubw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/CgDZRS0jubw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/CgDZRS0jubw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/CgDZRS0jubw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/CgDZRS0jubw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/CgDZRS0jubw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-10-03T11:00:19.000Z",
       "url": "https://www.youtube.com/watch?v=CgDZRS0jubw",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -724,12 +1748,44 @@
       },
       "title": "ocean eyes✨️👀 #보이스토리 #BOYSTORY #리즈하오 #즈하오 #梓豪 #ZIHAO",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/Gs_rqcJtbZk/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/Gs_rqcJtbZk/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Gs_rqcJtbZk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Gs_rqcJtbZk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Gs_rqcJtbZk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Gs_rqcJtbZk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Gs_rqcJtbZk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-09-29T06:00:11.000Z",
       "url": "https://www.youtube.com/watch?v=Gs_rqcJtbZk",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -746,12 +1802,44 @@
       },
       "title": "딴 데 가지마~ I love you so much🤎 #보이스토리 #BOYSTORY #리즈하오 #즈하오 #梓豪 #ZIHAO",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/8mm-baTN_I8/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/8mm-baTN_I8/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/8mm-baTN_I8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/8mm-baTN_I8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/8mm-baTN_I8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/8mm-baTN_I8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/8mm-baTN_I8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-09-28T10:30:06.000Z",
       "url": "https://www.youtube.com/watch?v=8mm-baTN_I8",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -768,12 +1856,44 @@
       },
       "title": "GO!! #보이스토리 #BOYSTORY #지아한위 #한위 #涵予 #HANYU",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/gI3HL5UdIiw/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/gI3HL5UdIiw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/gI3HL5UdIiw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/gI3HL5UdIiw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/gI3HL5UdIiw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/gI3HL5UdIiw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/gI3HL5UdIiw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-09-24T10:30:28.000Z",
       "url": "https://www.youtube.com/watch?v=gI3HL5UdIiw",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -790,12 +1910,44 @@
       },
       "title": "还有一个小花絮 谢谢大家的祝福🥰#BOSS #BOYSTORY #MINGRUI #明睿 #HAPPYMINGRUIDAY #HappyBirthday #Behind",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/udWOioJXiJ4/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/udWOioJXiJ4/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/udWOioJXiJ4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/udWOioJXiJ4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/udWOioJXiJ4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/udWOioJXiJ4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/udWOioJXiJ4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-08-29T10:01:42.000Z",
       "url": "https://www.youtube.com/watch?v=udWOioJXiJ4",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -812,12 +1964,44 @@
       },
       "title": "𝙷𝚊𝚙𝚙𝚢 𝙱𝚒𝚛𝚝𝚑𝚍𝚊𝚢 𝚃𝚘 𝙼𝚎！ 𝙷𝚎𝚕𝚕𝚘, 𝟷𝟿 𝚢𝚎𝚊𝚛𝚜 𝚘𝚕𝚍！#BOYSTORY #MINGRUI #明睿 #HAPPYMINGRUIDAY #HappyBirthday",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/Sj3yj4QXiVE/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/Sj3yj4QXiVE/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Sj3yj4QXiVE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Sj3yj4QXiVE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Sj3yj4QXiVE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Sj3yj4QXiVE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Sj3yj4QXiVE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-08-28T10:30:54.000Z",
       "url": "https://www.youtube.com/watch?v=Sj3yj4QXiVE",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -834,12 +2018,44 @@
       },
       "title": "[EN] MINGRUI’s Birthday Special🎂 Summer Photoshoot🌳| HAPPY MINGRUI DAY",
       "description": "#BOYSTORY #MINGRUI #HappyBirthday\n\n[EN] MINGRUI’s Birthday Special🎂 Summer Photoshoot🌳| HAPPY MINGRUI DAY\n\nA summer walk in the park this August☀️\nCelebrating my birthday with a photoshoot and welcoming a brand-new world~🌎💫\n\nFLO: https://flomuz.io/s/a.C2Wgy\nMelon: https://kko",
-      "thumbnail": "https://i.ytimg.com/vi/7H9flv7w7IU/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/7H9flv7w7IU/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/7H9flv7w7IU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/7H9flv7w7IU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/7H9flv7w7IU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/7H9flv7w7IU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/7H9flv7w7IU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-08-28T10:00:27.000Z",
       "url": "https://www.youtube.com/watch?v=7H9flv7w7IU",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -856,12 +2072,44 @@
       },
       "title": "[EN] A Day in the Life of a 19-Year-Old Artist (Born in 2006) 🎤 | MINGRUI | JACK&JONES",
       "description": "#BOSS #BOYSTORY #MINGRUI #BEHIND\n\n[EN] A Day in the Life of a 19-Year-Old Artist (Born in 2006) 🎤 | MINGRUI | JACK&JONES\n\nA full-day vlog, plus some unexpected food discoveries🍜\nIt was a great trip to Hangzhou✈️\nSee you next time~!\n\nFLO: https://flomuz.io/s/a.C2Wgy\nMelon: https",
-      "thumbnail": "https://i.ytimg.com/vi/VJYsqIR3gsY/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/VJYsqIR3gsY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/VJYsqIR3gsY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/VJYsqIR3gsY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/VJYsqIR3gsY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/VJYsqIR3gsY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/VJYsqIR3gsY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-07-04T10:00:51.000Z",
       "url": "https://www.youtube.com/watch?v=VJYsqIR3gsY",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -878,12 +2126,44 @@
       },
       "title": "又让我认识到新游戏！体验start！#BOSS #BOYSTORY #MINGRUI #明睿 #BeanBoozled #Challenge",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/on4W-Pv_Dhg/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/on4W-Pv_Dhg/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/on4W-Pv_Dhg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/on4W-Pv_Dhg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/on4W-Pv_Dhg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/on4W-Pv_Dhg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/on4W-Pv_Dhg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-07-01T11:01:27.000Z",
       "url": "https://www.youtube.com/watch?v=on4W-Pv_Dhg",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -900,12 +2180,44 @@
       },
       "title": "[EN] Hello from MINGRUI | Long Time No See, Let’s Catch Up!",
       "description": "#BOSS #BOYSTORY #MINGRUI\n\n[EN] Hello from MINGRUI | Long Time No See, Let’s Catch Up!\n\nLong time no see~ I’m sure we have a lot to talk about!\nSo let me go first and share a few things with you🙋\n\nFLO: https://flomuz.io/s/a.C2Wgy\nMelon: https://kko.to/0_vioBwJ5q\ngenie: http://gen",
-      "thumbnail": "https://i.ytimg.com/vi/5IWlAf9w8jk/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/5IWlAf9w8jk/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/5IWlAf9w8jk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/5IWlAf9w8jk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/5IWlAf9w8jk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/5IWlAf9w8jk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/5IWlAf9w8jk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-06-24T12:03:07.000Z",
       "url": "https://www.youtube.com/watch?v=5IWlAf9w8jk",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -922,12 +2234,44 @@
       },
       "title": "[KR/EN] BOY STORY ‘Chasing Stars (如果 Part.2)’ | Behind | FAN SONG | Dear BOSS💌",
       "description": "#BOSS #BOYSTORY #DearBOSS #FromBOYSTORY  \n#TogetherWithBOSS #BOYSTORYForever\n\n[KR/EN] BOY STORY ‘Chasing Stars (如果 Part.2)’ | Behind | FAN SONG | Dear BOSS💌\n\nOur Once-in-a-Lifetime\nThis is the raw framework of ‘Chasing Stars (如果 Part.2)’\nAnd in the folds of its lyrics, we find u",
-      "thumbnail": "https://i.ytimg.com/vi/g-U9e0GG7co/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/g-U9e0GG7co/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/g-U9e0GG7co/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/g-U9e0GG7co/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/g-U9e0GG7co/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/g-U9e0GG7co/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/g-U9e0GG7co/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-05-05T11:00:59.000Z",
       "url": "https://www.youtube.com/watch?v=g-U9e0GG7co",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -944,12 +2288,44 @@
       },
       "title": "[KR/EN] BOY STORY ‘Chasing Stars (如果 Part.2)’ Special Video | Dear BOSS💌",
       "description": "#BOSS #BOYSTORY #DearBOSS #FromBOYSTORY  \n#TogetherWithBOSS #BOYSTORYForever\n\n[KR/EN] BOY STORY ‘Chasing Stars (如果 Part.2)’ Special Video | Dear BOSS💌\n\n⬇️Soundletter\nhttps://drive.google.com/drive/folders/14xFjeVWEJBNj_cguuHh_Uc9zvpyPO3TH?usp=sharing\n\nWe turned 2,414 sunsets int",
-      "thumbnail": "https://i.ytimg.com/vi/F8k0blTGz4U/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/F8k0blTGz4U/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/F8k0blTGz4U/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/F8k0blTGz4U/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/F8k0blTGz4U/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/F8k0blTGz4U/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/F8k0blTGz4U/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-05-04T10:00:31.000Z",
       "url": "https://www.youtube.com/watch?v=F8k0blTGz4U",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -966,12 +2342,44 @@
       },
       "title": "[KR/EN] Where the Phoenix Flowers Bloom | Our 8th Early Summer | Dear BOSS💌",
       "description": "#BOSS #BOYSTORY #DearBOSS #FromBOYSTORY  \n#TogetherWithBOSS #BOYSTORYForever\n\n[KR/EN] Where the Phoenix Flowers Bloom | Our 8th Early Summer | Dear BOSS💌\n\nThe 8th summer from where it all began🌿\nEvery sigh we once swallowed\nNow bursts into fiery blossoms on the branches.\n\nFLO: ",
-      "thumbnail": "https://i.ytimg.com/vi/D9v9gsftIJI/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/D9v9gsftIJI/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/D9v9gsftIJI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/D9v9gsftIJI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/D9v9gsftIJI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/D9v9gsftIJI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/D9v9gsftIJI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-05-03T10:03:38.000Z",
       "url": "https://www.youtube.com/watch?v=D9v9gsftIJI",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -988,12 +2396,44 @@
       },
       "title": "[EN] The Prequel to BOY STORY Manual | 2,414 Days | Dear BOSS💌",
       "description": "#BOSS #BOYSTORY #DearBOSS #FromBOYSTORY  \n#TogetherWithBOSS #BOYSTORYForever\n\n[EN] The Prequel to BOY STORY Manual | 2,414 Days | Dear BOSS💌\n\nAfter years of waiting, \nsome long-lost masters have finally broken free.\nSee how the boys once were—\nFrom fledglings finding their wings",
-      "thumbnail": "https://i.ytimg.com/vi/sEyilxstaQg/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/sEyilxstaQg/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/sEyilxstaQg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/sEyilxstaQg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/sEyilxstaQg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/sEyilxstaQg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/sEyilxstaQg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-05-02T10:01:26.000Z",
       "url": "https://www.youtube.com/watch?v=sEyilxstaQg",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -1010,12 +2450,44 @@
       },
       "title": "[EN] ‘Guaishushu Is Coming (怪蜀黍来了)’ A Special Episode by BOY STORY | 2,414 Days | Dear BOSS💌",
       "description": "#BOSS #BOYSTORY #DearBOSS #FromBOYSTORY  \n#TogetherWithBOSS #BOYSTORYForever\n\n[EN] ‘Guaishushu Is Coming (怪蜀黍来了)’ A Special Episode by BOY STORY | 2,414 Days | Dear BOSS💌\n\n2,414 Days\nSix kids hit play\nAnd burst into the world with hope and fire.\nAlong the unseen roads we once wa",
-      "thumbnail": "https://i.ytimg.com/vi/CHTWMtsiaPs/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/CHTWMtsiaPs/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/CHTWMtsiaPs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/CHTWMtsiaPs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/CHTWMtsiaPs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/CHTWMtsiaPs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/CHTWMtsiaPs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-05-01T10:00:31.000Z",
       "url": "https://www.youtube.com/watch?v=CHTWMtsiaPs",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -1032,12 +2504,44 @@
       },
       "title": "[EN] Teaser | Dear BOSS💌",
       "description": "#BOSS #BOYSTORY #DearBOSS #FromBOYSTORY  \n#TogetherWithBOSS #BOYSTORYForever\n\n[EN] Teaser | Dear BOSS💌\n\n2,414 days can’t contain our story—\nIn the endless cycle of our phoenix years,\nWe were always meant to meet—our paths written in the stars.\nOnce in a lifetime? More like a tho",
-      "thumbnail": "https://i.ytimg.com/vi/KHTGOzhCVpo/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/KHTGOzhCVpo/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/KHTGOzhCVpo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/KHTGOzhCVpo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/KHTGOzhCVpo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/KHTGOzhCVpo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/KHTGOzhCVpo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-04-30T10:00:27.000Z",
       "url": "https://www.youtube.com/watch?v=KHTGOzhCVpo",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "teaser"
     },
     {
@@ -1054,12 +2558,44 @@
       },
       "title": "drip drip clean it up❗️ #BOYSTORY X #BrandonBeal #ZIHAO #XINLONG #SAUCY #Collaboration",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/Roq7yBJvMmA/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/Roq7yBJvMmA/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Roq7yBJvMmA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Roq7yBJvMmA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Roq7yBJvMmA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Roq7yBJvMmA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Roq7yBJvMmA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-04-26T11:00:44.000Z",
       "url": "https://www.youtube.com/watch?v=Roq7yBJvMmA",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -1076,12 +2612,44 @@
       },
       "title": "[EN] Back to My Childhood Again🧒| Why Not Dance EP.04",
       "description": "#BOYSTORY #HANYU #VLOG #Dance\n\n[EN] Back to My Childhood Again🧒| Why Not Dance EP.04\n涵予VLOG 不如跳舞：再一次回到小时候\n\nFinally, it’s time for HANYU’s dance again!\nThe familiar feeling brings even more joy :)\nLet’s go back to where it all began✨\n\nFLO: https://flomuz.io/s/a.C2Wgy\nMelon: https",
-      "thumbnail": "https://i.ytimg.com/vi/qzcFBvL4zbM/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/qzcFBvL4zbM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/qzcFBvL4zbM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/qzcFBvL4zbM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/qzcFBvL4zbM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/qzcFBvL4zbM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/qzcFBvL4zbM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-04-26T10:01:14.000Z",
       "url": "https://www.youtube.com/watch?v=qzcFBvL4zbM",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     },
     {
@@ -1098,12 +2666,44 @@
       },
       "title": "Lose Control 🪩 #BOYSTORY X #BrandonBeal #HANYU #涵予 #SAUCY #LoseControl #Collaboration",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/FFsohWu_7S0/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/FFsohWu_7S0/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/FFsohWu_7S0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/FFsohWu_7S0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/FFsohWu_7S0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/FFsohWu_7S0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/FFsohWu_7S0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-04-25T12:00:33.000Z",
       "url": "https://www.youtube.com/watch?v=FFsohWu_7S0",
-      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "fetchedAt": "2026-10-14T16:52:40.490Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.490Z",
       "type": "other"
     }
   ]

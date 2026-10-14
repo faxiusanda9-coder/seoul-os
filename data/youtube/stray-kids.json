@@ -1,10 +1,10 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
   "uploadsPlaylistId": "UU9rMiEjNaCSsebs31MRDCRA",
   "artistId": "stray-kids",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-14T13:10:33.131Z",
+  "fetchedAt": "2026-10-14T16:52:36.079Z",
   "items": [
     {
       "id": "yt-T3CHJEMwkF0",
@@ -20,12 +20,44 @@
       },
       "title": "[Stray Kids : SKZ-TALKER] Ep.87",
       "description": "[Stray Kids(스트레이 키즈) : SKZ-TALKER(슼즈토커)] Ep.87\n\n✨ English, Japanese, Chinese, Spanish, Indonesian & Thai subtitles are available!\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIX",
-      "thumbnail": "https://i.ytimg.com/vi/T3CHJEMwkF0/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/T3CHJEMwkF0/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/T3CHJEMwkF0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/T3CHJEMwkF0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/T3CHJEMwkF0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/T3CHJEMwkF0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/T3CHJEMwkF0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-14T10:59:57.000Z",
       "url": "https://www.youtube.com/watch?v=T3CHJEMwkF0",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -42,12 +74,50 @@
       },
       "title": "Stray Kids 2027 Season’s Greetings [Paper Tale] MAKING FILM",
       "description": "Stray Kids(스트레이 키즈) 2027 Season’s Greetings [Paper Tale] MAKING FILM\n\n✨ English, Japanese, Chinese, Spanish, Indonesian & Thai subtitles are available!\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-",
-      "thumbnail": "https://i.ytimg.com/vi/WpTB5HHeUnQ/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/WpTB5HHeUnQ/fhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/WpTB5HHeUnQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/WpTB5HHeUnQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/WpTB5HHeUnQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/WpTB5HHeUnQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/WpTB5HHeUnQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "fhd",
+          "url": "https://i.ytimg.com/vi/WpTB5HHeUnQ/fhddefault.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
       "publishedAt": "2026-10-12T11:00:01.000Z",
       "url": "https://www.youtube.com/watch?v=WpTB5HHeUnQ",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -64,12 +134,44 @@
       },
       "title": "스키즈라는 게 숨긴다고 숨겨지는 것도 아니고 #StrayKids #스트레이키즈 #리노 #LeeKnow #kNOw맘대로 #ThekNOwWay #YouMakeStrayKidsStay",
       "description": "스키즈라는 게 숨긴다고 숨겨지는 것도 아니고 #StrayKids #스트레이키즈 #리노 #LeeKnow #kNOw맘대로 #ThekNOwWay #YouMakeStrayKidsStay\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (Th",
-      "thumbnail": "https://i.ytimg.com/vi/dSk9ARd1DcI/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/dSk9ARd1DcI/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/dSk9ARd1DcI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/dSk9ARd1DcI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/dSk9ARd1DcI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/dSk9ARd1DcI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/dSk9ARd1DcI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-11T08:00:10.000Z",
       "url": "https://www.youtube.com/watch?v=dSk9ARd1DcI",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -86,12 +188,44 @@
       },
       "title": "[kNOw맘대로(The kNOw Way)] Ep.09",
       "description": "[kNOw맘대로(The kNOw Way)] Ep.09\n\n✨ English, Japanese, Chinese, Spanish, Indonesian & Thai subtitles are available!\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"Th",
-      "thumbnail": "https://i.ytimg.com/vi/ncOuMdEll1o/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/ncOuMdEll1o/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/ncOuMdEll1o/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/ncOuMdEll1o/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/ncOuMdEll1o/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/ncOuMdEll1o/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/ncOuMdEll1o/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-10T03:00:31.000Z",
       "url": "https://www.youtube.com/watch?v=ncOuMdEll1o",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -108,12 +242,44 @@
       },
       "title": "[Stray Kids : SKZ-TALKER GO! Season 6] Ep.02 SEOUL",
       "description": "[Stray Kids(스트레이 키즈) : SKZ-TALKER GO! Season 6 (슼즈토커 고! 시즌 6)] Ep.02 SEOUL\n\n✨ English, Japanese, Chinese, Spanish, Indonesian & Thai subtitles are available!\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://",
-      "thumbnail": "https://i.ytimg.com/vi/3Ur5X2pDwxs/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/3Ur5X2pDwxs/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/3Ur5X2pDwxs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/3Ur5X2pDwxs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/3Ur5X2pDwxs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/3Ur5X2pDwxs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/3Ur5X2pDwxs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-07T10:59:54.000Z",
       "url": "https://www.youtube.com/watch?v=3Ur5X2pDwxs",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -130,12 +296,44 @@
       },
       "title": "Stray Kids World Tour ＜RUN IT SEOUL＞ \"SLASH (From \"Deadpool & Wolverine\")\" Stage Video",
       "description": "Stray Kids(스트레이 키즈) World Tour ＜RUN IT SEOUL＞ \"SLASH (From \"Deadpool & Wolverine\")\" Stage Video\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That R",
-      "thumbnail": "https://i.ytimg.com/vi/55SGehW68yU/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/55SGehW68yU/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/55SGehW68yU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/55SGehW68yU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/55SGehW68yU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/55SGehW68yU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/55SGehW68yU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-05T11:00:11.000Z",
       "url": "https://www.youtube.com/watch?v=55SGehW68yU",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "performance"
     },
     {
@@ -152,12 +350,44 @@
       },
       "title": "Stray Kids World Tour ＜RUN IT SEOUL＞ \"RUN IT\" Stage Video",
       "description": "Stray Kids(스트레이 키즈) World Tour ＜RUN IT SEOUL＞ \"RUN IT\" Stage Video\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" now➡️\nhttps://Stray-",
-      "thumbnail": "https://i.ytimg.com/vi/afNxnQ-MBQc/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/afNxnQ-MBQc/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/afNxnQ-MBQc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/afNxnQ-MBQc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/afNxnQ-MBQc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/afNxnQ-MBQc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/afNxnQ-MBQc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-05T11:00:03.000Z",
       "url": "https://www.youtube.com/watch?v=afNxnQ-MBQc",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "performance"
     },
     {
@@ -174,12 +404,44 @@
       },
       "title": "🐺🕺 #StrayKids #스트레이키즈 #방찬 #BangChan #YouMakeStrayKidsStay",
       "description": "🐺🕺 #StrayKids #스트레이키즈 #방찬 #BangChan #YouMakeStrayKidsStay\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" now➡️\nhttps://Stray-Kids.ln",
-      "thumbnail": "https://i.ytimg.com/vi/FqXhR2res8U/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/FqXhR2res8U/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/FqXhR2res8U/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/FqXhR2res8U/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/FqXhR2res8U/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/FqXhR2res8U/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/FqXhR2res8U/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-05T09:00:02.000Z",
       "url": "https://www.youtube.com/watch?v=FqXhR2res8U",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -196,12 +458,44 @@
       },
       "title": "🐺's birthday🍍 #StrayKids #스트레이키즈 #방찬 #BangChan #HappyBangChanDay #YouMakeStrayKidsStay",
       "description": "🐺's birthday🍍 #StrayKids #스트레이키즈 #방찬 #BangChan #HappyBangChanDay #YouMakeStrayKidsStay  \n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixe",
-      "thumbnail": "https://i.ytimg.com/vi/Vtsrj3YvYB0/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/Vtsrj3YvYB0/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Vtsrj3YvYB0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Vtsrj3YvYB0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Vtsrj3YvYB0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Vtsrj3YvYB0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Vtsrj3YvYB0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-03T09:09:03.000Z",
       "url": "https://www.youtube.com/watch?v=Vtsrj3YvYB0",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -218,12 +512,44 @@
       },
       "title": "1003",
       "description": "1003\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" now➡️\nhttps://Stray-Kids.lnk.to/THAT_REMIXES \n\nStray Kids \"THIS & THAT\"\niTunes & A",
-      "thumbnail": "https://i.ytimg.com/vi/6k8qzF3EiwQ/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/6k8qzF3EiwQ/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/6k8qzF3EiwQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/6k8qzF3EiwQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/6k8qzF3EiwQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/6k8qzF3EiwQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/6k8qzF3EiwQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-03T07:45:39.000Z",
       "url": "https://www.youtube.com/watch?v=6k8qzF3EiwQ",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -240,12 +566,44 @@
       },
       "title": "감옥에서 계속 돌아오는 돼끼 #StrayKids #스트레이키즈 #스키즈코드 #SKZCODE #K발라더이용복 #KBalladeerLeeYongbok",
       "description": "감옥에서 계속 돌아오는 돼끼 #StrayKids #스트레이키즈 #스키즈코드 #SKZCODE #K발라더이용복 #KBalladeerLeeYongbok  \n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" now",
-      "thumbnail": "https://i.ytimg.com/vi/xu5IZXodAOM/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/xu5IZXodAOM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/xu5IZXodAOM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/xu5IZXodAOM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/xu5IZXodAOM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/xu5IZXodAOM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/xu5IZXodAOM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-02T05:00:02.000Z",
       "url": "https://www.youtube.com/watch?v=xu5IZXodAOM",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -262,12 +620,44 @@
       },
       "title": "K-발라더 이용복 (K-Balladeer Lee Yongbok) #2｜[SKZ CODE] Ep.105",
       "description": "K-발라더 이용복 (K-Balladeer Lee Yongbok) #2｜[SKZ CODE(스키즈 코드)] Ep.105\n\n✨ English, Japanese, Chinese, Spanish, Indonesian & Thai subtitles are available!\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids",
-      "thumbnail": "https://i.ytimg.com/vi/YrgmwBU8f_U/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/YrgmwBU8f_U/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/YrgmwBU8f_U/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/YrgmwBU8f_U/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/YrgmwBU8f_U/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/YrgmwBU8f_U/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/YrgmwBU8f_U/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-01T10:59:58.000Z",
       "url": "https://www.youtube.com/watch?v=YrgmwBU8f_U",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -284,12 +674,44 @@
       },
       "title": "[Stray Kids : SKZ-TALKER GO! Season 6] Ep.01 SEOUL",
       "description": "[Stray Kids(스트레이 키즈) : SKZ-TALKER GO! Season 6 (슼즈토커 고! 시즌 6)] Ep.01 SEOUL\n\n✨ English, Japanese, Chinese, Spanish, Indonesian & Thai subtitles are available!\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://",
-      "thumbnail": "https://i.ytimg.com/vi/xLw1XyrE-xg/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/xLw1XyrE-xg/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/xLw1XyrE-xg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/xLw1XyrE-xg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/xLw1XyrE-xg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/xLw1XyrE-xg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/xLw1XyrE-xg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-30T11:01:49.000Z",
       "url": "https://www.youtube.com/watch?v=xLw1XyrE-xg",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -306,12 +728,44 @@
       },
       "title": "#STRAYCITY in #MexicoCity Recap✨ 함께 만들어 낸 열기 가득한 현장❤️‍🔥 #StrayKids #스트레이키즈 #YouMakeStrayKidsStay",
       "description": "#STRAYCITY in #MexicoCity Recap✨ 함께 만들어 낸 열기 가득한 현장❤️‍🔥 #StrayKids #스트레이키즈 #YouMakeStrayKidsStay  \n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (Th",
-      "thumbnail": "https://i.ytimg.com/vi/cZKD5hh2wKE/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/cZKD5hh2wKE/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/cZKD5hh2wKE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/cZKD5hh2wKE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/cZKD5hh2wKE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/cZKD5hh2wKE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/cZKD5hh2wKE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-28T13:00:03.000Z",
       "url": "https://www.youtube.com/watch?v=cZKD5hh2wKE",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -328,12 +782,44 @@
       },
       "title": "108배도 하고 하체운동도 하고 #StrayKids #스트레이키즈 #리노 #LeeKnow #kNOw맘대로 #ThekNOwWay #YouMakeStrayKidsStay",
       "description": "108배도 하고 하체운동도 하고 #StrayKids #스트레이키즈 #리노 #LeeKnow #kNOw맘대로 #ThekNOwWay #YouMakeStrayKidsStay  \n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Re",
-      "thumbnail": "https://i.ytimg.com/vi/dWGF-mWhrUw/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/dWGF-mWhrUw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/dWGF-mWhrUw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/dWGF-mWhrUw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/dWGF-mWhrUw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/dWGF-mWhrUw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/dWGF-mWhrUw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-27T08:00:03.000Z",
       "url": "https://www.youtube.com/watch?v=dWGF-mWhrUw",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -350,12 +836,44 @@
       },
       "title": "어제에 이어 오늘도 큰 환호와 함성으로 맞아줘서 고마워요! 🥰",
       "description": "어제에 이어 오늘도 큰 환호와 함성으로 맞아줘서 고마워요! 🥰\nThank you for all the love and cheers tonight! Another night to remember 🩷\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"Thi",
-      "thumbnail": "https://i.ytimg.com/vi/xm7Og_qs0GA/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/xm7Og_qs0GA/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/xm7Og_qs0GA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/xm7Og_qs0GA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/xm7Og_qs0GA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/xm7Og_qs0GA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/xm7Og_qs0GA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-27T07:21:33.000Z",
       "url": "https://www.youtube.com/watch?v=xm7Og_qs0GA",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -372,12 +890,44 @@
       },
       "title": "어제에 이어 오늘도 큰 환호와 함성으로 맞아줘서 고마워요! 🥰",
       "description": "어제에 이어 오늘도 큰 환호와 함성으로 맞아줘서 고마워요! 🥰\nThank you for all the love and cheers tonight! Another night to remember 🩷\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"Thi",
-      "thumbnail": "https://i.ytimg.com/vi/gRYaIEcikWI/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/gRYaIEcikWI/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/gRYaIEcikWI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/gRYaIEcikWI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/gRYaIEcikWI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/gRYaIEcikWI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/gRYaIEcikWI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-27T07:20:52.000Z",
       "url": "https://www.youtube.com/watch?v=gRYaIEcikWI",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -394,12 +944,44 @@
       },
       "title": "어제에 이어 오늘도 큰 환호와 함성으로 맞아줘서 고마워요! 🥰",
       "description": "어제에 이어 오늘도 큰 환호와 함성으로 맞아줘서 고마워요! 🥰\nThank you for all the love and cheers tonight! Another night to remember 🩷\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"Thi",
-      "thumbnail": "https://i.ytimg.com/vi/L8YHH_Gm7Ew/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/L8YHH_Gm7Ew/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/L8YHH_Gm7Ew/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/L8YHH_Gm7Ew/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/L8YHH_Gm7Ew/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/L8YHH_Gm7Ew/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/L8YHH_Gm7Ew/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-27T07:20:18.000Z",
       "url": "https://www.youtube.com/watch?v=L8YHH_Gm7Ew",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -416,12 +998,44 @@
       },
       "title": "어제에 이어 오늘도 큰 환호와 함성으로 맞아줘서 고마워요!🥰",
       "description": "어제에 이어 오늘도 큰 환호와 함성으로 맞아줘서 고마워요!🥰\nThank you for all the love and cheers tonight! Another night to remember🩷\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This ",
-      "thumbnail": "https://i.ytimg.com/vi/gSTuP5jR-8U/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/gSTuP5jR-8U/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/gSTuP5jR-8U/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/gSTuP5jR-8U/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/gSTuP5jR-8U/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/gSTuP5jR-8U/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/gSTuP5jR-8U/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-27T07:19:16.000Z",
       "url": "https://www.youtube.com/watch?v=gSTuP5jR-8U",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -438,12 +1052,44 @@
       },
       "title": "STRAYCITY 멕시코시티 첫 공연, 뜨거운 환호 보내줘서 고마워요!",
       "description": "STRAYCITY 멕시코시티 첫 공연, 뜨거운 환호 보내줘서 고마워요! 내일도 기대할게요!😉\nWhat an energy at our first STRAYCITY show in Mexico City! See you again tomorrow!❤️\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/TH",
-      "thumbnail": "https://i.ytimg.com/vi/TRdmk6VZqIo/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/TRdmk6VZqIo/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/TRdmk6VZqIo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/TRdmk6VZqIo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/TRdmk6VZqIo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/TRdmk6VZqIo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/TRdmk6VZqIo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-26T06:15:57.000Z",
       "url": "https://www.youtube.com/watch?v=TRdmk6VZqIo",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -460,12 +1106,44 @@
       },
       "title": "STRAYCITY 멕시코시티 첫 공연, 뜨거운 환호 보내줘서 고마워요!",
       "description": "STRAYCITY 멕시코시티 첫 공연, 뜨거운 환호 보내줘서 고마워요! 내일도 기대할게요!😉\nWhat an energy at our first STRAYCITY show in Mexico City! See you again tomorrow!❤️\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/TH",
-      "thumbnail": "https://i.ytimg.com/vi/kCuAERWz90M/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/kCuAERWz90M/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/kCuAERWz90M/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/kCuAERWz90M/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/kCuAERWz90M/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/kCuAERWz90M/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/kCuAERWz90M/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-26T06:14:53.000Z",
       "url": "https://www.youtube.com/watch?v=kCuAERWz90M",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -482,12 +1160,44 @@
       },
       "title": "STRAYCITY 멕시코시티 첫 공연, 뜨거운 환호 보내줘서 고마워요!",
       "description": "STRAYCITY 멕시코시티 첫 공연, 뜨거운 환호 보내줘서 고마워요! 내일도 기대할게요!😉\nWhat an energy at our first STRAYCITY show in Mexico City! See you again tomorrow!❤️\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/TH",
-      "thumbnail": "https://i.ytimg.com/vi/MMxk8bLCiyg/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/MMxk8bLCiyg/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/MMxk8bLCiyg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/MMxk8bLCiyg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/MMxk8bLCiyg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/MMxk8bLCiyg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/MMxk8bLCiyg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-26T06:12:10.000Z",
       "url": "https://www.youtube.com/watch?v=MMxk8bLCiyg",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -504,12 +1214,44 @@
       },
       "title": "STRAYCITY 멕시코시티 첫 공연, 뜨거운 환호 보내줘서 고마워요!",
       "description": "STRAYCITY 멕시코시티 첫 공연, 뜨거운 환호 보내줘서 고마워요! 내일도 기대할게요!😉\nWhat an energy at our first STRAYCITY show in Mexico City! See you again tomorrow!❤️\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/TH",
-      "thumbnail": "https://i.ytimg.com/vi/wDDoNWYrTDc/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/wDDoNWYrTDc/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/wDDoNWYrTDc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/wDDoNWYrTDc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/wDDoNWYrTDc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/wDDoNWYrTDc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/wDDoNWYrTDc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-26T06:08:48.000Z",
       "url": "https://www.youtube.com/watch?v=wDDoNWYrTDc",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -526,12 +1268,44 @@
       },
       "title": "[kNOw맘대로(The kNOw Way)] Ep.08",
       "description": "[kNOw맘대로(The kNOw Way)] Ep.08\n\n✨ English, Japanese, Chinese, Spanish, Indonesian & Thai subtitles are available!\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"Th",
-      "thumbnail": "https://i.ytimg.com/vi/eBQSBINoQdo/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/eBQSBINoQdo/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/eBQSBINoQdo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/eBQSBINoQdo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/eBQSBINoQdo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/eBQSBINoQdo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/eBQSBINoQdo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-26T02:59:57.000Z",
       "url": "https://www.youtube.com/watch?v=eBQSBINoQdo",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -548,12 +1322,44 @@
       },
       "title": "𝓨𝓸𝓾는 선물입니다 𝓗𝓮𝓪𝓿𝓮𝓷이 내려준🤘 #StrayKids #스트레이키즈 #스키즈코드 #SKZCODE #K발라더이용복 #KBalladeerLeeYongbok",
       "description": "𝓨𝓸𝓾는 선물입니다 𝓗𝓮𝓪𝓿𝓮𝓷이 내려준🤘 #StrayKids #스트레이키즈 #스키즈코드 #SKZCODE #K발라더이용복 #KBalladeerLeeYongbok  \n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (",
-      "thumbnail": "https://i.ytimg.com/vi/bJfhr0zp7y0/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/bJfhr0zp7y0/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/bJfhr0zp7y0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/bJfhr0zp7y0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/bJfhr0zp7y0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/bJfhr0zp7y0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/bJfhr0zp7y0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-25T06:00:02.000Z",
       "url": "https://www.youtube.com/watch?v=bJfhr0zp7y0",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -570,12 +1376,44 @@
       },
       "title": "K-발라더 이용복 (K-Balladeer Lee Yongbok) #1｜[SKZ CODE] Ep.104",
       "description": "K-발라더 이용복 (K-Balladeer Lee Yongbok) #1｜[SKZ CODE(스키즈 코드)] Ep.104\n\n✨ English, Japanese, Chinese, Spanish, Indonesian & Thai subtitles are available!\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids",
-      "thumbnail": "https://i.ytimg.com/vi/N4XSxBgz1Ek/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/N4XSxBgz1Ek/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/N4XSxBgz1Ek/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/N4XSxBgz1Ek/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/N4XSxBgz1Ek/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/N4XSxBgz1Ek/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/N4XSxBgz1Ek/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-24T10:59:56.000Z",
       "url": "https://www.youtube.com/watch?v=N4XSxBgz1Ek",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -592,12 +1430,44 @@
       },
       "title": "Stray Kids가 빚어 본 웃음 가득 송편! 즐거운 한가위 보내세요🧡",
       "description": "Stray Kids(스트레이 키즈)가 빚어 본 웃음 가득 송편! 즐거운 한가위 보내세요🧡\n\n✨ English, Japanese, Chinese, Spanish, Indonesian & Thai subtitles are available!\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_R",
-      "thumbnail": "https://i.ytimg.com/vi/cujTJHsSqZg/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/cujTJHsSqZg/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/cujTJHsSqZg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/cujTJHsSqZg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/cujTJHsSqZg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/cujTJHsSqZg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/cujTJHsSqZg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-24T04:59:55.000Z",
       "url": "https://www.youtube.com/watch?v=cujTJHsSqZg",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -614,12 +1484,44 @@
       },
       "title": "[SKZ VLOG] Seungmin : Mini's minilog 8",
       "description": "[SKZ VLOG] 승민(Seungmin) : Mini's minilog 8\n\n✨ English, Japanese, Chinese, Spanish, Indonesian & Thai subtitles are available!\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\n",
-      "thumbnail": "https://i.ytimg.com/vi/D-KJo9ew25A/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/D-KJo9ew25A/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/D-KJo9ew25A/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/D-KJo9ew25A/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/D-KJo9ew25A/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/D-KJo9ew25A/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/D-KJo9ew25A/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-22T10:59:56.000Z",
       "url": "https://www.youtube.com/watch?v=D-KJo9ew25A",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -636,12 +1538,44 @@
       },
       "title": "🐶's birthday🎶 #StrayKids #스트레이키즈 #승민 #Seungmin #HappySeungminDay #YouMakeStrayKidsStay",
       "description": "🐶's birthday🎶 #StrayKids #스트레이키즈 #승민 #Seungmin #HappySeungminDay #YouMakeStrayKidsStay\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)",
-      "thumbnail": "https://i.ytimg.com/vi/eALaZavqFk8/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/eALaZavqFk8/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/eALaZavqFk8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/eALaZavqFk8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/eALaZavqFk8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/eALaZavqFk8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/eALaZavqFk8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-22T06:40:01.000Z",
       "url": "https://www.youtube.com/watch?v=eALaZavqFk8",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -658,12 +1592,44 @@
       },
       "title": "생일이땨🐾🐶",
       "description": "생일이땨🐾🐶\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" now➡️\nhttps://Stray-Kids.lnk.to/THAT_REMIXES \n\nStray Kids \"THIS & THAT\"\niTunes",
-      "thumbnail": "https://i.ytimg.com/vi/pwDjrvGy5hk/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/pwDjrvGy5hk/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/pwDjrvGy5hk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/pwDjrvGy5hk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/pwDjrvGy5hk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/pwDjrvGy5hk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/pwDjrvGy5hk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-22T06:38:56.000Z",
       "url": "https://www.youtube.com/watch?v=pwDjrvGy5hk",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -680,12 +1646,44 @@
       },
       "title": "Stray Kids World Tour ＜RUN IT SEOUL＞",
       "description": "Stray Kids(스트레이 키즈) World Tour ＜RUN IT SEOUL＞\n\nStray Kids World Tour ＜RUN IT＞ continues, with more stops coming soon ✨\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen ",
-      "thumbnail": "https://i.ytimg.com/vi/BL5RBogL9CE/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/BL5RBogL9CE/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/BL5RBogL9CE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/BL5RBogL9CE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/BL5RBogL9CE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/BL5RBogL9CE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/BL5RBogL9CE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-21T12:00:01.000Z",
       "url": "https://www.youtube.com/watch?v=BL5RBogL9CE",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -702,12 +1700,44 @@
       },
       "title": "Felix \"다시 사랑한다 말할까\" Cover (원곡 : 김동률) | [Stray Kids : SKZ-RECORD]",
       "description": "필릭스(Felix) \"다시 사랑한다 말할까\" Cover (원곡 : 김동률) | [Stray Kids(스트레이 키즈) : SKZ-RECORD(슼즈 레코드)]\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" ",
-      "thumbnail": "https://i.ytimg.com/vi/uvcpylgYDSU/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/uvcpylgYDSU/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/uvcpylgYDSU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/uvcpylgYDSU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/uvcpylgYDSU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/uvcpylgYDSU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/uvcpylgYDSU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-20T12:59:58.000Z",
       "url": "https://www.youtube.com/watch?v=uvcpylgYDSU",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -724,12 +1754,44 @@
       },
       "title": "0915 생일 라이브 🐱💙",
       "description": "0915 생일 라이브 🐱💙\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" now➡️\nhttps://Stray-Kids.lnk.to/THAT_REMIXES \n\nStray Kids \"THIS & THAT",
-      "thumbnail": "https://i.ytimg.com/vi/L4GZQTOfdHM/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/L4GZQTOfdHM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/L4GZQTOfdHM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/L4GZQTOfdHM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/L4GZQTOfdHM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/L4GZQTOfdHM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/L4GZQTOfdHM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-19T07:30:08.000Z",
       "url": "https://www.youtube.com/watch?v=L4GZQTOfdHM",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -746,12 +1808,44 @@
       },
       "title": "저희 바보라차 아니에요 #StrayKids #스트레이키즈 #YouMakeStrayKidsStay",
       "description": "저희 바보라차 아니에요 #StrayKids #스트레이키즈 #YouMakeStrayKidsStay  \n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" now➡️\nhttps://Stray-Kids.lnk.to",
-      "thumbnail": "https://i.ytimg.com/vi/kV1jpUjXGmM/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/kV1jpUjXGmM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/kV1jpUjXGmM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/kV1jpUjXGmM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/kV1jpUjXGmM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/kV1jpUjXGmM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/kV1jpUjXGmM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-18T11:00:05.000Z",
       "url": "https://www.youtube.com/watch?v=kV1jpUjXGmM",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -768,12 +1862,44 @@
       },
       "title": "돼끼 살려!!! #StrayKids #스트레이키즈 #스키즈코드 #SKZCODE #스키지컬8 #SKZ_ical8",
       "description": "돼끼 살려!!! #StrayKids #스트레이키즈 #스키즈코드 #SKZCODE #스키지컬8 #SKZ_ical8  \n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" now➡️\nhttps://Stray-Kid",
-      "thumbnail": "https://i.ytimg.com/vi/Bzfl9x3JiBc/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/Bzfl9x3JiBc/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Bzfl9x3JiBc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Bzfl9x3JiBc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Bzfl9x3JiBc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Bzfl9x3JiBc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Bzfl9x3JiBc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-18T03:00:01.000Z",
       "url": "https://www.youtube.com/watch?v=Bzfl9x3JiBc",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -790,12 +1916,44 @@
       },
       "title": "스키지컬: 8 (SKZ-ical: 8)｜[SKZ CODE] Ep.103",
       "description": "스키지컬: 8 (SKZ-ical: 8)｜[SKZ CODE(스키즈 코드)] Ep.103\n\n✨ English, Japanese, Chinese, Spanish, Indonesian & Thai subtitles are available!\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMI",
-      "thumbnail": "https://i.ytimg.com/vi/tw7iHpr3Nls/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/tw7iHpr3Nls/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/tw7iHpr3Nls/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/tw7iHpr3Nls/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/tw7iHpr3Nls/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/tw7iHpr3Nls/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/tw7iHpr3Nls/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-17T10:59:56.000Z",
       "url": "https://www.youtube.com/watch?v=tw7iHpr3Nls",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -812,12 +1970,44 @@
       },
       "title": "Stray Kids ＜Rock in Rio 2026＞",
       "description": "Stray Kids(스트레이 키즈) ＜Rock in Rio 2026＞\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" now➡️\nhttps://Stray-Kids.lnk.to/THAT_REMIXES \n\nS",
-      "thumbnail": "https://i.ytimg.com/vi/X7IZNXesuFM/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/X7IZNXesuFM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/X7IZNXesuFM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/X7IZNXesuFM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/X7IZNXesuFM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/X7IZNXesuFM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/X7IZNXesuFM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-17T08:00:01.000Z",
       "url": "https://www.youtube.com/watch?v=X7IZNXesuFM",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -834,12 +2024,44 @@
       },
       "title": "#STRAYCITY in #BuenosAires Recap🌟 STRAYCITY는 계속됩니다🤍 #StrayKids #스트레이키즈 #YouMakeStrayKidsStay",
       "description": "#STRAYCITY in #BuenosAires Recap🌟 STRAYCITY는 계속됩니다🤍 #StrayKids #스트레이키즈 #YouMakeStrayKidsStay  \n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That ",
-      "thumbnail": "https://i.ytimg.com/vi/qjkCFYkyPaA/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/qjkCFYkyPaA/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/qjkCFYkyPaA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/qjkCFYkyPaA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/qjkCFYkyPaA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/qjkCFYkyPaA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/qjkCFYkyPaA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-16T13:00:04.000Z",
       "url": "https://www.youtube.com/watch?v=qjkCFYkyPaA",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -856,12 +2078,44 @@
       },
       "title": "스테이 오늘도 와줘서 고마워요, 우리 또 만나요!",
       "description": "스테이 오늘도 와줘서 고마워요, 우리 또 만나요!\nSTAY, thank you for coming today! Let’s meet again! 🩵\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" now➡",
-      "thumbnail": "https://i.ytimg.com/vi/dQwvPfLhsYY/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/dQwvPfLhsYY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/dQwvPfLhsYY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/dQwvPfLhsYY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/dQwvPfLhsYY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/dQwvPfLhsYY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/dQwvPfLhsYY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-16T03:01:33.000Z",
       "url": "https://www.youtube.com/watch?v=dQwvPfLhsYY",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -878,12 +2132,44 @@
       },
       "title": "스테이 오늘도 와줘서 고마워요, 우리 또 만나요!",
       "description": "스테이 오늘도 와줘서 고마워요, 우리 또 만나요!\nSTAY, thank you for coming today! Let’s meet again! 🩵\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" now➡",
-      "thumbnail": "https://i.ytimg.com/vi/vcYchinrM4U/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/vcYchinrM4U/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/vcYchinrM4U/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/vcYchinrM4U/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/vcYchinrM4U/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/vcYchinrM4U/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/vcYchinrM4U/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-16T03:00:56.000Z",
       "url": "https://www.youtube.com/watch?v=vcYchinrM4U",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -900,12 +2186,44 @@
       },
       "title": "스테이 오늘도 와줘서 고마워요, 우리 또 만나요!",
       "description": "스테이 오늘도 와줘서 고마워요, 우리 또 만나요!\nSTAY, thank you for coming today! Let’s meet again! 🩵\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" now➡",
-      "thumbnail": "https://i.ytimg.com/vi/6rBTa9BoVfM/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/6rBTa9BoVfM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/6rBTa9BoVfM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/6rBTa9BoVfM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/6rBTa9BoVfM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/6rBTa9BoVfM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/6rBTa9BoVfM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-16T02:58:27.000Z",
       "url": "https://www.youtube.com/watch?v=6rBTa9BoVfM",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -922,12 +2240,44 @@
       },
       "title": "🐥's birthday🎮 #StrayKids #스트레이키즈 #필릭스 #Felix #HappyFelixDay #YouMakeStrayKidsStay",
       "description": "🐥's birthday🎮 #StrayKids #스트레이키즈 #필릭스 #Felix #HappyFelixDay #YouMakeStrayKidsStay  \n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" n",
-      "thumbnail": "https://i.ytimg.com/vi/v9AO968SbjQ/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/v9AO968SbjQ/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/v9AO968SbjQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/v9AO968SbjQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/v9AO968SbjQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/v9AO968SbjQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/v9AO968SbjQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-15T11:00:04.000Z",
       "url": "https://www.youtube.com/watch?v=v9AO968SbjQ",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -944,12 +2294,44 @@
       },
       "title": "STRAYCITY 두 번째 도시, 부에노스아이레스 첫 공연 즐겁게 즐겨준 스테이 고마워요!",
       "description": "STRAYCITY 두 번째 도시, 부에노스아이레스 첫 공연 즐겁게 즐겨준 스테이 고마워요! 스테이 덕분에 공연장의 열기가 훅 뜨거워진 것 같아서 저희도 더 신나게 즐길 수 있었어요!💪\nSTRAYCITY’s second city, Buenos Aires! Thank you STAY, for making our first show here so much fun!🥹\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen",
-      "thumbnail": "https://i.ytimg.com/vi/iKejxdXqOE8/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/iKejxdXqOE8/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/iKejxdXqOE8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/iKejxdXqOE8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/iKejxdXqOE8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/iKejxdXqOE8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/iKejxdXqOE8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-15T03:03:27.000Z",
       "url": "https://www.youtube.com/watch?v=iKejxdXqOE8",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -966,12 +2348,44 @@
       },
       "title": "STRAYCITY 두 번째 도시, 부에노스아이레스 첫 공연 즐겁게 즐겨준 스테이 고마워요!",
       "description": "STRAYCITY 두 번째 도시, 부에노스아이레스 첫 공연 즐겁게 즐겨준 스테이 고마워요! 스테이 덕분에 공연장의 열기가 훅 뜨거워진 것 같아서 저희도 더 신나게 즐길 수 있었어요!💪\nSTRAYCITY’s second city, Buenos Aires! Thank you STAY, for making our first show here so much fun!🥹\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen",
-      "thumbnail": "https://i.ytimg.com/vi/6z9DZyXdw1U/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/6z9DZyXdw1U/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/6z9DZyXdw1U/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/6z9DZyXdw1U/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/6z9DZyXdw1U/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/6z9DZyXdw1U/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/6z9DZyXdw1U/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-15T03:02:46.000Z",
       "url": "https://www.youtube.com/watch?v=6z9DZyXdw1U",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -988,12 +2402,44 @@
       },
       "title": "STRAYCITY 두 번째 도시, 부에노스아이레스 첫 공연 즐겁게 즐겨준 스테이 고마워요!",
       "description": "STRAYCITY 두 번째 도시, 부에노스아이레스 첫 공연 즐겁게 즐겨준 스테이 고마워요! 스테이 덕분에 공연장의 열기가 훅 뜨거워진 것 같아서 저희도 더 신나게 즐길 수 있었어요!💪\nSTRAYCITY’s second city, Buenos Aires! Thank you STAY, for making our first show here so much fun!🥹\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen",
-      "thumbnail": "https://i.ytimg.com/vi/3OVspPZFLEo/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/3OVspPZFLEo/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/3OVspPZFLEo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/3OVspPZFLEo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/3OVspPZFLEo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/3OVspPZFLEo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/3OVspPZFLEo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-15T03:02:01.000Z",
       "url": "https://www.youtube.com/watch?v=3OVspPZFLEo",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -1010,12 +2456,44 @@
       },
       "title": "HAPPY BIRTHDAY TO ME",
       "description": "HAPPY BIRTHDAY TO ME\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" now➡️\nhttps://Stray-Kids.lnk.to/THAT_REMIXES \n\nStray Kids \"THIS & ",
-      "thumbnail": "https://i.ytimg.com/vi/pokGgdy7lWE/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/pokGgdy7lWE/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/pokGgdy7lWE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/pokGgdy7lWE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/pokGgdy7lWE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/pokGgdy7lWE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/pokGgdy7lWE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-14T19:55:39.000Z",
       "url": "https://www.youtube.com/watch?v=pokGgdy7lWE",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -1032,12 +2510,44 @@
       },
       "title": "🐿️'s birthday🦎 #StrayKids #스트레이키즈 #한 #HAN #HappyHANDay #YouMakeStrayKidsStay",
       "description": "🐿️'s birthday🦎 #StrayKids #스트레이키즈 #한 #HAN #HappyHANDay #YouMakeStrayKidsStay  \n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" now➡️\n",
-      "thumbnail": "https://i.ytimg.com/vi/wuotD1LAlUk/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/wuotD1LAlUk/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/wuotD1LAlUk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/wuotD1LAlUk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/wuotD1LAlUk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/wuotD1LAlUk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/wuotD1LAlUk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-14T11:00:09.000Z",
       "url": "https://www.youtube.com/watch?v=wuotD1LAlUk",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -1054,12 +2564,44 @@
       },
       "title": "#RockinRio2026 Recap🎸 이 에너지 그대로 다음 무대로💖 #StrayKids #스트레이키즈 #YouMakeStrayKidsStay",
       "description": "#RockinRio2026 Recap🎸 이 에너지 그대로 다음 무대로💖 #StrayKids #스트레이키즈 #YouMakeStrayKidsStay  \n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" no",
-      "thumbnail": "https://i.ytimg.com/vi/cQu_h27Hatc/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/cQu_h27Hatc/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/cQu_h27Hatc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/cQu_h27Hatc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/cQu_h27Hatc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/cQu_h27Hatc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/cQu_h27Hatc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-13T13:00:03.000Z",
       "url": "https://www.youtube.com/watch?v=cQu_h27Hatc",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -1076,12 +2618,44 @@
       },
       "title": "둠칫🐷🐰둠칫🐥 #StrayKids #스트레이키즈 #창빈 #Changbin #필릭스 #Felix #YouMakeStrayKidsStay",
       "description": "둠칫🐷🐰둠칫🐥 #StrayKids #스트레이키즈 #창빈 #Changbin #필릭스 #Felix #YouMakeStrayKidsStay    \n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" now➡️",
-      "thumbnail": "https://i.ytimg.com/vi/BFfu3rRvw2w/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/BFfu3rRvw2w/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/BFfu3rRvw2w/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/BFfu3rRvw2w/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/BFfu3rRvw2w/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/BFfu3rRvw2w/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/BFfu3rRvw2w/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-13T11:00:01.000Z",
       "url": "https://www.youtube.com/watch?v=BFfu3rRvw2w",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     },
     {
@@ -1098,12 +2672,44 @@
       },
       "title": "Life with clingy Seungmin #StrayKids #스트레이키즈 #승민 #Seungmin #YouMakeStrayKidsStay",
       "description": "Life with clingy Seungmin #StrayKids #스트레이키즈 #승민 #Seungmin #YouMakeStrayKidsStay  \n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" now➡",
-      "thumbnail": "https://i.ytimg.com/vi/49_Nh9FTIAM/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/49_Nh9FTIAM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/49_Nh9FTIAM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/49_Nh9FTIAM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/49_Nh9FTIAM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/49_Nh9FTIAM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/49_Nh9FTIAM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-12T11:00:10.000Z",
       "url": "https://www.youtube.com/watch?v=49_Nh9FTIAM",
-      "fetchedAt": "2026-10-14T13:10:33.131Z",
+      "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:33.131Z",
+      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
       "type": "other"
     }
   ]

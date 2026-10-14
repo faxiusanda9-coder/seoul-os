@@ -1,10 +1,10 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "channelId": "UCJzd6hPg7Iz35SkBNzAjjWQ",
   "uploadsPlaylistId": "UUJzd6hPg7Iz35SkBNzAjjWQ",
   "artistId": "jy-park",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-14T13:26:12.350Z",
+  "fetchedAt": "2026-10-14T16:52:39.465Z",
   "items": [
     {
       "id": "yt-6bS9U1Lvnwk",
@@ -20,12 +20,44 @@
       },
       "title": "We will keep on supporting the young dreams of Mexico.",
       "description": "Thank you for the support. We will keep on supporting the young dreams of Mexico.\nSpecial thanks to Paola Barquet, for the kind words and support.",
-      "thumbnail": "https://i.ytimg.com/vi/6bS9U1Lvnwk/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/6bS9U1Lvnwk/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/6bS9U1Lvnwk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/6bS9U1Lvnwk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/6bS9U1Lvnwk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/6bS9U1Lvnwk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/6bS9U1Lvnwk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-29T13:40:37.000Z",
       "url": "https://www.youtube.com/watch?v=6bS9U1Lvnwk",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -42,12 +74,44 @@
       },
       "title": "WET challenge with #추성훈 ⛱️🌊",
       "description": "#JYPark #박진영\n#WET\n@Choosunghoon_ajossi",
-      "thumbnail": "https://i.ytimg.com/vi/qBTaN0KIio0/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/qBTaN0KIio0/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/qBTaN0KIio0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/qBTaN0KIio0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/qBTaN0KIio0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/qBTaN0KIio0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/qBTaN0KIio0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-06T11:00:29.000Z",
       "url": "https://www.youtube.com/watch?v=qBTaN0KIio0",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -64,12 +128,44 @@
       },
       "title": "WET challenge with #YoungK🚪",
       "description": "#JYPark #박진영\n#WET\n#영케이\n@D@DAY6Official",
-      "thumbnail": "https://i.ytimg.com/vi/AtW_bfB-4WA/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/AtW_bfB-4WA/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/AtW_bfB-4WA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/AtW_bfB-4WA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/AtW_bfB-4WA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/AtW_bfB-4WA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/AtW_bfB-4WA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-03T10:00:11.000Z",
       "url": "https://www.youtube.com/watch?v=AtW_bfB-4WA",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -86,12 +182,44 @@
       },
       "title": "WET challenge with #MODYSSEY 💫",
       "description": "#JYPark #박진영\n#WET \n#모디세이 \n#LIZIHAO #리즈하오\n#SUREN #수런 \n@MODYSSEY.Official",
-      "thumbnail": "https://i.ytimg.com/vi/MKu4Sn7U6xs/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/MKu4Sn7U6xs/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/MKu4Sn7U6xs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/MKu4Sn7U6xs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/MKu4Sn7U6xs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/MKu4Sn7U6xs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/MKu4Sn7U6xs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-02T03:00:40.000Z",
       "url": "https://www.youtube.com/watch?v=MKu4Sn7U6xs",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -108,12 +236,44 @@
       },
       "title": "WET challenge with #유노윤호 ❤️‍🔥",
       "description": "#JYPark #박진영\n#WET\n#UKNOW \n@TVXQ",
-      "thumbnail": "https://i.ytimg.com/vi/FAfBWPTRS0A/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/FAfBWPTRS0A/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/FAfBWPTRS0A/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/FAfBWPTRS0A/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/FAfBWPTRS0A/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/FAfBWPTRS0A/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/FAfBWPTRS0A/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-29T04:00:36.000Z",
       "url": "https://www.youtube.com/watch?v=FAfBWPTRS0A",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -130,12 +290,44 @@
       },
       "title": "WET challenge with #박은영 셰프님 🍽️👩‍🍳",
       "description": "#JYPark #박진영\n#WET",
-      "thumbnail": "https://i.ytimg.com/vi/QzaY3MVuQGw/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/QzaY3MVuQGw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/QzaY3MVuQGw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/QzaY3MVuQGw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/QzaY3MVuQGw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/QzaY3MVuQGw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/QzaY3MVuQGw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-28T14:00:08.000Z",
       "url": "https://www.youtube.com/watch?v=QzaY3MVuQGw",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -152,12 +344,44 @@
       },
       "title": "WET challenge with #김아영 ✨🍃",
       "description": "착하고 예쁘고 씩씩한 아영님 넘 즐거웠어요!\n“베니스의 상인” 화이팅💛\n\n#JYPark #박진영\n#WET \n@aoung__",
-      "thumbnail": "https://i.ytimg.com/vi/roXX1yiZ6I8/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/roXX1yiZ6I8/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/roXX1yiZ6I8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/roXX1yiZ6I8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/roXX1yiZ6I8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/roXX1yiZ6I8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/roXX1yiZ6I8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-26T05:00:30.000Z",
       "url": "https://www.youtube.com/watch?v=roXX1yiZ6I8",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -174,12 +398,44 @@
       },
       "title": "WET challenge with #KickFlip #Kyehoon💙",
       "description": "#JYPark #박진영\n#WET @kickflip_jype",
-      "thumbnail": "https://i.ytimg.com/vi/mz1sECo_LyE/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/mz1sECo_LyE/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/mz1sECo_LyE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/mz1sECo_LyE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/mz1sECo_LyE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/mz1sECo_LyE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/mz1sECo_LyE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-25T09:00:32.000Z",
       "url": "https://www.youtube.com/watch?v=mz1sECo_LyE",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -196,12 +452,44 @@
       },
       "title": "Thanks to @official_flo @studioflo @Dreamus_Music  🩵",
       "description": "#JYPark #박진영\n#WET",
-      "thumbnail": "https://i.ytimg.com/vi/x16j-amUlhE/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/x16j-amUlhE/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/x16j-amUlhE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/x16j-amUlhE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/x16j-amUlhE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/x16j-amUlhE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/x16j-amUlhE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-25T05:38:54.000Z",
       "url": "https://www.youtube.com/watch?v=x16j-amUlhE",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -218,12 +506,44 @@
       },
       "title": "Thanks to @YouTube  @youtubekorea  💙",
       "description": "#JYPark #박진영\n#WET \n#shorts",
-      "thumbnail": "https://i.ytimg.com/vi/0TBDdd6ZoVQ/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/0TBDdd6ZoVQ/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/0TBDdd6ZoVQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/0TBDdd6ZoVQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/0TBDdd6ZoVQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/0TBDdd6ZoVQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/0TBDdd6ZoVQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-25T04:16:37.000Z",
       "url": "https://www.youtube.com/watch?v=0TBDdd6ZoVQ",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -240,12 +560,44 @@
       },
       "title": "WET challenge with #TXT #YEONJUN💙 #JYPark #박진영 #WET @TXT_bighit",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/XM48BZKRxpQ/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/XM48BZKRxpQ/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/XM48BZKRxpQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/XM48BZKRxpQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/XM48BZKRxpQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/XM48BZKRxpQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/XM48BZKRxpQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-24T10:01:59.000Z",
       "url": "https://www.youtube.com/watch?v=XM48BZKRxpQ",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -262,12 +614,50 @@
       },
       "title": "[Mirrored] 박진영(J.Y. Park) \"WET\" Dance Practice",
       "description": "M/V🔗https://youtu.be/dMf6YlGsv0U\n\n📌Listen to “WET” NOW!\njypark.lnk.to/WET\n\n#JYPark #박진영\n#WET \n\nJ.Y. Park Official YouTube : www.youtube.com/c/JYPark\nJ.Y. Park Official Instagram : http://www.instagram.com/asiansoul_jyp/\nJ.Y. Park Official X(Twitter) : http://www.twitter.com/fol",
-      "thumbnail": "https://i.ytimg.com/vi/rswqm-AE9Mg/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/rswqm-AE9Mg/fhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/rswqm-AE9Mg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/rswqm-AE9Mg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/rswqm-AE9Mg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/rswqm-AE9Mg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/rswqm-AE9Mg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "fhd",
+          "url": "https://i.ytimg.com/vi/rswqm-AE9Mg/fhddefault.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
       "publishedAt": "2026-07-24T06:00:39.000Z",
       "url": "https://www.youtube.com/watch?v=rswqm-AE9Mg",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "performance"
     },
     {
@@ -284,12 +674,50 @@
       },
       "title": "박진영(J.Y. Park) \"WET\" Dance Practice",
       "description": "M/V🔗https://youtu.be/dMf6YlGsv0U\n\n📌Listen to “WET” NOW!\njypark.lnk.to/WET\n\n#JYPark #박진영\n#WET \n\nJ.Y. Park Official YouTube : www.youtube.com/c/JYPark\nJ.Y. Park Official Instagram : http://www.instagram.com/asiansoul_jyp/\nJ.Y. Park Official X(Twitter) : http://www.twitter.com/fol",
-      "thumbnail": "https://i.ytimg.com/vi/TB-1hpqgf7E/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/TB-1hpqgf7E/fhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/TB-1hpqgf7E/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/TB-1hpqgf7E/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/TB-1hpqgf7E/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/TB-1hpqgf7E/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/TB-1hpqgf7E/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "fhd",
+          "url": "https://i.ytimg.com/vi/TB-1hpqgf7E/fhddefault.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
       "publishedAt": "2026-07-24T05:00:24.000Z",
       "url": "https://www.youtube.com/watch?v=TB-1hpqgf7E",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "performance"
     },
     {
@@ -306,12 +734,44 @@
       },
       "title": "연세대 90학번 박진영(J.Y. Park)의 FM?!",
       "description": "연세대 90학번 박진영(J.Y. Park)의 FM?! | 2026 연세대 '개교 141주년 기념 아카라카를 온누리에‘\n\n박진영(J.Y. Park) ”WET“\n\n💿2026.07.23 THU 6PM (KST) | 5AM (ET)\n\nPRE-ORDER ”WET“ NOW!\nhttps://bit.ly/4wDV7zv\n\n#JYPark #박진영\n#WET\n\nJ.Y. Park Official YouTube : www.youtube.com/c/JYPark\nJ.Y. Park Official Instagram : htt",
-      "thumbnail": "https://i.ytimg.com/vi/xo6ZvW7zeDQ/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/xo6ZvW7zeDQ/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/xo6ZvW7zeDQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/xo6ZvW7zeDQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/xo6ZvW7zeDQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/xo6ZvW7zeDQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/xo6ZvW7zeDQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-22T08:03:32.000Z",
       "url": "https://www.youtube.com/watch?v=xo6ZvW7zeDQ",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -328,12 +788,44 @@
       },
       "title": "박진영(J.Y. Park)이 말하는 성공의 비법 in 아카라카",
       "description": "박진영(J.Y. Park)이 말하는 성공의 비법 | 2026 연세대 '개교 141주년 기념 아카라카를 온누리에‘\n\n박진영(J.Y. Park) ”WET“\n\n💿2026.07.23 THU 6PM (KST) | 5AM (ET)\n\nPRE-ORDER ”WET“ NOW!\nhttps://bit.ly/4wDV7zv\n\n#JYPark #박진영\n#WET\n\nJ.Y. Park Official YouTube : www.youtube.com/c/JYPark\nJ.Y. Park Official Instagram : http:/",
-      "thumbnail": "https://i.ytimg.com/vi/cQK9ZGuKs5w/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/cQK9ZGuKs5w/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/cQK9ZGuKs5w/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/cQK9ZGuKs5w/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/cQK9ZGuKs5w/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/cQK9ZGuKs5w/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/cQK9ZGuKs5w/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-22T08:03:29.000Z",
       "url": "https://www.youtube.com/watch?v=cQK9ZGuKs5w",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -350,12 +842,44 @@
       },
       "title": "박진영(J.Y. Park) \"촛불하나\" Live Clip | 2026 연세대 '개교 141주년 기념 아카라카를 온누리에'",
       "description": "박진영(J.Y. Park) \"촛불하나\" Live Clip | 2026 연세대 '개교 141주년 기념 아카라카를 온누리에'\n\n박진영(J.Y. Park) \"WET\"\n\n💿2026.07.23 THU 6PM (KST) | 5AM (ET)\n\nPRE-ORDER \"WET\" NOW!\nhttps://bit.ly/4wDV7zv\n\n#JYPark #박진영\n#WET\n\nJ.Y. Park Official YouTube : www.youtube.com/c/JYPark\nJ.Y. Park Official Instagram : h",
-      "thumbnail": "https://i.ytimg.com/vi/4R_aok-zjag/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/4R_aok-zjag/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/4R_aok-zjag/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/4R_aok-zjag/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/4R_aok-zjag/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/4R_aok-zjag/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/4R_aok-zjag/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-22T08:02:58.000Z",
       "url": "https://www.youtube.com/watch?v=4R_aok-zjag",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -372,12 +896,44 @@
       },
       "title": "박진영(J.Y. Park) \"너뿐이야 (You're The One)\" Live Clip | 2026 연세대 '개교 141주년 기념 아카라카를 온누리에'",
       "description": "박진영(J.Y. Park) \"너뿐이야 (You're The One)\" Live Clip | 2026 연세대 '개교 141주년 기념 아카라카를 온누리에'\n\n박진영(J.Y. Park) \"WET\"\n\n💿2026.07.23 THU 6PM (KST) | 5AM (ET)\n\nPRE-ORDER \"WET\" NOW!\nhttps://bit.ly/4wDV7zv\n\n#JYPark #박진영\n#WET\n\nJ.Y. Park Official YouTube : www.youtube.com/c/JYPark\nJ.Y. Park Offic",
-      "thumbnail": "https://i.ytimg.com/vi/2CgNgyffqVE/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/2CgNgyffqVE/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/2CgNgyffqVE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/2CgNgyffqVE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/2CgNgyffqVE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/2CgNgyffqVE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/2CgNgyffqVE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-22T08:02:49.000Z",
       "url": "https://www.youtube.com/watch?v=2CgNgyffqVE",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -394,12 +950,44 @@
       },
       "title": "박진영(J.Y. Park) \"어머님이 누구니\" Live Clip | 2026 연세대 '개교 141주년 기념 아카라카를 온누리에'",
       "description": "박진영(J.Y. Park) \"어머님이 누구니\" Live Clip | 2026 연세대 '개교 141주년 기념 아카라카를 온누리에'\n\n박진영(J.Y. Park) \"WET\"\n\n💿2026.07.23 THU 6PM (KST) | 5AM (ET)\n\nPRE-ORDER \"WET\" NOW!\nhttps://bit.ly/4wDV7zv\n\n#JYPark #박진영\n#WET\n\nJ.Y. Park Official YouTube : www.youtube.com/c/JYPark\nJ.Y. Park Official Instagram",
-      "thumbnail": "https://i.ytimg.com/vi/4iRtByi7NEA/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/4iRtByi7NEA/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/4iRtByi7NEA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/4iRtByi7NEA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/4iRtByi7NEA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/4iRtByi7NEA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/4iRtByi7NEA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-22T08:02:38.000Z",
       "url": "https://www.youtube.com/watch?v=4iRtByi7NEA",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -416,12 +1004,44 @@
       },
       "title": "박진영(J.Y. Park) \"엘리베이터\" Live Clip | 2026 연세대 '개교 141주년 기념 아카라카를 온누리에'",
       "description": "박진영(J.Y. Park) \"엘리베이터\" Live Clip | 2026 연세대 '개교 141주년 기념 아카라카를 온누리에'\n\n박진영(J.Y. Park) \"WET\"\n\n💿2026.07.23 THU 6PM (KST) | 5AM (ET)\n\nPRE-ORDER \"WET\" NOW!\nhttps://bit.ly/4wDV7zv\n\n#JYPark #박진영\n#WET\n\nJ.Y. Park Official YouTube : www.youtube.com/c/JYPark\nJ.Y. Park Official Instagram : ",
-      "thumbnail": "https://i.ytimg.com/vi/qQxehnUrlOY/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/qQxehnUrlOY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/qQxehnUrlOY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/qQxehnUrlOY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/qQxehnUrlOY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/qQxehnUrlOY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/qQxehnUrlOY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-22T08:02:25.000Z",
       "url": "https://www.youtube.com/watch?v=qQxehnUrlOY",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -438,12 +1058,44 @@
       },
       "title": "박진영(J.Y. Park) \"When We Disco\" Live Clip | 2026 연세대 '개교 141주년 기념 아카라카를 온누리에'",
       "description": "박진영(J.Y. Park) \"When We Disco\" Live Clip | 2026 연세대 '개교 141주년 기념 아카라카를 온누리에'\n\n박진영(J.Y. Park) \"WET\"\n\n💿2026.07.23 THU 6PM (KST) | 5AM (ET)\n\nPRE-ORDER \"WET\" NOW!\nhttps://bit.ly/4wDV7zv\n\n#JYPark #박진영\n#WET\n\nJ.Y. Park Official YouTube : www.youtube.com/c/JYPark\nJ.Y. Park Official Inst",
-      "thumbnail": "https://i.ytimg.com/vi/kV1wN-xWd3E/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/kV1wN-xWd3E/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/kV1wN-xWd3E/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/kV1wN-xWd3E/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/kV1wN-xWd3E/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/kV1wN-xWd3E/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/kV1wN-xWd3E/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-22T08:02:10.000Z",
       "url": "https://www.youtube.com/watch?v=kV1wN-xWd3E",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -460,12 +1112,44 @@
       },
       "title": "박진영(J.Y. Park) STAGE Clip | 2026 연세대 '개교 141주년 기념 아카라카를 온누리에'",
       "description": "박진영(J.Y. Park) STAGE Clip | 2026 연세대 '개교 141주년 기념 아카라카를 온누리에'\n\n박진영(J.Y. Park) \"WET\"\n\n💿2026.07.23 THU 6PM (KST) | 5AM (ET)\n\nPRE-ORDER \"WET\" NOW!\nhttps://bit.ly/4wDV7zv\n\n#JYPark #박진영\n#WET\n\nJ.Y. Park Official YouTube : www.youtube.com/c/JYPark\nJ.Y. Park Official Instagram : http://",
-      "thumbnail": "https://i.ytimg.com/vi/nf2Zl8Elt-4/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/nf2Zl8Elt-4/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/nf2Zl8Elt-4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/nf2Zl8Elt-4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/nf2Zl8Elt-4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/nf2Zl8Elt-4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/nf2Zl8Elt-4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-22T08:01:56.000Z",
       "url": "https://www.youtube.com/watch?v=nf2Zl8Elt-4",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "performance"
     },
     {
@@ -482,12 +1166,44 @@
       },
       "title": "박진영(J.Y. Park) \"Honey\" Live Clip | 2026 연세대 '개교 141주년 기념 아카라카를 온누리에'",
       "description": "박진영(J.Y. Park) \"Honey\" Live Clip | 2026 연세대 '개교 141주년 기념 아카라카를 온누리에'\n\n박진영(J.Y. Park) \"WET\"\n\n💿2026.07.23 THU 6PM (KST) | 5AM (ET)\n\nPRE-ORDER \"WET\" NOW!\nhttps://bit.ly/4wDV7zv\n\n#JYPark #박진영\n#WET\n\nJ.Y. Park Official YouTube : www.youtube.com/c/JYPark\nJ.Y. Park Official Instagram : ",
-      "thumbnail": "https://i.ytimg.com/vi/kPMOafsY-RM/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/kPMOafsY-RM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/kPMOafsY-RM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/kPMOafsY-RM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/kPMOafsY-RM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/kPMOafsY-RM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/kPMOafsY-RM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-22T08:01:45.000Z",
       "url": "https://www.youtube.com/watch?v=kPMOafsY-RM",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -504,12 +1220,44 @@
       },
       "title": "박진영(J.Y. Park) \"그녀는 예뻤다\" Live Clip | 2026 연세대 '개교 141주년 기념 아카라카를 온누리에'",
       "description": "박진영(J.Y. Park) \"그녀는 예뻤다\" Live Clip | 2026 연세대 '개교 141주년 기념 아카라카를 온누리에'\n\n박진영(J.Y. Park) \"WET\"\n\n💿2026.07.23 THU 6PM (KST) | 5AM (ET)\n\nPRE-ORDER \"WET\" NOW!\nhttps://bit.ly/4wDV7zv\n\n#JYPark #박진영\n#WET\n\nJ.Y. Park Official YouTube : www.youtube.com/c/JYPark\nJ.Y. Park Official Instagram ",
-      "thumbnail": "https://i.ytimg.com/vi/nA2jJ8sQEhw/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/nA2jJ8sQEhw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/nA2jJ8sQEhw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/nA2jJ8sQEhw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/nA2jJ8sQEhw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/nA2jJ8sQEhw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/nA2jJ8sQEhw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-22T08:01:28.000Z",
       "url": "https://www.youtube.com/watch?v=nA2jJ8sQEhw",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -526,12 +1274,44 @@
       },
       "title": "박진영(J.Y. Park) \"날 떠나지마\" Live Clip | 2026 연세대 '개교 141주년 기념 아카라카를 온누리에'",
       "description": "박진영(J.Y. Park) \"날 떠나지마\" Live Clip | 2026 연세대 '개교 141주년 기념 아카라카를 온누리에'\n\n박진영(J.Y. Park) \"WET\"\n\n💿2026.07.23 THU 6PM (KST) | 5AM (ET)\n\nPRE-ORDER \"WET\" NOW!\nhttps://bit.ly/4wDV7zv\n\n#JYPark #박진영\n#WET\n\nJ.Y. Park Official YouTube : www.youtube.com/c/JYPark\nJ.Y. Park Official Instagram :",
-      "thumbnail": "https://i.ytimg.com/vi/HhurvenKjo0/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/HhurvenKjo0/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/HhurvenKjo0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/HhurvenKjo0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/HhurvenKjo0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/HhurvenKjo0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/HhurvenKjo0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-22T08:00:28.000Z",
       "url": "https://www.youtube.com/watch?v=HhurvenKjo0",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -548,12 +1328,44 @@
       },
       "title": "#JYPark #박진영",
       "description": "박진영(J.Y. Park) \"WET\"\n\n💿2026.07.23 THU 6PM (KST) | 5AM (ET)\n\nPRE-ORDER \"WET\" NOW!\nhttps://bit.ly/4wDV7zv\n\n#JYPark #박진영\n#WET",
-      "thumbnail": "https://i.ytimg.com/vi/VL5Y2nP_tzc/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/VL5Y2nP_tzc/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/VL5Y2nP_tzc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/VL5Y2nP_tzc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/VL5Y2nP_tzc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/VL5Y2nP_tzc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/VL5Y2nP_tzc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-22T04:49:43.000Z",
       "url": "https://www.youtube.com/watch?v=VL5Y2nP_tzc",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -570,12 +1382,44 @@
       },
       "title": "Sweat Sweat Sweat💦 WET challenge with #MINAMI❤️‍🔥",
       "description": "#JYPark #박진영\n#WET #WETchallenge\n#미나미 @RESCENE_official \n#shorts",
-      "thumbnail": "https://i.ytimg.com/vi/Bw9753Ncft4/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/Bw9753Ncft4/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Bw9753Ncft4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Bw9753Ncft4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Bw9753Ncft4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Bw9753Ncft4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Bw9753Ncft4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-13T09:30:36.000Z",
       "url": "https://www.youtube.com/watch?v=Bw9753Ncft4",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -592,12 +1436,44 @@
       },
       "title": "땀은 거짓말을 하지 않는다... 사랑해 있지♡ @ITZY #ITZY #MIDZY#THATSANONO #대추노노 #JYPark #박진영",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/Ck5R5TUKaLs/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/Ck5R5TUKaLs/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Ck5R5TUKaLs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Ck5R5TUKaLs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Ck5R5TUKaLs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Ck5R5TUKaLs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Ck5R5TUKaLs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-03-19T13:31:26.000Z",
       "url": "https://www.youtube.com/watch?v=Ck5R5TUKaLs",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -614,12 +1490,44 @@
       },
       "title": "새벽부터 오는 눈이 무릎까지 덮는데 ❄ #JYPark #박진영 #안동역에서#HappyHour #박진영_콘서트",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/uN4OpZ7YErI/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/uN4OpZ7YErI/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/uN4OpZ7YErI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/uN4OpZ7YErI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/uN4OpZ7YErI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/uN4OpZ7YErI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/uN4OpZ7YErI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-12-09T05:02:13.000Z",
       "url": "https://www.youtube.com/watch?v=uN4OpZ7YErI",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -636,12 +1544,44 @@
       },
       "title": "이번 주 콘서트에서 놀 준비됐죠? 🎺#JYPark #박진영 #WhenWeDisco #HappyHour #박진영_콘서트",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/NtvjDt8k2zQ/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/NtvjDt8k2zQ/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/NtvjDt8k2zQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/NtvjDt8k2zQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/NtvjDt8k2zQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/NtvjDt8k2zQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/NtvjDt8k2zQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-12-09T01:51:10.000Z",
       "url": "https://www.youtube.com/watch?v=NtvjDt8k2zQ",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -658,12 +1598,44 @@
       },
       "title": "2회 대회에서 드디어 장년부 우승!",
       "description": "사실 작년에 대회 트로피가 너무 예뻐서 꼭 갖고 싶었는데, 이렇게 이뤘네요♡\n열심히 뛰어준 우리 팀원들♡\n그리고 응원하러 경기장까지 와주신 팬분들♡\n모두 정말 감사합니다♡\n\n#JYPark #박진영\n#JYP #JYP_EDM #JYP_EveryDreamMatters #EDM치료비지원\n#JYPBT #자선농구대회",
-      "thumbnail": "https://i.ytimg.com/vi/svpcuBNsBzM/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/svpcuBNsBzM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/svpcuBNsBzM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/svpcuBNsBzM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/svpcuBNsBzM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/svpcuBNsBzM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/svpcuBNsBzM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-11-30T15:27:20.000Z",
       "url": "https://www.youtube.com/watch?v=svpcuBNsBzM",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -680,12 +1652,44 @@
       },
       "title": "콘서트 D-14!즐길 준비 되셨나요?#JYPark #박진영 #HappyHour #퇴근길 #박진영_콘서트",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/6E8S5rjPSO0/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/6E8S5rjPSO0/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/6E8S5rjPSO0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/6E8S5rjPSO0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/6E8S5rjPSO0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/6E8S5rjPSO0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/6E8S5rjPSO0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-11-29T05:53:03.000Z",
       "url": "https://www.youtube.com/watch?v=6E8S5rjPSO0",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -702,12 +1706,44 @@
       },
       "title": "여러분~ 오늘 밤 10시에 별밤 콘서트 잊지마세요! 방송 끝나면 유튜브로도 공개돼요^^기대해주세요~♡ #MBCRADIO #별밤_Concert_in_Studio",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/dFyE20sQV2k/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/dFyE20sQV2k/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/dFyE20sQV2k/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/dFyE20sQV2k/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/dFyE20sQV2k/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/dFyE20sQV2k/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/dFyE20sQV2k/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-11-13T09:12:04.000Z",
       "url": "https://www.youtube.com/watch?v=dFyE20sQV2k",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -724,12 +1760,44 @@
       },
       "title": "#HappyHour 챌린지 with #NEXZ 🌇#JYPark #박진영 #넥스지 @NEXZ_official",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/b1_n7OWgjkM/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/b1_n7OWgjkM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/b1_n7OWgjkM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/b1_n7OWgjkM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/b1_n7OWgjkM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/b1_n7OWgjkM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/b1_n7OWgjkM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-11-11T10:02:03.000Z",
       "url": "https://www.youtube.com/watch?v=b1_n7OWgjkM",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -746,12 +1814,44 @@
       },
       "title": "#HappyHour 챌린지 with #선미 🌇#JYPark #SUNMI @sunmi_official",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/wW-RZSbs38U/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/wW-RZSbs38U/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/wW-RZSbs38U/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/wW-RZSbs38U/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/wW-RZSbs38U/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/wW-RZSbs38U/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/wW-RZSbs38U/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-11-10T10:01:33.000Z",
       "url": "https://www.youtube.com/watch?v=wW-RZSbs38U",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -768,12 +1868,44 @@
       },
       "title": "#HappyHour 챌린지 with #사나  🌇 #박진영 #JYPark#TWICE #트와이스#SANA",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/7cx-ZeIjw5Q/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/7cx-ZeIjw5Q/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/7cx-ZeIjw5Q/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/7cx-ZeIjw5Q/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/7cx-ZeIjw5Q/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/7cx-ZeIjw5Q/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/7cx-ZeIjw5Q/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-11-07T09:24:48.000Z",
       "url": "https://www.youtube.com/watch?v=7cx-ZeIjw5Q",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -790,12 +1922,44 @@
       },
       "title": "와...진아야 마음씨까지 예쁘면 어떡해ㅜㅜSo sweet 고마워~♡ #HappyHour #퇴근길",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/w18UtmXfjl8/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/w18UtmXfjl8/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/w18UtmXfjl8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/w18UtmXfjl8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/w18UtmXfjl8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/w18UtmXfjl8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/w18UtmXfjl8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-11-07T07:06:45.000Z",
       "url": "https://www.youtube.com/watch?v=w18UtmXfjl8",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -812,12 +1976,44 @@
       },
       "title": "오늘 10시 같이 보실거죠?♡ #JYPark #박진영 #WSWF #스우파 @PlayMnet @TheChoomofficial",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/mOMVljvK-_Y/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/mOMVljvK-_Y/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/mOMVljvK-_Y/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/mOMVljvK-_Y/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/mOMVljvK-_Y/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/mOMVljvK-_Y/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/mOMVljvK-_Y/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-05-27T12:32:04.000Z",
       "url": "https://www.youtube.com/watch?v=mOMVljvK-_Y",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -834,12 +2030,44 @@
       },
       "title": "박진영 (J.Y. Park) 30주년 기념 콘서트 [Still JYP] 비하인드",
       "description": "박진영 (J.Y. Park) 30주년 기념 콘서트 [Still JYP] 비하인드\n\nJ.Y. Park 30th Anniversary Concert [Still JYP] in JAPAN\n2025.02.20-21 @ TOKYO DOME CITY HALL\nWith Special Guest\n02.20-21/SUNG SI KYUNG\n02.20/NiziU\n02.21/NEXZ\n\nJ.Y. Park 30th Anniversary Concert [Still JYP] in LOS ANGELES\n2025.03.22 (S",
-      "thumbnail": "https://i.ytimg.com/vi/jWC0_z4fgYQ/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/jWC0_z4fgYQ/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/jWC0_z4fgYQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/jWC0_z4fgYQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/jWC0_z4fgYQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/jWC0_z4fgYQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/jWC0_z4fgYQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-01-25T01:00:41.000Z",
       "url": "https://www.youtube.com/watch?v=jWC0_z4fgYQ",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -856,12 +2084,44 @@
       },
       "title": "박진영 (J.Y. Park) 30주년 기념 콘서트 [Still JYP] 비하인드",
       "description": "박진영 (J.Y. Park) 30주년 기념 콘서트 [Still JYP] 비하인드\n\nJ.Y. Park 30th Anniversary Concert [Still JYP] in JAPAN\n2025.02.20-21 @ TOKYO DOME CITY HALL\nWith Special Guest\n02.20-21/SUNG SI KYUNG\n02.20/NiziU\n02.21/NEXZ\n\nJ.Y. Park 30th Anniversary Concert [Still JYP] in LOS ANGELES\n2025.03.22 (S",
-      "thumbnail": "https://i.ytimg.com/vi/9nhHK5bDKmA/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/9nhHK5bDKmA/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/9nhHK5bDKmA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/9nhHK5bDKmA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/9nhHK5bDKmA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/9nhHK5bDKmA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/9nhHK5bDKmA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-01-25T01:00:09.000Z",
       "url": "https://www.youtube.com/watch?v=9nhHK5bDKmA",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -878,12 +2138,44 @@
       },
       "title": "To all the wonderful fans of our artists,",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/fWY7Dnno23w/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/fWY7Dnno23w/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/fWY7Dnno23w/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/fWY7Dnno23w/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/fWY7Dnno23w/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/fWY7Dnno23w/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/fWY7Dnno23w/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2024-12-19T02:42:00.000Z",
       "url": "https://www.youtube.com/watch?v=fWY7Dnno23w",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -900,12 +2192,44 @@
       },
       "title": "#EasyLover with #YAOCHEN 😍 #JYPark #박진영 #야오천 😍",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/51BXkKyltq4/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/51BXkKyltq4/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/51BXkKyltq4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/51BXkKyltq4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/51BXkKyltq4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/51BXkKyltq4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/51BXkKyltq4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2024-12-03T13:00:34.000Z",
       "url": "https://www.youtube.com/watch?v=51BXkKyltq4",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -922,12 +2246,44 @@
       },
       "title": "#EasyLover with #NINA 😍 #JYPark #박진영 #니나 #NiziU #니쥬 😍",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/2qr9EnX6-jI/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/2qr9EnX6-jI/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/2qr9EnX6-jI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/2qr9EnX6-jI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/2qr9EnX6-jI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/2qr9EnX6-jI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/2qr9EnX6-jI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2024-12-02T13:00:05.000Z",
       "url": "https://www.youtube.com/watch?v=2qr9EnX6-jI",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -944,12 +2300,44 @@
       },
       "title": "박진영 (J.Y. Park) \"Easy Lover (아니라고 말해줘)\" Song Challenge by 정동원",
       "description": "박진영 (J.Y. Park) \"Easy Lover (아니라고 말해줘)\" Song Challenge by 정동원\n\n#JYPark #박진영\n#JeongDongwon #정동원 \n#EasyLover #아니라고말해줘\n\nJ.Y. Park Official YouTube : www.youtube.com/c/JYPark\nJ.Y. Park Official Instagram : http://www.instagram.com/asiansoul_jyp/\nJ.Y. Park Official X(Twitter) : http:/",
-      "thumbnail": "https://i.ytimg.com/vi/jcWLcBbeuyo/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/jcWLcBbeuyo/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/jcWLcBbeuyo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/jcWLcBbeuyo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/jcWLcBbeuyo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/jcWLcBbeuyo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/jcWLcBbeuyo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2024-11-14T12:00:54.000Z",
       "url": "https://www.youtube.com/watch?v=jcWLcBbeuyo",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -966,12 +2354,44 @@
       },
       "title": "아니 이거 회사에서 복지 포인트라도 걸어둔 건가요? 아니 황송하게도^^;;;",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/ia6nU487CRU/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/ia6nU487CRU/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/ia6nU487CRU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/ia6nU487CRU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/ia6nU487CRU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/ia6nU487CRU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/ia6nU487CRU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2024-11-14T10:44:54.000Z",
       "url": "https://www.youtube.com/watch?v=ia6nU487CRU",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -988,12 +2408,44 @@
       },
       "title": "#EasyLover with #KimWansun 😍 #JYPark #박진영 #김완선 😍",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/nFaDWdXVgFk/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/nFaDWdXVgFk/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/nFaDWdXVgFk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/nFaDWdXVgFk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/nFaDWdXVgFk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/nFaDWdXVgFk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/nFaDWdXVgFk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2024-11-12T08:29:13.000Z",
       "url": "https://www.youtube.com/watch?v=nFaDWdXVgFk",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -1010,12 +2462,44 @@
       },
       "title": "#EasyLover with #SEULGI 😍 #JYPark #박진영 #슬기 #RedVelvet #레드벨벳 😍",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/IXtbHVat7dI/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/IXtbHVat7dI/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/IXtbHVat7dI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/IXtbHVat7dI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/IXtbHVat7dI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/IXtbHVat7dI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/IXtbHVat7dI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2024-11-12T08:17:07.000Z",
       "url": "https://www.youtube.com/watch?v=IXtbHVat7dI",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -1032,12 +2516,44 @@
       },
       "title": "#EasyLover with #ERIC 😍 #JYPark #박진영 #에릭 #THEBOYZ #더보이즈 😍",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/guFEjG_FE-k/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/guFEjG_FE-k/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/guFEjG_FE-k/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/guFEjG_FE-k/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/guFEjG_FE-k/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/guFEjG_FE-k/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/guFEjG_FE-k/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2024-11-11T08:30:10.000Z",
       "url": "https://www.youtube.com/watch?v=guFEjG_FE-k",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -1054,12 +2570,44 @@
       },
       "title": "박진영 (J.Y. Park) \"Easy Lover (아니라고 말해줘)\" Song Challenge by Sweet Sorrow",
       "description": "박진영 (J.Y. Park) \"Easy Lover (아니라고 말해줘)\" Song Challenge by Sweet Sorrow\n\n#JYPark #박진영\n#SweetSorrow #스윗소로우 #인호진 #송우진 #김영우\n#EasyLover #아니라고말해줘\n\nJ.Y. Park Official YouTube : www.youtube.com/c/JYPark\nJ.Y. Park Official Instagram : http://www.instagram.com/asiansoul_jyp/\nJ.Y. Park Offi",
-      "thumbnail": "https://i.ytimg.com/vi/KIk48Kh9MZQ/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/KIk48Kh9MZQ/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/KIk48Kh9MZQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/KIk48Kh9MZQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/KIk48Kh9MZQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/KIk48Kh9MZQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/KIk48Kh9MZQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2024-11-09T05:00:18.000Z",
       "url": "https://www.youtube.com/watch?v=KIk48Kh9MZQ",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     },
     {
@@ -1076,12 +2624,44 @@
       },
       "title": "배우 차태현과 김하늘의 박진영 \"Easy Lover\" M/V REACTION",
       "description": "배우 차태현과 김하늘의 박진영 \"Easy Lover\" M/V REACTION\n\n#JYPark #박진영\n#ChaTaehyun #차태현\n#KimHaneul #김하늘\n#EasyLover #아니라고말해줘\n#KBS #더딴따라\n\nJ.Y. Park Official YouTube : www.youtube.com/c/JYPark\nJ.Y. Park Official Instagram : http://www.instagram.com/asiansoul_jyp/\nJ.Y. Park Official X(Twitter) : h",
-      "thumbnail": "https://i.ytimg.com/vi/1rXRtxI7d_0/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/1rXRtxI7d_0/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/1rXRtxI7d_0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/1rXRtxI7d_0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/1rXRtxI7d_0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/1rXRtxI7d_0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/1rXRtxI7d_0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2024-11-07T14:30:00.000Z",
       "url": "https://www.youtube.com/watch?v=1rXRtxI7d_0",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "music-video"
     },
     {
@@ -1098,12 +2678,44 @@
       },
       "title": "박진영 (J.Y. Park) \"Easy Lover (아니라고 말해줘)\" Song Challenge by WENDY",
       "description": "박진영 (J.Y. Park) \"Easy Lover (아니라고 말해줘)\" Song Challenge by WENDY\n\n#JYPark #박진영\n#RedVelvet #레드벨벳 #WENDY #웬디\n#EasyLover #아니라고말해줘\n\nJ.Y. Park Official YouTube : www.youtube.com/c/JYPark\nJ.Y. Park Official Instagram : http://www.instagram.com/asiansoul_jyp/\nJ.Y. Park Official X(Twitter",
-      "thumbnail": "https://i.ytimg.com/vi/oA6xOOP81dg/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/oA6xOOP81dg/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/oA6xOOP81dg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/oA6xOOP81dg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/oA6xOOP81dg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/oA6xOOP81dg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/oA6xOOP81dg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2024-11-07T12:00:58.000Z",
       "url": "https://www.youtube.com/watch?v=oA6xOOP81dg",
-      "fetchedAt": "2026-10-14T13:26:12.350Z",
+      "fetchedAt": "2026-10-14T16:52:39.465Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:12.350Z",
+      "lastValidatedAt": "2026-10-14T16:52:39.465Z",
       "type": "other"
     }
   ]

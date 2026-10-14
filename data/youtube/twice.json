@@ -1,10 +1,10 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
   "uploadsPlaylistId": "UUzgxx_DM2Dcb9Y1spb9mUJA",
   "artistId": "twice",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-14T13:10:32.669Z",
+  "fetchedAt": "2026-10-14T16:52:35.634Z",
   "items": [
     {
       "id": "yt-U7cZw1XoNtw",
@@ -20,12 +20,44 @@
       },
       "title": "TWICE Special Vinyl ＜THIS IS FOR＞  WORLD TOUR FINALE in SEOUL - LIVE : D-2",
       "description": "TWICE Special Vinyl ＜THIS IS FOR＞  WORLD TOUR FINALE in SEOUL - LIVE : D-2\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.twitt",
-      "thumbnail": "https://i.ytimg.com/vi/U7cZw1XoNtw/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/U7cZw1XoNtw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/U7cZw1XoNtw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/U7cZw1XoNtw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/U7cZw1XoNtw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/U7cZw1XoNtw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/U7cZw1XoNtw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-14T09:00:28.000Z",
       "url": "https://www.youtube.com/watch?v=U7cZw1XoNtw",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -42,12 +74,44 @@
       },
       "title": "Introducing..🍭IMNABONG🐰YUBBUIBBUI🐶 MOKURING🐻 SHYAM SHYAM🐹 PARKZYONI🦄 #TWICE #트와이스#TDOONGZ #트둥즈",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/8kuIx0Rj-ic/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/8kuIx0Rj-ic/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/8kuIx0Rj-ic/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/8kuIx0Rj-ic/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/8kuIx0Rj-ic/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/8kuIx0Rj-ic/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/8kuIx0Rj-ic/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-14T05:00:04.000Z",
       "url": "https://www.youtube.com/watch?v=8kuIx0Rj-ic",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -64,12 +128,44 @@
       },
       "title": "[TIME TO TWICE] 트둥의 숲 TDOONG's Crossing Teaser",
       "description": "[TIME TO TWICE] 트둥의 숲 TDOONG's Crossing Teaser\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.twitter.com/JYPETWICE \nTWICE Offi",
-      "thumbnail": "https://i.ytimg.com/vi/llLK9F-4RVw/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/llLK9F-4RVw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/llLK9F-4RVw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/llLK9F-4RVw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/llLK9F-4RVw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/llLK9F-4RVw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/llLK9F-4RVw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-13T10:00:06.000Z",
       "url": "https://www.youtube.com/watch?v=llLK9F-4RVw",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "teaser"
     },
     {
@@ -86,12 +182,44 @@
       },
       "title": "TWICE Special Vinyl ＜THIS IS FOR＞ WORLD TOUR FINALE in SEOUL - LIVE #TZUYU",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/k5iulf6nUA0/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/k5iulf6nUA0/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/k5iulf6nUA0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/k5iulf6nUA0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/k5iulf6nUA0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/k5iulf6nUA0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/k5iulf6nUA0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-13T09:00:12.000Z",
       "url": "https://www.youtube.com/watch?v=k5iulf6nUA0",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -108,12 +236,44 @@
       },
       "title": "TWICE 2027 Season's Greetings [Spotless] Behind",
       "description": "TWICE 2027 Season's Greetings [Spotless] Behind\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.twitter.com/JYPETWICE \nTWICE Off",
-      "thumbnail": "https://i.ytimg.com/vi/jQh3dRdplPw/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/jQh3dRdplPw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/jQh3dRdplPw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/jQh3dRdplPw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/jQh3dRdplPw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/jQh3dRdplPw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/jQh3dRdplPw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-12T10:00:06.000Z",
       "url": "https://www.youtube.com/watch?v=jQh3dRdplPw",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -130,12 +290,44 @@
       },
       "title": "TWICE Special Vinyl ＜THIS IS FOR＞ WORLD TOUR FINALE in SEOUL - LIVE #CHAEYOUNG",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/x0CIkIV-RaA/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/x0CIkIV-RaA/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/x0CIkIV-RaA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/x0CIkIV-RaA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/x0CIkIV-RaA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/x0CIkIV-RaA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/x0CIkIV-RaA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-12T09:00:37.000Z",
       "url": "https://www.youtube.com/watch?v=x0CIkIV-RaA",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -152,12 +344,44 @@
       },
       "title": "Party like it’s over!🪩 #TWICE #트와이스 #NAYEON #나연 #MOMO #모모#ByeByeInhibitions",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/exa4_Yvrc7A/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/exa4_Yvrc7A/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/exa4_Yvrc7A/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/exa4_Yvrc7A/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/exa4_Yvrc7A/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/exa4_Yvrc7A/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/exa4_Yvrc7A/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-09T04:00:28.000Z",
       "url": "https://www.youtube.com/watch?v=exa4_Yvrc7A",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -174,12 +398,44 @@
       },
       "title": "Candy Bong magic ✨🍭 #TWICE #트와이스 #NAYEON #나연 #ByeByeInhibitions",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/n3xV37dqqJk/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/n3xV37dqqJk/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/n3xV37dqqJk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/n3xV37dqqJk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/n3xV37dqqJk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/n3xV37dqqJk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/n3xV37dqqJk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-08T11:00:15.000Z",
       "url": "https://www.youtube.com/watch?v=n3xV37dqqJk",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -196,12 +452,44 @@
       },
       "title": "TWICE Special Vinyl ＜THIS IS FOR＞ WORLD TOUR FINALE in SEOUL - LIVE #DAHYUN",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/yZZg4lnVptI/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/yZZg4lnVptI/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/yZZg4lnVptI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/yZZg4lnVptI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/yZZg4lnVptI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/yZZg4lnVptI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/yZZg4lnVptI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-08T09:00:37.000Z",
       "url": "https://www.youtube.com/watch?v=yZZg4lnVptI",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -218,12 +506,44 @@
       },
       "title": "🍭🎡🎠 #TWICE #트와이스 #TWICE_THE_THRILL",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/8wPUJrJKMuQ/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/8wPUJrJKMuQ/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/8wPUJrJKMuQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/8wPUJrJKMuQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/8wPUJrJKMuQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/8wPUJrJKMuQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/8wPUJrJKMuQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-08T06:00:39.000Z",
       "url": "https://www.youtube.com/watch?v=8wPUJrJKMuQ",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -240,12 +560,44 @@
       },
       "title": "TWICE New Character ‘TDOONGZ’ 🗝️",
       "description": "TWICE New Character ‘TDOONGZ’ 🗝️\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.twitter.com/JYPETWICE \nTWICE Official TikTok :",
-      "thumbnail": "https://i.ytimg.com/vi/1wf24BuDr-Q/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/1wf24BuDr-Q/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/1wf24BuDr-Q/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/1wf24BuDr-Q/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/1wf24BuDr-Q/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/1wf24BuDr-Q/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/1wf24BuDr-Q/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-08T04:00:00.000Z",
       "url": "https://www.youtube.com/watch?v=1wf24BuDr-Q",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -262,12 +614,44 @@
       },
       "title": "감사합니다 🤝 Obrigado 🇰🇷🇧🇷 #TWICE #트와이스 #NAYEON #나연 #ByeByeInhibitions",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/GTSNOMtXMsA/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/GTSNOMtXMsA/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/GTSNOMtXMsA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/GTSNOMtXMsA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/GTSNOMtXMsA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/GTSNOMtXMsA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/GTSNOMtXMsA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-07T10:00:34.000Z",
       "url": "https://www.youtube.com/watch?v=GTSNOMtXMsA",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -284,12 +668,44 @@
       },
       "title": "TWICE Special Vinyl ＜THIS IS FOR＞ WORLD TOUR FINALE in SEOUL - LIVE #MINA",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/nRy5Nzf45fE/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/nRy5Nzf45fE/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/nRy5Nzf45fE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/nRy5Nzf45fE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/nRy5Nzf45fE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/nRy5Nzf45fE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/nRy5Nzf45fE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-07T09:00:18.000Z",
       "url": "https://www.youtube.com/watch?v=nRy5Nzf45fE",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -306,12 +722,44 @@
       },
       "title": "TWICE Special Vinyl ＜THIS IS FOR＞ WORLD TOUR FINALE in SEOUL - LIVE #JIHYO",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/r6YmwMysYZo/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/r6YmwMysYZo/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/r6YmwMysYZo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/r6YmwMysYZo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/r6YmwMysYZo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/r6YmwMysYZo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/r6YmwMysYZo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-06T09:00:11.000Z",
       "url": "https://www.youtube.com/watch?v=r6YmwMysYZo",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -328,12 +776,44 @@
       },
       "title": "TWICE 2027 Season's Greetings [Spotless] Teaser",
       "description": "TWICE 2027 Season's Greetings [Spotless] Teaser\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.twitter.com/JYPETWICE \nTWICE Off",
-      "thumbnail": "https://i.ytimg.com/vi/cRS10T0Ruq8/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/cRS10T0Ruq8/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/cRS10T0Ruq8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/cRS10T0Ruq8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/cRS10T0Ruq8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/cRS10T0Ruq8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/cRS10T0Ruq8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-06T02:00:05.000Z",
       "url": "https://www.youtube.com/watch?v=cRS10T0Ruq8",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "teaser"
     },
     {
@@ -350,12 +830,44 @@
       },
       "title": "🪽🖤 #TWICE #트와이스 #NAYEON #나연",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/9ZuYGCx356Q/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/9ZuYGCx356Q/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/9ZuYGCx356Q/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/9ZuYGCx356Q/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/9ZuYGCx356Q/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/9ZuYGCx356Q/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/9ZuYGCx356Q/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-05T11:00:21.000Z",
       "url": "https://www.youtube.com/watch?v=9ZuYGCx356Q",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -372,12 +884,44 @@
       },
       "title": "TWICE Special Vinyl ＜THIS IS FOR＞ WORLD TOUR FINALE in SEOUL - LIVE #SANA",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/hORna2Ccv9c/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/hORna2Ccv9c/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/hORna2Ccv9c/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/hORna2Ccv9c/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/hORna2Ccv9c/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/hORna2Ccv9c/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/hORna2Ccv9c/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-05T09:00:00.000Z",
       "url": "https://www.youtube.com/watch?v=hORna2Ccv9c",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -394,12 +938,44 @@
       },
       "title": "Bye Bye Inhibitions🔥🍭 #TWICE #트와이스 #NAYEON #나연 #ByeByeInhibitions",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/MqLv9B23nUY/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/MqLv9B23nUY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/MqLv9B23nUY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/MqLv9B23nUY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/MqLv9B23nUY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/MqLv9B23nUY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/MqLv9B23nUY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-04T14:58:27.000Z",
       "url": "https://www.youtube.com/watch?v=MqLv9B23nUY",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -416,12 +992,44 @@
       },
       "title": "TWICE Special Vinyl ＜THIS IS FOR＞ WORLD TOUR FINALE in SEOUL - LIVE #MOMO",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/ECP09iHOc2U/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/ECP09iHOc2U/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/ECP09iHOc2U/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/ECP09iHOc2U/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/ECP09iHOc2U/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/ECP09iHOc2U/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/ECP09iHOc2U/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-02T09:00:22.000Z",
       "url": "https://www.youtube.com/watch?v=ECP09iHOc2U",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -438,12 +1046,44 @@
       },
       "title": "Am I getting you hype? 🔥 #TWICE #트와이스 #NAYEON #나연 #ByeByeInhibitions",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/5AeG4o0gEzQ/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/5AeG4o0gEzQ/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/5AeG4o0gEzQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/5AeG4o0gEzQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/5AeG4o0gEzQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/5AeG4o0gEzQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/5AeG4o0gEzQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-02T05:00:36.000Z",
       "url": "https://www.youtube.com/watch?v=5AeG4o0gEzQ",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -460,12 +1100,44 @@
       },
       "title": "TWICE Special Vinyl ＜THIS IS FOR＞ WORLD TOUR FINALE in SEOUL - LIVE #JEONGYEON",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/23bMwtoFoWY/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/23bMwtoFoWY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/23bMwtoFoWY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/23bMwtoFoWY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/23bMwtoFoWY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/23bMwtoFoWY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/23bMwtoFoWY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-01T09:00:38.000Z",
       "url": "https://www.youtube.com/watch?v=23bMwtoFoWY",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -482,12 +1154,44 @@
       },
       "title": "TWICE Special Vinyl ＜THIS IS FOR＞ WORLD TOUR FINALE in SEOUL - LIVE #NAYEON",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/nkEthV0jgbI/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/nkEthV0jgbI/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/nkEthV0jgbI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/nkEthV0jgbI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/nkEthV0jgbI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/nkEthV0jgbI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/nkEthV0jgbI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-30T09:00:31.000Z",
       "url": "https://www.youtube.com/watch?v=nkEthV0jgbI",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -504,12 +1208,44 @@
       },
       "title": "TWICE Special Vinyl ＜THIS IS FOR＞ WORLD TOUR FINALE in SEOUL - LIVE TEASER VIDEO",
       "description": "TWICE Special Vinyl ＜THIS IS FOR＞ WORLD TOUR FINALE in SEOUL - LIVE TEASER VIDEO\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www",
-      "thumbnail": "https://i.ytimg.com/vi/WyF0RTbrD0k/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/WyF0RTbrD0k/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/WyF0RTbrD0k/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/WyF0RTbrD0k/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/WyF0RTbrD0k/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/WyF0RTbrD0k/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/WyF0RTbrD0k/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-23T09:00:22.000Z",
       "url": "https://www.youtube.com/watch?v=WyF0RTbrD0k",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "teaser"
     },
     {
@@ -526,12 +1262,44 @@
       },
       "title": "다현이 문을 열고 들어와~♥️🚪 #TWICE #트와이스 #DAHYUN #다현",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/XmkxstvR5XY/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/XmkxstvR5XY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/XmkxstvR5XY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/XmkxstvR5XY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/XmkxstvR5XY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/XmkxstvR5XY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/XmkxstvR5XY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-23T04:00:14.000Z",
       "url": "https://www.youtube.com/watch?v=XmkxstvR5XY",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -548,12 +1316,44 @@
       },
       "title": "사시스세소!🤍 #TWICE #트와이스 #DAHYUN #다현",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/4R87juS92h0/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/4R87juS92h0/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/4R87juS92h0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/4R87juS92h0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/4R87juS92h0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/4R87juS92h0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/4R87juS92h0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-23T03:00:14.000Z",
       "url": "https://www.youtube.com/watch?v=4R87juS92h0",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -570,12 +1370,44 @@
       },
       "title": "pretty girl🩵 #TWICE #트와이스 #NAYEON #나연",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/h5P5aCqg3qw/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/h5P5aCqg3qw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/h5P5aCqg3qw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/h5P5aCqg3qw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/h5P5aCqg3qw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/h5P5aCqg3qw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/h5P5aCqg3qw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-21T03:00:18.000Z",
       "url": "https://www.youtube.com/watch?v=h5P5aCqg3qw",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -592,12 +1424,44 @@
       },
       "title": "🐰💕 #TWICE #트와이스 #NAYEON #나연",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/uZ6wJJiYgFM/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/uZ6wJJiYgFM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/uZ6wJJiYgFM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/uZ6wJJiYgFM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/uZ6wJJiYgFM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/uZ6wJJiYgFM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/uZ6wJJiYgFM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-20T11:00:33.000Z",
       "url": "https://www.youtube.com/watch?v=uZ6wJJiYgFM",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -614,12 +1478,44 @@
       },
       "title": "나연이의 당근 농장[Bunny's Farm] 🐰 🥕D-1🩵 원스, 가자! #TWICE #트와이스 #NAYEON #나연 #BUNNYSFARM #나연이의당근농장",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/s12mZ_BY6B8/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/s12mZ_BY6B8/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/s12mZ_BY6B8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/s12mZ_BY6B8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/s12mZ_BY6B8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/s12mZ_BY6B8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/s12mZ_BY6B8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-19T05:00:31.000Z",
       "url": "https://www.youtube.com/watch?v=s12mZ_BY6B8",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -636,12 +1532,44 @@
       },
       "title": "SANA ‘사나의 냉터뷰 시즌 3’ First Filming Behind The Scenes",
       "description": "SANA ‘사나의 냉터뷰 시즌 3’ First Filming Behind the Scenes\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.twitter.com/JYPETWICE \nTWICE",
-      "thumbnail": "https://i.ytimg.com/vi/tz1Sm5SShTc/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/tz1Sm5SShTc/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/tz1Sm5SShTc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/tz1Sm5SShTc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/tz1Sm5SShTc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/tz1Sm5SShTc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/tz1Sm5SShTc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-07T09:00:08.000Z",
       "url": "https://www.youtube.com/watch?v=tz1Sm5SShTc",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -658,12 +1586,44 @@
       },
       "title": "NAYEON First Pitch Behind with LG TWINS",
       "description": "NAYEON First Pitch Behind with LG TWINS\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.twitter.com/JYPETWICE \nTWICE Official Ti",
-      "thumbnail": "https://i.ytimg.com/vi/jYJjq9iOm6E/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/jYJjq9iOm6E/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/jYJjq9iOm6E/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/jYJjq9iOm6E/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/jYJjq9iOm6E/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/jYJjq9iOm6E/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/jYJjq9iOm6E/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-31T09:00:03.000Z",
       "url": "https://www.youtube.com/watch?v=jYJjq9iOm6E",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -680,12 +1640,44 @@
       },
       "title": "DAHYUN-log : GLOBAL OTT AWARDS 2026",
       "description": "DAHYUN-log : GLOBAL OTT AWARDS 2026\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.twitter.com/JYPETWICE \nTWICE Official TikTok",
-      "thumbnail": "https://i.ytimg.com/vi/UI9sJjUT2fc/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/UI9sJjUT2fc/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/UI9sJjUT2fc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/UI9sJjUT2fc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/UI9sJjUT2fc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/UI9sJjUT2fc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/UI9sJjUT2fc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-24T09:00:03.000Z",
       "url": "https://www.youtube.com/watch?v=UI9sJjUT2fc",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -702,12 +1694,44 @@
       },
       "title": "TWICE \"Be as ONE (Korean Ver.)\" Live Stage @ TWICE ＜THIS IS FOR＞ WORLD TOUR FINALE IN SEOUL",
       "description": "TWICE \"Be as ONE (Korean Ver.)\" Live Stage @ TWICE ＜THIS IS FOR＞ WORLD TOUR FINALE IN SEOUL\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter):",
-      "thumbnail": "https://i.ytimg.com/vi/bp4InMLGJl8/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/bp4InMLGJl8/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/bp4InMLGJl8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/bp4InMLGJl8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/bp4InMLGJl8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/bp4InMLGJl8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/bp4InMLGJl8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-14T09:00:01.000Z",
       "url": "https://www.youtube.com/watch?v=bp4InMLGJl8",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "performance"
     },
     {
@@ -724,12 +1748,44 @@
       },
       "title": "TWICE ＜THIS IS FOR＞ WORLD TOUR FINALE IN SEOUL Behind",
       "description": "TWICE ＜THIS IS FOR＞ WORLD TOUR FINALE IN SEOUL Behind\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.twitter.com/JYPETWICE \nTWI",
-      "thumbnail": "https://i.ytimg.com/vi/h_5NFu_UmRA/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/h_5NFu_UmRA/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/h_5NFu_UmRA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/h_5NFu_UmRA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/h_5NFu_UmRA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/h_5NFu_UmRA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/h_5NFu_UmRA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-13T09:00:10.000Z",
       "url": "https://www.youtube.com/watch?v=h_5NFu_UmRA",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -746,12 +1802,44 @@
       },
       "title": "TWICE \"RIGHT HAND GIRL\" Live Stage @ TWICE ＜THIS IS FOR＞ WORLD TOUR FINALE IN SEOUL",
       "description": "TWICE \"RIGHT HAND GIRL\" Live Stage @ TWICE ＜THIS IS FOR＞ WORLD TOUR FINALE IN SEOUL\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://",
-      "thumbnail": "https://i.ytimg.com/vi/FD_oc92GO6k/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/FD_oc92GO6k/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/FD_oc92GO6k/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/FD_oc92GO6k/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/FD_oc92GO6k/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/FD_oc92GO6k/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/FD_oc92GO6k/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-11T09:00:04.000Z",
       "url": "https://www.youtube.com/watch?v=FD_oc92GO6k",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "performance"
     },
     {
@@ -768,12 +1856,44 @@
       },
       "title": "TWICE \"FIREWORK\" Live Stage @ TWICE ＜THIS IS FOR＞ WORLD TOUR FINALE IN SEOUL",
       "description": "TWICE \"FIREWORK\" Live Stage @ TWICE ＜THIS IS FOR＞ WORLD TOUR FINALE IN SEOUL\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.twi",
-      "thumbnail": "https://i.ytimg.com/vi/c6IPi5QIyUs/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/c6IPi5QIyUs/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/c6IPi5QIyUs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/c6IPi5QIyUs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/c6IPi5QIyUs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/c6IPi5QIyUs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/c6IPi5QIyUs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-10T09:00:02.000Z",
       "url": "https://www.youtube.com/watch?v=c6IPi5QIyUs",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "performance"
     },
     {
@@ -790,12 +1910,44 @@
       },
       "title": "TW-LOG @ 6TH WORLD TOUR ‘THIS IS FOR’ ep.DAHYUN | Pt.2",
       "description": "TW-LOG @ 6TH WORLD TOUR ‘THIS IS FOR’ ep.DAHYUN | Pt.2\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.twitter.com/JYPETWICE \nTW",
-      "thumbnail": "https://i.ytimg.com/vi/tO6tvHGrYQI/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/tO6tvHGrYQI/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/tO6tvHGrYQI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/tO6tvHGrYQI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/tO6tvHGrYQI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/tO6tvHGrYQI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/tO6tvHGrYQI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-06T09:00:02.000Z",
       "url": "https://www.youtube.com/watch?v=tO6tvHGrYQI",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -812,12 +1964,44 @@
       },
       "title": "🫦💦 #TWICE #트와이스 #MOMO #모모 #JYPark #박진영 #WET @JYPark",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/vekEedAibDs/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/vekEedAibDs/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/vekEedAibDs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/vekEedAibDs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/vekEedAibDs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/vekEedAibDs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/vekEedAibDs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-31T05:00:43.000Z",
       "url": "https://www.youtube.com/watch?v=vekEedAibDs",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -834,12 +2018,44 @@
       },
       "title": "TW-LOG @ 6TH WORLD TOUR ‘THIS IS FOR’ ep.JIHYO | Pt.2",
       "description": "TW-LOG @ 6TH WORLD TOUR ‘THIS IS FOR’ ep.JIHYO | Pt.2\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.twitter.com/JYPETWICE \nTWI",
-      "thumbnail": "https://i.ytimg.com/vi/DYo0LYySde4/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/DYo0LYySde4/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/DYo0LYySde4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/DYo0LYySde4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/DYo0LYySde4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/DYo0LYySde4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/DYo0LYySde4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-30T09:00:32.000Z",
       "url": "https://www.youtube.com/watch?v=DYo0LYySde4",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -856,12 +2072,44 @@
       },
       "title": "TW-LOG @ 6TH WORLD TOUR ‘THIS IS FOR’ ep.MINA | Pt.2",
       "description": "TW-LOG @ 6TH WORLD TOUR ‘THIS IS FOR’ ep.MINA | Pt.2\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.twitter.com/JYPETWICE \nTWIC",
-      "thumbnail": "https://i.ytimg.com/vi/tRGj-9aqXg4/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/tRGj-9aqXg4/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/tRGj-9aqXg4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/tRGj-9aqXg4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/tRGj-9aqXg4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/tRGj-9aqXg4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/tRGj-9aqXg4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-23T09:00:09.000Z",
       "url": "https://www.youtube.com/watch?v=tRGj-9aqXg4",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -878,12 +2126,44 @@
       },
       "title": "멜빵 둡 기념 😽🤍 #TWICE #트와이스 #DAHYUN #다현",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/0ucLN5ED6-U/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/0ucLN5ED6-U/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/0ucLN5ED6-U/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/0ucLN5ED6-U/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/0ucLN5ED6-U/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/0ucLN5ED6-U/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/0ucLN5ED6-U/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-21T07:00:37.000Z",
       "url": "https://www.youtube.com/watch?v=0ucLN5ED6-U",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -900,12 +2180,44 @@
       },
       "title": "JIHYO First Pitch Behind with KIWOOM HEROES",
       "description": "JIHYO First Pitch Behind with KIWOOM HEROES\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.twitter.com/JYPETWICE \nTWICE Officia",
-      "thumbnail": "https://i.ytimg.com/vi/hSnI7nbJ7Ls/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/hSnI7nbJ7Ls/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/hSnI7nbJ7Ls/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/hSnI7nbJ7Ls/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/hSnI7nbJ7Ls/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/hSnI7nbJ7Ls/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/hSnI7nbJ7Ls/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-20T09:00:04.000Z",
       "url": "https://www.youtube.com/watch?v=hSnI7nbJ7Ls",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -922,12 +2234,44 @@
       },
       "title": "TW-LOG @ 6TH WORLD TOUR ‘THIS IS FOR’ ep.NAYEON | Pt.2",
       "description": "TW-LOG @ 6TH WORLD TOUR ‘THIS IS FOR’ ep.NAYEON | Pt.2\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.twitter.com/JYPETWICE \nTW",
-      "thumbnail": "https://i.ytimg.com/vi/8X6Kzb6NvBs/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/8X6Kzb6NvBs/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/8X6Kzb6NvBs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/8X6Kzb6NvBs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/8X6Kzb6NvBs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/8X6Kzb6NvBs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/8X6Kzb6NvBs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-16T09:00:03.000Z",
       "url": "https://www.youtube.com/watch?v=8X6Kzb6NvBs",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -944,12 +2288,44 @@
       },
       "title": "CHESS♟️🎹 #TWICE #트와이스 #DAHYUN #다현",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/D1_ryQAQvig/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/D1_ryQAQvig/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/D1_ryQAQvig/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/D1_ryQAQvig/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/D1_ryQAQvig/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/D1_ryQAQvig/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/D1_ryQAQvig/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-16T03:00:11.000Z",
       "url": "https://www.youtube.com/watch?v=D1_ryQAQvig",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -966,12 +2342,44 @@
       },
       "title": "[TW-DAY☀️] #21 Guess who's back from Miami? 👀 JIHYO's chaotic shoot begins! 💥",
       "description": "[TW-DAY☀️] #21 Guess who's back from Miami? 👀 JIHYO's chaotic shoot begins! 💥\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.",
-      "thumbnail": "https://i.ytimg.com/vi/yqRozxU-Bqw/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/yqRozxU-Bqw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/yqRozxU-Bqw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/yqRozxU-Bqw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/yqRozxU-Bqw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/yqRozxU-Bqw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/yqRozxU-Bqw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-15T09:00:04.000Z",
       "url": "https://www.youtube.com/watch?v=yqRozxU-Bqw",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -988,12 +2396,44 @@
       },
       "title": "TWICE ＜THIS IS FOR＞ WORLD TOUR FINALE IN SEOUL Playlist",
       "description": "TWICE ＜THIS IS FOR＞ WORLD TOUR FINALE IN SEOUL Playlist\n\n00:00:00 FOUR\n00:01:46 THIS IS FOR\n00:03:56 Strategy\n00:06:43 MAKE ME GO\n00:09:50 SET ME FREE\n00:12:50 I CAN'T STOP ME\n00:16:16 OPTIONS\n00:19:23 MOONLIGHT SUNRISE\n00:22:23 MARS\n00:24:44 I GOT YOU\n00:27:37 Talk that Talk\n00:",
-      "thumbnail": "https://i.ytimg.com/vi/UPsCaaaqRe0/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/UPsCaaaqRe0/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/UPsCaaaqRe0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/UPsCaaaqRe0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/UPsCaaaqRe0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/UPsCaaaqRe0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/UPsCaaaqRe0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-13T09:00:01.000Z",
       "url": "https://www.youtube.com/watch?v=UPsCaaaqRe0",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -1010,12 +2450,44 @@
       },
       "title": "트와이스 트와이스 잘했다!🍭 #TWICE #트와이스",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/YMB4aDkERHQ/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/YMB4aDkERHQ/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/YMB4aDkERHQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/YMB4aDkERHQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/YMB4aDkERHQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/YMB4aDkERHQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/YMB4aDkERHQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-13T08:00:05.000Z",
       "url": "https://www.youtube.com/watch?v=YMB4aDkERHQ",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -1032,12 +2504,44 @@
       },
       "title": "THIS IS FOR 끄-읕💙 #TWICE #트와이스 #THISISFOR#TWICE_THISISFOR_WORLD_TOUR",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/WJURfGcbG2Y/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/WJURfGcbG2Y/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/WJURfGcbG2Y/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/WJURfGcbG2Y/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/WJURfGcbG2Y/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/WJURfGcbG2Y/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/WJURfGcbG2Y/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-12T12:49:00.000Z",
       "url": "https://www.youtube.com/watch?v=WJURfGcbG2Y",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -1054,12 +2558,44 @@
       },
       "title": "This is for ONCE🍭This is for TWICE🩷 #TWICE #트와이스 #THISISFOR #TWICE_THISISFOR_WORLD_TOUR",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/Lip4VdQI3ZI/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/Lip4VdQI3ZI/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Lip4VdQI3ZI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Lip4VdQI3ZI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Lip4VdQI3ZI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Lip4VdQI3ZI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Lip4VdQI3ZI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-11T13:20:44.000Z",
       "url": "https://www.youtube.com/watch?v=Lip4VdQI3ZI",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -1076,12 +2612,44 @@
       },
       "title": "DAY 2✌🏻 Are you guys on the way? #TWICE #트와이스 #THISISFOR #TWICE_THISISFOR_WORLD_TOUR",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/blbuuC2N6Bs/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/blbuuC2N6Bs/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/blbuuC2N6Bs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/blbuuC2N6Bs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/blbuuC2N6Bs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/blbuuC2N6Bs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/blbuuC2N6Bs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-11T07:00:18.000Z",
       "url": "https://www.youtube.com/watch?v=blbuuC2N6Bs",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     },
     {
@@ -1098,12 +2666,44 @@
       },
       "title": "어딜봐도 원스잖아🌏❣️ #TWICE #트와이스 #THISISFOR#TWICE_THISISFOR_WORLD_TOUR#TWICE_THISISFOR_WORLD_TOUR_IN_SEOUL",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/DM6JtU6VQYk/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/DM6JtU6VQYk/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/DM6JtU6VQYk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/DM6JtU6VQYk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/DM6JtU6VQYk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/DM6JtU6VQYk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/DM6JtU6VQYk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-07-10T14:04:48.000Z",
       "url": "https://www.youtube.com/watch?v=DM6JtU6VQYk",
-      "fetchedAt": "2026-10-14T13:10:32.669Z",
+      "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:10:32.669Z",
+      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
       "type": "other"
     }
   ]

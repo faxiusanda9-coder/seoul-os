@@ -1,10 +1,10 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
   "uploadsPlaylistId": "UUSskmnvIhEy3nSZxxVKTeIg",
   "artistId": "girlset",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-14T13:26:14.506Z",
+  "fetchedAt": "2026-10-14T16:52:41.420Z",
   "items": [
     {
       "id": "yt-mP1nfeDPgew",
@@ -20,12 +20,44 @@
       },
       "title": "go play #GIRLSET #Lexi",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/mP1nfeDPgew/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/mP1nfeDPgew/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/mP1nfeDPgew/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/mP1nfeDPgew/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/mP1nfeDPgew/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/mP1nfeDPgew/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/mP1nfeDPgew/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-12T16:04:04.000Z",
       "url": "https://www.youtube.com/watch?v=mP1nfeDPgew",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -42,12 +74,44 @@
       },
       "title": "“CHAT” asks us anything out now #GIRLSET #CHAT",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/JJ-np8FZ8X0/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/JJ-np8FZ8X0/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/JJ-np8FZ8X0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/JJ-np8FZ8X0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/JJ-np8FZ8X0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/JJ-np8FZ8X0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/JJ-np8FZ8X0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-06T16:08:53.000Z",
       "url": "https://www.youtube.com/watch?v=JJ-np8FZ8X0",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -64,12 +128,50 @@
       },
       "title": "GIRLSET \"CHAT\" Asks Us Anything",
       "description": "GIRLSET \"CHAT\" Spotify: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official Website: https://girlset.com\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://www.twitter.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/",
-      "thumbnail": "https://i.ytimg.com/vi/gBq5T6dBp3Q/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/gBq5T6dBp3Q/uhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/gBq5T6dBp3Q/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/gBq5T6dBp3Q/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/gBq5T6dBp3Q/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/gBq5T6dBp3Q/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/gBq5T6dBp3Q/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "uhd",
+          "url": "https://i.ytimg.com/vi/gBq5T6dBp3Q/uhddefault.jpg",
+          "width": 3840,
+          "height": 2160
+        }
+      ],
       "publishedAt": "2026-10-06T15:59:50.000Z",
       "url": "https://www.youtube.com/watch?v=gBq5T6dBp3Q",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -86,12 +188,44 @@
       },
       "title": "hope you’re satisfied #GIRLSET #Kendall #Savanna",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/msnaEYLX4fU/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/msnaEYLX4fU/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/msnaEYLX4fU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/msnaEYLX4fU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/msnaEYLX4fU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/msnaEYLX4fU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/msnaEYLX4fU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-10-01T16:05:29.000Z",
       "url": "https://www.youtube.com/watch?v=msnaEYLX4fU",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -108,12 +242,44 @@
       },
       "title": "yappy ver. visualizer out now, with a hint of what’s coming this halloween 👀📞 #GIRLSET #CHAT",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/Qzdl4O077lo/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/Qzdl4O077lo/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Qzdl4O077lo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Qzdl4O077lo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Qzdl4O077lo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Qzdl4O077lo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Qzdl4O077lo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-19T16:09:56.000Z",
       "url": "https://www.youtube.com/watch?v=Qzdl4O077lo",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -130,12 +296,50 @@
       },
       "title": "GIRLSET \"CHAT\" Visualizer (Yappy Ver.)",
       "description": "GIRLSET \"CHAT\" Spotify: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official Website: https://girlset.com\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://www.twitter.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/",
-      "thumbnail": "https://i.ytimg.com/vi/tEi_FdyAWxw/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/tEi_FdyAWxw/uhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/tEi_FdyAWxw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/tEi_FdyAWxw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/tEi_FdyAWxw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/tEi_FdyAWxw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/tEi_FdyAWxw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "uhd",
+          "url": "https://i.ytimg.com/vi/tEi_FdyAWxw/uhddefault.jpg",
+          "width": 3840,
+          "height": 2160
+        }
+      ],
       "publishedAt": "2026-09-19T16:00:42.000Z",
       "url": "https://www.youtube.com/watch?v=tEi_FdyAWxw",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -152,12 +356,44 @@
       },
       "title": "just wanna stay this time ꕤ @ArianaGrande #GIRLSET",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/EEWoabbiqOU/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/EEWoabbiqOU/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/EEWoabbiqOU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/EEWoabbiqOU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/EEWoabbiqOU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/EEWoabbiqOU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/EEWoabbiqOU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-18T16:08:38.000Z",
       "url": "https://www.youtube.com/watch?v=EEWoabbiqOU",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -174,12 +410,44 @@
       },
       "title": "“CHAT” U.S. promotion out now #GIRLSET #CHAT",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/oIXgHm1OVG4/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/oIXgHm1OVG4/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/oIXgHm1OVG4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/oIXgHm1OVG4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/oIXgHm1OVG4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/oIXgHm1OVG4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/oIXgHm1OVG4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-16T01:10:12.000Z",
       "url": "https://www.youtube.com/watch?v=oIXgHm1OVG4",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -196,12 +464,50 @@
       },
       "title": "GIRLSET \"CHAT\" U.S. Promotion",
       "description": "GIRLSET \"CHAT\" Spotify: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official Website: https://girlset.com\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://www.twitter.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/",
-      "thumbnail": "https://i.ytimg.com/vi/QplqNBL6KKI/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/QplqNBL6KKI/uhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/QplqNBL6KKI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/QplqNBL6KKI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/QplqNBL6KKI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/QplqNBL6KKI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/QplqNBL6KKI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "uhd",
+          "url": "https://i.ytimg.com/vi/QplqNBL6KKI/uhddefault.jpg",
+          "width": 3840,
+          "height": 2160
+        }
+      ],
       "publishedAt": "2026-09-16T01:00:14.000Z",
       "url": "https://www.youtube.com/watch?v=QplqNBL6KKI",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -218,12 +524,44 @@
       },
       "title": "CHAT x BOAT #GIRLSET #Savanna #CHAT",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/W5n3giqt_AI/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/W5n3giqt_AI/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/W5n3giqt_AI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/W5n3giqt_AI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/W5n3giqt_AI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/W5n3giqt_AI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/W5n3giqt_AI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-08T17:16:35.000Z",
       "url": "https://www.youtube.com/watch?v=W5n3giqt_AI",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -240,12 +578,44 @@
       },
       "title": "girls like me pretend 🤭 @thuy #GIRLSET #Kendall",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/pSZqjn6STyI/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/pSZqjn6STyI/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/pSZqjn6STyI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/pSZqjn6STyI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/pSZqjn6STyI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/pSZqjn6STyI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/pSZqjn6STyI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-05T19:02:31.000Z",
       "url": "https://www.youtube.com/watch?v=pSZqjn6STyI",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -262,12 +632,44 @@
       },
       "title": "BASS BOOSTTT #GIRLSET #Lexi #CHAT",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/2v8T7u6Xvd4/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/2v8T7u6Xvd4/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/2v8T7u6Xvd4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/2v8T7u6Xvd4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/2v8T7u6Xvd4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/2v8T7u6Xvd4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/2v8T7u6Xvd4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-09-02T16:10:32.000Z",
       "url": "https://www.youtube.com/watch?v=2v8T7u6Xvd4",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -284,12 +686,44 @@
       },
       "title": "hey mr. nonchalant #GIRLSET #Savanna",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/n-4pjZzv1Gk/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/n-4pjZzv1Gk/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/n-4pjZzv1Gk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/n-4pjZzv1Gk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/n-4pjZzv1Gk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/n-4pjZzv1Gk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/n-4pjZzv1Gk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-31T16:07:30.000Z",
       "url": "https://www.youtube.com/watch?v=n-4pjZzv1Gk",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -306,12 +740,44 @@
       },
       "title": "@LizaSoberanoOfficial’s in the chatt 💓💓 #GIRLSET #CHAT",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/CJ-WaZ2ee3U/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/CJ-WaZ2ee3U/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/CJ-WaZ2ee3U/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/CJ-WaZ2ee3U/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/CJ-WaZ2ee3U/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/CJ-WaZ2ee3U/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/CJ-WaZ2ee3U/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-30T01:06:46.000Z",
       "url": "https://www.youtube.com/watch?v=CJ-WaZ2ee3U",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -328,12 +794,44 @@
       },
       "title": "happy one year of GIRLSET! #GIRLSET #GIRLSET1stAnniversary",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/1jzWbjorRhY/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/1jzWbjorRhY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/1jzWbjorRhY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/1jzWbjorRhY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/1jzWbjorRhY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/1jzWbjorRhY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/1jzWbjorRhY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-29T16:08:22.000Z",
       "url": "https://www.youtube.com/watch?v=1jzWbjorRhY",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -350,12 +848,50 @@
       },
       "title": "Happy 1-Year of GIRLSET",
       "description": "GIRLSET \"CHAT\" Spotify: https://girlset.lnk.to/CHAT/spotify\n\nGIRLSET Official Website: https://girlset.com\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://www.twitter.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/",
-      "thumbnail": "https://i.ytimg.com/vi/sL50vOx_zKY/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/sL50vOx_zKY/fhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/sL50vOx_zKY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/sL50vOx_zKY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/sL50vOx_zKY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/sL50vOx_zKY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/sL50vOx_zKY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "fhd",
+          "url": "https://i.ytimg.com/vi/sL50vOx_zKY/fhddefault.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
       "publishedAt": "2026-08-29T02:48:35.000Z",
       "url": "https://www.youtube.com/watch?v=sL50vOx_zKY",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -372,12 +908,44 @@
       },
       "title": "been in the chat all night #GIRLSET #CHAT",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/ndmejbsgGYs/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/ndmejbsgGYs/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/ndmejbsgGYs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/ndmejbsgGYs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/ndmejbsgGYs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/ndmejbsgGYs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/ndmejbsgGYs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-28T16:04:04.000Z",
       "url": "https://www.youtube.com/watch?v=ndmejbsgGYs",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -394,12 +962,44 @@
       },
       "title": "watch our “CHAT” song breakdown out now on youtube #GIRLSET #CHAT",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/QB9vVY73_Hg/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/QB9vVY73_Hg/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/QB9vVY73_Hg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/QB9vVY73_Hg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/QB9vVY73_Hg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/QB9vVY73_Hg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/QB9vVY73_Hg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-28T02:08:41.000Z",
       "url": "https://www.youtube.com/watch?v=QB9vVY73_Hg",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -416,12 +1016,50 @@
       },
       "title": "GIRLSET \"CHAT\" Song Breakdown",
       "description": "GIRLSET \"CHAT\" Spotify: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official Website: https://girlset.com\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://www.twitter.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/",
-      "thumbnail": "https://i.ytimg.com/vi/1cWOM4cihKU/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/1cWOM4cihKU/qhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/1cWOM4cihKU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/1cWOM4cihKU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/1cWOM4cihKU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/1cWOM4cihKU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/1cWOM4cihKU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "qhd",
+          "url": "https://i.ytimg.com/vi/1cWOM4cihKU/qhddefault.jpg",
+          "width": 2560,
+          "height": 1440
+        }
+      ],
       "publishedAt": "2026-08-28T02:00:00.000Z",
       "url": "https://www.youtube.com/watch?v=1cWOM4cihKU",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -438,12 +1076,44 @@
       },
       "title": "who’s that girl? #GIRLSET #Camila #Savanna",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/KuJzqLEEP-w/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/KuJzqLEEP-w/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/KuJzqLEEP-w/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/KuJzqLEEP-w/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/KuJzqLEEP-w/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/KuJzqLEEP-w/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/KuJzqLEEP-w/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-27T18:34:57.000Z",
       "url": "https://www.youtube.com/watch?v=KuJzqLEEP-w",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -460,12 +1130,44 @@
       },
       "title": "kept my promise about doing this trend😌 ib: jocelynmeiere #GIRLSET #Lexi",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/z5mj8vCCACs/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/z5mj8vCCACs/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/z5mj8vCCACs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/z5mj8vCCACs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/z5mj8vCCACs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/z5mj8vCCACs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/z5mj8vCCACs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-26T22:38:17.000Z",
       "url": "https://www.youtube.com/watch?v=z5mj8vCCACs",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -482,12 +1184,44 @@
       },
       "title": "wouldve been better 4 years ago #GIRLSET #Savanna",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/4FOUNmOvV7M/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/4FOUNmOvV7M/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/4FOUNmOvV7M/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/4FOUNmOvV7M/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/4FOUNmOvV7M/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/4FOUNmOvV7M/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/4FOUNmOvV7M/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-26T16:42:48.000Z",
       "url": "https://www.youtube.com/watch?v=4FOUNmOvV7M",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -504,12 +1238,44 @@
       },
       "title": "had to throw on the shoes 🩰 for @ADÉLAJERGOVÁ #GIRLSET #Kendall #Lexi",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/XbLpdu1aBws/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/XbLpdu1aBws/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/XbLpdu1aBws/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/XbLpdu1aBws/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/XbLpdu1aBws/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/XbLpdu1aBws/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/XbLpdu1aBws/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-25T22:39:34.000Z",
       "url": "https://www.youtube.com/watch?v=XbLpdu1aBws",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -526,12 +1292,44 @@
       },
       "title": "how it looks vs. how it feels #GIRLSET #Lexi #Savanna #CHAT",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/NZ8Ur_3HYnU/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/NZ8Ur_3HYnU/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/NZ8Ur_3HYnU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/NZ8Ur_3HYnU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/NZ8Ur_3HYnU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/NZ8Ur_3HYnU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/NZ8Ur_3HYnU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-25T17:07:13.000Z",
       "url": "https://www.youtube.com/watch?v=NZ8Ur_3HYnU",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -548,12 +1346,44 @@
       },
       "title": "i could be the one #GIRLSET #Savanna",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/1X0Eb74S-24/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/1X0Eb74S-24/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/1X0Eb74S-24/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/1X0Eb74S-24/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/1X0Eb74S-24/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/1X0Eb74S-24/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/1X0Eb74S-24/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-24T17:11:01.000Z",
       "url": "https://www.youtube.com/watch?v=1X0Eb74S-24",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -570,12 +1400,44 @@
       },
       "title": "had to throw it back for this one #GIRLSET #CHAT",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/_WVisoVA2YU/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/_WVisoVA2YU/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/_WVisoVA2YU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/_WVisoVA2YU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/_WVisoVA2YU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/_WVisoVA2YU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/_WVisoVA2YU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-23T19:35:45.000Z",
       "url": "https://www.youtube.com/watch?v=_WVisoVA2YU",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -592,12 +1454,44 @@
       },
       "title": "“CHAT” in korea part 3 out now #GIRLSET #CHAT",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/nFhVsbPjhzY/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/nFhVsbPjhzY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/nFhVsbPjhzY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/nFhVsbPjhzY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/nFhVsbPjhzY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/nFhVsbPjhzY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/nFhVsbPjhzY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-23T17:18:44.000Z",
       "url": "https://www.youtube.com/watch?v=nFhVsbPjhzY",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -614,12 +1508,50 @@
       },
       "title": "GIRLSET \"CHAT\" in Korea Part 3",
       "description": "GIRLSET \"CHAT\" Spotify: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official Website: https://girlset.com\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://www.twitter.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/",
-      "thumbnail": "https://i.ytimg.com/vi/NVKAYI3XIhA/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/NVKAYI3XIhA/qhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/NVKAYI3XIhA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/NVKAYI3XIhA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/NVKAYI3XIhA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/NVKAYI3XIhA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/NVKAYI3XIhA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "qhd",
+          "url": "https://i.ytimg.com/vi/NVKAYI3XIhA/qhddefault.jpg",
+          "width": 2560,
+          "height": 1440
+        }
+      ],
       "publishedAt": "2026-08-23T17:00:30.000Z",
       "url": "https://www.youtube.com/watch?v=NVKAYI3XIhA",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -636,12 +1568,44 @@
       },
       "title": "if i left the chat would you miss me? #GIRLSET #Lexi",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/59xLkShc-jo/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/59xLkShc-jo/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/59xLkShc-jo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/59xLkShc-jo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/59xLkShc-jo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/59xLkShc-jo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/59xLkShc-jo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-22T16:13:12.000Z",
       "url": "https://www.youtube.com/watch?v=59xLkShc-jo",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -658,12 +1622,44 @@
       },
       "title": "dame más gasolina #GIRLSET #Camila",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/cCWFr4BjNeU/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/cCWFr4BjNeU/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/cCWFr4BjNeU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/cCWFr4BjNeU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/cCWFr4BjNeU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/cCWFr4BjNeU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/cCWFr4BjNeU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-21T20:08:24.000Z",
       "url": "https://www.youtube.com/watch?v=cCWFr4BjNeU",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -680,12 +1676,44 @@
       },
       "title": "“CHAT” in korea part 2 out now #GIRLSET #CHAT",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/tsjRmKkCJis/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/tsjRmKkCJis/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/tsjRmKkCJis/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/tsjRmKkCJis/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/tsjRmKkCJis/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/tsjRmKkCJis/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/tsjRmKkCJis/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-21T16:11:56.000Z",
       "url": "https://www.youtube.com/watch?v=tsjRmKkCJis",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -702,12 +1730,50 @@
       },
       "title": "GIRLSET \"CHAT\" in Korea Part 2",
       "description": "GIRLSET \"CHAT\" Spotify: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official Website: https://girlset.com\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://www.twitter.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/",
-      "thumbnail": "https://i.ytimg.com/vi/7__A-_HHxks/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/7__A-_HHxks/qhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/7__A-_HHxks/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/7__A-_HHxks/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/7__A-_HHxks/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/7__A-_HHxks/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/7__A-_HHxks/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "qhd",
+          "url": "https://i.ytimg.com/vi/7__A-_HHxks/qhddefault.jpg",
+          "width": 2560,
+          "height": 1440
+        }
+      ],
       "publishedAt": "2026-08-21T16:00:38.000Z",
       "url": "https://www.youtube.com/watch?v=7__A-_HHxks",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -724,12 +1790,44 @@
       },
       "title": "the baddest bitches are in… 🗺️🩷 #GIRLSET",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/o8rds0As6VE/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/o8rds0As6VE/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/o8rds0As6VE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/o8rds0As6VE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/o8rds0As6VE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/o8rds0As6VE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/o8rds0As6VE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-20T21:05:19.000Z",
       "url": "https://www.youtube.com/watch?v=o8rds0As6VE",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -746,12 +1844,44 @@
       },
       "title": "CHAT got us moving like a metronome @izna_offcl #GIRLSET #izna #BANGJEEMIN #CHAT",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/NnI1v9RPP2c/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/NnI1v9RPP2c/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/NnI1v9RPP2c/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/NnI1v9RPP2c/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/NnI1v9RPP2c/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/NnI1v9RPP2c/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/NnI1v9RPP2c/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-20T00:07:00.000Z",
       "url": "https://www.youtube.com/watch?v=NnI1v9RPP2c",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -768,12 +1898,44 @@
       },
       "title": "“CHAT” in korea part 1 out now #GIRLSET #CHAT",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/3f5gXlIBpX8/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/3f5gXlIBpX8/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/3f5gXlIBpX8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/3f5gXlIBpX8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/3f5gXlIBpX8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/3f5gXlIBpX8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/3f5gXlIBpX8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-19T17:06:34.000Z",
       "url": "https://www.youtube.com/watch?v=3f5gXlIBpX8",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -790,12 +1952,50 @@
       },
       "title": "GIRLSET \"CHAT\" in Korea Part 1",
       "description": "GIRLSET \"CHAT\" Spotify: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official Website: https://girlset.com\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://www.twitter.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/",
-      "thumbnail": "https://i.ytimg.com/vi/Lb5AweFW6G4/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/Lb5AweFW6G4/qhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Lb5AweFW6G4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Lb5AweFW6G4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Lb5AweFW6G4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Lb5AweFW6G4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Lb5AweFW6G4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "qhd",
+          "url": "https://i.ytimg.com/vi/Lb5AweFW6G4/qhddefault.jpg",
+          "width": 2560,
+          "height": 1440
+        }
+      ],
       "publishedAt": "2026-08-19T17:00:17.000Z",
       "url": "https://www.youtube.com/watch?v=Lb5AweFW6G4",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -812,12 +2012,44 @@
       },
       "title": "@kickflip_jype got the spot so litty #GIRLSET #KickFlip #Donghwa #CHAT",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/HFl8QaMLk4U/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/HFl8QaMLk4U/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/HFl8QaMLk4U/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/HFl8QaMLk4U/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/HFl8QaMLk4U/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/HFl8QaMLk4U/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/HFl8QaMLk4U/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-19T00:05:59.000Z",
       "url": "https://www.youtube.com/watch?v=HFl8QaMLk4U",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -834,12 +2066,44 @@
       },
       "title": "saucin’ it up in the chat with @NEXZ_official #GIRLSET #NEXZ #YU #HARU #CHAT",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/k-pliYTkz8A/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/k-pliYTkz8A/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/k-pliYTkz8A/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/k-pliYTkz8A/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/k-pliYTkz8A/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/k-pliYTkz8A/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/k-pliYTkz8A/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-18T02:04:24.000Z",
       "url": "https://www.youtube.com/watch?v=k-pliYTkz8A",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -856,12 +2120,44 @@
       },
       "title": "bad gyals coming through to the valleyyy @kyliecantrall #GIRLSET #CHAT",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/Gg9Vx49FmyQ/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/Gg9Vx49FmyQ/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Gg9Vx49FmyQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Gg9Vx49FmyQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Gg9Vx49FmyQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Gg9Vx49FmyQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Gg9Vx49FmyQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-16T20:36:32.000Z",
       "url": "https://www.youtube.com/watch?v=Gg9Vx49FmyQ",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -878,12 +2174,44 @@
       },
       "title": "time to clean out our closets @kyliecantrall",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/P-4SXO6GYYY/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/P-4SXO6GYYY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/P-4SXO6GYYY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/P-4SXO6GYYY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/P-4SXO6GYYY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/P-4SXO6GYYY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/P-4SXO6GYYY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-16T16:09:59.000Z",
       "url": "https://www.youtube.com/watch?v=P-4SXO6GYYY",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -900,12 +2228,44 @@
       },
       "title": "same audio different baddie #GIRLSET #Lexi #CHAT",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/mo7GscxH_hw/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/mo7GscxH_hw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/mo7GscxH_hw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/mo7GscxH_hw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/mo7GscxH_hw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/mo7GscxH_hw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/mo7GscxH_hw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-15T18:00:28.000Z",
       "url": "https://www.youtube.com/watch?v=mo7GscxH_hw",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -922,12 +2282,44 @@
       },
       "title": "⋆˙⟡ from era to era ⋆˙⟡ #GIRLSET #CHAT",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/waEzX2cR5OU/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/waEzX2cR5OU/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/waEzX2cR5OU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/waEzX2cR5OU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/waEzX2cR5OU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/waEzX2cR5OU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/waEzX2cR5OU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-15T16:16:56.000Z",
       "url": "https://www.youtube.com/watch?v=waEzX2cR5OU",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -944,12 +2336,44 @@
       },
       "title": "when lexi’s in the CHAT #GIRLSET #Lexi #CHAT",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/-VDazxydALk/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/-VDazxydALk/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/-VDazxydALk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/-VDazxydALk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/-VDazxydALk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/-VDazxydALk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/-VDazxydALk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-14T16:36:13.000Z",
       "url": "https://www.youtube.com/watch?v=-VDazxydALk",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -966,12 +2390,44 @@
       },
       "title": "loveddd this look #GIRLSET #Savanna #CHAT",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/6IfE5hoJEOE/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/6IfE5hoJEOE/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/6IfE5hoJEOE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/6IfE5hoJEOE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/6IfE5hoJEOE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/6IfE5hoJEOE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/6IfE5hoJEOE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-13T16:36:16.000Z",
       "url": "https://www.youtube.com/watch?v=6IfE5hoJEOE",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -988,12 +2444,44 @@
       },
       "title": "when camila’s in the CHAT #GIRLSET #Camila #CHAT",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/zFdoj8tNMyA/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/zFdoj8tNMyA/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/zFdoj8tNMyA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/zFdoj8tNMyA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/zFdoj8tNMyA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/zFdoj8tNMyA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/zFdoj8tNMyA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-12T16:05:57.000Z",
       "url": "https://www.youtube.com/watch?v=zFdoj8tNMyA",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -1010,12 +2498,44 @@
       },
       "title": "eyes on me #GIRLSET #CHAT",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/Cz98xcoyIQY/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/Cz98xcoyIQY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Cz98xcoyIQY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Cz98xcoyIQY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Cz98xcoyIQY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Cz98xcoyIQY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Cz98xcoyIQY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-11T19:40:08.000Z",
       "url": "https://www.youtube.com/watch?v=Cz98xcoyIQY",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -1032,12 +2552,44 @@
       },
       "title": "“CHAT” lyric video (fan made) out now #GIRLSET #CHAT",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/vZAsZgdVVyk/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/vZAsZgdVVyk/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/vZAsZgdVVyk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/vZAsZgdVVyk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/vZAsZgdVVyk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/vZAsZgdVVyk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/vZAsZgdVVyk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-11T16:16:25.000Z",
       "url": "https://www.youtube.com/watch?v=vZAsZgdVVyk",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -1054,12 +2606,50 @@
       },
       "title": "GIRLSET \"CHAT\" Lyric Video (Fan Made)",
       "description": "GIRLSET \"CHAT\" Spotify: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official Website: https://girlset.com\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://www.twitter.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/",
-      "thumbnail": "https://i.ytimg.com/vi/fCdXPaAle8g/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/fCdXPaAle8g/qhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/fCdXPaAle8g/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/fCdXPaAle8g/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/fCdXPaAle8g/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/fCdXPaAle8g/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/fCdXPaAle8g/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "qhd",
+          "url": "https://i.ytimg.com/vi/fCdXPaAle8g/qhddefault.jpg",
+          "width": 2560,
+          "height": 1440
+        }
+      ],
       "publishedAt": "2026-08-11T16:00:39.000Z",
       "url": "https://www.youtube.com/watch?v=fCdXPaAle8g",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -1076,12 +2666,44 @@
       },
       "title": "when savanna’s in the CHAT #GIRLSET #Savanna #CHAT",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/LSpRuctWObs/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/LSpRuctWObs/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/LSpRuctWObs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/LSpRuctWObs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/LSpRuctWObs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/LSpRuctWObs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/LSpRuctWObs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-10T16:01:58.000Z",
       "url": "https://www.youtube.com/watch?v=LSpRuctWObs",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     },
     {
@@ -1098,12 +2720,44 @@
       },
       "title": "when kendall’s in the CHAT #GIRLSET #Kendall #CHAT",
       "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/DWBTAIuD-Wo/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/DWBTAIuD-Wo/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/DWBTAIuD-Wo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/DWBTAIuD-Wo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/DWBTAIuD-Wo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/DWBTAIuD-Wo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/DWBTAIuD-Wo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2026-08-09T16:16:15.000Z",
       "url": "https://www.youtube.com/watch?v=DWBTAIuD-Wo",
-      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
       "type": "other"
     }
   ]

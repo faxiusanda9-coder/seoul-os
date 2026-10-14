@@ -1,10 +1,10 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "channelId": "UCotuyOt3sduFSaL80X_tEVA",
   "uploadsPlaylistId": "UUotuyOt3sduFSaL80X_tEVA",
   "artistId": "yaochen",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-14T13:26:14.018Z",
+  "fetchedAt": "2026-10-14T16:52:40.843Z",
   "items": [
     {
       "id": "yt-wX0nQwuBswA",
@@ -20,12 +20,44 @@
       },
       "title": "YAOCHEN(야오천) \"你看风景我看你\" (EYES ON YOU) Performance Video",
       "description": "#EYESONYOU #야오천 #YAOCHEN \n#你看风景我看你 #姚琛\n\nYAOCHEN(야오천) \"你看风景我看你\" (EYES ON YOU) Performance Video\n\nYAOCHEN SPECIAL EP \"你看风景我看你\" (EYES ON YOU)\nGlobal: https://yao-chen.lnk.to/EYESONYOU\n\nFollow YAOCHEN👇 \nInstagram: https:https://instagram.com/yao_chen0323?ig... \nWeibo: https://weibo.",
-      "thumbnail": "https://i.ytimg.com/vi/wX0nQwuBswA/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/wX0nQwuBswA/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/wX0nQwuBswA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/wX0nQwuBswA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/wX0nQwuBswA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/wX0nQwuBswA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/wX0nQwuBswA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-05-05T10:01:34.000Z",
       "url": "https://www.youtube.com/watch?v=wX0nQwuBswA",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "performance"
     },
     {
@@ -42,12 +74,44 @@
       },
       "title": "[EN/TH] Today is a \"don't want to talk\" day, unless you can't hold it😬｜YCBlaBlaTV EP.08",
       "description": "#YAOCHEN #야오천 #姚琛 \n#yaochen #姚琛来了\n\n「YCBlaBlaTV」\n[EN/TH] Today is a \"don't want to talk\" day, unless you can't hold it😬｜EP.08\n\n今天是“不想说话”的一天，除非实在忍不住😬｜EP.08\n\nFollow YAOCHEN👇 \nInstagram: https:https://instagram.com/yao_chen0323?ig... \nWeibo: https://weibo.com/u/6929756049 \nBilibil",
-      "thumbnail": "https://i.ytimg.com/vi/UgIAi5gpDR4/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/UgIAi5gpDR4/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/UgIAi5gpDR4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/UgIAi5gpDR4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/UgIAi5gpDR4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/UgIAi5gpDR4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/UgIAi5gpDR4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-02-28T10:00:40.000Z",
       "url": "https://www.youtube.com/watch?v=UgIAi5gpDR4",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -64,12 +128,44 @@
       },
       "title": "[EN/TH] YAOCHEN's diet—takeaway Ver.｜YCBlaBlaTV EP.07",
       "description": "#YAOCHEN #야오천 #姚琛 \n#yaochen #姚琛来了 #diet \n\n「YCBlaBlaTV」\n[EN/TH] YAOCHEN's diet—takeaway Ver.｜EP.07\n\n小琛哥的减肥食谱—外卖Ver.｜EP.07\n“芹门”弟子姚琛在此\n这西芹你就吃吧 一吃一个不吱声🤨 \n\nFollow YAOCHEN👇 \nInstagram: https:https://instagram.com/yao_chen0323?ig... \nWeibo: https://weibo.com/u/6929756049 \nBilibili: ht",
-      "thumbnail": "https://i.ytimg.com/vi/6Nnz9zKMnT8/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/6Nnz9zKMnT8/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/6Nnz9zKMnT8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/6Nnz9zKMnT8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/6Nnz9zKMnT8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/6Nnz9zKMnT8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/6Nnz9zKMnT8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-02-27T10:00:06.000Z",
       "url": "https://www.youtube.com/watch?v=6Nnz9zKMnT8",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -86,12 +182,44 @@
       },
       "title": "[EN/TH] Welcome player to 'Return to Reality 1 Day' and big brother's reaction｜YCBlaBlaTV EP.06",
       "description": "#YAOCHEN #야오천 #姚琛 \n#yaochen #姚琛来了 \n\n「YCBlaBlaTV」\n[EN/TH] Welcome player to 'Return to Reality 1 Day' and big brother's reaction｜EP.06\n\n欢迎各位玩家来到《1天之后回到现实》，还有大哥的“十天”reaction ｜EP.06\n\nFollow YAOCHEN👇 \nInstagram: https:https://instagram.com/yao_chen0323?ig... \nWeibo: https://weibo.co",
-      "thumbnail": "https://i.ytimg.com/vi/TRs0S_f0rB4/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/TRs0S_f0rB4/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/TRs0S_f0rB4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/TRs0S_f0rB4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/TRs0S_f0rB4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/TRs0S_f0rB4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/TRs0S_f0rB4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-02-26T10:00:36.000Z",
       "url": "https://www.youtube.com/watch?v=TRs0S_f0rB4",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -108,12 +236,44 @@
       },
       "title": "[EN/TH] Never say lose of 'FLAG' Challenge｜YCBlaBlaTV EP.05",
       "description": "#YAOCHEN #야오천 #姚琛 \n#yaochen #姚琛来了 \n\n「YCBlaBlaTV」\n[EN/TH] Never say lose of 'FLAG' Challenge｜EP.05\n\n永不言败的FLAG挑战🚩｜EP.05\n\nFollow YAOCHEN👇 \nInstagram: https:https://instagram.com/yao_chen0323?ig... \nWeibo: https://weibo.com/u/6929756049 \nBilibili: https://space.bilibili.com/3954218",
-      "thumbnail": "https://i.ytimg.com/vi/R9XtsOHXlAo/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/R9XtsOHXlAo/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/R9XtsOHXlAo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/R9XtsOHXlAo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/R9XtsOHXlAo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/R9XtsOHXlAo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/R9XtsOHXlAo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-02-25T10:00:24.000Z",
       "url": "https://www.youtube.com/watch?v=R9XtsOHXlAo",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -130,12 +290,44 @@
       },
       "title": "[EN/TH] ASMR of Sleep Aid is coming at night! Have a good dream and sleep well 🌙｜EP.04",
       "description": "#YAOCHEN #야오천 #姚琛 \n#yaochen #姚琛来了 \n\n「YCBlaBlaTV」\n[EN/TH] ASMR of Sleep Aid is coming at night! Have a good dream and sleep well 🌙｜EP.04\n\n助眠篇之ASMR晚间来袭！做个好梦、睡个好觉🌙｜EP.04\n\nFollow YAOCHEN👇 \nInstagram: https:https://instagram.com/yao_chen0323?ig... \nWeibo: https://weibo.com/u/692975",
-      "thumbnail": "https://i.ytimg.com/vi/oKWZyiBGDSY/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/oKWZyiBGDSY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/oKWZyiBGDSY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/oKWZyiBGDSY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/oKWZyiBGDSY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/oKWZyiBGDSY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/oKWZyiBGDSY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-02-24T10:00:50.000Z",
       "url": "https://www.youtube.com/watch?v=oKWZyiBGDSY",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -152,12 +344,44 @@
       },
       "title": "360度环绕式帅气展示😏 #姚琛 #야오천 #yaochen",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/4h3mlBTc-Nk/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/4h3mlBTc-Nk/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/4h3mlBTc-Nk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/4h3mlBTc-Nk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/4h3mlBTc-Nk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/4h3mlBTc-Nk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/4h3mlBTc-Nk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-02-22T09:54:31.000Z",
       "url": "https://www.youtube.com/watch?v=4h3mlBTc-Nk",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -174,12 +398,44 @@
       },
       "title": "[EN/TH] Interview of YAOCHEN is coming!｜YCBlaBlaTV EP.03",
       "description": "#YAOCHEN #야오천 #姚琛 \n#yaochen #姚琛来了 \n\n「YCBlaBlaTV」\n[EN/TH] Interview of YAOCHEN is coming!｜EP.03\n\n专访篇火热来袭!｜EP.03\n\nFollow YAOCHEN👇 \nInstagram: https:https://instagram.com/yao_chen0323?ig... \nWeibo: https://weibo.com/u/6929756049 \nBilibili: https://space.bilibili.com/395421830?... \n",
-      "thumbnail": "https://i.ytimg.com/vi/XOZc2ssXtYI/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/XOZc2ssXtYI/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/XOZc2ssXtYI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/XOZc2ssXtYI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/XOZc2ssXtYI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/XOZc2ssXtYI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/XOZc2ssXtYI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-02-21T10:00:45.000Z",
       "url": "https://www.youtube.com/watch?v=XOZc2ssXtYI",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -196,12 +452,44 @@
       },
       "title": "[EN/TH] The mic hog session at KTV! Please 👀👂｜Daily Record",
       "description": "#daily #YAOCHEN\n#yaochen #야오천 #姚琛\n\n[EN/TH] The mic hog session at KTV! Please 👀👂｜Daily Record\n\n1000万分之1携“小礼”前来报道👋！KTV麦霸限时回归 请👀👂｜Daily Record\n\nFollow YAOCHEN👇 \nInstagram: https:https://instagram.com/yao_chen0323?ig... \nWeibo: https://weibo.com/u/6929756049 \nBilibili: https:/",
-      "thumbnail": "https://i.ytimg.com/vi/AHCWCufSca4/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/AHCWCufSca4/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/AHCWCufSca4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/AHCWCufSca4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/AHCWCufSca4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/AHCWCufSca4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/AHCWCufSca4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-02-20T08:00:15.000Z",
       "url": "https://www.youtube.com/watch?v=AHCWCufSca4",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -218,12 +506,38 @@
       },
       "title": "YAOCHEN｜Dance Cover｜RNP（feat.Anderson .Paak)(Explicit)& Big Dawgs(Explicit)",
       "description": "#야오천 #YAOCHEN\n#yaochen #姚琛 #dancecover \n\nYAOCHEN｜Dance Cover｜RNP（feat.Anderson .Paak)(Explicit)& Big Dawgs(Explicit)\n\n0到1000w\n谢谢每位🍪♥️\n以后的路也一起冲✊♾️\nI’ M YAOCHEN🫡\n\nCover Song：\nRNP（feat.Anderson .Paak）(Explicit)——Cordae/Anderson .Paak\nBig Dawgs(Explicit)——Hanumankind/Kalmi\n\nFollow ",
-      "thumbnail": "https://i.ytimg.com/vi/GS4hOZrYcB0/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/GS4hOZrYcB0/sddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/GS4hOZrYcB0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/GS4hOZrYcB0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/GS4hOZrYcB0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/GS4hOZrYcB0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "publishedAt": "2025-02-18T06:00:20.000Z",
       "url": "https://www.youtube.com/watch?v=GS4hOZrYcB0",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -240,12 +554,44 @@
       },
       "title": "怦然心动的冬天❄️以及怦然心动的姚琛😎 #姚琛 #야오천 #YAOCHEN",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/JQ3prZIqhAA/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/JQ3prZIqhAA/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/JQ3prZIqhAA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/JQ3prZIqhAA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/JQ3prZIqhAA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/JQ3prZIqhAA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/JQ3prZIqhAA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-02-17T02:30:15.000Z",
       "url": "https://www.youtube.com/watch?v=JQ3prZIqhAA",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -262,12 +608,38 @@
       },
       "title": "[EN/TH] Who says Mohe has nothing but ice and snow?❄️｜The Crazy Travel (Mohe Scenery Film)",
       "description": "#TheCrazyTravel #mohe #야오천 #YAOCHEN\n#yaochen #姚琛 #漠河\n\nYAOCHEN \"The Crazy Travel🧗\"\n[EN/TH] Who says Mohe has nothing but ice and snow?❄️｜Mohe Scenery Film\n\n谁说漠河只有冰天雪地🦌｜ 疯游世界（漠河·新春特别篇 自然风景）\n\nFollow YAOCHEN👇 \nInstagram: https:https://instagram.com/yao_chen0323?ig... \nWeibo: https",
-      "thumbnail": "https://i.ytimg.com/vi/7GzsJkR7odk/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/7GzsJkR7odk/sddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/7GzsJkR7odk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/7GzsJkR7odk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/7GzsJkR7odk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/7GzsJkR7odk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "publishedAt": "2025-02-14T10:00:06.000Z",
       "url": "https://www.youtube.com/watch?v=7GzsJkR7odk",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -284,12 +656,44 @@
       },
       "title": "[EN/TH] What did I do at -30°C in the Arctic city of China?｜The Crazy Travel (Mohe)",
       "description": "#TheCrazyTravel #mohe #야오천 #YAOCHEN\n#yaochen #姚琛 #漠河\n\nYAOCHEN \"The Crazy Travel🧗\"\n[EN/TH] What did I do at -30°C in the Arctic city of China?｜Mohe \n\n在-30°C的中国最北点 我干了这些事🥶｜ 疯游世界（漠河·新春特别篇）\n\nYAOCHEN(야오천) The 1st Mini Album🦋\nGlobal: http://yao-chen.lnk.to/BetterWithYou\n\nFollow YAOC",
-      "thumbnail": "https://i.ytimg.com/vi/W37BoKOojXI/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/W37BoKOojXI/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/W37BoKOojXI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/W37BoKOojXI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/W37BoKOojXI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/W37BoKOojXI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/W37BoKOojXI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-02-13T10:00:39.000Z",
       "url": "https://www.youtube.com/watch?v=W37BoKOojXI",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -306,12 +710,44 @@
       },
       "title": "Sitting on beach in Bali, documenting others and ourselves🏖️｜YAOCHEN Films",
       "description": "#Traveling #bali #YAOCHEN\n#yaochen #야오천 #姚琛\n\nSitting on beach in Bali, documenting others and ourselves🏖️｜YAOCHEN Films\n\n在巴厘岛海滩静坐 记录别人也记录自己｜姚琛 Films\n\nFollow YAOCHEN👇 \nInstagram: https:https://instagram.com/yao_chen0323?ig... \nWeibo: https://weibo.com/u/6929756049 \nBilibili: htt",
-      "thumbnail": "https://i.ytimg.com/vi/y1OXBdy36xk/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/y1OXBdy36xk/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/y1OXBdy36xk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/y1OXBdy36xk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/y1OXBdy36xk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/y1OXBdy36xk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/y1OXBdy36xk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-02-12T14:01:09.000Z",
       "url": "https://www.youtube.com/watch?v=y1OXBdy36xk",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -328,12 +764,44 @@
       },
       "title": "[EN/TH] Time to check English now!｜YCBlaBlaTV EP.01",
       "description": "#YAOCHEN #야오천 #姚琛 \n#yaochen #姚琛来了 #english \n\n「YCBlaBlaTV」\n[EN/TH] Time to check English now!｜ EP.01\n\n阿琛专属英文'flag'检测时间到！｜EP.01\n\nFollow YAOCHEN👇 \nInstagram: https:https://instagram.com/yao_chen0323?ig... \nWeibo: https://weibo.com/u/6929756049 \nBilibili: https://space.bilibili.com/",
-      "thumbnail": "https://i.ytimg.com/vi/xXjYkb4yDHg/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/xXjYkb4yDHg/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/xXjYkb4yDHg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/xXjYkb4yDHg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/xXjYkb4yDHg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/xXjYkb4yDHg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/xXjYkb4yDHg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-02-07T10:00:59.000Z",
       "url": "https://www.youtube.com/watch?v=xXjYkb4yDHg",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -350,12 +818,44 @@
       },
       "title": "冰糖辣椒🌶️ 要过年咯～🎆 #姚琛 #야오천 #YAOCHEN #chinesenewyear",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/zkabozg6lpI/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/zkabozg6lpI/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/zkabozg6lpI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/zkabozg6lpI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/zkabozg6lpI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/zkabozg6lpI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/zkabozg6lpI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-01-29T13:15:07.000Z",
       "url": "https://www.youtube.com/watch?v=zkabozg6lpI",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -372,12 +872,44 @@
       },
       "title": "初一拜年咯～新年好呀～#姚琛 #야오천 #YAOCHEN #chinesenewyear",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/D1B34VgCXKM/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/D1B34VgCXKM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/D1B34VgCXKM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/D1B34VgCXKM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/D1B34VgCXKM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/D1B34VgCXKM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/D1B34VgCXKM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-01-29T13:00:14.000Z",
       "url": "https://www.youtube.com/watch?v=D1B34VgCXKM",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -394,12 +926,44 @@
       },
       "title": "今晚在#2025海南春晚 开启新年第☝️甜 #姚琛 #야오천 #YAOCHEN #chinesenewyear",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/DRfNMYoLrjM/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/DRfNMYoLrjM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/DRfNMYoLrjM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/DRfNMYoLrjM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/DRfNMYoLrjM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/DRfNMYoLrjM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/DRfNMYoLrjM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-01-29T12:40:00.000Z",
       "url": "https://www.youtube.com/watch?v=DRfNMYoLrjM",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -416,12 +980,44 @@
       },
       "title": "[EN/TH] Snow of Spring Festival🧨｜YAOCHEN Films",
       "description": "#Traveling  #springfestival   #YAOCHEN\n#yaochen #chinesenewyear  #야오천 #姚琛\n\n[EN/TH] Snow of Spring Festival🧨｜YAOCHEN Films\n\n2025春节瑞雪❄️｜姚琛 Films\n\nFollow YAOCHEN👇 \nInstagram: https:https://instagram.com/yao_chen0323?ig... \nWeibo: https://weibo.com/u/6929756049 \nBilibili: https://s",
-      "thumbnail": "https://i.ytimg.com/vi/uywO-EUReCk/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/uywO-EUReCk/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/uywO-EUReCk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/uywO-EUReCk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/uywO-EUReCk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/uywO-EUReCk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/uywO-EUReCk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-01-28T16:01:02.000Z",
       "url": "https://www.youtube.com/watch?v=uywO-EUReCk",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -438,12 +1034,44 @@
       },
       "title": "年度帅(ke)气(ai)合集大放送😎 #姚琛 #야오천 #YAOCHEN",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/VpNvXz7XCVk/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/VpNvXz7XCVk/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/VpNvXz7XCVk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/VpNvXz7XCVk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/VpNvXz7XCVk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/VpNvXz7XCVk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/VpNvXz7XCVk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-01-22T05:00:34.000Z",
       "url": "https://www.youtube.com/watch?v=VpNvXz7XCVk",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -460,12 +1088,44 @@
       },
       "title": "这音乐，又给拉回哪年了🤔Back to...'seve'? #姚琛 #야오천 #YAOCHEN",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/3A4_EWfKQEg/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/3A4_EWfKQEg/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/3A4_EWfKQEg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/3A4_EWfKQEg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/3A4_EWfKQEg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/3A4_EWfKQEg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/3A4_EWfKQEg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-01-20T09:00:04.000Z",
       "url": "https://www.youtube.com/watch?v=3A4_EWfKQEg",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -482,12 +1142,44 @@
       },
       "title": "滑雪时间到🏂 Skiing time! #姚琛 #야오천 #YAOCHEN #skiing",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/wMBWLQiojTA/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/wMBWLQiojTA/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/wMBWLQiojTA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/wMBWLQiojTA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/wMBWLQiojTA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/wMBWLQiojTA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/wMBWLQiojTA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-01-20T04:00:40.000Z",
       "url": "https://www.youtube.com/watch?v=wMBWLQiojTA",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -504,12 +1196,44 @@
       },
       "title": "[EN/TH] Shopping event for beach clothes involving YAOCHEN｜Traveling-Behind",
       "description": "#Traveling  #hainan  #YAOCHEN\n#yaochen #야오천 #姚琛 #海南\n\n[EN/TH] Shopping event for beach clothes involving YAOCHEN｜Traveling-Behind\n\n大哥的沙滩衣购物事件｜旅行彩蛋\n\nFollow YAOCHEN👇 \nInstagram: https:https://instagram.com/yao_chen0323?ig... \nWeibo: https://weibo.com/u/6929756049 \nBilibili: https:/",
-      "thumbnail": "https://i.ytimg.com/vi/-5hVFVIwF_g/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/-5hVFVIwF_g/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/-5hVFVIwF_g/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/-5hVFVIwF_g/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/-5hVFVIwF_g/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/-5hVFVIwF_g/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/-5hVFVIwF_g/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-01-16T09:00:00.000Z",
       "url": "https://www.youtube.com/watch?v=-5hVFVIwF_g",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -526,12 +1250,44 @@
       },
       "title": "[EN/TH] Let's become more better in 2025💪🍪｜YAOCHEN 'Better With You' Beijing Fan Meeting Behind",
       "description": "#BetterWithYou #야오천 #YAOCHEN #yaochen\n#有你更好 #姚琛 #北京 #fanmeeting #Beijing  \n\n[EN/TH] Let's become more better in 2025💪🍪｜YAOCHEN 'Better With You' Beijing Fan Meeting Behind\n\n2025，让我们一起变得更好 💪🍪｜YAOCHEN 'Better With You' 北京粉丝见面会花絮\n\nYAOCHEN(야오천) The 1st Mini Album🦋\nGlobal: http:/",
-      "thumbnail": "https://i.ytimg.com/vi/6tb8cdlPIAU/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/6tb8cdlPIAU/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/6tb8cdlPIAU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/6tb8cdlPIAU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/6tb8cdlPIAU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/6tb8cdlPIAU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/6tb8cdlPIAU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-01-10T10:00:06.000Z",
       "url": "https://www.youtube.com/watch?v=6tb8cdlPIAU",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -548,12 +1304,44 @@
       },
       "title": "[EN/TH] Memories With You 🐯🍪｜YAOCHEN 'Better With You' Shanghai Fan Meeting Behind",
       "description": "#BetterWithYou #야오천 #YAOCHEN #yaochen\n#有你更好 #姚琛 #fanmeeting #Shanghai \n\n[EN/TH] Memories With You 🐯🍪｜YAOCHEN 'Better With You' Shanghai Fan Meeting Behind\n\n属于我们的回忆 🐯🍪｜YAOCHEN 'Better With You' 上海粉丝见面会花絮\n\nYAOCHEN(야오천) The 1st Mini Album🦋\nGlobal: http://yao-chen.lnk.to/BetterW",
-      "thumbnail": "https://i.ytimg.com/vi/FJkCPBHElRk/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/FJkCPBHElRk/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/FJkCPBHElRk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/FJkCPBHElRk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/FJkCPBHElRk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/FJkCPBHElRk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/FJkCPBHElRk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-01-07T10:00:21.000Z",
       "url": "https://www.youtube.com/watch?v=FJkCPBHElRk",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -570,12 +1358,44 @@
       },
       "title": "🍪Cookies悄悄看👀 #姚琛 #야오천 #YAOCHEN#BetterWithYou #有你更好",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/6X8taQU8D64/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/6X8taQU8D64/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/6X8taQU8D64/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/6X8taQU8D64/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/6X8taQU8D64/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/6X8taQU8D64/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/6X8taQU8D64/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-01-05T04:15:51.000Z",
       "url": "https://www.youtube.com/watch?v=6X8taQU8D64",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -592,12 +1412,44 @@
       },
       "title": "[EN/TH] Anpanman's a non-stop and 'Better With You' year｜YAOCHEN's Memories in 2024🎞️",
       "description": "#BetterWithYou #야오천 #YAOCHEN #yaochen\n#有你更好 #姚琛来了 #YAOCHEN_is_coming\n\n[EN/TH] Anpanman's a non-stop and 'Better With You' year｜YAOCHEN's Memories in 2024🎞️\n\n希望2025年的小琛，依旧奔赴在热爱的道路上👣｜姚琛2024人生时刻\n\nYAOCHEN(야오천) The 1st Mini Album🦋\nGlobal: http://yao-chen.lnk.to/BetterWithYou\n\nFollo",
-      "thumbnail": "https://i.ytimg.com/vi/RGWxLJ65wQo/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/RGWxLJ65wQo/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/RGWxLJ65wQo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/RGWxLJ65wQo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/RGWxLJ65wQo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/RGWxLJ65wQo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/RGWxLJ65wQo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-01-03T10:00:32.000Z",
       "url": "https://www.youtube.com/watch?v=RGWxLJ65wQo",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -614,12 +1466,44 @@
       },
       "title": "[EN/TH] What's the experience to celebrate New Year in no man's land? !｜The Crazy Travel (Xinjiang)",
       "description": "#TheCrazyTravel #야오천 #YAOCHEN #Xinjiang\n#yaochen #有你更好 #姚琛 #BetterWithYou #新疆\n\nYAOCHEN \"The Crazy Travel🧗\"\n[EN/TH] What's the experience to celebrate New Year in no man's land? ! ｜Xinjiang\n\n在无人区跨年是一种怎样的体验？！ | 疯游世界（新疆篇）\n\nYAOCHEN(야오천) The 1st Mini Album🦋\nGlobal: http://yao-chen.l",
-      "thumbnail": "https://i.ytimg.com/vi/8ox81DyDLTw/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/8ox81DyDLTw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/8ox81DyDLTw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/8ox81DyDLTw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/8ox81DyDLTw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/8ox81DyDLTw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/8ox81DyDLTw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-01-02T10:00:08.000Z",
       "url": "https://www.youtube.com/watch?v=8ox81DyDLTw",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -636,12 +1520,44 @@
       },
       "title": "解锁N种合拍姿势📸 #BetterWithYou #야오천 #YAOCHEN #yaochen#有你更好 #姚琛",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/LKiey2w7GL4/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/LKiey2w7GL4/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/LKiey2w7GL4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/LKiey2w7GL4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/LKiey2w7GL4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/LKiey2w7GL4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/LKiey2w7GL4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2025-01-01T08:33:58.000Z",
       "url": "https://www.youtube.com/watch?v=LKiey2w7GL4",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -658,12 +1574,44 @@
       },
       "title": "[EN/TH] Tongue Twister Challenge🔥｜YAOCHEN 'Better With You' Chongqing Fan Meeting Behind",
       "description": "#BetterWithYou #야오천 #YAOCHEN #yaochen\n#有你更好 #姚琛 #fanmeeting \n\n[EN/TH] Tongue Twister Challenge🔥｜YAOCHEN 'Better With You' Chongqing Fan Meeting Behind\n\n重庆人‘大战’绕口令🔥｜YAOCHEN 'Better With You' 重庆粉丝见面会花絮\n\nYAOCHEN(야오천) The 1st Mini Album🦋\nGlobal: http://yao-chen.lnk.to/BetterWithYo",
-      "thumbnail": "https://i.ytimg.com/vi/HykRGrOURNs/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/HykRGrOURNs/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/HykRGrOURNs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/HykRGrOURNs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/HykRGrOURNs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/HykRGrOURNs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/HykRGrOURNs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2024-12-30T09:00:14.000Z",
       "url": "https://www.youtube.com/watch?v=HykRGrOURNs",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -680,12 +1628,44 @@
       },
       "title": "[EN/TH] 🎬Scenery Film | Climbed the mountain of... | The Crazy Travel (Yuzhu Peak)",
       "description": "#TheCrazyTravel #야오천 #YAOCHEN #YuzhuPeak\n#yaochen #有你更好 #姚琛 #BetterWithYou #玉珠峰\n\nYAOCHEN \"The Crazy Travel🧗\"\n[EN/TH] 🎬Scenery Film | Climbed the mountain of...｜Yuzhu Peak\n\n登上了被称为...的那座山｜ 疯游世界（玉珠峰 风景片）\n\nYAOCHEN(야오천) The 1st Mini Album🦋\nGlobal: http://yao-chen.lnk.to/BetterWithY",
-      "thumbnail": "https://i.ytimg.com/vi/5FV6-ru0bzE/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/5FV6-ru0bzE/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/5FV6-ru0bzE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/5FV6-ru0bzE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/5FV6-ru0bzE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/5FV6-ru0bzE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/5FV6-ru0bzE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2024-12-27T10:00:09.000Z",
       "url": "https://www.youtube.com/watch?v=5FV6-ru0bzE",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -702,12 +1682,44 @@
       },
       "title": "Christmas🎄#姚琛 #야오천 #YAOCHEN#BetterWithYou #christmas",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/gy_L1aQC7i8/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/gy_L1aQC7i8/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/gy_L1aQC7i8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/gy_L1aQC7i8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/gy_L1aQC7i8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/gy_L1aQC7i8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/gy_L1aQC7i8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2024-12-24T05:36:43.000Z",
       "url": "https://www.youtube.com/watch?v=gy_L1aQC7i8",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -724,12 +1736,44 @@
       },
       "title": "Yao ao Chen 👕 #姚琛 #야오천 #YAOCHEN#BetterWithYou #有你更好",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/VfhzJM_0Zt0/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/VfhzJM_0Zt0/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/VfhzJM_0Zt0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/VfhzJM_0Zt0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/VfhzJM_0Zt0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/VfhzJM_0Zt0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/VfhzJM_0Zt0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2024-12-23T10:00:26.000Z",
       "url": "https://www.youtube.com/watch?v=VfhzJM_0Zt0",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -746,12 +1790,44 @@
       },
       "title": "biubiubiu🔫 #姚琛 #야오천 #YAOCHEN#BetterWithYou #有你更好",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/N0JRKifAXSA/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/N0JRKifAXSA/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/N0JRKifAXSA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/N0JRKifAXSA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/N0JRKifAXSA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/N0JRKifAXSA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/N0JRKifAXSA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2024-12-23T09:00:20.000Z",
       "url": "https://www.youtube.com/watch?v=N0JRKifAXSA",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -768,12 +1844,44 @@
       },
       "title": "[EN/TH] Surprise gift for cookies🍪🎁｜YAOCHEN 'Better With You' Guangzhou Fan Meeting Behind",
       "description": "#BetterWithYou #야오천 #YAOCHEN #yaochen\n#有你更好 #姚琛 #Fanmeeting\n\n[EN/TH] Surprise gift for cookies🍪🎁｜YAOCHEN 'Better With You' Guangzhou Fan Meeting Behind\n\n为Cookies准备的惊喜🍪🎉｜YAOCHEN 'Better With You' 广州粉丝见面会花絮\n\nYAOCHEN(야오천) The 1st Mini Album🦋\nGlobal: http://yao-chen.lnk.to/Bette",
-      "thumbnail": "https://i.ytimg.com/vi/Bq_oXQcEc_8/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/Bq_oXQcEc_8/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Bq_oXQcEc_8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Bq_oXQcEc_8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Bq_oXQcEc_8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Bq_oXQcEc_8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Bq_oXQcEc_8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2024-12-23T04:00:11.000Z",
       "url": "https://www.youtube.com/watch?v=Bq_oXQcEc_8",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -790,12 +1898,44 @@
       },
       "title": "这歌…好听🎵#姚琛 #야오천 #YAOCHEN#BetterWithYou #海与天之间",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/tBrtKvQarq4/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/tBrtKvQarq4/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/tBrtKvQarq4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/tBrtKvQarq4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/tBrtKvQarq4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/tBrtKvQarq4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/tBrtKvQarq4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2024-12-16T12:28:21.000Z",
       "url": "https://www.youtube.com/watch?v=tBrtKvQarq4",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -812,12 +1952,44 @@
       },
       "title": "CHEN 3 🕶️🕺#姚琛 #야오천 #YAOCHEN#BetterWithYou",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/ZTKQ8tGH8P0/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/ZTKQ8tGH8P0/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/ZTKQ8tGH8P0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/ZTKQ8tGH8P0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/ZTKQ8tGH8P0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/ZTKQ8tGH8P0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/ZTKQ8tGH8P0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2024-12-16T03:16:40.000Z",
       "url": "https://www.youtube.com/watch?v=ZTKQ8tGH8P0",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -834,12 +2006,44 @@
       },
       "title": "Better With You 风好大 #姚琛 #야오천 #YAOCHEN#BetterWithYou #twice",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/5bgyv4iNrZc/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/5bgyv4iNrZc/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/5bgyv4iNrZc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/5bgyv4iNrZc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/5bgyv4iNrZc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/5bgyv4iNrZc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/5bgyv4iNrZc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2024-12-15T04:00:04.000Z",
       "url": "https://www.youtube.com/watch?v=5bgyv4iNrZc",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -856,12 +2060,44 @@
       },
       "title": "Fisheye lens 'AChen' #YAOCHEN #야오천 #姚琛 #有你更好 #BetterWithYou",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/Wxl3HYl-sTk/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/Wxl3HYl-sTk/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Wxl3HYl-sTk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Wxl3HYl-sTk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Wxl3HYl-sTk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Wxl3HYl-sTk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Wxl3HYl-sTk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2024-12-06T12:20:01.000Z",
       "url": "https://www.youtube.com/watch?v=Wxl3HYl-sTk",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -878,12 +2114,44 @@
       },
       "title": "[EN/TH] YAOCHEN \"Better With You\" Media Press Conference Behind｜With J.Y. Park & JIA",
       "description": "#BetterWithYou #야오천 #YAOCHEN #yaochen #jypark \n#有你更好 #姚琛 #JIA #지아 #YAOCHEN_BetterWithYou \n\n[EN/TH] YAOCHEN \"Better With You\" \nMedia Press Conference Behind｜With J.Y. Park & JIA \n\nYAOCHEN(야오천) The 1st Mini Album🦋\nGlobal: http://yao-chen.lnk.to/BetterWithYou\n\nFollow YAOCHEN👇 \nIns",
-      "thumbnail": "https://i.ytimg.com/vi/jzlwrg4_R9M/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/jzlwrg4_R9M/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/jzlwrg4_R9M/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/jzlwrg4_R9M/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/jzlwrg4_R9M/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/jzlwrg4_R9M/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/jzlwrg4_R9M/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2024-12-06T10:00:47.000Z",
       "url": "https://www.youtube.com/watch?v=jzlwrg4_R9M",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -900,12 +2168,44 @@
       },
       "title": "Better With You🍪🐻 #YAOCHEN #야오천 #姚琛 #有你更好 #betterwithyou",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/q00AlwITOEk/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/q00AlwITOEk/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/q00AlwITOEk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/q00AlwITOEk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/q00AlwITOEk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/q00AlwITOEk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/q00AlwITOEk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2024-12-06T09:00:53.000Z",
       "url": "https://www.youtube.com/watch?v=q00AlwITOEk",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -922,12 +2222,44 @@
       },
       "title": "Better With #JYPark #Jia 🦋 @JYPark  #YAOCHEN #야오천 #姚琛 #박진영 #孟佳 #有你更好 #betterwithyou",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/OKDYXT5Fvq8/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/OKDYXT5Fvq8/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/OKDYXT5Fvq8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/OKDYXT5Fvq8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/OKDYXT5Fvq8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/OKDYXT5Fvq8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/OKDYXT5Fvq8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2024-12-03T09:00:18.000Z",
       "url": "https://www.youtube.com/watch?v=OKDYXT5Fvq8",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -944,12 +2276,44 @@
       },
       "title": "Better With #HYEONBIN 🦋 @CUBE_NOWZ  #YAOCHEN #야오천 #姚琛 #NOWADAYS #나우어데이즈 #현빈 #betterwithyou #有你更好",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/gD7AqZSa--I/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/gD7AqZSa--I/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/gD7AqZSa--I/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/gD7AqZSa--I/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/gD7AqZSa--I/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/gD7AqZSa--I/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/gD7AqZSa--I/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2024-12-02T09:00:51.000Z",
       "url": "https://www.youtube.com/watch?v=gD7AqZSa--I",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -966,12 +2330,44 @@
       },
       "title": "Better With You🍪👓 #YAOCHEN #야오천 #姚琛 #ootd #有你更好 #betterwithyou",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/ZQNLdL5L0nc/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/ZQNLdL5L0nc/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/ZQNLdL5L0nc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/ZQNLdL5L0nc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/ZQNLdL5L0nc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/ZQNLdL5L0nc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/ZQNLdL5L0nc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2024-12-02T08:06:16.000Z",
       "url": "https://www.youtube.com/watch?v=ZQNLdL5L0nc",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -988,12 +2384,44 @@
       },
       "title": "[EN/TH] YAOCHEN \"Better With You\" Documentary 🎬 Even if it’s exhausting, you must persist🎤",
       "description": "#BetterWithYou #야오천 #YAOCHEN #yaochen #jypark \n#有你更好 #姚琛 #YAOCHEN_BetterWithYou #Documentary\n\n[EN/TH] YAOCHEN \"Better With You\" Documentary 🎬\n\nEven if it’s boring\nEven if it’s exhausting, you must persist💪\n\nYAOCHEN(야오천) The 1st Mini Album🦋\nGlobal: http://yao-chen.lnk.to/Better",
-      "thumbnail": "https://i.ytimg.com/vi/W2k1J1px_Q4/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/W2k1J1px_Q4/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/W2k1J1px_Q4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/W2k1J1px_Q4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/W2k1J1px_Q4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/W2k1J1px_Q4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/W2k1J1px_Q4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2024-12-02T04:00:15.000Z",
       "url": "https://www.youtube.com/watch?v=W2k1J1px_Q4",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -1010,12 +2438,44 @@
       },
       "title": "Better With  #KUN 🦋 @WayV  🔗#YAOCHEN #야오천 #姚琛 #WayV #威神V #쿤 #有你更好 #betterwithyou",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/pcc0UB4QtBM/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/pcc0UB4QtBM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/pcc0UB4QtBM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/pcc0UB4QtBM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/pcc0UB4QtBM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/pcc0UB4QtBM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/pcc0UB4QtBM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2024-12-01T09:00:51.000Z",
       "url": "https://www.youtube.com/watch?v=pcc0UB4QtBM",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -1032,12 +2492,44 @@
       },
       "title": "[EN/TH] YAOCHEN “Better With You” Documentary Trailer 🎬",
       "description": "#BetterWithYou #야오천 #YAOCHEN #yaochen #jypark \n#有你更好 #姚琛 #YAOCHEN_BetterWithYou #documentary \n\n[EN/TH] YAOCHEN “Better With You” Documentary Trailer 🎬 \n\nA Change In The Singer's Path🎤\n\nYAOCHEN(야오천) The 1st Mini Album🦋\nGlobal: http://yao-chen.lnk.to/BetterWithYou\n\nFollow YAOCHE",
-      "thumbnail": "https://i.ytimg.com/vi/dB2D3n-ee1w/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/dB2D3n-ee1w/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/dB2D3n-ee1w/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/dB2D3n-ee1w/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/dB2D3n-ee1w/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/dB2D3n-ee1w/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/dB2D3n-ee1w/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2024-12-01T04:00:21.000Z",
       "url": "https://www.youtube.com/watch?v=dB2D3n-ee1w",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "teaser"
     },
     {
@@ -1054,12 +2546,44 @@
       },
       "title": "Then work on \"becoming a singer\"💪...COMING SOON🎬 #姚琛 #야오천 #YAOCHEN #jypark  #Betterwithyou",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/8dR0UfRuuT4/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/8dR0UfRuuT4/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/8dR0UfRuuT4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/8dR0UfRuuT4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/8dR0UfRuuT4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/8dR0UfRuuT4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/8dR0UfRuuT4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2024-11-30T12:00:09.000Z",
       "url": "https://www.youtube.com/watch?v=8dR0UfRuuT4",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -1076,12 +2600,44 @@
       },
       "title": "Better With  #유우 🦋@NEXZ_official #YAOCHEN #야오천 #姚琛 #NEXZ #넥스지 #ネクスジ #YU  #ユウ #有你更好 #betterwithyou",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/v53amJVzuWQ/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/v53amJVzuWQ/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/v53amJVzuWQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/v53amJVzuWQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/v53amJVzuWQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/v53amJVzuWQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/v53amJVzuWQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2024-11-30T08:30:22.000Z",
       "url": "https://www.youtube.com/watch?v=v53amJVzuWQ",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     },
     {
@@ -1098,12 +2654,44 @@
       },
       "title": "singer？trainee？\"Better With You\" Documentary COMING SOON🎬 #姚琛 #야오천 #YAOCHEN #jypark  #Betterwithyou",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/3aTvRVic0rw/mqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/3aTvRVic0rw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/3aTvRVic0rw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/3aTvRVic0rw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/3aTvRVic0rw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/3aTvRVic0rw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/3aTvRVic0rw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
       "publishedAt": "2024-11-30T08:00:03.000Z",
       "url": "https://www.youtube.com/watch?v=3aTvRVic0rw",
-      "fetchedAt": "2026-10-14T13:26:14.018Z",
+      "fetchedAt": "2026-10-14T16:52:40.843Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T13:26:14.018Z",
+      "lastValidatedAt": "2026-10-14T16:52:40.843Z",
       "type": "other"
     }
   ]
