@@ -20,9 +20,11 @@ export function ArchivePage() {
   const { saved, toggleSaved, moveSaved } = useArchive();
   const { t, locale } = useI18n();
   const [category, setCategory] = useState<ArchiveCategory>(
-    () => saved[0]?.category ?? "Favorite Stages",
+    () => saved.at(-1)?.category ?? "Favorite Stages",
   );
-  const [archiveArtistId, setArchiveArtistId] = useState(selectedArtistId);
+  const [archiveArtistId, setArchiveArtistId] = useState(
+    () => saved.at(-1)?.artistId ?? selectedArtistId,
+  );
   useEffect(() => { loadChannel(archiveArtistId); }, [archiveArtistId, loadChannel]);
   const feed = getChannel(archiveArtistId).feed;
   const channelSaved = saved.filter((entry) => entry.artistId === archiveArtistId);

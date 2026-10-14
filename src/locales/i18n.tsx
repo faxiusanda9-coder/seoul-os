@@ -74,6 +74,11 @@ const artistDescriptionKeys: Record<string, MessageKey> = {
   kickflip: "artists.desc.kickflip",
   niziu: "artists.desc.niziu",
   nexz: "artists.desc.nexz",
+  "jy-park": "artists.desc.jy-park",
+  "2pm": "artists.desc.2pm",
+  "boy-story": "artists.desc.boy-story",
+  yaochen: "artists.desc.yaochen",
+  girlset: "artists.desc.girlset",
 };
 const timelineDescriptionKeys: Record<string, MessageKey> = {
   twice: "universe.desc.twice",

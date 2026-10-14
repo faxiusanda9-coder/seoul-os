@@ -1,113 +1,69 @@
 # SEOUL.OS
 
-**Your K-pop Universe, Organized.** A responsive JYP fan prototype with a single-channel YouTube Data API pipeline for TWICE. Other artists remain curated historical samples or labeled demos. This is an independent fan project, not a JYP product.
+**Your K-pop Universe, Organized.** 一个独立的 JYP 粉丝网页应用。界面默认简体中文，保留英文编辑式标题。YouTube 视频由已核实的官方频道分别同步；SEOUL.OS 不是 JYP 或 YouTube 的官方产品。
 
-## Run locally
+## 本地运行
 
-Requires Node.js 24+ and npm. The synchronization scripts import the shared TypeScript schema through Node's built-in type stripping.
+需要 Node.js 24+ 和 npm。同步脚本使用 Node 的 TypeScript 类型剥离功能读取共享 schema。
 
 ```bash
 npm ci
 npm run dev
-```
-
-Open the Local URL printed by Vite, normally `http://localhost:5173/seoul-os/`. Vite uses `/seoul-os/` as its base in development and production.
-
-```bash
 npm run check
-npm run build
-npm run preview
 npm run test:sync
 npm run test:i18n
+npm run build
+npm run preview
 ```
 
-The production preview is normally at `http://localhost:4173/seoul-os/`.
+Vite 使用 `/seoul-os/` base。开发地址通常为 `http://localhost:5173/seoul-os/`。`HashRouter` 保证 GitHub Pages 子页面刷新时仍由首页处理路由。
 
-## Pages and interactions
+## 频道与数据
 
-| Route (after `#`)                   | Function                                                                       |
-| ----------------------------------- | ------------------------------------------------------------------------------ |
-| `/`                                 | Editorial home, curated feed with search, artist/type filters and date sorting |
-| `/artists` and `/artists/:artistId` | Nine artist files, direct follow toggle, related feed                          |
-| `/calendar`                         | Month/date navigation, artist filter, detail, KST/BJT display                  |
-| `/archive`                          | Saved items, four categories, move and remove                                  |
-| `/my-space`                         | Followed artists and saved item totals                                         |
-| `/universe`                         | Year selection and source-linked milestones                                    |
-| `/search`                           | Local artist and curated-feed search with an actionable empty state            |
+- 已核实频道配置位于 `data/youtube/channels.json`。仅 `verificationStatus: "web-verified"` 且 `enabled: true` 的频道参与同步。未核实的 CIIU 不启用；JYP Entertainment 主频道不被冒充为单一艺人频道。
+- 每个频道独立执行 `channels.list` → `playlistItems.list` → `videos.list`，核对频道 ID、uploads playlist、公开视频状态和元数据。没有 `search.list`、爬虫、视频下载或前端 API Key。
+- 每个频道写入 `data/youtube/<artistId>.json`，构建时由 `scripts/stage-public-data.mjs` 验证后分别复制到 `public/data/youtube/`。前端使用 `${import.meta.env.BASE_URL}data/youtube/<artistId>.json`。示例：[TWICE JSON](https://faxiusanda9-coder.github.io/seoul-os/data/youtube/twice.json)。
+- Discover 始终只展示用户当前选择的一个频道。艺人详情页加载该艺人的独立频道。搜索和筛选只作用于当前视频频道；不会生成跨频道视频时间线或排行榜。各频道的演示或历史样本明确标注，真实视频标题保留官方原文，内容类型是 SEOUL.OS 的编辑分类。
+- 同步采用稳定 `yt-<videoId>`，去重、原子写入、独立错误报告、有限重试、公开状态复核和 30 天失效处理。单个频道失败不会清空其他频道。元数据失效时，私人 Archive 只保留收藏 ID、分类和艺人 ID，并显示不可用占位。
 
-Bookmarks and followed artists are stored in browser `localStorage`, under `seoul-os-archive-v1` and `seoul-os-follow-v1`. They are local to a browser profile and do not sync across devices.
-Saved IDs and followed artist IDs are validated on load. YouTube bookmarks use stable `yt-<videoId>` IDs; when a saved video leaves the recent static dataset, Archive keeps a working YouTube link and a remove control. Obsolete removed demo IDs are discarded. If local storage is unavailable, the interface shows a warning and state lasts only for the current page session.
-
-## Interface languages
-
-The interface defaults to **Simplified Chinese**. Open **My Space → Interface settings** to choose 简体中文 or English; the choice is stored as `seoul-os-locale-v1` in `localStorage`, independently of bookmarks and follows. `src/locales/zh-CN.json` and `src/locales/en.json` hold UI messages; `src/locales/i18n.tsx` provides typed keys, parameter substitution, content/category labels and the React language context. The locale test checks that both dictionaries have the same keys and parameters. Dates are formatted with `Intl.DateTimeFormat` in the selected interface locale while source timestamps and event time zones stay unchanged.
-
-Editorial English headings, SEOUL.OS branding, artist names and original official music/video titles remain in their original form. Chinese or English copy explains controls, status and empty states. Fictional demo titles are translated because they are interface fixtures. Official YouTube titles are not machine-translated. The `Content` and `FeedItem` contracts reserve optional localized fields; a secondary translated title can appear only when its translation is explicitly verified. No translation API or account service is used.
-
-## TWICE YouTube sync (Phase 2B-1)
-
-Only the verified [TWICE channel](https://www.youtube.com/c/twice), ID `UCzgxx_DM2Dcb9Y1spb9mUJA`, is connected. `channels.list(part=contentDetails)` confirms its uploads playlist ID; `playlistItems.list` gets the latest 50 uploads; `videos.list(part=snippet,status)` confirms channel, public status, actual publication time and metadata. `playlists.list` is unnecessary because `channels.list` already returns the uploads ID. The script never calls `search.list`, downloads videos, or writes the API key to output.
-
-To test a real sync locally, create a YouTube Data API v3 key, copy `.env.example` to `.env`, fill in the key, then run:
+本地真实同步需要在自己的 `.env` 中设置 `YOUTUBE_API_KEY`（参考 `.env.example`）；此文件被 Git 忽略。密钥只交给 Node 同步脚本，不得加 `VITE_` 前缀：
 
 ```bash
-node --env-file=.env scripts/youtube-sync.mjs
-npm run build
+node --env-file=.env scripts/youtube-sync.mjs --channel=twice
+node --env-file=.env scripts/youtube-sync.mjs --channel=all
 ```
 
-The key is read only by the Node sync script. Never prefix it with `VITE_`; `.env` is ignored by Git. `npm run sync:youtube` also works when `YOUTUBE_API_KEY` is already set in the shell. The committed `data/youtube/twice.json` starts empty on purpose; no API call has been made until a key is configured. The sync script validates the existing snapshot, writes atomically only after all API calls and generated data pass checks, deduplicates by video ID, retains recently fetched records, and makes no commit when the content is unchanged. Failures leave the last successful file untouched. The browser also falls back to curated/demo content when the JSON is absent, empty, invalid, or over 30 days old.
+## 自动部署
 
-GitHub Actions needs a repository secret named `YOUTUBE_API_KEY` under **Settings → Secrets and variables → Actions → New repository secret**. The scheduled workflow `.github/workflows/youtube-sync.yml` runs at 00:00 and 12:00 UTC, or **08:00 and 20:00 Beijing time**. It can also be started manually from Actions. The workflow commits changed JSON to `main` and directly invokes the reusable Pages deployment workflow. A `GITHUB_TOKEN` push does not trigger a separate push workflow, so the explicit deploy job is required. The secret never reaches Vite or the public JSON. Give Actions **read and write permissions** under **Settings → Actions → General → Workflow permissions** so the sync job can commit updated data.
+`.github/workflows/youtube-sync.yml` 每天 UTC 00:00 和 12:00（北京时间 08:00、20:00）运行，也支持手动传入 `channel=all` 或某个已启用的 artist ID。仓库 Actions Secret 名为 `YOUTUBE_API_KEY`。同步后仅在 JSON 有变化时提交；使用 `GITHUB_TOKEN` 推送产生的提交不会自动触发其他工作流，所以同步工作流直接调用可复用的 Pages 部署工作流。普通代码推送由 `.github/workflows/deploy.yml` 部署。
 
-Static data is published at [`/seoul-os/data/youtube/twice.json`](https://faxiusanda9-coder.github.io/seoul-os/data/youtube/twice.json). Before the first successful sync it is an explicitly empty placeholder. The frontend fetch URL is built from `import.meta.env.BASE_URL` so it works beneath `/seoul-os/`. `HashRouter` keeps client-side routes refreshable. The page labels API rows **Official YouTube Source**, static historical samples **精选官方视频**, and fictional rows **DEMO**.
+在 GitHub 仓库的 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**；Actions 的 `GITHUB_TOKEN` 需有仓库内容读写权限。站点访问地址：[SEOUL.OS](https://faxiusanda9-coder.github.io/seoul-os/)。仓库名若改变，需要调整 `vite.config.ts` 中的 `/seoul-os/` base 并重建。
 
-Each successful scheduled run uses about **3 YouTube quota units**: one `channels.list`, one `playlistItems.list`, one `videos.list`. At two runs daily the baseline is **6 units/day**; retries or future paging would add to this. The default free quota and actual project limits should be checked in Google Cloud. GitHub Actions scheduling is best-effort, so the UI displays the last successful sync time instead of promising minute-exact updates.
+官方 API 文档列出的 `channels.list`、`playlistItems.list`、`videos.list` 各为低成本列表请求。基础预算按每频道每次 3 单位计算：14 个独立艺人频道、每日两次约 84 单位/日；重试会增加用量。具体启用频道数以 `channels.json` 为准，实际配额以 Google Cloud 控制台为准。GitHub Actions 定时执行是尽力调度，界面显示最后成功同步时间。
 
-## GitHub Pages deployment
+## 收藏、语言与视觉
 
-The repository must be named **`seoul-os`** for the configured Vite base path `/seoul-os/` to match the project URL. `HashRouter` puts client routes after `#`, so refreshing `/seoul-os/#/artists` or another section requests only the Pages-served index file and avoids a server-side 404. Vite prefixes built JS, CSS, and `public/` assets with `/seoul-os/`.
+收藏和关注分别使用 `seoul-os-archive-v1`、`seoul-os-follow-v1` 的浏览器 `localStorage`，无需账号；语言偏好使用 `seoul-os-locale-v1`，默认中文。旧版 TWICE 收藏可以按原 ID 读取，收藏和关注只在当前浏览器保存，不跨设备同步。主页保留 Warm Ivory、Sage Green、英文杂志式标题与移动端底部导航。
 
-1. Put the contents of this folder at the **root** of your `seoul-os` repository and push to `main`.
-   If this local folder is the source and the GitHub repository exists, connect and push it:
+`src/locales/zh-CN.json` 和 `src/locales/en.json` 管理操作文案；YouTube 原始标题不自动翻译。日历未接入官方演出数据，默认没有活动；2099 年演示事件需要主动启用。JYP Universe 仅展示有来源的历史节点。
 
-   ```bash
-   git remote add origin https://github.com/<OWNER>/seoul-os.git
-   git push -u origin main
-   ```
-
-2. In GitHub, open **Settings → Pages → Build and deployment → Source**, and select **GitHub Actions**.
-3. The workflow in `.github/workflows/deploy.yml` runs on pushes to `main`; you can also start it from **Actions → Deploy SEOUL.OS to GitHub Pages → Run workflow**.
-4. When deployment succeeds, open `https://<GitHub-username-or-organization>.github.io/seoul-os/`. The actual URL also appears in the workflow's `github-pages` environment.
-
-Browsing never needs an API key or paid service. Automated TWICE synchronization needs a free YouTube Data API key in GitHub Secrets. If the repository is renamed or a custom domain is introduced, update `base` in `vite.config.ts` and rebuild.
-
-## Structure
+## 项目结构
 
 ```text
-src/
-  components/   navigation and reusable editorial UI
-  data/         artists, curated feed, fictional calendar, verified timeline
-  pages/        route pages
-  store/        localStorage archive and following state
-  types.ts      shared data contracts
-  styles.css    design tokens, responsive rules, interaction states
-public/         original concept hero image and sourced video thumbnails
-.github/workflows/deploy.yml
-data/schemas/  shared Content type and runtime snapshot validation
-data/youtube/  committed TWICE metadata JSON; initially empty
-scripts/       API synchronization and public-asset staging
-tests/         mocked API tests
-.github/workflows/youtube-sync.yml
+data/schemas/             Content 类型与运行时校验
+data/youtube/             已核实频道配置和各频道原始快照
+scripts/youtube-sync.mjs  独立频道同步、失效处理和日志
+scripts/stage-public-data.mjs  发布前验证与独立静态文件暂存
+src/components/           通用编辑式界面组件
+src/data/                 艺人档案及明确标注的演示数据
+src/locales/              中文、英文操作文案
+src/pages/                Discover、Artists、Calendar、Archive 等页面
+src/store/                视频频道状态、收藏与关注状态
+.github/workflows/        独立同步与 GitHub Pages 部署
+tests/                    Mock API、错误隔离、语言字典测试
+docs/                     数据源、政策与验收报告
 ```
 
-## Content and imagery
+## 政策边界
 
-- When a valid and recent TWICE snapshot exists, TWICE cards are populated from YouTube Data API metadata. Until then, the original curated TWICE sample appears. Other artists still use eight curated historical samples and five fictional **DEMO** rows. No scraping is used. Content type is inferred conservatively from video title; it is a UI classification, not an official release classification.
-- Calendar defaults to no events because official schedules have not been verified or connected; an empty day does not mean an artist has no activity. Fictional calendar fixtures are isolated in 2099 and only appear after the user explicitly enables the demo switch.
-- Feed and directory video thumbnails are served from `public/video-thumbnails/` under Vite's `/seoul-os/` base path, preserve their 16:9 composition, show YouTube/JYP attribution, and link to their source videos. This makes image loading less dependent on mobile access to YouTube's image host. The five fictional DEMO rows use a clearly labeled official artist video still as a **reference image**, not as evidence of the fictional content. If an image fails, an original CSS concept cover appears. Source links and image handling are recorded in [ASSET_PROVENANCE.md](ASSET_PROVENANCE.md). The video imagery remains the rightsholders' material; this prototype does not claim a separate image license. A public GitHub Pages deployment is not private use, so review rights and platform terms before broader sharing.
-- Artist concept artworks are CSS-created, non-official visual interpretations. Their colors and typography reference different musical moods without copying album covers. The hero is an AI-generated anonymous concept photo, not an image of JYP artists.
-- The Universe milestones are limited to official-source-confirmed release facts: [TWICE](https://twice.jype.com/discography/jqpvqq2k?AmSeq=undefined&PgIndex=undefined), [Stray Kids](https://straykids.jype.com/discography/vuykzg89), [ITZY](https://itzy.jype.com/discography/ig7wv69u), and [NMIXX](https://nmixx.jype.com/discography/514qe3en?AmSeq=undefined&PgIndex=undefined).
-
-## Next phase data connections
-
-After the TWICE API pipeline succeeds in GitHub Actions, validate freshness, public metadata policies and channel ownership before considering further artists. Keep the current artist-to-channel mapping in `docs/phase-2-data-plan.md` as research, not a production connection list. The calendar remains disconnected from YouTube uploads because upload time is not an event date. This phase has no database or account system.
+YouTube 开发者政策对 API 数据聚合及缓存有约束，见 [合规说明](docs/phase-2b-2-compliance.md)。公开页面只提供逐频道独立视图，不提供跨频道 API 数据合并、统一排序或排行。此设计不代表 YouTube 对本项目作出了个别合规批准。Git 历史与 Pages 构建产物的长期元数据留存仍需单独核实；不要将当前实现描述为已经获得公开聚合授权。

@@ -110,6 +110,36 @@ export const artists: Artist[] = [
     accent: "#8AAB95",
     officialUrl: "https://nexz.jype.com/",
   },
+  {
+    id: "jy-park", name: "J.Y. Park", subtitle: "The sound behind the story",
+    description: "在表演与制作之间，留下不断延续的音乐表达。", debut: "",
+    mood: "ARTIST / PRODUCER", color: "#E6DDD2", ink: "#463E38", accent: "#A38E7E",
+    officialUrl: "https://www.youtube.com/user/jypark",
+  },
+  {
+    id: "2pm", name: "2PM", subtitle: "A presence that stays",
+    description: "通过舞台与影像，重新发现熟悉的音乐章节。", debut: "",
+    mood: "STAGE / PRESENCE", color: "#D7DFE1", ink: "#34444B", accent: "#8299A1",
+    officialUrl: "https://www.youtube.com/user/2pm",
+  },
+  {
+    id: "boy-story", name: "BOY STORY", subtitle: "Moving in their own rhythm",
+    description: "从官方频道出发，浏览声音与舞台的不同切面。", debut: "",
+    mood: "RHYTHM / ENERGY", color: "#E9DBCD", ink: "#4C3E36", accent: "#BD9474",
+    officialUrl: "https://www.youtube.com/c/BOYSTORYOfficial",
+  },
+  {
+    id: "yaochen", name: "YAOCHEN", subtitle: "A singular direction",
+    description: "在作品、影像和舞台之间，记录独立的表达。", debut: "",
+    mood: "SOLO / MOTION", color: "#DADFDB", ink: "#34423B", accent: "#8A9C8E",
+    officialUrl: "https://www.youtube.com/channel/UCotuyOt3sduFSaL80X_tEVA",
+  },
+  {
+    id: "girlset", name: "GIRLSET", subtitle: "A chapter in formation",
+    description: "在频道里收集新的音乐与表演片段。", debut: "",
+    mood: "FORM / COLOR", color: "#E8DDE0", ink: "#51414B", accent: "#B295A5",
+    officialUrl: "https://www.youtube.com/@girlset",
+  },
 ];
 
 export const artistById = (id: string) =>

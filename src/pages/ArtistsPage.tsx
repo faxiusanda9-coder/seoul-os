@@ -7,7 +7,7 @@ export function ArtistsPage() {
   return (
     <div className="page-wrap page-pad">
       <div className="page-intro">
-        <p className="eyebrow">THE DIRECTORY / 001—009</p>
+        <p className="eyebrow">THE DIRECTORY / 001—{String(artists.length).padStart(3, "0")}</p>
         <h1>
           Artists, in
           <br />

@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { ArrowLeft, ArrowUpRight, Heart } from "lucide-react";
 import { Link, useParams } from "react-router-dom";
 import { artistById } from "../data/artists";
@@ -29,7 +30,7 @@ export function ArtistDetailPage() {
         </div>
         <div className="artist-detail-copy">
           <p className="eyebrow" lang={locale}>
-            {t("artists.file")} / {artist.debut}
+            {t("artists.file")}{artist.debut ? ` / ${artist.debut}` : ""}
           </p>
           <h1>{artist.name}</h1>
           <p className="detail-subtitle">{artist.subtitle}</p>
@@ -52,7 +53,7 @@ export function ArtistDetailPage() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {t("common.officialSite")} <ArrowUpRight size={17} />
+              {t(artist.officialUrl.includes("youtube.com") ? "common.officialChannel" : "common.officialSite")} <ArrowUpRight size={17} />
             </a>
           </div>
           <p className="tiny-note">{t("artists.detailVisualNote")}</p>
@@ -83,4 +84,3 @@ export function ArtistDetailPage() {
     </div>
   );
 }
-import { useEffect } from "react";
