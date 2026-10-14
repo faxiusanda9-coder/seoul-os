@@ -31,7 +31,11 @@ export interface FeedItem {
   sourceUrl: string;
   category: ArchiveCategory;
   visual: string;
-  publishedAt: null;
+  /** Historical editorial sample or an explicitly fictional interaction demo. */
+  kind: "official" | "demo";
+  /** ISO calendar date from the linked official video; demos have no factual date. */
+  publishedAt: string | null;
+  videoId?: string;
 }
 
 export interface CalendarEvent {
@@ -45,10 +49,12 @@ export interface CalendarEvent {
 }
 
 export interface TimelineItem {
+  id: string;
   year: number;
   date: string;
   artistId: string;
   title: string;
   description: string;
   sourceUrl: string;
+  status: "verified" | "demo";
 }

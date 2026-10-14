@@ -54,9 +54,11 @@ export function ArtistDetailPage() {
       <section className="content-section">
         <div className="section-heading">
           <div>
-            <p className="eyebrow">FROM THE DEMO FEED</p>
+            <p className="eyebrow">FROM THE CURATED FEED</p>
             <h2>In your orbit</h2>
-            <p className="section-note">以下内容用于展示收藏与筛选交互。</p>
+            <p className="section-note">
+              官方视频样本与演示条目均有明确标记；列表不实时更新。
+            </p>
           </div>
         </div>
         <div className="feed-list">

@@ -10,6 +10,7 @@ import {
   X,
 } from "lucide-react";
 import { Link, NavLink, Outlet, useLocation } from "react-router-dom";
+import { useArchive } from "../store/ArchiveContext";
 
 const nav = [
   { to: "/", label: "Discover", icon: Compass },
@@ -22,10 +23,20 @@ const nav = [
 export function Layout() {
   const [notificationsOpen, setNotificationsOpen] = useState(false);
   const location = useLocation();
+  const { storageWarning } = useArchive();
   useEffect(() => {
-    window.scrollTo(0, 0);
+    const frame = window.requestAnimationFrame(() => {
+      if (location.hash) {
+        document
+          .getElementById(location.hash.slice(1))
+          ?.scrollIntoView({ behavior: "auto" });
+      } else {
+        window.scrollTo(0, 0);
+      }
+    });
     setNotificationsOpen(false);
-  }, [location.pathname]);
+    return () => window.cancelAnimationFrame(frame);
+  }, [location.pathname, location.hash]);
   return (
     <>
       <a className="skip-link" href="#main-content">
@@ -91,6 +102,11 @@ export function Layout() {
         </div>
       </header>
       <main id="main-content">
+        {storageWarning && (
+          <p className="storage-warning" role="status">
+            当前浏览器未允许本地存储；收藏与关注只会保留到页面关闭。
+          </p>
+        )}
         <Outlet />
       </main>
       <footer className="site-footer">

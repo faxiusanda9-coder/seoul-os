@@ -9,19 +9,17 @@ import { FeedFilters } from "../components/FeedFilters";
 import { ArtistCard } from "../components/ArtistCard";
 import { SectionHeading } from "../components/SectionHeading";
 import type { ContentType } from "../types";
+import { selectFeed, type FeedSort } from "../utils/feed";
 
 export function DiscoverPage() {
   const reducedMotion = useReducedMotion();
   const [artist, setArtist] = useState("all");
   const [type, setType] = useState<"All types" | ContentType>("All types");
+  const [search, setSearch] = useState("");
+  const [sort, setSort] = useState<FeedSort>("newest");
   const visible = useMemo(
-    () =>
-      feed.filter(
-        (item) =>
-          (artist === "all" || item.artistId === artist) &&
-          (type === "All types" || item.type === type),
-      ),
-    [artist, type],
+    () => selectFeed(feed, { artist, type, search, sort }),
+    [artist, type, search, sort],
   );
   return (
     <>
@@ -58,11 +56,9 @@ export function DiscoverPage() {
               className="hero-button"
               type="button"
               onClick={() =>
-                document
-                  .getElementById("daily-feed")
-                  ?.scrollIntoView({
-                    behavior: reducedMotion ? "auto" : "smooth",
-                  })
+                document.getElementById("daily-feed")?.scrollIntoView({
+                  behavior: reducedMotion ? "auto" : "smooth",
+                })
               }
             >
               Explore the feed <ArrowDown size={17} />
@@ -78,9 +74,9 @@ export function DiscoverPage() {
           <SectionHeading
             eyebrow="01 / THE EDIT"
             title="Daily JYP Feed"
-            note="跨艺人内容流。以下均为交互演示条目，尚未接入实时消息。"
+            note="精选官方视频与明确标记的演示条目；本页不是实时新闻或完整日程。"
             action={
-              <span className="count-label">
+              <span className="count-label" aria-live="polite">
                 {visible.length.toString().padStart(2, "0")} STORIES
               </span>
             }
@@ -88,8 +84,12 @@ export function DiscoverPage() {
           <FeedFilters
             artist={artist}
             type={type}
+            search={search}
+            sort={sort}
             onArtist={setArtist}
             onType={setType}
+            onSearch={setSearch}
+            onSort={setSort}
           />
           <div className="feed-list">
             {visible.length ? (
@@ -98,13 +98,15 @@ export function DiscoverPage() {
               <div className="empty-state">
                 <Sparkles size={25} />
                 <h3>暂时没有匹配内容</h3>
-                <p>试试更换艺人或内容类型。</p>
+                <p>试试更换艺人、类型或搜索词。</p>
                 <button
                   className="text-button"
                   type="button"
                   onClick={() => {
                     setArtist("all");
                     setType("All types");
+                    setSearch("");
+                    setSort("newest");
                   }}
                 >
                   清除筛选 <ArrowRight size={16} />

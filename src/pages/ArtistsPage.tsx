@@ -12,7 +12,7 @@ export function ArtistsPage() {
           <em>their own colors.</em>
         </h1>
         <p>
-          九个入口，九种不同的音乐气质。每张卡片都是非官方概念视觉，未来可替换为授权素材。
+          九个入口，九种不同的音乐气质。官方视频缩略图帮助你认出熟悉的面孔；文字封面延续各自的视觉章节。
         </p>
       </div>
       <div className="directory-head">

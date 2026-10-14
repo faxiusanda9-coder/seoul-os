@@ -1,11 +1,12 @@
 import { useState } from "react";
-import { Bookmark, ArrowRight } from "lucide-react";
+import { Bookmark, ArrowRight, ArrowUpRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { archiveCategories, feed } from "../data/feed";
 import { artistById } from "../data/artists";
-import { ArtistArt } from "../components/ArtistArt";
+import { FeedThumbnail } from "../components/FeedThumbnail";
 import { useArchive } from "../store/ArchiveContext";
 import type { ArchiveCategory } from "../types";
+import { publishedLabel } from "../utils/feed";
 
 export function ArchivePage() {
   const { saved, toggleSaved, moveSaved } = useArchive();
@@ -51,16 +52,26 @@ export function ArchivePage() {
       {visible.length ? (
         <div className="archive-grid">
           {visible.map((item) => {
-            const artist = artistById(item.artistId)!;
+            const artist = artistById(item.artistId);
+            if (!artist) return null;
             return (
               <article className="archive-card" key={item.id}>
-                <ArtistArt artist={artist} />
+                <a
+                  href={item.sourceUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`打开 ${item.title} 来源，新窗口`}
+                >
+                  <FeedThumbnail item={item} />
+                </a>
                 <div className="archive-card-copy">
                   <p className="eyebrow">
                     {artist.name} / {item.type}
                   </p>
                   <h2>{item.title}</h2>
-                  <p>演示内容 · 无真实发布时间</p>
+                  <p>
+                    {item.source} · {publishedLabel(item)}
+                  </p>
                   <div className="archive-card-actions">
                     <label className="select-field small-select">
                       <span>归档至</span>
@@ -88,6 +99,15 @@ export function ArchivePage() {
                     >
                       <Bookmark size={18} fill="currentColor" />
                     </button>
+                    <a
+                      className="icon-button"
+                      href={item.sourceUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`打开 ${item.title} 来源，新窗口`}
+                    >
+                      <ArrowUpRight size={18} />
+                    </a>
                   </div>
                 </div>
               </article>
@@ -97,9 +117,17 @@ export function ArchivePage() {
       ) : (
         <div className="empty-state archive-empty">
           <Bookmark size={28} />
-          <h2>这一页，还等着你的收藏。</h2>
-          <p>从 Daily JYP Feed 点击书签图标，内容会出现在对应分类。</p>
-          <Link className="primary-button" to="/">
+          <h2>
+            {saved.length
+              ? `暂无 ${category} 收藏。`
+              : "这一页，还等着你的收藏。"}
+          </h2>
+          <p>
+            {saved.length
+              ? "可以切换上方分类，或去动态列表收藏新内容。"
+              : "从 Daily JYP Feed 点击书签图标，内容会出现在对应分类。"}
+          </p>
+          <Link className="primary-button" to="/#daily-feed">
             Explore the feed <ArrowRight size={17} />
           </Link>
         </div>

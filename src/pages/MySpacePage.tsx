@@ -70,7 +70,9 @@ export function MySpacePage() {
           <div className="empty-state">
             <Heart size={28} />
             <h3>你的关注列表还空着。</h3>
-            <p>去艺人目录找到你喜欢的组合，进入档案后点击 Follow artist。</p>
+            <p>
+              去艺人目录选择喜欢的组合；无需登录，点击卡片上的 Follow 即可。
+            </p>
             <Link className="text-button" to="/artists">
               Browse artists <ArrowUpRight size={17} />
             </Link>

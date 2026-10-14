@@ -41,31 +41,33 @@ export function UniversePage() {
             <span>SELECTED YEAR</span>
             <strong>{year}</strong>
             <span>
-              {String(entries.length).padStart(2, "0")} VERIFIED MOMENT
+              {String(entries.length).padStart(2, "0")} CURATED MOMENT
               {entries.length > 1 ? "S" : ""}
             </span>
           </div>
           <div className="timeline-list">
             {entries.map((item) => (
-              <article
-                className="timeline-entry"
-                key={`${item.year}-${item.artistId}`}
-              >
+              <article className="timeline-entry" key={item.id}>
                 <div className="timeline-date">{item.date}</div>
                 <div>
                   <p className="eyebrow">
-                    {artistById(item.artistId)?.name} / VERIFIED RELEASE
+                    {artistById(item.artistId)?.name} /{" "}
+                    {item.status === "verified" ? "VERIFIED RELEASE" : "DEMO"}
                   </p>
                   <h2>{item.title}</h2>
                   <p>{item.description}</p>
-                  <a
-                    className="text-link"
-                    href={item.sourceUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    JYP 官方来源 <ArrowUpRight size={16} />
-                  </a>
+                  {item.status === "verified" ? (
+                    <a
+                      className="text-link"
+                      href={item.sourceUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      JYP 官方来源 <ArrowUpRight size={16} />
+                    </a>
+                  ) : (
+                    <span className="muted">演示占位，无事实来源</span>
+                  )}
                 </div>
               </article>
             ))}

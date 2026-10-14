@@ -6,6 +6,8 @@ import {
   type ReactNode,
 } from "react";
 import type { ArchiveCategory } from "../types";
+import { archiveCategories, feed } from "../data/feed";
+import { artists } from "../data/artists";
 
 type SavedEntry = { id: string; category: ArchiveCategory };
 type ArchiveState = {
@@ -15,38 +17,92 @@ type ArchiveState = {
   moveSaved: (id: string, category: ArchiveCategory) => void;
   followedArtists: string[];
   toggleFollow: (id: string) => void;
+  storageWarning: boolean;
 };
 
 const STORAGE_KEY = "seoul-os-archive-v1";
 const FOLLOW_KEY = "seoul-os-follow-v1";
 const ArchiveContext = createContext<ArchiveState | null>(null);
 
-function readJson<T>(key: string, fallback: T): T {
+const validItemIds = new Set(feed.map((item) => item.id));
+const validArtistIds = new Set(artists.map((artist) => artist.id));
+const validCategories = new Set<string>(archiveCategories);
+
+function readJson(key: string): unknown {
   try {
     const raw = localStorage.getItem(key);
-    return raw ? (JSON.parse(raw) as T) : fallback;
+    return raw ? JSON.parse(raw) : null;
   } catch {
-    return fallback;
+    return null;
   }
 }
 
+function readSaved(): SavedEntry[] {
+  const value = readJson(STORAGE_KEY);
+  if (!Array.isArray(value)) return [];
+  const seen = new Set<string>();
+  return value.filter((entry): entry is SavedEntry => {
+    if (
+      !entry ||
+      typeof entry !== "object" ||
+      typeof entry.id !== "string" ||
+      !validItemIds.has(entry.id) ||
+      !validCategories.has(entry.category) ||
+      seen.has(entry.id)
+    )
+      return false;
+    seen.add(entry.id);
+    return true;
+  });
+}
+
+function readFollowed(): string[] {
+  const value = readJson(FOLLOW_KEY);
+  return Array.isArray(value)
+    ? [
+        ...new Set(
+          value.filter(
+            (id): id is string =>
+              typeof id === "string" && validArtistIds.has(id),
+          ),
+        ),
+      ]
+    : [];
+}
+
 export function ArchiveProvider({ children }: { children: ReactNode }) {
-  const [saved, setSaved] = useState<SavedEntry[]>(() =>
-    readJson(STORAGE_KEY, []),
-  );
-  const [followedArtists, setFollowedArtists] = useState<string[]>(() =>
-    readJson(FOLLOW_KEY, []),
-  );
+  const [saved, setSaved] = useState<SavedEntry[]>(readSaved);
+  const [followedArtists, setFollowedArtists] =
+    useState<string[]>(readFollowed);
+  const [storageWarning, setStorageWarning] = useState(false);
 
   useEffect(() => {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
+    } catch {
+      setStorageWarning(true);
+    }
   }, [saved]);
   useEffect(() => {
-    localStorage.setItem(FOLLOW_KEY, JSON.stringify(followedArtists));
+    try {
+      localStorage.setItem(FOLLOW_KEY, JSON.stringify(followedArtists));
+    } catch {
+      setStorageWarning(true);
+    }
   }, [followedArtists]);
+
+  useEffect(() => {
+    const sync = (event: StorageEvent) => {
+      if (event.key === STORAGE_KEY) setSaved(readSaved());
+      if (event.key === FOLLOW_KEY) setFollowedArtists(readFollowed());
+    };
+    window.addEventListener("storage", sync);
+    return () => window.removeEventListener("storage", sync);
+  }, []);
 
   const isSaved = (id: string) => saved.some((item) => item.id === id);
   const toggleSaved = (id: string, category: ArchiveCategory) =>
+    validItemIds.has(id) &&
     setSaved((current) =>
       current.some((item) => item.id === id)
         ? current.filter((item) => item.id !== id)
@@ -57,6 +113,7 @@ export function ArchiveProvider({ children }: { children: ReactNode }) {
       current.map((item) => (item.id === id ? { ...item, category } : item)),
     );
   const toggleFollow = (id: string) =>
+    validArtistIds.has(id) &&
     setFollowedArtists((current) =>
       current.includes(id)
         ? current.filter((item) => item !== id)
@@ -72,6 +129,7 @@ export function ArchiveProvider({ children }: { children: ReactNode }) {
         moveSaved,
         followedArtists,
         toggleFollow,
+        storageWarning,
       }}
     >
       {children}

@@ -23,17 +23,18 @@ The production preview is normally at `http://localhost:4173/seoul-os/`.
 
 ## Pages and interactions
 
-| Route (after `#`)                   | Function                                                             |
-| ----------------------------------- | -------------------------------------------------------------------- |
-| `/`                                 | Editorial home, filterable demo feed, artist preview, timeline entry |
-| `/artists` and `/artists/:artistId` | Nine artist files, follow toggle, related demo feed                  |
-| `/calendar`                         | Month/date navigation, artist filter, detail, KST/BJT display        |
-| `/archive`                          | Saved items, four categories, move and remove                        |
-| `/my-space`                         | Followed artists and saved item totals                               |
-| `/universe`                         | Year selection and source-linked milestones                          |
-| `/search`                           | Local artist and demo-feed search                                    |
+| Route (after `#`)                   | Function                                                                       |
+| ----------------------------------- | ------------------------------------------------------------------------------ |
+| `/`                                 | Editorial home, curated feed with search, artist/type filters and date sorting |
+| `/artists` and `/artists/:artistId` | Nine artist files, direct follow toggle, related feed                          |
+| `/calendar`                         | Month/date navigation, artist filter, detail, KST/BJT display                  |
+| `/archive`                          | Saved items, four categories, move and remove                                  |
+| `/my-space`                         | Followed artists and saved item totals                                         |
+| `/universe`                         | Year selection and source-linked milestones                                    |
+| `/search`                           | Local artist and curated-feed search with an actionable empty state            |
 
 Bookmarks and followed artists are stored in browser `localStorage`, under `seoul-os-archive-v1` and `seoul-os-follow-v1`. They are local to a browser profile and do not sync across devices.
+Saved IDs and followed artist IDs are validated on load. Obsolete bookmarks for removed Phase 1 demo cards are discarded so the Archive count cannot point to missing content. If local storage is unavailable, the interface shows a warning and state lasts only for the current page session.
 
 ## GitHub Pages deployment
 
@@ -58,7 +59,7 @@ No API keys or paid services are needed. If the repository is renamed or a custo
 ```text
 src/
   components/   navigation and reusable editorial UI
-  data/         artists, demo feed, fictional calendar, verified timeline
+  data/         artists, curated feed, fictional calendar, verified timeline
   pages/        route pages
   store/        localStorage archive and following state
   types.ts      shared data contracts
@@ -69,11 +70,12 @@ public/         original concept hero image
 
 ## Content and imagery
 
-- Feed entries are **fictional demo scenarios** with no real publication timestamp. Calendar defaults to no events because official schedules have not been verified or connected; an empty day does not mean an artist has no activity. Fictional calendar fixtures are isolated in 2099 and only appear after the user explicitly enables the demo switch. The external feed icon opens JYP Entertainment's official YouTube channel, not a matching video.
-- Artist artworks are CSS-created, non-official visual interpretations. Their colors and typography reference different musical moods without copying album covers. The hero is an AI-generated anonymous concept photo, not an image of JYP artists.
-- The hero generation method and final prompt are recorded in [ASSET_PROVENANCE.md](ASSET_PROVENANCE.md).
-- The Universe milestones are limited to official-source-confirmed release facts: [TWICE](https://twice.jype.com/discography/jqpvqq2k?AmSeq=undefined&PgIndex=undefined), [Stray Kids](https://straykids.jype.com/discography/vuykzg89), [ITZY](https://itzy.jype.com/notice?PgIndex=161), and [NMIXX](https://nmixx.jype.com/discography/514qe3en?AmSeq=undefined&PgIndex=undefined).
+- The Feed is a **curated historical sample**, not a real-time feed. Nine entries link to specific official music videos; eight have source-checked calendar dates and one shows "发布时间未核实". Five fictional UI examples are marked **DEMO**, have no real date, and link only to the JYP channel. Sort order uses the recorded ISO dates and leaves undated items last. No API or automated scraping is used.
+- Calendar defaults to no events because official schedules have not been verified or connected; an empty day does not mean an artist has no activity. Fictional calendar fixtures are isolated in 2099 and only appear after the user explicitly enables the demo switch.
+- Feed and directory video thumbnails load directly from YouTube's thumbnail host, preserve their 16:9 composition, show YouTube/JYP attribution, and link to their source videos. They are not downloaded into the repository. If an image fails, an original CSS concept cover appears. Source links and image handling are recorded in [ASSET_PROVENANCE.md](ASSET_PROVENANCE.md). The video imagery remains the rightsholders' material; this prototype does not claim a separate image license. Review rights and platform terms before broader or commercial reuse.
+- Artist concept artworks are CSS-created, non-official visual interpretations. Their colors and typography reference different musical moods without copying album covers. The hero is an AI-generated anonymous concept photo, not an image of JYP artists.
+- The Universe milestones are limited to official-source-confirmed release facts: [TWICE](https://twice.jype.com/discography/jqpvqq2k?AmSeq=undefined&PgIndex=undefined), [Stray Kids](https://straykids.jype.com/discography/vuykzg89), [ITZY](https://itzy.jype.com/discography/ig7wv69u), and [NMIXX](https://nmixx.jype.com/discography/514qe3en?AmSeq=undefined&PgIndex=undefined).
 
 ## Next phase data connections
 
-Keep the UI contracts in `src/types.ts`. Replace `src/data/feed.ts` with fetched items from official JYP artist notice/discography pages and official YouTube channel APIs, `src/data/events.ts` with source-verified schedules preserving each event's IANA time zone, and `src/data/timeline.ts` with a reviewed editorial history dataset. Add account-backed storage only when needed for cross-device sync. Respect each source's terms and image rights; this phase has no backend.
+Keep the UI contracts in `src/types.ts`. Replace `src/data/feed.ts` with a consented or terms-compliant connection to official JYP artist video/notice pages and, if appropriate, the official YouTube Data API. Replace `src/data/events.ts` with source-verified schedules preserving each event's IANA time zone, and expand `src/data/timeline.ts` only with reviewed editorial history. Add account-backed storage only when cross-device sync is needed. This phase has no backend, API key, or account requirement.
