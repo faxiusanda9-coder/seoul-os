@@ -67,7 +67,8 @@ export function Layout() {
                 key={item.to}
                 to={item.to}
                 className={({ isActive }) =>
-                  isActive ? "nav-link active" : "nav-link"
+                  isActive || (item.to === "/" && location.pathname === "/official")
+                    ? "nav-link active" : "nav-link"
                 }
                 title={t(item.key)}
               >
@@ -143,7 +144,8 @@ export function Layout() {
             key={item.to}
             to={item.to}
             className={({ isActive }) =>
-              isActive ? "mobile-link active" : "mobile-link"
+              isActive || (item.to === "/" && location.pathname === "/official")
+                ? "mobile-link active" : "mobile-link"
             }
           >
             <item.icon size={21} strokeWidth={1.8} />

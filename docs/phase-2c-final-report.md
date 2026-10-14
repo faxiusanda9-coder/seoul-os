@@ -43,7 +43,7 @@ JYP 网站的公开页面和分页可以阅读，但直接查询的 `robots.txt`
 
 ## 5. 工程变更与发布记录
 
-核心新增：`src/pages/NoticePage.tsx`、`src/components/OfficialXTimeline.tsx`、`src/data/officialSources.ts`、`src/data/officialSocialAccounts.ts`、`src/types/official.ts`、`src/utils/officialClassifier.ts`、`src/utils/contentClassifier.ts`、`src/components/ContentCategorySelect.tsx`、`scripts/backfill-taxonomy.mjs`、两个新增测试文件与审计／报告。局部更新 Discover、Artist Detail、Calendar、Search、Archive、i18n、视频同步 schema／脚本及 README；未重做视觉主题。
+核心新增：`src/pages/NoticePage.tsx`、`src/components/OfficialXTimeline.tsx`、`src/data/officialSources.ts`、`src/data/officialSocialAccounts.ts`、`src/types/official.ts`、`src/utils/officialClassifier.ts`、`src/utils/contentClassifier.ts`、`src/components/ContentCategorySelect.tsx`、`scripts/backfill-taxonomy.mjs`、两个新增测试文件与审计／报告。局部更新 Discover、Artist Detail、Calendar、Search、Archive、Layout 的次级路由选中状态、i18n、视频同步 schema／脚本及 README；未重做视觉主题。
 
 现有 YouTube GitHub Actions 仍按北京时间 08:00、20:00 运行；本轮没有官方网页自动同步工作流。提交 [`a68cf3c`](https://github.com/faxiusanda9-coder/seoul-os/commit/a68cf3c6df29db2afd1477a268c6aa0e4b4a2083) 触发的 [Pages 部署运行 38608324768](https://github.com/faxiusanda9-coder/seoul-os/actions/runs/38608324768) 已于 GitHub Actions 显示 **success**。实际访问 [站点](https://faxiusanda9-coder.github.io/seoul-os/) 返回 200，脚本路径为 `/seoul-os/assets/index-B4VMXCO7.js`；[TWICE JSON](https://faxiusanda9-coder.github.io/seoul-os/data/youtube/twice.json) 返回 schema v3、50 条、稳定 `yt-` ID。HashRouter 的 `/#/official` 刷新已在生产浏览器验证。
 
