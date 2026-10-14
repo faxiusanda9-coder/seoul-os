@@ -9,11 +9,11 @@ import type { ArchiveCategory } from "../types";
 import { archiveCategories, feed } from "../data/feed";
 import { artists } from "../data/artists";
 
-type SavedEntry = { id: string; category: ArchiveCategory };
+export type SavedEntry = { id: string; category: ArchiveCategory; artistId: string };
 type ArchiveState = {
   saved: SavedEntry[];
   isSaved: (id: string) => boolean;
-  toggleSaved: (id: string, category: ArchiveCategory) => void;
+  toggleSaved: (id: string, category: ArchiveCategory, artistId?: string) => void;
   moveSaved: (id: string, category: ArchiveCategory) => void;
   followedArtists: string[];
   toggleFollow: (id: string) => void;
@@ -43,7 +43,7 @@ function readSaved(): SavedEntry[] {
   const value = readJson(STORAGE_KEY);
   if (!Array.isArray(value)) return [];
   const seen = new Set<string>();
-  return value.filter((entry): entry is SavedEntry => {
+  return value.flatMap((entry): SavedEntry[] => {
     if (
       !entry ||
       typeof entry !== "object" ||
@@ -52,9 +52,13 @@ function readSaved(): SavedEntry[] {
       !validCategories.has(entry.category) ||
       seen.has(entry.id)
     )
-      return false;
+      return [];
     seen.add(entry.id);
-    return true;
+    const staticArtist = feed.find((item) => item.id === entry.id)?.artistId;
+    const artistId = validArtistIds.has(entry.artistId)
+      ? entry.artistId
+      : staticArtist ?? "twice";
+    return [{ id: entry.id, category: entry.category, artistId }];
   });
 }
 
@@ -103,12 +107,13 @@ export function ArchiveProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const isSaved = (id: string) => saved.some((item) => item.id === id);
-  const toggleSaved = (id: string, category: ArchiveCategory) =>
+  const toggleSaved = (id: string, category: ArchiveCategory, artistId?: string) =>
     validItemId(id) &&
     setSaved((current) =>
       current.some((item) => item.id === id)
         ? current.filter((item) => item.id !== id)
-        : [...current, { id, category }],
+        : [...current, { id, category, artistId: artistId && validArtistIds.has(artistId)
+            ? artistId : feed.find((item) => item.id === id)?.artistId ?? "twice" }],
     );
   const moveSaved = (id: string, category: ArchiveCategory) =>
     setSaved((current) =>

@@ -1,4 +1,4 @@
-import { artists } from "../data/artists";
+import type { ChannelConfig } from "../../data/schemas/content.schema";
 import { contentTypes } from "../data/feed";
 import type { ContentType } from "../types";
 import type { FeedSort } from "../utils/feed";
@@ -6,6 +6,7 @@ import { contentTypeLabel, useI18n } from "../locales/i18n";
 
 export function FeedFilters({
   artist,
+  channels,
   type,
   search,
   sort,
@@ -15,6 +16,7 @@ export function FeedFilters({
   onSort,
 }: {
   artist: string;
+  channels: ChannelConfig[];
   type: "All types" | ContentType;
   search: string;
   sort: FeedSort;
@@ -33,10 +35,9 @@ export function FeedFilters({
           onChange={(e) => onArtist(e.target.value)}
           aria-label={t("discover.filterArtist")}
         >
-          <option value="all">{t("common.allArtists")}</option>
-          {artists.map((item) => (
-            <option value={item.id} key={item.id}>
-              {item.name}
+          {channels.map((item) => (
+            <option value={item.artistId} key={item.artistId}>
+              {item.displayName}
             </option>
           ))}
         </select>

@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import { mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
-import { syncTwice } from "../scripts/youtube-sync.mjs";
+import { syncTwice, syncEnabledChannels, expireStaleChannel, loadChannels } from "../scripts/youtube-sync.mjs";
 import {
   parseContentSnapshot,
   TWICE_CHANNEL_ID,
@@ -194,4 +194,57 @@ test("localized video metadata requires an explicit verified flag", async (t) =>
   snapshot.items[0].translationVerified = true;
   assert.ok(parseContentSnapshot(snapshot));
   assert.equal(snapshot.items[0].title, "TWICE TEST M/V");
+});
+
+test("enabled channels stay independent when one API request fails", async (t) => {
+  const dir = await mkdtemp(join(tmpdir(), "seoul-os-multi-"));
+  t.after(() => rm(dir, { recursive: true, force: true }));
+  const channels = (await loadChannels()).filter((item) => item.enabled);
+  assert.deepEqual(channels.map((item) => item.artistId), ["twice", "stray-kids", "itzy"]);
+  const ids = new Map([["twice", "AbCdEfGh123"], ["stray-kids", "StRaY123456"], ["itzy", "ItZy1234567"]]);
+  const fetchFor = (failArtist = "") => async (url) => {
+    const parsed = new URL(url);
+    const part = parsed.pathname.split("/").at(-1);
+    const channel = channels.find((item) => item.channelId === parsed.searchParams.get("id") ||
+      item.uploadsPlaylistId === parsed.searchParams.get("playlistId") ||
+      ids.get(item.artistId) === parsed.searchParams.get("id"));
+    assert.ok(channel);
+    if (channel.artistId === failArtist && part === "channels")
+      return { ok: false, status: 500 };
+    const id = ids.get(channel.artistId);
+    const data = part === "channels"
+      ? { items: [{ id: channel.channelId, contentDetails: { relatedPlaylists: { uploads: channel.uploadsPlaylistId } } }] }
+      : part === "playlistItems"
+        ? { items: [{ contentDetails: { videoId: id } }, { contentDetails: { videoId: id } }] }
+        : { items: [{ id, snippet: { channelId: channel.channelId, title: `${channel.displayName} TEST M/V`,
+          description: "Fixture only", publishedAt: TIME,
+          thumbnails: { medium: { url: `https://i.ytimg.com/vi/${id}/mqdefault.jpg` } } },
+          status: { privacyStatus: "public" } }] };
+    return { ok: true, json: async () => data };
+  };
+  const first = await syncEnabledChannels({ apiKey: "test-key", fetchImpl: fetchFor(), dataDir: dir });
+  assert.deepEqual(first.map((item) => item.status), ["success", "success", "success"]);
+  assert.deepEqual(first.map((item) => item.count), [1, 1, 1]);
+  assert.equal(first.reduce((sum, item) => sum + item.requests, 0), 9);
+  const strayBefore = await readFile(join(dir, "stray-kids.json"), "utf8");
+  const second = await syncEnabledChannels({ apiKey: "test-key", fetchImpl: fetchFor("stray-kids"), dataDir: dir });
+  assert.deepEqual(second.map((item) => item.status), ["success", "failed", "success"]);
+  assert.equal(await readFile(join(dir, "stray-kids.json"), "utf8"), strayBefore);
+  assert.equal(second[0].changed, false);
+  assert.equal(second[2].changed, false);
+  assert.equal(second[1].requests, 3);
+  const twice = JSON.parse(await readFile(join(dir, "twice.json"), "utf8"));
+  const itzy = JSON.parse(await readFile(join(dir, "itzy.json"), "utf8"));
+  assert.notEqual(twice.items[0].id, itzy.items[0].id);
+});
+
+test("expired API metadata is removed while the file remains schema-valid", async (t) => {
+  const dataFile = await fixture(t);
+  await syncTwice({ apiKey: "test-key", fetchImpl: mockFetch, dataFile, now: TIME });
+  const channel = (await loadChannels()).find((item) => item.artistId === "twice");
+  assert.equal(await expireStaleChannel(channel, dataFile, "2026-11-15T00:00:00.000Z"), true);
+  const snapshot = parseContentSnapshot(JSON.parse(await readFile(dataFile, "utf8")));
+  assert.ok(snapshot);
+  assert.equal(snapshot.items.length, 0);
+  assert.equal(snapshot.fetchedAt, null);
 });

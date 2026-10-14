@@ -9,7 +9,7 @@ import { useI18n } from "../locales/i18n";
 import { searchableFeedText } from "../utils/feed";
 
 export function SearchPage() {
-  const { feed } = useContent();
+  const { feed, selectedArtistId, channels } = useContent();
   const { t, locale } = useI18n();
   const [query, setQuery] = useState("");
   const normalized = query.trim().toLocaleLowerCase();
@@ -36,6 +36,9 @@ export function SearchPage() {
         <p className="eyebrow">FIND YOUR NEXT FAVORITE</p>
         <h1>Search the universe.</h1>
         <p>{t("search.intro")}</p>
+        <p className="section-note">{t("search.currentChannel", {
+          artist: channels.find((item) => item.artistId === selectedArtistId)?.displayName ?? selectedArtistId,
+        })}</p>
       </div>
       <div className="search-box">
         <Search size={24} />

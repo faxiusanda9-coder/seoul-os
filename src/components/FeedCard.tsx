@@ -45,7 +45,7 @@ export function FeedCard({
             className={`feed-kind ${item.kind === "demo" ? "feed-kind--demo" : ""}`}
           >
             {item.kind === "live"
-              ? t("common.officialYouTube")
+              ? t("common.officialYouTube", { artist: artist.name })
               : item.kind === "official"
                 ? t("common.officialSample")
                 : t("common.demo")}
@@ -96,7 +96,7 @@ export function FeedCard({
           title={
             active ? t("common.removeBookmarkShort") : t("common.bookmarkShort")
           }
-          onClick={() => toggleSaved(item.id, item.category)}
+          onClick={() => toggleSaved(item.id, item.category, item.artistId)}
         >
           <Bookmark size={20} fill={active ? "currentColor" : "none"} />
         </button>

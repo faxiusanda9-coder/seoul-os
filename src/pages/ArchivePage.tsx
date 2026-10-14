@@ -1,9 +1,9 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Bookmark, ArrowRight, ArrowUpRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { archiveCategories } from "../data/feed";
 import { useContent } from "../store/ContentContext";
-import { artistById } from "../data/artists";
+import { artistById, artists } from "../data/artists";
 import { FeedThumbnail } from "../components/FeedThumbnail";
 import { useArchive } from "../store/ArchiveContext";
 import type { ArchiveCategory } from "../types";
@@ -16,13 +16,17 @@ import {
 } from "../locales/i18n";
 
 export function ArchivePage() {
-  const { feed } = useContent();
+  const { selectedArtistId, getChannel, loadChannel } = useContent();
   const { saved, toggleSaved, moveSaved } = useArchive();
   const { t, locale } = useI18n();
   const [category, setCategory] = useState<ArchiveCategory>(
     () => saved[0]?.category ?? "Favorite Stages",
   );
-  const visible = saved
+  const [archiveArtistId, setArchiveArtistId] = useState(selectedArtistId);
+  useEffect(() => { loadChannel(archiveArtistId); }, [archiveArtistId, loadChannel]);
+  const feed = getChannel(archiveArtistId).feed;
+  const channelSaved = saved.filter((entry) => entry.artistId === archiveArtistId);
+  const visible = channelSaved
     .filter((item) => item.category === category)
     .map((entry) => ({ entry, item: feed.find((row) => row.id === entry.id) }));
   return (
@@ -39,6 +43,12 @@ export function ArchivePage() {
         <p>{t("archive.count", { count: saved.length })}</p>
         <Bookmark size={27} strokeWidth={1.4} />
       </div>
+      <label className="select-field archive-channel-select">
+        <span>{t("archive.channel")}</span>
+        <select value={archiveArtistId} onChange={(event) => setArchiveArtistId(event.target.value)}>
+          {artists.map((artist) => <option key={artist.id} value={artist.id}>{artist.name}</option>)}
+        </select>
+      </label>
       <div className="archive-tabs" aria-label={t("archive.categories")}>
         {archiveCategories.map((item) => (
           <button
@@ -50,7 +60,7 @@ export function ArchivePage() {
           >
             {archiveCategoryLabel(locale, item)}
             <span>
-              {saved.filter((entry) => entry.category === item).length}
+              {channelSaved.filter((entry) => entry.category === item).length}
             </span>
           </button>
         ))}
@@ -93,7 +103,7 @@ export function ArchivePage() {
                         className="icon-button"
                         type="button"
                         aria-label={t("archive.removeSaved")}
-                        onClick={() => toggleSaved(entry.id, category)}
+                      onClick={() => toggleSaved(entry.id, category, entry.artistId)}
                       >
                         <Bookmark size={18} fill="currentColor" />
                       </button>
@@ -183,7 +193,7 @@ export function ArchivePage() {
                       aria-label={t("common.removeBookmark", {
                         title: item.title,
                       })}
-                      onClick={() => toggleSaved(item.id, category)}
+                      onClick={() => toggleSaved(item.id, category, item.artistId)}
                     >
                       <Bookmark size={18} fill="currentColor" />
                     </button>
@@ -206,14 +216,14 @@ export function ArchivePage() {
         <div className="empty-state archive-empty">
           <Bookmark size={28} />
           <h2>
-            {saved.length
+            {channelSaved.length
               ? t("archive.emptyCategory", {
                   category: archiveCategoryLabel(locale, category),
                 })
               : t("archive.emptyAll")}
           </h2>
           <p>
-            {saved.length
+            {channelSaved.length
               ? t("archive.emptyCategoryBody")
               : t("archive.emptyAllBody")}
           </p>

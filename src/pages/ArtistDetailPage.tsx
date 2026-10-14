@@ -9,8 +9,10 @@ import { NotFoundPage } from "./NotFoundPage";
 import { artistDescription, useI18n } from "../locales/i18n";
 
 export function ArtistDetailPage() {
-  const { feed, status } = useContent();
+  const { getChannel, loadChannel } = useContent();
   const { artistId = "" } = useParams();
+  useEffect(() => { loadChannel(artistId); }, [artistId, loadChannel]);
+  const { feed, status, syncedAt } = getChannel(artistId);
   const artist = artistById(artistId);
   const { followedArtists, toggleFollow } = useArchive();
   const { t, locale } = useI18n();
@@ -62,8 +64,10 @@ export function ArtistDetailPage() {
             <p className="eyebrow">FROM THE CURATED FEED</p>
             <h2>In your orbit</h2>
             <p className="section-note">
-              {status === "live" && artist.id === "twice"
-                ? t("artists.relatedLive")
+              {status === "live"
+                ? t("artists.relatedLive", { date: new Intl.DateTimeFormat(locale, {
+                    timeZone: "Asia/Shanghai", dateStyle: "medium", timeStyle: "short",
+                  }).format(new Date(syncedAt!)) })
                 : t("artists.relatedSample")}
             </p>
           </div>
@@ -79,3 +83,4 @@ export function ArtistDetailPage() {
     </div>
   );
 }
+import { useEffect } from "react";

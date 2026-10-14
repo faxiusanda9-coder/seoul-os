@@ -1,10 +1,16 @@
-name: Sync TWICE YouTube data
+name: Sync official YouTube channels
 
 on:
   schedule:
     # 08:00 and 20:00 Asia/Shanghai (UTC+8)
     - cron: "0 0,12 * * *"
   workflow_dispatch:
+    inputs:
+      channel:
+        description: "Enabled artist ID, or all"
+        required: false
+        default: all
+        type: string
 
 permissions:
   contents: write
@@ -16,8 +22,10 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     outputs:
       changed: ${{ steps.changes.outputs.changed }}
+      failed: ${{ steps.youtube.outcome == 'failure' }}
     steps:
       - uses: actions/checkout@v7
         with:
@@ -27,17 +35,20 @@ jobs:
           node-version: "24"
           cache: npm
       - run: npm ci
-      - name: Sync verified TWICE uploads
+      - name: Sync enabled verified channels
+        id: youtube
+        continue-on-error: true
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-        run: npm run sync:youtube
+          CHANNEL: ${{ inputs.channel || 'all' }}
+        run: npm run sync:youtube -- --channel="$CHANNEL"
       - name: Validate generated data
         run: npm run build
       - name: Check for data changes
         id: changes
         shell: bash
         run: |
-          if git diff --quiet -- data/youtube/twice.json; then
+          if [[ -z "$(git status --porcelain -- data/youtube)" ]]; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
@@ -48,8 +59,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/youtube/twice.json
-          git commit -m "data: sync TWICE official YouTube uploads"
+          git add data/youtube/*.json
+          git commit -m "data: sync independent official YouTube channels"
           git push origin HEAD:main
 
   deploy:
@@ -62,3 +73,12 @@ jobs:
     uses: ./.github/workflows/deploy.yml
     with:
       ref: main
+
+  report-failure:
+    needs: [sync, deploy]
+    if: always() && needs.sync.outputs.failed == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "One or more channel syncs failed. Successful channels and valid expiry changes were preserved and deployed when needed."
+          exit 1

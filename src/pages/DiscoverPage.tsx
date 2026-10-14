@@ -13,16 +13,15 @@ import { selectFeed, type FeedSort } from "../utils/feed";
 import { useI18n } from "../locales/i18n";
 
 export function DiscoverPage() {
-  const { feed, status, syncedAt } = useContent();
+  const { feed, status, syncedAt, selectedArtistId, channels, selectArtist } = useContent();
   const { t, locale } = useI18n();
   const reducedMotion = useReducedMotion();
-  const [artist, setArtist] = useState("all");
   const [type, setType] = useState<"All types" | ContentType>("All types");
   const [search, setSearch] = useState("");
   const [sort, setSort] = useState<FeedSort>("newest");
   const visible = useMemo(
-    () => selectFeed(feed, { artist, type, search, sort }, locale),
-    [feed, artist, type, search, sort, locale],
+    () => selectFeed(feed, { artist: selectedArtistId, type, search, sort }, locale),
+    [feed, selectedArtistId, type, search, sort, locale],
   );
   return (
     <>
@@ -79,6 +78,7 @@ export function DiscoverPage() {
             note={
               status === "live"
                 ? t("discover.feedLive", {
+                    artist: channels.find((item) => item.artistId === selectedArtistId)?.displayName ?? selectedArtistId,
                     date: new Intl.DateTimeFormat(locale, {
                       timeZone: "Asia/Shanghai",
                       dateStyle: "medium",
@@ -98,15 +98,17 @@ export function DiscoverPage() {
             }
           />
           <FeedFilters
-            artist={artist}
+            artist={selectedArtistId}
+            channels={channels}
             type={type}
             search={search}
             sort={sort}
-            onArtist={setArtist}
+            onArtist={selectArtist}
             onType={setType}
             onSearch={setSearch}
             onSort={setSort}
           />
+          <p className="tiny-note">{t("discover.editorialTypeNote")}</p>
           <div className="feed-list">
             {visible.length ? (
               visible.map((item) => <FeedCard key={item.id} item={item} />)
@@ -119,7 +121,6 @@ export function DiscoverPage() {
                   className="text-button"
                   type="button"
                   onClick={() => {
-                    setArtist("all");
                     setType("All types");
                     setSearch("");
                     setSort("newest");
