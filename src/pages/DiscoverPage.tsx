@@ -3,7 +3,7 @@ import { ArrowDown, ArrowRight, ArrowUpRight, Sparkles } from "lucide-react";
 import { motion, useReducedMotion } from "motion/react";
 import { Link } from "react-router-dom";
 import { artists } from "../data/artists";
-import { feed } from "../data/feed";
+import { useContent } from "../store/ContentContext";
 import { FeedCard } from "../components/FeedCard";
 import { FeedFilters } from "../components/FeedFilters";
 import { ArtistCard } from "../components/ArtistCard";
@@ -12,6 +12,7 @@ import type { ContentType } from "../types";
 import { selectFeed, type FeedSort } from "../utils/feed";
 
 export function DiscoverPage() {
+  const { feed, status, syncedAt } = useContent();
   const reducedMotion = useReducedMotion();
   const [artist, setArtist] = useState("all");
   const [type, setType] = useState<"All types" | ContentType>("All types");
@@ -19,7 +20,7 @@ export function DiscoverPage() {
   const [sort, setSort] = useState<FeedSort>("newest");
   const visible = useMemo(
     () => selectFeed(feed, { artist, type, search, sort }),
-    [artist, type, search, sort],
+    [feed, artist, type, search, sort],
   );
   return (
     <>
@@ -74,7 +75,13 @@ export function DiscoverPage() {
           <SectionHeading
             eyebrow="01 / THE EDIT"
             title="Daily JYP Feed"
-            note="精选官方视频与明确标记的演示条目；本页不是实时新闻或完整日程。"
+            note={
+              status === "live"
+                ? `TWICE 官方 YouTube 数据 · 最近同步 ${new Intl.DateTimeFormat("zh-CN", { timeZone: "Asia/Shanghai", dateStyle: "medium", timeStyle: "short" }).format(new Date(syncedAt!))}（北京时间）；其他艺人为精选或演示内容。`
+                : status === "loading"
+                  ? "正在检查官方 YouTube 数据；当前显示精选内容。"
+                  : "Demo Content / 精选历史视频与演示条目；TWICE 自动数据暂不可用。"
+            }
             action={
               <span className="count-label" aria-live="polite">
                 {visible.length.toString().padStart(2, "0")} STORIES

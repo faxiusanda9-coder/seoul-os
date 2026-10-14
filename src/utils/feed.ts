@@ -35,6 +35,8 @@ export function selectFeed(items: FeedItem[], query: FeedQuery): FeedItem[] {
 }
 
 export function publishedLabel(item: FeedItem) {
+  if (item.kind === "live" && item.publishedAt)
+    return `发布 ${new Intl.DateTimeFormat("zh-CN", { timeZone: "Asia/Shanghai", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit" }).format(new Date(item.publishedAt))}（北京时间）`;
   return item.publishedAt
     ? `发布 ${item.publishedAt.replaceAll("-", ".")}（日期）`
     : item.kind === "official"

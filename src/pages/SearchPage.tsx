@@ -2,11 +2,12 @@ import { useMemo, useState } from "react";
 import { Search, X } from "lucide-react";
 import { Link } from "react-router-dom";
 import { artists } from "../data/artists";
-import { feed } from "../data/feed";
+import { useContent } from "../store/ContentContext";
 import { ArtistArt } from "../components/ArtistArt";
 import { FeedCard } from "../components/FeedCard";
 
 export function SearchPage() {
+  const { feed } = useContent();
   const [query, setQuery] = useState("");
   const normalized = query.trim().toLocaleLowerCase();
   const matches = useMemo(
@@ -26,14 +27,14 @@ export function SearchPage() {
           )
         : feed.slice(0, 4),
     }),
-    [normalized],
+    [normalized, feed],
   );
   return (
     <div className="page-wrap page-pad">
       <div className="page-intro compact-intro">
         <p className="eyebrow">FIND YOUR NEXT FAVORITE</p>
         <h1>Search the universe.</h1>
-        <p>搜索本地艺人档案、精选官方视频与演示内容。此处不是实时搜索。</p>
+        <p>搜索本地艺人档案、已同步的 TWICE 视频、精选官方视频与演示内容。</p>
       </div>
       <div className="search-box">
         <Search size={24} />

@@ -25,6 +25,8 @@ const FOLLOW_KEY = "seoul-os-follow-v1";
 const ArchiveContext = createContext<ArchiveState | null>(null);
 
 const validItemIds = new Set(feed.map((item) => item.id));
+const validItemId = (id: string) =>
+  validItemIds.has(id) || /^yt-[A-Za-z0-9_-]{11}$/.test(id);
 const validArtistIds = new Set(artists.map((artist) => artist.id));
 const validCategories = new Set<string>(archiveCategories);
 
@@ -46,7 +48,7 @@ function readSaved(): SavedEntry[] {
       !entry ||
       typeof entry !== "object" ||
       typeof entry.id !== "string" ||
-      !validItemIds.has(entry.id) ||
+      !validItemId(entry.id) ||
       !validCategories.has(entry.category) ||
       seen.has(entry.id)
     )
@@ -102,7 +104,7 @@ export function ArchiveProvider({ children }: { children: ReactNode }) {
 
   const isSaved = (id: string) => saved.some((item) => item.id === id);
   const toggleSaved = (id: string, category: ArchiveCategory) =>
-    validItemIds.has(id) &&
+    validItemId(id) &&
     setSaved((current) =>
       current.some((item) => item.id === id)
         ? current.filter((item) => item.id !== id)

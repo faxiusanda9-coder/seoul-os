@@ -27,7 +27,7 @@ export function FeedCard({
         target="_blank"
         rel="noopener noreferrer"
         aria-label={
-          item.kind === "official"
+          item.kind !== "demo"
             ? `观看 ${item.title} 官方视频，新窗口`
             : `观看 ${artist.name} 封面参考的官方视频，新窗口；非本条演示内容`
         }
@@ -42,7 +42,11 @@ export function FeedCard({
           <span
             className={`feed-kind ${item.kind === "demo" ? "feed-kind--demo" : ""}`}
           >
-            {item.kind === "official" ? "官方视频" : "DEMO"}
+            {item.kind === "live"
+              ? "Official YouTube Source"
+              : item.kind === "official"
+                ? "精选官方视频"
+                : "DEMO"}
           </span>
         </div>
         <h3>{item.title}</h3>
@@ -77,14 +81,12 @@ export function FeedCard({
           target="_blank"
           rel="noopener noreferrer"
           aria-label={
-            item.kind === "official"
+            item.kind !== "demo"
               ? `打开 ${item.title} 官方视频，新窗口`
               : "打开 JYP 官方频道，新窗口（演示条目无对应视频）"
           }
           title={
-            item.kind === "official"
-              ? "观看官方视频"
-              : "打开官方频道（演示条目）"
+            item.kind !== "demo" ? "观看官方视频" : "打开官方频道（演示条目）"
           }
         >
           <ArrowUpRight size={20} />

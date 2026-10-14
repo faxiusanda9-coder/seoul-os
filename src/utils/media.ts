@@ -10,7 +10,7 @@ export function officialVideoForArtist(artistId: string): FeedItem | undefined {
 
 /** Demo rows borrow an artist reference image; they do not depict that demo. */
 export function visualVideoForItem(item: FeedItem): FeedItem | undefined {
-  return item.kind === "official" ? item : officialVideoForArtist(item.artistId);
+  return item.kind === "demo" ? officialVideoForArtist(item.artistId) : item;
 }
 
 export function thumbnailUrl(videoId: string): string {

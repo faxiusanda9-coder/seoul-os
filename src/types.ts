@@ -4,7 +4,8 @@ export type ContentType =
   | "Comeback"
   | "Teaser"
   | "Announcement"
-  | "Live";
+  | "Live"
+  | "Other";
 export type ArchiveCategory =
   "Favorite Stages" | "Music Videos" | "Albums" | "Watch Later";
 export type EventType = "Release" | "Live" | "Fan Event";
@@ -32,10 +33,11 @@ export interface FeedItem {
   category: ArchiveCategory;
   visual: string;
   /** Historical editorial sample or an explicitly fictional interaction demo. */
-  kind: "official" | "demo";
+  kind: "live" | "official" | "demo";
   /** ISO calendar date from the linked official video; demos have no factual date. */
   publishedAt: string | null;
   videoId?: string;
+  thumbnailUrl?: string;
 }
 
 export interface CalendarEvent {

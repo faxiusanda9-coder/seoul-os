@@ -22,9 +22,9 @@ export function FeedThumbnail({ item }: { item: FeedItem }) {
           )}
           <img
             className={imageState === "loading" ? "is-loading" : ""}
-            src={thumbnailUrl(visual.videoId)}
+            src={visual.thumbnailUrl ?? thumbnailUrl(visual.videoId)}
             alt={
-              item.kind === "official"
+              item.kind !== "demo"
                 ? `${artist.name}《${visual.title}》官方 YouTube 视频缩略图`
                 : `${artist.name} 官方视频《${visual.title}》的参考缩略图；不是本条演示内容`
             }

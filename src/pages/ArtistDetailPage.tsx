@@ -1,13 +1,14 @@
 import { ArrowLeft, ArrowUpRight, Heart } from "lucide-react";
 import { Link, useParams } from "react-router-dom";
 import { artistById } from "../data/artists";
-import { feed } from "../data/feed";
+import { useContent } from "../store/ContentContext";
 import { useArchive } from "../store/ArchiveContext";
 import { ArtistArt } from "../components/ArtistArt";
 import { FeedCard } from "../components/FeedCard";
 import { NotFoundPage } from "./NotFoundPage";
 
 export function ArtistDetailPage() {
+  const { feed, status } = useContent();
   const { artistId = "" } = useParams();
   const artist = artistById(artistId);
   const { followedArtists, toggleFollow } = useArchive();
@@ -57,7 +58,9 @@ export function ArtistDetailPage() {
             <p className="eyebrow">FROM THE CURATED FEED</p>
             <h2>In your orbit</h2>
             <p className="section-note">
-              官方视频样本与演示条目均有明确标记；列表不实时更新。
+              {status === "live" && artist.id === "twice"
+                ? "TWICE 官方 YouTube 视频由静态数据每日同步。"
+                : "官方视频样本与演示条目均有明确标记。"}
             </p>
           </div>
         </div>

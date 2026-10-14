@@ -4,13 +4,17 @@
   "version": "0.1.0",
   "type": "module",
   "engines": {
-    "node": ">=20.19.0"
+    "node": ">=24.0.0"
   },
   "scripts": {
+    "predev": "node scripts/stage-public-data.mjs",
     "dev": "vite --host 0.0.0.0",
+    "prebuild": "node scripts/stage-public-data.mjs",
     "build": "tsc -b && vite build",
     "preview": "vite preview --host 0.0.0.0",
     "check": "tsc --noEmit",
+    "sync:youtube": "node scripts/youtube-sync.mjs",
+    "test:sync": "node --test tests/youtube-sync.test.mjs",
     "format": "prettier --write 'src/**/*.{ts,tsx,css}' vite.config.ts index.html README.md .github/workflows/deploy.yml"
   },
   "dependencies": {

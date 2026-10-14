@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Bookmark, ArrowRight, ArrowUpRight } from "lucide-react";
 import { Link } from "react-router-dom";
-import { archiveCategories, feed } from "../data/feed";
+import { archiveCategories } from "../data/feed";
+import { useContent } from "../store/ContentContext";
 import { artistById } from "../data/artists";
 import { FeedThumbnail } from "../components/FeedThumbnail";
 import { useArchive } from "../store/ArchiveContext";
@@ -10,14 +11,14 @@ import { publishedLabel } from "../utils/feed";
 import { visualVideoForItem } from "../utils/media";
 
 export function ArchivePage() {
+  const { feed } = useContent();
   const { saved, toggleSaved, moveSaved } = useArchive();
   const [category, setCategory] = useState<ArchiveCategory>(
     () => saved[0]?.category ?? "Favorite Stages",
   );
   const visible = saved
     .filter((item) => item.category === category)
-    .map((item) => feed.find((row) => row.id === item.id))
-    .filter((item) => item !== undefined);
+    .map((entry) => ({ entry, item: feed.find((row) => row.id === entry.id) }));
   return (
     <div className="page-wrap page-pad">
       <div className="page-intro">
@@ -52,7 +53,57 @@ export function ArchivePage() {
       </div>
       {visible.length ? (
         <div className="archive-grid">
-          {visible.map((item) => {
+          {visible.map(({ entry, item }) => {
+            if (!item)
+              return (
+                <article
+                  className="archive-card archive-missing"
+                  key={entry.id}
+                >
+                  <div className="archive-card-copy">
+                    <p className="eyebrow">YOUTUBE / 已保存</p>
+                    <h2>曾收藏的官方视频</h2>
+                    <p>该视频已退出最近同步列表；收藏仍保留。</p>
+                    <div className="archive-card-actions">
+                      <label className="select-field small-select">
+                        <span>归档至</span>
+                        <select
+                          value={category}
+                          onChange={(e) => {
+                            const next = e.target.value as ArchiveCategory;
+                            moveSaved(entry.id, next);
+                            setCategory(next);
+                          }}
+                          aria-label="移动已保存视频到分类"
+                        >
+                          {archiveCategories.map((option) => (
+                            <option key={option} value={option}>
+                              {option}
+                            </option>
+                          ))}
+                        </select>
+                      </label>
+                      <button
+                        className="icon-button"
+                        type="button"
+                        aria-label="取消收藏已保存视频"
+                        onClick={() => toggleSaved(entry.id, category)}
+                      >
+                        <Bookmark size={18} fill="currentColor" />
+                      </button>
+                      <a
+                        className="icon-button"
+                        href={`https://www.youtube.com/watch?v=${entry.id.slice(3)}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="在 YouTube 打开已保存视频"
+                      >
+                        <ArrowUpRight size={18} />
+                      </a>
+                    </div>
+                  </div>
+                </article>
+              );
             const artist = artistById(item.artistId);
             if (!artist) return null;
             const visual = visualVideoForItem(item);

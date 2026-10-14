@@ -70,6 +70,7 @@ export const contentTypes = [
   "Teaser",
   "Announcement",
   "Live",
+  "Other",
 ] as const;
 export const archiveCategories = [
   "Favorite Stages",
