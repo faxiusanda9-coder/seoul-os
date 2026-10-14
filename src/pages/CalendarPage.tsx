@@ -15,19 +15,31 @@ import type { CalendarEvent } from "../types";
 
 const dateKey = (date: Date) => format(date, "yyyy-MM-dd");
 const weekdays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+const todayInSeoul = () =>
+  new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Seoul" }).format(
+    new Date(),
+  );
+const monthForDate = (value: string) =>
+  new Date(Number(value.slice(0, 4)), Number(value.slice(5, 7)) - 1, 1);
+const demoDate = kstDate(events[0].startsAt);
 
 export function CalendarPage() {
-  const [month, setMonth] = useState(() => new Date(2026, 9, 1));
-  const [selected, setSelected] = useState("2026-10-14");
+  const [month, setMonth] = useState(() => monthForDate(todayInSeoul()));
+  const [selected, setSelected] = useState(todayInSeoul);
   const [artist, setArtist] = useState("all");
   const [selectedEvent, setSelectedEvent] = useState<CalendarEvent | null>(
-    events[0],
+    null,
   );
   const [showBeijing, setShowBeijing] = useState(false);
+  const [showDemo, setShowDemo] = useState(false);
   const filtered = useMemo(
     () =>
-      events.filter((event) => artist === "all" || event.artistId === artist),
-    [artist],
+      showDemo
+        ? events.filter(
+            (event) => artist === "all" || event.artistId === artist,
+          )
+        : [],
+    [artist, showDemo],
   );
   const days = eachDayOfInterval({
     start: startOfMonth(month),
@@ -51,6 +63,13 @@ export function CalendarPage() {
       filtered.find((event) => kstDate(event.startsAt) === date) ?? null,
     );
   }
+  function toggleDemo(enabled: boolean) {
+    setShowDemo(enabled);
+    setSelectedEvent(null);
+    const nextDate = enabled ? demoDate : todayInSeoul();
+    setSelected(nextDate);
+    setMonth(monthForDate(nextDate));
+  }
   return (
     <div className="page-wrap page-pad">
       <div className="page-intro">
@@ -61,11 +80,22 @@ export function CalendarPage() {
           <em>in your time.</em>
         </h1>
         <p>
-          浏览演示活动，按艺人筛选，并在韩国标准时间与北京时间之间切换显示。
+          当前尚未接入已核实的官方日程。开启虚构样例后，可体验筛选和时区切换。
         </p>
       </div>
-      <div className="demo-notice">
-        演示日历 · 所有活动日期与内容均为虚构示例，并非 JYP 官方日程。
+      <div className="calendar-status">
+        <div>
+          <strong>官方日程尚未接入</strong>
+          <p>这里没有已核实的活动记录；日历空白不代表艺人当天没有活动。</p>
+        </div>
+        <label className="calendar-demo-switch">
+          <input
+            type="checkbox"
+            checked={showDemo}
+            onChange={(event) => toggleDemo(event.target.checked)}
+          />
+          <span>显示 2099 年虚构演示活动</span>
+        </label>
       </div>
       <div className="calendar-layout">
         <section className="calendar-panel" aria-label="活动日历">
@@ -93,33 +123,35 @@ export function CalendarPage() {
               </button>
             </div>
           </div>
-          <div className="calendar-filter-row">
-            <label className="select-field">
-              <span>Artist</span>
-              <select
-                value={artist}
-                onChange={(e) => {
-                  setArtist(e.target.value);
-                  setSelectedEvent(null);
-                }}
-              >
-                <option value="all">All artists</option>
-                {artists.map((item) => (
-                  <option key={item.id} value={item.id}>
-                    {item.name}
-                  </option>
-                ))}
-              </select>
-            </label>
-            <label className="toggle-field">
-              <input
-                type="checkbox"
-                checked={showBeijing}
-                onChange={(e) => setShowBeijing(e.target.checked)}
-              />
-              <span>显示北京时间</span>
-            </label>
-          </div>
+          {showDemo && (
+            <div className="calendar-filter-row">
+              <label className="select-field">
+                <span>Artist</span>
+                <select
+                  value={artist}
+                  onChange={(e) => {
+                    setArtist(e.target.value);
+                    setSelectedEvent(null);
+                  }}
+                >
+                  <option value="all">All artists</option>
+                  {artists.map((item) => (
+                    <option key={item.id} value={item.id}>
+                      {item.name}
+                    </option>
+                  ))}
+                </select>
+              </label>
+              <label className="toggle-field">
+                <input
+                  type="checkbox"
+                  checked={showBeijing}
+                  onChange={(e) => setShowBeijing(e.target.checked)}
+                />
+                <span>显示北京时间</span>
+              </label>
+            </div>
+          )}
           <div className="calendar-grid">
             {weekdays.map((day) => (
               <div className="weekday" key={day}>
@@ -140,7 +172,7 @@ export function CalendarPage() {
                   key={key}
                   className={`calendar-day ${selected === key ? "selected" : ""} ${dayEvents.length ? "has-event" : ""}`}
                   onClick={() => chooseDate(key)}
-                  aria-label={`${key}，${dayEvents.length} 个演示活动`}
+                  aria-label={`${key}，${showDemo ? `${dayEvents.length} 个虚构演示活动` : "官方日程未接入"}`}
                   aria-pressed={selected === key}
                 >
                   <span>{format(day, "d")}</span>
@@ -156,26 +188,32 @@ export function CalendarPage() {
               );
             })}
           </div>
-          <div className="calendar-legend">
-            <span>
-              <i className="dot-release" /> Release
-            </span>
-            <span>
-              <i className="dot-live" /> Live
-            </span>
-            <span>
-              <i className="dot-fan-event" /> Fan Event
-            </span>
-          </div>
+          {showDemo && (
+            <div className="calendar-legend">
+              <span>
+                <i className="dot-release" /> Release
+              </span>
+              <span>
+                <i className="dot-live" /> Live
+              </span>
+              <span>
+                <i className="dot-fan-event" /> Fan Event
+              </span>
+            </div>
+          )}
         </section>
         <aside className="event-panel">
           <div className="event-panel-head">
-            <p className="eyebrow">ON YOUR CALENDAR</p>
+            <p className="eyebrow">
+              {showDemo ? "虚构演示 · 非真实日程" : "未接入官方日程"}
+            </p>
             <h2>{selected}</h2>
             <p>
-              {selectedEvents.length
-                ? `${selectedEvents.length} 个演示活动`
-                : "这一天暂无演示活动"}
+              {showDemo
+                ? selectedEvents.length
+                  ? `${selectedEvents.length} 个虚构演示活动`
+                  : "这一天没有演示样例"
+                : "尚无已核实的活动记录"}
             </p>
           </div>
           <div className="event-list">
@@ -189,7 +227,7 @@ export function CalendarPage() {
                 <span
                   className={`event-type dot-${event.type.toLowerCase().replace(" ", "-")}`}
                 >
-                  {event.type}
+                  虚构演示 · {event.type}
                 </span>
                 <strong>{event.title}</strong>
                 <small>{artistById(event.artistId)?.name}</small>
@@ -197,12 +235,16 @@ export function CalendarPage() {
             ))}
             {!selectedEvents.length && (
               <div className="event-empty">
-                选择带有彩色圆点的日期查看活动。
+                {showDemo
+                  ? "选择带有彩色圆点的日期查看虚构样例。"
+                  : "官方日程尚未接入，不能据此判断这一天是否有活动。"}
               </div>
             )}
           </div>
           <div className="upcoming">
-            <p className="eyebrow">THIS MONTH</p>
+            <p className="eyebrow">
+              {showDemo ? "本月虚构演示样例" : "本月已核实日程"}
+            </p>
             {monthEvents.length ? (
               monthEvents.map((event) => (
                 <button
@@ -214,11 +256,16 @@ export function CalendarPage() {
                   }}
                 >
                   <span>{kstDate(event.startsAt).slice(8)}</span>
-                  {artistById(event.artistId)?.name} <small>{event.type}</small>
+                  {artistById(event.artistId)?.name}{" "}
+                  <small>虚构 · {event.type}</small>
                 </button>
               ))
             ) : (
-              <p className="muted">本月暂无演示活动。</p>
+              <p className="muted">
+                {showDemo
+                  ? "本月没有虚构演示样例。"
+                  : "尚未收录官方日程；不代表本月没有活动。"}
+              </p>
             )}
           </div>
         </aside>

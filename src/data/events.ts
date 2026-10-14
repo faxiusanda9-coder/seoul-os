@@ -1,13 +1,14 @@
 import type { CalendarEvent } from "../types";
 
-// Fictional calendar fixtures. Every event is visibly marked as demo content.
+// Fictional calendar fixtures in a deliberately distant year. They are never
+// shown by default and must not be presented as real artist schedules.
 export const events: CalendarEvent[] = [
   {
     id: "e1",
     artistId: "twice",
     title: "演示 · 音乐影像上线",
     type: "Release",
-    startsAt: "2026-10-14T18:00:00+09:00",
+    startsAt: "2099-05-14T18:00:00+09:00",
     timeZone: "Asia/Seoul",
     note: "用于演示日期选择和时区展示；不是实际发行公告。",
   },
@@ -16,7 +17,7 @@ export const events: CalendarEvent[] = [
     artistId: "stray-kids",
     title: "演示 · 线上直播",
     type: "Live",
-    startsAt: "2026-10-18T20:00:00+09:00",
+    startsAt: "2099-05-18T20:00:00+09:00",
     timeZone: "Asia/Seoul",
     note: "用于演示活动详情；不是实际直播安排。",
   },
@@ -25,7 +26,7 @@ export const events: CalendarEvent[] = [
     artistId: "day6",
     title: "演示 · 粉丝活动",
     type: "Fan Event",
-    startsAt: "2026-10-23T19:30:00+09:00",
+    startsAt: "2099-05-23T19:30:00+09:00",
     timeZone: "Asia/Seoul",
     note: "用于演示活动类型；不是实际粉丝活动。",
   },
@@ -34,7 +35,7 @@ export const events: CalendarEvent[] = [
     artistId: "nmixx",
     title: "演示 · 作品收录日",
     type: "Release",
-    startsAt: "2026-11-06T18:00:00+09:00",
+    startsAt: "2099-06-06T18:00:00+09:00",
     timeZone: "Asia/Seoul",
     note: "用于演示跨月浏览；不是实际发行公告。",
   },
@@ -43,7 +44,7 @@ export const events: CalendarEvent[] = [
     artistId: "itzy",
     title: "演示 · 舞台直播",
     type: "Live",
-    startsAt: "2026-11-15T19:00:00+09:00",
+    startsAt: "2099-06-15T19:00:00+09:00",
     timeZone: "Asia/Seoul",
     note: "用于演示跨月浏览；不是实际直播安排。",
   },
@@ -52,7 +53,7 @@ export const events: CalendarEvent[] = [
     artistId: "nexz",
     title: "演示 · 见面活动",
     type: "Fan Event",
-    startsAt: "2026-09-26T17:00:00+09:00",
+    startsAt: "2099-04-26T17:00:00+09:00",
     timeZone: "Asia/Seoul",
     note: "用于演示跨月浏览；不是实际活动安排。",
   },

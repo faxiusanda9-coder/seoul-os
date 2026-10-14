@@ -996,15 +996,46 @@ main {
 .feed-card--compact p {
   font-size: 10px;
 }
-.demo-notice {
-  border-left: 3px solid #91ad9a;
+.calendar-status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border: 1px solid #d7e3d6;
   background: #eef2ed;
-  padding: 15px 18px;
-  font-size: 12px;
-  color: #526857;
+  padding: 19px 22px;
   margin-top: -32px;
   margin-bottom: 32px;
+}
+.calendar-status strong {
+  display: block;
+  color: #334c39;
+  font-size: 14px;
+}
+.calendar-status p {
+  color: #526857;
+  font-size: 12px;
   line-height: 1.6;
+  margin: 5px 0 0;
+}
+.calendar-demo-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  min-height: 44px;
+  padding: 8px 12px;
+  border: 1px solid #b8cdbb;
+  background: #fff;
+  color: #334c39;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  flex: none;
+}
+.calendar-demo-switch input {
+  width: 17px;
+  height: 17px;
+  accent-color: #5f8666;
 }
 .calendar-layout {
   display: grid;
@@ -1936,6 +1967,15 @@ main {
   .calendar-panel,
   .event-panel {
     padding: 18px;
+  }
+  .calendar-status {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 13px;
+    padding: 17px;
+  }
+  .calendar-demo-switch {
+    width: 100%;
   }
   .calendar-toolbar h2 {
     font-size: 30px;

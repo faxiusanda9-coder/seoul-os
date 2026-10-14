@@ -69,7 +69,7 @@ public/         original concept hero image
 
 ## Content and imagery
 
-- Feed and calendar entries are **fictional demo scenarios**. They have no real publication timestamp or event claim. The external icon opens JYP Entertainment's official YouTube channel, not a matching video.
+- Feed entries are **fictional demo scenarios** with no real publication timestamp. Calendar defaults to no events because official schedules have not been verified or connected; an empty day does not mean an artist has no activity. Fictional calendar fixtures are isolated in 2099 and only appear after the user explicitly enables the demo switch. The external feed icon opens JYP Entertainment's official YouTube channel, not a matching video.
 - Artist artworks are CSS-created, non-official visual interpretations. Their colors and typography reference different musical moods without copying album covers. The hero is an AI-generated anonymous concept photo, not an image of JYP artists.
 - The hero generation method and final prompt are recorded in [ASSET_PROVENANCE.md](ASSET_PROVENANCE.md).
 - The Universe milestones are limited to official-source-confirmed release facts: [TWICE](https://twice.jype.com/discography/jqpvqq2k?AmSeq=undefined&PgIndex=undefined), [Stray Kids](https://straykids.jype.com/discography/vuykzg89), [ITZY](https://itzy.jype.com/notice?PgIndex=161), and [NMIXX](https://nmixx.jype.com/discography/514qe3en?AmSeq=undefined&PgIndex=undefined).
