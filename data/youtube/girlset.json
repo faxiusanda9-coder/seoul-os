@@ -1,0 +1,1110 @@
+{
+  "schemaVersion": 1,
+  "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+  "uploadsPlaylistId": "UUSskmnvIhEy3nSZxxVKTeIg",
+  "artistId": "girlset",
+  "syncStatus": "ok",
+  "fetchedAt": "2026-10-14T13:26:14.506Z",
+  "items": [
+    {
+      "id": "yt-mP1nfeDPgew",
+      "source": {
+        "platform": "youtube",
+        "videoId": "mP1nfeDPgew",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "go play #GIRLSET #Lexi",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/mP1nfeDPgew/mqdefault.jpg",
+      "publishedAt": "2026-10-12T16:04:04.000Z",
+      "url": "https://www.youtube.com/watch?v=mP1nfeDPgew",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-JJ-np8FZ8X0",
+      "source": {
+        "platform": "youtube",
+        "videoId": "JJ-np8FZ8X0",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "“CHAT” asks us anything out now #GIRLSET #CHAT",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/JJ-np8FZ8X0/mqdefault.jpg",
+      "publishedAt": "2026-10-06T16:08:53.000Z",
+      "url": "https://www.youtube.com/watch?v=JJ-np8FZ8X0",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-gBq5T6dBp3Q",
+      "source": {
+        "platform": "youtube",
+        "videoId": "gBq5T6dBp3Q",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "GIRLSET \"CHAT\" Asks Us Anything",
+      "description": "GIRLSET \"CHAT\" Spotify: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official Website: https://girlset.com\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://www.twitter.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/",
+      "thumbnail": "https://i.ytimg.com/vi/gBq5T6dBp3Q/mqdefault.jpg",
+      "publishedAt": "2026-10-06T15:59:50.000Z",
+      "url": "https://www.youtube.com/watch?v=gBq5T6dBp3Q",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-msnaEYLX4fU",
+      "source": {
+        "platform": "youtube",
+        "videoId": "msnaEYLX4fU",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "hope you’re satisfied #GIRLSET #Kendall #Savanna",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/msnaEYLX4fU/mqdefault.jpg",
+      "publishedAt": "2026-10-01T16:05:29.000Z",
+      "url": "https://www.youtube.com/watch?v=msnaEYLX4fU",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-Qzdl4O077lo",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Qzdl4O077lo",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "yappy ver. visualizer out now, with a hint of what’s coming this halloween 👀📞 #GIRLSET #CHAT",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/Qzdl4O077lo/mqdefault.jpg",
+      "publishedAt": "2026-09-19T16:09:56.000Z",
+      "url": "https://www.youtube.com/watch?v=Qzdl4O077lo",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-tEi_FdyAWxw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "tEi_FdyAWxw",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "GIRLSET \"CHAT\" Visualizer (Yappy Ver.)",
+      "description": "GIRLSET \"CHAT\" Spotify: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official Website: https://girlset.com\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://www.twitter.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/",
+      "thumbnail": "https://i.ytimg.com/vi/tEi_FdyAWxw/mqdefault.jpg",
+      "publishedAt": "2026-09-19T16:00:42.000Z",
+      "url": "https://www.youtube.com/watch?v=tEi_FdyAWxw",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-EEWoabbiqOU",
+      "source": {
+        "platform": "youtube",
+        "videoId": "EEWoabbiqOU",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "just wanna stay this time ꕤ @ArianaGrande #GIRLSET",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/EEWoabbiqOU/mqdefault.jpg",
+      "publishedAt": "2026-09-18T16:08:38.000Z",
+      "url": "https://www.youtube.com/watch?v=EEWoabbiqOU",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-oIXgHm1OVG4",
+      "source": {
+        "platform": "youtube",
+        "videoId": "oIXgHm1OVG4",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "“CHAT” U.S. promotion out now #GIRLSET #CHAT",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/oIXgHm1OVG4/mqdefault.jpg",
+      "publishedAt": "2026-09-16T01:10:12.000Z",
+      "url": "https://www.youtube.com/watch?v=oIXgHm1OVG4",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-QplqNBL6KKI",
+      "source": {
+        "platform": "youtube",
+        "videoId": "QplqNBL6KKI",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "GIRLSET \"CHAT\" U.S. Promotion",
+      "description": "GIRLSET \"CHAT\" Spotify: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official Website: https://girlset.com\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://www.twitter.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/",
+      "thumbnail": "https://i.ytimg.com/vi/QplqNBL6KKI/mqdefault.jpg",
+      "publishedAt": "2026-09-16T01:00:14.000Z",
+      "url": "https://www.youtube.com/watch?v=QplqNBL6KKI",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-W5n3giqt_AI",
+      "source": {
+        "platform": "youtube",
+        "videoId": "W5n3giqt_AI",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "CHAT x BOAT #GIRLSET #Savanna #CHAT",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/W5n3giqt_AI/mqdefault.jpg",
+      "publishedAt": "2026-09-08T17:16:35.000Z",
+      "url": "https://www.youtube.com/watch?v=W5n3giqt_AI",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-pSZqjn6STyI",
+      "source": {
+        "platform": "youtube",
+        "videoId": "pSZqjn6STyI",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "girls like me pretend 🤭 @thuy #GIRLSET #Kendall",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/pSZqjn6STyI/mqdefault.jpg",
+      "publishedAt": "2026-09-05T19:02:31.000Z",
+      "url": "https://www.youtube.com/watch?v=pSZqjn6STyI",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-2v8T7u6Xvd4",
+      "source": {
+        "platform": "youtube",
+        "videoId": "2v8T7u6Xvd4",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "BASS BOOSTTT #GIRLSET #Lexi #CHAT",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/2v8T7u6Xvd4/mqdefault.jpg",
+      "publishedAt": "2026-09-02T16:10:32.000Z",
+      "url": "https://www.youtube.com/watch?v=2v8T7u6Xvd4",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-n-4pjZzv1Gk",
+      "source": {
+        "platform": "youtube",
+        "videoId": "n-4pjZzv1Gk",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "hey mr. nonchalant #GIRLSET #Savanna",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/n-4pjZzv1Gk/mqdefault.jpg",
+      "publishedAt": "2026-08-31T16:07:30.000Z",
+      "url": "https://www.youtube.com/watch?v=n-4pjZzv1Gk",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-CJ-WaZ2ee3U",
+      "source": {
+        "platform": "youtube",
+        "videoId": "CJ-WaZ2ee3U",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "@LizaSoberanoOfficial’s in the chatt 💓💓 #GIRLSET #CHAT",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/CJ-WaZ2ee3U/mqdefault.jpg",
+      "publishedAt": "2026-08-30T01:06:46.000Z",
+      "url": "https://www.youtube.com/watch?v=CJ-WaZ2ee3U",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-1jzWbjorRhY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "1jzWbjorRhY",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "happy one year of GIRLSET! #GIRLSET #GIRLSET1stAnniversary",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/1jzWbjorRhY/mqdefault.jpg",
+      "publishedAt": "2026-08-29T16:08:22.000Z",
+      "url": "https://www.youtube.com/watch?v=1jzWbjorRhY",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-sL50vOx_zKY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "sL50vOx_zKY",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "Happy 1-Year of GIRLSET",
+      "description": "GIRLSET \"CHAT\" Spotify: https://girlset.lnk.to/CHAT/spotify\n\nGIRLSET Official Website: https://girlset.com\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://www.twitter.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/",
+      "thumbnail": "https://i.ytimg.com/vi/sL50vOx_zKY/mqdefault.jpg",
+      "publishedAt": "2026-08-29T02:48:35.000Z",
+      "url": "https://www.youtube.com/watch?v=sL50vOx_zKY",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-ndmejbsgGYs",
+      "source": {
+        "platform": "youtube",
+        "videoId": "ndmejbsgGYs",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "been in the chat all night #GIRLSET #CHAT",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/ndmejbsgGYs/mqdefault.jpg",
+      "publishedAt": "2026-08-28T16:04:04.000Z",
+      "url": "https://www.youtube.com/watch?v=ndmejbsgGYs",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-QB9vVY73_Hg",
+      "source": {
+        "platform": "youtube",
+        "videoId": "QB9vVY73_Hg",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "watch our “CHAT” song breakdown out now on youtube #GIRLSET #CHAT",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/QB9vVY73_Hg/mqdefault.jpg",
+      "publishedAt": "2026-08-28T02:08:41.000Z",
+      "url": "https://www.youtube.com/watch?v=QB9vVY73_Hg",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-1cWOM4cihKU",
+      "source": {
+        "platform": "youtube",
+        "videoId": "1cWOM4cihKU",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "GIRLSET \"CHAT\" Song Breakdown",
+      "description": "GIRLSET \"CHAT\" Spotify: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official Website: https://girlset.com\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://www.twitter.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/",
+      "thumbnail": "https://i.ytimg.com/vi/1cWOM4cihKU/mqdefault.jpg",
+      "publishedAt": "2026-08-28T02:00:00.000Z",
+      "url": "https://www.youtube.com/watch?v=1cWOM4cihKU",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-KuJzqLEEP-w",
+      "source": {
+        "platform": "youtube",
+        "videoId": "KuJzqLEEP-w",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "who’s that girl? #GIRLSET #Camila #Savanna",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/KuJzqLEEP-w/mqdefault.jpg",
+      "publishedAt": "2026-08-27T18:34:57.000Z",
+      "url": "https://www.youtube.com/watch?v=KuJzqLEEP-w",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-z5mj8vCCACs",
+      "source": {
+        "platform": "youtube",
+        "videoId": "z5mj8vCCACs",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "kept my promise about doing this trend😌 ib: jocelynmeiere #GIRLSET #Lexi",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/z5mj8vCCACs/mqdefault.jpg",
+      "publishedAt": "2026-08-26T22:38:17.000Z",
+      "url": "https://www.youtube.com/watch?v=z5mj8vCCACs",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-4FOUNmOvV7M",
+      "source": {
+        "platform": "youtube",
+        "videoId": "4FOUNmOvV7M",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "wouldve been better 4 years ago #GIRLSET #Savanna",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/4FOUNmOvV7M/mqdefault.jpg",
+      "publishedAt": "2026-08-26T16:42:48.000Z",
+      "url": "https://www.youtube.com/watch?v=4FOUNmOvV7M",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-XbLpdu1aBws",
+      "source": {
+        "platform": "youtube",
+        "videoId": "XbLpdu1aBws",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "had to throw on the shoes 🩰 for @ADÉLAJERGOVÁ #GIRLSET #Kendall #Lexi",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/XbLpdu1aBws/mqdefault.jpg",
+      "publishedAt": "2026-08-25T22:39:34.000Z",
+      "url": "https://www.youtube.com/watch?v=XbLpdu1aBws",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-NZ8Ur_3HYnU",
+      "source": {
+        "platform": "youtube",
+        "videoId": "NZ8Ur_3HYnU",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "how it looks vs. how it feels #GIRLSET #Lexi #Savanna #CHAT",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/NZ8Ur_3HYnU/mqdefault.jpg",
+      "publishedAt": "2026-08-25T17:07:13.000Z",
+      "url": "https://www.youtube.com/watch?v=NZ8Ur_3HYnU",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-1X0Eb74S-24",
+      "source": {
+        "platform": "youtube",
+        "videoId": "1X0Eb74S-24",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "i could be the one #GIRLSET #Savanna",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/1X0Eb74S-24/mqdefault.jpg",
+      "publishedAt": "2026-08-24T17:11:01.000Z",
+      "url": "https://www.youtube.com/watch?v=1X0Eb74S-24",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-_WVisoVA2YU",
+      "source": {
+        "platform": "youtube",
+        "videoId": "_WVisoVA2YU",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "had to throw it back for this one #GIRLSET #CHAT",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/_WVisoVA2YU/mqdefault.jpg",
+      "publishedAt": "2026-08-23T19:35:45.000Z",
+      "url": "https://www.youtube.com/watch?v=_WVisoVA2YU",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-nFhVsbPjhzY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "nFhVsbPjhzY",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "“CHAT” in korea part 3 out now #GIRLSET #CHAT",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/nFhVsbPjhzY/mqdefault.jpg",
+      "publishedAt": "2026-08-23T17:18:44.000Z",
+      "url": "https://www.youtube.com/watch?v=nFhVsbPjhzY",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-NVKAYI3XIhA",
+      "source": {
+        "platform": "youtube",
+        "videoId": "NVKAYI3XIhA",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "GIRLSET \"CHAT\" in Korea Part 3",
+      "description": "GIRLSET \"CHAT\" Spotify: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official Website: https://girlset.com\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://www.twitter.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/",
+      "thumbnail": "https://i.ytimg.com/vi/NVKAYI3XIhA/mqdefault.jpg",
+      "publishedAt": "2026-08-23T17:00:30.000Z",
+      "url": "https://www.youtube.com/watch?v=NVKAYI3XIhA",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-59xLkShc-jo",
+      "source": {
+        "platform": "youtube",
+        "videoId": "59xLkShc-jo",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "if i left the chat would you miss me? #GIRLSET #Lexi",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/59xLkShc-jo/mqdefault.jpg",
+      "publishedAt": "2026-08-22T16:13:12.000Z",
+      "url": "https://www.youtube.com/watch?v=59xLkShc-jo",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-cCWFr4BjNeU",
+      "source": {
+        "platform": "youtube",
+        "videoId": "cCWFr4BjNeU",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "dame más gasolina #GIRLSET #Camila",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/cCWFr4BjNeU/mqdefault.jpg",
+      "publishedAt": "2026-08-21T20:08:24.000Z",
+      "url": "https://www.youtube.com/watch?v=cCWFr4BjNeU",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-tsjRmKkCJis",
+      "source": {
+        "platform": "youtube",
+        "videoId": "tsjRmKkCJis",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "“CHAT” in korea part 2 out now #GIRLSET #CHAT",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/tsjRmKkCJis/mqdefault.jpg",
+      "publishedAt": "2026-08-21T16:11:56.000Z",
+      "url": "https://www.youtube.com/watch?v=tsjRmKkCJis",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-7__A-_HHxks",
+      "source": {
+        "platform": "youtube",
+        "videoId": "7__A-_HHxks",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "GIRLSET \"CHAT\" in Korea Part 2",
+      "description": "GIRLSET \"CHAT\" Spotify: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official Website: https://girlset.com\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://www.twitter.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/",
+      "thumbnail": "https://i.ytimg.com/vi/7__A-_HHxks/mqdefault.jpg",
+      "publishedAt": "2026-08-21T16:00:38.000Z",
+      "url": "https://www.youtube.com/watch?v=7__A-_HHxks",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-o8rds0As6VE",
+      "source": {
+        "platform": "youtube",
+        "videoId": "o8rds0As6VE",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "the baddest bitches are in… 🗺️🩷 #GIRLSET",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/o8rds0As6VE/mqdefault.jpg",
+      "publishedAt": "2026-08-20T21:05:19.000Z",
+      "url": "https://www.youtube.com/watch?v=o8rds0As6VE",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-NnI1v9RPP2c",
+      "source": {
+        "platform": "youtube",
+        "videoId": "NnI1v9RPP2c",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "CHAT got us moving like a metronome @izna_offcl #GIRLSET #izna #BANGJEEMIN #CHAT",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/NnI1v9RPP2c/mqdefault.jpg",
+      "publishedAt": "2026-08-20T00:07:00.000Z",
+      "url": "https://www.youtube.com/watch?v=NnI1v9RPP2c",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-3f5gXlIBpX8",
+      "source": {
+        "platform": "youtube",
+        "videoId": "3f5gXlIBpX8",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "“CHAT” in korea part 1 out now #GIRLSET #CHAT",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/3f5gXlIBpX8/mqdefault.jpg",
+      "publishedAt": "2026-08-19T17:06:34.000Z",
+      "url": "https://www.youtube.com/watch?v=3f5gXlIBpX8",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-Lb5AweFW6G4",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Lb5AweFW6G4",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "GIRLSET \"CHAT\" in Korea Part 1",
+      "description": "GIRLSET \"CHAT\" Spotify: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official Website: https://girlset.com\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://www.twitter.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/",
+      "thumbnail": "https://i.ytimg.com/vi/Lb5AweFW6G4/mqdefault.jpg",
+      "publishedAt": "2026-08-19T17:00:17.000Z",
+      "url": "https://www.youtube.com/watch?v=Lb5AweFW6G4",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-HFl8QaMLk4U",
+      "source": {
+        "platform": "youtube",
+        "videoId": "HFl8QaMLk4U",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "@kickflip_jype got the spot so litty #GIRLSET #KickFlip #Donghwa #CHAT",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/HFl8QaMLk4U/mqdefault.jpg",
+      "publishedAt": "2026-08-19T00:05:59.000Z",
+      "url": "https://www.youtube.com/watch?v=HFl8QaMLk4U",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-k-pliYTkz8A",
+      "source": {
+        "platform": "youtube",
+        "videoId": "k-pliYTkz8A",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "saucin’ it up in the chat with @NEXZ_official #GIRLSET #NEXZ #YU #HARU #CHAT",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/k-pliYTkz8A/mqdefault.jpg",
+      "publishedAt": "2026-08-18T02:04:24.000Z",
+      "url": "https://www.youtube.com/watch?v=k-pliYTkz8A",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-Gg9Vx49FmyQ",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Gg9Vx49FmyQ",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "bad gyals coming through to the valleyyy @kyliecantrall #GIRLSET #CHAT",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/Gg9Vx49FmyQ/mqdefault.jpg",
+      "publishedAt": "2026-08-16T20:36:32.000Z",
+      "url": "https://www.youtube.com/watch?v=Gg9Vx49FmyQ",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-P-4SXO6GYYY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "P-4SXO6GYYY",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "time to clean out our closets @kyliecantrall",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/P-4SXO6GYYY/mqdefault.jpg",
+      "publishedAt": "2026-08-16T16:09:59.000Z",
+      "url": "https://www.youtube.com/watch?v=P-4SXO6GYYY",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-mo7GscxH_hw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "mo7GscxH_hw",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "same audio different baddie #GIRLSET #Lexi #CHAT",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/mo7GscxH_hw/mqdefault.jpg",
+      "publishedAt": "2026-08-15T18:00:28.000Z",
+      "url": "https://www.youtube.com/watch?v=mo7GscxH_hw",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-waEzX2cR5OU",
+      "source": {
+        "platform": "youtube",
+        "videoId": "waEzX2cR5OU",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "⋆˙⟡ from era to era ⋆˙⟡ #GIRLSET #CHAT",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/waEzX2cR5OU/mqdefault.jpg",
+      "publishedAt": "2026-08-15T16:16:56.000Z",
+      "url": "https://www.youtube.com/watch?v=waEzX2cR5OU",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt--VDazxydALk",
+      "source": {
+        "platform": "youtube",
+        "videoId": "-VDazxydALk",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "when lexi’s in the CHAT #GIRLSET #Lexi #CHAT",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/-VDazxydALk/mqdefault.jpg",
+      "publishedAt": "2026-08-14T16:36:13.000Z",
+      "url": "https://www.youtube.com/watch?v=-VDazxydALk",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-6IfE5hoJEOE",
+      "source": {
+        "platform": "youtube",
+        "videoId": "6IfE5hoJEOE",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "loveddd this look #GIRLSET #Savanna #CHAT",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/6IfE5hoJEOE/mqdefault.jpg",
+      "publishedAt": "2026-08-13T16:36:16.000Z",
+      "url": "https://www.youtube.com/watch?v=6IfE5hoJEOE",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-zFdoj8tNMyA",
+      "source": {
+        "platform": "youtube",
+        "videoId": "zFdoj8tNMyA",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "when camila’s in the CHAT #GIRLSET #Camila #CHAT",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/zFdoj8tNMyA/mqdefault.jpg",
+      "publishedAt": "2026-08-12T16:05:57.000Z",
+      "url": "https://www.youtube.com/watch?v=zFdoj8tNMyA",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-Cz98xcoyIQY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Cz98xcoyIQY",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "eyes on me #GIRLSET #CHAT",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/Cz98xcoyIQY/mqdefault.jpg",
+      "publishedAt": "2026-08-11T19:40:08.000Z",
+      "url": "https://www.youtube.com/watch?v=Cz98xcoyIQY",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-vZAsZgdVVyk",
+      "source": {
+        "platform": "youtube",
+        "videoId": "vZAsZgdVVyk",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "“CHAT” lyric video (fan made) out now #GIRLSET #CHAT",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/vZAsZgdVVyk/mqdefault.jpg",
+      "publishedAt": "2026-08-11T16:16:25.000Z",
+      "url": "https://www.youtube.com/watch?v=vZAsZgdVVyk",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-fCdXPaAle8g",
+      "source": {
+        "platform": "youtube",
+        "videoId": "fCdXPaAle8g",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "GIRLSET \"CHAT\" Lyric Video (Fan Made)",
+      "description": "GIRLSET \"CHAT\" Spotify: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official Website: https://girlset.com\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://www.twitter.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/",
+      "thumbnail": "https://i.ytimg.com/vi/fCdXPaAle8g/mqdefault.jpg",
+      "publishedAt": "2026-08-11T16:00:39.000Z",
+      "url": "https://www.youtube.com/watch?v=fCdXPaAle8g",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-LSpRuctWObs",
+      "source": {
+        "platform": "youtube",
+        "videoId": "LSpRuctWObs",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "when savanna’s in the CHAT #GIRLSET #Savanna #CHAT",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/LSpRuctWObs/mqdefault.jpg",
+      "publishedAt": "2026-08-10T16:01:58.000Z",
+      "url": "https://www.youtube.com/watch?v=LSpRuctWObs",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-DWBTAIuD-Wo",
+      "source": {
+        "platform": "youtube",
+        "videoId": "DWBTAIuD-Wo",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "when kendall’s in the CHAT #GIRLSET #Kendall #CHAT",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/DWBTAIuD-Wo/mqdefault.jpg",
+      "publishedAt": "2026-08-09T16:16:15.000Z",
+      "url": "https://www.youtube.com/watch?v=DWBTAIuD-Wo",
+      "fetchedAt": "2026-10-14T13:26:14.506Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:14.506Z",
+      "type": "other"
+    }
+  ]
+}

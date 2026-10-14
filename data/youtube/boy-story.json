@@ -1,0 +1,1110 @@
+{
+  "schemaVersion": 1,
+  "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+  "uploadsPlaylistId": "UUZlgP_2MRnrPXRmqR5320BQ",
+  "artistId": "boy-story",
+  "syncStatus": "ok",
+  "fetchedAt": "2026-10-14T13:26:13.398Z",
+  "items": [
+    {
+      "id": "yt-KidzbwMSlVM",
+      "source": {
+        "platform": "youtube",
+        "videoId": "KidzbwMSlVM",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "Happy birthday! 🎉🎂 스무 살의 밍루이 여전히 눈부시게 빛나는 중 ✨#BOYSTORY #明睿 #MINGRUI #밍루이",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/KidzbwMSlVM/mqdefault.jpg",
+      "publishedAt": "2026-08-28T10:00:02.000Z",
+      "url": "https://www.youtube.com/watch?v=KidzbwMSlVM",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-rWJzcsElLW8",
+      "source": {
+        "platform": "youtube",
+        "videoId": "rWJzcsElLW8",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "MINGRUI Chengdu One‑Day Store Manager VLOG｜Experienced Chengdu teahouse culture🍵",
+      "description": "Welcome to Chengdu! 🤟🏻😎\n\nWhat do college guys do during summer vacation｜Chengdu Episode📍\n\nTime for some cultural immersion 📖🍵\nExperienced teahouse culture and tried the long‑spout teapot tea art.Got myself an intangible cultural heritage skill! Might come in handy for my su",
+      "thumbnail": "https://i.ytimg.com/vi/rWJzcsElLW8/mqdefault.jpg",
+      "publishedAt": "2026-08-27T10:00:14.000Z",
+      "url": "https://www.youtube.com/watch?v=rWJzcsElLW8",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-BJn9UsCvnZQ",
+      "source": {
+        "platform": "youtube",
+        "videoId": "BJn9UsCvnZQ",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "같이 불고기 먹으러 갈까?! #BOYSTORY #明睿 #MINGRUI #밍루이",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/BJn9UsCvnZQ/mqdefault.jpg",
+      "publishedAt": "2026-08-18T10:00:05.000Z",
+      "url": "https://www.youtube.com/watch?v=BJn9UsCvnZQ",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-PJHfeYRRmDY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "PJHfeYRRmDY",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "밍나디 대꼬갈 사람, 손!🤔💡#BOYSTORY #明睿 #MINGRUI #밍루이",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/PJHfeYRRmDY/mqdefault.jpg",
+      "publishedAt": "2026-08-07T10:00:16.000Z",
+      "url": "https://www.youtube.com/watch?v=PJHfeYRRmDY",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-PKOg0V3GltM",
+      "source": {
+        "platform": "youtube",
+        "videoId": "PKOg0V3GltM",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "우리가 만든 여름 시나리오🎧🌱#BOYSTORY #明睿 #MINGRUI #밍루이",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/PKOg0V3GltM/mqdefault.jpg",
+      "publishedAt": "2026-07-30T10:00:34.000Z",
+      "url": "https://www.youtube.com/watch?v=PKOg0V3GltM",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-y9iwBY8A-Yk",
+      "source": {
+        "platform": "youtube",
+        "videoId": "y9iwBY8A-Yk",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "귀여운 거 인정하는 인간들 숨 쉬어~ ՞⦁ᴥ⦁՞#BOYSTORY #明睿 #MINGRUI #밍루이",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/y9iwBY8A-Yk/mqdefault.jpg",
+      "publishedAt": "2026-07-24T10:00:28.000Z",
+      "url": "https://www.youtube.com/watch?v=y9iwBY8A-Yk",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-_tVo2rXBkLo",
+      "source": {
+        "platform": "youtube",
+        "videoId": "_tVo2rXBkLo",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "온 김에 도전해보자!!🏍️#BOYSTORY #明睿 #MINGRUI #밍루이",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/_tVo2rXBkLo/mqdefault.jpg",
+      "publishedAt": "2026-07-22T10:00:36.000Z",
+      "url": "https://www.youtube.com/watch?v=_tVo2rXBkLo",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-pAQz2CYGfmc",
+      "source": {
+        "platform": "youtube",
+        "videoId": "pAQz2CYGfmc",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "[KR/EN] MINGRUI Chongqing One-Day Store Manager VLOG | Eating ChuanChuan🍲,Motorbike Experience🏍️😉",
+      "description": "What does a young college guy do during summer break? Chongqing Edition📍\n\nDigging into hotpot and Chuan Chuan🍲, plus the highly anticipated (not really lol) motorcycle challenge experience🏍️💥\n\nEven on the days we couldn't see each other,  MINGRU has been living life to the fu",
+      "thumbnail": "https://i.ytimg.com/vi/pAQz2CYGfmc/mqdefault.jpg",
+      "publishedAt": "2026-07-22T10:00:16.000Z",
+      "url": "https://www.youtube.com/watch?v=pAQz2CYGfmc",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-mr7xOszYHgo",
+      "source": {
+        "platform": "youtube",
+        "videoId": "mr7xOszYHgo",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "#ggez 추는거 보고싶다는 소문이! 여기까지 들리네~#BOYSTORY #明睿 #MINGRUI #밍루이",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/mr7xOszYHgo/mqdefault.jpg",
+      "publishedAt": "2026-07-20T10:00:02.000Z",
+      "url": "https://www.youtube.com/watch?v=mr7xOszYHgo",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-T8_BvSzEzsU",
+      "source": {
+        "platform": "youtube",
+        "videoId": "T8_BvSzEzsU",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "[KR/EN] MINGRUI Shanghai One-Day Store Manager VLOG | Lunch with Special Guest🍴 | A Day Full of Fun!",
+      "description": "#BOYSTORY #밍루이 #MINGRUI #BEHIND\n\n[KR/EN] MINGRUI Shanghai One-Day Store Manager VLOG | Lunch with Special Guest🍴 | A Day Full of Fun!\n\nHad lunch with a special guest at the hotel,\nand the chemistry was so good I couldn’t stop laughing🤣\n\nEveryone at the event was so warm and ene",
+      "thumbnail": "https://i.ytimg.com/vi/T8_BvSzEzsU/mqdefault.jpg",
+      "publishedAt": "2026-05-03T10:00:29.000Z",
+      "url": "https://www.youtube.com/watch?v=T8_BvSzEzsU",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-PwlbDDKzyPY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "PwlbDDKzyPY",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "🐾🐾🐾 #BOSS #BOYSTORY #보이스토리 #MINGRUI #明睿 #밍루이",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/PwlbDDKzyPY/mqdefault.jpg",
+      "publishedAt": "2026-04-26T06:33:30.000Z",
+      "url": "https://www.youtube.com/watch?v=PwlbDDKzyPY",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-NMTHGawr9Lc",
+      "source": {
+        "platform": "youtube",
+        "videoId": "NMTHGawr9Lc",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "[KR/EN] Dance Class with Yejun🔥Joined NAUGHTINESS | DUCKDIVE BIG STAGE",
+      "description": "#BOYSTORY #지아한위 #HANYU #BEHIND\n\n[KR/EN] Dance Class with Yejun🔥Joined NAUGHTINESS | DUCKDIVE BIG STAGE\n\nLong time no see✌\nI had so much fun taking this class with Yejun!!!\n\nIt’s been a while since I saw you all, so it still feels a bit new😸\nbut I’m really happy we got to dance ",
+      "thumbnail": "https://i.ytimg.com/vi/NMTHGawr9Lc/mqdefault.jpg",
+      "publishedAt": "2026-03-28T10:00:04.000Z",
+      "url": "https://www.youtube.com/watch?v=NMTHGawr9Lc",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "performance"
+    },
+    {
+      "id": "yt-QPGGH27dMRE",
+      "source": {
+        "platform": "youtube",
+        "videoId": "QPGGH27dMRE",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "[KR/EN] One-day Store Manager Vlog | 🍲 Trying Lu Cuisine & Sharing My College Life",
+      "description": "#BOYSTORY #밍루이 #MINGRUI #BEHIND\n\n[KR/EN] One-day Store Manager Vlog | 🍲 Trying Lu Cuisine & Sharing My College Life\n\nMINGRUI’s One-Day Store Manager Vlog in Jinan  \nThere are so many people here‼️\nTrying authentic Lu cuisine 🍲 Shandong jianbing with scallions 🫔 Braised pork be",
+      "thumbnail": "https://i.ytimg.com/vi/QPGGH27dMRE/mqdefault.jpg",
+      "publishedAt": "2025-12-27T10:00:44.000Z",
+      "url": "https://www.youtube.com/watch?v=QPGGH27dMRE",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-bEc5qSjcfhQ",
+      "source": {
+        "platform": "youtube",
+        "videoId": "bEc5qSjcfhQ",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "Born to be 🐶🐶 #BOSS #BOYSTORY #MINGRUI #明睿 #밍루이",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/bEc5qSjcfhQ/mqdefault.jpg",
+      "publishedAt": "2025-12-24T12:07:36.000Z",
+      "url": "https://www.youtube.com/watch?v=bEc5qSjcfhQ",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-r65RV-RkHpA",
+      "source": {
+        "platform": "youtube",
+        "videoId": "r65RV-RkHpA",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "[KR/EN] 🎬 HANYU & MINGRUI’s First Acting Experience (Part 2) | We successfully wrapped the shoot👏🎉",
+      "description": "#BOYSTORY #보이스토리\n#HANYU #MINGRUI #한위 #밍루이 #ACTING #BEHIND\n\n[KR/EN] 🎬 HANYU & MINGRUI’s First Acting Experience (Part 2) | We successfully wrapped the shoot👏🎉\n\nFrom showcasing true acting talent to the final wrap, here’s the last behind-the-scenes moment! 🎥🌟\n\nFLO: https://flo",
+      "thumbnail": "https://i.ytimg.com/vi/r65RV-RkHpA/mqdefault.jpg",
+      "publishedAt": "2025-12-01T10:00:11.000Z",
+      "url": "https://www.youtube.com/watch?v=r65RV-RkHpA",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-ddib561-oeo",
+      "source": {
+        "platform": "youtube",
+        "videoId": "ddib561-oeo",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "[KR/EN] 🎬 HANYU & MINGRUI’s First Acting Experience (Part 1) | Script Prep Behind-the-Scenes📒",
+      "description": "#BOYSTORY #보이스토리\n#HANYU #MINGRUI #한위 #밍루이 #ACTING #BEHIND\n\n[KR/EN] 🎬 HANYU & MINGRUI’s First Acting Experience (Part 1) | Script Prep Behind-the-Scenes📒 \n\nHANYU & MINGRUI’s first acting challenge behind the scenes! 🎬✨\nFrom memorizing the script to the tense and exciting atmosp",
+      "thumbnail": "https://i.ytimg.com/vi/ddib561-oeo/mqdefault.jpg",
+      "publishedAt": "2025-11-29T10:01:09.000Z",
+      "url": "https://www.youtube.com/watch?v=ddib561-oeo",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-zBahF4M6ZVM",
+      "source": {
+        "platform": "youtube",
+        "videoId": "zBahF4M6ZVM",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "[KR/EN] One-day Café Manager Vlog | Exploring Guangzhou and enjoying herbal tea🍵",
+      "description": "#BOYSTORY #밍루이 #MINGRUI #BEHIND\n\n[KR/EN] One-day Café Manager Vlog | Exploring Guangzhou’s old town and enjoying herbal tea🍵 \n\nBehind-the-scenes from my one-day café manager event is here in Guangzhou!📷\nI had a wonderful day, and I truly enjoyed sharing it with my fans💫\n\nFLO: ",
+      "thumbnail": "https://i.ytimg.com/vi/zBahF4M6ZVM/mqdefault.jpg",
+      "publishedAt": "2025-11-28T10:01:14.000Z",
+      "url": "https://www.youtube.com/watch?v=zBahF4M6ZVM",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-vHaxJJnLZo0",
+      "source": {
+        "platform": "youtube",
+        "videoId": "vHaxJJnLZo0",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "어! 좋아한다? 아닌데 나는 사랑하는데~ #보이스토리 #BOYSTORY#밍루이 #MINGRUI #明睿",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/vHaxJJnLZo0/mqdefault.jpg",
+      "publishedAt": "2025-11-24T10:01:34.000Z",
+      "url": "https://www.youtube.com/watch?v=vHaxJJnLZo0",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-TXATHsRRo0c",
+      "source": {
+        "platform": "youtube",
+        "videoId": "TXATHsRRo0c",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣ 𝗕𝗮𝗰𝗸 𝗮𝘁 𝗶𝘁 #보이스토리 #BOYSTORY #리즈하오 #즈하오 #梓豪 #ZIHAO",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/TXATHsRRo0c/mqdefault.jpg",
+      "publishedAt": "2025-11-02T09:00:45.000Z",
+      "url": "https://www.youtube.com/watch?v=TXATHsRRo0c",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-6gz_7Fo9sCE",
+      "source": {
+        "platform": "youtube",
+        "videoId": "6gz_7Fo9sCE",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "Our POP-UP is still on🫶 come join us! 💝 #보이스토리 #BOYSTORY #지아한위 #한위 #涵予 #HANYU #리즈하오 #즈하오 #梓豪 #ZIHAO",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/6gz_7Fo9sCE/mqdefault.jpg",
+      "publishedAt": "2025-10-31T15:04:14.000Z",
+      "url": "https://www.youtube.com/watch?v=6gz_7Fo9sCE",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-oniLLYjZDL8",
+      "source": {
+        "platform": "youtube",
+        "videoId": "oniLLYjZDL8",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "[KR/EN] ZIHAO’s Busy Day in Shanghai☕📷| I’ll Miss You💞",
+      "description": "#BOYSTORY #리즈하오 #ZIHAO #BEHIND\n\n[KR/EN] ZIHAO’s Busy Day in Shanghai☕📷| I’ll Miss You💞\n\nBehind-the-scenes from my one-day café manager event is here!\nIt was a long day, but I was so happy to spend it with my new and longtime fans💫\n\nFLO: https://flomuz.io/s/a.C2Wgy\nMelon: https",
+      "thumbnail": "https://i.ytimg.com/vi/oniLLYjZDL8/mqdefault.jpg",
+      "publishedAt": "2025-10-30T10:01:34.000Z",
+      "url": "https://www.youtube.com/watch?v=oniLLYjZDL8",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-cW1POfZUA0w",
+      "source": {
+        "platform": "youtube",
+        "videoId": "cW1POfZUA0w",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "[KR/EN] Unlock ZIHAO’s Behind-the-Scenes Moments🎬",
+      "description": "#BOYSTORY #리즈하오 #ZIHAO #BEHIND\n\n[KR/EN] Unlock ZIHAO’s Behind-the-Scenes Moments🎬\n\nA busy weekend always comes with some fun behind-the-scenes clips! \nLet’s unlock mine now~🌰\n\nFLO: https://flomuz.io/s/a.C2Wgy\nMelon: https://kko.to/0_vioBwJ5q\ngenie: http://genie.co.kr/RR7AL6\nBug",
+      "thumbnail": "https://i.ytimg.com/vi/cW1POfZUA0w/mqdefault.jpg",
+      "publishedAt": "2025-10-28T10:01:10.000Z",
+      "url": "https://www.youtube.com/watch?v=cW1POfZUA0w",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-i2sv4TwH198",
+      "source": {
+        "platform": "youtube",
+        "videoId": "i2sv4TwH198",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "으으응우우우웅~ #보이스토리 #BOYSTORY #리즈하오 #즈하오 #梓豪 #ZIHAO",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/i2sv4TwH198/mqdefault.jpg",
+      "publishedAt": "2025-10-28T09:01:21.000Z",
+      "url": "https://www.youtube.com/watch?v=i2sv4TwH198",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-hFcxpAvHP5Q",
+      "source": {
+        "platform": "youtube",
+        "videoId": "hFcxpAvHP5Q",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "Little Moments🧩 #보이스토리 #BOYSTORY #리즈하오 #즈하오 #梓豪 #ZIHAO #HAPPYZIHAODAY #HappyBirthday",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/hFcxpAvHP5Q/mqdefault.jpg",
+      "publishedAt": "2025-10-23T10:01:19.000Z",
+      "url": "https://www.youtube.com/watch?v=hFcxpAvHP5Q",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-JbrWYHEG7K4",
+      "source": {
+        "platform": "youtube",
+        "videoId": "JbrWYHEG7K4",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "𝑴𝒂𝒌𝒆 𝒂 𝒘𝒊𝒔𝒉 𝒇𝒐𝒓 𝒚𝒐𝒖, 𝒍𝒐𝒗𝒆 𝒚𝒐𝒖 𝒂𝒍𝒍 💫 #리즈하오 #즈하오 #梓豪 #ZIHAO #HappyBirthday #HappyBirthdayZIHAO",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/JbrWYHEG7K4/mqdefault.jpg",
+      "publishedAt": "2025-10-22T11:00:49.000Z",
+      "url": "https://www.youtube.com/watch?v=JbrWYHEG7K4",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-u3l1HkjQyDE",
+      "source": {
+        "platform": "youtube",
+        "videoId": "u3l1HkjQyDE",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "[KR/EN] ZIHAO’s Birthday Special🎂 Favorite GAME TIME | HAPPY ZIHAO DAY",
+      "description": "#BOYSTORY #ZIHAO #HappyBirthday\n\n[KR/EN] ZIHAO’s Birthday Special🎂 Favorite GAME TIME | HAPPY ZIHAO DAY\n\nThe most relaxing and joyful moments! little memories from the arcade🎮\nHappy 21st Birthday, ZIHAO🤎 Our love for you goes far beyond this day🩷\n\nFLO: https://flomuz.io/s/a.C",
+      "thumbnail": "https://i.ytimg.com/vi/u3l1HkjQyDE/mqdefault.jpg",
+      "publishedAt": "2025-10-22T10:01:36.000Z",
+      "url": "https://www.youtube.com/watch?v=u3l1HkjQyDE",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-gB6FurgVTm4",
+      "source": {
+        "platform": "youtube",
+        "videoId": "gB6FurgVTm4",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "Put your body (#동네스타K쇼 ver.) #보이스토리 #BOYSTORY #리즈하오 #즈하오 #梓豪 #ZIHAO #KStarNextDoorShow",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/gB6FurgVTm4/mqdefault.jpg",
+      "publishedAt": "2025-10-14T11:01:29.000Z",
+      "url": "https://www.youtube.com/watch?v=gB6FurgVTm4",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-yStLJEdTxnI",
+      "source": {
+        "platform": "youtube",
+        "videoId": "yStLJEdTxnI",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "[KR/EN] HANYU’s School VLOG📖| A Day in the Life of a College Student!",
+      "description": "#BOYSTORY #지아한위 #HANYU #VLOG\n\n[KR/EN] HANYU’s School VLOG📖| A Day in the Life of a College Student!\n\nThe long-promised school VLOG is finally here~\nJoin me for a full day as a college student — from 8 AM to 8 PM✍️\n\nFLO: https://flomuz.io/s/a.C2Wgy\nMelon: https://kko.to/0_vioBwJ5",
+      "thumbnail": "https://i.ytimg.com/vi/yStLJEdTxnI/mqdefault.jpg",
+      "publishedAt": "2025-10-13T10:01:37.000Z",
+      "url": "https://www.youtube.com/watch?v=yStLJEdTxnI",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-taO5yWOttNE",
+      "source": {
+        "platform": "youtube",
+        "videoId": "taO5yWOttNE",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "🤙🤙#리즈하오 #즈하오 #梓豪 #ZIHAO #야오천 #姚琛 #YAOCHEN @yaochen_official",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/taO5yWOttNE/mqdefault.jpg",
+      "publishedAt": "2025-10-10T16:26:16.000Z",
+      "url": "https://www.youtube.com/watch?v=taO5yWOttNE",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-6vQLbQhBKmM",
+      "source": {
+        "platform": "youtube",
+        "videoId": "6vQLbQhBKmM",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "𝑳𝒊𝒌𝒆 𝑺𝒖𝒈𝒂𝒓 𝑶𝒏 𝑴𝒚\r\r#보이스토리 #BOYSTORY\r#리즈하오 #즈하오 #梓豪 #ZIHAO",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/6vQLbQhBKmM/mqdefault.jpg",
+      "publishedAt": "2025-10-04T11:00:16.000Z",
+      "url": "https://www.youtube.com/watch?v=6vQLbQhBKmM",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-9_bHIqWpoqY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "9_bHIqWpoqY",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "[KR/EN] ZIHAO BOYS II PLANET❤️‍🔥 BEHIND THE SCENES",
+      "description": "#BOYSTORY #리즈하오 #ZIHAO #BEHIND\n\n[KR/EN] ZIHAO BOYS II PLANET❤️‍🔥 BEHIND THE SCENES\n\nAn unforgettable experience that taught me so much!🌰\nThank you to my new friends and new fans.\nJust like I said: \"This is only the beginning\".🙌\n💤H, welcome to my BOYS II PLANET Behind the Scen",
+      "thumbnail": "https://i.ytimg.com/vi/9_bHIqWpoqY/mqdefault.jpg",
+      "publishedAt": "2025-10-04T10:00:26.000Z",
+      "url": "https://www.youtube.com/watch?v=9_bHIqWpoqY",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-CgDZRS0jubw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "CgDZRS0jubw",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "toma toma🫴 #보이스토리 #BOYSTORY #리즈하오 #즈하오 #梓豪 #ZIHAO",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/CgDZRS0jubw/mqdefault.jpg",
+      "publishedAt": "2025-10-03T11:00:19.000Z",
+      "url": "https://www.youtube.com/watch?v=CgDZRS0jubw",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-Gs_rqcJtbZk",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Gs_rqcJtbZk",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "ocean eyes✨️👀 #보이스토리 #BOYSTORY #리즈하오 #즈하오 #梓豪 #ZIHAO",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/Gs_rqcJtbZk/mqdefault.jpg",
+      "publishedAt": "2025-09-29T06:00:11.000Z",
+      "url": "https://www.youtube.com/watch?v=Gs_rqcJtbZk",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-8mm-baTN_I8",
+      "source": {
+        "platform": "youtube",
+        "videoId": "8mm-baTN_I8",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "딴 데 가지마~ I love you so much🤎 #보이스토리 #BOYSTORY #리즈하오 #즈하오 #梓豪 #ZIHAO",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/8mm-baTN_I8/mqdefault.jpg",
+      "publishedAt": "2025-09-28T10:30:06.000Z",
+      "url": "https://www.youtube.com/watch?v=8mm-baTN_I8",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-gI3HL5UdIiw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "gI3HL5UdIiw",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "GO!! #보이스토리 #BOYSTORY #지아한위 #한위 #涵予 #HANYU",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/gI3HL5UdIiw/mqdefault.jpg",
+      "publishedAt": "2025-09-24T10:30:28.000Z",
+      "url": "https://www.youtube.com/watch?v=gI3HL5UdIiw",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-udWOioJXiJ4",
+      "source": {
+        "platform": "youtube",
+        "videoId": "udWOioJXiJ4",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "还有一个小花絮 谢谢大家的祝福🥰#BOSS #BOYSTORY #MINGRUI #明睿 #HAPPYMINGRUIDAY #HappyBirthday #Behind",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/udWOioJXiJ4/mqdefault.jpg",
+      "publishedAt": "2025-08-29T10:01:42.000Z",
+      "url": "https://www.youtube.com/watch?v=udWOioJXiJ4",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-Sj3yj4QXiVE",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Sj3yj4QXiVE",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "𝙷𝚊𝚙𝚙𝚢 𝙱𝚒𝚛𝚝𝚑𝚍𝚊𝚢 𝚃𝚘 𝙼𝚎！ 𝙷𝚎𝚕𝚕𝚘, 𝟷𝟿 𝚢𝚎𝚊𝚛𝚜 𝚘𝚕𝚍！#BOYSTORY #MINGRUI #明睿 #HAPPYMINGRUIDAY #HappyBirthday",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/Sj3yj4QXiVE/mqdefault.jpg",
+      "publishedAt": "2025-08-28T10:30:54.000Z",
+      "url": "https://www.youtube.com/watch?v=Sj3yj4QXiVE",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-7H9flv7w7IU",
+      "source": {
+        "platform": "youtube",
+        "videoId": "7H9flv7w7IU",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "[EN] MINGRUI’s Birthday Special🎂 Summer Photoshoot🌳| HAPPY MINGRUI DAY",
+      "description": "#BOYSTORY #MINGRUI #HappyBirthday\n\n[EN] MINGRUI’s Birthday Special🎂 Summer Photoshoot🌳| HAPPY MINGRUI DAY\n\nA summer walk in the park this August☀️\nCelebrating my birthday with a photoshoot and welcoming a brand-new world~🌎💫\n\nFLO: https://flomuz.io/s/a.C2Wgy\nMelon: https://kko",
+      "thumbnail": "https://i.ytimg.com/vi/7H9flv7w7IU/mqdefault.jpg",
+      "publishedAt": "2025-08-28T10:00:27.000Z",
+      "url": "https://www.youtube.com/watch?v=7H9flv7w7IU",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-VJYsqIR3gsY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "VJYsqIR3gsY",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "[EN] A Day in the Life of a 19-Year-Old Artist (Born in 2006) 🎤 | MINGRUI | JACK&JONES",
+      "description": "#BOSS #BOYSTORY #MINGRUI #BEHIND\n\n[EN] A Day in the Life of a 19-Year-Old Artist (Born in 2006) 🎤 | MINGRUI | JACK&JONES\n\nA full-day vlog, plus some unexpected food discoveries🍜\nIt was a great trip to Hangzhou✈️\nSee you next time~!\n\nFLO: https://flomuz.io/s/a.C2Wgy\nMelon: https",
+      "thumbnail": "https://i.ytimg.com/vi/VJYsqIR3gsY/mqdefault.jpg",
+      "publishedAt": "2025-07-04T10:00:51.000Z",
+      "url": "https://www.youtube.com/watch?v=VJYsqIR3gsY",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-on4W-Pv_Dhg",
+      "source": {
+        "platform": "youtube",
+        "videoId": "on4W-Pv_Dhg",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "又让我认识到新游戏！体验start！#BOSS #BOYSTORY #MINGRUI #明睿 #BeanBoozled #Challenge",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/on4W-Pv_Dhg/mqdefault.jpg",
+      "publishedAt": "2025-07-01T11:01:27.000Z",
+      "url": "https://www.youtube.com/watch?v=on4W-Pv_Dhg",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-5IWlAf9w8jk",
+      "source": {
+        "platform": "youtube",
+        "videoId": "5IWlAf9w8jk",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "[EN] Hello from MINGRUI | Long Time No See, Let’s Catch Up!",
+      "description": "#BOSS #BOYSTORY #MINGRUI\n\n[EN] Hello from MINGRUI | Long Time No See, Let’s Catch Up!\n\nLong time no see~ I’m sure we have a lot to talk about!\nSo let me go first and share a few things with you🙋\n\nFLO: https://flomuz.io/s/a.C2Wgy\nMelon: https://kko.to/0_vioBwJ5q\ngenie: http://gen",
+      "thumbnail": "https://i.ytimg.com/vi/5IWlAf9w8jk/mqdefault.jpg",
+      "publishedAt": "2025-06-24T12:03:07.000Z",
+      "url": "https://www.youtube.com/watch?v=5IWlAf9w8jk",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-g-U9e0GG7co",
+      "source": {
+        "platform": "youtube",
+        "videoId": "g-U9e0GG7co",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "[KR/EN] BOY STORY ‘Chasing Stars (如果 Part.2)’ | Behind | FAN SONG | Dear BOSS💌",
+      "description": "#BOSS #BOYSTORY #DearBOSS #FromBOYSTORY  \n#TogetherWithBOSS #BOYSTORYForever\n\n[KR/EN] BOY STORY ‘Chasing Stars (如果 Part.2)’ | Behind | FAN SONG | Dear BOSS💌\n\nOur Once-in-a-Lifetime\nThis is the raw framework of ‘Chasing Stars (如果 Part.2)’\nAnd in the folds of its lyrics, we find u",
+      "thumbnail": "https://i.ytimg.com/vi/g-U9e0GG7co/mqdefault.jpg",
+      "publishedAt": "2025-05-05T11:00:59.000Z",
+      "url": "https://www.youtube.com/watch?v=g-U9e0GG7co",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-F8k0blTGz4U",
+      "source": {
+        "platform": "youtube",
+        "videoId": "F8k0blTGz4U",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "[KR/EN] BOY STORY ‘Chasing Stars (如果 Part.2)’ Special Video | Dear BOSS💌",
+      "description": "#BOSS #BOYSTORY #DearBOSS #FromBOYSTORY  \n#TogetherWithBOSS #BOYSTORYForever\n\n[KR/EN] BOY STORY ‘Chasing Stars (如果 Part.2)’ Special Video | Dear BOSS💌\n\n⬇️Soundletter\nhttps://drive.google.com/drive/folders/14xFjeVWEJBNj_cguuHh_Uc9zvpyPO3TH?usp=sharing\n\nWe turned 2,414 sunsets int",
+      "thumbnail": "https://i.ytimg.com/vi/F8k0blTGz4U/mqdefault.jpg",
+      "publishedAt": "2025-05-04T10:00:31.000Z",
+      "url": "https://www.youtube.com/watch?v=F8k0blTGz4U",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-D9v9gsftIJI",
+      "source": {
+        "platform": "youtube",
+        "videoId": "D9v9gsftIJI",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "[KR/EN] Where the Phoenix Flowers Bloom | Our 8th Early Summer | Dear BOSS💌",
+      "description": "#BOSS #BOYSTORY #DearBOSS #FromBOYSTORY  \n#TogetherWithBOSS #BOYSTORYForever\n\n[KR/EN] Where the Phoenix Flowers Bloom | Our 8th Early Summer | Dear BOSS💌\n\nThe 8th summer from where it all began🌿\nEvery sigh we once swallowed\nNow bursts into fiery blossoms on the branches.\n\nFLO: ",
+      "thumbnail": "https://i.ytimg.com/vi/D9v9gsftIJI/mqdefault.jpg",
+      "publishedAt": "2025-05-03T10:03:38.000Z",
+      "url": "https://www.youtube.com/watch?v=D9v9gsftIJI",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-sEyilxstaQg",
+      "source": {
+        "platform": "youtube",
+        "videoId": "sEyilxstaQg",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "[EN] The Prequel to BOY STORY Manual | 2,414 Days | Dear BOSS💌",
+      "description": "#BOSS #BOYSTORY #DearBOSS #FromBOYSTORY  \n#TogetherWithBOSS #BOYSTORYForever\n\n[EN] The Prequel to BOY STORY Manual | 2,414 Days | Dear BOSS💌\n\nAfter years of waiting, \nsome long-lost masters have finally broken free.\nSee how the boys once were—\nFrom fledglings finding their wings",
+      "thumbnail": "https://i.ytimg.com/vi/sEyilxstaQg/mqdefault.jpg",
+      "publishedAt": "2025-05-02T10:01:26.000Z",
+      "url": "https://www.youtube.com/watch?v=sEyilxstaQg",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-CHTWMtsiaPs",
+      "source": {
+        "platform": "youtube",
+        "videoId": "CHTWMtsiaPs",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "[EN] ‘Guaishushu Is Coming (怪蜀黍来了)’ A Special Episode by BOY STORY | 2,414 Days | Dear BOSS💌",
+      "description": "#BOSS #BOYSTORY #DearBOSS #FromBOYSTORY  \n#TogetherWithBOSS #BOYSTORYForever\n\n[EN] ‘Guaishushu Is Coming (怪蜀黍来了)’ A Special Episode by BOY STORY | 2,414 Days | Dear BOSS💌\n\n2,414 Days\nSix kids hit play\nAnd burst into the world with hope and fire.\nAlong the unseen roads we once wa",
+      "thumbnail": "https://i.ytimg.com/vi/CHTWMtsiaPs/mqdefault.jpg",
+      "publishedAt": "2025-05-01T10:00:31.000Z",
+      "url": "https://www.youtube.com/watch?v=CHTWMtsiaPs",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-KHTGOzhCVpo",
+      "source": {
+        "platform": "youtube",
+        "videoId": "KHTGOzhCVpo",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "[EN] Teaser | Dear BOSS💌",
+      "description": "#BOSS #BOYSTORY #DearBOSS #FromBOYSTORY  \n#TogetherWithBOSS #BOYSTORYForever\n\n[EN] Teaser | Dear BOSS💌\n\n2,414 days can’t contain our story—\nIn the endless cycle of our phoenix years,\nWe were always meant to meet—our paths written in the stars.\nOnce in a lifetime? More like a tho",
+      "thumbnail": "https://i.ytimg.com/vi/KHTGOzhCVpo/mqdefault.jpg",
+      "publishedAt": "2025-04-30T10:00:27.000Z",
+      "url": "https://www.youtube.com/watch?v=KHTGOzhCVpo",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "teaser"
+    },
+    {
+      "id": "yt-Roq7yBJvMmA",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Roq7yBJvMmA",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "drip drip clean it up❗️ #BOYSTORY X #BrandonBeal #ZIHAO #XINLONG #SAUCY #Collaboration",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/Roq7yBJvMmA/mqdefault.jpg",
+      "publishedAt": "2025-04-26T11:00:44.000Z",
+      "url": "https://www.youtube.com/watch?v=Roq7yBJvMmA",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-qzcFBvL4zbM",
+      "source": {
+        "platform": "youtube",
+        "videoId": "qzcFBvL4zbM",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "[EN] Back to My Childhood Again🧒| Why Not Dance EP.04",
+      "description": "#BOYSTORY #HANYU #VLOG #Dance\n\n[EN] Back to My Childhood Again🧒| Why Not Dance EP.04\n涵予VLOG 不如跳舞：再一次回到小时候\n\nFinally, it’s time for HANYU’s dance again!\nThe familiar feeling brings even more joy :)\nLet’s go back to where it all began✨\n\nFLO: https://flomuz.io/s/a.C2Wgy\nMelon: https",
+      "thumbnail": "https://i.ytimg.com/vi/qzcFBvL4zbM/mqdefault.jpg",
+      "publishedAt": "2025-04-26T10:01:14.000Z",
+      "url": "https://www.youtube.com/watch?v=qzcFBvL4zbM",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    },
+    {
+      "id": "yt-FFsohWu_7S0",
+      "source": {
+        "platform": "youtube",
+        "videoId": "FFsohWu_7S0",
+        "channelId": "UCZlgP_2MRnrPXRmqR5320BQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "boy-story",
+        "name": "BOY STORY"
+      },
+      "title": "Lose Control 🪩 #BOYSTORY X #BrandonBeal #HANYU #涵予 #SAUCY #LoseControl #Collaboration",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/FFsohWu_7S0/mqdefault.jpg",
+      "publishedAt": "2025-04-25T12:00:33.000Z",
+      "url": "https://www.youtube.com/watch?v=FFsohWu_7S0",
+      "fetchedAt": "2026-10-14T13:26:13.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-14T13:26:13.398Z",
+      "type": "other"
+    }
+  ]
+}
