@@ -2815,6 +2815,7 @@ main > .page-wrap {
 .official-x-box .outline-button { margin: 18px 0; }
 .official-x-embed { max-width: 580px; margin: 16px 0; overflow: hidden; }
 .official-x-box .text-link { display: inline-flex; }
+.official-x-box .official-x-privacy-link { display: flex; width: fit-content; margin-top: 10px; }
 @media (max-width: 760px) {
   .official-source-list, .official-preview-links { grid-template-columns: 1fr; }
   .official-schedule-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }

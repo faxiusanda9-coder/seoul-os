@@ -32,7 +32,7 @@ JYP 网站的公开页面和分页可以阅读，但直接查询的 `robots.txt`
 
 从各自艺人官网首页的社交链接核实并启用 8 个账号：TWICE `@JYPETWICE`、Stray Kids `@Stray_Kids`、ITZY `@ITZYOfficial`、NMIXX `@NMIXX_official`、DAY6 `@DAY6Official`、Xdinary Heroes `@XH_official`、KickFlip `@kickflip_jype`、NEXZ `@NEXZ_official`。其他艺人账号未核实，不显示。
 
-艺人详情页由用户主动点击后才尝试加载 X 官方 widget，旁边说明第三方连接／Cookie；不购买 X API、不保存帖子。实现依据为 [X 官方嵌入说明](https://help.x.com/en/using-x/embed-x-feed)。本地实际试验中，X iframe 被建立但始终高度 0，12 秒后显示失败说明与原账号链接；模拟网络阻断时同样正确降级。**本轮不能宣称 X 内嵌时间线已成功呈现**，但官方账号外链入口和失败处理已经上线。
+艺人详情页由用户主动点击同意后才尝试加载 X 官方 widget；点击前说明可能收集的页面、IP、浏览器、Cookie 信息并提供[X 隐私与退出设置](https://help.x.com/en/rules-and-policies/x-cookies)链接，widget 设置 `dnt=true`。不购买 X API、不保存帖子。实现依据为 [X 官方嵌入说明](https://help.x.com/en/using-x/embed-x-feed)与[开发者政策](https://docs.x.com/developer-terms/policy)。本地实际试验中，X iframe 被建立但始终高度 0，12 秒后显示失败说明与原账号链接；模拟网络阻断时同样正确降级。**本轮不能宣称 X 内嵌时间线已成功呈现**，但官方账号外链入口和失败处理已经上线。
 
 ## 4. 用户实际体验
 

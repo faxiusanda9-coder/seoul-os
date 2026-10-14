@@ -5,7 +5,7 @@ import { useI18n } from "../locales/i18n";
 
 type XWidgets = { widgets: {
   createTimeline: (source: { sourceType: "profile"; screenName: string },
-    target: HTMLElement, options: { theme: "light"; height: number; chrome: string }) => Promise<HTMLElement | undefined>;
+    target: HTMLElement, options: { theme: "light"; height: number; chrome: string; dnt: true }) => Promise<HTMLElement | undefined>;
 } };
 declare global { interface Window { twttr?: XWidgets } }
 
@@ -37,7 +37,7 @@ export function OfficialXTimeline({ account }: { account: OfficialSocialAccount 
         target.current.replaceChildren();
         const node = await window.twttr.widgets.createTimeline(
           { sourceType: "profile", screenName: account.accountHandle },
-          target.current, { theme: "light", height: 470, chrome: "noheader nofooter" },
+          target.current, { theme: "light", height: 470, chrome: "noheader nofooter", dnt: true },
         );
         if (!node) throw new Error("X timeline unavailable");
         if (active) setState("loaded");
@@ -50,6 +50,9 @@ export function OfficialXTimeline({ account }: { account: OfficialSocialAccount 
       <h2>From the artist.</h2><p className="section-note">{t("official.xIntro")}</p></div></div>
     <div className="official-x-box">
       <p>{t("official.xPrivacy")}</p>
+      <a className="text-link official-x-privacy-link" href="https://help.x.com/en/rules-and-policies/x-cookies" target="_blank" rel="noopener noreferrer">
+        {t("official.xChoices")} <ArrowUpRight size={16} />
+      </a>
       {state === "idle" && <button type="button" className="outline-button" onClick={() => setState("loading")}>
         {t("official.loadX")}
       </button>}

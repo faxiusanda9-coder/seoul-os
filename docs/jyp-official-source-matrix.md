@@ -33,4 +33,4 @@
 
 账号来自对应 JYP 艺人官网首页 HTML 的官方社交链接，均在 `src/data/officialSocialAccounts.ts` 记录 `verifiedBy/verifiedAt`。当前核实：TWICE `@JYPETWICE`、Stray Kids `@Stray_Kids`、ITZY `@ITZYOfficial`、NMIXX `@NMIXX_official`、DAY6 `@DAY6Official`、Xdinary Heroes `@XH_official`、KickFlip `@kickflip_jype`、NEXZ `@NEXZ_official`。NiziU、BOY STORY、GIRLSET、2PM、J.Y. Park、YAOCHEN 的 X 入口未从对应艺人官网完成核实，不显示。
 
-[X 官方嵌入说明](https://help.x.com/en/using-x/embed-x-feed)允许将公开账号时间线以官方 widget 嵌入，同时要求遵守其开发者条款。本站在用户点击后才加载 X 脚本，不调用 X API，也不保存帖文。部分地区可能无法加载，界面保留原账号链接；官方账号身份与嵌入成功是不同验证项。
+[X 官方嵌入说明](https://help.x.com/en/using-x/embed-x-feed)允许将公开账号时间线以官方 widget 嵌入，同时要求遵守其[开发者政策](https://docs.x.com/developer-terms/policy)。政策的公开展示章节要求告知访问数据收集和提供退出方式；因此本站在用户点击前说明 X 可能接收页面、IP、浏览器及 Cookie 信息，并链接[X 隐私与退出说明](https://help.x.com/en/rules-and-policies/x-cookies)。点击同意后才加载 X 脚本，widget 请求设置 `dnt=true`；不调用 X API，也不保存帖文。部分地区可能无法加载，界面保留原账号链接；官方账号身份与嵌入成功是不同验证项。
