@@ -200,8 +200,8 @@ test("enabled channels stay independent when one API request fails", async (t) =
   const dir = await mkdtemp(join(tmpdir(), "seoul-os-multi-"));
   t.after(() => rm(dir, { recursive: true, force: true }));
   const channels = (await loadChannels()).filter((item) => item.enabled);
-  assert.deepEqual(channels.map((item) => item.artistId), ["twice", "stray-kids", "itzy"]);
-  const ids = new Map([["twice", "AbCdEfGh123"], ["stray-kids", "StRaY123456"], ["itzy", "ItZy1234567"]]);
+  assert.deepEqual(channels.slice(0, 3).map((item) => item.artistId), ["twice", "stray-kids", "itzy"]);
+  const ids = new Map(channels.map((item, index) => [item.artistId, `Test${String(index).padStart(7, "0")}`]));
   const fetchFor = (failArtist = "") => async (url) => {
     const parsed = new URL(url);
     const part = parsed.pathname.split("/").at(-1);
@@ -223,12 +223,12 @@ test("enabled channels stay independent when one API request fails", async (t) =
     return { ok: true, json: async () => data };
   };
   const first = await syncEnabledChannels({ apiKey: "test-key", fetchImpl: fetchFor(), dataDir: dir });
-  assert.deepEqual(first.map((item) => item.status), ["success", "success", "success"]);
-  assert.deepEqual(first.map((item) => item.count), [1, 1, 1]);
-  assert.equal(first.reduce((sum, item) => sum + item.requests, 0), 9);
+  assert.deepEqual(first.map((item) => item.status), channels.map(() => "success"));
+  assert.deepEqual(first.map((item) => item.count), channels.map(() => 1));
+  assert.equal(first.reduce((sum, item) => sum + item.requests, 0), 3 * channels.length);
   const strayBefore = await readFile(join(dir, "stray-kids.json"), "utf8");
   const second = await syncEnabledChannels({ apiKey: "test-key", fetchImpl: fetchFor("stray-kids"), dataDir: dir });
-  assert.deepEqual(second.map((item) => item.status), ["success", "failed", "success"]);
+  assert.deepEqual(second.map((item) => item.status), channels.map((item) => item.artistId === "stray-kids" ? "failed" : "success"));
   assert.equal(await readFile(join(dir, "stray-kids.json"), "utf8"), strayBefore);
   assert.equal(second[0].changed, false);
   assert.equal(second[2].changed, false);
