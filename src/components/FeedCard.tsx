@@ -4,6 +4,7 @@ import { artistById } from "../data/artists";
 import { useArchive } from "../store/ArchiveContext";
 import type { FeedItem } from "../types";
 import { publishedLabel } from "../utils/feed";
+import { visualVideoForItem } from "../utils/media";
 import { FeedThumbnail } from "./FeedThumbnail";
 
 export function FeedCard({
@@ -17,17 +18,18 @@ export function FeedCard({
   const { isSaved, toggleSaved } = useArchive();
   if (!artist) return null;
   const active = isSaved(item.id);
+  const visual = visualVideoForItem(item);
   return (
     <article className={`feed-card ${compact ? "feed-card--compact" : ""}`}>
       <a
         className="feed-image-link"
-        href={item.sourceUrl}
+        href={visual?.sourceUrl ?? item.sourceUrl}
         target="_blank"
         rel="noopener noreferrer"
         aria-label={
           item.kind === "official"
             ? `观看 ${item.title} 官方视频，新窗口`
-            : "打开 JYP 官方频道，新窗口（演示条目）"
+            : `观看 ${artist.name} 封面参考的官方视频，新窗口；非本条演示内容`
         }
       >
         <FeedThumbnail item={item} />
@@ -52,6 +54,11 @@ export function FeedCard({
             <span>{publishedLabel(item)}</span>
           )}
         </div>
+        {item.kind === "demo" && visual && (
+          <p className="reference-credit">
+            封面参考：{visual.title} · 非本条演示内容
+          </p>
+        )}
       </div>
       <div className="feed-actions">
         <button

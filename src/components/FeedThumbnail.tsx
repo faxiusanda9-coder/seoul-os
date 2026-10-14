@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { artistById } from "../data/artists";
 import type { FeedItem } from "../types";
+import { thumbnailUrl, visualVideoForItem } from "../utils/media";
 import { ArtistArt } from "./ArtistArt";
 
 export function FeedThumbnail({ item }: { item: FeedItem }) {
@@ -9,9 +10,10 @@ export function FeedThumbnail({ item }: { item: FeedItem }) {
   );
   const artist = artistById(item.artistId);
   if (!artist) return null;
+  const visual = visualVideoForItem(item);
   return (
     <div className="feed-thumb">
-      {item.videoId && imageState !== "failed" ? (
+      {visual?.videoId && imageState !== "failed" ? (
         <>
           {imageState === "loading" && (
             <div className="media-loading" aria-hidden="true">
@@ -20,8 +22,12 @@ export function FeedThumbnail({ item }: { item: FeedItem }) {
           )}
           <img
             className={imageState === "loading" ? "is-loading" : ""}
-            src={`https://i.ytimg.com/vi/${item.videoId}/mqdefault.jpg`}
-            alt={`${artist.name}《${item.title}》官方 YouTube 视频缩略图`}
+            src={thumbnailUrl(visual.videoId)}
+            alt={
+              item.kind === "official"
+                ? `${artist.name}《${visual.title}》官方 YouTube 视频缩略图`
+                : `${artist.name} 官方视频《${visual.title}》的参考缩略图；不是本条演示内容`
+            }
             loading="lazy"
             decoding="async"
             onError={() => setImageState("failed")}

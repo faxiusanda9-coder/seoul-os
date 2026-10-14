@@ -7,6 +7,7 @@ import { FeedThumbnail } from "../components/FeedThumbnail";
 import { useArchive } from "../store/ArchiveContext";
 import type { ArchiveCategory } from "../types";
 import { publishedLabel } from "../utils/feed";
+import { visualVideoForItem } from "../utils/media";
 
 export function ArchivePage() {
   const { saved, toggleSaved, moveSaved } = useArchive();
@@ -54,13 +55,18 @@ export function ArchivePage() {
           {visible.map((item) => {
             const artist = artistById(item.artistId);
             if (!artist) return null;
+            const visual = visualVideoForItem(item);
             return (
               <article className="archive-card" key={item.id}>
                 <a
-                  href={item.sourceUrl}
+                  href={visual?.sourceUrl ?? item.sourceUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label={`打开 ${item.title} 来源，新窗口`}
+                  aria-label={
+                    item.kind === "demo"
+                      ? `观看 ${artist.name} 封面参考的官方视频，新窗口；非本条演示内容`
+                      : `打开 ${item.title} 来源，新窗口`
+                  }
                 >
                   <FeedThumbnail item={item} />
                 </a>
@@ -72,6 +78,11 @@ export function ArchivePage() {
                   <p>
                     {item.source} · {publishedLabel(item)}
                   </p>
+                  {item.kind === "demo" && visual && (
+                    <p className="reference-credit">
+                      封面参考：{visual.title} · 非本条演示内容
+                    </p>
+                  )}
                   <div className="archive-card-actions">
                     <label className="select-field small-select">
                       <span>归档至</span>

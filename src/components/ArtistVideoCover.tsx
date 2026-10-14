@@ -1,16 +1,13 @@
 import { useState } from "react";
-import { feed } from "../data/feed";
 import type { Artist } from "../types";
+import { officialVideoForArtist, thumbnailUrl } from "../utils/media";
 import { ArtistArt } from "./ArtistArt";
 
 export function ArtistVideoCover({ artist }: { artist: Artist }) {
   const [imageState, setImageState] = useState<"loading" | "ready" | "failed">(
     "loading",
   );
-  const video = feed.find(
-    (item) =>
-      item.artistId === artist.id && item.kind === "official" && item.videoId,
-  );
+  const video = officialVideoForArtist(artist.id);
   if (!video?.videoId || imageState === "failed")
     return <ArtistArt artist={artist} />;
   return (
@@ -23,7 +20,7 @@ export function ArtistVideoCover({ artist }: { artist: Artist }) {
         )}
         <img
           className={imageState === "loading" ? "is-loading" : ""}
-          src={`https://i.ytimg.com/vi/${video.videoId}/mqdefault.jpg`}
+          src={thumbnailUrl(video.videoId)}
           alt={`${artist.name} 官方视频《${video.title}》缩略图`}
           loading="lazy"
           decoding="async"
