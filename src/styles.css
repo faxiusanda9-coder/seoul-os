@@ -1180,6 +1180,23 @@ main {
   gap: 15px;
   margin-bottom: 28px;
 }
+.calendar-engine-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 12px;
+  margin: 0 0 23px;
+}
+.calendar-engine-filters .select-field { min-width: min(190px, 100%); flex: 1 1 155px; }
+.calendar-engine-filters .toggle-field { min-height: 44px; padding: 0 2px; white-space: normal; }
+.calendar-export { display: flex; flex-wrap: wrap; align-items: center; gap: 15px; margin-top: 24px; }
+.calendar-export button, .event-detail-meta button, .event-detail-meta a { display: inline-flex; align-items: center; gap: 7px; min-height: 44px; }
+.calendar-export button:disabled { cursor: not-allowed; opacity: .5; }
+.dot-concert { background: #819d87; }
+.dot-fan-meeting { background: #aaa0bd; }
+.dot-livestream { background: #c8a688; }
+.dot-ticket-sale { background: #9f9f8a; }
+.dot-other { background: #adb6ad; }
 .calendar-filter-row .select-field {
   min-width: 210px;
 }

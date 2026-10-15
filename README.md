@@ -14,6 +14,7 @@ npm run test:sync
 npm run test:i18n
 npm run test:taxonomy
 npm run test:official
+npm run test:calendar
 npm run build
 npm run preview
 ```
@@ -47,7 +48,22 @@ node --env-file=.env scripts/youtube-sync.mjs --channel=all
 
 收藏和关注分别使用 `seoul-os-archive-v1`、`seoul-os-follow-v1` 的浏览器 `localStorage`，无需账号；语言偏好使用 `seoul-os-locale-v1`，默认中文。旧版 TWICE 收藏可以按原 ID 读取，收藏和关注只在当前浏览器保存，不跨设备同步。主页保留 Warm Ivory、Sage Green、英文杂志式标题与移动端底部导航。
 
-`src/locales/zh-CN.json` 和 `src/locales/en.json` 管理操作文案；YouTube 原始标题不自动翻译。日历未接入官方演出数据，默认没有活动；2099 年演示事件需要主动启用。JYP Universe 仅展示有来源的历史节点。
+`src/locales/zh-CN.json` 和 `src/locales/en.json` 管理操作文案；YouTube 原始标题不自动翻译。日历默认只加载经过发布验证的 `data/calendar/events.json`；当前快照为 0 条真实活动，官网入口继续可用。2099 年演示事件需要主动启用且不会进入真实 JSON/ICS。JYP Universe 仅展示有来源的历史节点。
+
+## 活动日历引擎（Phase 2C-2）
+
+日历事件与视频收藏分离，继续使用既有关注状态筛选。`scripts/events/` 包含 Ticketmaster Discovery Adapter、人工审核命令和单频道 YouTube 预约直播只读试点；`src/calendar/` 包含严格事件类型、来源与时间校验、状态变化、ICS 导出及 React 视图。公开活动只来自经过身份核实的 Ticketmaster Attraction 或人工确认的官方链接；**当前没有 Ticketmaster Key 与核实的 Attraction ID，真实活动仍为 0，不是无演出结论**。YouTube 直播不会混入公共跨频道日历。
+
+```bash
+npm run calendar:coverage       # 有 Key 时列出待人工核验的 Attraction 候选
+npm run sync:calendar           # 校验并增量同步；无 Key 时保留合法旧数据
+npm run event:manual -- add --artistId=twice --title="已核实的原文标题" --eventType=concert --localDate=YYYY-MM-DD --sourceUrl=https://twice.jype.com/schedule/<实际详情ID>
+npm run event:manual -- review --id=<UUID> --reviewer=<维护者>
+npm run event:remove -- --id=<事件ID>   # 权利人移除请求
+npm run calendar:pilot:youtube -- --channel=twice
+```
+
+本地密钥填入被 Git 忽略的 `.env`，执行 `node --env-file=.env scripts/events/sync.mjs`；Actions 使用 `TICKETMASTER_API_KEY` Secret。`.github/workflows/calendar-sync.yml` 在北京时间 08:15 与 20:15 运行，也支持手动触发；数据变化后调用既有 Pages 部署。构建前的 `stage-public-data.mjs` 再次校验和移除禁用事件，并生成 `/seoul-os/data/calendar/events.json`、`/seoul-os/data/calendar/all.ics`。公开 ICS 可以订阅，客户端刷新不保证实时；浏览器按关注艺人即时下载的 ICS 不是在线私有订阅。完整维护步骤和来源条件见[日历指南](docs/phase-2c2/calendar-user-guide.md)、[来源覆盖](docs/phase-2c2/source-coverage.md)和[合规边界](docs/phase-2c2/api-compliance.md)。
 
 ## 内容分类与官方资讯入口
 

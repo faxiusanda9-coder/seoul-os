@@ -13,6 +13,7 @@ import { artists, artistById } from "../data/artists";
 import { officialSources } from "../data/officialSources";
 import { events, formatEventTime, kstDate } from "../data/events";
 import type { CalendarEvent } from "../types";
+import { VerifiedCalendar } from "../calendar/VerifiedCalendar";
 import {
   demoEventNote,
   demoEventTitle,
@@ -83,6 +84,7 @@ export function CalendarPage() {
     setSelected(nextDate);
     setMonth(monthForDate(nextDate));
   }
+  if (!showDemo) return <VerifiedCalendar onShowDemo={() => toggleDemo(true)} />;
   return (
     <div className="page-wrap page-pad">
       <div className="page-intro">

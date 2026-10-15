@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "artists": [
+    {"artistId":"twice","canonicalName":"TWICE","aliases":[],"attractionId":null,"mappingStatus":"not-verified","verificationEvidence":null,"lastVerifiedAt":null},
+    {"artistId":"stray-kids","canonicalName":"Stray Kids","aliases":[],"attractionId":null,"mappingStatus":"not-verified","verificationEvidence":null,"lastVerifiedAt":null},
+    {"artistId":"itzy","canonicalName":"ITZY","aliases":[],"attractionId":null,"mappingStatus":"not-verified","verificationEvidence":null,"lastVerifiedAt":null},
+    {"artistId":"nmixx","canonicalName":"NMIXX","aliases":[],"attractionId":null,"mappingStatus":"not-verified","verificationEvidence":null,"lastVerifiedAt":null},
+    {"artistId":"day6","canonicalName":"DAY6","aliases":[],"attractionId":null,"mappingStatus":"not-verified","verificationEvidence":null,"lastVerifiedAt":null},
+    {"artistId":"xdinary-heroes","canonicalName":"Xdinary Heroes","aliases":[],"attractionId":null,"mappingStatus":"not-verified","verificationEvidence":null,"lastVerifiedAt":null},
+    {"artistId":"kickflip","canonicalName":"KickFlip","aliases":[],"attractionId":null,"mappingStatus":"not-verified","verificationEvidence":null,"lastVerifiedAt":null},
+    {"artistId":"niziu","canonicalName":"NiziU","aliases":[],"attractionId":null,"mappingStatus":"not-verified","verificationEvidence":null,"lastVerifiedAt":null},
+    {"artistId":"nexz","canonicalName":"NEXZ","aliases":[],"attractionId":null,"mappingStatus":"not-verified","verificationEvidence":null,"lastVerifiedAt":null},
+    {"artistId":"jy-park","canonicalName":"J.Y. Park","aliases":[],"attractionId":null,"mappingStatus":"not-verified","verificationEvidence":null,"lastVerifiedAt":null},
+    {"artistId":"2pm","canonicalName":"2PM","aliases":[],"attractionId":null,"mappingStatus":"not-verified","verificationEvidence":null,"lastVerifiedAt":null},
+    {"artistId":"boy-story","canonicalName":"BOY STORY","aliases":[],"attractionId":null,"mappingStatus":"not-verified","verificationEvidence":null,"lastVerifiedAt":null},
+    {"artistId":"yaochen","canonicalName":"YAOCHEN","aliases":[],"attractionId":null,"mappingStatus":"not-verified","verificationEvidence":null,"lastVerifiedAt":null},
+    {"artistId":"girlset","canonicalName":"GIRLSET","aliases":[],"attractionId":null,"mappingStatus":"not-verified","verificationEvidence":null,"lastVerifiedAt":null}
+  ]
+}

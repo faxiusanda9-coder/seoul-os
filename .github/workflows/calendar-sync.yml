@@ -1,0 +1,75 @@
+name: Sync verified calendar sources
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/calendar-sync.yml
+      - data/calendar/manual-events.json
+      - data/calendar/ticketmaster-artists.json
+      - data/calendar/removals.json
+  schedule:
+    # 08:15 and 20:15 Asia/Shanghai; Actions schedules are best effort.
+    - cron: "15 0,12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: calendar-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      changed: ${{ steps.changes.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+          cache: npm
+      - run: npm ci
+      - name: Sync independent sources and reviewed manual events
+        env:
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+        run: npm run sync:calendar
+      - name: Test and build published data
+        run: |
+          npm run test:calendar
+          npm run build
+      - name: Check for meaningful changes
+        id: changes
+        shell: bash
+        run: |
+          if [[ -n "$(git status --porcelain -- data/calendar/events.json data/calendar/all.ics)" ]]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Commit calendar data
+        if: steps.changes.outputs.changed == 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/calendar/events.json data/calendar/all.ics
+          git commit -m "data: refresh verified calendar metadata"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+  deploy:
+    needs: sync
+    if: needs.sync.outputs.changed == 'true'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy.yml
+    with:
+      ref: main

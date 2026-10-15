@@ -135,6 +135,7 @@ export function Layout() {
           </span>
           <p>One company. Every artist. Your universe.</p>
           <span>{t("common.disclosure")}</span>
+          <Link className="text-link" to="/privacy">{t("privacy.link")}</Link>
         </div>
       </footer>
       <nav className="mobile-nav" aria-label={t("nav.mobile")}>
