@@ -4,8 +4,128 @@
   "uploadsPlaylistId": "UUzgxx_DM2Dcb9Y1spb9mUJA",
   "artistId": "twice",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-14T16:52:35.634Z",
+  "fetchedAt": "2026-10-15T12:32:22.449Z",
   "items": [
+    {
+      "id": "yt-mD3oHeiWtVc",
+      "source": {
+        "platform": "youtube",
+        "videoId": "mD3oHeiWtVc",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "TWICE Special Vinyl ＜THIS IS FOR＞  WORLD TOUR FINALE in SEOUL - LIVE : D-1",
+      "description": "TWICE Special Vinyl ＜THIS IS FOR＞  WORLD TOUR FINALE in SEOUL - LIVE : D-1\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.twitt",
+      "thumbnail": "https://i.ytimg.com/vi/mD3oHeiWtVc/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/mD3oHeiWtVc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/mD3oHeiWtVc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/mD3oHeiWtVc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/mD3oHeiWtVc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/mD3oHeiWtVc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-15T09:00:07.000Z",
+      "url": "https://www.youtube.com/watch?v=mD3oHeiWtVc",
+      "fetchedAt": "2026-10-15T12:32:22.449Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-15T12:32:22.449Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-u7IK-YomePs",
+      "source": {
+        "platform": "youtube",
+        "videoId": "u7IK-YomePs",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "Introducing..🍭 MYODETTE🐧DUPNYANGEE😸 SONCHAETTY🐯TZUKUMI🦌 #TWICE #트와이스 #TDOONGZ #트둥즈",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/u7IK-YomePs/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/u7IK-YomePs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/u7IK-YomePs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/u7IK-YomePs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/u7IK-YomePs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/u7IK-YomePs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-15T05:00:08.000Z",
+      "url": "https://www.youtube.com/watch?v=u7IK-YomePs",
+      "fetchedAt": "2026-10-15T12:32:22.449Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-15T12:32:22.449Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-U7cZw1XoNtw",
       "source": {
@@ -2891,126 +3011,6 @@
       ],
       "publishedAt": "2026-07-11T13:20:44.000Z",
       "url": "https://www.youtube.com/watch?v=Lip4VdQI3ZI",
-      "fetchedAt": "2026-10-14T16:52:35.634Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-blbuuC2N6Bs",
-      "source": {
-        "platform": "youtube",
-        "videoId": "blbuuC2N6Bs",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "DAY 2✌🏻 Are you guys on the way? #TWICE #트와이스 #THISISFOR #TWICE_THISISFOR_WORLD_TOUR",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/blbuuC2N6Bs/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/blbuuC2N6Bs/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/blbuuC2N6Bs/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/blbuuC2N6Bs/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/blbuuC2N6Bs/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/blbuuC2N6Bs/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-07-11T07:00:18.000Z",
-      "url": "https://www.youtube.com/watch?v=blbuuC2N6Bs",
-      "fetchedAt": "2026-10-14T16:52:35.634Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-DM6JtU6VQYk",
-      "source": {
-        "platform": "youtube",
-        "videoId": "DM6JtU6VQYk",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "어딜봐도 원스잖아🌏❣️ #TWICE #트와이스 #THISISFOR#TWICE_THISISFOR_WORLD_TOUR#TWICE_THISISFOR_WORLD_TOUR_IN_SEOUL",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/DM6JtU6VQYk/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/DM6JtU6VQYk/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/DM6JtU6VQYk/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/DM6JtU6VQYk/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/DM6JtU6VQYk/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/DM6JtU6VQYk/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-07-10T14:04:48.000Z",
-      "url": "https://www.youtube.com/watch?v=DM6JtU6VQYk",
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",

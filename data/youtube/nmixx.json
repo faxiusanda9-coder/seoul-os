@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUnUAyD4t2LkvW68YrDh7fDg",
   "artistId": "nmixx",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-14T16:52:36.836Z",
+  "fetchedAt": "2026-10-15T12:32:23.817Z",
   "items": [
+    {
+      "id": "yt-T-MpzEW04Y4",
+      "source": {
+        "platform": "youtube",
+        "videoId": "T-MpzEW04Y4",
+        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nmixx",
+        "name": "NMIXX"
+      },
+      "title": "#KickFlip #Donghwa 위한 긴 소원을 빌게 🐸✩*𖤐₊🐶 #NMIXX #JIWOO #긴소원_BirthdayWish",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/T-MpzEW04Y4/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/T-MpzEW04Y4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/T-MpzEW04Y4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/T-MpzEW04Y4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/T-MpzEW04Y4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/T-MpzEW04Y4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-15T11:00:08.000Z",
+      "url": "https://www.youtube.com/watch?v=T-MpzEW04Y4",
+      "fetchedAt": "2026-10-15T12:32:23.817Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-15T12:32:23.817Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-J_c85YsIBFc",
       "source": {
@@ -2983,66 +3043,6 @@
       ],
       "publishedAt": "2026-09-03T15:10:03.000Z",
       "url": "https://www.youtube.com/watch?v=jIxbCxF3pbE",
-      "fetchedAt": "2026-10-14T16:52:36.836Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:36.836Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-ZhXFLJXm4_c",
-      "source": {
-        "platform": "youtube",
-        "videoId": "ZhXFLJXm4_c",
-        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nmixx",
-        "name": "NMIXX"
-      },
-      "title": "POV: The backseat is TOO hyped #NMIXX #LILY #BAE #KYUJIN",
-      "description": "POV: The backseat is TOO hyped #NMIXX #LILY #BAE #KYUJIN \n\nNMIXX Official YouTube ▶ https://www.youtube.com/c/NMIXXOfficial\nNMIXX Official X ▶ https://x.com/NMIXX_official\nNMIXX Official X(Members) ▶ https://x.com/WE_NMIXX\nNMIXX Official Instagram ▶ https://www.instagram.com/nmix",
-      "thumbnail": "https://i.ytimg.com/vi/ZhXFLJXm4_c/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/ZhXFLJXm4_c/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/ZhXFLJXm4_c/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/ZhXFLJXm4_c/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/ZhXFLJXm4_c/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/ZhXFLJXm4_c/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-03T11:00:06.000Z",
-      "url": "https://www.youtube.com/watch?v=ZhXFLJXm4_c",
       "fetchedAt": "2026-10-14T16:52:36.836Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:36.836Z",
