@@ -35,6 +35,12 @@ jobs:
           node-version: "24"
           cache: npm
       - run: npm ci
+      - name: Read-only TWICE upcoming-live pilot
+        if: github.event_name == 'push'
+        continue-on-error: true
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: npm run calendar:pilot:youtube -- --channel=twice
       - name: Sync independent sources and reviewed manual events
         env:
           TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
