@@ -2,8 +2,9 @@ name: Sync official YouTube channels
 
 on:
   schedule:
-    # 08:00 and 20:00 Asia/Shanghai (UTC+8)
-    - cron: "0 0,12 * * *"
+    # 08:00, 12:00 and 20:00 Asia/Shanghai (UTC+8)
+    # GitHub scheduled jobs may start later than the cron time.
+    - cron: "0 0,4,12 * * *"
   workflow_dispatch:
     inputs:
       channel:

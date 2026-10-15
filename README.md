@@ -38,11 +38,11 @@ node --env-file=.env scripts/youtube-sync.mjs --channel=all
 
 ## 自动部署
 
-`.github/workflows/youtube-sync.yml` 每天 UTC 00:00 和 12:00（北京时间 08:00、20:00）运行，也支持手动传入 `channel=all` 或某个已启用的 artist ID。仓库 Actions Secret 名为 `YOUTUBE_API_KEY`。同步后仅在 JSON 有变化时提交；使用 `GITHUB_TOKEN` 推送产生的提交不会自动触发其他工作流，所以同步工作流直接调用可复用的 Pages 部署工作流。普通代码推送由 `.github/workflows/deploy.yml` 部署。
+`.github/workflows/youtube-sync.yml` 每天 UTC 00:00、04:00 和 12:00（北京时间 08:00、12:00、20:00）运行，也支持手动传入 `channel=all` 或某个已启用的 artist ID。GitHub Actions 定时任务可能延迟。仓库 Actions Secret 名为 `YOUTUBE_API_KEY`。同步后仅在 JSON 有变化时提交；使用 `GITHUB_TOKEN` 推送产生的提交不会自动触发其他工作流，所以同步工作流直接调用可复用的 Pages 部署工作流。普通代码推送由 `.github/workflows/deploy.yml` 部署。
 
 在 GitHub 仓库的 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**；Actions 的 `GITHUB_TOKEN` 需有仓库内容读写权限。站点访问地址：[SEOUL.OS](https://faxiusanda9-coder.github.io/seoul-os/)。仓库名若改变，需要调整 `vite.config.ts` 中的 `/seoul-os/` base 并重建。
 
-官方 API 文档列出的 `channels.list`、`playlistItems.list`、`videos.list` 各为低成本列表请求。基础预算按每频道每次 3 单位计算：14 个独立艺人频道、每日两次约 84 单位/日；重试会增加用量。具体启用频道数以 `channels.json` 为准，实际配额以 Google Cloud 控制台为准。GitHub Actions 定时执行是尽力调度，界面显示最后成功同步时间。
+官方 API 文档列出的 `channels.list`、`playlistItems.list`、`videos.list` 各为低成本列表请求。基础预算按每频道每次 3 单位计算：14 个独立艺人频道、每日三次约 126 单位/日；重试会增加用量。具体启用频道数以 `channels.json` 为准，实际配额以 Google Cloud 控制台为准。界面显示内容数据上次变化时间；无新增视频或元数据变化时，成功核对也不会改写 JSON 和该时间，避免无意义提交及重复部署。
 
 ## 收藏、语言与视觉
 
