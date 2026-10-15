@@ -13,14 +13,14 @@
 3. 官网可核实但无法自动同步的活动，可运行：
 
 ```bash
-npm run event:manual -- add --artistId=twice --title="活动原文标题" --eventType=concert --localDate=2026-11-01 --sourceUrl=https://twice.jype.com/schedule/<官方详情ID>
-npm run event:manual -- review --id=<上步输出的UUID> --reviewer=<维护者标识>
+npm run event:manual -- add --artistId=twice --title="活动原文标题" --eventType=concert --localDate=2026-11-01 --sourceUrl=https://twice.jype.com/schedule/ACTUAL_DETAIL_ID
+npm run event:manual -- review --id=REPLACE_UUID --reviewer=MAINTAINER_NAME
 npm run sync:calendar
 npm run test:calendar
 npm run build
 ```
 
-以上仅展示命令格式，不声称例子中的日期有真实活动；`<官方详情ID>` 要换成实际永久详情链接，不能只填官网首页或日程总览。`review` 只接受该艺人已核实的官网 Notice/Schedule 详情路径或已核实 X 账号帖文；包含具体时刻时需填写带偏移的 `startAt`、当地 `localTime` 和 IANA `timezone`，程序会检查一致性。修订已核实事件应更新 `reviewedAt` 并复核来源。
+以上仅展示命令格式，不声称例子中的日期有真实活动；`ACTUAL_DETAIL_ID`、`REPLACE_UUID` 和 `MAINTAINER_NAME` 都须换成真实值。来源须为实际永久详情链接，不能只填官网首页或日程总览。`review` 只接受该艺人已核实的官网 Notice/Schedule 详情路径或已核实 X 账号帖文；包含具体时刻时需填写带偏移的 `startAt`、当地 `localTime` 和 IANA `timezone`，程序会检查一致性。修订已核实事件应更新 `reviewedAt` 并复核来源。
 
 4. 必须移除的事件运行 `npm run event:remove -- --id=<事件ID>`，立即提交并确认 Pages 新版 JSON/ICS。Ticketmaster 权利人移除请求应在 24 小时内完成。
 

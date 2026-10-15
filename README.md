@@ -57,9 +57,9 @@ node --env-file=.env scripts/youtube-sync.mjs --channel=all
 ```bash
 npm run calendar:coverage       # 有 Key 时列出待人工核验的 Attraction 候选
 npm run sync:calendar           # 校验并增量同步；无 Key 时保留合法旧数据
-npm run event:manual -- add --artistId=twice --title="已核实的原文标题" --eventType=concert --localDate=YYYY-MM-DD --sourceUrl=https://twice.jype.com/schedule/<实际详情ID>
-npm run event:manual -- review --id=<UUID> --reviewer=<维护者>
-npm run event:remove -- --id=<事件ID>   # 权利人移除请求
+npm run event:manual -- add --artistId=twice --title="已核实的原文标题" --eventType=concert --localDate=YYYY-MM-DD --sourceUrl=https://twice.jype.com/schedule/ACTUAL_DETAIL_ID
+npm run event:manual -- review --id=REPLACE_UUID --reviewer=MAINTAINER_NAME
+npm run event:remove -- --id=REPLACE_EVENT_ID   # 权利人移除请求
 npm run calendar:pilot:youtube -- --channel=twice
 ```
 

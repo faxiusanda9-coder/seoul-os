@@ -2,7 +2,7 @@
 
 ## Ticketmaster Discovery
 
-本地环境没有 `TICKETMASTER_API_KEY`；GitHub Secret 是否存在尚未经有权限的接口核实。官方 Discovery API 要求 `apikey`，无密钥时返回 401。`npm run calendar:coverage` 实际结果：注册表 14 位艺人，**API 调查 0 位、已核实 Attraction ID 0 个、未来活动实际查询 0 次、真实返回 0 条、已发布 0 条**。“0 条”代表尚未查询，不能解释为不存在演出。不能据艺人名称把搜索候选自动升级为核实身份。
+本地环境没有 `TICKETMASTER_API_KEY`；[首次日历工作流](https://github.com/faxiusanda9-coder/seoul-os/actions/runs/38662672492)日志记录 `credentialConfigured=false`，说明该次 Actions 运行亦未取得 Ticketmaster Secret。官方 Discovery API 要求 `apikey`，无密钥时返回 401。`npm run calendar:coverage` 实际结果：注册表 14 位艺人，**API 调查 0 位、已核实 Attraction ID 0 个、未来活动实际查询 0 次、真实返回 0 条、已发布 0 条**。“0 条”代表尚未查询，不能解释为不存在演出。不能据艺人名称把搜索候选自动升级为核实身份。
 
 | artistId | 艺人 | Attraction ID | 身份状态 | 未来活动查询 |
 |---|---|---|---|---|
@@ -25,6 +25,6 @@
 
 ## JYP 官网与 YouTube
 
-JYP 官网 8 个艺人 Schedule 入口此前已核实，当前仍是链接索引；没有自动读取和再发布许可，不抓取。YouTube 已核实 14 个启用频道，但本地没有 YouTube Key，预约直播只完成独立频道适配器和本地样本测试，真实请求 0 次。uploads playlist 不保证包含所有预约直播；试点不能证明完整覆盖。公司频道、CIIU 不参与艺人自动匹配。
+JYP 官网 8 个艺人 Schedule 入口此前已核实，当前仍是链接索引；没有自动读取和再发布许可，不抓取。YouTube 已核实 14 个启用频道。[独立 TWICE 试点运行](https://github.com/faxiusanda9-coder/seoul-os/actions/runs/38662893635)使用现有 Actions Secret 实际执行 `videos.list` **1 次**，检查当前上传快照的 **50 个 videoId**，返回 **50 个公开视频资源、0 条符合条件的 upcoming 直播**。这只证明所查快照中没有候选；uploads playlist 不保证包含所有预约直播，试点不能证明完整覆盖。试点不写公共跨频道日历；公司频道、CIIU 不参与艺人自动匹配。
 
 核查依据：[Ticketmaster Discovery API](https://developer.ticketmaster.com/products-and-docs/apis/discovery-api/v2/)、[官方 FAQ](https://developer.ticketmaster.com/support/faq/)、[JYP 官网来源矩阵](../jyp-official-source-matrix.md)。

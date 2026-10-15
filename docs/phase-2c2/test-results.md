@@ -15,7 +15,7 @@
 | `npm run build` | 通过 | 14 个频道快照、0 条已核实事件 staged；有既存主 JS 包 >500 kB 非阻断警告 |
 | `npm run sync:calendar` 重复运行 | `changed=false` | 无密钥、无人工批准事件；没有无意义数据提交 |
 | `npm run calendar:coverage` | `blocked` | 14 位注册、0 次真实 Attraction API 调查 |
-| `npm run calendar:pilot:youtube` | `blocked` | 本地无 YouTube Key，0 次真实直播 API 请求 |
+| 本地 `npm run calendar:pilot:youtube` | `blocked` | 本地无 YouTube Key；线上独立试点结果见下节 |
 
 ## 浏览器检查
 
@@ -25,6 +25,13 @@
 
 既有 Playwright 回归脚本：`taxonomy-e2e.cjs` 在 375、1440 宽度检查 50 条 TWICE 数据、分类、搜索、Archive 收藏和刷新，无页面错误或溢出；`official-e2e.cjs` 在 375、412、1440 宽度检查 10 个官网入口、8 个行程链接、X 失败回退、日历入口与路由刷新，全部通过。这些脚本位于当前工作区的 `work/e2e/` 辅助测试目录，不会随网站部署。
 
+## 线上验收
+
+- [Calendar Sync 首轮](https://github.com/faxiusanda9-coder/seoul-os/actions/runs/38662672492)：sync Job success，`changed=false`，无意义提交与重复部署被跳过；日志 `credentialConfigured=false`、`published=0`。
+- [TWICE 直播只读试点](https://github.com/faxiusanda9-coder/seoul-os/actions/runs/38662893635)：pilot Step success，`status=queried`、请求 1 次、检查 50 个 videoId、返回 50 条、符合 upcoming 条件 0 条；Calendar Sync 仍为 `changed=false`。
+- [Pages 首轮部署](https://github.com/faxiusanda9-coder/seoul-os/actions/runs/38662672457)：build/deploy Jobs success。线上主页 200，`/seoul-os/data/calendar/events.json` 200 且 schema 1、事件 0，`/seoul-os/data/calendar/all.ics` 200 且包含 `BEGIN:VCALENDAR`；既有 TWICE JSON schema 3、50 条。
+- 生产 Playwright 在 375、412、768、1440 宽度重复空状态、JSON/ICS、链接、无溢出与无页面异常检查；**后续注入的 2 条 Fixture 只存在于浏览器拦截响应中**，用于测试时区、ICS、关注和失败反馈，线上原始 JSON 仍是 0 条。
+
 ## 尚未实测
 
-没有 Ticketmaster Key 与已核实 Attraction ID，故未进行真实 Ticketmaster 请求、覆盖率查询或活动结果验收。没有本地 YouTube Key，预约直播试点没有真实请求。GitHub Actions 实际运行、Pages 部署与线上 JSON/前端将在发布后单独记录；定时任务长期稳定性不能由一次手动/推送触发证明。
+没有 Ticketmaster Key 与已核实 Attraction ID，故未进行真实 Ticketmaster 请求、覆盖率查询或活动结果验收。YouTube 的**已检查 50 个视频**并不代表频道所有预约直播；没有启用公开直播视图。定时任务长期稳定性不能由这两次推送触发代替两个实际定时周期证明。

@@ -10,6 +10,8 @@
 
 ## YouTube 与 JYP 官网
 
-[YouTube 开发者政策 III.E.2、III.E.4](https://developers.google.com/youtube/terms/developer-policies)限制 API 数据聚合并要求有限公开元数据在 30 天内刷新或删除。因此预定直播只做独立单频道读取试点，不进入跨频道公共日历或公开 ICS。`videos.list` 可读取 `liveStreamingDetails.scheduledStartTime`，但仅 `upcoming`、同官方频道、公开且有真实时间的视频才可作为候选；标题含 LIVE 不作为证据。`videos.list` 官方列为 1 单位/次；本地未有 Key，实际请求 0。[视频字段](https://developers.google.com/youtube/v3/docs/videos)、[videos.list](https://developers.google.com/youtube/v3/docs/videos/list)。
+[YouTube 开发者政策 III.E.2、III.E.4](https://developers.google.com/youtube/terms/developer-policies)限制 API 数据聚合并要求有限公开元数据在 30 天内刷新或删除。因此预定直播只做独立单频道读取试点，不进入跨频道公共日历或公开 ICS。`videos.list` 可读取 `liveStreamingDetails.scheduledStartTime`，但仅 `upcoming`、同官方频道、公开且有真实时间的视频才可作为候选；标题含 LIVE 不作为证据。`videos.list` 官方列为 1 单位/次；本地无 Key，首次 Actions 试点实际请求 1 次。[视频字段](https://developers.google.com/youtube/v3/docs/videos)、[videos.list](https://developers.google.com/youtube/v3/docs/videos/list)。
 
 JYP 官网维持前阶段的 B 类“仅官方链接”。公开可阅读或 robots 未禁止，不等于允许自动抓取、缓存与再发布。现阶段没有 JYP 官网同步适配器，也不通过网页爬虫填补空日历。未来公开跨频道 YouTube 直播聚合需要平台或权利方明确许可与复核。
+
+首次只读 TWICE 试点在 [Actions 运行 38662893635](https://github.com/faxiusanda9-coder/seoul-os/actions/runs/38662893635)实际成功请求 `videos.list` 一次，按官方文档估算 **1 quota unit**（非 Google Cloud 账单实测值）；回传 50 个视频资源，符合严格 upcoming 判定的预约直播 0 条。该 API 请求没有产生公共活动数据。
