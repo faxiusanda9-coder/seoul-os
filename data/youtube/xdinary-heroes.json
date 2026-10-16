@@ -4,8 +4,188 @@
   "uploadsPlaylistId": "UUO9GhtdQcCRf67GIdSQ0HNQ",
   "artistId": "xdinary-heroes",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-15T12:32:24.511Z",
+  "fetchedAt": "2026-10-16T12:31:38.567Z",
   "items": [
+    {
+      "id": "yt-cg9iMOWdtYA",
+      "source": {
+        "platform": "youtube",
+        "videoId": "cg9iMOWdtYA",
+        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "xdinary-heroes",
+        "name": "Xdinary Heroes"
+      },
+      "title": "Obsessed with #이채연❤️‍🔥",
+      "description": "Obsessed with #이채연❤️‍🔥\n\n#XdinaryHeroes #엑스디너리히어로즈\n#Obsessed_with_Youth\n@official_LCY",
+      "thumbnail": "https://i.ytimg.com/vi/cg9iMOWdtYA/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/cg9iMOWdtYA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/cg9iMOWdtYA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/cg9iMOWdtYA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/cg9iMOWdtYA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/cg9iMOWdtYA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-16T10:00:30.000Z",
+      "url": "https://www.youtube.com/watch?v=cg9iMOWdtYA",
+      "fetchedAt": "2026-10-16T12:31:38.567Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-16T12:31:38.567Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-wBDTCrSkWyI",
+      "source": {
+        "platform": "youtube",
+        "videoId": "wBDTCrSkWyI",
+        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "xdinary-heroes",
+        "name": "Xdinary Heroes"
+      },
+      "title": "Obsessed with #TWS #영재❤️‍🔥",
+      "description": "Obsessed with #TWS #영재❤️‍🔥\n\n#XdinaryHeroes #엑스디너리히어로즈\n#Obsessed_with_Youth\n@TWS_PLEDIS",
+      "thumbnail": "https://i.ytimg.com/vi/wBDTCrSkWyI/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/wBDTCrSkWyI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/wBDTCrSkWyI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/wBDTCrSkWyI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/wBDTCrSkWyI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/wBDTCrSkWyI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-16T07:00:27.000Z",
+      "url": "https://www.youtube.com/watch?v=wBDTCrSkWyI",
+      "fetchedAt": "2026-10-16T12:31:38.567Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-16T12:31:38.567Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-gOG1S_V4be8",
+      "source": {
+        "platform": "youtube",
+        "videoId": "gOG1S_V4be8",
+        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "xdinary-heroes",
+        "name": "Xdinary Heroes"
+      },
+      "title": "Obsessed with #ONEWE #동명❤️‍🔥",
+      "description": "Obsessed with #ONEWE #동명❤️‍🔥\n\n#XdinaryHeroes #엑스디너리히어로즈\n#Obsessed_with_Youth\n@ONEWE",
+      "thumbnail": "https://i.ytimg.com/vi/gOG1S_V4be8/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/gOG1S_V4be8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/gOG1S_V4be8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/gOG1S_V4be8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/gOG1S_V4be8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/gOG1S_V4be8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-16T05:00:27.000Z",
+      "url": "https://www.youtube.com/watch?v=gOG1S_V4be8",
+      "fetchedAt": "2026-10-16T12:31:38.567Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-16T12:31:38.567Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-M-13K3P0u9I",
       "source": {
@@ -2834,186 +3014,6 @@
       ],
       "publishedAt": "2026-09-08T10:00:06.000Z",
       "url": "https://www.youtube.com/watch?v=o269Pp18mgQ",
-      "fetchedAt": "2026-10-14T16:52:37.595Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:37.595Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-IiEwsy8qjNA",
-      "source": {
-        "platform": "youtube",
-        "videoId": "IiEwsy8qjNA",
-        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "xdinary-heroes",
-        "name": "Xdinary Heroes"
-      },
-      "title": "하지 하지 하지마 🦊😺",
-      "description": "하지 하지 하지마 🦊😺\n\n#XdinaryHeroes #엑스디너리히어로즈\n#Jungsu #정수\n#Ode #오드\n#WE_ARE_ALL_HEROES",
-      "thumbnail": "https://i.ytimg.com/vi/IiEwsy8qjNA/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/IiEwsy8qjNA/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/IiEwsy8qjNA/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/IiEwsy8qjNA/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/IiEwsy8qjNA/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/IiEwsy8qjNA/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-07T11:00:32.000Z",
-      "url": "https://www.youtube.com/watch?v=IiEwsy8qjNA",
-      "fetchedAt": "2026-10-14T16:52:37.595Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:37.595Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-eOsXRMXDR94",
-      "source": {
-        "platform": "youtube",
-        "videoId": "eOsXRMXDR94",
-        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "xdinary-heroes",
-        "name": "Xdinary Heroes"
-      },
-      "title": "My name is 🕷️🕸️",
-      "description": "My name is 🕷️🕸️\n\n#XdinaryHeroes #엑스디너리히어로즈\n#Ode #오드\n#WE_ARE_ALL_HEROES",
-      "thumbnail": "https://i.ytimg.com/vi/eOsXRMXDR94/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/eOsXRMXDR94/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/eOsXRMXDR94/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/eOsXRMXDR94/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/eOsXRMXDR94/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/eOsXRMXDR94/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-01T09:05:45.000Z",
-      "url": "https://www.youtube.com/watch?v=eOsXRMXDR94",
-      "fetchedAt": "2026-10-14T16:52:37.595Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:37.595Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-9oy67ATqAT0",
-      "source": {
-        "platform": "youtube",
-        "videoId": "9oy67ATqAT0",
-        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "xdinary-heroes",
-        "name": "Xdinary Heroes"
-      },
-      "title": "Had a Jjoo-d Time 🐺 #3 | Jjoo’s 8 Body Constitution & Personal Color Diagnosis💪🎨 | Xdinary Days",
-      "description": "Had a Jjoo-d Time 🐺 #3 | Jjoo’s 8 Body Constitution & Personal Color Diagnosis💪🎨 | Xdinary Days\n\nListen to Xdinary Heroes \"Voyager\"\nhttps://XdinaryHeroes.lnk.to/DEADAND\n\nXdinary Heroes Official YouTube: https://www.youtube.com/c/xdinaryheroesofficial\nXdinary Heroes Official Fa",
-      "thumbnail": "https://i.ytimg.com/vi/9oy67ATqAT0/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/9oy67ATqAT0/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/9oy67ATqAT0/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/9oy67ATqAT0/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/9oy67ATqAT0/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/9oy67ATqAT0/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-08-31T11:00:03.000Z",
-      "url": "https://www.youtube.com/watch?v=9oy67ATqAT0",
       "fetchedAt": "2026-10-14T16:52:37.595Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:37.595Z",

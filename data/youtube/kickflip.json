@@ -4,8 +4,369 @@
   "uploadsPlaylistId": "UUmq9jjpHA69PwAwlA0DwOsg",
   "artistId": "kickflip",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-16T00:28:54.820Z",
+  "fetchedAt": "2026-10-16T12:31:39.051Z",
   "items": [
+    {
+      "id": "yt-MLD-ZVdAhYs",
+      "source": {
+        "platform": "youtube",
+        "videoId": "MLD-ZVdAhYs",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "KickFlip B-roll “le coq sportif AD” Behind",
+      "description": "#KickFlip #킥플립",
+      "thumbnail": "https://i.ytimg.com/vi/MLD-ZVdAhYs/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/MLD-ZVdAhYs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/MLD-ZVdAhYs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/MLD-ZVdAhYs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/MLD-ZVdAhYs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/MLD-ZVdAhYs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-16T11:00:33.000Z",
+      "url": "https://www.youtube.com/watch?v=MLD-ZVdAhYs",
+      "fetchedAt": "2026-10-16T12:31:39.051Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-16T12:31:39.051Z",
+      "type": "other",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
+    },
+    {
+      "id": "yt-U3FuVNWB8VA",
+      "source": {
+        "platform": "youtube",
+        "videoId": "U3FuVNWB8VA",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "위플립 사랑해요 고마워요 💛✨",
+      "description": "#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1\n#미완성 #Puzzle_Piece",
+      "thumbnail": "https://i.ytimg.com/vi/U3FuVNWB8VA/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/U3FuVNWB8VA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/U3FuVNWB8VA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/U3FuVNWB8VA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/U3FuVNWB8VA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/U3FuVNWB8VA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-16T10:15:11.000Z",
+      "url": "https://www.youtube.com/watch?v=U3FuVNWB8VA",
+      "fetchedAt": "2026-10-16T12:31:39.051Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-16T12:31:39.051Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-wL-gQ3nxETU",
+      "source": {
+        "platform": "youtube",
+        "videoId": "wL-gQ3nxETU",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "뭘 해도 #선미 선배님은 아름다울 거니까 🩵",
+      "description": "#KickFlip #킥플립\n#SUNMI\n#KICKOFFTHEWALL_Pt1\n#미완성 #Puzzle_Piece\n\n@sunmi_official",
+      "thumbnail": "https://i.ytimg.com/vi/wL-gQ3nxETU/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/wL-gQ3nxETU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/wL-gQ3nxETU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/wL-gQ3nxETU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/wL-gQ3nxETU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/wL-gQ3nxETU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-16T09:00:10.000Z",
+      "url": "https://www.youtube.com/watch?v=wL-gQ3nxETU",
+      "fetchedAt": "2026-10-16T12:31:39.051Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-16T12:31:39.051Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-ohYvdKBuSds",
+      "source": {
+        "platform": "youtube",
+        "videoId": "ohYvdKBuSds",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "뭘 해도 #주헌 선배님은 아름다울 거니까 🍯",
+      "description": "#KickFlip #킥플립\n#MONSTAX #몬스타엑스\n#KICKOFFTHEWALL_Pt1\n#미완성 #Puzzle_Piece\n\n@MONSTAX",
+      "thumbnail": "https://i.ytimg.com/vi/ohYvdKBuSds/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/ohYvdKBuSds/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/ohYvdKBuSds/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/ohYvdKBuSds/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/ohYvdKBuSds/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/ohYvdKBuSds/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-16T08:00:08.000Z",
+      "url": "https://www.youtube.com/watch?v=ohYvdKBuSds",
+      "fetchedAt": "2026-10-16T12:31:39.051Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-16T12:31:39.051Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-XNjNUH7XZo8",
+      "source": {
+        "platform": "youtube",
+        "videoId": "XNjNUH7XZo8",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "냥 ฅ^•ﻌ•^ฅ",
+      "description": "#KickFlip #킥플립\n#Keiju #Donghyeon",
+      "thumbnail": "https://i.ytimg.com/vi/XNjNUH7XZo8/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/XNjNUH7XZo8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/XNjNUH7XZo8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/XNjNUH7XZo8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/XNjNUH7XZo8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/XNjNUH7XZo8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-16T07:00:38.000Z",
+      "url": "https://www.youtube.com/watch?v=XNjNUH7XZo8",
+      "fetchedAt": "2026-10-16T12:31:39.051Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-16T12:31:39.051Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-DSeBbHN1D90",
+      "source": {
+        "platform": "youtube",
+        "videoId": "DSeBbHN1D90",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "#闪身步🫸",
+      "description": "#KickFlip #킥플립\n#Juwang #Minje #Keiju",
+      "thumbnail": "https://i.ytimg.com/vi/DSeBbHN1D90/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/DSeBbHN1D90/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/DSeBbHN1D90/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/DSeBbHN1D90/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/DSeBbHN1D90/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/DSeBbHN1D90/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-16T06:00:07.000Z",
+      "url": "https://www.youtube.com/watch?v=DSeBbHN1D90",
+      "fetchedAt": "2026-10-16T12:31:39.051Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-16T12:31:39.051Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-3ueBLmNLs0c",
       "source": {
@@ -2651,373 +3012,6 @@
       ],
       "publishedAt": "2026-10-08T04:30:20.000Z",
       "url": "https://www.youtube.com/watch?v=VidoMmcjHWE",
-      "fetchedAt": "2026-10-14T16:52:38.117Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.117Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-I9UTPvXcte8",
-      "source": {
-        "platform": "youtube",
-        "videoId": "I9UTPvXcte8",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "KickFlip(킥플립) “미완성(Puzzle Piece)” MV Reaction",
-      "description": "#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1 #미완성 #Puzzle_Piece",
-      "thumbnail": "https://i.ytimg.com/vi/I9UTPvXcte8/fhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/I9UTPvXcte8/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/I9UTPvXcte8/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/I9UTPvXcte8/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/I9UTPvXcte8/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/I9UTPvXcte8/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "fhd",
-          "url": "https://i.ytimg.com/vi/I9UTPvXcte8/fhddefault.jpg",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "publishedAt": "2026-10-07T11:00:20.000Z",
-      "url": "https://www.youtube.com/watch?v=I9UTPvXcte8",
-      "fetchedAt": "2026-10-14T16:52:38.117Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.117Z",
-      "type": "other",
-      "category": "music",
-      "subcategory": "official-mv",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.97,
-        "ruleId": "official-mv"
-      }
-    },
-    {
-      "id": "yt-vIo3LP95elI",
-      "source": {
-        "platform": "youtube",
-        "videoId": "vIo3LP95elI",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "𝐊𝐢𝐜𝐤 𝐊𝐢𝐜𝐤 𝐊𝐢𝐜𝐤 𝐊𝐢𝐜𝐤",
-      "description": "KickFlip The 5th Mini Album \"KICK OFF THE WALL Pt. 1\"\n2026.10.06 6PM (KST) Release!\n\n#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1\n#KickOffTheWall",
-      "thumbnail": "https://i.ytimg.com/vi/vIo3LP95elI/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/vIo3LP95elI/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/vIo3LP95elI/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/vIo3LP95elI/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/vIo3LP95elI/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/vIo3LP95elI/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-07T10:00:06.000Z",
-      "url": "https://www.youtube.com/watch?v=vIo3LP95elI",
-      "fetchedAt": "2026-10-14T16:52:38.117Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.117Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-QyY5vTkfc8A",
-      "source": {
-        "platform": "youtube",
-        "videoId": "QyY5vTkfc8A",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "𝗜 𝘄𝗮𝘀 𝗺𝗮𝗱𝗲 𝗳𝗼𝗿 𝗮 𝗯𝗶𝗴𝗴𝗲𝗿 𝗹𝗶𝗳𝗲 🔥",
-      "description": "KickFlip The 5th Mini Album \"KICK OFF THE WALL Pt. 1\"\n2026.10.06 6PM (KST) Release!\n\n#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1\n#KickOffTheWall",
-      "thumbnail": "https://i.ytimg.com/vi/QyY5vTkfc8A/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/QyY5vTkfc8A/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/QyY5vTkfc8A/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/QyY5vTkfc8A/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/QyY5vTkfc8A/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/QyY5vTkfc8A/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-07T09:00:38.000Z",
-      "url": "https://www.youtube.com/watch?v=QyY5vTkfc8A",
-      "fetchedAt": "2026-10-14T16:52:38.117Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.117Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-7PpP_wlp83s",
-      "source": {
-        "platform": "youtube",
-        "videoId": "7PpP_wlp83s",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "주간 브롤돌 커뮤니티 매니저, KickFlip 취임 완료 🛹",
-      "description": "#KickFlip #킥플립\n#브롤스타즈 #주간브롤돌\n#KICKOFFTHEWALL_Pt1 #KickOffTheWall",
-      "thumbnail": "https://i.ytimg.com/vi/7PpP_wlp83s/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/7PpP_wlp83s/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/7PpP_wlp83s/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/7PpP_wlp83s/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/7PpP_wlp83s/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/7PpP_wlp83s/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-07T08:30:06.000Z",
-      "url": "https://www.youtube.com/watch?v=7PpP_wlp83s",
-      "fetchedAt": "2026-10-14T16:52:38.117Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.117Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-l5sP30L_Fu8",
-      "source": {
-        "platform": "youtube",
-        "videoId": "l5sP30L_Fu8",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "𝙒𝙚 𝙜𝙤𝙣’ 𝙠𝙞𝙘𝙠 𝙤𝙛𝙛 𝙩𝙝𝙚 𝙬𝙖𝙡𝙡",
-      "description": "KickFlip The 5th Mini Album \"KICK OFF THE WALL Pt. 1\"\n2026.10.06 6PM (KST) Release!\n\n#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1\n#KickOffTheWall",
-      "thumbnail": "https://i.ytimg.com/vi/l5sP30L_Fu8/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/l5sP30L_Fu8/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/l5sP30L_Fu8/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/l5sP30L_Fu8/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/l5sP30L_Fu8/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/l5sP30L_Fu8/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-07T08:00:32.000Z",
-      "url": "https://www.youtube.com/watch?v=l5sP30L_Fu8",
-      "fetchedAt": "2026-10-14T16:52:38.117Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.117Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-AB7TeaOMyts",
-      "source": {
-        "platform": "youtube",
-        "videoId": "AB7TeaOMyts",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "HAPPY BIRTHDAY KEIJU🎂",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/AB7TeaOMyts/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/AB7TeaOMyts/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/AB7TeaOMyts/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/AB7TeaOMyts/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/AB7TeaOMyts/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/AB7TeaOMyts/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-07T05:30:19.000Z",
-      "url": "https://www.youtube.com/watch?v=AB7TeaOMyts",
       "fetchedAt": "2026-10-14T16:52:38.117Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:38.117Z",

@@ -4,8 +4,69 @@
   "uploadsPlaylistId": "UUzgxx_DM2Dcb9Y1spb9mUJA",
   "artistId": "twice",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-15T12:32:22.449Z",
+  "fetchedAt": "2026-10-16T12:31:36.331Z",
   "items": [
+    {
+      "id": "yt-qcTMapoI-OM",
+      "source": {
+        "platform": "youtube",
+        "videoId": "qcTMapoI-OM",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "TWICE 11th Anniversary MD Shoot Behind Teaser",
+      "description": "TWICE 11th Anniversary MD Shoot Behind Teaser\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.twitter.com/JYPETWICE \nTWICE Offic",
+      "thumbnail": "https://i.ytimg.com/vi/qcTMapoI-OM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/qcTMapoI-OM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/qcTMapoI-OM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/qcTMapoI-OM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/qcTMapoI-OM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/qcTMapoI-OM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-16T09:00:11.000Z",
+      "url": "https://www.youtube.com/watch?v=qcTMapoI-OM",
+      "fetchedAt": "2026-10-16T12:31:36.331Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-16T12:31:36.331Z",
+      "type": "teaser",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
+    },
     {
       "id": "yt-mD3oHeiWtVc",
       "source": {
@@ -2951,66 +3012,6 @@
       ],
       "publishedAt": "2026-07-12T12:49:00.000Z",
       "url": "https://www.youtube.com/watch?v=WJURfGcbG2Y",
-      "fetchedAt": "2026-10-14T16:52:35.634Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-Lip4VdQI3ZI",
-      "source": {
-        "platform": "youtube",
-        "videoId": "Lip4VdQI3ZI",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "This is for ONCE🍭This is for TWICE🩷 #TWICE #트와이스 #THISISFOR #TWICE_THISISFOR_WORLD_TOUR",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/Lip4VdQI3ZI/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/Lip4VdQI3ZI/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/Lip4VdQI3ZI/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/Lip4VdQI3ZI/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/Lip4VdQI3ZI/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/Lip4VdQI3ZI/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-07-11T13:20:44.000Z",
-      "url": "https://www.youtube.com/watch?v=Lip4VdQI3ZI",
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",

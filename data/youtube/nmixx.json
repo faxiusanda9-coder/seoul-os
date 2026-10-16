@@ -4,8 +4,128 @@
   "uploadsPlaylistId": "UUnUAyD4t2LkvW68YrDh7fDg",
   "artistId": "nmixx",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-15T12:32:23.817Z",
+  "fetchedAt": "2026-10-16T12:31:37.650Z",
   "items": [
+    {
+      "id": "yt-dIQC5At_ETQ",
+      "source": {
+        "platform": "youtube",
+        "videoId": "dIQC5At_ETQ",
+        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nmixx",
+        "name": "NMIXX"
+      },
+      "title": "우리의 birthday 🥳 #NMIXX #엔믹스 #Strange_Muse #긴소원_BirthdayWish",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/dIQC5At_ETQ/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/dIQC5At_ETQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/dIQC5At_ETQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/dIQC5At_ETQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/dIQC5At_ETQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/dIQC5At_ETQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-16T11:00:19.000Z",
+      "url": "https://www.youtube.com/watch?v=dIQC5At_ETQ",
+      "fetchedAt": "2026-10-16T12:31:37.650Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-16T12:31:37.650Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-wF9w84DZiYY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "wF9w84DZiYY",
+        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nmixx",
+        "name": "NMIXX"
+      },
+      "title": "𝐃-𝟑 .ᐟ.ᐟ #NMIXX #엔믹스 #Strange_Muse #긴소원_BirthdayWish",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/wF9w84DZiYY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/wF9w84DZiYY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/wF9w84DZiYY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/wF9w84DZiYY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/wF9w84DZiYY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/wF9w84DZiYY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-16T09:00:07.000Z",
+      "url": "https://www.youtube.com/watch?v=wF9w84DZiYY",
+      "fetchedAt": "2026-10-16T12:31:37.650Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-16T12:31:37.650Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-T-MpzEW04Y4",
       "source": {
@@ -2916,133 +3036,6 @@
       ],
       "publishedAt": "2026-09-04T11:00:03.000Z",
       "url": "https://www.youtube.com/watch?v=uGRM-j3hAUg",
-      "fetchedAt": "2026-10-14T16:52:36.836Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:36.836Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-5KjRZCZbfus",
-      "source": {
-        "platform": "youtube",
-        "videoId": "5KjRZCZbfus",
-        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nmixx",
-        "name": "NMIXX"
-      },
-      "title": "일본에서 강아지우 산책해 줄 분 구해요🤚 | 지우 휴가 브이로그 | MIXX Log",
-      "description": "일본에서 강아지우 산책해 줄 분 구해요🤚 | 지우 휴가 브이로그 | MIXX Log\n\nNMIXX Official YouTube ▶ https://www.youtube.com/c/NMIXXOfficial \nNMIXX Official X ▶ https://x.com/NMIXX_official\nNMIXX Official X(Members) ▶ https://x.com/WE_NMIXX\nNMIXX Official Instagram ▶ https://www.instagram.com/nmixx_officia",
-      "thumbnail": "https://i.ytimg.com/vi/5KjRZCZbfus/fhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/5KjRZCZbfus/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/5KjRZCZbfus/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/5KjRZCZbfus/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/5KjRZCZbfus/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/5KjRZCZbfus/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "fhd",
-          "url": "https://i.ytimg.com/vi/5KjRZCZbfus/fhddefault.jpg",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "publishedAt": "2026-09-04T09:00:02.000Z",
-      "url": "https://www.youtube.com/watch?v=5KjRZCZbfus",
-      "fetchedAt": "2026-10-14T16:52:36.836Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:36.836Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt-jIxbCxF3pbE",
-      "source": {
-        "platform": "youtube",
-        "videoId": "jIxbCxF3pbE",
-        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nmixx",
-        "name": "NMIXX"
-      },
-      "title": "릴리리야 릴리딩 LILY’s Lost The Plot #27 𝑰𝒏𝒕𝒆𝒓𝒔𝒕𝒆𝒍𝒍𝒂𝒓 (SPOILERS) 👗",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/jIxbCxF3pbE/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/jIxbCxF3pbE/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/jIxbCxF3pbE/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/jIxbCxF3pbE/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/jIxbCxF3pbE/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/jIxbCxF3pbE/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-03T15:10:03.000Z",
-      "url": "https://www.youtube.com/watch?v=jIxbCxF3pbE",
       "fetchedAt": "2026-10-14T16:52:36.836Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:36.836Z",

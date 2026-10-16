@@ -4,8 +4,501 @@
   "uploadsPlaylistId": "UUDhM2k2Cua-JdobAh5moMFg",
   "artistId": "itzy",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-15T12:32:23.410Z",
+  "fetchedAt": "2026-10-16T12:31:37.200Z",
   "items": [
+    {
+      "id": "yt-4vmBvGMSLBw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "4vmBvGMSLBw",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "YUNA \"Tangerine\" @ 'TUNNEL VISION' in SINGAPORE",
+      "description": "YUNA \"Tangerine\" @ 'TUNNEL VISION' in SINGAPORE\n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOfficial\n▶ http://www.facebook.",
+      "thumbnail": "https://i.ytimg.com/vi/4vmBvGMSLBw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/4vmBvGMSLBw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/4vmBvGMSLBw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/4vmBvGMSLBw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/4vmBvGMSLBw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/4vmBvGMSLBw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-16T10:00:04.000Z",
+      "url": "https://www.youtube.com/watch?v=4vmBvGMSLBw",
+      "fetchedAt": "2026-10-16T12:31:37.200Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-16T12:31:37.200Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-ctGc_IBlJ74",
+      "source": {
+        "platform": "youtube",
+        "videoId": "ctGc_IBlJ74",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "CHAERYEONG \"Undefined\" @ 'TUNNEL VISION' in SINGAPORE",
+      "description": "CHAERYEONG \"Undefined\" @ 'TUNNEL VISION' in SINGAPORE\n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOfficial\n▶ http://www.fac",
+      "thumbnail": "https://i.ytimg.com/vi/ctGc_IBlJ74/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/ctGc_IBlJ74/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/ctGc_IBlJ74/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/ctGc_IBlJ74/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/ctGc_IBlJ74/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/ctGc_IBlJ74/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-16T09:59:59.000Z",
+      "url": "https://www.youtube.com/watch?v=ctGc_IBlJ74",
+      "fetchedAt": "2026-10-16T12:31:37.200Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-16T12:31:37.200Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-ShQUAsdpj4s",
+      "source": {
+        "platform": "youtube",
+        "videoId": "ShQUAsdpj4s",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "RYUJIN \"LOOK\" @ 'TUNNEL VISION' in SINGAPORE",
+      "description": "RYUJIN \"LOOK\" @ 'TUNNEL VISION' in SINGAPORE\n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOfficial\n▶ http://www.facebook.com",
+      "thumbnail": "https://i.ytimg.com/vi/ShQUAsdpj4s/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/ShQUAsdpj4s/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/ShQUAsdpj4s/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/ShQUAsdpj4s/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/ShQUAsdpj4s/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/ShQUAsdpj4s/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-16T09:59:51.000Z",
+      "url": "https://www.youtube.com/watch?v=ShQUAsdpj4s",
+      "fetchedAt": "2026-10-16T12:31:37.200Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-16T12:31:37.200Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-rPQB_k4MT-0",
+      "source": {
+        "platform": "youtube",
+        "videoId": "rPQB_k4MT-0",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "LIA \"Asylum\" @ 'TUNNEL VISION' in SINGAPORE",
+      "description": "LIA \"Asylum\" @ 'TUNNEL VISION' in SINGAPORE\n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOfficial\n▶ http://www.facebook.com/",
+      "thumbnail": "https://i.ytimg.com/vi/rPQB_k4MT-0/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/rPQB_k4MT-0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/rPQB_k4MT-0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/rPQB_k4MT-0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/rPQB_k4MT-0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/rPQB_k4MT-0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-16T09:59:47.000Z",
+      "url": "https://www.youtube.com/watch?v=rPQB_k4MT-0",
+      "fetchedAt": "2026-10-16T12:31:37.200Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-16T12:31:37.200Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-QglH2zPsKzY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "QglH2zPsKzY",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "YEJI \"Pocket\" @ 'TUNNEL VISION' in SINGAPORE",
+      "description": "YEJI \"Pocket\" @ 'TUNNEL VISION' in SINGAPORE\n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOfficial\n▶ http://www.facebook.com",
+      "thumbnail": "https://i.ytimg.com/vi/QglH2zPsKzY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/QglH2zPsKzY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/QglH2zPsKzY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/QglH2zPsKzY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/QglH2zPsKzY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/QglH2zPsKzY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-16T09:59:44.000Z",
+      "url": "https://www.youtube.com/watch?v=QglH2zPsKzY",
+      "fetchedAt": "2026-10-16T12:31:37.200Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-16T12:31:37.200Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-LRLuMssDOGs",
+      "source": {
+        "platform": "youtube",
+        "videoId": "LRLuMssDOGs",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "ITZY \"THAT'S A NO NO\" @ 'TUNNEL VISION' in SINGAPORE",
+      "description": "ITZY \"THAT'S A NO NO\" @ 'TUNNEL VISION' in SINGAPORE\n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOfficial\n▶ http://www.face",
+      "thumbnail": "https://i.ytimg.com/vi/LRLuMssDOGs/fhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/LRLuMssDOGs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/LRLuMssDOGs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/LRLuMssDOGs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/LRLuMssDOGs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/LRLuMssDOGs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "fhd",
+          "url": "https://i.ytimg.com/vi/LRLuMssDOGs/fhddefault.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "publishedAt": "2026-10-16T09:59:35.000Z",
+      "url": "https://www.youtube.com/watch?v=LRLuMssDOGs",
+      "fetchedAt": "2026-10-16T12:31:37.200Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-16T12:31:37.200Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-SMlOP-A6gek",
+      "source": {
+        "platform": "youtube",
+        "videoId": "SMlOP-A6gek",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "[TOUR-LOG] EP11 #RYUJIN #AMSTERDAM | ITZY 3RD WORLD TOUR 'TUNNEL VISION'",
+      "description": "[TOUR-LOG] EP11 #RYUJIN #AMSTERDAM | ITZY 3RD WORLD TOUR 'TUNNEL VISION'\n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOffici",
+      "thumbnail": "https://i.ytimg.com/vi/SMlOP-A6gek/fhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/SMlOP-A6gek/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/SMlOP-A6gek/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/SMlOP-A6gek/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/SMlOP-A6gek/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/SMlOP-A6gek/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "fhd",
+          "url": "https://i.ytimg.com/vi/SMlOP-A6gek/fhddefault.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "publishedAt": "2026-10-16T09:00:00.000Z",
+      "url": "https://www.youtube.com/watch?v=SMlOP-A6gek",
+      "fetchedAt": "2026-10-16T12:31:37.200Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-16T12:31:37.200Z",
+      "type": "other",
+      "category": "behind",
+      "subcategory": "tour-log",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.84,
+        "ruleId": "tour-log"
+      }
+    },
+    {
+      "id": "yt-FnurncvSyD0",
+      "source": {
+        "platform": "youtube",
+        "videoId": "FnurncvSyD0",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "보름달이 뜨는 날‧⁺ ⊹˚.🌕 #ITZY #CHAERYEONG #채령 #SUNMI #선미 #shorts @sunmi_official",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/FnurncvSyD0/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/FnurncvSyD0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/FnurncvSyD0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/FnurncvSyD0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/FnurncvSyD0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/FnurncvSyD0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-16T05:00:37.000Z",
+      "url": "https://www.youtube.com/watch?v=FnurncvSyD0",
+      "fetchedAt": "2026-10-16T12:31:37.200Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-16T12:31:37.200Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-RMpRsPiSdU8",
       "source": {
@@ -2676,516 +3169,6 @@
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-_Pdz_FaUHjs",
-      "source": {
-        "platform": "youtube",
-        "videoId": "_Pdz_FaUHjs",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "좀비 따라하는 방법 (ITZY ver.) #ITZY #MIDZY #다다있지 #DaDaITZY",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/_Pdz_FaUHjs/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/_Pdz_FaUHjs/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/_Pdz_FaUHjs/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/_Pdz_FaUHjs/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/_Pdz_FaUHjs/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/_Pdz_FaUHjs/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-03T09:35:27.000Z",
-      "url": "https://www.youtube.com/watch?v=_Pdz_FaUHjs",
-      "fetchedAt": "2026-10-14T16:52:36.440Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:36.440Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-YkmHUUfRZQU",
-      "source": {
-        "platform": "youtube",
-        "videoId": "YkmHUUfRZQU",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "DaDa-ITZY EP.02 | Gonna defeat the zombies! Let’s just play with them! It's scary.. No, it's cute..",
-      "description": "DaDa-ITZY EP.02 | Gonna defeat the zombies! Let’s just play with them! It's scary.. No, it's cute..\n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http:/",
-      "thumbnail": "https://i.ytimg.com/vi/YkmHUUfRZQU/fhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/YkmHUUfRZQU/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/YkmHUUfRZQU/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/YkmHUUfRZQU/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/YkmHUUfRZQU/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/YkmHUUfRZQU/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "fhd",
-          "url": "https://i.ytimg.com/vi/YkmHUUfRZQU/fhddefault.jpg",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "publishedAt": "2026-09-03T08:59:58.000Z",
-      "url": "https://www.youtube.com/watch?v=YkmHUUfRZQU",
-      "fetchedAt": "2026-10-14T16:52:36.440Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:36.440Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt-7qMrnnVgKR8",
-      "source": {
-        "platform": "youtube",
-        "videoId": "7qMrnnVgKR8",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "[ITZY?ITZY!] EP 265 | The 5th Fan Meeting ITZY MIDZY, Let’s Fly! “ALL IN, MIDZY”",
-      "description": "[ITZY?ITZY!] EP 265 | The 5th Fan Meeting ITZY MIDZY, Let’s Fly! “ALL IN, MIDZY”\n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/IT",
-      "thumbnail": "https://i.ytimg.com/vi/7qMrnnVgKR8/fhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/7qMrnnVgKR8/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/7qMrnnVgKR8/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/7qMrnnVgKR8/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/7qMrnnVgKR8/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/7qMrnnVgKR8/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "fhd",
-          "url": "https://i.ytimg.com/vi/7qMrnnVgKR8/fhddefault.jpg",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "publishedAt": "2026-09-01T09:00:05.000Z",
-      "url": "https://www.youtube.com/watch?v=7qMrnnVgKR8",
-      "fetchedAt": "2026-10-14T16:52:36.440Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:36.440Z",
-      "type": "other",
-      "category": "fan",
-      "subcategory": "fan-content",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.86,
-        "ruleId": "fan-message"
-      }
-    },
-    {
-      "id": "yt-KJvHlSO3YoQ",
-      "source": {
-        "platform": "youtube",
-        "videoId": "KJvHlSO3YoQ",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "ITZY “Trust Me (MIDZY) + Chillin' Chillin'” @ ITZY The 5th Fan Meeting “ALL IN, MIDZY”",
-      "description": "ITZY “Trust Me (MIDZY) + Chillin' Chillin'” @ ITZY The 5th Fan Meeting “ALL IN, MIDZY”\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOfficial\n▶ http://www.facebook.c",
-      "thumbnail": "https://i.ytimg.com/vi/KJvHlSO3YoQ/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/KJvHlSO3YoQ/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/KJvHlSO3YoQ/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/KJvHlSO3YoQ/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/KJvHlSO3YoQ/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/KJvHlSO3YoQ/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-08-31T09:59:58.000Z",
-      "url": "https://www.youtube.com/watch?v=KJvHlSO3YoQ",
-      "fetchedAt": "2026-10-14T16:52:36.440Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:36.440Z",
-      "type": "other",
-      "category": "fan",
-      "subcategory": "fan-content",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.86,
-        "ruleId": "fan-message"
-      }
-    },
-    {
-      "id": "yt-32DF6LzOW-w",
-      "source": {
-        "platform": "youtube",
-        "videoId": "32DF6LzOW-w",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "ITZY “DOMINO + NOBODY LIKE YOU” @ ITZY The 5th Fan Meeting “ALL IN, MIDZY”",
-      "description": "ITZY “DOMINO + NOBODY LIKE YOU” @ ITZY The 5th Fan Meeting “ALL IN, MIDZY”\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOfficial\n▶ http://www.facebook.com/OfficialI",
-      "thumbnail": "https://i.ytimg.com/vi/32DF6LzOW-w/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/32DF6LzOW-w/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/32DF6LzOW-w/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/32DF6LzOW-w/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/32DF6LzOW-w/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/32DF6LzOW-w/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-08-31T08:59:57.000Z",
-      "url": "https://www.youtube.com/watch?v=32DF6LzOW-w",
-      "fetchedAt": "2026-10-14T16:52:36.440Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:36.440Z",
-      "type": "other",
-      "category": "fan",
-      "subcategory": "fan-content",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.86,
-        "ruleId": "fan-message"
-      }
-    },
-    {
-      "id": "yt-osCDBqH4f-8",
-      "source": {
-        "platform": "youtube",
-        "videoId": "osCDBqH4f-8",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "진짜? - ̗̀  (⌯ˊᗜˋ⌯)  ̖́- #ITZY #MIDZY#YUNA #유나",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/osCDBqH4f-8/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/osCDBqH4f-8/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/osCDBqH4f-8/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/osCDBqH4f-8/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/osCDBqH4f-8/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/osCDBqH4f-8/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-08-30T08:00:23.000Z",
-      "url": "https://www.youtube.com/watch?v=osCDBqH4f-8",
-      "fetchedAt": "2026-10-14T16:52:36.440Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:36.440Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-pI9fRAEyino",
-      "source": {
-        "platform": "youtube",
-        "videoId": "pI9fRAEyino",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "[TOUR-LOG] EP06 #RYUJIN #BANGKOK | ITZY 3RD WORLD TOUR 'TUNNEL VISION'",
-      "description": "[TOUR-LOG] EP06 #RYUJIN #BANGKOK | ITZY 3RD WORLD TOUR 'TUNNEL VISION'\n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOfficial",
-      "thumbnail": "https://i.ytimg.com/vi/pI9fRAEyino/fhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/pI9fRAEyino/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/pI9fRAEyino/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/pI9fRAEyino/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/pI9fRAEyino/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/pI9fRAEyino/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "fhd",
-          "url": "https://i.ytimg.com/vi/pI9fRAEyino/fhddefault.jpg",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "publishedAt": "2026-08-28T09:00:08.000Z",
-      "url": "https://www.youtube.com/watch?v=pI9fRAEyino",
-      "fetchedAt": "2026-10-14T16:52:36.440Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:36.440Z",
-      "type": "other",
-      "category": "behind",
-      "subcategory": "tour-log",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.84,
-        "ruleId": "tour-log"
-      }
-    },
-    {
-      "id": "yt--TSb2XSiryM",
-      "source": {
-        "platform": "youtube",
-        "videoId": "-TSb2XSiryM",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "DaDa-ITZY EP.01 | ˗ˏˋ SHOCKING ˎˊ˗ ITZY, Scaredy-Cats? 😱 WAKPPU Ball hunting in tears 🥹",
-      "description": "DaDa-ITZY EP.01 | ˗ˏˋ SHOCKING ˎˊ˗ ITZY, Scaredy-Cats? 😱 WAKPPU Ball hunting in tears 🥹\n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitt",
-      "thumbnail": "https://i.ytimg.com/vi/-TSb2XSiryM/fhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/-TSb2XSiryM/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/-TSb2XSiryM/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/-TSb2XSiryM/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/-TSb2XSiryM/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/-TSb2XSiryM/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "fhd",
-          "url": "https://i.ytimg.com/vi/-TSb2XSiryM/fhddefault.jpg",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "publishedAt": "2026-08-27T09:00:02.000Z",
-      "url": "https://www.youtube.com/watch?v=-TSb2XSiryM",
-      "fetchedAt": "2026-10-14T16:52:36.440Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:36.440Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
       }
     }
   ]
