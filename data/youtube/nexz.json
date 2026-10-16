@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UU-o9yrZxu5Ru-DVGhnmeTug",
   "artistId": "nexz",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-15T12:32:25.637Z",
+  "fetchedAt": "2026-10-16T00:28:55.994Z",
   "items": [
+    {
+      "id": "yt-HG8wKAktc-4",
+      "source": {
+        "platform": "youtube",
+        "videoId": "HG8wKAktc-4",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "What MOYA sees in Buenos Aires | #TOMOYA",
+      "description": "#NEXZ #TOMOYA\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
+      "thumbnail": "https://i.ytimg.com/vi/HG8wKAktc-4/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/HG8wKAktc-4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/HG8wKAktc-4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/HG8wKAktc-4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/HG8wKAktc-4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/HG8wKAktc-4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-15T13:00:20.000Z",
+      "url": "https://www.youtube.com/watch?v=HG8wKAktc-4",
+      "fetchedAt": "2026-10-16T00:28:55.994Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-16T00:28:55.994Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-r25_rjlBzzA",
       "source": {
@@ -2959,66 +3019,6 @@
       ],
       "publishedAt": "2026-10-02T11:00:36.000Z",
       "url": "https://www.youtube.com/watch?v=1YK9UWZPJ34",
-      "fetchedAt": "2026-10-14T16:52:39.086Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:39.086Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-J2k97KneCrM",
-      "source": {
-        "platform": "youtube",
-        "videoId": "J2k97KneCrM",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "POV: NEX2Y 금단현상🥺 | #NEXZ",
-      "description": "#NEXZ\n#SAUCIN #NEXZ_SAUCIN\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
-      "thumbnail": "https://i.ytimg.com/vi/J2k97KneCrM/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/J2k97KneCrM/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/J2k97KneCrM/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/J2k97KneCrM/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/J2k97KneCrM/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/J2k97KneCrM/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-02T10:00:19.000Z",
-      "url": "https://www.youtube.com/watch?v=J2k97KneCrM",
       "fetchedAt": "2026-10-14T16:52:39.086Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:39.086Z",

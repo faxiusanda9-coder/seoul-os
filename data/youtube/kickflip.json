@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUmq9jjpHA69PwAwlA0DwOsg",
   "artistId": "kickflip",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-15T12:32:24.876Z",
+  "fetchedAt": "2026-10-16T00:28:54.820Z",
   "items": [
+    {
+      "id": "yt-3ueBLmNLs0c",
+      "source": {
+        "platform": "youtube",
+        "videoId": "3ueBLmNLs0c",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "My sweetie ⊹˚₊",
+      "description": "#KicFlip #킥플립\n#Keiju #Donghyeon\n#KICKOFFTHEWALL_Pt1",
+      "thumbnail": "https://i.ytimg.com/vi/3ueBLmNLs0c/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/3ueBLmNLs0c/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/3ueBLmNLs0c/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/3ueBLmNLs0c/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/3ueBLmNLs0c/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/3ueBLmNLs0c/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-15T13:00:05.000Z",
+      "url": "https://www.youtube.com/watch?v=3ueBLmNLs0c",
+      "fetchedAt": "2026-10-16T00:28:54.820Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-16T00:28:54.820Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-u-v7GNBrpx0",
       "source": {
@@ -2958,66 +3018,6 @@
       ],
       "publishedAt": "2026-10-07T05:30:19.000Z",
       "url": "https://www.youtube.com/watch?v=AB7TeaOMyts",
-      "fetchedAt": "2026-10-14T16:52:38.117Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.117Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-4df4fcrvU64",
-      "source": {
-        "platform": "youtube",
-        "videoId": "4df4fcrvU64",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "뭘 해도 #조나단 님은 아름다울 거니까 ✈️",
-      "description": "KickFlip The 5th Mini Album \"KICK OFF THE WALL Pt. 1\"\n2026.10.06 6PM (KST) Release!\n\n#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1\n#미완성 #Puzzle_Piece\n\n@yjonathan",
-      "thumbnail": "https://i.ytimg.com/vi/4df4fcrvU64/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/4df4fcrvU64/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/4df4fcrvU64/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/4df4fcrvU64/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/4df4fcrvU64/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/4df4fcrvU64/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-07T03:00:27.000Z",
-      "url": "https://www.youtube.com/watch?v=4df4fcrvU64",
       "fetchedAt": "2026-10-14T16:52:38.117Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:38.117Z",
