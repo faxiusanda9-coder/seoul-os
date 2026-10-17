@@ -4,8 +4,136 @@
   "uploadsPlaylistId": "UUSskmnvIhEy3nSZxxVKTeIg",
   "artistId": "girlset",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-14T16:52:41.420Z",
+  "fetchedAt": "2026-10-17T00:30:07.976Z",
   "items": [
+    {
+      "id": "yt-47TXLR-hza0",
+      "source": {
+        "platform": "youtube",
+        "videoId": "47TXLR-hza0",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "halloween horror nights vlog part 1 out now #GIRLSET #CHAT",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/47TXLR-hza0/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/47TXLR-hza0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/47TXLR-hza0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/47TXLR-hza0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/47TXLR-hza0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/47TXLR-hza0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-16T17:37:41.000Z",
+      "url": "https://www.youtube.com/watch?v=47TXLR-hza0",
+      "fetchedAt": "2026-10-17T00:30:07.976Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-17T00:30:07.976Z",
+      "type": "other",
+      "category": "variety",
+      "subcategory": "series",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.9,
+        "ruleId": "variety-series"
+      }
+    },
+    {
+      "id": "yt-A21uqRdvJDY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "A21uqRdvJDY",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "GIRLSET Halloween Horror Nights Vlog Part 1",
+      "description": "GIRLSET \"CHAT\" Spotify: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official Website: https://girlset.com\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://www.twitter.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/",
+      "thumbnail": "https://i.ytimg.com/vi/A21uqRdvJDY/uhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/A21uqRdvJDY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/A21uqRdvJDY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/A21uqRdvJDY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/A21uqRdvJDY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/A21uqRdvJDY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "uhd",
+          "url": "https://i.ytimg.com/vi/A21uqRdvJDY/uhddefault.jpg",
+          "width": 3840,
+          "height": 2160
+        }
+      ],
+      "publishedAt": "2026-10-16T17:30:05.000Z",
+      "url": "https://www.youtube.com/watch?v=A21uqRdvJDY",
+      "fetchedAt": "2026-10-17T00:30:07.976Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-17T00:30:07.976Z",
+      "type": "other",
+      "category": "variety",
+      "subcategory": "series",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.9,
+        "ruleId": "variety-series"
+      }
+    },
     {
       "id": "yt-mP1nfeDPgew",
       "source": {
@@ -2942,126 +3070,6 @@
         "method": "rule",
         "confidence": 0.91,
         "ruleId": "music-performance"
-      }
-    },
-    {
-      "id": "yt-LSpRuctWObs",
-      "source": {
-        "platform": "youtube",
-        "videoId": "LSpRuctWObs",
-        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "girlset",
-        "name": "GIRLSET"
-      },
-      "title": "when savanna’s in the CHAT #GIRLSET #Savanna #CHAT",
-      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/LSpRuctWObs/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/LSpRuctWObs/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/LSpRuctWObs/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/LSpRuctWObs/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/LSpRuctWObs/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/LSpRuctWObs/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-08-10T16:01:58.000Z",
-      "url": "https://www.youtube.com/watch?v=LSpRuctWObs",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-DWBTAIuD-Wo",
-      "source": {
-        "platform": "youtube",
-        "videoId": "DWBTAIuD-Wo",
-        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "girlset",
-        "name": "GIRLSET"
-      },
-      "title": "when kendall’s in the CHAT #GIRLSET #Kendall #CHAT",
-      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/DWBTAIuD-Wo/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/DWBTAIuD-Wo/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/DWBTAIuD-Wo/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/DWBTAIuD-Wo/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/DWBTAIuD-Wo/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/DWBTAIuD-Wo/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-08-09T16:16:15.000Z",
-      "url": "https://www.youtube.com/watch?v=DWBTAIuD-Wo",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
       }
     }
   ]

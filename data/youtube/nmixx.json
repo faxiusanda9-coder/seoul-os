@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUnUAyD4t2LkvW68YrDh7fDg",
   "artistId": "nmixx",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-16T12:31:37.650Z",
+  "fetchedAt": "2026-10-17T00:30:02.556Z",
   "items": [
+    {
+      "id": "yt-MJ_W1hkgHmw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "MJ_W1hkgHmw",
+        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nmixx",
+        "name": "NMIXX"
+      },
+      "title": "엔써 자물쇠 찾아봐라~♡ #NMIXX #엔믹스 #Strange_Muse #긴소원_BirthdayWish",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/MJ_W1hkgHmw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/MJ_W1hkgHmw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/MJ_W1hkgHmw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/MJ_W1hkgHmw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/MJ_W1hkgHmw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/MJ_W1hkgHmw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-16T13:30:17.000Z",
+      "url": "https://www.youtube.com/watch?v=MJ_W1hkgHmw",
+      "fetchedAt": "2026-10-17T00:30:02.556Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-17T00:30:02.556Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-dIQC5At_ETQ",
       "source": {
@@ -2985,66 +3045,6 @@
         "method": "rule",
         "confidence": 0.95,
         "ruleId": "making"
-      }
-    },
-    {
-      "id": "yt-uGRM-j3hAUg",
-      "source": {
-        "platform": "youtube",
-        "videoId": "uGRM-j3hAUg",
-        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nmixx",
-        "name": "NMIXX"
-      },
-      "title": "ɪɴsɪᴅᴇ ᴏᴜᴛ #NMIXX #엔믹스 #설윤 #SULLYOON",
-      "description": "ɪɴsɪᴅᴇ ᴏᴜᴛ #NMIXX #엔믹스 #설윤 #SULLYOON\n\nNMIXX Official YouTube ▶ https://www.youtube.com/c/NMIXXOfficial\nNMIXX Official X ▶ https://x.com/NMIXX_official\nNMIXX Official X(Members) ▶ https://x.com/WE_NMIXX\nNMIXX Official Instagram ▶ https://www.instagram.com/nmixx_official/\nNMIXX Off",
-      "thumbnail": "https://i.ytimg.com/vi/uGRM-j3hAUg/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/uGRM-j3hAUg/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/uGRM-j3hAUg/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/uGRM-j3hAUg/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/uGRM-j3hAUg/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/uGRM-j3hAUg/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-04T11:00:03.000Z",
-      "url": "https://www.youtube.com/watch?v=uGRM-j3hAUg",
-      "fetchedAt": "2026-10-14T16:52:36.836Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:36.836Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
       }
     }
   ]
