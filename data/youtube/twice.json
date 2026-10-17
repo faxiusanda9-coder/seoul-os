@@ -4,7 +4,7 @@
   "uploadsPlaylistId": "UUzgxx_DM2Dcb9Y1spb9mUJA",
   "artistId": "twice",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-17T04:23:02.889Z",
+  "fetchedAt": "2026-10-17T12:24:17.673Z",
   "items": [
     {
       "id": "yt-jcmVRR_BnZU",
@@ -20,50 +20,50 @@
       },
       "title": "TWICE 11th ANNIVERSARY YouTube Live🎡",
       "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/jcmVRR_BnZU/fhddefault_live.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/jcmVRR_BnZU/fhddefault.jpg",
       "thumbnails": [
         {
           "quality": "default",
-          "url": "https://i.ytimg.com/vi/jcmVRR_BnZU/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/jcmVRR_BnZU/default.jpg",
           "width": 120,
           "height": 90
         },
         {
           "quality": "medium",
-          "url": "https://i.ytimg.com/vi/jcmVRR_BnZU/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/jcmVRR_BnZU/mqdefault.jpg",
           "width": 320,
           "height": 180
         },
         {
           "quality": "high",
-          "url": "https://i.ytimg.com/vi/jcmVRR_BnZU/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/jcmVRR_BnZU/hqdefault.jpg",
           "width": 480,
           "height": 360
         },
         {
           "quality": "standard",
-          "url": "https://i.ytimg.com/vi/jcmVRR_BnZU/sddefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/jcmVRR_BnZU/sddefault.jpg",
           "width": 640,
           "height": 480
         },
         {
           "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/jcmVRR_BnZU/maxresdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/jcmVRR_BnZU/maxresdefault.jpg",
           "width": 1280,
           "height": 720
         },
         {
           "quality": "fhd",
-          "url": "https://i.ytimg.com/vi/jcmVRR_BnZU/fhddefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/jcmVRR_BnZU/fhddefault.jpg",
           "width": 1920,
           "height": 1080
         }
       ],
-      "publishedAt": "2026-10-16T11:05:18.000Z",
+      "publishedAt": "2026-10-17T11:33:11.000Z",
       "url": "https://www.youtube.com/watch?v=jcmVRR_BnZU",
-      "fetchedAt": "2026-10-17T04:23:02.889Z",
+      "fetchedAt": "2026-10-17T12:24:17.673Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-17T04:23:02.889Z",
+      "lastValidatedAt": "2026-10-17T12:24:17.673Z",
       "type": "other",
       "category": "live",
       "subcategory": "livestream",

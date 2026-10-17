@@ -4,8 +4,368 @@
   "uploadsPlaylistId": "UUmq9jjpHA69PwAwlA0DwOsg",
   "artistId": "kickflip",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-16T12:31:39.051Z",
+  "fetchedAt": "2026-10-17T12:24:20.266Z",
   "items": [
+    {
+      "id": "yt-o00b-7Xc12E",
+      "source": {
+        "platform": "youtube",
+        "videoId": "o00b-7Xc12E",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "뭘 해도 #ALEJANDRO #KENNETH 님은 아름다울 거니까 🎶",
+      "description": "#KickFlip #킥플립\n#SANTOSBRAVOS #STBV\n#KICKOFFTHEWALL_Pt1\n#미완성 #Puzzle_Piece\n\n@Santos_Bravos",
+      "thumbnail": "https://i.ytimg.com/vi/o00b-7Xc12E/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/o00b-7Xc12E/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/o00b-7Xc12E/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/o00b-7Xc12E/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/o00b-7Xc12E/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/o00b-7Xc12E/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-17T12:00:20.000Z",
+      "url": "https://www.youtube.com/watch?v=o00b-7Xc12E",
+      "fetchedAt": "2026-10-17T12:24:20.266Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-17T12:24:20.266Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-Y9FvPc0bs44",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Y9FvPc0bs44",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "KICK OFF THE WALL Pt. 1 2nd WIN 🏆",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/Y9FvPc0bs44/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Y9FvPc0bs44/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Y9FvPc0bs44/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Y9FvPc0bs44/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Y9FvPc0bs44/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Y9FvPc0bs44/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-17T11:30:25.000Z",
+      "url": "https://www.youtube.com/watch?v=Y9FvPc0bs44",
+      "fetchedAt": "2026-10-17T12:24:20.266Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-17T12:24:20.266Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-3qtujndXoQQ",
+      "source": {
+        "platform": "youtube",
+        "videoId": "3qtujndXoQQ",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "시러 시러 시러 😡💢💢💢",
+      "description": "#KicFlip #킥플립\n#주왕 #Juwang\n#KICKOFFTHEWALL_Pt1",
+      "thumbnail": "https://i.ytimg.com/vi/3qtujndXoQQ/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/3qtujndXoQQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/3qtujndXoQQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/3qtujndXoQQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/3qtujndXoQQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/3qtujndXoQQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-17T11:00:27.000Z",
+      "url": "https://www.youtube.com/watch?v=3qtujndXoQQ",
+      "fetchedAt": "2026-10-17T12:24:20.266Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-17T12:24:20.266Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-qDcUT9NlEns",
+      "source": {
+        "platform": "youtube",
+        "videoId": "qDcUT9NlEns",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "KICK OFF THE WALL Pt. 1 1st WIN 🏆",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/qDcUT9NlEns/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/qDcUT9NlEns/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/qDcUT9NlEns/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/qDcUT9NlEns/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/qDcUT9NlEns/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/qDcUT9NlEns/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-17T10:30:33.000Z",
+      "url": "https://www.youtube.com/watch?v=qDcUT9NlEns",
+      "fetchedAt": "2026-10-17T12:24:20.266Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-17T12:24:20.266Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-5D6bcWuopzk",
+      "source": {
+        "platform": "youtube",
+        "videoId": "5D6bcWuopzk",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "💨💨💨🫢",
+      "description": "#KicFlip #킥플립\n#KICKOFFTHEWALL_Pt1\n#미완성 #Puzzle_Piece",
+      "thumbnail": "https://i.ytimg.com/vi/5D6bcWuopzk/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/5D6bcWuopzk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/5D6bcWuopzk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/5D6bcWuopzk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/5D6bcWuopzk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/5D6bcWuopzk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-17T10:00:13.000Z",
+      "url": "https://www.youtube.com/watch?v=5D6bcWuopzk",
+      "fetchedAt": "2026-10-17T12:24:20.266Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-17T12:24:20.266Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-bc5C_j6xgcc",
+      "source": {
+        "platform": "youtube",
+        "videoId": "bc5C_j6xgcc",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "뭘 해도 #엠제이 선배님은 아름다울 거니까 💛",
+      "description": "#KicFlip #킥플립\n#ASTRO\n#KICKOFFTHEWALL_Pt1\n#미완성 #Puzzle_Piece\n\n@MJoffcl",
+      "thumbnail": "https://i.ytimg.com/vi/bc5C_j6xgcc/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/bc5C_j6xgcc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/bc5C_j6xgcc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/bc5C_j6xgcc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/bc5C_j6xgcc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/bc5C_j6xgcc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-17T09:00:32.000Z",
+      "url": "https://www.youtube.com/watch?v=bc5C_j6xgcc",
+      "fetchedAt": "2026-10-17T12:24:20.266Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-17T12:24:20.266Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-MLD-ZVdAhYs",
       "source": {
@@ -2661,366 +3021,6 @@
         "method": "rule",
         "confidence": 0.91,
         "ruleId": "music-performance"
-      }
-    },
-    {
-      "id": "yt-8JxaRFLWLYU",
-      "source": {
-        "platform": "youtube",
-        "videoId": "8JxaRFLWLYU",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "Kick 🥁🎸",
-      "description": "#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1\n#KickOffTheWall",
-      "thumbnail": "https://i.ytimg.com/vi/8JxaRFLWLYU/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/8JxaRFLWLYU/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/8JxaRFLWLYU/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/8JxaRFLWLYU/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/8JxaRFLWLYU/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/8JxaRFLWLYU/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-08T10:30:22.000Z",
-      "url": "https://www.youtube.com/watch?v=8JxaRFLWLYU",
-      "fetchedAt": "2026-10-14T16:52:38.117Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.117Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-ZaWIuOItzvY",
-      "source": {
-        "platform": "youtube",
-        "videoId": "ZaWIuOItzvY",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "𝙏𝙝𝙖𝙩'𝙨 𝙝𝙤𝙬 𝙬𝙚 𝙠𝙞𝙘𝙠 𝙤𝙛𝙛 𝙩𝙝𝙚 𝙬𝙖𝙡𝙡",
-      "description": "#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1\n#KickOffTheWall",
-      "thumbnail": "https://i.ytimg.com/vi/ZaWIuOItzvY/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/ZaWIuOItzvY/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/ZaWIuOItzvY/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/ZaWIuOItzvY/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/ZaWIuOItzvY/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/ZaWIuOItzvY/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-08T10:00:26.000Z",
-      "url": "https://www.youtube.com/watch?v=ZaWIuOItzvY",
-      "fetchedAt": "2026-10-14T16:52:38.117Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.117Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-MnwANlDDdaY",
-      "source": {
-        "platform": "youtube",
-        "videoId": "MnwANlDDdaY",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "ɪ'ᴠᴇ ʙᴇᴇɴ ᴡᴀɪᴛɪɴɢ ꜰᴏʀ ᴛʜɪꜱ ᴍᴏᴍᴇɴᴛ 🎤",
-      "description": "#KickFlip #킥플립 #IANNDIOR\n#KICKOFFTHEWALL_Pt1\n#KickOffTheWall\n\n@ianndior",
-      "thumbnail": "https://i.ytimg.com/vi/MnwANlDDdaY/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/MnwANlDDdaY/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/MnwANlDDdaY/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/MnwANlDDdaY/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/MnwANlDDdaY/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/MnwANlDDdaY/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-08T09:00:17.000Z",
-      "url": "https://www.youtube.com/watch?v=MnwANlDDdaY",
-      "fetchedAt": "2026-10-14T16:52:38.117Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.117Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-O2FQtXynbf4",
-      "source": {
-        "platform": "youtube",
-        "videoId": "O2FQtXynbf4",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "誰がいちばん可愛いですか？",
-      "description": "#anation2026\n#KickFlip #킥플립",
-      "thumbnail": "https://i.ytimg.com/vi/O2FQtXynbf4/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/O2FQtXynbf4/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/O2FQtXynbf4/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/O2FQtXynbf4/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/O2FQtXynbf4/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/O2FQtXynbf4/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-08T08:30:28.000Z",
-      "url": "https://www.youtube.com/watch?v=O2FQtXynbf4",
-      "fetchedAt": "2026-10-14T16:52:38.117Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.117Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-sQiql3UYNaw",
-      "source": {
-        "platform": "youtube",
-        "videoId": "sQiql3UYNaw",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "ハイタッチしよう！",
-      "description": "#anation2026\n#KickFlip #킥플립",
-      "thumbnail": "https://i.ytimg.com/vi/sQiql3UYNaw/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/sQiql3UYNaw/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/sQiql3UYNaw/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/sQiql3UYNaw/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/sQiql3UYNaw/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/sQiql3UYNaw/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-08T08:05:31.000Z",
-      "url": "https://www.youtube.com/watch?v=sQiql3UYNaw",
-      "fetchedAt": "2026-10-14T16:52:38.117Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.117Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-VidoMmcjHWE",
-      "source": {
-        "platform": "youtube",
-        "videoId": "VidoMmcjHWE",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "KickFlip Live @ a-nation 2026 (Full Show)",
-      "description": "00:00 INTRO\n00:28 응 그래 (Umm Great)\n02:52 Like A Monster\n05:42 Ment 1\n09:25 Gas On It\n12:13 거꾸로 (Backward)\n14:28 Ment 2\n17:38 Twenty\n20:47 처음 불러보는 노래 (My First Love Song)\n23:34 Ment 3\n\n#anation #anation2026 #킥플립 #KickFlip",
-      "thumbnail": "https://i.ytimg.com/vi/VidoMmcjHWE/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/VidoMmcjHWE/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/VidoMmcjHWE/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/VidoMmcjHWE/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/VidoMmcjHWE/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/VidoMmcjHWE/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-08T04:30:20.000Z",
-      "url": "https://www.youtube.com/watch?v=VidoMmcjHWE",
-      "fetchedAt": "2026-10-14T16:52:38.117Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.117Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
       }
     }
   ]

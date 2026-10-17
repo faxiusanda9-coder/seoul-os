@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUHp2q2i85qt_9nn2H7AvGOw",
   "artistId": "niziu",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-17T04:23:05.926Z",
+  "fetchedAt": "2026-10-17T12:24:21.103Z",
   "items": [
+    {
+      "id": "yt-O0mhvDl9NB0",
+      "source": {
+        "platform": "youtube",
+        "videoId": "O0mhvDl9NB0",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "#SourGrapes with #WONPIL ​⁠🍇",
+      "description": "#DAY6 #데이식스 #원필\n#NiziU #니쥬 #RIMA\n#NiziU_SourGrapes",
+      "thumbnail": "https://i.ytimg.com/vi/O0mhvDl9NB0/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/O0mhvDl9NB0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/O0mhvDl9NB0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/O0mhvDl9NB0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/O0mhvDl9NB0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/O0mhvDl9NB0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-17T07:00:00.000Z",
+      "url": "https://www.youtube.com/watch?v=O0mhvDl9NB0",
+      "fetchedAt": "2026-10-17T12:24:21.103Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-17T12:24:21.103Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-OKLP7-j29I4",
       "source": {
@@ -2959,66 +3019,6 @@
       ],
       "publishedAt": "2026-10-08T03:36:14.000Z",
       "url": "https://www.youtube.com/watch?v=pOWGWfZXxzk",
-      "fetchedAt": "2026-10-14T16:52:38.651Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.651Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-PLbS6y7GBqs",
-      "source": {
-        "platform": "youtube",
-        "videoId": "PLbS6y7GBqs",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "僕ら大丈夫、手繰り寄せた愛があるから𓍯⸝⸝⸝♡︎ #MAYA #AYAKA #NiziU #니쥬 #WithU",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/PLbS6y7GBqs/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/PLbS6y7GBqs/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/PLbS6y7GBqs/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/PLbS6y7GBqs/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/PLbS6y7GBqs/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/PLbS6y7GBqs/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-08T03:09:59.000Z",
-      "url": "https://www.youtube.com/watch?v=PLbS6y7GBqs",
       "fetchedAt": "2026-10-14T16:52:38.651Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:38.651Z",

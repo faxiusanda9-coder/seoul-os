@@ -4,8 +4,129 @@
   "uploadsPlaylistId": "UUO9GhtdQcCRf67GIdSQ0HNQ",
   "artistId": "xdinary-heroes",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-17T04:23:04.858Z",
+  "fetchedAt": "2026-10-17T12:24:19.831Z",
   "items": [
+    {
+      "id": "yt-_6PB4Edu4kM",
+      "source": {
+        "platform": "youtube",
+        "videoId": "_6PB4Edu4kM",
+        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "xdinary-heroes",
+        "name": "Xdinary Heroes"
+      },
+      "title": "Xdinary Heroes \"Obsessed with Youth\" M/V REACTION VIDEO",
+      "description": "Xdinary Heroes \"Obsessed with Youth\" M/V REACTION VIDEO\n\nListen to Xdinary Heroes \"Obsessed with Youth\"\nhttp://Xdinaryheroes.lnk.to/IMPULSE\n\nXdinary Heroes Official YouTube: https://www.youtube.com/c/xdinaryheroesofficial\nXdinary Heroes Official Facebook: https://www.facebook.com",
+      "thumbnail": "https://i.ytimg.com/vi/_6PB4Edu4kM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/_6PB4Edu4kM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/_6PB4Edu4kM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/_6PB4Edu4kM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/_6PB4Edu4kM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/_6PB4Edu4kM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-17T12:00:01.000Z",
+      "url": "https://www.youtube.com/watch?v=_6PB4Edu4kM",
+      "fetchedAt": "2026-10-17T12:24:19.831Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-17T12:24:19.831Z",
+      "type": "music-video",
+      "category": "music",
+      "subcategory": "official-mv",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.97,
+        "ruleId": "official-mv"
+      }
+    },
+    {
+      "id": "yt-KM7Zc086Wzo",
+      "source": {
+        "platform": "youtube",
+        "videoId": "KM7Zc086Wzo",
+        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "xdinary-heroes",
+        "name": "Xdinary Heroes"
+      },
+      "title": "Obsessed with #김장훈❤️‍🔥",
+      "description": "Obsessed with #김장훈❤️‍🔥\n\n#XdinaryHeroes #엑스디너리히어로즈\n#Obsessed_with_Youth\n@TheKimjanghoon",
+      "thumbnail": "https://i.ytimg.com/vi/KM7Zc086Wzo/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/KM7Zc086Wzo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/KM7Zc086Wzo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/KM7Zc086Wzo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/KM7Zc086Wzo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/KM7Zc086Wzo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-17T06:00:03.000Z",
+      "url": "https://www.youtube.com/watch?v=KM7Zc086Wzo",
+      "fetchedAt": "2026-10-17T12:24:19.831Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-17T12:24:19.831Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-PMqt4nhBlq8",
       "source": {
@@ -2895,126 +3016,6 @@
       ],
       "publishedAt": "2026-09-15T12:37:02.000Z",
       "url": "https://www.youtube.com/watch?v=liZcb1q7B2Q",
-      "fetchedAt": "2026-10-14T16:52:37.595Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:37.595Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-6dDEDG6lYJs",
-      "source": {
-        "platform": "youtube",
-        "videoId": "6dDEDG6lYJs",
-        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "xdinary-heroes",
-        "name": "Xdinary Heroes"
-      },
-      "title": "👑 THE KING IS BACK 👑 엑디즈의 왕, 주연이의 생일 파티 🎂",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/6dDEDG6lYJs/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/6dDEDG6lYJs/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/6dDEDG6lYJs/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/6dDEDG6lYJs/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/6dDEDG6lYJs/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/6dDEDG6lYJs/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-12T08:05:28.000Z",
-      "url": "https://www.youtube.com/watch?v=6dDEDG6lYJs",
-      "fetchedAt": "2026-10-14T16:52:37.595Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:37.595Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-NnHgSZHqN-w",
-      "source": {
-        "platform": "youtube",
-        "videoId": "NnHgSZHqN-w",
-        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "xdinary-heroes",
-        "name": "Xdinary Heroes"
-      },
-      "title": "[XHBD_Project: 0912] Monster - DAY6 | Covered by Xdinary Heroes Jooyeon",
-      "description": "[XHBD_Project: 0912] Monster - DAY6 | Covered by Xdinary Heroes Jooyeon\n\nListen to Xdinary Heroes \"Voyager\"\nhttps://XdinaryHeroes.lnk.to/DEADAND\n\nXdinary Heroes Official YouTube: https://www.youtube.com/c/xdinaryheroesofficial\nXdinary Heroes Official Facebook: https://www.faceboo",
-      "thumbnail": "https://i.ytimg.com/vi/NnHgSZHqN-w/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/NnHgSZHqN-w/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/NnHgSZHqN-w/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/NnHgSZHqN-w/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/NnHgSZHqN-w/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/NnHgSZHqN-w/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-11T15:00:10.000Z",
-      "url": "https://www.youtube.com/watch?v=NnHgSZHqN-w",
       "fetchedAt": "2026-10-14T16:52:37.595Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:37.595Z",
