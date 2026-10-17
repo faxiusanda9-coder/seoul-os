@@ -9,6 +9,8 @@ import { useArchive } from "../store/ArchiveContext";
 import type { ArchiveCategory } from "../types";
 import { publishedLabel } from "../utils/feed";
 import { visualVideoForItem } from "../utils/media";
+import { useSocial } from "../store/SocialContext";
+import { SocialCard } from "../components/SocialCard";
 import {
   archiveCategoryLabel,
   contentCategoryLabel,
@@ -20,6 +22,7 @@ export function ArchivePage() {
   const { selectedArtistId, getChannel, loadChannel } = useContent();
   const { saved, toggleSaved, moveSaved } = useArchive();
   const { t, locale } = useI18n();
+  const {views,load}=useSocial();
   const [category, setCategory] = useState<ArchiveCategory>(
     () => saved.at(-1)?.category ?? "Favorite Stages",
   );
@@ -27,6 +30,10 @@ export function ArchivePage() {
     () => saved.at(-1)?.artistId ?? selectedArtistId,
   );
   useEffect(() => { loadChannel(archiveArtistId); }, [archiveArtistId, loadChannel]);
+  useEffect(()=>{
+    if(saved.some(e=>e.artistId===archiveArtistId&&e.id.startsWith("ig-")))load("instagram");
+    if(saved.some(e=>e.artistId===archiveArtistId&&e.id.startsWith("tt-")))load("tiktok");
+  },[archiveArtistId,load,saved]);
   const feed = getChannel(archiveArtistId).feed;
   const channelSaved = saved.filter((entry) => entry.artistId === archiveArtistId);
   const visible = channelSaved
@@ -71,6 +78,11 @@ export function ArchivePage() {
       {visible.length ? (
         <div className="archive-grid">
           {visible.map(({ entry, item }) => {
+            if(entry.id.startsWith("ig-")||entry.id.startsWith("tt-")) {
+              const social=[...views.instagram.items,...views.tiktok.items].find(i=>i.id===entry.id&&i.artistId===entry.artistId);
+              if(social)return <SocialCard key={entry.id} item={social}/>;
+              return <article key={entry.id} className="social-card"><p className="eyebrow">{entry.id.startsWith("ig-")?"Instagram":"TikTok"}</p><h2>{t("media.savedUnavailable")}</h2><p>{t("media.savedUnavailableBody")}</p><Link className="text-link" to={`/media?artist=${entry.artistId}&platform=${entry.id.startsWith("ig-")?"instagram":"tiktok"}`}>{t("media.openCenter")}</Link><button className="text-button" type="button" onClick={()=>toggleSaved(entry.id,entry.category,entry.artistId)}>{t("archive.removeSaved")}</button></article>;
+            }
             if (!item)
               return (
                 <article

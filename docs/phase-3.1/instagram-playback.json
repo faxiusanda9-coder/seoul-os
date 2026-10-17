@@ -1,0 +1,996 @@
+{
+  "checkedAt": "2026-10-17T15:39:33.177Z",
+  "results": [
+    {
+      "id": "ig-DYtXsHuPvZ0",
+      "artistId": "twice",
+      "sourceUrl": "https://www.instagram.com/reel/DYtXsHuPvZ0/",
+      "checkedAt": "2026-10-17T15:32:08.457Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "playControl": true,
+      "videoState": [
+        {
+          "currentTime": 0.519968,
+          "paused": false,
+          "readyState": 4,
+          "errorCode": null,
+          "duration": 13.487937
+        }
+      ],
+      "playbackConfirmed": true,
+      "pageWidth": 390,
+      "noHorizontalOverflow": true
+    },
+    {
+      "id": "ig-DegKEZyhoe4",
+      "artistId": "twice",
+      "sourceUrl": "https://www.instagram.com/reel/DegKEZyhoe4/",
+      "checkedAt": "2026-10-17T15:32:13.882Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "playControl": true,
+      "videoState": [
+        {
+          "currentTime": 0.520988,
+          "paused": false,
+          "readyState": 4,
+          "errorCode": null,
+          "duration": 20.105624
+        }
+      ],
+      "playbackConfirmed": true,
+      "pageWidth": 390,
+      "noHorizontalOverflow": true
+    },
+    {
+      "id": "ig-DedlTrqBwVg",
+      "artistId": "twice",
+      "sourceUrl": "https://www.instagram.com/reel/DedlTrqBwVg/",
+      "checkedAt": "2026-10-17T15:32:15.712Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "playControl": true,
+      "videoState": [
+        {
+          "currentTime": 0.508687,
+          "paused": false,
+          "readyState": 4,
+          "errorCode": null,
+          "duration": 24.076236
+        }
+      ],
+      "playbackConfirmed": true,
+      "pageWidth": 390,
+      "noHorizontalOverflow": true
+    },
+    {
+      "id": "ig-DeQmboCBOjE",
+      "artistId": "twice",
+      "sourceUrl": "https://www.instagram.com/reel/DeQmboCBOjE/",
+      "checkedAt": "2026-10-17T15:32:17.591Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator('[aria-label=\"Control\"],[aria-label=\"控件\"],.EmbeddedMediaPlayButton').first() to be visible\n",
+      "playbackConfirmed": false
+    },
+    {
+      "id": "ig-DeOxt-YBpdu",
+      "artistId": "twice",
+      "sourceUrl": "https://www.instagram.com/reel/DeOxt-YBpdu/",
+      "checkedAt": "2026-10-17T15:32:30.528Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator('[aria-label=\"Control\"],[aria-label=\"控件\"],.EmbeddedMediaPlayButton').first() to be visible\n",
+      "playbackConfirmed": false
+    },
+    {
+      "id": "ig-DeeVK41Tz3h",
+      "artistId": "stray-kids",
+      "sourceUrl": "https://www.instagram.com/reel/DeeVK41Tz3h/",
+      "checkedAt": "2026-10-17T15:32:43.281Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator('[aria-label=\"Control\"],[aria-label=\"控件\"],.EmbeddedMediaPlayButton').first() to be visible\n",
+      "playbackConfirmed": false
+    },
+    {
+      "id": "ig-DeWLSAYThAC",
+      "artistId": "stray-kids",
+      "sourceUrl": "https://www.instagram.com/reel/DeWLSAYThAC/",
+      "checkedAt": "2026-10-17T15:32:56.080Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "playControl": true,
+      "videoState": [
+        {
+          "currentTime": 0.512495,
+          "paused": false,
+          "readyState": 4,
+          "errorCode": null,
+          "duration": 68.052042
+        }
+      ],
+      "playbackConfirmed": true,
+      "pageWidth": 390,
+      "noHorizontalOverflow": true
+    },
+    {
+      "id": "ig-Deiu8BPBfNn",
+      "artistId": "itzy",
+      "sourceUrl": "https://www.instagram.com/reel/Deiu8BPBfNn/",
+      "checkedAt": "2026-10-17T15:32:58.162Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator('[aria-label=\"Control\"],[aria-label=\"控件\"],.EmbeddedMediaPlayButton').first() to be visible\n",
+      "playbackConfirmed": false
+    },
+    {
+      "id": "ig-DebGMmgS0lI",
+      "artistId": "itzy",
+      "sourceUrl": "https://www.instagram.com/reel/DebGMmgS0lI/",
+      "checkedAt": "2026-10-17T15:33:11.452Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator('[aria-label=\"Control\"],[aria-label=\"控件\"],.EmbeddedMediaPlayButton').first() to be visible\n",
+      "playbackConfirmed": false
+    },
+    {
+      "id": "ig-DemYT3vtO0n",
+      "artistId": "nmixx",
+      "sourceUrl": "https://www.instagram.com/reel/DemYT3vtO0n/",
+      "checkedAt": "2026-10-17T15:33:24.574Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "playControl": true,
+      "videoState": [
+        {
+          "currentTime": 0.516888,
+          "paused": false,
+          "readyState": 4,
+          "errorCode": null,
+          "duration": 26.700091
+        }
+      ],
+      "playbackConfirmed": true,
+      "pageWidth": 390,
+      "noHorizontalOverflow": true
+    },
+    {
+      "id": "ig-DemU6rYNTWC",
+      "artistId": "nmixx",
+      "sourceUrl": "https://www.instagram.com/reel/DemU6rYNTWC/",
+      "checkedAt": "2026-10-17T15:33:27.058Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator('[aria-label=\"Control\"],[aria-label=\"控件\"],.EmbeddedMediaPlayButton').first() to be visible\n",
+      "playbackConfirmed": false
+    },
+    {
+      "id": "ig-DejpQdCtd2w",
+      "artistId": "nmixx",
+      "sourceUrl": "https://www.instagram.com/reel/DejpQdCtd2w/",
+      "checkedAt": "2026-10-17T15:33:41.405Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator('[aria-label=\"Control\"],[aria-label=\"控件\"],.EmbeddedMediaPlayButton').first() to be visible\n",
+      "playbackConfirmed": false
+    },
+    {
+      "id": "ig-DedXmDljTMV",
+      "artistId": "day6",
+      "sourceUrl": "https://www.instagram.com/reel/DedXmDljTMV/",
+      "checkedAt": "2026-10-17T15:33:54.130Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "playControl": true,
+      "videoState": [
+        {
+          "currentTime": 0.515085,
+          "paused": false,
+          "readyState": 4,
+          "errorCode": null,
+          "duration": 56.788042
+        }
+      ],
+      "playbackConfirmed": true,
+      "pageWidth": 390,
+      "noHorizontalOverflow": true
+    },
+    {
+      "id": "ig-DeYVD7yjGoo",
+      "artistId": "day6",
+      "sourceUrl": "https://www.instagram.com/reel/DeYVD7yjGoo/",
+      "checkedAt": "2026-10-17T15:33:56.028Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "playControl": true,
+      "videoState": [
+        {
+          "currentTime": 0.512486,
+          "paused": false,
+          "readyState": 4,
+          "errorCode": null,
+          "duration": 44.734708
+        }
+      ],
+      "playbackConfirmed": true,
+      "pageWidth": 390,
+      "noHorizontalOverflow": true
+    },
+    {
+      "id": "ig-DeYU_4bAHf6",
+      "artistId": "day6",
+      "sourceUrl": "https://www.instagram.com/reel/DeYU_4bAHf6/",
+      "checkedAt": "2026-10-17T15:33:57.857Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "playControl": true,
+      "videoState": [
+        {
+          "currentTime": 0.508571,
+          "paused": false,
+          "readyState": 4,
+          "errorCode": null,
+          "duration": 39.230708
+        }
+      ],
+      "playbackConfirmed": true,
+      "pageWidth": 390,
+      "noHorizontalOverflow": true
+    },
+    {
+      "id": "ig-DelamuHgJ3L",
+      "artistId": "xdinary-heroes",
+      "sourceUrl": "https://www.instagram.com/reel/DelamuHgJ3L/",
+      "checkedAt": "2026-10-17T15:33:59.922Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator('[aria-label=\"Control\"],[aria-label=\"控件\"],.EmbeddedMediaPlayButton').first() to be visible\n",
+      "playbackConfirmed": false
+    },
+    {
+      "id": "ig-DelMxemAJOZ",
+      "artistId": "xdinary-heroes",
+      "sourceUrl": "https://www.instagram.com/reel/DelMxemAJOZ/",
+      "checkedAt": "2026-10-17T15:34:13.198Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator('[aria-label=\"Control\"],[aria-label=\"控件\"],.EmbeddedMediaPlayButton').first() to be visible\n",
+      "playbackConfirmed": false
+    },
+    {
+      "id": "ig-DemD0DXNkd1",
+      "artistId": "kickflip",
+      "sourceUrl": "https://www.instagram.com/reel/DemD0DXNkd1/",
+      "checkedAt": "2026-10-17T15:34:25.924Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator('[aria-label=\"Control\"],[aria-label=\"控件\"],.EmbeddedMediaPlayButton').first() to be visible\n",
+      "playbackConfirmed": false
+    },
+    {
+      "id": "ig-Del81w1te69",
+      "artistId": "kickflip",
+      "sourceUrl": "https://www.instagram.com/reel/Del81w1te69/",
+      "checkedAt": "2026-10-17T15:34:38.915Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "playControl": true,
+      "videoState": [
+        {
+          "currentTime": 0.505565,
+          "paused": false,
+          "readyState": 4,
+          "errorCode": null,
+          "duration": 10.353243
+        }
+      ],
+      "playbackConfirmed": true,
+      "pageWidth": 390,
+      "noHorizontalOverflow": true
+    },
+    {
+      "id": "ig-Del2FAEN6sZ",
+      "artistId": "kickflip",
+      "sourceUrl": "https://www.instagram.com/reel/Del2FAEN6sZ/",
+      "checkedAt": "2026-10-17T15:34:40.745Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "playControl": true,
+      "videoState": [
+        {
+          "currentTime": 0.507097,
+          "paused": false,
+          "readyState": 4,
+          "errorCode": null,
+          "duration": 10.399683
+        }
+      ],
+      "playbackConfirmed": true,
+      "pageWidth": 390,
+      "noHorizontalOverflow": true
+    },
+    {
+      "id": "ig-DelvJsatHKM",
+      "artistId": "kickflip",
+      "sourceUrl": "https://www.instagram.com/reel/DelvJsatHKM/",
+      "checkedAt": "2026-10-17T15:34:42.410Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator('[aria-label=\"Control\"],[aria-label=\"控件\"],.EmbeddedMediaPlayButton').first() to be visible\n",
+      "playbackConfirmed": false
+    },
+    {
+      "id": "ig-DejTBKnPbjU",
+      "artistId": "kickflip",
+      "sourceUrl": "https://www.instagram.com/reel/DejTBKnPbjU/",
+      "checkedAt": "2026-10-17T15:34:55.332Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator('[aria-label=\"Control\"],[aria-label=\"控件\"],.EmbeddedMediaPlayButton').first() to be visible\n",
+      "playbackConfirmed": false
+    },
+    {
+      "id": "ig-DelhcbWBMGe",
+      "artistId": "niziu",
+      "sourceUrl": "https://www.instagram.com/reel/DelhcbWBMGe/",
+      "checkedAt": "2026-10-17T15:35:07.858Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator('[aria-label=\"Control\"],[aria-label=\"控件\"],.EmbeddedMediaPlayButton').first() to be visible\n",
+      "playbackConfirmed": false
+    },
+    {
+      "id": "ig-DelM1SJhZ_v",
+      "artistId": "niziu",
+      "sourceUrl": "https://www.instagram.com/reel/DelM1SJhZ_v/",
+      "checkedAt": "2026-10-17T15:35:21.084Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator('[aria-label=\"Control\"],[aria-label=\"控件\"],.EmbeddedMediaPlayButton').first() to be visible\n",
+      "playbackConfirmed": false
+    },
+    {
+      "id": "ig-DejnSaBtEQe",
+      "artistId": "niziu",
+      "sourceUrl": "https://www.instagram.com/reel/DejnSaBtEQe/",
+      "checkedAt": "2026-10-17T15:35:33.801Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator('[aria-label=\"Control\"],[aria-label=\"控件\"],.EmbeddedMediaPlayButton').first() to be visible\n",
+      "playbackConfirmed": false
+    },
+    {
+      "id": "ig-DejRHboJiQD",
+      "artistId": "niziu",
+      "sourceUrl": "https://www.instagram.com/reel/DejRHboJiQD/",
+      "checkedAt": "2026-10-17T15:35:46.607Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator('[aria-label=\"Control\"],[aria-label=\"控件\"],.EmbeddedMediaPlayButton').first() to be visible\n",
+      "playbackConfirmed": false
+    },
+    {
+      "id": "ig-DejDe0TBnG1",
+      "artistId": "niziu",
+      "sourceUrl": "https://www.instagram.com/reel/DejDe0TBnG1/",
+      "checkedAt": "2026-10-17T15:35:59.516Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator('[aria-label=\"Control\"],[aria-label=\"控件\"],.EmbeddedMediaPlayButton').first() to be visible\n",
+      "playbackConfirmed": false
+    },
+    {
+      "id": "ig-DemKjWhT8hp",
+      "artistId": "nexz",
+      "sourceUrl": "https://www.instagram.com/reel/DemKjWhT8hp/",
+      "checkedAt": "2026-10-17T15:36:12.119Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator('[aria-label=\"Control\"],[aria-label=\"控件\"],.EmbeddedMediaPlayButton').first() to be visible\n",
+      "playbackConfirmed": false
+    },
+    {
+      "id": "ig-DejssV5BiSL",
+      "artistId": "nexz",
+      "sourceUrl": "https://www.instagram.com/reel/DejssV5BiSL/",
+      "checkedAt": "2026-10-17T15:36:25.394Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator('[aria-label=\"Control\"],[aria-label=\"控件\"],.EmbeddedMediaPlayButton').first() to be visible\n",
+      "playbackConfirmed": false
+    },
+    {
+      "id": "ig-Dejl35qhzcl",
+      "artistId": "nexz",
+      "sourceUrl": "https://www.instagram.com/reel/Dejl35qhzcl/",
+      "checkedAt": "2026-10-17T15:36:38.332Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator('[aria-label=\"Control\"],[aria-label=\"控件\"],.EmbeddedMediaPlayButton').first() to be visible\n",
+      "playbackConfirmed": false
+    },
+    {
+      "id": "ig-Deje4aKTwA6",
+      "artistId": "nexz",
+      "sourceUrl": "https://www.instagram.com/reel/Deje4aKTwA6/",
+      "checkedAt": "2026-10-17T15:36:51.059Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": false,
+      "pageWidth": 390,
+      "noHorizontalOverflow": true,
+      "error": "locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-content-id=\"ig-Deje4aKTwA6\"]').getByRole('button', { name: '关闭播放器', exact: true })\n",
+      "playbackConfirmed": false
+    },
+    {
+      "id": "ig-DejRSIDB5Rm",
+      "artistId": "nexz",
+      "sourceUrl": "https://www.instagram.com/reel/DejRSIDB5Rm/",
+      "checkedAt": "2026-10-17T15:37:33.584Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator('[aria-label=\"Control\"],[aria-label=\"控件\"],.EmbeddedMediaPlayButton').first() to be visible\n",
+      "playbackConfirmed": false
+    },
+    {
+      "id": "ig-Dd34E2YJhJs",
+      "artistId": "jy-park",
+      "sourceUrl": "https://www.instagram.com/reel/Dd34E2YJhJs/",
+      "checkedAt": "2026-10-17T15:37:46.344Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "playControl": true,
+      "videoState": [
+        {
+          "currentTime": 0.517267,
+          "paused": false,
+          "readyState": 4,
+          "errorCode": null,
+          "duration": 117.188254
+        }
+      ],
+      "playbackConfirmed": true,
+      "pageWidth": 390,
+      "noHorizontalOverflow": true
+    },
+    {
+      "id": "ig-Dd2rE9cq9tm",
+      "artistId": "jy-park",
+      "sourceUrl": "https://www.instagram.com/reel/Dd2rE9cq9tm/",
+      "checkedAt": "2026-10-17T15:37:49.024Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator('[aria-label=\"Control\"],[aria-label=\"控件\"],.EmbeddedMediaPlayButton').first() to be visible\n",
+      "playbackConfirmed": false
+    },
+    {
+      "id": "ig-Ddw1CO2SAfI",
+      "artistId": "jy-park",
+      "sourceUrl": "https://www.instagram.com/reel/Ddw1CO2SAfI/",
+      "checkedAt": "2026-10-17T15:38:02.009Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "playControl": true,
+      "videoState": [
+        {
+          "currentTime": 0.510136,
+          "paused": false,
+          "readyState": 4,
+          "errorCode": null,
+          "duration": 158.825375
+        }
+      ],
+      "playbackConfirmed": true,
+      "pageWidth": 390,
+      "noHorizontalOverflow": true
+    },
+    {
+      "id": "ig-DdvPjP4J2j-",
+      "artistId": "jy-park",
+      "sourceUrl": "https://www.instagram.com/reel/DdvPjP4J2j-/",
+      "checkedAt": "2026-10-17T15:38:03.845Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "playControl": true,
+      "videoState": [
+        {
+          "currentTime": 0.508894,
+          "paused": false,
+          "readyState": 4,
+          "errorCode": null,
+          "duration": 16.148042
+        }
+      ],
+      "playbackConfirmed": true,
+      "pageWidth": 390,
+      "noHorizontalOverflow": true
+    },
+    {
+      "id": "ig-DeYcAiIB962",
+      "artistId": "2pm",
+      "sourceUrl": "https://www.instagram.com/reel/DeYcAiIB962/",
+      "checkedAt": "2026-10-17T15:38:05.741Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "playControl": true,
+      "videoState": [
+        {
+          "currentTime": 0.517938,
+          "paused": false,
+          "readyState": 4,
+          "errorCode": null,
+          "duration": 41.584082
+        }
+      ],
+      "playbackConfirmed": true,
+      "pageWidth": 390,
+      "noHorizontalOverflow": true
+    },
+    {
+      "id": "ig-DeJoag4hiU8",
+      "artistId": "2pm",
+      "sourceUrl": "https://www.instagram.com/reel/DeJoag4hiU8/",
+      "checkedAt": "2026-10-17T15:38:07.954Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "playControl": true,
+      "videoState": [
+        {
+          "currentTime": 0.521786,
+          "paused": false,
+          "readyState": 4,
+          "errorCode": null,
+          "duration": 22.218639
+        }
+      ],
+      "playbackConfirmed": true,
+      "pageWidth": 390,
+      "noHorizontalOverflow": true
+    },
+    {
+      "id": "ig-DclGOlaTc82",
+      "artistId": "boy-story",
+      "sourceUrl": "https://www.instagram.com/reel/DclGOlaTc82/",
+      "checkedAt": "2026-10-17T15:38:09.687Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "playControl": true,
+      "videoState": [
+        {
+          "currentTime": 0.511953,
+          "paused": false,
+          "readyState": 4,
+          "errorCode": null,
+          "duration": 9.261905
+        }
+      ],
+      "playbackConfirmed": true,
+      "pageWidth": 390,
+      "noHorizontalOverflow": true
+    },
+    {
+      "id": "ig-DcLWSRSBWbZ",
+      "artistId": "boy-story",
+      "sourceUrl": "https://www.instagram.com/reel/DcLWSRSBWbZ/",
+      "checkedAt": "2026-10-17T15:38:11.465Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "playControl": true,
+      "videoState": [
+        {
+          "currentTime": 0.521894,
+          "paused": false,
+          "readyState": 4,
+          "errorCode": null,
+          "duration": 12.234059
+        }
+      ],
+      "playbackConfirmed": true,
+      "pageWidth": 390,
+      "noHorizontalOverflow": true
+    },
+    {
+      "id": "ig-DekE2zXKx7I",
+      "artistId": "girlset",
+      "sourceUrl": "https://www.instagram.com/reel/DekE2zXKx7I/",
+      "checkedAt": "2026-10-17T15:38:13.911Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator('[aria-label=\"Control\"],[aria-label=\"控件\"],.EmbeddedMediaPlayButton').first() to be visible\n",
+      "playbackConfirmed": false
+    },
+    {
+      "id": "ig-DeZnMEDq8Fp",
+      "artistId": "girlset",
+      "sourceUrl": "https://www.instagram.com/reel/DeZnMEDq8Fp/",
+      "checkedAt": "2026-10-17T15:38:27.173Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "playControl": true,
+      "videoState": [
+        {
+          "currentTime": 0.510102,
+          "paused": false,
+          "readyState": 4,
+          "errorCode": null,
+          "duration": 4.850113
+        }
+      ],
+      "playbackConfirmed": true,
+      "pageWidth": 390,
+      "noHorizontalOverflow": true
+    },
+    {
+      "id": "ig-DeKKlYxqqxZ",
+      "artistId": "girlset",
+      "sourceUrl": "https://www.instagram.com/reel/DeKKlYxqqxZ/",
+      "checkedAt": "2026-10-17T15:38:28.990Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator('[aria-label=\"Control\"],[aria-label=\"控件\"],.EmbeddedMediaPlayButton').first() to be visible\n",
+      "playbackConfirmed": false
+    },
+    {
+      "id": "ig-Dd9SmC1KF2z",
+      "artistId": "girlset",
+      "sourceUrl": "https://www.instagram.com/reel/Dd9SmC1KF2z/",
+      "checkedAt": "2026-10-17T15:38:41.977Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator('[aria-label=\"Control\"],[aria-label=\"控件\"],.EmbeddedMediaPlayButton').first() to be visible\n",
+      "playbackConfirmed": false
+    },
+    {
+      "id": "ig-DeZSnWfgfuo",
+      "artistId": "xdinary-heroes",
+      "sourceUrl": "https://www.instagram.com/reel/DeZSnWfgfuo/",
+      "checkedAt": "2026-10-17T15:38:54.684Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator('[aria-label=\"Control\"],[aria-label=\"控件\"],.EmbeddedMediaPlayButton').first() to be visible\n",
+      "playbackConfirmed": false
+    },
+    {
+      "id": "ig-Db5AkMvhanc",
+      "artistId": "2pm",
+      "sourceUrl": "https://www.instagram.com/reel/Db5AkMvhanc/",
+      "checkedAt": "2026-10-17T15:39:07.438Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator('[aria-label=\"Control\"],[aria-label=\"控件\"],.EmbeddedMediaPlayButton').first() to be visible\n",
+      "playbackConfirmed": false
+    },
+    {
+      "id": "ig-DHOB5WwS04T",
+      "artistId": "itzy",
+      "sourceUrl": "https://www.instagram.com/reel/DHOB5WwS04T/",
+      "checkedAt": "2026-10-17T15:39:20.406Z",
+      "environment": "Edge headless, SEOUL.OS localhost, 390px",
+      "frameCreated": true,
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator('[aria-label=\"Control\"],[aria-label=\"控件\"],.EmbeddedMediaPlayButton').first() to be visible\n",
+      "playbackConfirmed": false
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": "ig-DeQmboCBOjE",
+      "checkedAt": "2026-10-17T15:40:12.563Z",
+      "url": "https://www.instagram.com/reel/DeQmboCBOjE/embed/",
+      "http": 200,
+      "hasNativeControl": false,
+      "videoCount": 0,
+      "hasWatchOnInstagram": true,
+      "hasLoginBarrier": false,
+      "result": "poster-only"
+    },
+    {
+      "id": "ig-DeOxt-YBpdu",
+      "checkedAt": "2026-10-17T15:40:15.281Z",
+      "url": "https://www.instagram.com/reel/DeOxt-YBpdu/embed/",
+      "http": 200,
+      "hasNativeControl": false,
+      "videoCount": 0,
+      "hasWatchOnInstagram": true,
+      "hasLoginBarrier": false,
+      "result": "poster-only"
+    },
+    {
+      "id": "ig-DeeVK41Tz3h",
+      "checkedAt": "2026-10-17T15:40:17.082Z",
+      "url": "https://www.instagram.com/reel/DeeVK41Tz3h/embed/",
+      "http": 200,
+      "hasNativeControl": false,
+      "videoCount": 0,
+      "hasWatchOnInstagram": true,
+      "hasLoginBarrier": false,
+      "result": "poster-only"
+    },
+    {
+      "id": "ig-Deiu8BPBfNn",
+      "checkedAt": "2026-10-17T15:40:19.106Z",
+      "url": "https://www.instagram.com/reel/Deiu8BPBfNn/embed/",
+      "http": 200,
+      "hasNativeControl": false,
+      "videoCount": 0,
+      "hasWatchOnInstagram": true,
+      "hasLoginBarrier": false,
+      "result": "poster-only"
+    },
+    {
+      "id": "ig-DebGMmgS0lI",
+      "checkedAt": "2026-10-17T15:40:21.098Z",
+      "url": "https://www.instagram.com/reel/DebGMmgS0lI/embed/",
+      "http": 200,
+      "hasNativeControl": false,
+      "videoCount": 0,
+      "hasWatchOnInstagram": true,
+      "hasLoginBarrier": false,
+      "result": "poster-only"
+    },
+    {
+      "id": "ig-DemU6rYNTWC",
+      "checkedAt": "2026-10-17T15:40:23.029Z",
+      "url": "https://www.instagram.com/reel/DemU6rYNTWC/embed/",
+      "http": 200,
+      "hasNativeControl": false,
+      "videoCount": 0,
+      "hasWatchOnInstagram": true,
+      "hasLoginBarrier": false,
+      "result": "poster-only"
+    },
+    {
+      "id": "ig-DejpQdCtd2w",
+      "checkedAt": "2026-10-17T15:40:24.872Z",
+      "url": "https://www.instagram.com/reel/DejpQdCtd2w/embed/",
+      "http": 200,
+      "hasNativeControl": false,
+      "videoCount": 0,
+      "hasWatchOnInstagram": true,
+      "hasLoginBarrier": false,
+      "result": "poster-only"
+    },
+    {
+      "id": "ig-DelamuHgJ3L",
+      "checkedAt": "2026-10-17T15:40:26.725Z",
+      "url": "https://www.instagram.com/reel/DelamuHgJ3L/embed/",
+      "http": 200,
+      "hasNativeControl": false,
+      "videoCount": 0,
+      "hasWatchOnInstagram": true,
+      "hasLoginBarrier": false,
+      "result": "poster-only"
+    },
+    {
+      "id": "ig-DelMxemAJOZ",
+      "checkedAt": "2026-10-17T15:40:28.526Z",
+      "url": "https://www.instagram.com/reel/DelMxemAJOZ/embed/",
+      "http": 200,
+      "hasNativeControl": false,
+      "videoCount": 0,
+      "hasWatchOnInstagram": true,
+      "hasLoginBarrier": false,
+      "result": "poster-only"
+    },
+    {
+      "id": "ig-DemD0DXNkd1",
+      "checkedAt": "2026-10-17T15:40:30.668Z",
+      "url": "https://www.instagram.com/reel/DemD0DXNkd1/embed/",
+      "http": 200,
+      "hasNativeControl": false,
+      "videoCount": 0,
+      "hasWatchOnInstagram": true,
+      "hasLoginBarrier": false,
+      "result": "poster-only"
+    },
+    {
+      "id": "ig-DelvJsatHKM",
+      "checkedAt": "2026-10-17T15:40:32.520Z",
+      "url": "https://www.instagram.com/reel/DelvJsatHKM/embed/",
+      "http": 200,
+      "hasNativeControl": false,
+      "videoCount": 0,
+      "hasWatchOnInstagram": true,
+      "hasLoginBarrier": false,
+      "result": "poster-only"
+    },
+    {
+      "id": "ig-DejTBKnPbjU",
+      "checkedAt": "2026-10-17T15:40:34.431Z",
+      "url": "https://www.instagram.com/reel/DejTBKnPbjU/embed/",
+      "http": 200,
+      "hasNativeControl": false,
+      "videoCount": 0,
+      "hasWatchOnInstagram": true,
+      "hasLoginBarrier": false,
+      "result": "poster-only"
+    },
+    {
+      "id": "ig-DelhcbWBMGe",
+      "checkedAt": "2026-10-17T15:40:36.241Z",
+      "url": "https://www.instagram.com/reel/DelhcbWBMGe/embed/",
+      "http": 200,
+      "hasNativeControl": false,
+      "videoCount": 0,
+      "hasWatchOnInstagram": true,
+      "hasLoginBarrier": false,
+      "result": "poster-only"
+    },
+    {
+      "id": "ig-DelM1SJhZ_v",
+      "checkedAt": "2026-10-17T15:40:38.165Z",
+      "url": "https://www.instagram.com/reel/DelM1SJhZ_v/embed/",
+      "http": 200,
+      "hasNativeControl": false,
+      "videoCount": 0,
+      "hasWatchOnInstagram": true,
+      "hasLoginBarrier": false,
+      "result": "poster-only"
+    },
+    {
+      "id": "ig-DejnSaBtEQe",
+      "checkedAt": "2026-10-17T15:40:39.957Z",
+      "url": "https://www.instagram.com/reel/DejnSaBtEQe/embed/",
+      "http": 200,
+      "hasNativeControl": false,
+      "videoCount": 0,
+      "hasWatchOnInstagram": true,
+      "hasLoginBarrier": false,
+      "result": "poster-only"
+    },
+    {
+      "id": "ig-DejRHboJiQD",
+      "checkedAt": "2026-10-17T15:40:42.264Z",
+      "url": "https://www.instagram.com/reel/DejRHboJiQD/embed/",
+      "http": 200,
+      "hasNativeControl": false,
+      "videoCount": 0,
+      "hasWatchOnInstagram": true,
+      "hasLoginBarrier": false,
+      "result": "poster-only"
+    },
+    {
+      "id": "ig-DejDe0TBnG1",
+      "checkedAt": "2026-10-17T15:40:44.011Z",
+      "url": "https://www.instagram.com/reel/DejDe0TBnG1/embed/",
+      "http": 200,
+      "hasNativeControl": false,
+      "videoCount": 0,
+      "hasWatchOnInstagram": true,
+      "hasLoginBarrier": false,
+      "result": "poster-only"
+    },
+    {
+      "id": "ig-DemKjWhT8hp",
+      "checkedAt": "2026-10-17T15:40:45.871Z",
+      "url": "https://www.instagram.com/reel/DemKjWhT8hp/embed/",
+      "http": 200,
+      "hasNativeControl": false,
+      "videoCount": 0,
+      "hasWatchOnInstagram": true,
+      "hasLoginBarrier": false,
+      "result": "poster-only"
+    },
+    {
+      "id": "ig-DejssV5BiSL",
+      "checkedAt": "2026-10-17T15:40:47.914Z",
+      "url": "https://www.instagram.com/reel/DejssV5BiSL/embed/",
+      "http": 200,
+      "hasNativeControl": false,
+      "videoCount": 0,
+      "hasWatchOnInstagram": true,
+      "hasLoginBarrier": false,
+      "result": "poster-only"
+    },
+    {
+      "id": "ig-Dejl35qhzcl",
+      "checkedAt": "2026-10-17T15:40:51.059Z",
+      "url": "https://www.instagram.com/reel/Dejl35qhzcl/embed/",
+      "http": 200,
+      "hasNativeControl": false,
+      "videoCount": 0,
+      "hasWatchOnInstagram": true,
+      "hasLoginBarrier": false,
+      "result": "poster-only"
+    },
+    {
+      "id": "ig-Deje4aKTwA6",
+      "checkedAt": "2026-10-17T15:40:53.123Z",
+      "url": "https://www.instagram.com/reel/Deje4aKTwA6/embed/",
+      "http": 200,
+      "hasNativeControl": false,
+      "videoCount": 0,
+      "hasWatchOnInstagram": true,
+      "hasLoginBarrier": false,
+      "result": "poster-only"
+    },
+    {
+      "id": "ig-DejRSIDB5Rm",
+      "checkedAt": "2026-10-17T15:40:54.879Z",
+      "url": "https://www.instagram.com/reel/DejRSIDB5Rm/embed/",
+      "http": 200,
+      "hasNativeControl": false,
+      "videoCount": 0,
+      "hasWatchOnInstagram": true,
+      "hasLoginBarrier": false,
+      "result": "poster-only"
+    },
+    {
+      "id": "ig-Dd2rE9cq9tm",
+      "checkedAt": "2026-10-17T15:40:56.762Z",
+      "url": "https://www.instagram.com/reel/Dd2rE9cq9tm/embed/",
+      "http": 200,
+      "hasNativeControl": false,
+      "videoCount": 0,
+      "hasWatchOnInstagram": true,
+      "hasLoginBarrier": false,
+      "result": "poster-only"
+    },
+    {
+      "id": "ig-DekE2zXKx7I",
+      "checkedAt": "2026-10-17T15:40:58.837Z",
+      "url": "https://www.instagram.com/reel/DekE2zXKx7I/embed/",
+      "http": 200,
+      "hasNativeControl": false,
+      "videoCount": 0,
+      "hasWatchOnInstagram": true,
+      "hasLoginBarrier": false,
+      "result": "poster-only"
+    },
+    {
+      "id": "ig-DeKKlYxqqxZ",
+      "checkedAt": "2026-10-17T15:41:00.615Z",
+      "url": "https://www.instagram.com/reel/DeKKlYxqqxZ/embed/",
+      "http": 200,
+      "hasNativeControl": false,
+      "videoCount": 0,
+      "hasWatchOnInstagram": true,
+      "hasLoginBarrier": false,
+      "result": "poster-only"
+    },
+    {
+      "id": "ig-Dd9SmC1KF2z",
+      "checkedAt": "2026-10-17T15:41:02.636Z",
+      "url": "https://www.instagram.com/reel/Dd9SmC1KF2z/embed/",
+      "http": 200,
+      "hasNativeControl": false,
+      "videoCount": 0,
+      "hasWatchOnInstagram": true,
+      "hasLoginBarrier": false,
+      "result": "poster-only"
+    },
+    {
+      "id": "ig-DeZSnWfgfuo",
+      "checkedAt": "2026-10-17T15:41:04.505Z",
+      "url": "https://www.instagram.com/reel/DeZSnWfgfuo/embed/",
+      "http": 200,
+      "hasNativeControl": false,
+      "videoCount": 0,
+      "hasWatchOnInstagram": true,
+      "hasLoginBarrier": false,
+      "result": "poster-only"
+    },
+    {
+      "id": "ig-Db5AkMvhanc",
+      "checkedAt": "2026-10-17T15:41:06.472Z",
+      "url": "https://www.instagram.com/reel/Db5AkMvhanc/embed/",
+      "http": 200,
+      "hasNativeControl": false,
+      "videoCount": 0,
+      "hasWatchOnInstagram": true,
+      "hasLoginBarrier": false,
+      "result": "poster-only"
+    },
+    {
+      "id": "ig-DHOB5WwS04T",
+      "checkedAt": "2026-10-17T15:41:08.540Z",
+      "url": "https://www.instagram.com/reel/DHOB5WwS04T/embed/",
+      "http": 200,
+      "hasNativeControl": false,
+      "videoCount": 0,
+      "hasWatchOnInstagram": true,
+      "hasLoginBarrier": false,
+      "result": "poster-only"
+    }
+  ]
+}

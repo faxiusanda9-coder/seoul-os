@@ -15,6 +15,7 @@ npm run test:i18n
 npm run test:taxonomy
 npm run test:official
 npm run test:calendar
+npm run test:social
 npm run build
 npm run preview
 ```
@@ -42,7 +43,7 @@ node --env-file=.env scripts/youtube-sync.mjs --channel=all
 
 在 GitHub 仓库的 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**；Actions 的 `GITHUB_TOKEN` 需有仓库内容读写权限。站点访问地址：[SEOUL.OS](https://faxiusanda9-coder.github.io/seoul-os/)。仓库名若改变，需要调整 `vite.config.ts` 中的 `/seoul-os/` base 并重建。
 
-官方 API 文档列出的 `channels.list`、`playlistItems.list`、`videos.list` 各为低成本列表请求。基础预算按每频道每次 3 单位计算：14 个独立艺人频道、每日三次约 126 单位/日；重试会增加用量。具体启用频道数以 `channels.json` 为准，实际配额以 Google Cloud 控制台为准。界面显示内容数据上次变化时间；无新增视频或元数据变化时，成功核对也不会改写 JSON 和该时间，避免无意义提交及重复部署。
+官方 API 文档列出的 `channels.list`、`playlistItems.list`、`videos.list` 各为低成本列表请求。基础预算按每频道每次 3 单位计算：14 个独立艺人频道、每日三次约 126 单位/日；重试会增加用量。具体启用频道数以 `channels.json` 为准，实际配额以 Google Cloud 控制台为准。界面分别显示最近成功检查和内容变化时间。内容无变化时保留原始视频快照，独立 data/status/youtube.json 仍记录成功时间并触发状态发布；元数据保留期刷新不计入实际内容更新。
 
 ## 收藏、语言与视觉
 
@@ -72,6 +73,27 @@ npm run calendar:pilot:youtube -- --channel=twice
 **官网公告与视频分类不同。** `/#/official` 是官方公告／行程的**已核实链接索引**，目前没有获得官网数据定时采集与再发布的明确依据，因此未建立 JYP 网页抓取工作流、公告 JSON 或真实活动数据；Calendar 默认仍显示 0 条官方活动，并提供八个已核实的艺人官网 Schedule 链接。搜索来源或选择艺人只筛选入口，不能被误认为已同步公告。详见 [来源矩阵](docs/jyp-official-source-matrix.md) 与 [Phase 2C 审计](docs/phase-2c-source-audit.md)。
 
 艺人详情页对八个从艺人官网核实的 X 账号提供时间线入口。用户主动点击后才加载 X 官方嵌入脚本；加载失败仍可打开原账号。SEOUL.OS 不使用 X API、不缓存帖文。`src/types/official.ts` 预留公告与活动独立模型，`src/data/officialSources.ts` 明确标注 `automationAllowed=false`；只有将来取得足够授权并重新核实来源后才可编写启用自动同步适配器。`npm run test:official` 检查来源域名、安全日期与保守语义分类。
+
+## Phase 3：官方媒体中心与独立状态
+
+`/#/media?artist=twice&platform=instagram` 是按艺人、平台分别浏览的媒体中心。Discover 的 YouTube 流、原路由和收藏键保持兼容；从 Discover 或艺人详情进入媒体中心。新增 Instagram Reels / 帖子、TikTok、官方公告、演出与活动、作品目录及 X 入口。
+
+- `data/social/accounts.json` 记录 14 个 Instagram、8 个 TikTok 官方账号及逐条证据。其他 TikTok 账号保持待核验，不推测用户名。
+- Phase 3.1 实际清单：Instagram 78 条（47 视频、31 图片／轮播帖子），TikTok 35 条单条视频。18 条 Instagram 视频真实站内播放、29 条标记受限、31 条帖子确认站内显示；TikTok 35 条真实站内播放。Instagram 默认显示全部内容，可筛选视频／帖子。官方账号预览位于单条库下方，不计入清单；未确认的标题、缩略图、发布时间留空。
+- 视频播放器和 Instagram 官方 `embed.js`、TikTok 官方账号 `embed.js` 均需主动同意后加载。单条 TikTok 使用官方 `/player/v1/<id>`。失败时保留外链。Instagram/TikTok 收藏沿用 Archive 的 `Watch Later`，只存稳定 ID、艺人、分类，不缓存社交视频或全文。
+- `data/status/{youtube,instagram,tiktok}.json` 区分 `lastAttemptAt`、`lastSuccessAt`、`lastContentChangeAt`、本次新增/更新、条数及失败来源。YouTube 用 `mode=api`；社交平台当前用 `mode=manual-validation`，成功只意味着本地清单校验，不代表访问原平台或发现新内容。没有历史检查记录时显示“暂无记录”，不伪填历史成功时间。
+- `.github/workflows/social-sync.yml` 在北京时间 08:10、20:10 只做本地清单验证和状态发布；不抓取 Instagram/TikTok。`freshness.yml` 在 09:45、21:45 检查记录是否超过 36 小时或失败。原 YouTube 三次计划、Calendar 两次计划保留。
+
+```bash
+npm run sync:social          # 本地格式/来源校验，无网络抓取
+npm run social:import -- --file=/path/to/reviewed-links.json --reviewer=MAINTAINER
+npm run monitor:freshness
+npm run test:social
+```
+
+可导入的 JSON、人工审核步骤、平台 API 条件、权限及验收结果见 [Phase 3 实施与维护](docs/phase-3-official-media.md)。没有 Instagram/TikTok 应用审批、授权令牌或可核实接口时，不启用最新媒体自动发现。Instagram Business Discovery 在满足条件时可访问其他专业账号，不应被误写为“一定需要每位艺人 OAuth”；本阶段没有符合条件的应用和令牌，采用人工清单。
+
+逐艺人数量、真实播放证据、受限条目与复现步骤见 [Phase 3.1 中文验收报告](docs/phase-3.1-acceptance.md)。清单不是完整历史或自动发现；本轮只更新原 PR #1，等待人工审查，不合并、不发布生产。
 
 ## 项目结构
 

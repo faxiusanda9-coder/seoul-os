@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-10-17T15:50:06.204Z",
+  "mode": "controlled engineering tests; NOT real playback",
+  "checks": [
+    "default includes real posts; no requests or frames before consent; neutral title and unknown date",
+    "video-only filter excludes photo posts; artist search and no-match state",
+    "Instagram controlled embed success; one global player; repeat prevention; close and artist cleanup",
+    "TikTok controlled ready/error and forged sender rejection; source fallback; 9:16 and 375/390/412px",
+    "Instagram and TikTok bookmarks survive refresh and render in Archive alongside original YouTube ID",
+    "original Discover shows 50 YouTube cards and retains bookmark controls",
+    "Instagram script HTTP 503 keeps usable card and original link",
+    "manifest HTTP 503 is isolated to social panel with retry"
+  ],
+  "errors": []
+}

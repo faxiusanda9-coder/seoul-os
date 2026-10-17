@@ -2,7 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
-import { join } from "node:path";
+import { join, dirname } from "node:path";
 import { syncTwice, syncEnabledChannels, expireStaleChannel, loadChannels } from "../scripts/youtube-sync.mjs";
 import {
   parseContentSnapshot,
@@ -275,4 +275,33 @@ test("expired API metadata is removed while the file remains schema-valid", asyn
   assert.ok(snapshot);
   assert.equal(snapshot.items.length, 0);
   assert.equal(snapshot.fetchedAt, null);
+});
+
+test("independent status advances on no-change success, preserves history on failure and distinguishes retention refresh", async(t)=>{
+  const dataFile=await fixture(t),dataDir=dirname(dataFile),statusFile=join(dataDir,"status.json");
+  const run=(now,fetchImpl=mockFetch,apiKey="fixture")=>syncEnabledChannels({artistId:"twice",dataDir,statusFile,now,fetchImpl,apiKey});
+  const status=async()=>JSON.parse(await readFile(statusFile,"utf8")).sources[0];
+  await run(TIME);
+  assert.equal((await status()).lastContentChangeAt,TIME);
+  assert.equal((await status()).newCount,1);
+  const bytes=await readFile(dataFile,"utf8");
+  const next="2026-10-14T12:00:00.000Z";
+  await run(next);
+  assert.equal(await readFile(dataFile,"utf8"),bytes);
+  assert.deepEqual([(await status()).lastSuccessAt,(await status()).lastContentChangeAt,(await status()).newCount],[next,TIME,0]);
+  await run("2026-10-15T00:00:00.000Z",mockFetch,"");
+  const failed=await status();
+  assert.equal(failed.status,"failed");
+  assert.equal(failed.lastSuccessAt,next);
+  assert.equal(failed.lastContentChangeAt,TIME);
+  assert.equal(failed.failedSources.length,1);
+  assert.equal(failed.failedSources[0].error,"Missing API credentials");
+  await run("2026-10-29T12:00:00.000Z");
+  const refreshed=await status();
+  assert.equal(refreshed.status,"ok");
+  assert.equal(refreshed.lastSuccessAt,"2026-10-29T12:00:00.000Z");
+  assert.equal(refreshed.lastContentChangeAt,TIME);
+  assert.equal(refreshed.updatedCount,0);
+  assert.deepEqual(refreshed.failedSources,[]);
+  assert.notEqual(await readFile(dataFile,"utf8"),bytes);
 });

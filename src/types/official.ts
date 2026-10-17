@@ -42,6 +42,7 @@ export interface OfficialSource {
   artistId: string;
   noticeUrl?: string;
   scheduleUrl?: string;
+  releaseUrl?: string;
   sourceType: "jyp-site" | "artist-site" | "none";
   authorizationBasis: string;
   accessStatus: "public" | "unverified";

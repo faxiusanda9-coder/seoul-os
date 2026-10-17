@@ -1,0 +1,42 @@
+[
+  {
+    "exampleOnly": true,
+    "artistId": "twice",
+    "platform": "instagram",
+    "contentType": "reels",
+    "sourceUrl": "https://www.instagram.com/reel/EXAMPLE_ONLY/",
+    "confirmedAccountUrl": "https://www.instagram.com/twicetagram/",
+    "title": null,
+    "publishedAt": null,
+    "availabilityStatus": "unknown",
+    "evidenceUrl": "https://www.instagram.com/reel/EXAMPLE_ONLY/embed/",
+    "evidenceNote": "结构示例，必须替换为实际检查的原作者与公开视频证据。工具拒绝 exampleOnly=true。"
+  },
+  {
+    "exampleOnly": true,
+    "artistId": "twice",
+    "platform": "instagram",
+    "contentType": "video-post",
+    "sourceUrl": "https://www.instagram.com/p/EXAMPLE_VIDEO_POST/",
+    "confirmedAccountUrl": "https://www.instagram.com/twicetagram/",
+    "confirmedVideo": true,
+    "title": null,
+    "publishedAt": null,
+    "availabilityStatus": "unknown",
+    "evidenceUrl": "https://www.instagram.com/p/EXAMPLE_VIDEO_POST/embed/",
+    "evidenceNote": "结构示例，只有确认帖子含视频时才能声明 video-post。"
+  },
+  {
+    "exampleOnly": true,
+    "artistId": "twice",
+    "platform": "tiktok",
+    "contentType": "short-video",
+    "sourceUrl": "https://www.tiktok.com/@twice_tiktok_official/video/1234567890123456789",
+    "confirmedAccountUrl": "https://www.tiktok.com/@twice_tiktok_official/",
+    "title": null,
+    "publishedAt": null,
+    "availabilityStatus": "unknown",
+    "evidenceUrl": "https://www.tiktok.com/player/v1/1234567890123456789",
+    "evidenceNote": "结构示例，不是实际视频。以原平台官方播放器显示的作者与原始视频链接核验。"
+  }
+]

@@ -1,0 +1,1155 @@
+{
+  "checkedAt": "2026-10-17T15:51:24.682Z",
+  "method": "One-off review of public official embeds and official YouTube outgoing links. No private API, pagination, media download, login bypass or scheduled discovery.",
+  "instagramProfileAttempts": [
+    {
+      "artistId": "twice",
+      "url": "https://www.instagram.com/twicetagram/embed/",
+      "http": 200,
+      "profileOwner": "twicetagram",
+      "presented": 6,
+      "videoCandidates": [
+        "DegKEZyhoe4",
+        "DedlTrqBwVg",
+        "DeQmboCBOjE",
+        "DeOxt-YBpdu"
+      ],
+      "nonVideos": [
+        {
+          "code": "DemXE3QSf0I",
+          "type": "GraphImage"
+        },
+        {
+          "code": "DeLkL8_yPkk",
+          "type": "GraphImage"
+        }
+      ]
+    },
+    {
+      "artistId": "stray-kids",
+      "url": "https://www.instagram.com/realstraykids/embed/",
+      "http": 200,
+      "profileOwner": "realstraykids",
+      "presented": 6,
+      "videoCandidates": [
+        "Deft9enz9Vn",
+        "DefnhlERNeI",
+        "DeejFQxuvDj",
+        "DeeVK41Tz3h",
+        "DeWLSAYThAC"
+      ],
+      "nonVideos": [
+        {
+          "code": "DeOPfnHzVKh",
+          "type": "GraphImage"
+        }
+      ]
+    },
+    {
+      "artistId": "itzy",
+      "url": "https://www.instagram.com/itzy.all.in.us/embed/",
+      "http": 200,
+      "profileOwner": "itzy.all.in.us",
+      "presented": 6,
+      "videoCandidates": [
+        "DejTfxagVkJ",
+        "Deiu8BPBfNn",
+        "DebGMmgS0lI"
+      ],
+      "nonVideos": [
+        {
+          "code": "DemElVikpGb",
+          "type": "GraphSidecar"
+        },
+        {
+          "code": "DegpAHmkqP4",
+          "type": "GraphSidecar"
+        },
+        {
+          "code": "DebHfO3kpzR",
+          "type": "GraphSidecar"
+        }
+      ]
+    },
+    {
+      "artistId": "nmixx",
+      "url": "https://www.instagram.com/nmixx_official/embed/",
+      "http": 200,
+      "profileOwner": "nmixx_official",
+      "presented": 6,
+      "videoCandidates": [
+        "DemYT3vtO0n",
+        "DemU6rYNTWC",
+        "DejpQdCtd2w"
+      ],
+      "nonVideos": [
+        {
+          "code": "DemSlicGa-C",
+          "type": "GraphSidecar"
+        },
+        {
+          "code": "DemLVf1Oq4z",
+          "type": "GraphImage"
+        },
+        {
+          "code": "DemKn9HGe58",
+          "type": "GraphSidecar"
+        }
+      ]
+    },
+    {
+      "artistId": "day6",
+      "url": "https://www.instagram.com/day6kilogram/embed/",
+      "http": 200,
+      "profileOwner": "day6kilogram",
+      "presented": 6,
+      "videoCandidates": [
+        "DedXmDljTMV",
+        "DeZSnWfgfuo",
+        "DeYVD7yjGoo",
+        "DeYU_4bAHf6"
+      ],
+      "nonVideos": [
+        {
+          "code": "DemGdcKD_RF",
+          "type": "GraphSidecar"
+        },
+        {
+          "code": "DelXmtXD7Gv",
+          "type": "GraphSidecar"
+        }
+      ]
+    },
+    {
+      "artistId": "xdinary-heroes",
+      "url": "https://www.instagram.com/xdinaryheroes_official/embed/",
+      "http": 200,
+      "profileOwner": "xdinaryheroes_official",
+      "presented": 6,
+      "videoCandidates": [
+        "DelamuHgJ3L",
+        "DelMxemAJOZ"
+      ],
+      "nonVideos": [
+        {
+          "code": "DeltBJkGHAq",
+          "type": "GraphSidecar"
+        },
+        {
+          "code": "DelDKd7RyWQ",
+          "type": "GraphImage"
+        },
+        {
+          "code": "DejbkGdGJfH",
+          "type": "GraphSidecar"
+        },
+        {
+          "code": "Dei4S66Rfbd",
+          "type": "GraphImage"
+        }
+      ]
+    },
+    {
+      "artistId": "kickflip",
+      "url": "https://www.instagram.com/kickflip_jype/embed/",
+      "http": 200,
+      "profileOwner": "kickflip_jype",
+      "presented": 6,
+      "videoCandidates": [
+        "DemD0DXNkd1",
+        "Del81w1te69",
+        "Del2FAEN6sZ",
+        "DelvJsatHKM",
+        "DejTBKnPbjU"
+      ],
+      "nonVideos": [
+        {
+          "code": "DejXy74mkas",
+          "type": "GraphSidecar"
+        }
+      ]
+    },
+    {
+      "artistId": "niziu",
+      "url": "https://www.instagram.com/niziu_info_official/embed/",
+      "http": 200,
+      "profileOwner": "niziu_info_official",
+      "presented": 6,
+      "videoCandidates": [
+        "DelhcbWBMGe",
+        "DelM1SJhZ_v",
+        "DejnSaBtEQe",
+        "DejRHboJiQD",
+        "DejDe0TBnG1"
+      ],
+      "nonVideos": [
+        {
+          "code": "Delaj-6Geyc",
+          "type": "GraphSidecar"
+        }
+      ]
+    },
+    {
+      "artistId": "nexz",
+      "url": "https://www.instagram.com/real_nexz/embed/",
+      "http": 200,
+      "profileOwner": "real_nexz",
+      "presented": 6,
+      "videoCandidates": [
+        "DemKjWhT8hp",
+        "DejssV5BiSL",
+        "Dejl35qhzcl",
+        "Deje4aKTwA6",
+        "DejRSIDB5Rm"
+      ],
+      "nonVideos": [
+        {
+          "code": "DejhuhnE2nQ",
+          "type": "GraphSidecar"
+        }
+      ]
+    },
+    {
+      "artistId": "jy-park",
+      "url": "https://www.instagram.com/asiansoul_jyp/embed/",
+      "http": 200,
+      "profileOwner": "asiansoul_jyp",
+      "presented": 6,
+      "videoCandidates": [
+        "Dd34E2YJhJs",
+        "Dd2rE9cq9tm",
+        "Ddw1CO2SAfI",
+        "DdvPjP4J2j-"
+      ],
+      "nonVideos": [
+        {
+          "code": "DeI4Fw3iRCE",
+          "type": "GraphSidecar"
+        },
+        {
+          "code": "Dd-5jFWCUtW",
+          "type": "GraphSidecar"
+        }
+      ]
+    },
+    {
+      "artistId": "2pm",
+      "url": "https://www.instagram.com/real_2pmstagram/embed/",
+      "http": 200,
+      "profileOwner": "real_2pmstagram",
+      "presented": 6,
+      "videoCandidates": [
+        "DeYcAiIB962",
+        "DeJoag4hiU8"
+      ],
+      "nonVideos": [
+        {
+          "code": "DeeAKPsI0-q",
+          "type": "GraphSidecar"
+        },
+        {
+          "code": "DdnWPjfGC2y",
+          "type": "GraphSidecar"
+        },
+        {
+          "code": "DdX9-l3gXPF",
+          "type": "GraphSidecar"
+        },
+        {
+          "code": "DdD45lggQde",
+          "type": "GraphSidecar"
+        }
+      ]
+    },
+    {
+      "artistId": "boy-story",
+      "url": "https://www.instagram.com/official_boystory/embed/",
+      "http": 200,
+      "profileOwner": "official_boystory",
+      "presented": 6,
+      "videoCandidates": [
+        "DclGOlaTc82",
+        "DcLWSRSBWbZ"
+      ],
+      "nonVideos": [
+        {
+          "code": "DcnjB21Cb-h",
+          "type": "GraphSidecar"
+        },
+        {
+          "code": "Dck4h-Ok7Wq",
+          "type": "GraphSidecar"
+        },
+        {
+          "code": "DcioV_mk_3C",
+          "type": "GraphSidecar"
+        },
+        {
+          "code": "DcD1tH1EyPK",
+          "type": "GraphSidecar"
+        }
+      ]
+    },
+    {
+      "artistId": "yaochen",
+      "url": "https://www.instagram.com/noname_0323xx/embed/",
+      "http": 200,
+      "profileOwner": null,
+      "presented": 0,
+      "videoCandidates": [],
+      "nonVideos": []
+    },
+    {
+      "artistId": "girlset",
+      "url": "https://www.instagram.com/girlset/embed/",
+      "http": 200,
+      "profileOwner": "girlset",
+      "presented": 6,
+      "videoCandidates": [
+        "DekE2zXKx7I",
+        "DeZnMEDq8Fp",
+        "DeKKlYxqqxZ",
+        "DeIRw3zBQqk",
+        "Dd9SmC1KF2z"
+      ],
+      "nonVideos": [
+        {
+          "code": "DeKjhc_l3R8",
+          "type": "GraphSidecar"
+        }
+      ]
+    }
+  ],
+  "instagramRejectedAuthors": [
+    {
+      "artistId": "stray-kids",
+      "sourceUrl": "https://www.instagram.com/reel/Deft9enz9Vn/",
+      "embedUrl": "https://www.instagram.com/reel/Deft9enz9Vn/embed/",
+      "http": 200,
+      "contextKeys": [
+        "type",
+        "shortcode",
+        "copyright_blocked"
+      ],
+      "profileCode": "Deft9enz9Vn",
+      "profileOwner": "realstraykids",
+      "profileType": "GraphVideo",
+      "profilePublishedAt": "2026-10-15T01:00:02.000Z",
+      "singleOwner": "bape.korea",
+      "verified": false
+    },
+    {
+      "artistId": "stray-kids",
+      "sourceUrl": "https://www.instagram.com/reel/DefnhlERNeI/",
+      "embedUrl": "https://www.instagram.com/reel/DefnhlERNeI/embed/",
+      "http": 200,
+      "contextKeys": [
+        "type",
+        "shortcode",
+        "copyright_blocked"
+      ],
+      "profileCode": "DefnhlERNeI",
+      "profileOwner": "realstraykids",
+      "profileType": "GraphVideo",
+      "profilePublishedAt": "2026-10-15T00:00:14.000Z",
+      "singleOwner": "duolingoespanol",
+      "verified": false
+    },
+    {
+      "artistId": "stray-kids",
+      "sourceUrl": "https://www.instagram.com/reel/DeejFQxuvDj/",
+      "embedUrl": "https://www.instagram.com/reel/DeejFQxuvDj/embed/",
+      "http": 200,
+      "contextKeys": [
+        "type",
+        "shortcode",
+        "copyright_blocked"
+      ],
+      "profileCode": "DeejFQxuvDj",
+      "profileOwner": "realstraykids",
+      "profileType": "GraphVideo",
+      "profilePublishedAt": "2026-10-14T14:01:23.000Z",
+      "singleOwner": "trafalgarreleasing",
+      "verified": false
+    },
+    {
+      "artistId": "itzy",
+      "sourceUrl": "https://www.instagram.com/reel/DejTfxagVkJ/",
+      "embedUrl": "https://www.instagram.com/reel/DejTfxagVkJ/embed/",
+      "http": 200,
+      "contextKeys": [
+        "type",
+        "shortcode",
+        "copyright_blocked"
+      ],
+      "profileCode": "DejTfxagVkJ",
+      "profileOwner": "itzy.all.in.us",
+      "profileType": "GraphVideo",
+      "profilePublishedAt": "2026-10-16T11:00:03.000Z",
+      "singleOwner": "youtubekorea",
+      "verified": false
+    },
+    {
+      "artistId": "day6",
+      "sourceUrl": "https://www.instagram.com/reel/DeZSnWfgfuo/",
+      "embedUrl": "https://www.instagram.com/reel/DeZSnWfgfuo/embed/",
+      "http": 200,
+      "contextKeys": [
+        "type",
+        "shortcode",
+        "copyright_blocked"
+      ],
+      "profileCode": "DeZSnWfgfuo",
+      "profileOwner": "day6kilogram",
+      "profileType": "GraphVideo",
+      "profilePublishedAt": "2026-10-12T13:00:05.000Z",
+      "singleOwner": "xdinaryheroes_official",
+      "verified": false
+    },
+    {
+      "artistId": "girlset",
+      "sourceUrl": "https://www.instagram.com/reel/DeIRw3zBQqk/",
+      "embedUrl": "https://www.instagram.com/reel/DeIRw3zBQqk/embed/",
+      "http": 200,
+      "contextKeys": [
+        "type",
+        "shortcode",
+        "copyright_blocked"
+      ],
+      "profileCode": "DeIRw3zBQqk",
+      "profileOwner": "girlset",
+      "profileType": "GraphVideo",
+      "profilePublishedAt": "2026-10-05T22:27:22.000Z",
+      "singleOwner": "rei.ami",
+      "verified": false
+    }
+  ],
+  "instagramPostReview": [
+    {
+      "artistId": "twice",
+      "id": "ig-DemXE3QSf0I",
+      "sourceUrl": "https://www.instagram.com/p/DemXE3QSf0I/",
+      "http": 200,
+      "originalOwner": "twicetagram",
+      "profileType": "GraphImage",
+      "containsVideo": false,
+      "children": [],
+      "checkedAt": "2026-10-17T15:42:37.940Z",
+      "verified": true
+    },
+    {
+      "artistId": "twice",
+      "id": "ig-DeLkL8_yPkk",
+      "sourceUrl": "https://www.instagram.com/p/DeLkL8_yPkk/",
+      "http": 200,
+      "originalOwner": "twicetagram",
+      "profileType": "GraphImage",
+      "containsVideo": false,
+      "children": [],
+      "checkedAt": "2026-10-17T15:42:38.470Z",
+      "verified": true
+    },
+    {
+      "artistId": "stray-kids",
+      "id": "ig-DeOPfnHzVKh",
+      "sourceUrl": "https://www.instagram.com/p/DeOPfnHzVKh/",
+      "http": 200,
+      "originalOwner": "realstraykids",
+      "profileType": "GraphImage",
+      "containsVideo": false,
+      "children": [],
+      "checkedAt": "2026-10-17T15:42:40.354Z",
+      "verified": true
+    },
+    {
+      "artistId": "itzy",
+      "id": "ig-DemElVikpGb",
+      "sourceUrl": "https://www.instagram.com/p/DemElVikpGb/",
+      "http": 200,
+      "originalOwner": "itzy.all.in.us",
+      "profileType": "GraphSidecar",
+      "containsVideo": false,
+      "children": [
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage"
+      ],
+      "checkedAt": "2026-10-17T15:42:41.655Z",
+      "verified": true
+    },
+    {
+      "artistId": "itzy",
+      "id": "ig-DegpAHmkqP4",
+      "sourceUrl": "https://www.instagram.com/p/DegpAHmkqP4/",
+      "http": 200,
+      "originalOwner": "itzy.all.in.us",
+      "profileType": "GraphSidecar",
+      "containsVideo": false,
+      "children": [
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage"
+      ],
+      "checkedAt": "2026-10-17T15:42:42.098Z",
+      "verified": true
+    },
+    {
+      "artistId": "itzy",
+      "id": "ig-DebHfO3kpzR",
+      "sourceUrl": "https://www.instagram.com/p/DebHfO3kpzR/",
+      "http": 200,
+      "originalOwner": "iamfinethankyouandryu",
+      "profileType": "GraphSidecar",
+      "containsVideo": false,
+      "children": [
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage"
+      ],
+      "checkedAt": "2026-10-17T15:42:42.557Z",
+      "verified": false
+    },
+    {
+      "artistId": "nmixx",
+      "id": "ig-DemSlicGa-C",
+      "sourceUrl": "https://www.instagram.com/p/DemSlicGa-C/",
+      "http": 200,
+      "originalOwner": "nmixx_official",
+      "profileType": "GraphSidecar",
+      "containsVideo": false,
+      "children": [
+        "GraphImage",
+        "GraphImage"
+      ],
+      "checkedAt": "2026-10-17T15:42:43.926Z",
+      "verified": true
+    },
+    {
+      "artistId": "nmixx",
+      "id": "ig-DemLVf1Oq4z",
+      "sourceUrl": "https://www.instagram.com/p/DemLVf1Oq4z/",
+      "http": 200,
+      "originalOwner": "nmixx_official",
+      "profileType": "GraphImage",
+      "containsVideo": false,
+      "children": [],
+      "checkedAt": "2026-10-17T15:42:44.444Z",
+      "verified": true
+    },
+    {
+      "artistId": "nmixx",
+      "id": "ig-DemKn9HGe58",
+      "sourceUrl": "https://www.instagram.com/p/DemKn9HGe58/",
+      "http": 200,
+      "originalOwner": "nmixx_official",
+      "profileType": "GraphSidecar",
+      "containsVideo": false,
+      "children": [
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage"
+      ],
+      "checkedAt": "2026-10-17T15:42:45.315Z",
+      "verified": true
+    },
+    {
+      "artistId": "day6",
+      "id": "ig-DemGdcKD_RF",
+      "sourceUrl": "https://www.instagram.com/p/DemGdcKD_RF/",
+      "http": 200,
+      "originalOwner": "day6kilogram",
+      "profileType": "GraphSidecar",
+      "containsVideo": false,
+      "children": [
+        "GraphImage",
+        "GraphImage"
+      ],
+      "checkedAt": "2026-10-17T15:42:47.218Z",
+      "verified": true
+    },
+    {
+      "artistId": "day6",
+      "id": "ig-DelXmtXD7Gv",
+      "sourceUrl": "https://www.instagram.com/p/DelXmtXD7Gv/",
+      "http": 200,
+      "originalOwner": "day6kilogram",
+      "profileType": "GraphSidecar",
+      "containsVideo": false,
+      "children": [
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage"
+      ],
+      "checkedAt": "2026-10-17T15:42:47.906Z",
+      "verified": true
+    },
+    {
+      "artistId": "xdinary-heroes",
+      "id": "ig-DeltBJkGHAq",
+      "sourceUrl": "https://www.instagram.com/p/DeltBJkGHAq/",
+      "http": 200,
+      "originalOwner": "xdinaryheroes_official",
+      "profileType": "GraphSidecar",
+      "containsVideo": false,
+      "children": [
+        "GraphImage",
+        "GraphImage"
+      ],
+      "checkedAt": "2026-10-17T15:42:51.320Z",
+      "verified": true
+    },
+    {
+      "artistId": "xdinary-heroes",
+      "id": "ig-DelDKd7RyWQ",
+      "sourceUrl": "https://www.instagram.com/p/DelDKd7RyWQ/",
+      "http": 200,
+      "originalOwner": "xdinaryheroes_official",
+      "profileType": "GraphImage",
+      "containsVideo": false,
+      "children": [],
+      "checkedAt": "2026-10-17T15:42:51.746Z",
+      "verified": true
+    },
+    {
+      "artistId": "xdinary-heroes",
+      "id": "ig-DejbkGdGJfH",
+      "sourceUrl": "https://www.instagram.com/p/DejbkGdGJfH/",
+      "http": 200,
+      "originalOwner": "xdinaryheroes_official",
+      "profileType": "GraphSidecar",
+      "containsVideo": false,
+      "children": [
+        "GraphImage",
+        "GraphImage"
+      ],
+      "checkedAt": "2026-10-17T15:42:52.385Z",
+      "verified": true
+    },
+    {
+      "artistId": "xdinary-heroes",
+      "id": "ig-Dei4S66Rfbd",
+      "sourceUrl": "https://www.instagram.com/p/Dei4S66Rfbd/",
+      "http": 200,
+      "originalOwner": "xdinaryheroes_official",
+      "profileType": "GraphImage",
+      "containsVideo": false,
+      "children": [],
+      "checkedAt": "2026-10-17T15:42:52.770Z",
+      "verified": true
+    },
+    {
+      "artistId": "kickflip",
+      "id": "ig-DejXy74mkas",
+      "sourceUrl": "https://www.instagram.com/p/DejXy74mkas/",
+      "http": 200,
+      "originalOwner": "kickflip_jype",
+      "profileType": "GraphSidecar",
+      "containsVideo": false,
+      "children": [
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage"
+      ],
+      "checkedAt": "2026-10-17T15:42:54.003Z",
+      "verified": true
+    },
+    {
+      "artistId": "niziu",
+      "id": "ig-Delaj-6Geyc",
+      "sourceUrl": "https://www.instagram.com/p/Delaj-6Geyc/",
+      "http": 200,
+      "originalOwner": "niziu_info_official",
+      "profileType": "GraphSidecar",
+      "containsVideo": false,
+      "children": [
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage"
+      ],
+      "checkedAt": "2026-10-17T15:42:55.699Z",
+      "verified": true
+    },
+    {
+      "artistId": "nexz",
+      "id": "ig-DejhuhnE2nQ",
+      "sourceUrl": "https://www.instagram.com/p/DejhuhnE2nQ/",
+      "http": 200,
+      "originalOwner": "real_nexz",
+      "profileType": "GraphSidecar",
+      "containsVideo": false,
+      "children": [
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage"
+      ],
+      "checkedAt": "2026-10-17T15:42:57.296Z",
+      "verified": true
+    },
+    {
+      "artistId": "jy-park",
+      "id": "ig-DeI4Fw3iRCE",
+      "sourceUrl": "https://www.instagram.com/p/DeI4Fw3iRCE/",
+      "http": 200,
+      "originalOwner": "asiansoul_jyp",
+      "profileType": "GraphSidecar",
+      "containsVideo": false,
+      "children": [
+        "GraphImage",
+        "GraphImage"
+      ],
+      "checkedAt": "2026-10-17T15:42:58.728Z",
+      "verified": true
+    },
+    {
+      "artistId": "jy-park",
+      "id": "ig-Dd-5jFWCUtW",
+      "sourceUrl": "https://www.instagram.com/p/Dd-5jFWCUtW/",
+      "http": 200,
+      "originalOwner": "asiansoul_jyp",
+      "profileType": "GraphSidecar",
+      "containsVideo": false,
+      "children": [
+        "GraphImage",
+        "GraphImage"
+      ],
+      "checkedAt": "2026-10-17T15:42:59.292Z",
+      "verified": true
+    },
+    {
+      "artistId": "2pm",
+      "id": "ig-DeeAKPsI0-q",
+      "sourceUrl": "https://www.instagram.com/p/DeeAKPsI0-q/",
+      "http": 200,
+      "originalOwner": "real_2pmstagram",
+      "profileType": "GraphSidecar",
+      "containsVideo": false,
+      "children": [
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage"
+      ],
+      "checkedAt": "2026-10-17T15:43:00.675Z",
+      "verified": true
+    },
+    {
+      "artistId": "2pm",
+      "id": "ig-DdnWPjfGC2y",
+      "sourceUrl": "https://www.instagram.com/p/DdnWPjfGC2y/",
+      "http": 200,
+      "originalOwner": "4dplexfilm",
+      "profileType": "GraphSidecar",
+      "containsVideo": false,
+      "children": [
+        "GraphImage",
+        "GraphImage"
+      ],
+      "checkedAt": "2026-10-17T15:43:01.270Z",
+      "verified": false
+    },
+    {
+      "artistId": "2pm",
+      "id": "ig-DdX9-l3gXPF",
+      "sourceUrl": "https://www.instagram.com/p/DdX9-l3gXPF/",
+      "http": 200,
+      "originalOwner": "jangwooyoung_records",
+      "profileType": "GraphSidecar",
+      "containsVideo": true,
+      "children": [
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphVideo"
+      ],
+      "checkedAt": "2026-10-17T15:43:01.739Z",
+      "verified": false
+    },
+    {
+      "artistId": "2pm",
+      "id": "ig-DdD45lggQde",
+      "sourceUrl": "https://www.instagram.com/p/DdD45lggQde/",
+      "http": 200,
+      "originalOwner": "jangwooyoung_records",
+      "profileType": "GraphSidecar",
+      "containsVideo": false,
+      "children": [
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage"
+      ],
+      "checkedAt": "2026-10-17T15:43:02.148Z",
+      "verified": false
+    },
+    {
+      "artistId": "boy-story",
+      "id": "ig-DcnjB21Cb-h",
+      "sourceUrl": "https://www.instagram.com/p/DcnjB21Cb-h/",
+      "http": 200,
+      "originalOwner": "official_boystory",
+      "profileType": "GraphSidecar",
+      "containsVideo": false,
+      "children": [
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage"
+      ],
+      "checkedAt": "2026-10-17T15:43:03.318Z",
+      "verified": true
+    },
+    {
+      "artistId": "boy-story",
+      "id": "ig-Dck4h-Ok7Wq",
+      "sourceUrl": "https://www.instagram.com/p/Dck4h-Ok7Wq/",
+      "http": 200,
+      "originalOwner": "official_boystory",
+      "profileType": "GraphSidecar",
+      "containsVideo": false,
+      "children": [
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage"
+      ],
+      "checkedAt": "2026-10-17T15:43:03.851Z",
+      "verified": true
+    },
+    {
+      "artistId": "boy-story",
+      "id": "ig-DcioV_mk_3C",
+      "sourceUrl": "https://www.instagram.com/p/DcioV_mk_3C/",
+      "http": 200,
+      "originalOwner": "official_boystory",
+      "profileType": "GraphSidecar",
+      "containsVideo": false,
+      "children": [
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage"
+      ],
+      "checkedAt": "2026-10-17T15:43:04.607Z",
+      "verified": true
+    },
+    {
+      "artistId": "boy-story",
+      "id": "ig-DcD1tH1EyPK",
+      "sourceUrl": "https://www.instagram.com/p/DcD1tH1EyPK/",
+      "http": 200,
+      "originalOwner": "official_boystory",
+      "profileType": "GraphSidecar",
+      "containsVideo": false,
+      "children": [
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage"
+      ],
+      "checkedAt": "2026-10-17T15:43:05.004Z",
+      "verified": true
+    },
+    {
+      "artistId": "yaochen",
+      "id": "ig-DY1E2bQGfdj",
+      "sourceUrl": "https://www.instagram.com/p/DY1E2bQGfdj/",
+      "http": 200,
+      "originalOwner": "yao_chen0323",
+      "profileType": "GraphSidecar",
+      "containsVideo": false,
+      "children": [
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage"
+      ],
+      "checkedAt": "2026-10-17T15:43:06.529Z",
+      "verified": true
+    },
+    {
+      "artistId": "yaochen",
+      "id": "ig-DYRXckwmc7z",
+      "sourceUrl": "https://www.instagram.com/p/DYRXckwmc7z/",
+      "http": 200,
+      "originalOwner": "yao_chen0323",
+      "profileType": "GraphSidecar",
+      "containsVideo": false,
+      "children": [
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage"
+      ],
+      "checkedAt": "2026-10-17T15:43:07.165Z",
+      "verified": true
+    },
+    {
+      "artistId": "yaochen",
+      "id": "ig-DX8H3UZmUR1",
+      "sourceUrl": "https://www.instagram.com/p/DX8H3UZmUR1/",
+      "http": 200,
+      "originalOwner": "yao_chen0323",
+      "profileType": "GraphSidecar",
+      "containsVideo": false,
+      "children": [
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage"
+      ],
+      "checkedAt": "2026-10-17T15:43:07.749Z",
+      "verified": true
+    },
+    {
+      "artistId": "yaochen",
+      "id": "ig-DXroodUmWzv",
+      "sourceUrl": "https://www.instagram.com/p/DXroodUmWzv/",
+      "http": 200,
+      "originalOwner": "yao_chen0323",
+      "profileType": "GraphSidecar",
+      "containsVideo": false,
+      "children": [
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage"
+      ],
+      "checkedAt": "2026-10-17T15:43:08.590Z",
+      "verified": true
+    },
+    {
+      "artistId": "yaochen",
+      "id": "ig-DWJxpQZkolq",
+      "sourceUrl": "https://www.instagram.com/p/DWJxpQZkolq/",
+      "http": 200,
+      "originalOwner": "yao_chen0323",
+      "profileType": "GraphSidecar",
+      "containsVideo": false,
+      "children": [
+        "GraphImage",
+        "GraphImage",
+        "GraphImage"
+      ],
+      "checkedAt": "2026-10-17T15:43:09.270Z",
+      "verified": true
+    },
+    {
+      "artistId": "yaochen",
+      "id": "ig-DPELHu9EpR6",
+      "sourceUrl": "https://www.instagram.com/p/DPELHu9EpR6/",
+      "http": 200,
+      "originalOwner": "yao_chen0323",
+      "profileType": "GraphSidecar",
+      "containsVideo": false,
+      "children": [
+        "GraphImage",
+        "GraphImage"
+      ],
+      "checkedAt": "2026-10-17T15:43:09.840Z",
+      "verified": true
+    },
+    {
+      "artistId": "girlset",
+      "id": "ig-DeKjhc_l3R8",
+      "sourceUrl": "https://www.instagram.com/p/DeKjhc_l3R8/",
+      "http": 200,
+      "originalOwner": null,
+      "profileType": "GraphSidecar",
+      "containsVideo": false,
+      "children": [
+        "GraphImage",
+        "GraphImage",
+        "GraphImage",
+        "GraphImage"
+      ],
+      "checkedAt": "2026-10-17T15:43:11.718Z",
+      "verified": false
+    }
+  ],
+  "tiktokAccountReview": [
+    {
+      "artistId": "day6",
+      "evidenceUrl": "https://www.youtube.com/watch?v=KsZp8Y9r_3U",
+      "http": 200,
+      "accountUrls": [],
+      "hasOfficialTikTokLabel": false,
+      "hasVerifiedChannelId": true
+    },
+    {
+      "artistId": "xdinary-heroes",
+      "evidenceUrl": "https://www.youtube.com/watch?v=_6PB4Edu4kM",
+      "http": 200,
+      "accountUrls": [],
+      "hasOfficialTikTokLabel": false,
+      "hasVerifiedChannelId": true
+    },
+    {
+      "artistId": "kickflip",
+      "evidenceUrl": "https://www.youtube.com/watch?v=-1bkUKmoG5g",
+      "http": 200,
+      "accountUrls": [],
+      "hasOfficialTikTokLabel": false,
+      "hasVerifiedChannelId": true
+    },
+    {
+      "artistId": "niziu",
+      "evidenceUrl": "https://www.youtube.com/watch?v=O0mhvDl9NB0",
+      "http": 200,
+      "accountUrls": [
+        "https://www.tiktok.com/@niziu_official"
+      ],
+      "hasOfficialTikTokLabel": true,
+      "hasVerifiedChannelId": true
+    },
+    {
+      "artistId": "nexz",
+      "evidenceUrl": "https://www.youtube.com/watch?v=UCLKH_NUoEU",
+      "http": 200,
+      "accountUrls": [
+        "https://www.tiktok.com/@nexz_official"
+      ],
+      "hasOfficialTikTokLabel": true,
+      "hasVerifiedChannelId": true
+    },
+    {
+      "artistId": "jy-park",
+      "evidenceUrl": "https://www.youtube.com/watch?v=1rXRtxI7d_0",
+      "http": 200,
+      "accountUrls": [],
+      "hasOfficialTikTokLabel": true,
+      "hasVerifiedChannelId": true
+    },
+    {
+      "artistId": "2pm",
+      "evidenceUrl": "https://www.youtube.com/watch?v=7gVwEc1-3tk",
+      "http": 200,
+      "accountUrls": [],
+      "hasOfficialTikTokLabel": false,
+      "hasVerifiedChannelId": true
+    },
+    {
+      "artistId": "boy-story",
+      "evidenceUrl": "https://www.youtube.com/watch?v=KidzbwMSlVM",
+      "http": 200,
+      "accountUrls": [
+        "https://www.tiktok.com/@boystory_official_2018"
+      ],
+      "hasOfficialTikTokLabel": true,
+      "hasVerifiedChannelId": true
+    },
+    {
+      "artistId": "yaochen",
+      "evidenceUrl": "https://www.youtube.com/watch?v=wX0nQwuBswA",
+      "http": 200,
+      "accountUrls": [],
+      "hasOfficialTikTokLabel": false,
+      "hasVerifiedChannelId": true
+    },
+    {
+      "artistId": "girlset",
+      "evidenceUrl": "https://www.youtube.com/watch?v=47TXLR-hza0",
+      "http": 200,
+      "accountUrls": [
+        "https://www.tiktok.com/@GIRLSET",
+        "https://www.tiktok.com/@girlset"
+      ],
+      "hasOfficialTikTokLabel": true,
+      "hasVerifiedChannelId": true
+    }
+  ],
+  "barriers": [
+    {
+      "source": "TikTok oEmbed",
+      "http": 429,
+      "reason": "ratelimit triggered; use official single Player for known links"
+    },
+    {
+      "source": "TikTok Creator Profile",
+      "http": 429,
+      "reason": "TLB/overload protect; not used as a substitute for individual videos"
+    },
+    {
+      "source": "BOY STORY TikTok candidate listing",
+      "http": 202,
+      "reason": "No actual video permalinks found; no bypass and zero imported videos"
+    }
+  ]
+}

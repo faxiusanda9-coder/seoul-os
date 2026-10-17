@@ -16,6 +16,8 @@ import { SearchPage } from "./pages/SearchPage";
 import { NoticePage } from "./pages/NoticePage";
 import { PrivacyPage } from "./pages/PrivacyPage";
 import { NotFoundPage } from "./pages/NotFoundPage";
+import { MediaPage } from "./pages/MediaPage";
+import { SocialProvider } from "./store/SocialContext";
 import "./styles.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
@@ -23,6 +25,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
     <I18nProvider>
       <ArchiveProvider>
         <ContentProvider>
+          <SocialProvider>
           <HashRouter>
             <Routes>
               <Route element={<Layout />}>
@@ -38,11 +41,13 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
                 <Route path="/universe" element={<UniversePage />} />
                 <Route path="/search" element={<SearchPage />} />
                 <Route path="/official" element={<NoticePage />} />
+                <Route path="/media" element={<MediaPage />} />
                 <Route path="/privacy" element={<PrivacyPage />} />
                 <Route path="*" element={<NotFoundPage />} />
               </Route>
             </Routes>
           </HashRouter>
+          </SocialProvider>
         </ContentProvider>
       </ArchiveProvider>
     </I18nProvider>

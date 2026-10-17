@@ -47,6 +47,9 @@ export function PrivacyPage() {
             Ticketmaster Privacy ↗
           </a>
         </p>
+        <h2>{t("media.privacyTitle")}</h2>
+        <p>{t("media.privacyBody")}</p>
+        <p><a className="text-link" href="https://privacycenter.instagram.com/policy/" target="_blank" rel="noopener noreferrer">Instagram Privacy ↗</a> · <a className="text-link" href="https://www.tiktok.com/legal/page/row/privacy-policy/en" target="_blank" rel="noopener noreferrer">TikTok Privacy ↗</a></p>
         <h2>{t("privacy.calendarTitle")}</h2>
         <p>{t("privacy.calendarBody")}</p>
         <p>{t("privacy.thirdParty")}</p>

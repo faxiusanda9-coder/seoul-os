@@ -3,6 +3,7 @@ import { resolve } from "node:path";
 import { pathToFileURL } from "node:url";
 import { parseChannelSnapshot, parseChannelsConfig } from "../data/schemas/content.schema.ts";
 import { classifyContent } from "../src/utils/contentClassifier.ts";
+import { readStatus, updateStatus, safeError } from "./sync-status.mjs";
 
 const API_ROOT = "https://www.googleapis.com/youtube/v3";
 const RETENTION_MS = 30 * 24 * 60 * 60 * 1000;
@@ -147,13 +148,17 @@ export async function syncChannel({ channel, apiKey = process.env.YOUTUBE_API_KE
   const changed = JSON.stringify(previous.items) !== JSON.stringify(items) ||
     previous.schemaVersion !== 3 || previous.artistId !== channel.artistId || previous.syncStatus !== "ok";
   const newCount = items.filter((item) => !oldById.has(item.id)).length;
-  const updatedCount = items.filter((item) => oldById.has(item.id) && item !== oldById.get(item.id)).length;
-  if (!changed) return { changed: false, count: items.length, newCount, updatedCount, ...counter };
+  const metadata = ({fetchedAt: _fetched, lastValidatedAt: _validated, ...rest}) => rest;
+  const updatedCount = items.filter((item) => oldById.has(item.id) &&
+    JSON.stringify(metadata(item)) !== JSON.stringify(metadata(oldById.get(item.id)))).length;
+  const removedCount = previous.items.filter(old => !items.some(item => item.id === old.id)).length;
+  const contentChanged = newCount + updatedCount + removedCount > 0;
+  if (!changed) return { changed: false, contentChanged, count: items.length, newCount, updatedCount, ...counter };
   const next = { schemaVersion: 3, channelId: channel.channelId, uploadsPlaylistId: channel.uploadsPlaylistId,
     artistId: channel.artistId, syncStatus: "ok", fetchedAt: now, items };
   if (!parseChannelSnapshot(next, channel)) throw new Error(`${channel.artistId}: generated snapshot failed validation`);
   await atomicWrite(dataFile, next);
-  return { changed: true, count: items.length, newCount, updatedCount, ...counter };
+  return { changed: true, contentChanged, count: items.length, newCount, updatedCount, ...counter };
 }
 
 export async function expireStaleChannel(channel, dataFile = dataPath(channel.artistId), now = new Date().toISOString()) {
@@ -170,29 +175,47 @@ export async function syncTwice(options = {}) {
 }
 
 export async function syncEnabledChannels({ artistId = "all", apiKey = process.env.YOUTUBE_API_KEY,
-  fetchImpl = fetch, dataDir = resolve("data/youtube") } = {}) {
+  fetchImpl = fetch, dataDir = resolve("data/youtube"),
+  statusFile = dataDir === resolve("data/youtube") ? resolve("data/status/youtube.json") : resolve(dataDir,".sync-status.json"), now = new Date().toISOString() } = {}) {
   const enabled = (await loadChannels()).filter((item) => item.enabled);
   const selected = artistId === "all" ? enabled : enabled.filter((item) => item.artistId === artistId);
   if (!selected.length) throw new Error(`No enabled verified channel matches ${artistId}`);
   const results = [];
   let quotaExceeded = false;
   for (const channel of selected) {
-    if (quotaExceeded) { results.push({ artistId: channel.artistId, status: "skipped", reason: "quota exceeded" }); continue; }
+    const sourceId = `youtube:${channel.artistId}`;
+    const old = (await readStatus(statusFile)).sources.find(s => s.sourceId === sourceId);
+    const snapshotBefore = await existingSnapshot(channel, resolve(dataDir, `${channel.artistId}.json`)).catch(()=>null);
+    const state = { sourceId, artistId: channel.artistId, platform: "youtube", mode: "api",
+      status: "running", lastAttemptAt: now, lastSuccessAt: old?.lastSuccessAt ?? null,
+      lastContentChangeAt: old?.lastContentChangeAt ?? null, newCount: 0, updatedCount: 0,
+      itemCount: old?.itemCount ?? snapshotBefore?.items.length ?? 0, failedSources: [] };
+    if (quotaExceeded) {
+      results.push({ artistId: channel.artistId, status: "skipped", reason: "quota exceeded" });
+      await updateStatus(statusFile, {...state, status:"skipped", failedSources:[{sourceId,error:"Skipped after API quota exhaustion"}]});
+      continue;
+    }
+    await updateStatus(statusFile, state);
     const counter = { requests: 0, retries: 0 };
     try {
       const result = await syncChannel({ channel, apiKey, fetchImpl,
-        dataFile: resolve(dataDir, `${channel.artistId}.json`), counter });
+        dataFile: resolve(dataDir, `${channel.artistId}.json`), counter, now });
       results.push({ artistId: channel.artistId, status: "success", ...result });
+      await updateStatus(statusFile, {...state, status:"ok", lastSuccessAt:now,
+        lastContentChangeAt:result.contentChanged ? now : state.lastContentChangeAt,
+        newCount:result.newCount, updatedCount:result.updatedCount, itemCount:result.count});
     } catch (error) {
       quotaExceeded = Boolean(error.quotaExceeded);
       let expired = false;
       let expiryError = "";
       try {
-        expired = await expireStaleChannel(channel, resolve(dataDir, `${channel.artistId}.json`));
+        expired = await expireStaleChannel(channel, resolve(dataDir, `${channel.artistId}.json`), now);
       } catch (expiryFailure) {
         expiryError = `; expiry check failed: ${expiryFailure.message}`;
       }
       results.push({ artistId: channel.artistId, status: "failed", reason: `${error.message}${expiryError}`, expired, ...counter });
+      await updateStatus(statusFile, {...state, status:"failed", itemCount:expired ? 0 : state.itemCount,
+        failedSources:[{sourceId,error:safeError(error)}]});
     }
   }
   return results;
