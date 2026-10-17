@@ -157,6 +157,12 @@ export async function importReviewed(
       fetchedAt: now,
       lastValidatedAt: now,
       availabilityStatus: c.availabilityStatus ?? "unknown",
+      ...(c.sourceAvailability !== undefined
+        ? { sourceAvailability: c.sourceAvailability }
+        : {}),
+      ...(c.embedAvailability !== undefined
+        ? { embedAvailability: c.embedAvailability }
+        : {}),
       evidenceUrl: c.evidenceUrl,
       evidenceNote: c.evidenceNote,
       reviewedBy: reviewer.trim(),
@@ -184,6 +190,10 @@ export async function importReviewed(
       if (byId.has(i.id)) {
         const before = byId.get(i.id);
         i.fetchedAt = before.fetchedAt;
+        // Reimporting an older link-list format must not erase separate evidence.
+        for (const field of ["sourceAvailability", "embedAvailability"])
+          if (i[field] === undefined && before[field] !== undefined)
+            i[field] = before[field];
         if (JSON.stringify(metadata(before)) !== JSON.stringify(metadata(i)))
           count.updatedCount++;
       } else count.newCount++;

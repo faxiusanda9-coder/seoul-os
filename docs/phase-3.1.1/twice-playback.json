@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-17T16:34:17.994Z",
+  "site": "http://localhost:5174/seoul-os/",
+  "results": [
+    {
+      "id": "ig-DegKEZyhoe4",
+      "artistId": "twice",
+      "sourceUrl": "https://www.instagram.com/reel/DegKEZyhoe4/",
+      "checkedAt": "2026-10-17T16:34:10.894Z",
+      "platform": "instagram",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.525265,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "embedObservation": {
+        "videoCount": 1,
+        "nativeControlCount": 1,
+        "copyrightBlocked": false,
+        "text": "twicetagram\nVerified\nOriginal audio\nView profile\ntwicetagram\nVerified\n5,327 posts · 30M followers\nView more on Instagram\nLike\nComment\nShare\nSave\n247,389 likes\nAdd a comment...\nInstagram"
+      },
+      "originalLinkRetained": true,
+      "accountLinkRetained": true,
+      "closedCleanly": true
+    }
+  ]
+}

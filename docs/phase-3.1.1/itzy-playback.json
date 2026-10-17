@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-17T16:33:08.879Z",
+  "site": "http://localhost:5174/seoul-os/",
+  "results": [
+    {
+      "id": "ig-Deiu8BPBfNn",
+      "artistId": "itzy",
+      "sourceUrl": "https://www.instagram.com/reel/Deiu8BPBfNn/",
+      "checkedAt": "2026-10-17T16:32:53.195Z",
+      "platform": "instagram",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "playbackConfirmed": false,
+      "error": "locator.click: Timeout 12000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[aria-label=\"Control\"],[aria-label=\"控件\"],.EmbeddedMediaPlayButton').first()\u001b[22m\n",
+      "embedObservation": {
+        "videoCount": 0,
+        "nativeControlCount": 0,
+        "copyrightBlocked": true,
+        "text": "itzy.all.in.us\nVerified\n·\nView profile\nPlay\nWatch on Instagram\nitzy.all.in.us\nVerified\n5,184 posts · 19M followers\nView more on Instagram\nLike\nComment\nShare\nSave\n146,500 likes\nAdd a comment...\nInstagram"
+      },
+      "originalLinkRetained": true,
+      "accountLinkRetained": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    }
+  ]
+}
