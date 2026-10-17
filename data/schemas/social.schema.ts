@@ -13,7 +13,7 @@ export type SocialContent = {
   id: string;
   artistId: string;
   platform: SocialPlatform;
-  contentType: "reels" | "post" | "short-video";
+  contentType: "reels" | "video-post" | "post" | "short-video";
   title: string | null;
   description: string | null;
   thumbnail: null;
@@ -160,12 +160,11 @@ export function parseSocialSnapshot(
         i.platform !== platform ||
         i.officialAccountUrl !== a.accountUrl ||
         (identity.handle && identity.handle !== a.handle.toLowerCase()) ||
-        i.contentType !==
-          (platform === "tiktok"
-            ? "short-video"
-            : identity.kind === "reel"
-              ? "reels"
-              : "post") ||
+        !(platform === "tiktok"
+          ? i.contentType === "short-video"
+          : identity.kind === "reel"
+            ? i.contentType === "reels"
+            : ["post", "video-post"].includes(i.contentType)) ||
         i.verificationStatus !== "manual-verified" ||
         i.acquisitionMethod !== "manual-verified" ||
         !["available", "restricted", "deleted", "unknown"].includes(

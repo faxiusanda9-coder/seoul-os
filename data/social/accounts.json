@@ -124,12 +124,12 @@
     {
       "artistId": "yaochen",
       "platform": "instagram",
-      "handle": "noname_0323xx",
-      "accountUrl": "https://www.instagram.com/noname_0323xx/",
+      "handle": "yao_chen0323",
+      "accountUrl": "https://www.instagram.com/yao_chen0323/",
       "verificationStatus": "verified",
-      "verifiedAt": "2026-10-17T14:44:42.529Z",
-      "evidenceUrl": "https://www.jype.com/en/Artist",
-      "evidenceNote": "JYP 官方 Artist 目录中对应艺人的 Instagram 出站链接；本次逐条核对。"
+      "verifiedAt": "2026-10-17T15:28:34.122Z",
+      "evidenceUrl": "https://www.youtube.com/watch?v=wX0nQwuBswA",
+      "evidenceNote": "JYP 旧目录 noname_0323xx 的官方嵌入无公开资料；改用已核实 YAOCHEN 独立官方 YouTube 视频说明中 Instagram 出站链接 yao_chen0323，并与原平台 YAO CHEN 姚琛 公开账号交叉核对。未根据相似用户名推断。"
     },
     {
       "artistId": "girlset",
@@ -180,6 +180,46 @@
       "verifiedAt": "2026-10-17T14:44:42.529Z",
       "evidenceUrl": "https://www.youtube.com/watch?v=4vmBvGMSLBw",
       "evidenceNote": "已核实 ITZY 独立 YouTube 频道视频说明中的官方 TikTok 链接。"
+    },
+    {
+      "artistId": "niziu",
+      "platform": "tiktok",
+      "handle": "niziu_official",
+      "accountUrl": "https://www.tiktok.com/@niziu_official/",
+      "verificationStatus": "verified",
+      "evidenceUrl": "https://www.youtube.com/watch?v=O0mhvDl9NB0",
+      "verifiedAt": "2026-10-17T15:36:51.414Z",
+      "evidenceNote": "已核实独立官方 YouTube 频道视频说明中的 Official TikTok 完整出站链接；视频页面频道 ID 与已验证频道配置一致。"
+    },
+    {
+      "artistId": "nexz",
+      "platform": "tiktok",
+      "handle": "nexz_official",
+      "accountUrl": "https://www.tiktok.com/@nexz_official/",
+      "verificationStatus": "verified",
+      "evidenceUrl": "https://www.youtube.com/watch?v=UCLKH_NUoEU",
+      "verifiedAt": "2026-10-17T15:36:51.416Z",
+      "evidenceNote": "已核实独立官方 YouTube 频道视频说明中的 Official TikTok 完整出站链接；视频页面频道 ID 与已验证频道配置一致。"
+    },
+    {
+      "artistId": "boy-story",
+      "platform": "tiktok",
+      "handle": "boystory_official_2018",
+      "accountUrl": "https://www.tiktok.com/@boystory_official_2018/",
+      "verificationStatus": "verified",
+      "evidenceUrl": "https://www.youtube.com/watch?v=KidzbwMSlVM",
+      "verifiedAt": "2026-10-17T15:36:51.416Z",
+      "evidenceNote": "已核实独立官方 YouTube 频道视频说明中的 Official TikTok 完整出站链接；视频页面频道 ID 与已验证频道配置一致。"
+    },
+    {
+      "artistId": "girlset",
+      "platform": "tiktok",
+      "handle": "girlset",
+      "accountUrl": "https://www.tiktok.com/@girlset/",
+      "verificationStatus": "verified",
+      "evidenceUrl": "https://www.youtube.com/watch?v=47TXLR-hza0",
+      "verifiedAt": "2026-10-17T15:36:51.416Z",
+      "evidenceNote": "已核实独立官方 YouTube 频道视频说明中的 Official TikTok 完整出站链接；视频页面频道 ID 与已验证频道配置一致。"
     }
   ]
 }

@@ -19,6 +19,9 @@ type View = {
 type State = {
   views: Record<SocialPlatform, View>;
   load: (platform: SocialPlatform) => void;
+  activePlayerId: string | null;
+  openPlayer: (id: string) => void;
+  closePlayer: (id: string) => void;
 };
 const empty: View = { items: [], status: "idle" };
 const Context = createContext<State | null>(null);
@@ -28,6 +31,13 @@ export function SocialProvider({ children }: { children: ReactNode }) {
     tiktok: empty,
   });
   const busy = useRef(new Set<SocialPlatform>());
+  const [activePlayerId, setActivePlayerId] = useState<string | null>(null);
+  const openPlayer = useCallback((id: string) => setActivePlayerId(id), []);
+  const closePlayer = useCallback(
+    (id: string) =>
+      setActivePlayerId((current) => (current === id ? null : current)),
+    [],
+  );
   const load = useCallback((platform: SocialPlatform) => {
     if (busy.current.has(platform)) return;
     busy.current.add(platform);
@@ -60,7 +70,11 @@ export function SocialProvider({ children }: { children: ReactNode }) {
       .finally(() => busy.current.delete(platform));
   }, []);
   return (
-    <Context.Provider value={{ views, load }}>{children}</Context.Provider>
+    <Context.Provider
+      value={{ views, load, activePlayerId, openPlayer, closePlayer }}
+    >
+      {children}
+    </Context.Provider>
   );
 }
 export function useSocial() {

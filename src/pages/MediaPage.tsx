@@ -11,6 +11,7 @@ import { FeedCard } from "../components/FeedCard";
 import { SourceFreshness } from "../components/SourceFreshness";
 import { OfficialXTimeline } from "../components/OfficialXTimeline";
 import { TikTokProfile } from "../components/TikTokProfile";
+import { selectSocialContent, type SocialKind } from "../utils/social-library";
 import { useI18n, type MessageKey } from "../locales/i18n";
 type Tab =
   "youtube" | "instagram" | "tiktok" | "notices" | "events" | "music" | "x";
@@ -27,7 +28,7 @@ export function MediaPage() {
   const { t } = useI18n();
   const { channels, selectedArtistId, selectArtist, getChannel, loadChannel } =
     useContent();
-  const { views, load } = useSocial();
+  const { views, load, closePlayer } = useSocial();
   const [params, setParams] = useSearchParams();
   const artistId = channels.some((c) => c.artistId === params.get("artist"))
     ? params.get("artist")!
@@ -36,7 +37,11 @@ export function MediaPage() {
     ? (params.get("platform") as Tab)
     : "youtube";
   const [search, setSearch] = useState("");
-  useEffect(() => setSearch(""), [artistId, tab]);
+  const [kind, setKind] = useState<SocialKind>("all");
+  useEffect(() => {
+    setSearch("");
+    setKind("all");
+  }, [artistId, tab]);
   useEffect(() => {
     if (tab === "youtube") loadChannel(artistId);
     else if (tab === "instagram" || tab === "tiktok") load(tab);
@@ -49,13 +54,12 @@ export function MediaPage() {
     (a) => a.artistId === artistId && a.platform === tab,
   );
   const items = socialPlatform
-    ? views[socialPlatform].items.filter(
-        (i) =>
-          i.artistId === artistId &&
-          `${i.title ?? ""} ${i.description ?? ""} ${i.id}`
-            .toLowerCase()
-            .includes(search.toLowerCase()),
-      )
+    ? selectSocialContent(views[socialPlatform].items, {
+        artistId,
+        platform: socialPlatform,
+        search,
+        kind,
+      })
     : [];
   const choose = (artist: string, platform: Tab) => {
     setParams({ artist, platform });
@@ -166,18 +170,32 @@ export function MediaPage() {
             ) : (
               <p className="tiny-note">{t("media.accountPending")}</p>
             )}
-            {tab === "tiktok" && account && (
-              <TikTokProfile key={account.accountUrl} account={account} />
-            )}
-            <label className="select-field media-search">
-              <span>{t("media.search")}</span>
-              <input
-                type="search"
-                value={search}
-                onChange={(e) => setSearch(e.target.value)}
-                placeholder={t("media.searchPlaceholder")}
-              />
-            </label>
+            <div className="social-library-filters">
+              <label className="select-field media-search">
+                <span>{t("media.search")}</span>
+                <input
+                  type="search"
+                  value={search}
+                  onChange={(e) => setSearch(e.target.value)}
+                  placeholder={t("media.searchPlaceholder")}
+                />
+              </label>
+              {tab === "instagram" && (
+                <label className="select-field media-type-filter">
+                  <span>{t("media.contentKind")}</span>
+                  <select
+                    value={kind}
+                    onChange={(e) => setKind(e.target.value as SocialKind)}
+                  >
+                    <option value="videos">{t("media.videosOnly")}</option>
+                    <option value="reels">Instagram Reels</option>
+                    <option value="video-post">{t("media.videoPosts")}</option>
+                    <option value="post">{t("media.otherPosts")}</option>
+                    <option value="all">{t("media.allContent")}</option>
+                  </select>
+                </label>
+              )}
+            </div>
             {views[socialPlatform].status === "error" ? (
               <div className="empty-state">
                 <h3>{t("media.loadFailed")}</h3>
@@ -199,7 +217,7 @@ export function MediaPage() {
                 </p>
                 <div className="social-grid">
                   {items.map((i) => (
-                    <SocialCard key={i.id} item={i} />
+                    <SocialCard key={`${artistId}:${tab}:${i.id}`} item={i} />
                   ))}
                 </div>
               </>
@@ -208,6 +226,18 @@ export function MediaPage() {
                 <h3>{t(search ? "media.noMatches" : "media.noItems")}</h3>
                 <p>{t(search ? "media.clearSearch" : "media.noItemsBody")}</p>
               </div>
+            )}
+            {tab === "tiktok" && account && (
+              <details
+                className="optional-profile"
+                onToggle={(e) => {
+                  if (!e.currentTarget.open)
+                    closePlayer(`profile:tiktok:${account.handle}`);
+                }}
+              >
+                <summary>{t("media.optionalProfile")}</summary>
+                <TikTokProfile key={account.accountUrl} account={account} />
+              </details>
             )}
           </>
         )}

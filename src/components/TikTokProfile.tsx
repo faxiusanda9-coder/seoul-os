@@ -1,11 +1,15 @@
 import { useEffect, useRef, useState } from "react";
 import type { SocialAccount } from "../../data/schemas/social.schema";
 import { useI18n } from "../locales/i18n";
+import { useSocial } from "../store/SocialContext";
 /** Official Creator Profile Embed; its videos stay inside TikTok, outside our local manifest. */
 export function TikTokProfile({ account }: { account: SocialAccount }) {
   const { t } = useI18n();
-  const [allowed, setAllowed] = useState(false),
-    [failed, setFailed] = useState(false);
+  const { activePlayerId, openPlayer, closePlayer } = useSocial();
+  const playerId = `profile:${account.platform}:${account.handle}`;
+  const allowed = activePlayerId === playerId;
+  const [failed, setFailed] = useState(false);
+  useEffect(() => () => closePlayer(playerId), [playerId, closePlayer]);
   const target = useRef<HTMLDivElement>(null);
   useEffect(() => {
     if (!allowed || !target.current) return;
@@ -60,7 +64,7 @@ export function TikTokProfile({ account }: { account: SocialAccount }) {
           <button
             className="outline-button"
             type="button"
-            onClick={() => setAllowed(true)}
+            onClick={() => openPlayer(playerId)}
           >
             {t("media.loadProfile")}
           </button>
@@ -74,7 +78,7 @@ export function TikTokProfile({ account }: { account: SocialAccount }) {
           <button
             className="text-button"
             type="button"
-            onClick={() => setAllowed(false)}
+            onClick={() => closePlayer(playerId)}
           >
             {t("media.closeEmbed")}
           </button>

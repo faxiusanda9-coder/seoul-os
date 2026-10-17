@@ -1,5 +1,7 @@
 # Phase 3：实现、来源边界与维护
 
+**Phase 3.1 当前覆盖：Instagram 78 条（47 视频 + 31 图片／轮播帖子），TikTok 35 条视频；14 个 Instagram、8 个 TikTok 官方账号。逐艺人数量、18 条 Instagram 视频真实播放、29 条受限、31 条帖子显示及 35 条 TikTok 真实播放见 [中文验收报告](phase-3.1-acceptance.md)。以下包含 Phase 3 历史审计；当前清单以报告为准。仅更新原 PR #1，不合并、不发布。**
+
 审计日：2026-10-17（北京时间）。起点 main=97e0d162425b47e6d8d6ab7e56e95d94f582d8a5；在独立 phase3-official-media 分支实施。起点工作区干净，原始检出目录未改写用户文件。
 
 ## 审计与保留
@@ -10,44 +12,44 @@
 
 ## 账号与内容覆盖
 
-Instagram 14 个官方账号逐一从 [JYP 官方 Artist 目录](https://www.jype.com/en/Artist) 出站链接确认，原始 handle 与证据保存在 data/social/accounts.json。特别是 YAOCHEN 使用目录当前链接 noname_0323xx，没有从旧视频的截断链接推测旧用户名。
+Instagram 14 个账号初始从 [JYP 官方 Artist 目录](https://www.jype.com/en/Artist) 核对。Phase 3.1 发现 YAOCHEN 旧目录 noname_0323xx 的公开资料不可用，依据已核实官方 YouTube 完整出站链接及原平台资料，修正为 yao_chen0323；证据在 data/social/accounts.json，不从截断链接猜测。
 
-| artistId | Instagram handle | TikTok handle / 状态 |
-|---|---|---|
-| twice | twicetagram | twice_tiktok_official |
-| stray-kids | realstraykids | jypestraykids |
-| itzy | itzy.all.in.us | itzyofficial |
-| nmixx | nmixx_official | nmixx_official |
-| day6 | day6kilogram | 待核验 |
-| xdinary-heroes | xdinaryheroes_official | 待核验 |
-| kickflip | kickflip_jype | 待核验 |
-| niziu | niziu_info_official | 待核验 |
-| nexz | real_nexz | 待核验 |
-| jy-park | asiansoul_jyp | 待核验 |
-| 2pm | real_2pmstagram | 待核验 |
-| boy-story | official_boystory | 待核验 |
-| yaochen | noname_0323xx | 待核验 |
-| girlset | girlset | 待核验 |
+| artistId       | Instagram handle       | TikTok handle / 状态   |
+| -------------- | ---------------------- | ---------------------- |
+| twice          | twicetagram            | twice_tiktok_official  |
+| stray-kids     | realstraykids          | jypestraykids          |
+| itzy           | itzy.all.in.us         | itzyofficial           |
+| nmixx          | nmixx_official         | nmixx_official         |
+| day6           | day6kilogram           | 待核验                 |
+| xdinary-heroes | xdinaryheroes_official | 待核验                 |
+| kickflip       | kickflip_jype          | 待核验                 |
+| niziu          | niziu_info_official    | niziu_official         |
+| nexz           | real_nexz              | nexz_official          |
+| jy-park        | asiansoul_jyp          | 待核验                 |
+| 2pm            | real_2pmstagram        | 待核验                 |
+| boy-story      | official_boystory      | boystory_official_2018 |
+| yaochen        | yao_chen0323           | 待核验                 |
+| girlset        | girlset                | girlset                |
 
 TikTok 账号依据：TWICE 来自 [平台官方新闻稿](https://newsroom.tiktok.com/twice-2025?lang=ko-KR)；Stray Kids 来自 [平台官方直播新闻稿](https://newsroom.tiktok.com/tiktok-live-lineup-march?lang=ko-KR)；NMIXX 来自 [艺人官网](https://nmixx.jype.com/) 出站链接；ITZY 来自已核实频道[视频说明](https://www.youtube.com/watch?v=4vmBvGMSLBw)中的完整官方 TikTok 链接。此账号验证不是单条视频身份验证。
 
 Instagram 初始清单：twicetagram 的 /reel/DYtXsHuPvZ0/ 与 /p/CNfZNyLLFQC/；本次原平台 embed 返回 200，页面作者 UsernameText 为 twicetagram，再与 JYP 目录交叉确认。这是历史选集，不声称最新；不从转载推断标题或精确时间，publishedAt/title/description 均 null。缩略图 CDN 可能过期且未取得缓存依据，字段保持 null，交由官方嵌入直接展示。
 
-TikTok 单条视频 oEmbed 在本次核验返回 429，另一次官方嵌入请求返回 503；没有把请求失败当作视频已删除，也没有写入未经确认的单条记录。当前单条清单为 0，但四个已核实账号均有按需加载的官方 Creator Profile Embed，可能由平台展示其公开视频；这部分不存入本站、不标为自动同步、不增加本站条数。其地区可达性和播放不能在当前网络保证。其余十个艺人明确显示待核验。
+Phase 3 初始 TikTok 清单为 0，oEmbed 返回 429、账号嵌入出现 503。Phase 3.1 改用官方已知单条 Player 确认作者、原始链接并在本站播放，已导入 35 条，覆盖 7 个账号；新增 NiziU、NEXZ、BOY STORY、GIRLSET 的官方账号证据，BOY STORY 尚无通过核验的单条链接。可选账号预览移至内容库下方，不替代或计入视频库。其余 6 位艺人保持待核验。
 
 ## 来源与使用方式
 
-| 来源 | 自动发现 | 公开展示 / 缓存 | 本次实现 |
-|---|---|---|---|
-| YouTube Data API | 已有 Key 的逐频道列表 | 保留既有政策边界与 30 天处理；不跨频道合并排行 | 原同步 + 独立状态 |
-| Instagram 原始帖子/Reel | 没有启用未授权发现 | 官方公开嵌入，受账号/作者嵌入设置限制；仅存核验链接与证据，不下载媒体 | 人工导入、原平台嵌入、外链、收藏 |
-| TikTok 单条视频 | 未获得目标账号 Display API 授权，不启用 | 官方 Player/Embed；不缓存视频和短时 CDN 封面 | 人工导入与 Player 已实现，当前无通过核验的单条记录 |
-| TikTok 账号预览 | 不是本站发现任务 | 官方 Creator Profile Embed 自行呈现；不纳入本站快照 | 四个核实账号按需预览 |
-| JYP/NiziU 官网公告新闻 | 没有可靠自动再发布依据 | 核实入口外链，不采集公告全文 | 复用 Official Sources |
-| 官网作品 | 不采集发行列表 | 八个既有 jype 艺人站导航确认 /discography，只做外链 | 媒体中心作品入口 |
-| 官方演出活动 | 沿用已核实 Ticketmaster 与人工事件条件 | 保留 Calendar/ICS 来源与时区规则 | 复用 Calendar，当前公共事件 0，不解释为没有演出 |
-| 官方 X | 不使用 X API | 用户同意后加载已有官方 Timeline；不缓存推文 | 复用八个账号；切换艺人卸载旧嵌入 |
-| YouTube 预约直播 | 既有只读、单频道试点 | 不混入公共跨频道日历 | 保留 scripts/events/youtube-live-*；媒体中心以官方视频原页面为准，不伪造直播状态 |
+| 来源                    | 自动发现                                | 公开展示 / 缓存                                                       | 本次实现                                                                         |
+| ----------------------- | --------------------------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| YouTube Data API        | 已有 Key 的逐频道列表                   | 保留既有政策边界与 30 天处理；不跨频道合并排行                        | 原同步 + 独立状态                                                                |
+| Instagram 原始帖子/Reel | 没有启用未授权发现                      | 官方公开嵌入，受账号/作者嵌入设置限制；仅存核验链接与证据，不下载媒体 | 人工导入、原平台嵌入、外链、收藏                                                 |
+| TikTok 单条视频         | 未获得目标账号 Display API 授权，不启用 | 官方 Player/Embed；不缓存视频和短时 CDN 封面                          | 人工核验 35 条，真实本站播放通过                                                 |
+| TikTok 账号预览         | 不是本站发现任务                        | 官方 Creator Profile Embed 自行呈现；不纳入本站快照                   | 八个核实账号可选预览，受平台可达性影响                                           |
+| JYP/NiziU 官网公告新闻  | 没有可靠自动再发布依据                  | 核实入口外链，不采集公告全文                                          | 复用 Official Sources                                                            |
+| 官网作品                | 不采集发行列表                          | 八个既有 jype 艺人站导航确认 /discography，只做外链                   | 媒体中心作品入口                                                                 |
+| 官方演出活动            | 沿用已核实 Ticketmaster 与人工事件条件  | 保留 Calendar/ICS 来源与时区规则                                      | 复用 Calendar，当前公共事件 0，不解释为没有演出                                  |
+| 官方 X                  | 不使用 X API                            | 用户同意后加载已有官方 Timeline；不缓存推文                           | 复用八个账号；切换艺人卸载旧嵌入                                                 |
+| YouTube 预约直播        | 既有只读、单频道试点                    | 不混入公共跨频道日历                                                  | 保留 scripts/events/youtube-live-*；媒体中心以官方视频原页面为准，不伪造直播状态 |
 
 ### 官方接口调查（本次不启用 IG/TikTok API）
 
@@ -90,7 +92,9 @@ npm run test:social
 npm run build
 ```
 
-整批候选先验证再写入，单文件原子替换。相同 ID 再导入不重复；只更新核验时间不计内容变化。跨两个平台文件没有数据库事务，写盘中断后应重跑验证及构建再提交。推送这些人工维护文件到 main 会由现有普通代码 push 部署；不需要新的平台密钥。
+整批候选先验证再写入，单文件原子替换。相同 ID 再导入不重复；只更新核验时间不计内容变化。跨两个平台文件没有数据库事务，写盘中断后应重跑验证及构建再提交。本轮只推送原 PR 分支，不合并或发布生产。
+
+批量样例：[social-import.example.json](examples/social-import.example.json)。`exampleOnly=true` 会被拒绝，必须替换为真实核验内容并移除标记。Reel 使用 `contentType: reels`；/p/ 普通图片／轮播使用 `post`，只有确认包含视频时才使用 `video-post` 和 `confirmedVideo: true`；TikTok 使用 `short-video`。默认 `availabilityStatus: unknown`；实际显示或播放检查后才标 available。样例未混入生产数据，维护命令继续复用上述 `social:import`。
 
 ## 同步与监控
 
@@ -108,7 +112,7 @@ npm run build
 
 第三方脚本与 iframe 由明确的同意按钮按需加载。TikTok 单条播放器通过可信 origin、当前 frame.contentWindow 和 x-tiktok-player 标记接收就绪/错误消息。超时、脚本错误和已知 restricted/deleted 都有外链降级；跨域 iframe load 不被当作播放成功证明。切换平台/账号卸载嵌入。移动端 320/390 宽度验证无整页横向溢出，保留原底部导航。
 
-验收命令：
+Phase 3 历史验收命令与结果（Phase 3.1 当前 50/50 测试及浏览器命令见中文验收报告）：
 
 ```bash
 npm run test:sync

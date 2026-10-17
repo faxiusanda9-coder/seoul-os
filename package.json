@@ -28,7 +28,9 @@
     "sync:social": "node scripts/social-sync/index.mjs validate",
     "social:import": "node scripts/social-sync/index.mjs import",
     "test:social": "node --test tests/social-media.test.mjs",
-    "monitor:freshness": "node scripts/check-freshness.mjs"
+    "monitor:freshness": "node scripts/check-freshness.mjs",
+    "test:social:ui": "node scripts/test-social-ui.mjs",
+    "verify:social:playback": "node scripts/verify-social-playback.mjs"
   },
   "dependencies": {
     "date-fns": "^4.4.0",
@@ -43,6 +45,7 @@
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.1.2",
+    "playwright-core": "^1.64.1",
     "prettier": "^3.9.10",
     "tailwindcss": "^4.3.3",
     "typescript": "^7.0.2",

@@ -1,0 +1,716 @@
+{
+  "checkedAt": "2026-10-17T15:42:52.272Z",
+  "site": "http://localhost:5174/seoul-os/",
+  "results": [
+    {
+      "id": "tt-7696816884532088084",
+      "artistId": "twice",
+      "sourceUrl": "https://www.tiktok.com/@twice_tiktok_official/video/7696816884532088084",
+      "checkedAt": "2026-10-17T15:44:52.942Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.565986,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true,
+      "initialAttempt": {
+        "checkedAt": "2026-10-17T15:41:06.113Z",
+        "playbackConfirmed": false,
+        "error": "frame.waitForFunction: Timeout 12000ms exceeded."
+      }
+    },
+    {
+      "id": "tt-7696754928999517461",
+      "artistId": "twice",
+      "sourceUrl": "https://www.tiktok.com/@twice_tiktok_official/video/7696754928999517461",
+      "checkedAt": "2026-10-17T15:41:22.920Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.513573,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    },
+    {
+      "id": "tt-7696445757330558229",
+      "artistId": "twice",
+      "sourceUrl": "https://www.tiktok.com/@twice_tiktok_official/video/7696445757330558229",
+      "checkedAt": "2026-10-17T15:41:25.592Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.513741,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    },
+    {
+      "id": "tt-7696383876867951892",
+      "artistId": "twice",
+      "sourceUrl": "https://www.tiktok.com/@twice_tiktok_official/video/7696383876867951892",
+      "checkedAt": "2026-10-17T15:41:28.046Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.513741,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    },
+    {
+      "id": "tt-7696074592170954005",
+      "artistId": "twice",
+      "sourceUrl": "https://www.tiktok.com/@twice_tiktok_official/video/7696074592170954005",
+      "checkedAt": "2026-10-17T15:41:30.445Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.513741,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    },
+    {
+      "id": "tt-7695315928950574356",
+      "artistId": "stray-kids",
+      "sourceUrl": "https://www.tiktok.com/@jypestraykids/video/7695315928950574356",
+      "checkedAt": "2026-10-17T15:41:32.943Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.502132,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    },
+    {
+      "id": "tt-7693104909977144596",
+      "artistId": "stray-kids",
+      "sourceUrl": "https://www.tiktok.com/@jypestraykids/video/7693104909977144596",
+      "checkedAt": "2026-10-17T15:41:35.509Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.513741,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    },
+    {
+      "id": "tt-7692365601884425492",
+      "artistId": "stray-kids",
+      "sourceUrl": "https://www.tiktok.com/@jypestraykids/video/7692365601884425492",
+      "checkedAt": "2026-10-17T15:41:38.025Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.513741,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    },
+    {
+      "id": "tt-7691930340818046229",
+      "artistId": "stray-kids",
+      "sourceUrl": "https://www.tiktok.com/@jypestraykids/video/7691930340818046229",
+      "checkedAt": "2026-10-17T15:41:40.483Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.510839,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    },
+    {
+      "id": "tt-7690576399383514388",
+      "artistId": "stray-kids",
+      "sourceUrl": "https://www.tiktok.com/@jypestraykids/video/7690576399383514388",
+      "checkedAt": "2026-10-17T15:41:42.895Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.513741,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    },
+    {
+      "id": "tt-7686800836638330120",
+      "artistId": "itzy",
+      "sourceUrl": "https://www.tiktok.com/@itzyofficial/video/7686800836638330120",
+      "checkedAt": "2026-10-17T15:41:45.333Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.545669,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    },
+    {
+      "id": "tt-7686695949053201684",
+      "artistId": "itzy",
+      "sourceUrl": "https://www.tiktok.com/@itzyofficial/video/7686695949053201684",
+      "checkedAt": "2026-10-17T15:41:48.064Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.511232,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    },
+    {
+      "id": "tt-7686390468870966549",
+      "artistId": "itzy",
+      "sourceUrl": "https://www.tiktok.com/@itzyofficial/video/7686390468870966549",
+      "checkedAt": "2026-10-17T15:41:50.534Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.502132,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    },
+    {
+      "id": "tt-7686348466154376468",
+      "artistId": "itzy",
+      "sourceUrl": "https://www.tiktok.com/@itzyofficial/video/7686348466154376468",
+      "checkedAt": "2026-10-17T15:41:54.224Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.502132,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    },
+    {
+      "id": "tt-7684707638529019154",
+      "artistId": "itzy",
+      "sourceUrl": "https://www.tiktok.com/@itzyofficial/video/7684707638529019154",
+      "checkedAt": "2026-10-17T15:41:56.609Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.502132,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    },
+    {
+      "id": "tt-7697604453125590293",
+      "artistId": "nmixx",
+      "sourceUrl": "https://www.tiktok.com/@nmixx_official/video/7697604453125590293",
+      "checkedAt": "2026-10-17T15:41:58.968Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.522449,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    },
+    {
+      "id": "tt-7697635753756462352",
+      "artistId": "nmixx",
+      "sourceUrl": "https://www.tiktok.com/@nmixx_official/video/7697635753756462352",
+      "checkedAt": "2026-10-17T15:42:01.557Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.502132,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    },
+    {
+      "id": "tt-7697249996567104775",
+      "artistId": "nmixx",
+      "sourceUrl": "https://www.tiktok.com/@nmixx_official/video/7697249996567104775",
+      "checkedAt": "2026-10-17T15:45:02.145Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.502132,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true,
+      "initialAttempt": {
+        "checkedAt": "2026-10-17T15:42:03.933Z",
+        "playbackConfirmed": false,
+        "error": "frame.waitForFunction: Execution context was destroyed, most likely because of a navigation."
+      }
+    },
+    {
+      "id": "tt-7697203001555029266",
+      "artistId": "nmixx",
+      "sourceUrl": "https://www.tiktok.com/@nmixx_official/video/7697203001555029266",
+      "checkedAt": "2026-10-17T15:42:05.968Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.502132,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    },
+    {
+      "id": "tt-7697134470750653714",
+      "artistId": "nmixx",
+      "sourceUrl": "https://www.tiktok.com/@nmixx_official/video/7697134470750653714",
+      "checkedAt": "2026-10-17T15:42:10.094Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.513741,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    },
+    {
+      "id": "tt-7685715214506954000",
+      "artistId": "niziu",
+      "sourceUrl": "https://www.tiktok.com/@niziu_official/video/7685715214506954000",
+      "checkedAt": "2026-10-17T15:42:13.638Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.513741,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    },
+    {
+      "id": "tt-7685328375195389200",
+      "artistId": "niziu",
+      "sourceUrl": "https://www.tiktok.com/@niziu_official/video/7685328375195389200",
+      "checkedAt": "2026-10-17T15:42:16.039Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.513741,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    },
+    {
+      "id": "tt-7684973265210658065",
+      "artistId": "niziu",
+      "sourceUrl": "https://www.tiktok.com/@niziu_official/video/7684973265210658065",
+      "checkedAt": "2026-10-17T15:42:18.438Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.513741,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    },
+    {
+      "id": "tt-7684957229774097665",
+      "artistId": "niziu",
+      "sourceUrl": "https://www.tiktok.com/@niziu_official/video/7684957229774097665",
+      "checkedAt": "2026-10-17T15:42:20.784Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.502132,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    },
+    {
+      "id": "tt-7684586318243941633",
+      "artistId": "niziu",
+      "sourceUrl": "https://www.tiktok.com/@niziu_official/video/7684586318243941633",
+      "checkedAt": "2026-10-17T15:42:23.187Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.522449,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    },
+    {
+      "id": "tt-7680814545689955585",
+      "artistId": "nexz",
+      "sourceUrl": "https://www.tiktok.com/@nexz_official/video/7680814545689955585",
+      "checkedAt": "2026-10-17T15:42:25.924Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.510839,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    },
+    {
+      "id": "tt-7680763554898775314",
+      "artistId": "nexz",
+      "sourceUrl": "https://www.tiktok.com/@nexz_official/video/7680763554898775314",
+      "checkedAt": "2026-10-17T15:42:29.571Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.565986,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    },
+    {
+      "id": "tt-7680761976628284679",
+      "artistId": "nexz",
+      "sourceUrl": "https://www.tiktok.com/@nexz_official/video/7680761976628284679",
+      "checkedAt": "2026-10-17T15:42:32.648Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.513426,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    },
+    {
+      "id": "tt-7680480741741939989",
+      "artistId": "nexz",
+      "sourceUrl": "https://www.tiktok.com/@nexz_official/video/7680480741741939989",
+      "checkedAt": "2026-10-17T15:42:35.078Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.502132,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    },
+    {
+      "id": "tt-7680559013896916232",
+      "artistId": "nexz",
+      "sourceUrl": "https://www.tiktok.com/@nexz_official/video/7680559013896916232",
+      "checkedAt": "2026-10-17T15:42:37.453Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.509695,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    },
+    {
+      "id": "tt-7680226251105193229",
+      "artistId": "girlset",
+      "sourceUrl": "https://www.tiktok.com/@girlset/video/7680226251105193229",
+      "checkedAt": "2026-10-17T15:42:40.235Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.502132,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    },
+    {
+      "id": "tt-7679524802809351454",
+      "artistId": "girlset",
+      "sourceUrl": "https://www.tiktok.com/@girlset/video/7679524802809351454",
+      "checkedAt": "2026-10-17T15:42:42.690Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.521145,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    },
+    {
+      "id": "tt-7679483934366829837",
+      "artistId": "girlset",
+      "sourceUrl": "https://www.tiktok.com/@girlset/video/7679483934366829837",
+      "checkedAt": "2026-10-17T15:42:45.099Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.512119,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    },
+    {
+      "id": "tt-7679112072482917645",
+      "artistId": "girlset",
+      "sourceUrl": "https://www.tiktok.com/@girlset/video/7679112072482917645",
+      "checkedAt": "2026-10-17T15:42:47.531Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.513376,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    },
+    {
+      "id": "tt-7678897464375610638",
+      "artistId": "girlset",
+      "sourceUrl": "https://www.tiktok.com/@girlset/video/7678897464375610638",
+      "checkedAt": "2026-10-17T15:42:49.907Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.510839,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "closedCleanly": true
+    }
+  ]
+}

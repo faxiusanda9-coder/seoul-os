@@ -3,6 +3,8 @@ import { Bookmark, ArrowUpRight } from "lucide-react";
 import type { SocialContent } from "../../data/schemas/social.schema";
 import { useArchive } from "../store/ArchiveContext";
 import { useI18n } from "../locales/i18n";
+import { artistById } from "../data/artists";
+import { useSocial } from "../store/SocialContext";
 declare global {
   interface Window {
     instgrm?: { Embeds: { process: () => void } };
@@ -41,8 +43,11 @@ function OfficialEmbed({ item }: { item: SocialContent }) {
   const frame = useRef<HTMLIFrameElement>(null);
   const container = useRef<HTMLDivElement>(null);
   const [failed, setFailed] = useState(false);
+  const [ready, setReady] = useState(false);
   useEffect(() => {
     let active = true;
+    setFailed(false);
+    setReady(false);
     const timer = setTimeout(() => {
       if (active) setFailed(true);
     }, 15000);
@@ -64,16 +69,42 @@ function OfficialEmbed({ item }: { item: SocialContent }) {
       if (event.data.type === "onPlayerReady") {
         clearTimeout(timer);
         setFailed(false);
+        setReady(true);
       }
       if (event.data.type === "onPlayerError" || event.data.type === "onError")
         setFailed(true);
     };
     window.addEventListener("message", receive);
-    const observer = new MutationObserver(() => {
-      if (container.current?.querySelector("iframe")) clearTimeout(timer);
-    });
+    const observed = new Set<HTMLIFrameElement>();
+    const observeFrame = () => {
+      if (item.platform !== "instagram") return;
+      for (const embedded of container.current?.querySelectorAll("iframe") ??
+        []) {
+        if (observed.has(embedded)) continue;
+        observed.add(embedded);
+        embedded.addEventListener(
+          "load",
+          () => {
+            if (active) {
+              clearTimeout(timer);
+              setReady(true);
+            }
+          },
+          { once: true },
+        );
+        embedded.addEventListener(
+          "error",
+          () => {
+            if (active) setFailed(true);
+          },
+          { once: true },
+        );
+      }
+    };
+    const observer = new MutationObserver(observeFrame);
     if (container.current)
       observer.observe(container.current, { subtree: true, childList: true });
+    observeFrame();
     return () => {
       active = false;
       clearTimeout(timer);
@@ -86,9 +117,9 @@ function OfficialEmbed({ item }: { item: SocialContent }) {
       {item.platform === "tiktok" ? (
         <iframe
           ref={frame}
-          src={item.embedUrl}
+          src={`${item.embedUrl}?controls=1&description=1&music_info=1&autoplay=0`}
           title={`TikTok · ${item.title ?? item.id}`}
-          allow="fullscreen"
+          allow="fullscreen; encrypted-media"
           allowFullScreen
           onError={() => setFailed(true)}
         />
@@ -104,7 +135,15 @@ function OfficialEmbed({ item }: { item: SocialContent }) {
         </blockquote>
       )}
       <p className="tiny-note" role="status">
-        {t(failed ? "media.embedFailed" : "media.embedHelp")}
+        {t(
+          failed
+            ? "media.embedFailed"
+            : ready
+              ? item.contentType === "post"
+                ? "media.postHelp"
+                : "media.embedHelp"
+              : "media.embedLoading",
+        )}
       </p>
     </div>
   );
@@ -112,22 +151,26 @@ function OfficialEmbed({ item }: { item: SocialContent }) {
 export function SocialCard({ item }: { item: SocialContent }) {
   const { t, locale } = useI18n();
   const { isSaved, toggleSaved } = useArchive();
-  const [loaded, setLoaded] = useState(false);
+  const { activePlayerId, openPlayer, closePlayer } = useSocial();
+  const loaded = activePlayerId === item.id;
+  useEffect(() => () => closePlayer(item.id), [item.id, closePlayer]);
   const label =
     item.title ??
     t(
       item.contentType === "reels"
         ? "media.reel"
-        : item.contentType === "post"
-          ? "media.post"
-          : "media.shortVideo",
+        : item.contentType === "video-post"
+          ? "media.videoPosts"
+          : item.contentType === "post"
+            ? "media.post"
+            : "media.shortVideo",
     );
   return (
-    <article className="social-card">
+    <article className="social-card" data-content-id={item.id}>
       <div className="social-card-heading">
         <p className="eyebrow">
-          {item.platform === "instagram" ? "Instagram" : "TikTok"} ·{" "}
-          {t("media.manual")}
+          {artistById(item.artistId)?.name ?? item.artistId} ·{" "}
+          {item.platform === "instagram" ? "Instagram" : "TikTok"}
         </p>
         <button
           className="icon-button"
@@ -146,6 +189,18 @@ export function SocialCard({ item }: { item: SocialContent }) {
         </button>
       </div>
       <h3>{label}</h3>
+      <p className="social-type-label">
+        {t(
+          item.contentType === "reels"
+            ? "media.reelType"
+            : item.contentType === "short-video"
+              ? "media.tiktokType"
+              : item.contentType === "video-post"
+                ? "media.videoPosts"
+                : "media.postType",
+        )}{" "}
+        · {t("media.manual")}
+      </p>
       {item.description && <p>{item.description}</p>}
       <p className="tiny-note">
         {item.publishedAt
@@ -171,9 +226,13 @@ export function SocialCard({ item }: { item: SocialContent }) {
             <button
               className="outline-button"
               type="button"
-              onClick={() => setLoaded(true)}
+              onClick={() => openPlayer(item.id)}
             >
-              {t("media.loadEmbed")}
+              {t(
+                item.contentType === "post"
+                  ? "media.loadPost"
+                  : "media.loadEmbed",
+              )}
             </button>
           </div>
         )
@@ -184,7 +243,7 @@ export function SocialCard({ item }: { item: SocialContent }) {
         <button
           className="text-button"
           type="button"
-          onClick={() => setLoaded(false)}
+          onClick={() => closePlayer(item.id)}
         >
           {t("media.closeEmbed")}
         </button>

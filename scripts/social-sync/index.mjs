@@ -98,6 +98,10 @@ export async function importReviewed(
   const groups = new Map();
   const seen = new Set();
   for (const c of candidates) {
+    if (c?.exampleOnly === true)
+      throw new Error(
+        "Example-only records cannot be imported; replace them with reviewed real records",
+      );
     if (!["instagram", "tiktok"].includes(c?.platform))
       throw new Error("Unsupported platform");
     const a = accounts.find(
@@ -111,6 +115,24 @@ export async function importReviewed(
     if (seen.has(identity.id))
       throw new Error("Duplicate content ID in import batch");
     seen.add(identity.id);
+    if (
+      c.contentType === "video-post" &&
+      (c.platform !== "instagram" ||
+        identity.kind !== "p" ||
+        c.confirmedVideo !== true)
+    )
+      throw new Error(
+        "An Instagram video post requires a /p/ permalink and explicit video confirmation",
+      );
+    if (
+      c.contentType !== undefined &&
+      !(c.platform === "tiktok"
+        ? c.contentType === "short-video"
+        : identity.kind === "reel"
+          ? c.contentType === "reels"
+          : ["post", "video-post"].includes(c.contentType))
+    )
+      throw new Error("Content type does not match the platform permalink");
     const item = {
       id: identity.id,
       artistId: c.artistId,
@@ -120,7 +142,9 @@ export async function importReviewed(
           ? "short-video"
           : identity.kind === "reel"
             ? "reels"
-            : "post",
+            : c.contentType === "video-post"
+              ? "video-post"
+              : "post",
       title: c.title ?? null,
       description: c.description ?? null,
       thumbnail: null,

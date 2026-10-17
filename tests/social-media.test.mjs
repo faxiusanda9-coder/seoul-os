@@ -8,7 +8,9 @@ import {
   parseSocialSnapshot,
   isInstant,
   canonicalAccount,
+  socialIdentity,
 } from "../data/schemas/social.schema.ts";
+import { selectSocialContent } from "../src/utils/social-library.ts";
 import { parseSyncStatus } from "../data/schemas/sync-status.schema.ts";
 import {
   loadSocialAccounts,
@@ -249,4 +251,140 @@ test("local source failure isolates platforms and retains success history; malfo
     }),
     null,
   );
+});
+
+test("real permalink identity rejects profiles, forged hosts, credentials, queries and non-video TikTok links", () => {
+  assert.equal(
+    socialIdentity("instagram", "https://www.instagram.com/reel/DegKEZyhoe4/")
+      .id,
+    "ig-DegKEZyhoe4",
+  );
+  assert.equal(
+    socialIdentity("instagram", "https://www.instagram.com/p/CNfZNyLLFQC/")
+      .kind,
+    "p",
+  );
+  assert.equal(
+    socialIdentity(
+      "tiktok",
+      "https://www.tiktok.com/@niziu_official/video/7685715214506954000",
+    ).embedUrl,
+    "https://www.tiktok.com/player/v1/7685715214506954000",
+  );
+  for (const [p, u] of [
+    ["instagram", "https://www.instagram.com/twicetagram/"],
+    ["instagram", "https://www.instagram.com.evil.example/reel/DegKEZyhoe4/"],
+    ["instagram", "https://user@www.instagram.com/reel/DegKEZyhoe4/"],
+    ["instagram", "http://www.instagram.com/reel/DegKEZyhoe4/"],
+    ["tiktok", "https://www.tiktok.com/@niziu_official"],
+    [
+      "tiktok",
+      "https://www.tiktok.com/@niziu_official/photo/7685715214506954000",
+    ],
+    [
+      "tiktok",
+      "https://www.tiktok.com/@niziu_official/video/7685715214506954000?spoof=yes",
+    ],
+  ])
+    assert.equal(socialIdentity(p, u), null, u);
+});
+test("batch duplicates, examples and unconfirmed video posts cannot write any platform", async (t) => {
+  const root = await fixture(t),
+    options = { root, accounts, reviewer: "test", now: time };
+  const files = ["instagram", "tiktok"].map((p) =>
+    join(root, `social/${p}/items.json`),
+  );
+  const before = await Promise.all(files.map((f) => readFile(f, "utf8")));
+  await assert.rejects(
+    importReviewed([candidate, candidate], options),
+    /Duplicate/,
+  );
+  await assert.rejects(
+    importReviewed([{ ...candidate, exampleOnly: true }], options),
+    /Example-only/,
+  );
+  const post = {
+    ...candidate,
+    sourceUrl: "https://www.instagram.com/p/VideoFixtureONLY/",
+    contentType: "video-post",
+  };
+  await assert.rejects(
+    importReviewed([candidate, post], options),
+    /video confirmation/,
+  );
+  await assert.rejects(
+    importReviewed([{ ...candidate, contentType: "post" }], options),
+    /Content type/,
+  );
+  assert.deepEqual(
+    await Promise.all(files.map((f) => readFile(f, "utf8"))),
+    before,
+  );
+  await importReviewed([{ ...post, confirmedVideo: true }], options);
+  const snapshot = JSON.parse(await readFile(files[0], "utf8"));
+  assert.equal(snapshot.items[0].contentType, "video-post");
+  assert.ok(parseSocialSnapshot(snapshot, "instagram", accounts));
+});
+test("library separates photos from videos, filters artist and keeps unknown dates stable after known dates", () => {
+  const items = [
+    { ...instagram.items[0], id: "unknown-a", publishedAt: null },
+    {
+      ...instagram.items[0],
+      id: "photo",
+      contentType: "post",
+      publishedAt: "2026-10-17T11:00:00Z",
+    },
+    {
+      ...instagram.items[0],
+      id: "known",
+      contentType: "video-post",
+      publishedAt: "2026-10-17T10:00:00Z",
+    },
+    { ...instagram.items[0], id: "unknown-b", publishedAt: null },
+    { ...instagram.items[0], id: "other", artistId: "itzy" },
+  ];
+  const options = { artistId: "twice", platform: "instagram" };
+  assert.deepEqual(
+    selectSocialContent(items, options).map((i) => i.id),
+    ["known", "unknown-a", "unknown-b"],
+  );
+  assert.deepEqual(
+    selectSocialContent(items, { ...options, kind: "post" }).map((i) => i.id),
+    ["photo"],
+  );
+  assert.equal(
+    selectSocialContent(items, { ...options, search: "TWICE" }).length,
+    3,
+  );
+  assert.equal(
+    selectSocialContent(items, { ...options, search: "no matches" }).length,
+    0,
+  );
+  assert.equal(items[0].id, "unknown-a");
+});
+test("production manifests contain only schema-valid distinct reviewed sources and no example placeholders", async () => {
+  for (const platform of ["instagram", "tiktok"]) {
+    const snapshot = JSON.parse(
+      await readFile(resolve(`data/social/${platform}/items.json`), "utf8"),
+    );
+    assert.ok(parseSocialSnapshot(snapshot, platform, accounts));
+    assert.equal(
+      new Set(snapshot.items.map((i) => i.id)).size,
+      snapshot.items.length,
+    );
+    for (const i of snapshot.items) {
+      assert.doesNotMatch(
+        JSON.stringify(i),
+        /FixtureONLY|ACTUAL_SHORTCODE|exampleOnly/,
+      );
+      assert.equal(i.acquisitionMethod, "manual-verified");
+      if (platform === "tiktok")
+        assert.equal(
+          socialIdentity(platform, i.sourceUrl).handle,
+          accounts
+            .find((a) => a.artistId === i.artistId && a.platform === platform)
+            .handle.toLowerCase(),
+        );
+    }
+  }
 });
