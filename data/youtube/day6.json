@@ -4,8 +4,69 @@
   "uploadsPlaylistId": "UUp-pqXsizklX3ZHvLxXyhxw",
   "artistId": "day6",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-14T16:52:37.203Z",
+  "fetchedAt": "2026-10-17T04:23:04.437Z",
   "items": [
+    {
+      "id": "yt-KsZp8Y9r_3U",
+      "source": {
+        "platform": "youtube",
+        "videoId": "KsZp8Y9r_3U",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[WONPIL's vlog : ePILog] #11",
+      "description": "[WONPIL's vlog : ePILog] #11\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY6Official\nDAY6 FAN",
+      "thumbnail": "https://i.ytimg.com/vi/KsZp8Y9r_3U/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/KsZp8Y9r_3U/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/KsZp8Y9r_3U/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/KsZp8Y9r_3U/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/KsZp8Y9r_3U/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/KsZp8Y9r_3U/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-17T03:00:01.000Z",
+      "url": "https://www.youtube.com/watch?v=KsZp8Y9r_3U",
+      "fetchedAt": "2026-10-17T04:23:04.437Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-17T04:23:04.437Z",
+      "type": "other",
+      "category": "variety",
+      "subcategory": "series",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.9,
+        "ruleId": "variety-series"
+      }
+    },
     {
       "id": "yt-MHEGF8qRy1o",
       "source": {
@@ -2974,67 +3035,6 @@
         "method": "rule",
         "confidence": 0.9,
         "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt-yA0dGkKEPRQ",
-      "source": {
-        "platform": "youtube",
-        "videoId": "yA0dGkKEPRQ",
-        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "day6",
-        "name": "DAY6"
-      },
-      "title": "Young K “Shut The Door” Music Show Behind",
-      "description": "Young K “Shut The Door” Music Show Behind\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY6Offi",
-      "thumbnail": "https://i.ytimg.com/vi/yA0dGkKEPRQ/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/yA0dGkKEPRQ/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/yA0dGkKEPRQ/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/yA0dGkKEPRQ/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/yA0dGkKEPRQ/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/yA0dGkKEPRQ/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-08-19T09:00:25.000Z",
-      "url": "https://www.youtube.com/watch?v=yA0dGkKEPRQ",
-      "fetchedAt": "2026-10-14T16:52:37.203Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:37.203Z",
-      "type": "other",
-      "category": "behind",
-      "subcategory": "making",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.95,
-        "ruleId": "making"
       }
     }
   ]

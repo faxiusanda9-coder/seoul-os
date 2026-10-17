@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUHp2q2i85qt_9nn2H7AvGOw",
   "artistId": "niziu",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-16T12:31:40.058Z",
+  "fetchedAt": "2026-10-17T04:23:05.926Z",
   "items": [
+    {
+      "id": "yt-OKLP7-j29I4",
+      "source": {
+        "platform": "youtube",
+        "videoId": "OKLP7-j29I4",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "#SourGrapes with #CHAERYEONG ​⁠@ITZY 🍇",
+      "description": "#ITZY #있지 #채령\n#NiziU #니쥬 #MAYA\n#NiziU_SourGrapes",
+      "thumbnail": "https://i.ytimg.com/vi/OKLP7-j29I4/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/OKLP7-j29I4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/OKLP7-j29I4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/OKLP7-j29I4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/OKLP7-j29I4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/OKLP7-j29I4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-17T04:00:31.000Z",
+      "url": "https://www.youtube.com/watch?v=OKLP7-j29I4",
+      "fetchedAt": "2026-10-17T04:23:05.926Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-17T04:23:05.926Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-PPKAI6x4daU",
       "source": {
@@ -2963,66 +3023,6 @@
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:38.651Z",
       "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-vCjX19BxDsE",
-      "source": {
-        "platform": "youtube",
-        "videoId": "vCjX19BxDsE",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "NiziU SEASON’S GREETINGS 2027 “Wash It All Away” Unit Teaser #3",
-      "description": "NiziU SEASON’S GREETINGS 2027 “Wash It All Away” Unit Teaser #3\n\n商品詳細はこちらから\nhttps://niziu.com/s/n123/page/news?info_type=single&info_id=587077\n\n通信販売サイト\nJYP JAPAN ONLINE STORE : https://jypj-store.com/collections/niziu-official-goods\nSony Music Shop :  https://www.sonymusicshop.jp",
-      "thumbnail": "https://i.ytimg.com/vi/vCjX19BxDsE/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/vCjX19BxDsE/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/vCjX19BxDsE/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/vCjX19BxDsE/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/vCjX19BxDsE/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/vCjX19BxDsE/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-08T02:00:00.000Z",
-      "url": "https://www.youtube.com/watch?v=vCjX19BxDsE",
-      "fetchedAt": "2026-10-14T16:52:38.651Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.651Z",
-      "type": "teaser",
       "category": "other",
       "classification": {
         "method": "fallback",

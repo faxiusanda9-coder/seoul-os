@@ -4,8 +4,129 @@
   "uploadsPlaylistId": "UUO9GhtdQcCRf67GIdSQ0HNQ",
   "artistId": "xdinary-heroes",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-16T12:31:38.567Z",
+  "fetchedAt": "2026-10-17T04:23:04.858Z",
   "items": [
+    {
+      "id": "yt-PMqt4nhBlq8",
+      "source": {
+        "platform": "youtube",
+        "videoId": "PMqt4nhBlq8",
+        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "xdinary-heroes",
+        "name": "Xdinary Heroes"
+      },
+      "title": "Obsessed with #GlenCheck #김준원❤️‍🔥",
+      "description": "Obsessed with #GlenCheck #김준원❤️‍🔥\n\n#XdinaryHeroes #엑스디너리히어로즈\n#Obsessed_with_Youth\n@glenchecktv",
+      "thumbnail": "https://i.ytimg.com/vi/PMqt4nhBlq8/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/PMqt4nhBlq8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/PMqt4nhBlq8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/PMqt4nhBlq8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/PMqt4nhBlq8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/PMqt4nhBlq8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-17T04:00:09.000Z",
+      "url": "https://www.youtube.com/watch?v=PMqt4nhBlq8",
+      "fetchedAt": "2026-10-17T04:23:04.858Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-17T04:23:04.858Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-1emtt1jbx84",
+      "source": {
+        "platform": "youtube",
+        "videoId": "1emtt1jbx84",
+        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "xdinary-heroes",
+        "name": "Xdinary Heroes"
+      },
+      "title": "Xdinary Heroes' Self-Produced M/V Reality Show 〈READY, XH〉 EP. 1",
+      "description": "Xdinary Heroes' Self-Produced M/V Reality Show 〈READY, XH〉 EP. 1\n\nListen to Xdinary Heroes \"Obsessed with Youth\"\nhttp://Xdinaryheroes.lnk.to/IMPULSE\n\nXdinary Heroes Official YouTube: https://www.youtube.com/c/xdinaryheroesofficial\nXdinary Heroes Official Facebook: https://www.fac",
+      "thumbnail": "https://i.ytimg.com/vi/1emtt1jbx84/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/1emtt1jbx84/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/1emtt1jbx84/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/1emtt1jbx84/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/1emtt1jbx84/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/1emtt1jbx84/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-17T03:00:01.000Z",
+      "url": "https://www.youtube.com/watch?v=1emtt1jbx84",
+      "fetchedAt": "2026-10-17T04:23:04.858Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-17T04:23:04.858Z",
+      "type": "music-video",
+      "category": "variety",
+      "subcategory": "series",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.9,
+        "ruleId": "variety-series"
+      }
+    },
     {
       "id": "yt-cg9iMOWdtYA",
       "source": {
@@ -2894,126 +3015,6 @@
       ],
       "publishedAt": "2026-09-11T15:00:10.000Z",
       "url": "https://www.youtube.com/watch?v=NnHgSZHqN-w",
-      "fetchedAt": "2026-10-14T16:52:37.595Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:37.595Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-QigNOZJOF-I",
-      "source": {
-        "platform": "youtube",
-        "videoId": "QigNOZJOF-I",
-        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "xdinary-heroes",
-        "name": "Xdinary Heroes"
-      },
-      "title": "주난도 꿍싯꿍싯 🐰🍀",
-      "description": "주난도 꿍싯꿍싯 🐰🍀\n\n#XdinaryHeroes #엑스디너리히어로즈\n#JunHan #준한\n#WE_ARE_ALL_HEROES",
-      "thumbnail": "https://i.ytimg.com/vi/QigNOZJOF-I/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/QigNOZJOF-I/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/QigNOZJOF-I/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/QigNOZJOF-I/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/QigNOZJOF-I/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/QigNOZJOF-I/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-09T10:00:22.000Z",
-      "url": "https://www.youtube.com/watch?v=QigNOZJOF-I",
-      "fetchedAt": "2026-10-14T16:52:37.595Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:37.595Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-o269Pp18mgQ",
-      "source": {
-        "platform": "youtube",
-        "videoId": "o269Pp18mgQ",
-        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "xdinary-heroes",
-        "name": "Xdinary Heroes"
-      },
-      "title": "뎡듀다 냥 😺",
-      "description": "뎡듀다 냥 😺\n\n#XdinaryHeroes #엑스디너리히어로즈\n#Jungsu #정수\n#WE_ARE_ALL_HEROES",
-      "thumbnail": "https://i.ytimg.com/vi/o269Pp18mgQ/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/o269Pp18mgQ/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/o269Pp18mgQ/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/o269Pp18mgQ/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/o269Pp18mgQ/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/o269Pp18mgQ/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-08T10:00:06.000Z",
-      "url": "https://www.youtube.com/watch?v=o269Pp18mgQ",
       "fetchedAt": "2026-10-14T16:52:37.595Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:37.595Z",
