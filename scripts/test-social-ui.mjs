@@ -117,7 +117,7 @@ try {
   await play(igVideos[0]);
   await frameCount(1);
   await card(igVideos[0].id)
-    .getByText("播放器由原平台提供", { exact: false })
+    .getByText("官方嵌入已加载，播放能力尚未确认", { exact: false })
     .waitFor();
   assert.equal(
     await card(igVideos[0].id)
@@ -174,7 +174,7 @@ try {
     .waitFor();
   await frame.getByRole("button", { name: "Error", exact: true }).click();
   await card(ttVideos[0].id)
-    .getByText("播放器未能确认就绪", { exact: false })
+    .getByText("站内播放暂不可用，原视频可能仍可访问。", { exact: true })
     .waitFor();
   assert.ok(
     await card(ttVideos[0].id)
@@ -227,15 +227,137 @@ try {
   checks.push(
     "original Discover shows 50 YouTube cards and retains bookmark controls",
   );
+  await page.locator(".feed-filters select").first().selectOption("itzy");
+  await page.waitForFunction(
+    () =>
+      document.querySelector("#daily-feed .feed-meta a")?.textContent ===
+      "ITZY",
+  );
+  const youtube = JSON.parse(await readFile("data/youtube/itzy.json", "utf8"));
+  const youtubeLinks = await page
+    .locator("#daily-feed .feed-image-link")
+    .evaluateAll((es) => es.map((a) => a.href));
+  assert.equal(youtubeLinks.length, 50);
+  assert.ok(
+    youtubeLinks.every((url) =>
+      youtube.items.some(
+        (i) => url === `https://www.youtube.com/watch?v=${i.source.videoId}`,
+      ),
+    ),
+  );
+  await page.locator(".feed-search input").fill("no-match-playback-regression");
+  await page.waitForFunction(
+    () => !document.querySelector("#daily-feed .feed-card"),
+  );
+  await page.locator(".feed-search input").fill("");
+  await page.waitForSelector("#daily-feed .feed-card");
+  checks.push(
+    "YouTube artist switch, search and canonical original playback links remain intact",
+  );
+  const itzy = ig.filter(
+    (i) => i.artistId === "itzy" && i.contentType === "reels",
+  );
+  const stateFixture = structuredClone(ig);
+  for (const item of stateFixture.filter((i) =>
+    itzy.some((t) => t.id === i.id),
+  )) {
+    if (item.id === itzy[1].id) {
+      item.sourceAvailability = "unavailable";
+      item.embedAvailability = "untested";
+    }
+    if (item.id === itzy[2].id) {
+      item.availabilityStatus = "unknown";
+      delete item.sourceAvailability;
+      delete item.embedAvailability;
+    }
+  }
+  await page.route("**/data/social/instagram/items.json", (r) =>
+    r.fulfill({
+      contentType: "application/json",
+      body: JSON.stringify({
+        schemaVersion: 1,
+        platform: "instagram",
+        items: stateFixture,
+      }),
+    }),
+  );
+  await goto("instagram", "itzy");
+  assert.equal(await page.locator("iframe").count(), 0);
+  await card(itzy[1].id)
+    .getByText("原始内容已确认不可访问", { exact: false })
+    .waitFor();
+  assert.equal(
+    await card(itzy[1].id)
+      .getByRole("button", { name: "在站内播放", exact: true })
+      .count(),
+    0,
+  );
+  assert.equal(
+    await card(itzy[2].id)
+      .getByRole("button", { name: "在站内播放", exact: true })
+      .count(),
+    1,
+  );
+  // A previously restricted manual record must permit an explicit fresh attempt.
+  const target = card(itzy[0].id);
+  await target
+    .getByRole("button", { name: "在站内播放", exact: true })
+    .evaluate((b) => {
+      b.click();
+      b.click();
+    });
+  await frameCount(1);
+  await target
+    .getByText("站内播放暂不可用，原视频可能仍可访问。", { exact: true })
+    .waitFor();
+  for (let n = 0; n < 2; n++) {
+    await target
+      .getByRole("button", { name: "重试播放器", exact: true })
+      .focus();
+    await page.keyboard.press("Enter");
+    await frameCount(1);
+  }
+  for (const width of [375, 390, 412]) {
+    await page.setViewportSize({ width, height: 844 });
+    assert.ok(
+      await page.evaluate(
+        () => document.documentElement.scrollWidth <= innerWidth,
+      ),
+    );
+  }
+  for (const name of ["打开原始内容", "官方账号"])
+    assert.ok(
+      await target.getByRole("link", { name, exact: false }).last().isVisible(),
+    );
+  await target.locator("summary").click();
+  assert.ok(
+    await target
+      .getByRole("link", { name: "查看核验依据", exact: true })
+      .isVisible(),
+  );
+  await play(itzy[2]);
+  await frameCount(1);
+  await card(itzy[2].id)
+    .getByText("官方嵌入已加载，播放能力尚未确认", { exact: false })
+    .waitFor();
+  checks.push(
+    "ITZY restricted embed can be attempted/retried; source unavailable blocked; unknown legacy accepted; duplicate clicks, mobile widths, evidence links",
+  );
+  await page.unroute("**/data/social/instagram/items.json");
   await page.unroute("https://www.instagram.com/embed.js");
+  let sdkFailed = true;
   await page.route("https://www.instagram.com/embed.js", (r) =>
-    r.fulfill({ status: 503, body: "unavailable" }),
+    r.fulfill(
+      sdkFailed
+        ? { status: 503, body: "unavailable" }
+        : { contentType: "text/javascript", body: igScript },
+    ),
   );
   await goto();
   await page.reload({ waitUntil: "networkidle" });
   await play(igVideos[0]);
   await card(igVideos[0].id)
-    .getByText("播放器未能确认就绪", { exact: false })
+    .getByText("站内播放暂不可用，原视频可能仍可访问。", { exact: true })
     .waitFor();
   assert.ok(
     await card(igVideos[0].id)
@@ -244,6 +366,18 @@ try {
       .isVisible(),
   );
   checks.push("Instagram script HTTP 503 keeps usable card and original link");
+  sdkFailed = false;
+  await card(igVideos[0].id)
+    .getByRole("button", { name: "重试播放器", exact: true })
+    .focus();
+  await page.keyboard.press("Enter");
+  await frameCount(1);
+  await card(igVideos[0].id)
+    .getByText("官方嵌入已加载，播放能力尚未确认", { exact: false })
+    .waitFor();
+  checks.push(
+    "failed Instagram SDK retries successfully without duplicate frames; shell success is never labelled video playback",
+  );
   await page.route("**/data/social/tiktok/items.json", (r) =>
     r.fulfill({ status: 503, body: "unavailable" }),
   );

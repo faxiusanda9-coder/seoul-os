@@ -2,6 +2,8 @@
 
 **Your K-pop Universe, Organized.** 一个独立的 JYP 粉丝网页应用。界面默认简体中文，保留英文编辑式标题。YouTube 视频由已核实的官方频道分别同步；SEOUL.OS 不是 JYP 或 YouTube 的官方产品。
 
+Instagram 播放排查与当前限制见 [Phase 3.1.1 修复报告](docs/phase-3.1.1-playback-repair.md)：已修复错误阻断与重试，目标 ITZY Reel 的官方嵌入仍仅提供封面，未恢复实际视频播放。
+
 ## 本地运行
 
 需要 Node.js 24+ 和 npm。同步脚本使用 Node 的 TypeScript 类型剥离功能读取共享 schema。

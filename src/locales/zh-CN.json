@@ -324,9 +324,8 @@
   "media.loadEmbed": "在站内播放",
   "media.closeEmbed": "关闭播放器",
   "media.embedHelp": "播放器由原平台提供，请点击播放器中的播放按钮开始。",
-  "media.embedFailed": "播放器未能确认就绪，可能受网络、登录或嵌入限制影响；请使用原平台链接。",
+  "media.embedFailed": "站内播放暂不可用，原视频可能仍可访问。",
   "media.openOriginal": "打开原始内容",
-  "media.restricted": "该记录已标记为受限或不可用，请查看原平台。",
   "media.evidence": "来源与核验记录",
   "media.evidenceLink": "查看核验依据",
   "media.reviewed": "内容人工核验于",
@@ -369,5 +368,8 @@
   "media.allContent": "全部内容",
   "media.optionalProfile": "官方账号预览（可选）",
   "media.loadPost": "在站内查看",
-  "media.postHelp": "帖子由 Instagram 官方嵌入呈现。"
+  "media.postHelp": "帖子由 Instagram 官方嵌入呈现。",
+  "media.sourceUnavailable": "原始内容已确认不可访问；核验依据见下方来源记录。",
+  "media.embedShellReady": "官方嵌入已加载，播放能力尚未确认。若仅显示封面或无法播放，请打开原始内容。",
+  "media.retryEmbed": "重试播放器"
 }

@@ -1,0 +1,145 @@
+{
+  "environment": "Edge headless, fresh anonymous profile, live official network, no mocked responses",
+  "results": [
+    {
+      "code": "Deiu8BPBfNn",
+      "checkedAt": "2026-10-17T16:26:41.225Z",
+      "requestsFailed": [
+        {
+          "url": "http://localhost:5174/seoul-os/data/status/youtube.json",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "original": {
+        "http": 200,
+        "url": "https://www.instagram.com/reel/Deiu8BPBfNn/",
+        "title": "Instagram",
+        "text": "Log In\nSign Up\nNever miss a post from itzy.all.in.us\nSign up for Instagram to stay in the loop.\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\nSign up\nLog in\nitzy.all.in.us\n•\nFollow\n146,434 likes\nitzy.all.in.us\n 보름달이 뜨는 날‧⁺ ⊹˚.🌕\n... \nmore\nView all 460 comments\n1 day ago\nMore posts from itzy.all.in.us\nSee more posts",
+        "videos": [],
+        "controls": 0,
+        "copyright": []
+      },
+      "embed": {
+        "url": "https://www.instagram.com/reel/Deiu8BPBfNn/embed/?cr=1&v=14&wp=390&rd=http%3A%2F%2Flocalhost%3A5174&rp=%2Fseoul-os%2F#%7B%22ci%22%3A0%2C%22os%22%3A1209.0999999940395%2C%22ls%22%3A455.59999999403954%2C%22le%22%3A1200.199999988079%7D",
+        "title": "Instagram",
+        "text": "itzy.all.in.us\nVerified\n·\nView profile\nPlay\nWatch on Instagram\nitzy.all.in.us\nVerified\n5,184 posts · 19M followers\nView more on Instagram\nLike\nComment\nShare\nSave\n146,437 likes\nAdd a comment...\nInstagram",
+        "videos": [],
+        "controls": 0,
+        "copyright": [
+          "copyright_blocked\\\":true},\\\"gql_data\\\":{\\\"shortcode_media\\\":{\\\"__ty"
+        ]
+      }
+    },
+    {
+      "code": "DebGMmgS0lI",
+      "checkedAt": "2026-10-17T16:27:00.027Z",
+      "requestsFailed": [
+        {
+          "url": "http://localhost:5174/seoul-os/data/status/youtube.json",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "original": {
+        "http": 200,
+        "url": "https://www.instagram.com/reel/DebGMmgS0lI/",
+        "title": "Instagram",
+        "text": "Log In\nSign Up\nNever miss a post from itzy.all.in.us\nSign up for Instagram to stay in the loop.\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\nSign up\nLog in\nitzy.all.in.us\n•\nFollow\n70,907 likes\nitzy.all.in.us\n mini-log 🍬💙\n\n... \nmore\nView all 235 comments\n4 days ago\nMore posts from itzy.all.in.us\nSee more posts",
+        "videos": [],
+        "controls": 0,
+        "copyright": []
+      },
+      "embed": {
+        "url": "https://www.instagram.com/reel/DebGMmgS0lI/embed/?cr=1&v=14&wp=390&rd=http%3A%2F%2Flocalhost%3A5174&rp=%2Fseoul-os%2F#%7B%22ci%22%3A0%2C%22os%22%3A1268.4000000059605%2C%22ls%22%3A430.5%2C%22le%22%3A1259.2999999821186%7D",
+        "title": "Instagram",
+        "text": "itzy.all.in.us\nVerified\n·\nView profile\nPlay\nWatch on Instagram\nitzy.all.in.us\nVerified\n5,184 posts · 19M followers\nView more on Instagram\nLike\nComment\nShare\nSave\n70,907 likes\nAdd a comment...\nInstagram",
+        "videos": [],
+        "controls": 0,
+        "copyright": [
+          "copyright_blocked\\\":true},\\\"gql_data\\\":{\\\"shortcode_media\\\":{\\\"__ty"
+        ]
+      }
+    },
+    {
+      "code": "DHOB5WwS04T",
+      "checkedAt": "2026-10-17T16:27:18.481Z",
+      "requestsFailed": [
+        {
+          "url": "http://localhost:5174/seoul-os/data/status/youtube.json",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "original": {
+        "http": 200,
+        "url": "https://www.instagram.com/reel/DHOB5WwS04T/",
+        "title": "Instagram",
+        "text": "Log In\nSign Up\nNever miss a post from itzy.all.in.us\nSign up for Instagram to stay in the loop.\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\nSign up\nLog in\nitzy.all.in.us\n•\nFollow\n344,767 likes\nitzy.all.in.us\n #AirChallenge 는 예지와 #세븐틴 #호시 선배님처럼 해 봐요 Just like this💫\n... \nmore\nView all 1,219 comments\nMarch 15, 2025\nMore posts from itzy.all.in.us\nSee more posts",
+        "videos": [],
+        "controls": 0,
+        "copyright": []
+      },
+      "embed": {
+        "url": "https://www.instagram.com/reel/DHOB5WwS04T/embed/?cr=1&v=14&wp=390&rd=http%3A%2F%2Flocalhost%3A5174&rp=%2Fseoul-os%2F#%7B%22ci%22%3A0%2C%22os%22%3A1209.199999988079%2C%22ls%22%3A471%2C%22le%22%3A1200.4000000059605%7D",
+        "title": "Instagram",
+        "text": "itzy.all.in.us\nVerified\n·\nView profile\nPlay\nWatch on Instagram\nitzy.all.in.us\nVerified\n5,184 posts · 19M followers\nView more on Instagram\nLike\nComment\nShare\nSave\n343,566 likes\nAdd a comment...\nInstagram",
+        "videos": [],
+        "controls": 0,
+        "copyright": [
+          "copyright_blocked\\\":true},\\\"gql_data\\\":{\\\"shortcode_media\\\":{\\\"__ty"
+        ]
+      }
+    },
+    {
+      "code": "DegKEZyhoe4",
+      "checkedAt": "2026-10-17T16:27:37.210Z",
+      "requestsFailed": [
+        {
+          "url": "http://localhost:5174/seoul-os/data/status/youtube.json",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "original": {
+        "http": 200,
+        "url": "https://www.instagram.com/reel/DegKEZyhoe4/",
+        "title": "Instagram",
+        "text": "Log In\nSign Up\nNever miss a post from twicetagram\nSign up for Instagram to stay in the loop.\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\nSign up\nLog in\ntwicetagram\n•\nFollow\n247,289 likes\ntwicetagram\n Introducing..🍭\n... \nmore\nView all 673 comments\n2 days ago\nMore posts from twicetagram\nSee more posts",
+        "videos": [],
+        "controls": 0,
+        "copyright": []
+      },
+      "embed": {
+        "url": "https://www.instagram.com/reel/DegKEZyhoe4/embed/?cr=1&v=14&wp=390&rd=http%3A%2F%2Flocalhost%3A5174&rp=%2Fseoul-os%2F#%7B%22ci%22%3A0%2C%22os%22%3A1289%2C%22ls%22%3A446%2C%22le%22%3A1280.0999999940395%7D",
+        "title": "Instagram",
+        "text": "twicetagram\nVerified\nOriginal audio\nView profile\ntwicetagram\nVerified\n5,327 posts · 30M followers\nView more on Instagram\nLike\nComment\nShare\nSave\n247,291 likes\nAdd a comment...\nInstagram",
+        "videos": [
+          {
+            "currentTime": 0,
+            "paused": true,
+            "readyState": 0,
+            "error": null
+          }
+        ],
+        "controls": 1,
+        "copyright": [
+          "copyright_blocked\\\":false},\\\"gql_data\\\":{\\\"shortcode_media\\\":{\\\"__t"
+        ],
+        "afterPlay": {
+          "url": "https://www.instagram.com/reel/DegKEZyhoe4/embed/?cr=1&v=14&wp=390&rd=http%3A%2F%2Flocalhost%3A5174&rp=%2Fseoul-os%2F#%7B%22ci%22%3A0%2C%22os%22%3A1289%2C%22ls%22%3A446%2C%22le%22%3A1280.0999999940395%7D",
+          "title": "Instagram",
+          "text": "twicetagram\nVerified\nOriginal audio\nView profile\ntwicetagram\nVerified\n5,327 posts · 30M followers\nView more on Instagram\nLike\nComment\nShare\nSave\n247,291 likes\nAdd a comment...\nInstagram",
+          "videos": [
+            {
+              "currentTime": 4.236646,
+              "paused": false,
+              "readyState": 4,
+              "error": null
+            }
+          ],
+          "controls": 1,
+          "copyright": [
+            "copyright_blocked\\\":false},\\\"gql_data\\\":{\\\"shortcode_media\\\":{\\\"__t"
+          ]
+        }
+      }
+    }
+  ]
+}

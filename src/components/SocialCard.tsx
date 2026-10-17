@@ -1,6 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import { Bookmark, ArrowUpRight } from "lucide-react";
-import type { SocialContent } from "../../data/schemas/social.schema";
+import {
+  socialAvailability,
+  type SocialContent,
+} from "../../data/schemas/social.schema";
 import { useArchive } from "../store/ArchiveContext";
 import { useI18n } from "../locales/i18n";
 import { artistById } from "../data/artists";
@@ -12,7 +15,8 @@ declare global {
 }
 let instagramScript: Promise<void> | null = null;
 function loadInstagram() {
-  if (window.instgrm) return Promise.resolve();
+  if (typeof window.instgrm?.Embeds?.process === "function")
+    return Promise.resolve();
   if (!instagramScript)
     instagramScript = new Promise<void>((resolve, reject) => {
       const script = document.createElement("script");
@@ -24,7 +28,11 @@ function loadInstagram() {
       }, 12000);
       script.onload = () => {
         clearTimeout(timer);
-        resolve();
+        if (typeof window.instgrm?.Embeds?.process === "function") resolve();
+        else {
+          script.remove();
+          reject(Error("Instagram embed SDK unavailable"));
+        }
       };
       script.onerror = () => {
         clearTimeout(timer);
@@ -44,6 +52,9 @@ function OfficialEmbed({ item }: { item: SocialContent }) {
   const container = useRef<HTMLDivElement>(null);
   const [failed, setFailed] = useState(false);
   const [ready, setReady] = useState(false);
+  const knownRestriction = ["restricted", "failed"].includes(
+    socialAvailability(item).embed,
+  );
   useEffect(() => {
     let active = true;
     setFailed(false);
@@ -71,8 +82,13 @@ function OfficialEmbed({ item }: { item: SocialContent }) {
         setFailed(false);
         setReady(true);
       }
-      if (event.data.type === "onPlayerError" || event.data.type === "onError")
+      if (
+        event.data.type === "onPlayerError" ||
+        event.data.type === "onError"
+      ) {
+        clearTimeout(timer);
         setFailed(true);
+      }
     };
     window.addEventListener("message", receive);
     const observed = new Set<HTMLIFrameElement>();
@@ -87,6 +103,7 @@ function OfficialEmbed({ item }: { item: SocialContent }) {
           () => {
             if (active) {
               clearTimeout(timer);
+              setFailed(false);
               setReady(true);
             }
           },
@@ -136,12 +153,16 @@ function OfficialEmbed({ item }: { item: SocialContent }) {
       )}
       <p className="tiny-note" role="status">
         {t(
-          failed
+          failed ||
+            (knownRestriction && item.platform === "instagram") ||
+            (knownRestriction && !ready)
             ? "media.embedFailed"
             : ready
               ? item.contentType === "post"
                 ? "media.postHelp"
-                : "media.embedHelp"
+                : item.platform === "instagram"
+                  ? "media.embedShellReady"
+                  : "media.embedHelp"
               : "media.embedLoading",
         )}
       </p>
@@ -153,6 +174,8 @@ export function SocialCard({ item }: { item: SocialContent }) {
   const { isSaved, toggleSaved } = useArchive();
   const { activePlayerId, openPlayer, closePlayer } = useSocial();
   const loaded = activePlayerId === item.id;
+  const [attempt, setAttempt] = useState(0);
+  const availability = socialAvailability(item);
   useEffect(() => () => closePlayer(item.id), [item.id, closePlayer]);
   const label =
     item.title ??
@@ -211,12 +234,14 @@ export function SocialCard({ item }: { item: SocialContent }) {
             }).format(new Date(item.publishedAt)) + " · UTC+8"
           : t("media.unknownDate")}
       </p>
-      {item.availabilityStatus === "available" ||
-      item.availabilityStatus === "unknown" ? (
+      {availability.source !== "unavailable" ? (
         loaded ? (
-          <OfficialEmbed item={item} />
+          <OfficialEmbed key={attempt} item={item} />
         ) : (
           <div className="embed-consent">
+            {["restricted", "failed"].includes(availability.embed) && (
+              <p role="status">{t("media.embedFailed")}</p>
+            )}
             <p>
               {t("media.embedPrivacy", {
                 platform:
@@ -237,16 +262,25 @@ export function SocialCard({ item }: { item: SocialContent }) {
           </div>
         )
       ) : (
-        <p role="status">{t("media.restricted")}</p>
+        <p role="status">{t("media.sourceUnavailable")}</p>
       )}
       {loaded && (
-        <button
-          className="text-button"
-          type="button"
-          onClick={() => closePlayer(item.id)}
-        >
-          {t("media.closeEmbed")}
-        </button>
+        <div className="official-source-actions">
+          <button
+            className="text-button"
+            type="button"
+            onClick={() => setAttempt((n) => n + 1)}
+          >
+            {t("media.retryEmbed")}
+          </button>
+          <button
+            className="text-button"
+            type="button"
+            onClick={() => closePlayer(item.id)}
+          >
+            {t("media.closeEmbed")}
+          </button>
+        </div>
       )}
       <div className="official-source-actions">
         <a

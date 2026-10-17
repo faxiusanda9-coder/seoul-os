@@ -26,6 +26,10 @@ export type SocialContent = {
   fetchedAt: string;
   lastValidatedAt: string;
   availabilityStatus: "available" | "restricted" | "deleted" | "unknown";
+  // Legacy availabilityStatus mixed source and embed observations. Do not infer
+  // source removal from an embed restriction, or playback from a loaded shell.
+  sourceAvailability?: "available" | "unavailable" | "unknown";
+  embedAvailability?: "available" | "failed" | "untested" | "restricted";
   evidenceUrl: string;
   evidenceNote: string;
   reviewedBy: string;
@@ -35,6 +39,16 @@ export type SocialSnapshot = {
   platform: SocialPlatform;
   items: SocialContent[];
 };
+export function socialAvailability(item: SocialContent) {
+  return {
+    source:
+      item.sourceAvailability ??
+      (item.availabilityStatus === "deleted" ? "unavailable" : "unknown"),
+    embed:
+      item.embedAvailability ??
+      (item.availabilityStatus === "restricted" ? "restricted" : "untested"),
+  };
+}
 export const isInstant = (x: unknown): x is string =>
   typeof x === "string" &&
   /^\d{4}-\d\d-\d\dT(?:[01]\d|2[0-3]):[0-5]\d:[0-5]\d(?:\.\d+)?(?:Z|[+-](?:[01]\d|2[0-3]):[0-5]\d)$/.test(
@@ -170,6 +184,17 @@ export function parseSocialSnapshot(
         !["available", "restricted", "deleted", "unknown"].includes(
           i.availabilityStatus,
         ) ||
+        (i.sourceAvailability !== undefined &&
+          !["available", "unavailable", "unknown"].includes(
+            i.sourceAvailability,
+          )) ||
+        (i.embedAvailability !== undefined &&
+          !["available", "failed", "untested", "restricted"].includes(
+            i.embedAvailability,
+          )) ||
+        (i.availabilityStatus === "deleted" &&
+          i.sourceAvailability !== undefined &&
+          i.sourceAvailability !== "unavailable") ||
         !isInstant(i.fetchedAt) ||
         !isInstant(i.lastValidatedAt) ||
         Date.parse(i.lastValidatedAt) < Date.parse(i.fetchedAt) ||

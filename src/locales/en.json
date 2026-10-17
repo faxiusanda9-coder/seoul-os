@@ -324,9 +324,8 @@
   "media.loadEmbed": "Play here",
   "media.closeEmbed": "Close embed",
   "media.embedHelp": "The player is provided by the original platform. Use its play button to start.",
-  "media.embedFailed": "The player could not confirm readiness. Network, login or embed restrictions may apply; use the original link.",
+  "media.embedFailed": "Inline playback is temporarily unavailable. The original video may still be accessible.",
   "media.openOriginal": "Open original post",
-  "media.restricted": "This item is marked restricted or unavailable; check the original platform.",
   "media.evidence": "Source & review",
   "media.evidenceLink": "View verification source",
   "media.reviewed": "Post manually reviewed on",
@@ -369,5 +368,8 @@
   "media.allContent": "All content",
   "media.optionalProfile": "Official profile preview (optional)",
   "media.loadPost": "View here",
-  "media.postHelp": "Post rendered by the official Instagram embed."
+  "media.postHelp": "Post rendered by the official Instagram embed.",
+  "media.sourceUnavailable": "The original content was confirmed unavailable. See the source review below.",
+  "media.embedShellReady": "The official embed has loaded; playback is not confirmed. If only a poster appears or playback fails, open the original content.",
+  "media.retryEmbed": "Retry player"
 }
