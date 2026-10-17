@@ -1,0 +1,67 @@
+name: Validate reviewed social links
+on:
+  schedule:
+    # Local manifest validation only, at 08:10 and 20:10 Beijing.
+    - cron: "10 0,12 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: social-manifests
+  cancel-in-progress: false
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      changed: ${{ steps.changes.outputs.changed }}
+      failed: ${{ steps.social.outcome == 'failure' }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+          cache: npm
+      - run: npm ci
+      - name: Validate reviewed local manifests (no platform discovery)
+        id: social
+        continue-on-error: true
+        run: npm run sync:social
+      - run: npm run test:social && npm run build
+      - name: Check status changes
+        id: changes
+        shell: bash
+        run: |
+          if [[ -n "$(git status --porcelain -- data/status/instagram.json data/status/tiktok.json)" ]]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Commit local validation status
+        if: steps.changes.outputs.changed == 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/status/instagram.json data/status/tiktok.json
+          git commit -m "data: record reviewed social manifest validation"
+          git pull --rebase origin main
+          git push origin HEAD:main
+  deploy:
+    needs: validate
+    if: needs.validate.outputs.changed == 'true'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy.yml
+    with:
+      ref: main
+  report-failure:
+    needs: [validate, deploy]
+    if: always() && needs.validate.outputs.failed == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - run: exit 1

@@ -7,6 +7,7 @@ const jypArtist = (artistId: string, origin: string): OfficialSource => ({
   artistId,
   noticeUrl: `${origin}/notice`,
   scheduleUrl: `${origin}/schedule`,
+  releaseUrl: `${origin}/discography`,
   sourceType: "jyp-site",
   authorizationBasis: jypBasis,
   accessStatus: "public",

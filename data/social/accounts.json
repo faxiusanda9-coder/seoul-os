@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "accounts": [
+    {
+      "artistId": "twice",
+      "platform": "instagram",
+      "handle": "twicetagram",
+      "accountUrl": "https://www.instagram.com/twicetagram/",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-17T14:44:42.529Z",
+      "evidenceUrl": "https://www.jype.com/en/Artist",
+      "evidenceNote": "JYP 官方 Artist 目录中对应艺人的 Instagram 出站链接；本次逐条核对。"
+    },
+    {
+      "artistId": "stray-kids",
+      "platform": "instagram",
+      "handle": "realstraykids",
+      "accountUrl": "https://www.instagram.com/realstraykids/",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-17T14:44:42.529Z",
+      "evidenceUrl": "https://www.jype.com/en/Artist",
+      "evidenceNote": "JYP 官方 Artist 目录中对应艺人的 Instagram 出站链接；本次逐条核对。"
+    },
+    {
+      "artistId": "itzy",
+      "platform": "instagram",
+      "handle": "itzy.all.in.us",
+      "accountUrl": "https://www.instagram.com/itzy.all.in.us/",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-17T14:44:42.529Z",
+      "evidenceUrl": "https://www.jype.com/en/Artist",
+      "evidenceNote": "JYP 官方 Artist 目录中对应艺人的 Instagram 出站链接；本次逐条核对。"
+    },
+    {
+      "artistId": "nmixx",
+      "platform": "instagram",
+      "handle": "nmixx_official",
+      "accountUrl": "https://www.instagram.com/nmixx_official/",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-17T14:44:42.529Z",
+      "evidenceUrl": "https://www.jype.com/en/Artist",
+      "evidenceNote": "JYP 官方 Artist 目录中对应艺人的 Instagram 出站链接；本次逐条核对。"
+    },
+    {
+      "artistId": "day6",
+      "platform": "instagram",
+      "handle": "day6kilogram",
+      "accountUrl": "https://www.instagram.com/day6kilogram/",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-17T14:44:42.529Z",
+      "evidenceUrl": "https://www.jype.com/en/Artist",
+      "evidenceNote": "JYP 官方 Artist 目录中对应艺人的 Instagram 出站链接；本次逐条核对。"
+    },
+    {
+      "artistId": "xdinary-heroes",
+      "platform": "instagram",
+      "handle": "xdinaryheroes_official",
+      "accountUrl": "https://www.instagram.com/xdinaryheroes_official/",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-17T14:44:42.529Z",
+      "evidenceUrl": "https://www.jype.com/en/Artist",
+      "evidenceNote": "JYP 官方 Artist 目录中对应艺人的 Instagram 出站链接；本次逐条核对。"
+    },
+    {
+      "artistId": "kickflip",
+      "platform": "instagram",
+      "handle": "kickflip_jype",
+      "accountUrl": "https://www.instagram.com/kickflip_jype/",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-17T14:44:42.529Z",
+      "evidenceUrl": "https://www.jype.com/en/Artist",
+      "evidenceNote": "JYP 官方 Artist 目录中对应艺人的 Instagram 出站链接；本次逐条核对。"
+    },
+    {
+      "artistId": "niziu",
+      "platform": "instagram",
+      "handle": "niziu_info_official",
+      "accountUrl": "https://www.instagram.com/niziu_info_official/",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-17T14:44:42.529Z",
+      "evidenceUrl": "https://www.jype.com/en/Artist",
+      "evidenceNote": "JYP 官方 Artist 目录中对应艺人的 Instagram 出站链接；本次逐条核对。"
+    },
+    {
+      "artistId": "nexz",
+      "platform": "instagram",
+      "handle": "real_nexz",
+      "accountUrl": "https://www.instagram.com/real_nexz/",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-17T14:44:42.529Z",
+      "evidenceUrl": "https://www.jype.com/en/Artist",
+      "evidenceNote": "JYP 官方 Artist 目录中对应艺人的 Instagram 出站链接；本次逐条核对。"
+    },
+    {
+      "artistId": "jy-park",
+      "platform": "instagram",
+      "handle": "asiansoul_jyp",
+      "accountUrl": "https://www.instagram.com/asiansoul_jyp/",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-17T14:44:42.529Z",
+      "evidenceUrl": "https://www.jype.com/en/Artist",
+      "evidenceNote": "JYP 官方 Artist 目录中对应艺人的 Instagram 出站链接；本次逐条核对。"
+    },
+    {
+      "artistId": "2pm",
+      "platform": "instagram",
+      "handle": "real_2pmstagram",
+      "accountUrl": "https://www.instagram.com/real_2pmstagram/",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-17T14:44:42.529Z",
+      "evidenceUrl": "https://www.jype.com/en/Artist",
+      "evidenceNote": "JYP 官方 Artist 目录中对应艺人的 Instagram 出站链接；本次逐条核对。"
+    },
+    {
+      "artistId": "boy-story",
+      "platform": "instagram",
+      "handle": "official_boystory",
+      "accountUrl": "https://www.instagram.com/official_boystory/",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-17T14:44:42.529Z",
+      "evidenceUrl": "https://www.jype.com/en/Artist",
+      "evidenceNote": "JYP 官方 Artist 目录中对应艺人的 Instagram 出站链接；本次逐条核对。"
+    },
+    {
+      "artistId": "yaochen",
+      "platform": "instagram",
+      "handle": "noname_0323xx",
+      "accountUrl": "https://www.instagram.com/noname_0323xx/",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-17T14:44:42.529Z",
+      "evidenceUrl": "https://www.jype.com/en/Artist",
+      "evidenceNote": "JYP 官方 Artist 目录中对应艺人的 Instagram 出站链接；本次逐条核对。"
+    },
+    {
+      "artistId": "girlset",
+      "platform": "instagram",
+      "handle": "girlset",
+      "accountUrl": "https://www.instagram.com/girlset/",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-17T14:44:42.529Z",
+      "evidenceUrl": "https://www.jype.com/en/Artist",
+      "evidenceNote": "JYP 官方 Artist 目录中对应艺人的 Instagram 出站链接；本次逐条核对。"
+    },
+    {
+      "artistId": "twice",
+      "platform": "tiktok",
+      "handle": "twice_tiktok_official",
+      "accountUrl": "https://www.tiktok.com/@twice_tiktok_official/",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-17T14:44:42.529Z",
+      "evidenceUrl": "https://newsroom.tiktok.com/twice-2025?lang=ko-KR",
+      "evidenceNote": "TikTok 官方新闻稿明确标注 TWICE 官方账号。"
+    },
+    {
+      "artistId": "stray-kids",
+      "platform": "tiktok",
+      "handle": "jypestraykids",
+      "accountUrl": "https://www.tiktok.com/@jypestraykids/",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-17T14:44:42.529Z",
+      "evidenceUrl": "https://newsroom.tiktok.com/tiktok-live-lineup-march?lang=ko-KR",
+      "evidenceNote": "TikTok 官方新闻稿明确标注 Stray Kids 官方账号。"
+    },
+    {
+      "artistId": "nmixx",
+      "platform": "tiktok",
+      "handle": "nmixx_official",
+      "accountUrl": "https://www.tiktok.com/@nmixx_official/",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-17T14:44:42.529Z",
+      "evidenceUrl": "https://nmixx.jype.com/",
+      "evidenceNote": "艺人官网的 TikTok 出站链接。"
+    },
+    {
+      "artistId": "itzy",
+      "platform": "tiktok",
+      "handle": "itzyofficial",
+      "accountUrl": "https://www.tiktok.com/@itzyofficial/",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-17T14:44:42.529Z",
+      "evidenceUrl": "https://www.youtube.com/watch?v=4vmBvGMSLBw",
+      "evidenceNote": "已核实 ITZY 独立 YouTube 频道视频说明中的官方 TikTok 链接。"
+    }
+  ]
+}

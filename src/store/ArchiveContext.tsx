@@ -26,7 +26,7 @@ const ArchiveContext = createContext<ArchiveState | null>(null);
 
 const validItemIds = new Set(feed.map((item) => item.id));
 const validItemId = (id: string) =>
-  validItemIds.has(id) || /^yt-[A-Za-z0-9_-]{11}$/.test(id);
+  validItemIds.has(id) || /^yt-[A-Za-z0-9_-]{11}$/.test(id) || /^ig-[A-Za-z0-9_-]{5,40}$/.test(id) || /^tt-\d{15,25}$/.test(id);
 const validArtistIds = new Set(artists.map((artist) => artist.id));
 const validCategories = new Set<string>(archiveCategories);
 

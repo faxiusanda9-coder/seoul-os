@@ -1,5 +1,7 @@
 # JYP 官方公告、行程与社交来源矩阵
 
+Phase 3 补充（2026-10-17）：Instagram 官方账号覆盖 14 位已启用艺人，TikTok 确认 4 位；逐条核验来源见 `data/social/accounts.json` 与 [Phase 3 覆盖及接口调查](phase-3-official-media.md)。八个 jype 艺人站的作品目录导航已核实，`OfficialSource.releaseUrl` 仅提供 `/discography` 外链。下方 Phase 2C 分类仍描述官网公告/行程读取权限，不代表 Instagram/TikTok 获得自动发现授权。
+
 核验日期：2026-10-15（北京时间）。本矩阵记录**页面入口和使用方式**，不代表获得网页内容的复制／自动采集许可。`A`＝有足够自动使用依据，`B`＝只开放核实的官网链接，`C`＝身份或条件待核实，`D`＝不可用。当前 **A=0，B=10 个来源（公司及 9 位艺人），C=5 位艺人加 CIIU**。所有 B 来源 `automationAllowed=false`，`lastCheckedAt=2026-10-15`，只提供外链。
 
 | artistId | 官方 Notice / News | 官方 Schedule | sourceType / accessStatus / dataAvailability | 分类、authorizationBasis、reason / evidenceUrl |

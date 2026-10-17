@@ -11,6 +11,7 @@ import { SectionHeading } from "../components/SectionHeading";
 import { countContentCategories, selectFeed, type FeedSort } from "../utils/feed";
 import type { ContentCategory } from "../utils/contentClassifier";
 import { useI18n } from "../locales/i18n";
+import { SourceFreshness } from "../components/SourceFreshness";
 
 export function DiscoverPage() {
   const { feed, status, syncedAt, selectedArtistId, channels, selectArtist, loadChannel } = useContent();
@@ -104,6 +105,7 @@ export function DiscoverPage() {
               </span>
             }
           />
+          <div className="media-entry"><SourceFreshness artistId={selectedArtistId} platform="youtube" snapshotAt={syncedAt}/><Link className="text-link" to={`/media?artist=${selectedArtistId}`}>{t("media.openCenter")} <ArrowUpRight size={16}/></Link></div>
           <FeedFilters
             artist={selectedArtistId}
             channels={channels}

@@ -3,6 +3,8 @@ import { resolve, sep } from "node:path";
 import { parseChannelSnapshot, parseChannelsConfig } from "../data/schemas/content.schema.ts";
 import { parseSnapshot, currentlyPublishable } from "../src/calendar/engine.ts";
 import { approvedManualEvents, readManual } from "./events/manual-events.mjs";
+import { parseSocialAccounts, parseSocialSnapshot } from "../data/schemas/social.schema.ts";
+import { parseSyncStatus } from "../data/schemas/sync-status.schema.ts";
 
 const publicRoot = resolve("public");
 const targetDir = resolve("public/data/youtube");
@@ -39,6 +41,24 @@ for (const channel of config.channels.filter((item) => item.enabled)) {
   staged++;
 }
 console.log(`Staged ${staged} independent channel snapshots`);
+
+const socialAccountsRaw = JSON.parse(await readFile(resolve("data/social/accounts.json"), "utf8"));
+const socialAccounts = parseSocialAccounts(socialAccountsRaw, new Set(config.channels.filter(c=>c.enabled).map(c=>c.artistId)));
+if(!socialAccounts) throw new Error("Social account registry failed validation");
+await mkdir(resolve("public/data/status"), {recursive:true});
+for(const platform of ["youtube","instagram","tiktok"]) {
+  const statusRaw=await readFile(resolve(`data/status/${platform}.json`),"utf8");
+  const status=parseSyncStatus(JSON.parse(statusRaw));
+  if(!status || status.sources.some(s=>s.platform!==platform || !config.channels.some(c=>c.enabled&&c.artistId===s.artistId))) throw new Error(`${platform}: invalid status`);
+  await writeFile(resolve(`public/data/status/${platform}.json`),statusRaw);
+  if(platform==="youtube") continue;
+  const raw=JSON.parse(await readFile(resolve(`data/social/${platform}/items.json`),"utf8"));
+  const snapshot=parseSocialSnapshot(raw,platform,socialAccounts);
+  if(!snapshot) throw new Error(`${platform}: social snapshot failed publication validation`);
+  await mkdir(resolve(`public/data/social/${platform}`),{recursive:true});
+  // Deleted media metadata is not republished; stored bookmarks remain as local IDs.
+  await writeFile(resolve(`public/data/social/${platform}/items.json`),JSON.stringify({...snapshot,items:snapshot.items.filter(i=>i.availabilityStatus!=="deleted")},null,2)+"\n");
+}
 
 const rosterIds = new Set(config.channels.filter((item) => item.enabled).map((item) => item.artistId));
 const calendar = parseSnapshot(JSON.parse(await readFile(resolve("data/calendar/events.json"), "utf8")), rosterIds);

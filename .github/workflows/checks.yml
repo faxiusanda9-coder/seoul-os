@@ -1,0 +1,29 @@
+name: Verify application
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+    paths:
+      - src/**
+      - scripts/**
+      - tests/**
+      - data/schemas/**
+      - data/social/**
+      - package*.json
+      - .github/workflows/checks.yml
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+          cache: npm
+      - run: npm ci
+      - run: node --test tests/*.test.mjs
+      - run: npm run build

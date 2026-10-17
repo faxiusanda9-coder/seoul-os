@@ -1,0 +1,20 @@
+name: Monitor source freshness
+on:
+  schedule:
+    # After the morning/evening source jobs. No requests to social platforms.
+    - cron: "45 1,13 * * *"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+      - run: npm run monitor:freshness

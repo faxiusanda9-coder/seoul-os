@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "platform": "instagram",
+  "items": [
+    {
+      "id": "ig-DYtXsHuPvZ0",
+      "artistId": "twice",
+      "platform": "instagram",
+      "contentType": "reels",
+      "title": null,
+      "description": null,
+      "thumbnail": null,
+      "publishedAt": null,
+      "sourceUrl": "https://www.instagram.com/reel/DYtXsHuPvZ0/",
+      "embedUrl": "https://www.instagram.com/reel/DYtXsHuPvZ0/embed/",
+      "officialAccountUrl": "https://www.instagram.com/twicetagram/",
+      "verificationStatus": "manual-verified",
+      "acquisitionMethod": "manual-verified",
+      "fetchedAt": "2026-10-17T14:44:42.529Z",
+      "lastValidatedAt": "2026-10-17T14:44:42.529Z",
+      "availabilityStatus": "available",
+      "evidenceUrl": "https://www.instagram.com/reel/DYtXsHuPvZ0/embed/",
+      "evidenceNote": "本次人工研究读取原平台官方 embed，UsernameText=twicetagram；账号由 JYP 官方目录交叉核实。历史链接样本，不代表最新动态。未从未确认的时间或转载标题推断元数据。",
+      "reviewedBy": "Codex source audit 2026-10-17"
+    },
+    {
+      "id": "ig-CNfZNyLLFQC",
+      "artistId": "twice",
+      "platform": "instagram",
+      "contentType": "post",
+      "title": null,
+      "description": null,
+      "thumbnail": null,
+      "publishedAt": null,
+      "sourceUrl": "https://www.instagram.com/p/CNfZNyLLFQC/",
+      "embedUrl": "https://www.instagram.com/p/CNfZNyLLFQC/embed/",
+      "officialAccountUrl": "https://www.instagram.com/twicetagram/",
+      "verificationStatus": "manual-verified",
+      "acquisitionMethod": "manual-verified",
+      "fetchedAt": "2026-10-17T14:44:42.529Z",
+      "lastValidatedAt": "2026-10-17T14:44:42.529Z",
+      "availabilityStatus": "available",
+      "evidenceUrl": "https://www.instagram.com/p/CNfZNyLLFQC/embed/",
+      "evidenceNote": "本次人工研究读取原平台官方 embed，UsernameText=twicetagram；账号由 JYP 官方目录交叉核实。历史链接样本，不代表最新动态。未从未确认的时间或转载标题推断元数据。",
+      "reviewedBy": "Codex source audit 2026-10-17"
+    }
+  ]
+}

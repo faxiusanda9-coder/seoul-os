@@ -13,6 +13,7 @@ import { ArtistPhotoCredit } from "../components/ArtistPhotoCredit";
 import { FeedCard } from "../components/FeedCard";
 import { NotFoundPage } from "./NotFoundPage";
 import { artistDescription, useI18n } from "../locales/i18n";
+import { SourceFreshness } from "../components/SourceFreshness";
 
 export function ArtistDetailPage() {
   const { getChannel, loadChannel } = useContent();
@@ -65,6 +66,7 @@ export function ArtistDetailPage() {
             </a>
           </div>
           <p className="tiny-note">{t(artistVisuals[artist.id]?.imageLicenseStatus === "licensed" ? "artists.photoVisualNote" : "artists.detailVisualNote")}</p>
+          <Link className="outline-button" to={`/media?artist=${artist.id}`}>{t("media.openCenter")} <ArrowUpRight size={16}/></Link>
         </div>
       </div>
       <section className="content-section">
@@ -87,6 +89,7 @@ export function ArtistDetailPage() {
           </div>
         </div>
         <div className="feed-list">
+          <SourceFreshness artistId={artist.id} platform="youtube" snapshotAt={syncedAt}/>
           {feed
             .filter((item) => item.artistId === artist.id)
             .map((item) => (
