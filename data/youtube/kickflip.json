@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUmq9jjpHA69PwAwlA0DwOsg",
   "artistId": "kickflip",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-17T12:24:20.266Z",
+  "fetchedAt": "2026-10-18T00:29:12.036Z",
   "items": [
+    {
+      "id": "yt-UlSoXteNKmY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "UlSoXteNKmY",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "KICK OFF THE WALL Pt. 1 3rd WIN 🏆",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/UlSoXteNKmY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/UlSoXteNKmY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/UlSoXteNKmY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/UlSoXteNKmY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/UlSoXteNKmY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/UlSoXteNKmY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-17T12:30:03.000Z",
+      "url": "https://www.youtube.com/watch?v=UlSoXteNKmY",
+      "fetchedAt": "2026-10-18T00:29:12.036Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-18T00:29:12.036Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-o00b-7Xc12E",
       "source": {
@@ -2944,73 +3004,6 @@
       ],
       "publishedAt": "2026-10-08T11:02:08.000Z",
       "url": "https://www.youtube.com/watch?v=sqDFouPgLiE",
-      "fetchedAt": "2026-10-14T16:52:38.117Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.117Z",
-      "type": "performance",
-      "category": "music",
-      "subcategory": "performance-video",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.91,
-        "ruleId": "music-performance"
-      }
-    },
-    {
-      "id": "yt-Jw5GmMqVI_c",
-      "source": {
-        "platform": "youtube",
-        "videoId": "Jw5GmMqVI_c",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "KickFlip(킥플립) “미완성(Puzzle Piece)” Dance Practice Video",
-      "description": "#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1 #미완성 #Puzzle_Piece",
-      "thumbnail": "https://i.ytimg.com/vi/Jw5GmMqVI_c/fhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/Jw5GmMqVI_c/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/Jw5GmMqVI_c/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/Jw5GmMqVI_c/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/Jw5GmMqVI_c/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/Jw5GmMqVI_c/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "fhd",
-          "url": "https://i.ytimg.com/vi/Jw5GmMqVI_c/fhddefault.jpg",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "publishedAt": "2026-10-08T11:00:32.000Z",
-      "url": "https://www.youtube.com/watch?v=Jw5GmMqVI_c",
       "fetchedAt": "2026-10-14T16:52:38.117Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:38.117Z",
