@@ -226,7 +226,9 @@ export function SocialCard({ item }: { item: SocialContent }) {
         {t(
           item.acquisitionMethod === "api"
             ? "discovery.apiContent"
-            : "media.manual",
+            : item.acquisitionMethod === "third-party-api"
+              ? "brightdata.content"
+              : "media.manual",
         )}
       </p>
       {item.description && <p>{item.description}</p>}
@@ -308,8 +310,22 @@ export function SocialCard({ item }: { item: SocialContent }) {
       <details className="social-evidence">
         <summary>{t("media.evidence")}</summary>
         <p>{item.evidenceNote}</p>
+        {item.thirdPartyEvidence && (
+          <p className="tiny-note">
+            {t("brightdata.evidence", {
+              id: item.thirdPartyEvidence.videoId,
+              author: item.thirdPartyEvidence.authorHandle,
+            })}
+          </p>
+        )}
         <p>
-          {t("media.reviewed")}{" "}
+          {t(
+            item.acquisitionMethod === "third-party-api"
+              ? "brightdata.authorChecked"
+              : item.acquisitionMethod === "api"
+                ? "brightdata.officialChecked"
+                : "media.reviewed",
+          )}{" "}
           {new Intl.DateTimeFormat(locale, {
             timeZone: "Asia/Shanghai",
             dateStyle: "medium",

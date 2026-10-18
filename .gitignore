@@ -9,3 +9,4 @@ dist
 /public/data/
 /test-results/
 /data/calendar/ticketmaster-candidates.json
+/data/usage/*.lock

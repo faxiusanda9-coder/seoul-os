@@ -2,6 +2,8 @@ import { execFileSync } from "node:child_process";
 import { resolve } from "node:path";
 import { pathToFileURL } from "node:url";
 const scopes = {
+  'brightdata-budget': ['data/usage/brightdata-tiktok.json'],
+  'brightdata': ['data/social/tiktok/items.json', 'data/status/brightdata-tiktok.json'],
   social: [
     "data/social/instagram/items.json",
     "data/social/tiktok/items.json",
@@ -33,7 +35,11 @@ export function pushSyncChanges({
     "-m",
     scope === "youtube"
       ? "data: sync independent official YouTube channels"
-      : "data: sync official social content and discovery status",
+      : scope === 'brightdata-budget'
+        ? 'data: reserve Bright Data free record budget before request'
+        : scope === 'brightdata'
+          ? 'data: sync third-party TikTok metadata and budget status'
+          : "data: sync official social content and discovery status",
   ]);
   for (let n = 0; n < 3; n++) {
     try {

@@ -7,6 +7,7 @@ import { parseSocialAccounts, parseSocialSnapshot } from "../data/schemas/social
 import { parseSyncStatus } from "../data/schemas/sync-status.schema.ts";
 import { parseDiscoveryStatus } from "../data/schemas/social-discovery.schema.ts";
 import { expireApiMetadata } from "./social-sync/retention.mjs";
+import { parseBrightDataStatus } from "../data/schemas/brightdata.schema.ts";
 
 const publicRoot = resolve("public");
 const targetDir = resolve("public/data/youtube");
@@ -50,6 +51,9 @@ if(!socialAccounts) throw new Error("Social account registry failed validation")
 const discoveryRaw = await readFile(resolve("data/status/social-discovery.json"),"utf8");
 if (!parseDiscoveryStatus(JSON.parse(discoveryRaw),socialAccounts)) throw new Error("Invalid social discovery status");
 await mkdir(resolve("public/data/status"), {recursive:true});
+const brightDataRaw=await readFile(resolve('data/status/brightdata-tiktok.json'),'utf8');
+if(!parseBrightDataStatus(JSON.parse(brightDataRaw),socialAccounts))throw new Error('Invalid Bright Data TikTok status');
+await writeFile(resolve('public/data/status/brightdata-tiktok.json'),brightDataRaw);
 await writeFile(resolve("public/data/status/social-discovery.json"),discoveryRaw);
 for(const platform of ["youtube","instagram","tiktok"]) {
   const statusRaw=await readFile(resolve(`data/status/${platform}.json`),"utf8");

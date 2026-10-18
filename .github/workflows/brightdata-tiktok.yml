@@ -1,0 +1,94 @@
+name: Check TikTok profiles via Bright Data
+on:
+  schedule:
+    # 08:00 and 20:00 Asia/Shanghai; scheduling may be delayed by GitHub.
+    - cron: "0 0,12 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: plan is offline; probe reads one ITZY record; sync updates metadata
+        type: choice
+        options: [plan, probe, sync]
+        default: plan
+permissions:
+  contents: write
+concurrency:
+  # Same lock as the official social adapter, independent from its schedule.
+  group: social-manifests
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    outputs:
+      changed: ${{ steps.changes.outputs.changed }}
+      failed: ${{ steps.collect.outcome == 'failure' }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+          cache: npm
+      - run: npm ci
+      # Validate before any potentially billable operation.
+      - run: node --test tests/*.test.mjs && npm run build
+      - name: Bounded third-party check with durable free-budget reservation
+        id: collect
+        continue-on-error: true
+        env:
+          REQUESTED_MODE: ${{ inputs.mode || 'sync' }}
+          BRIGHTDATA_API_TOKEN: ${{ secrets.BRIGHTDATA_API_TOKEN }}
+          BRIGHTDATA_TIKTOK_ENABLED: ${{ vars.BRIGHTDATA_TIKTOK_ENABLED }}
+          BRIGHTDATA_ZERO_COST_APPROVAL_JSON: ${{ secrets.BRIGHTDATA_ZERO_COST_APPROVAL_JSON }}
+        shell: bash
+        run: |
+          mode="$REQUESTED_MODE"
+          if [[ "$GITHUB_REF" != 'refs/heads/main' ]]; then mode=plan; fi
+          args=(--mode="$mode")
+          if [[ "$mode" == 'probe' ]]; then args+=(--artist=itzy --limit=1); fi
+          if [[ "$mode" != 'plan' ]]; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            args+=(--persist-git)
+          fi
+          mkdir -p test-results
+          node scripts/brightdata-tiktok/sync.mjs "${args[@]}" > test-results/brightdata-summary.json
+      - name: Upload sanitized check summary
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: brightdata-tiktok-summary
+          path: test-results/brightdata-summary.json
+          retention-days: 7
+      - name: Publish status and validated metadata only
+        id: changes
+        if: always() && github.ref == 'refs/heads/main'
+        shell: bash
+        run: |
+          if [[ -n "$(git status --porcelain -- data/social/tiktok/items.json data/status/brightdata-tiktok.json)" ]]; then
+            npm run test:social
+            npm run test:brightdata
+            npm run build
+            node scripts/push-sync-changes.mjs brightdata
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+          fi
+  deploy:
+    needs: sync
+    if: needs.sync.outputs.changed == 'true'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy.yml
+    with:
+      ref: main
+  report-failure:
+    needs: [sync, deploy]
+    if: always() && needs.sync.outputs.failed == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo '::error::Bright Data check stopped. Inspect the sanitized summary and free-budget status. No automatic paid fallback.'
+          exit 1

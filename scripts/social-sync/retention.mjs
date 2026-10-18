@@ -4,6 +4,12 @@ export const API_RETENTION_MS = 30 * 86400000;
 export function expireApiMetadata(snapshot, now) {
   let prunedCount = 0;
   const items = snapshot.items.flatMap((item) => {
+    if (item.thirdPartyEvidence && Date.parse(now)-Date.parse(item.thirdPartyEvidence.checkedAt)>=API_RETENTION_MS) {
+      prunedCount++;
+      if(item.acquisitionMethod === 'third-party-api') return [];
+      const {thirdPartyEvidence: _thirdParty, ...rest}=item;
+      item=rest;
+    }
     if (
       !item.apiEvidence ||
       Date.parse(now) - Date.parse(item.apiEvidence.checkedAt) <

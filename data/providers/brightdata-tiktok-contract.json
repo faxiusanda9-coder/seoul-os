@@ -1,0 +1,99 @@
+{
+  "checkedAt": "2026-10-18T08:39:23.841Z",
+  "catalogUrl": "https://docs.brightdata.com/scrapers/tiktok.com.json",
+  "catalogSha256": "d6282f77022f67d41dc2866d5e6634d84ea1b386f2d7d797a80f9f722f07561d",
+  "datasetId": "gd_lu702nij2f790tmv9h",
+  "name": "TikTok - Posts",
+  "discoveryMethod": "profile_url",
+  "inputs": [
+    {
+      "name": "url",
+      "required": true,
+      "type": "url"
+    },
+    {
+      "name": "num_of_posts",
+      "required": false,
+      "type": "number"
+    },
+    {
+      "name": "posts_to_not_include",
+      "required": false,
+      "type": "array"
+    },
+    {
+      "name": "start_date",
+      "required": false,
+      "type": "text"
+    },
+    {
+      "name": "end_date",
+      "required": false,
+      "type": "text"
+    },
+    {
+      "name": "what_to_collect",
+      "required": false,
+      "type": "text"
+    },
+    {
+      "name": "post_type",
+      "required": false,
+      "type": "text"
+    },
+    {
+      "name": "country",
+      "required": false,
+      "type": "text"
+    },
+    {
+      "name": "include_pinned_post",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "name": "sort_by",
+      "required": false,
+      "type": "text"
+    }
+  ],
+  "outputFields": [
+    {
+      "description": "Unique post link",
+      "name": "url",
+      "type": "url"
+    },
+    {
+      "description": "Identification for each post",
+      "name": "post_id",
+      "type": "text"
+    },
+    {
+      "description": "Post creation timestamp",
+      "name": "create_time",
+      "type": "date"
+    },
+    {
+      "description": "User's username",
+      "name": "profile_username",
+      "type": "text"
+    },
+    {
+      "description": "User's profile link",
+      "name": "profile_url",
+      "type": "url"
+    },
+    {
+      "description": "Type of post (video, image, text)",
+      "name": "post_type",
+      "type": "text"
+    },
+    {
+      "description": "Discovery input value",
+      "name": "discovery_input",
+      "type": "object"
+    }
+  ],
+  "liveResponseVerified": false,
+  "termsForPublicMetadataUse": "unconfirmed"
+}

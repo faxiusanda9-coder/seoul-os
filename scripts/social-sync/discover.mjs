@@ -71,6 +71,8 @@ export function mergeDiscovered(snapshot, incoming, account) {
         ? { ...old, apiEvidence: item.apiEvidence }
         : {
             ...old,
+            acquisitionMethod: "api",
+            verificationStatus: "api-verified",
             title: item.title,
             description: item.description,
             publishedAt: item.publishedAt,

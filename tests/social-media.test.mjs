@@ -460,10 +460,27 @@ test("production manifests contain only schema-valid distinct reviewed sources a
         JSON.stringify(i),
         /FixtureONLY|ACTUAL_SHORTCODE|exampleOnly/,
       );
-      assert.ok(["manual-verified", "api"].includes(i.acquisitionMethod));
+      assert.ok(
+        ["manual-verified", "api", "third-party-api"].includes(
+          i.acquisitionMethod,
+        ),
+      );
+      if (i.acquisitionMethod === "manual-verified") {
+        assert.equal(i.verificationStatus, "manual-verified");
+      }
       if (i.acquisitionMethod === "api") {
         assert.equal(i.verificationStatus, "api-verified");
         assert.ok(i.apiEvidence);
+      }
+      if (i.acquisitionMethod === "third-party-api") {
+        assert.equal(platform, "tiktok");
+        assert.equal(i.verificationStatus, "account-matched");
+        assert.equal(i.apiEvidence, undefined);
+        assert.equal(i.thirdPartyEvidence?.provider, "brightdata-tiktok-posts");
+        assert.equal(i.thirdPartyEvidence?.datasetId, "gd_lu702nij2f790tmv9h");
+        assert.equal(i.thirdPartyEvidence?.videoId, i.id.slice(3));
+        assert.equal(i.thirdPartyEvidence?.rawCreateTime, i.publishedAt);
+        assert.equal(i.thirdPartyEvidence?.checkedAt, i.lastValidatedAt);
       }
       if (platform === "tiktok")
         assert.equal(
