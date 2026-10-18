@@ -398,7 +398,7 @@
   "brightdata.schedule": "计划每日北京时间 08:00、20:00 检查；须先确认免费额度和数据使用条件。",
   "brightdata.success": "最近成功读取第三方数据",
   "brightdata.budget": "本月预留记录 / 严格月上限",
-  "brightdata.remaining": "已确认的剩余记录额度",
+  "brightdata.remaining": "项目剩余记录预算（预估）",
   "brightdata.confirmation": "零付费条件确认有效期",
   "brightdata.paid": "付费上限 / 实际账单",
   "brightdata.paidUnknown": "付费上限 $0；实际账单未通过 API 核实",

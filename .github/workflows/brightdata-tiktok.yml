@@ -31,7 +31,7 @@ jobs:
       actions: read # Download the selected probe artifact for manual reconciliation.
     runs-on: ubuntu-latest
     # Profile discovery can exceed two minutes; six bounded jobs run serially.
-    timeout-minutes: 75
+    timeout-minutes: 195
     outputs:
       changed: ${{ steps.changes.outputs.changed }}
       failed: ${{ steps.collect.outcome == 'failure' }}
