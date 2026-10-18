@@ -4,8 +4,128 @@
   "uploadsPlaylistId": "UU-o9yrZxu5Ru-DVGhnmeTug",
   "artistId": "nexz",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-18T00:29:12.036Z",
+  "fetchedAt": "2026-10-18T04:23:25.504Z",
   "items": [
+    {
+      "id": "yt-Ta41PG1qfYs",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Ta41PG1qfYs",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "모여봐요 NEX2Y ʚ♥ɞ | #YU",
+      "description": "NEXZ 1ST ASIA TOUR [SAUCIN' THE WORLD]\n2026.10.17-18 @ OLYMPIC HALL\n\n#NEXZ #YU\n#SAUCIN_THE_WORLD_IN_SEOUL\n#NEXZ_ASIA_TOUR\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
+      "thumbnail": "https://i.ytimg.com/vi/Ta41PG1qfYs/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Ta41PG1qfYs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Ta41PG1qfYs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Ta41PG1qfYs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Ta41PG1qfYs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Ta41PG1qfYs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-18T04:00:21.000Z",
+      "url": "https://www.youtube.com/watch?v=Ta41PG1qfYs",
+      "fetchedAt": "2026-10-18T04:23:25.504Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-18T04:23:25.504Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-Ho6XEJrssss",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Ho6XEJrssss",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "NEXT STEP: DAY2🥫 | #SOGEON #YUKI",
+      "description": "NEXZ 1ST ASIA TOUR [SAUCIN' THE WORLD]\n2026.10.17-18 @ OLYMPIC HALL\n\n#NEXZ #SOGEON #YUKI\n#SAUCIN_THE_WORLD_IN_SEOUL\n#NEXZ_ASIA_TOUR\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
+      "thumbnail": "https://i.ytimg.com/vi/Ho6XEJrssss/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Ho6XEJrssss/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Ho6XEJrssss/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Ho6XEJrssss/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Ho6XEJrssss/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Ho6XEJrssss/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-18T03:00:30.000Z",
+      "url": "https://www.youtube.com/watch?v=Ho6XEJrssss",
+      "fetchedAt": "2026-10-18T04:23:25.504Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-18T04:23:25.504Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-2KuVyHbFvy4",
       "source": {
@@ -2882,128 +3002,6 @@
       ],
       "publishedAt": "2026-10-05T12:00:16.000Z",
       "url": "https://www.youtube.com/watch?v=ADOiSmpvlNM",
-      "fetchedAt": "2026-10-14T16:52:39.086Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:39.086Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt-ftd8DYnJ2A8",
-      "source": {
-        "platform": "youtube",
-        "videoId": "ftd8DYnJ2A8",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "[NEXZ(넥스지) VLOG] LA VLOG | Ride the LA Vibe ⋰˚☆ 인앤아웃 버거 먹고 Hollywood에서 축구하고 스포(?)하며 즐기는 첫 LA ˙ .⁺ ˖♡",
-      "description": "[NEXZ(넥스지) VLOG] LA VLOG | Ride the LA Vibe ⋰˚☆ 인앤아웃 버거 먹고 Hollywood에서 축구하고 스포(?)하며 즐기는 첫 LA ˙ .⁺ ˖♡\n\nNEXZ Official Website: https://nexz.jype.com\nNEXZ Official YouTube: https://www.youtube.com/@NEXZ_official\nNEXZ Official Facebook: https://www.facebook.com/realnexz\nNEXZ Official",
-      "thumbnail": "https://i.ytimg.com/vi/ftd8DYnJ2A8/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/ftd8DYnJ2A8/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/ftd8DYnJ2A8/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/ftd8DYnJ2A8/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/ftd8DYnJ2A8/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/ftd8DYnJ2A8/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-05T11:00:10.000Z",
-      "url": "https://www.youtube.com/watch?v=ftd8DYnJ2A8",
-      "fetchedAt": "2026-10-14T16:52:39.086Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:39.086Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt--_I3TGT1oSU",
-      "source": {
-        "platform": "youtube",
-        "videoId": "-_I3TGT1oSU",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "Hands up, Yo! Challenge with #TETSUYA さん #世界 さん (#EXILE) | #TOMOYA #YU #YUKI",
-      "description": "#NEXZ #TOMOYA\n#YU #YUKI\n#Handsup_Yo\n#Hellmate #NEXZ_Hellmate\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
-      "thumbnail": "https://i.ytimg.com/vi/-_I3TGT1oSU/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/-_I3TGT1oSU/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/-_I3TGT1oSU/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/-_I3TGT1oSU/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/-_I3TGT1oSU/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/-_I3TGT1oSU/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-05T09:00:07.000Z",
-      "url": "https://www.youtube.com/watch?v=-_I3TGT1oSU",
       "fetchedAt": "2026-10-14T16:52:39.086Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:39.086Z",
