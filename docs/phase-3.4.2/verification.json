@@ -1,0 +1,50 @@
+{
+  "checkedAt": "2026-10-18T16:59:21.728Z",
+  "baseline": "adcbb620315e4e5b557faf798d832286a5b758cb",
+  "previous113SuiteRerunLocally": false,
+  "newlyAddedValidation": {
+    "phase342NewTests": 8,
+    "provenanceTest": 1,
+    "controlledDataOnly": true
+  },
+  "changedWorkflowActionlint": "passed; ShellCheck/pyflakes not run",
+  "productionBuildRerun": false,
+  "browserTestsRerun": false,
+  "tiktokUniqueIds": 80,
+  "protectedPathsUnchanged": [
+    "data/social",
+    "data/status",
+    "data/usage",
+    "data/youtube",
+    "data/calendar",
+    "src",
+    ".github/workflows/youtube-sync.yml",
+    ".github/workflows/social-sync.yml",
+    ".github/workflows/calendar-sync.yml",
+    ".github/workflows/deploy.yml"
+  ],
+  "productionState": [
+    {
+      "path": "data/social/tiktok/items.json",
+      "sha256": "3e3eec2fc0dcf3e553a03056e949c2080248ad6de122cd3a5b32868e1defc27e"
+    },
+    {
+      "path": "data/status/brightdata-tiktok.json",
+      "sha256": "c5504e4b39708a11d2e08ccac213f0787516ceec6c59e3499de1abe560256aa7"
+    },
+    {
+      "path": "data/usage/brightdata-tiktok.json",
+      "sha256": "6eebfd53f76241a99cae27d28f9f719985dd0e01a417b02eb2d490ffa46b7913"
+    }
+  ],
+  "realBrightDataRequests": 0,
+  "realSecretsReadOrConfigured": false,
+  "productionDeployed": false,
+  "pullRequestMerged": false,
+  "scheduledCollectionEnabled": false,
+  "accountingModel": "V2 separates credits, balance, cash and recharge; legacy V1 unchanged",
+  "soleMissingCostCondition": "Provider-backed free-only guarantee for scoped request: bounded credit debit; no balance debit, cash charge or recharge",
+  "billingVerified": false,
+  "actualCreditChange": null,
+  "actualCashSpendUsd": null
+}

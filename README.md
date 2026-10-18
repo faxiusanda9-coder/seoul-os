@@ -10,6 +10,8 @@ Instagram 播放排查与当前限制见 [Phase 3.1.1 修复报告](docs/phase-3
 
 ## 本地运行
 
+**Bright Data 当前开通流程见 [Phase 3.4.2 操作指南](docs/phase-3.4.2/operations.md)**：默认关闭，先安全审查合并/发布，再 ITZY 单条 probe，最后使用不发采集请求的 reconcile 核对实际额度/账单。$2 Balance 与实际现金支出分开，不伪填为 0。单次授权不会自动启用定时。
+
 需要 Node.js 24+ 和 npm。同步脚本使用 Node 的 TypeScript 类型剥离功能读取共享 schema。
 
 ```bash

@@ -2,6 +2,7 @@ import { createHash, randomUUID } from "node:crypto";
 import { isInstant } from "../../data/schemas/social.schema.ts";
 import {
   BRIGHTDATA_MONTHLY_LIMIT,
+  BRIGHTDATA_DATASET,
   recordCount,
 } from "../../data/schemas/brightdata.schema.ts";
 
@@ -55,7 +56,16 @@ export function parseLedger(raw) {
         (recordCount(r.recordCount) && r.recordCount <= r.limit)
       ) ||
       (r.state === "complete" &&
-        (!r.snapshotId || !r.completedAt || r.recordCount === null))
+        (!r.snapshotId || !r.completedAt || r.recordCount === null)) ||
+      (r.creditLimit !== undefined &&
+        (!Number.isFinite(r.creditLimit) ||
+          r.creditLimit <= 0 ||
+          !["itzy-probe-once", "scheduled-free-only"].includes(r.purpose))) ||
+      (r.purpose !== undefined && r.creditLimit === undefined) ||
+      (r.purpose === "itzy-probe-once" &&
+        (r.artistId !== "itzy" ||
+          r.limit !== 1 ||
+          !r.slot.startsWith("probe:")))
     )
       throw new BrightDataError("INVALID_BUDGET_LEDGER");
     ids.add(r.id);
@@ -74,7 +84,13 @@ export function reservedThisMonth(ledger, month) {
     .filter((r) => r.month === month)
     .reduce((n, r) => n + r.limit, 0);
 }
-export function checkPermissionAndBudget(env, ledger, now, requested) {
+export function checkPermissionAndBudget(
+  env,
+  ledger,
+  now,
+  requested,
+  context = {},
+) {
   if (!env.BRIGHT_DATA_API_KEY?.trim())
     throw new BrightDataError("BRIGHTDATA_TOKEN_MISSING");
   if (env.BRIGHTDATA_TIKTOK_ENABLED !== "true")
@@ -85,6 +101,8 @@ export function checkPermissionAndBudget(env, ledger, now, requested) {
   } catch {
     throw new BrightDataError("ZERO_COST_APPROVAL_MISSING");
   }
+  if (p?.schemaVersion === 2)
+    return checkScopedFreeOnly(p, ledger, now, requested, context);
   const month = now.slice(0, 7),
     used = reservedThisMonth(ledger, month);
   const monthEnd = Date.UTC(
@@ -127,6 +145,14 @@ export function checkPermissionAndBudget(env, ledger, now, requested) {
     throw new BrightDataError("BUDGET_ACCOUNT_MISMATCH");
   if (ledger.reservations.some((r) => r.state === "reserved"))
     throw new BrightDataError("UNRESOLVED_PROVIDER_JOB");
+  if (
+    context.mode === "probe" &&
+    requested > 0 &&
+    ledger.reservations.some(
+      (r) => r.artistId === "itzy" && r.slot.startsWith("probe:"),
+    )
+  )
+    throw new BrightDataError("PROBE_ALREADY_RESERVED");
   const remaining = Math.min(
     BRIGHTDATA_MONTHLY_LIMIT - used,
     p.freeCreditsRemaining - (used - p.baselineReservedRecords),
@@ -135,7 +161,137 @@ export function checkPermissionAndBudget(env, ledger, now, requested) {
     throw new BrightDataError("FREE_RECORD_BUDGET_EXHAUSTED");
   return { month, used, remaining, fingerprint, expiresAt: p.expiresAt };
 }
-export function reserve(ledger, account, slot, limit, now, fingerprint) {
+
+const amount = (x) => x === null || (Number.isFinite(x) && x >= 0);
+export function reservedCredits(ledger, month) {
+  return ledger.reservations
+    .filter((r) => r.month === month)
+    .reduce((n, r) => n + (r.creditLimit ?? 0), 0);
+}
+function checkScopedFreeOnly(p, ledger, now, requested, context) {
+  const a = p.authorization,
+    f = p.freeCredits,
+    b = p.balance;
+  const month = now.slice(0, 7),
+    used = reservedThisMonth(ledger, month);
+  const credits = reservedCredits(ledger, month);
+  const legacy = ledger.reservations
+    .filter((r) => r.month === month && r.creditLimit === undefined)
+    .reduce((n, r) => n + r.limit, 0);
+  const monthEnd = Date.UTC(
+    Number(month.slice(0, 4)),
+    Number(month.slice(5, 7)),
+    1,
+  );
+  if (
+    p.month !== month ||
+    !isInstant(p.confirmedAt) ||
+    !isInstant(p.expiresAt) ||
+    Date.parse(p.confirmedAt) > Date.parse(now) ||
+    Date.parse(p.expiresAt) <= Date.parse(now) ||
+    (requested > 0 && Date.parse(p.expiresAt) < Date.parse(now) + 120000) ||
+    Date.parse(p.expiresAt) > monthEnd ||
+    !recordCount(requested) ||
+    typeof p.accountRef !== "string" ||
+    !p.accountRef.trim() ||
+    p.accountExclusive !== true ||
+    p.publicMetadataUseApproved !== true ||
+    typeof p.permissionEvidenceRef !== "string" ||
+    !p.permissionEvidenceRef.trim() ||
+    !recordCount(f?.remaining) ||
+    !recordCount(f?.total) ||
+    f.remaining > f.total ||
+    f.unit !== "credits" ||
+    !amount(b?.amountUsd) ||
+    !["unknown", "bonus", "deposited"].includes(b?.kind) ||
+    !amount(p.cashSpend?.amountUsd) ||
+    ![null, false].includes(p.autoRecharge) ||
+    !["none-reported", "none-confirmed", "unknown", "present"].includes(
+      p.paymentMethod,
+    ) ||
+    !Number.isFinite(p.baselineReservedCredits) ||
+    p.baselineReservedCredits < 0 ||
+    p.baselineReservedCredits > credits ||
+    !recordCount(p.baselineLegacyReservedRecords) ||
+    p.baselineLegacyReservedRecords !== legacy ||
+    p.paidSpendLimitUsd !== 0
+  )
+    throw new BrightDataError("INVALID_SCOPED_ZERO_COST_APPROVAL");
+  // Balance and cash observations are independent. Unknown origin is retained,
+  // not converted to zero. Only a scoped provider-backed free-only guarantee authorizes spending.
+  if (
+    a?.approved !== true ||
+    a.datasetId !== BRIGHTDATA_DATASET ||
+    !["itzy-probe-once", "scheduled-free-only"].includes(a.scope) ||
+    typeof a.evidenceRef !== "string" ||
+    !a.evidenceRef.trim() ||
+    a.freeOnlyHardStopConfirmed !== true ||
+    a.noBalanceDebitConfirmed !== true ||
+    a.noCashChargeConfirmed !== true ||
+    a.noAutomaticRechargeConfirmed !== true ||
+    !Number.isFinite(a.maxCreditsPerRecord) ||
+    a.maxCreditsPerRecord <= 0
+  )
+    throw new BrightDataError("FREE_ONLY_GUARANTEE_MISSING");
+  if (a.scope === "itzy-probe-once") {
+    if (
+      context.mode !== "probe" ||
+      context.artist !== "itzy" ||
+      context.limit !== 1 ||
+      requested > 1
+    )
+      throw new BrightDataError("ZERO_COST_SCOPE_MISMATCH");
+  } else if (context.mode !== "sync" || p.autoRecharge !== false)
+    throw new BrightDataError("SCHEDULE_ZERO_COST_APPROVAL_REQUIRED");
+  const fingerprint = createHash("sha256").update(p.accountRef).digest("hex");
+  if (ledger.accountFingerprint && ledger.accountFingerprint !== fingerprint)
+    throw new BrightDataError("BUDGET_ACCOUNT_MISMATCH");
+  if (ledger.reservations.some((r) => r.state === "reserved"))
+    throw new BrightDataError("UNRESOLVED_PROVIDER_JOB");
+  if (
+    a.scope === "itzy-probe-once" &&
+    requested > 0 &&
+    ledger.reservations.some(
+      (r) => r.artistId === "itzy" && r.slot.startsWith("probe:"),
+    )
+  )
+    throw new BrightDataError("PROBE_ALREADY_RESERVED");
+  const remainingCredits = f.remaining - (credits - p.baselineReservedCredits);
+  const remaining = Math.min(
+    BRIGHTDATA_MONTHLY_LIMIT - used,
+    Math.floor(remainingCredits / a.maxCreditsPerRecord),
+  );
+  if (remaining < requested)
+    throw new BrightDataError("FREE_RECORD_BUDGET_EXHAUSTED");
+  return {
+    month,
+    used,
+    remaining,
+    fingerprint,
+    expiresAt: p.expiresAt,
+    purpose: a.scope,
+    creditsPerRecord: a.maxCreditsPerRecord,
+    observation: {
+      freeCredits: { remaining: f.remaining, total: f.total, unit: f.unit },
+      balance: { amountUsd: b.amountUsd, kind: b.kind },
+      cashSpend: { amountUsd: p.cashSpend.amountUsd },
+      paymentMethod: p.paymentMethod,
+      autoRecharge: p.autoRecharge,
+      source: "maintainer-reported",
+      observedAt: p.confirmedAt,
+    },
+  };
+}
+
+export function reserve(
+  ledger,
+  account,
+  slot,
+  limit,
+  now,
+  fingerprint,
+  authorization = null,
+) {
   if (
     ledger.reservations.some(
       (r) => r.artistId === account.artistId && r.slot === slot,
@@ -159,6 +315,12 @@ export function reserve(ledger, account, slot, limit, now, fingerprint) {
     recordCount: null,
     createdAt: now,
     completedAt: null,
+    ...(authorization?.purpose
+      ? {
+          purpose: authorization.purpose,
+          creditLimit: limit * authorization.creditsPerRecord,
+        }
+      : {}),
   };
   ledger.reservations.push(reservation);
   parseLedger(ledger);

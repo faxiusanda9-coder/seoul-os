@@ -19,6 +19,7 @@ import {
   safeBrightDataError,
   parseLedger,
   reservedThisMonth,
+  reservedCredits,
   checkPermissionAndBudget,
   reserve,
   checkSlot,
@@ -81,6 +82,7 @@ export async function syncBrightData({
   slot,
 } = {}) {
   const now = clock();
+  const permissionContext = { mode, artist, limit };
   if (
     !["plan", "probe", "sync"].includes(mode) ||
     !isInstant(now) ||
@@ -164,6 +166,10 @@ export async function syncBrightData({
       source: "local-mirror",
       authoritative: false,
       reservedRecords: used,
+      reservedCredits: reservedCredits(ledger, month),
+      legacyReservedRecords: ledger.reservations
+        .filter((r) => r.month === month && r.creditLimit === undefined)
+        .reduce((n, r) => n + r.limit, 0),
       deliveredRecords: ledger.reservations
         .filter((r) => r.month === month)
         .reduce((n, r) => n + (r.recordCount ?? 0), 0),
@@ -231,6 +237,7 @@ export async function syncBrightData({
         ledger,
         now,
         unreserved.length * limit,
+        permissionContext,
       );
     } catch (e) {
       stop = safeBrightDataError(e);
@@ -269,7 +276,23 @@ export async function syncBrightData({
       });
       let reservation;
       try {
-        permission = checkPermissionAndBudget(env, ledger, attempt, limit);
+        permission = checkPermissionAndBudget(
+          env,
+          ledger,
+          attempt,
+          limit,
+          permissionContext,
+        );
+        if (permission.observation)
+          summary.accounting = {
+            before: permission.observation,
+            after: null,
+            actualCreditChange: null,
+            actualBalanceChangeUsd: null,
+            actualCashSpendUsd: null,
+            billingVerified: false,
+            status: "awaiting-account-reconciliation",
+          };
         reservation = reserve(
           ledger,
           account,
@@ -277,7 +300,10 @@ export async function syncBrightData({
           limit,
           attempt,
           permission.fingerprint,
+          permission,
         );
+        if (summary.accounting)
+          summary.accounting.probeReservedCredits = reservation.creditLimit;
         // Durable reservation MUST complete (including remote Git push in CI)
         // before the billable POST. Failed/ambiguous jobs never refund credits.
         await persist();
@@ -394,11 +420,22 @@ export async function syncBrightData({
       );
     }
     try {
-      permission = checkPermissionAndBudget(env, ledger, clock(), 0);
+      permission = checkPermissionAndBudget(
+        env,
+        ledger,
+        clock(),
+        0,
+        permissionContext,
+      );
     } catch {
       permission = null;
     }
     updateBudget(permission);
+    if (summary.accounting)
+      summary.accounting.reservedCredits = reservedCredits(
+        ledger,
+        now.slice(0, 7),
+      );
     if (mode === "sync") {
       if (!parseBrightDataStatus(status, accounts))
         throw new BrightDataError("INVALID_GENERATED_BRIGHTDATA_STATUS");
@@ -466,6 +503,13 @@ if (
           })
         : undefined,
     });
+    if (process.env.GITHUB_ACTIONS === "true")
+      result.executionContext = {
+        runId: process.env.GITHUB_RUN_ID,
+        eventName: process.env.GITHUB_EVENT_NAME,
+        ref: process.env.GITHUB_REF,
+        workflowRef: process.env.GITHUB_WORKFLOW_REF,
+      };
     console.log(JSON.stringify(result, null, 2));
     if (
       mode !== "plan" &&

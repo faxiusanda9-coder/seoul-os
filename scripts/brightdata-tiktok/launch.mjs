@@ -46,12 +46,19 @@ export function selectLaunch({
   if (!["schedule", "workflow_dispatch"].includes(event))
     return stopped("plan", "UNSUPPORTED_EVENT", "此事件不能启动采集。");
   const mode = event === "schedule" ? "sync" : requestedMode;
-  if (!["plan", "probe", "sync"].includes(mode))
+  if (!["plan", "probe", "sync", "reconcile"].includes(mode))
     return stopped("plan", "INVALID_MODE", "未知运行模式，未执行采集。");
   if (mode === "plan")
     return { execute: true, mode, reason: null, message: "仅生成离线计划。" };
   if (!defaultBranch || ref !== `refs/heads/${defaultBranch}`)
     return stopped(mode, "DEFAULT_BRANCH_REQUIRED", "真实采集仅允许默认分支。");
+  if (mode === "reconcile")
+    return {
+      execute: true,
+      mode,
+      reason: null,
+      message: "仅核对已有 probe 及维护者提供的账单观察，不请求 Bright Data。",
+    };
   if (mode === "sync" && scheduleEnabled !== "true")
     return stopped(mode, "SCHEDULE_NOT_ENABLED", "定时采集尚未启用。");
   return {

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 2,
+  "month": "YYYY-MM",
+  "confirmedAt": "REPLACE_WITH_REVIEW_TIME_ISO",
+  "expiresAt": "REPLACE_WITH_SCOPE_EXPIRY_ISO",
+  "accountRef": "REPLACE_WITH_PRIVATE_STABLE_ACCOUNT_REFERENCE",
+  "accountExclusive": false,
+  "publicMetadataUseApproved": false,
+  "permissionEvidenceRef": "",
+  "freeCredits": { "remaining": 3441, "total": 5000, "unit": "credits" },
+  "balance": { "amountUsd": 2, "kind": "unknown" },
+  "cashSpend": { "amountUsd": null },
+  "paymentMethod": "none-reported",
+  "autoRecharge": null,
+  "paidSpendLimitUsd": 0,
+  "baselineReservedCredits": 0,
+  "baselineLegacyReservedRecords": 0,
+  "authorization": {
+    "approved": false,
+    "scope": "itzy-probe-once",
+    "datasetId": "gd_lu702nij2f790tmv9h",
+    "maxCreditsPerRecord": null,
+    "evidenceRef": "",
+    "freeOnlyHardStopConfirmed": false,
+    "noBalanceDebitConfirmed": false,
+    "noCashChargeConfirmed": false,
+    "noAutomaticRechargeConfirmed": false
+  }
+}
