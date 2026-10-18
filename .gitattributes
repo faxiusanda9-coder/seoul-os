@@ -1,2 +1,5 @@
 * text=auto eol=lf
 *.png binary
+# Preserve imported audit reports byte-for-byte, including their original EOF.
+docs/phase-3.4/original-local-import-report.md -text whitespace=-blank-at-eof,cr-at-eol
+docs/phase-3.4/original-local-import-report.json -text whitespace=cr-at-eol
