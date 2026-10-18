@@ -4,9 +4,13 @@
 
 Instagram 播放排查与当前限制见 [Phase 3.1.1 修复报告](docs/phase-3.1.1-playback-repair.md)：已修复错误阻断与重试，目标 ITZY Reel 的官方嵌入仍仅提供封面，未恢复实际视频播放。
 
-**Phase 3.2：已实现 Instagram Business Discovery / TikTok Display API 适配器及北京时间每日 08:00、12:00、20:00 调度配置，当前缺少平台授权，真实开通账号为 0。** 本地清单校验与远程发现成功时间分开记录。见 [实施与验收](docs/phase-3.2-acceptance.md)、[应用、权限和 Secrets 配置](docs/phase-3.2-setup.md)。开发分支尚未合并，不能据此认定线上已开启自动发现。
+**Phase 3.2：已实现 Instagram Business Discovery / TikTok Display API 适配器及北京时间每日 08:00、12:00、20:00 调度配置，当前缺少平台授权，真实开通账号为 0。** 本地清单校验与远程发现成功时间分开记录。见 [实施与验收](docs/phase-3.2-acceptance.md)、[应用、权限和 Secrets 配置](docs/phase-3.2-setup.md)。PR #2 已合并发布，配置发布不代表已获得平台授权。
+
+**Phase 3.4.1 Bright Data TikTok（开发分支，未上线）：** 保留 80 个唯一视频和原收藏 ID。六团采集为北京 08:00/20:00、每账号最多 8 条，内部月预留上限 4,000、额外付费上限 $0。新增独立变量 `BRIGHTDATA_TIKTOK_SCHEDULE_ENABLED`，缺失或非字符串 `true` 时停止同步，保持视频、预算和公开成功时间不变。流程改为：先在关闭采集时审查合并/发布 → 默认分支手动 ITZY 单条 probe → 实测、账单和许可核验并获批准后才开启定时。唯一实际采集密钥来源仍为 Actions Secret `BRIGHT_DATA_API_KEY`。本轮仅更新功能分支，不代表已合并、已连接 API 或已正式运行。见 [启动修复验收与开通步骤](docs/phase-3.4.1/acceptance.md)；历史导入证据见 [Phase 3.4](docs/phase-3.4/acceptance.md)。
 
 ## 本地运行
+
+**Bright Data 当前开通流程见 [Phase 3.4.2 操作指南](docs/phase-3.4.2/operations.md)**：默认关闭，先安全审查合并/发布，再 ITZY 单条 probe，最后使用不发采集请求的 reconcile 核对实际额度/账单。$2 Balance 与实际现金支出分开，不伪填为 0。单次授权不会自动启用定时。
 
 需要 Node.js 24+ 和 npm。同步脚本使用 Node 的 TypeScript 类型剥离功能读取共享 schema。
 
@@ -86,7 +90,7 @@ npm run calendar:pilot:youtube -- --channel=twice
 - Phase 3.1 实际清单：Instagram 78 条（47 视频、31 图片／轮播帖子），TikTok 35 条单条视频。18 条 Instagram 视频真实站内播放、29 条标记受限、31 条帖子确认站内显示；TikTok 35 条真实站内播放。Instagram 默认显示全部内容，可筛选视频／帖子。官方账号预览位于单条库下方，不计入清单；未确认的标题、缩略图、发布时间留空。
 - 视频播放器和 Instagram 官方 `embed.js`、TikTok 官方账号 `embed.js` 均需主动同意后加载。单条 TikTok 使用官方 `/player/v1/<id>`。失败时保留外链。Instagram/TikTok 收藏沿用 Archive 的 `Watch Later`，只存稳定 ID、艺人、分类，不缓存社交视频或全文。
 - `data/status/{youtube,instagram,tiktok}.json` 区分 `lastAttemptAt`、`lastSuccessAt`、`lastContentChangeAt`、本次新增/更新、条数及失败来源。YouTube 用 `mode=api`；社交平台当前用 `mode=manual-validation`，成功只意味着本地清单校验，不代表访问原平台或发现新内容。没有历史检查记录时显示“暂无记录”，不伪填历史成功时间。
-- Phase 3.2 的 `.github/workflows/social-sync.yml` 计划在北京时间 08:00、12:00、20:00 读取有条件授权的官方 API，并单独校验本地清单。`data/status/social-discovery.json` 记录真实远程发现状态；目前均为 not-configured。`freshness.yml` 在 09:45、13:45、21:45 检查应完成的自动发现窗口，本地清单校验仍单独监控。原 YouTube 三次计划、Calendar 两次计划保留；这些开发分支变更只有后续合并后才生效。
+- Phase 3.2 的 `.github/workflows/social-sync.yml` 计划在北京时间 08:00、12:00、20:00 读取有条件授权的官方 API，并单独校验本地清单。`data/status/social-discovery.json` 记录真实远程发现状态；目前均为 not-configured。`freshness.yml` 在 09:45、13:45、21:45 检查应完成的自动发现窗口，本地清单校验仍单独监控。原 YouTube 三次计划、Calendar 两次计划保留；配置已合并，但真正发现内容仍须平台授权。
 
 ```bash
 npm run sync:social          # 本地格式/来源校验，无网络抓取
@@ -95,11 +99,15 @@ npm run test:discovery
 npm run social:import -- --file=/path/to/reviewed-links.json --reviewer=MAINTAINER
 npm run monitor:freshness
 npm run test:social
+npm run sync:brightdata:tiktok -- --mode=plan # 纯离线第三方请求计划
+npm run test:brightdata
 ```
+
+Bright Data 的 plan 只读本地配置和预算镜像，不读取密钥/授权、不查询供应商或远端台账。报告中的本地剩余预留空间不是供应商免费额度；密钥、零付费证据及实际账单均保留为未检查。账户 Balance、无支付方式和免费额度不能自动启用采集，控制台确认清单见 [Phase 3.4.1 验收](docs/phase-3.4.1/acceptance.md#8-本次离线-plan-补充与账户确认清单)。
 
 人工导入的历史维护说明见 [Phase 3 实施与维护](docs/phase-3-official-media.md)；当前自动发现实现、限制和开通步骤以 [Phase 3.2 指南](docs/phase-3.2-setup.md) 为准。没有应用审批、授权令牌或可核实接口时，保留人工清单，不记录发现成功。
 
-逐艺人数量及历史播放证据见 [Phase 3.1 中文验收报告](docs/phase-3.1-acceptance.md)。当前 78 条 Instagram / 35 条 TikTok 清单仍为人工核验内容；本轮在开发分支及现有草稿 PR 增量实现，不合并、不发布生产。
+历史播放证据见 [Phase 3.1 中文验收报告](docs/phase-3.1-acceptance.md)。本地当前 Instagram 78 条；TikTok 80 条包含原 35 条人工记录与 45 条第三方新记录，来源分别标记。开发分支导入不代表线上已更新；维护者可按 Phase 3.4.1 指南在采集默认关闭时审查合并/发布，本轮没有执行合并或生产部署。
 
 ## 项目结构
 

@@ -1,0 +1,138 @@
+name: Check TikTok profiles via Bright Data
+on:
+  schedule:
+    # 08:00 and 20:00 Asia/Shanghai; scheduling may be delayed by GitHub.
+    - cron: "0 0,12 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: plan is offline; probe checks one ITZY record; sync requires separate schedule approval
+        type: choice
+        options: [plan, probe, reconcile, sync]
+        default: plan
+      probe_run_id:
+        description: For reconcile only, previous probe Actions run ID
+        type: string
+        default: ""
+      account_after_json:
+        description: For reconcile only, post-probe account observations; never credentials
+        type: string
+        default: ""
+permissions:
+  contents: read
+concurrency:
+  # Same lock as the official social adapter, independent from its schedule.
+  group: social-manifests
+  cancel-in-progress: false
+jobs:
+  sync:
+    permissions:
+      contents: write # Shared budget branch; only after all preconditions pass.
+      actions: read # Download the selected probe artifact for manual reconciliation.
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    outputs:
+      changed: ${{ steps.changes.outputs.changed }}
+      failed: ${{ steps.collect.outcome == 'failure' }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.ref }}
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+          cache: npm
+      # No secrets or data/ reads in this gate. Disabled schedule writes only an artifact.
+      - name: Select mode and enforce separate schedule approval
+        id: launch
+        env:
+          REQUESTED_MODE: ${{ inputs.mode || 'plan' }}
+          BRIGHTDATA_DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+          BRIGHTDATA_TIKTOK_SCHEDULE_ENABLED: ${{ vars.BRIGHTDATA_TIKTOK_SCHEDULE_ENABLED }}
+        run: node scripts/brightdata-tiktok/launch.mjs
+      - run: npm ci
+        if: steps.launch.outputs.execute == 'true' && steps.launch.outputs.mode != 'reconcile'
+      # Validate reviewed default-branch code before any potentially billable operation.
+      - run: node --test tests/*.test.mjs && npm run build
+        if: steps.launch.outputs.execute == 'true' && steps.launch.outputs.mode != 'reconcile'
+      - name: Offline plan without access to Bright Data secrets
+        if: steps.launch.outputs.execute == 'true' && steps.launch.outputs.mode == 'plan'
+        run: node scripts/brightdata-tiktok/sync.mjs --mode=plan > test-results/brightdata-summary.json
+      - name: Bounded third-party check with durable free-budget reservation
+        id: collect
+        if: steps.launch.outputs.execute == 'true' && steps.launch.outputs.mode != 'plan' && steps.launch.outputs.mode != 'reconcile'
+        continue-on-error: true
+        env:
+          REQUESTED_MODE: ${{ steps.launch.outputs.mode }}
+          BRIGHTDATA_DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+          BRIGHT_DATA_API_KEY: ${{ secrets.BRIGHT_DATA_API_KEY }}
+          BRIGHTDATA_TIKTOK_ENABLED: ${{ vars.BRIGHTDATA_TIKTOK_ENABLED }}
+          BRIGHTDATA_TIKTOK_SCHEDULE_ENABLED: ${{ vars.BRIGHTDATA_TIKTOK_SCHEDULE_ENABLED }}
+          BRIGHTDATA_ZERO_COST_APPROVAL_JSON: ${{ secrets.BRIGHTDATA_ZERO_COST_APPROVAL_JSON }}
+          BRIGHTDATA_BUDGET_INITIALIZE: ${{ vars.BRIGHTDATA_BUDGET_INITIALIZE }}
+        shell: bash
+        run: |
+          mode="$REQUESTED_MODE"
+          args=(--mode="$mode")
+          if [[ "$mode" == 'probe' ]]; then args+=(--artist=itzy --limit=1); fi
+          if [[ "$mode" != 'plan' ]]; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            args+=(--persist-git)
+          fi
+          mkdir -p test-results
+          node scripts/brightdata-tiktok/sync.mjs "${args[@]}" > test-results/brightdata-summary.json
+      - name: Download previous probe report, without Bright Data credentials
+        if: steps.launch.outputs.execute == 'true' && steps.launch.outputs.mode == 'reconcile'
+        uses: actions/download-artifact@v8
+        with:
+          name: brightdata-tiktok-summary
+          path: test-results/probe-input
+          run-id: ${{ inputs.probe_run_id }}
+          github-token: ${{ github.token }}
+      - name: Record actual account changes supplied by maintainer
+        if: steps.launch.outputs.execute == 'true' && steps.launch.outputs.mode == 'reconcile'
+        env:
+          ACCOUNT_AFTER_JSON: ${{ inputs.account_after_json }}
+          PROBE_RUN_ID: ${{ inputs.probe_run_id }}
+          BRIGHTDATA_DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: node scripts/brightdata-tiktok/reconcile.mjs
+      - name: Upload sanitized check summary
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: brightdata-tiktok-summary
+          path: test-results/brightdata-summary.json
+          retention-days: 7
+      - name: Publish status and validated metadata only
+        id: changes
+        if: ${{ !cancelled() && steps.launch.outputs.execute == 'true' && github.ref == format('refs/heads/{0}', github.event.repository.default_branch) && steps.launch.outputs.mode == 'sync' && (steps.collect.outcome == 'success' || steps.collect.outcome == 'failure') }}
+        shell: bash
+        run: |
+          if [[ -n "$(git status --porcelain -- data/social/tiktok/items.json data/status/brightdata-tiktok.json data/usage/brightdata-tiktok.json)" ]]; then
+            npm run test:social
+            npm run test:brightdata
+            npm run build
+            node scripts/push-sync-changes.mjs brightdata
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+          fi
+  deploy:
+    needs: sync
+    if: needs.sync.outputs.changed == 'true'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy.yml
+    with:
+      ref: main
+  report-failure:
+    needs: [sync, deploy]
+    if: always() && needs.sync.outputs.failed == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo '::error::Bright Data check stopped. Inspect the sanitized summary and free-budget status. No automatic paid fallback.'
+          exit 1

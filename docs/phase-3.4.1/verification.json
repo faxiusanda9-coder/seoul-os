@@ -1,0 +1,88 @@
+{
+  "checkedAt": "2026-10-18T16:28:24.705Z",
+  "baseline": "5021bcbe5777e11983e5222838c1ee9f4cfbb1d9",
+  "defaultBranchBaseline": "42b260763711be7d31b523bec2b0f23bf042e988",
+  "automatedTests": {
+    "passed": 108,
+    "failed": 0
+  },
+  "typeCheck": "passed",
+  "productionBuild": "passed",
+  "browserGroups": {
+    "social": 11,
+    "discovery": 5,
+    "brightdata": 5
+  },
+  "actionlint": {
+    "version": "1.7.12",
+    "workflowsChecked": 7,
+    "result": "passed",
+    "archiveSha256": "6e7241b51e6817ea6a047693d8e6fed13b31819c9a0dd6c5a726e1592d22f6e9",
+    "shellcheck": "not run",
+    "pyflakes": "not run"
+  },
+  "tiktokUniqueIds": 80,
+  "protectedPathsEqualToBaseline": [
+    "data",
+    "src",
+    ".github/workflows/youtube-sync.yml",
+    ".github/workflows/social-sync.yml",
+    ".github/workflows/calendar-sync.yml",
+    ".github/workflows/deploy.yml",
+    ".github/workflows/checks.yml",
+    ".github/workflows/freshness.yml"
+  ],
+  "unchangedFiles": [
+    {
+      "path": "data/social/tiktok/items.json",
+      "sha256": "3e3eec2fc0dcf3e553a03056e949c2080248ad6de122cd3a5b32868e1defc27e"
+    },
+    {
+      "path": "data/status/brightdata-tiktok.json",
+      "sha256": "c5504e4b39708a11d2e08ccac213f0787516ceec6c59e3499de1abe560256aa7"
+    },
+    {
+      "path": "data/usage/brightdata-tiktok.json",
+      "sha256": "6eebfd53f76241a99cae27d28f9f719985dd0e01a417b02eb2d490ffa46b7913"
+    }
+  ],
+  "disabledCoreRun": {
+    "mode": "sync",
+    "checkedAt": "2026-10-18T16:28:24.693Z",
+    "provider": "brightdata-tiktok-posts",
+    "requests": 0,
+    "connected": false,
+    "contentWrites": 0,
+    "sources": [],
+    "preview": [],
+    "budget": null,
+    "liveValidation": {
+      "requestSent": false,
+      "apiReturned": false,
+      "taskSubmitted": false,
+      "snapshotIds": [],
+      "resultDownloaded": false,
+      "returnedCount": null,
+      "authorValidated": false,
+      "newestPublishedAt": null,
+      "billingVerified": false,
+      "playerPlaybackVerified": false
+    },
+    "failedRecords": [],
+    "executionStatus": "disabled",
+    "reason": "SCHEDULE_NOT_ENABLED",
+    "message": "定时采集尚未启用。"
+  },
+  "disabledWorkflowRoute": {
+    "execute": false,
+    "mode": "sync",
+    "reason": "SCHEDULE_NOT_ENABLED",
+    "message": "定时采集尚未启用。"
+  },
+  "realBrightDataRequests": 0,
+  "realAPIValidated": false,
+  "billingVerified": false,
+  "productionDeployed": false,
+  "scheduledCollectionActuallyRun": false,
+  "simulatedAPITestsOnly": true
+}

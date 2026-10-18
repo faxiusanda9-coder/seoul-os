@@ -10,6 +10,7 @@ import { SocialCard } from "../components/SocialCard";
 import { FeedCard } from "../components/FeedCard";
 import { SourceFreshness } from "../components/SourceFreshness";
 import { SocialDiscoveryStatus } from "../components/SocialDiscoveryStatus";
+import { BrightDataStatus } from "../components/BrightDataStatus";
 import { OfficialXTimeline } from "../components/OfficialXTimeline";
 import { TikTokProfile } from "../components/TikTokProfile";
 import { selectSocialContent, type SocialKind } from "../utils/social-library";
@@ -161,6 +162,7 @@ export function MediaPage() {
               platform={socialPlatform}
             />
             <SourceFreshness artistId={artistId} platform={socialPlatform} />
+            {socialPlatform === 'tiktok' && <BrightDataStatus artistId={artistId} />}
             {account ? (
               <p className="tiny-note">
                 {t("media.verifiedAccount")} ·{" "}

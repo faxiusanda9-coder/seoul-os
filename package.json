@@ -33,7 +33,11 @@
     "verify:social:playback": "node scripts/verify-social-playback.mjs",
     "discover:social": "node scripts/social-sync/discover.mjs",
     "test:discovery": "node --test tests/social-discovery.test.mjs",
-    "test:discovery:ui": "node scripts/test-social-discovery-ui.mjs"
+    "test:discovery:ui": "node scripts/test-social-discovery-ui.mjs",
+    "sync:brightdata:tiktok": "node scripts/brightdata-tiktok/sync.mjs",
+    "test:brightdata": "node --test tests/brightdata-tiktok.test.mjs",
+    "test:brightdata:ui": "node scripts/test-brightdata-ui.mjs",
+    "import:brightdata:tiktok": "node scripts/brightdata-tiktok/import-file.mjs"
   },
   "dependencies": {
     "date-fns": "^4.4.0",

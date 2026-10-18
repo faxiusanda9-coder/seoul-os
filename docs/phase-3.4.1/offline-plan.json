@@ -1,0 +1,173 @@
+{
+  "mode": "plan",
+  "checkedAt": "2026-10-18T16:38:57.160Z",
+  "provider": "brightdata-tiktok-posts",
+  "requests": 0,
+  "connected": false,
+  "contentWrites": 0,
+  "sources": [
+    {
+      "artistId": "twice",
+      "accountUrl": "https://www.tiktok.com/@twice_tiktok_official/",
+      "state": "planned",
+      "error": null,
+      "request": {
+        "url": "https://api.brightdata.com/datasets/v3/trigger?dataset_id=gd_lu702nij2f790tmv9h&type=discover_new&discover_by=profile_url&include_errors=true&format=json&limit_multiple_results=8",
+        "body": {
+          "input": [
+            {
+              "url": "https://www.tiktok.com/@twice_tiktok_official/",
+              "num_of_posts": 8,
+              "include_pinned_post": false
+            }
+          ],
+          "limit_per_input": 8
+        }
+      }
+    },
+    {
+      "artistId": "stray-kids",
+      "accountUrl": "https://www.tiktok.com/@jypestraykids/",
+      "state": "planned",
+      "error": null,
+      "request": {
+        "url": "https://api.brightdata.com/datasets/v3/trigger?dataset_id=gd_lu702nij2f790tmv9h&type=discover_new&discover_by=profile_url&include_errors=true&format=json&limit_multiple_results=8",
+        "body": {
+          "input": [
+            {
+              "url": "https://www.tiktok.com/@jypestraykids/",
+              "num_of_posts": 8,
+              "include_pinned_post": false
+            }
+          ],
+          "limit_per_input": 8
+        }
+      }
+    },
+    {
+      "artistId": "nmixx",
+      "accountUrl": "https://www.tiktok.com/@nmixx_official/",
+      "state": "planned",
+      "error": null,
+      "request": {
+        "url": "https://api.brightdata.com/datasets/v3/trigger?dataset_id=gd_lu702nij2f790tmv9h&type=discover_new&discover_by=profile_url&include_errors=true&format=json&limit_multiple_results=8",
+        "body": {
+          "input": [
+            {
+              "url": "https://www.tiktok.com/@nmixx_official/",
+              "num_of_posts": 8,
+              "include_pinned_post": false
+            }
+          ],
+          "limit_per_input": 8
+        }
+      }
+    },
+    {
+      "artistId": "nexz",
+      "accountUrl": "https://www.tiktok.com/@nexz_official/",
+      "state": "planned",
+      "error": null,
+      "request": {
+        "url": "https://api.brightdata.com/datasets/v3/trigger?dataset_id=gd_lu702nij2f790tmv9h&type=discover_new&discover_by=profile_url&include_errors=true&format=json&limit_multiple_results=8",
+        "body": {
+          "input": [
+            {
+              "url": "https://www.tiktok.com/@nexz_official/",
+              "num_of_posts": 8,
+              "include_pinned_post": false
+            }
+          ],
+          "limit_per_input": 8
+        }
+      }
+    },
+    {
+      "artistId": "itzy",
+      "accountUrl": "https://www.tiktok.com/@itzyofficial/",
+      "state": "planned",
+      "error": null,
+      "request": {
+        "url": "https://api.brightdata.com/datasets/v3/trigger?dataset_id=gd_lu702nij2f790tmv9h&type=discover_new&discover_by=profile_url&include_errors=true&format=json&limit_multiple_results=8",
+        "body": {
+          "input": [
+            {
+              "url": "https://www.tiktok.com/@itzyofficial/",
+              "num_of_posts": 8,
+              "include_pinned_post": false
+            }
+          ],
+          "limit_per_input": 8
+        }
+      }
+    },
+    {
+      "artistId": "niziu",
+      "accountUrl": "https://www.tiktok.com/@niziu_official/",
+      "state": "planned",
+      "error": null,
+      "request": {
+        "url": "https://api.brightdata.com/datasets/v3/trigger?dataset_id=gd_lu702nij2f790tmv9h&type=discover_new&discover_by=profile_url&include_errors=true&format=json&limit_multiple_results=8",
+        "body": {
+          "input": [
+            {
+              "url": "https://www.tiktok.com/@niziu_official/",
+              "num_of_posts": 8,
+              "include_pinned_post": false
+            }
+          ],
+          "limit_per_input": 8
+        }
+      }
+    }
+  ],
+  "preview": [],
+  "budget": {
+    "month": "2026-10",
+    "recordLimit": 4000,
+    "source": "local-mirror",
+    "authoritative": false,
+    "reservedRecords": 0,
+    "deliveredRecords": 0,
+    "remainingInternalRecords": 4000,
+    "requestedRecords": 48,
+    "unresolvedTaskCount": 0,
+    "providerFreeCreditsRemaining": null,
+    "paidSpendLimitUsd": 0,
+    "paidSpendUsd": null
+  },
+  "liveValidation": {
+    "requestSent": false,
+    "apiReturned": false,
+    "taskSubmitted": false,
+    "snapshotIds": [],
+    "resultDownloaded": false,
+    "returnedCount": null,
+    "authorValidated": false,
+    "newestPublishedAt": null,
+    "billingVerified": false,
+    "playerPlaybackVerified": false
+  },
+  "failedRecords": [],
+  "executionStatus": "offline-plan",
+  "configuration": {
+    "validated": true,
+    "artistIds": [
+      "twice",
+      "stray-kids",
+      "nmixx",
+      "nexz",
+      "itzy",
+      "niziu"
+    ],
+    "perAccountLimit": 8,
+    "schedule": "0 0,12 * * *"
+  },
+  "liveReadiness": {
+    "canSendRequests": false,
+    "apiSecret": "not-inspected",
+    "apiPermission": "not-inspected",
+    "zeroCostEvidence": "not-inspected",
+    "remoteBudget": "not-read"
+  }
+}

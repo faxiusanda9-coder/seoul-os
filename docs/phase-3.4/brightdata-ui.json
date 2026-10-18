@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-10-18T15:57:32.231Z",
+  "mode": "controlled engineering fixtures; NOT a live Bright Data call, license confirmation, actual bill or video playback",
+  "passed": true,
+  "checks": [
+    "Real not-configured status, 14 existing ITZY cards, no false discovery or billing success",
+    "Controlled adapter -> isolated data -> actual build stage -> third-party card and independent status; no official API label",
+    "Explicit consent mounts one official single-video URL; controlled player error preserves original link; keyboard close unmounts (real touch close unverified)",
+    "Stable bookmark ID survives refresh and Archive; artist search and 375/390/412px layout",
+    "Status failure isolated from content; home YouTube feed retained; no page errors"
+  ]
+}

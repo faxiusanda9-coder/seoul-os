@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-18T15:57:58.570Z",
+  "site": "http://localhost:5182/seoul-os/",
+  "results": [
+    {
+      "id": "tt-7697867251575311668",
+      "artistId": "nexz",
+      "sourceUrl": "https://www.tiktok.com/@nexz_official/video/7697867251575311668",
+      "checkedAt": "2026-10-18T15:57:49.894Z",
+      "platform": "tiktok",
+      "environment": "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
+      "frameCreated": true,
+      "videoState": [
+        {
+          "currentTime": 0.522449,
+          "readyState": 4,
+          "paused": false,
+          "errorCode": null
+        }
+      ],
+      "playbackConfirmed": true,
+      "noHorizontalOverflow": true,
+      "embedObservation": {
+        "videoCount": 1,
+        "nativeControlCount": 0,
+        "copyrightBlocked": false,
+        "text": "NEXZ\nnexz_official\nPOV: NEXZ 콘서트 전후 NEXZ 1ST ASIA TOUR <SAUCIN' THE WORLD> 2026.10.17-18 @ OLYMPIC HALL #NEXZ #SAUCIN_THE_WORLD_IN_SEOUL #NEXZ_ASIA_TOUR\nmore\n오리지널 사운드 - NEXZ - NEXZ\n00:00/00:19\n7268\n141\n163"
+      },
+      "originalLinkRetained": true,
+      "accountLinkRetained": true,
+      "closedCleanly": true
+    }
+  ]
+}

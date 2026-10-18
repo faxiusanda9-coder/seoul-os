@@ -4,6 +4,8 @@ import { loadChannels } from "./youtube-sync.mjs";
 import { loadSocialAccounts } from "./social-sync/index.mjs";
 import { readDiscovery } from "./social-sync/discover.mjs";
 import { discoveryIsStale } from "../data/schemas/social-discovery.schema.ts";
+import { readFile } from 'node:fs/promises';
+import { parseBrightDataStatus, brightDataOverdue } from '../data/schemas/brightdata.schema.ts';
 const now = Date.now();
 let failures = 0;
 for (const platform of ["youtube", "instagram", "tiktok"]) {
@@ -51,4 +53,10 @@ for (const source of discovery.sources) {
 console.log(
   `Automatic discovery: ${pending} unconfigured/disabled sources; local validation is not remote discovery. Schedule 08:00/12:00/20:00 Beijing, one hour grace.`,
 );
+const brightData=parseBrightDataStatus(JSON.parse(await readFile(resolve('data/status/brightdata-tiktok.json'),'utf8')),await loadSocialAccounts());
+if(!brightData)throw new Error('Invalid Bright Data monitoring status');
+for(const s of brightData.sources){
+  if(['failed','blocked'].includes(s.state)||(s.state==='ok'&&brightDataOverdue(s,now))){console.log(`::warning::Bright Data ${s.artistId}: ${s.error??'OVERDUE_08_20_BEIJING'}`);failures++;}
+}
+console.log(`Bright Data local budget reservations: ${brightData.budget.reservedRecords}/${brightData.budget.recordLimit}; provider paid spend is unmeasured; paid spending limit is $0.`);
 if (failures) process.exitCode = 1;

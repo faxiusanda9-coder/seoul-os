@@ -21,8 +21,20 @@ export type SocialContent = {
   sourceUrl: string;
   embedUrl: string;
   officialAccountUrl: string;
-  verificationStatus: "manual-verified" | "api-verified";
-  acquisitionMethod: "manual-verified" | "api";
+  verificationStatus: "manual-verified" | "api-verified" | "account-matched";
+  acquisitionMethod: "manual-verified" | "api" | "third-party-api";
+  thirdPartyEvidence?: {
+    provider: "brightdata-tiktok-posts";
+    datasetId: "gd_lu702nij2f790tmv9h";
+    snapshotId: string;
+    videoId: string;
+    authorHandle: string;
+    authorProfileUrl: string;
+    originalUrl: string;
+    rawCreateTime: string;
+    accountEvidenceUrl: string;
+    checkedAt: string;
+  };
   apiEvidence?: {
     provider: "instagram-business-discovery" | "tiktok-display-api";
     mediaId: string;
@@ -193,8 +205,51 @@ export function parseSocialSnapshot(
             i.acquisitionMethod === "manual-verified") ||
           (i.verificationStatus === "api-verified" &&
             i.acquisitionMethod === "api" &&
-            i.apiEvidence)
+            i.apiEvidence) ||
+          (platform === "tiktok" &&
+            i.verificationStatus === "account-matched" &&
+            i.acquisitionMethod === "third-party-api" &&
+            i.thirdPartyEvidence &&
+            !i.apiEvidence)
         ) ||
+        (i.thirdPartyEvidence !== undefined &&
+          (platform !== "tiktok" ||
+            !i.thirdPartyEvidence ||
+            i.thirdPartyEvidence.provider !== "brightdata-tiktok-posts" ||
+            i.thirdPartyEvidence.datasetId !== "gd_lu702nij2f790tmv9h" ||
+            !/^s(?:d)?_[A-Za-z0-9]{5,80}$/.test(
+              i.thirdPartyEvidence.snapshotId,
+            ) ||
+            i.thirdPartyEvidence.videoId !== identity.id.slice(3) ||
+            i.thirdPartyEvidence.authorHandle !== a.handle.toLowerCase() ||
+            i.thirdPartyEvidence.authorProfileUrl !== a.accountUrl ||
+            i.thirdPartyEvidence.accountEvidenceUrl !== a.evidenceUrl ||
+            !safeHttps(i.thirdPartyEvidence.originalUrl) ||
+            socialIdentity(
+              "tiktok",
+              (() => {
+                const u = new URL(i.thirdPartyEvidence.originalUrl);
+                u.search = "";
+                u.hash = "";
+                u.pathname = u.pathname.replace(/\/$/, "");
+                return u.href;
+              })(),
+            )?.id !== i.id ||
+            socialIdentity(
+              "tiktok",
+              (() => {
+                const u = new URL(i.thirdPartyEvidence.originalUrl);
+                u.search = "";
+                u.hash = "";
+                u.pathname = u.pathname.replace(/\/$/, "");
+                return u.href;
+              })(),
+            )?.handle !== a.handle.toLowerCase() ||
+            !isInstant(i.thirdPartyEvidence.rawCreateTime) ||
+            !isInstant(i.thirdPartyEvidence.checkedAt) ||
+            (i.acquisitionMethod === "third-party-api" &&
+              (i.lastValidatedAt !== i.thirdPartyEvidence.checkedAt ||
+                i.publishedAt !== i.thirdPartyEvidence.rawCreateTime)))) ||
         (i.apiEvidence !== undefined &&
           (!i.apiEvidence ||
             i.apiEvidence.provider !==
