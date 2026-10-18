@@ -8,11 +8,11 @@
       "slot": "probe:2026-10-18",
       "month": "2026-10",
       "limit": 1,
-      "state": "reserved",
+      "state": "complete",
       "snapshotId": "sd_mve37gu02h2aluxhn5",
-      "recordCount": null,
+      "recordCount": 1,
       "createdAt": "2026-10-18T17:16:14.573Z",
-      "completedAt": null,
+      "completedAt": "2026-10-18T17:21:07.077Z",
       "purpose": "itzy-probe-once",
       "creditLimit": 1
     }
