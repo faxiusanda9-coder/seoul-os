@@ -170,7 +170,6 @@ export function reservedCredits(ledger, month) {
 }
 function checkScopedFreeOnly(p, ledger, now, requested, context) {
   const a = p.authorization,
-    f = p.freeCredits,
     b = p.balance;
   const month = now.slice(0, 7),
     used = reservedThisMonth(ledger, month);
@@ -183,14 +182,40 @@ function checkScopedFreeOnly(p, ledger, now, requested, context) {
     Number(month.slice(5, 7)),
     1,
   );
+  // A reported absence of a payment method is retained as reported evidence.
+  // The provider documents that auto-recharge requires a verified method;
+  // there is no API for reading that setting. Do not invent a false observation.
+  const noPaymentMethod =
+    p.noPaymentMethodReported === true &&
+    ["none-reported", "none-confirmed"].includes(p.paymentMethod);
+  const renewed =
+    a?.scope === "scheduled-free-only" &&
+    p.recurringMonthlyFreeTier === true &&
+    noPaymentMethod &&
+    p.monthlyFreeTierEvidenceRef ===
+      "https://docs.brightdata.com/general/account/billing-and-pricing/free-tier" &&
+    /^\d{4}-(0[1-9]|1[0-2])$/.test(p.month) &&
+    p.month < month &&
+    p.freeCredits?.total === 5000;
+  // Renewal is an explicitly approved published allowance, not a fresh account
+  // observation. Preserve the original figures in the report. Paid fallbacks,
+  // exhausted budgets and unresolved jobs still stop collection.
+  const f = renewed
+    ? { remaining: 5000, total: 5000, unit: "credits" }
+    : p.freeCredits;
+  const expiresAt = renewed ? new Date(monthEnd).toISOString() : p.expiresAt;
+  const baselineCredits = renewed ? 0 : p.baselineReservedCredits;
+  const baselineLegacy = renewed ? 0 : p.baselineLegacyReservedRecords;
+  const holdback = p.holdbackCredits ?? 0;
   if (
-    p.month !== month ||
+    (!renewed && p.month !== month) ||
     !isInstant(p.confirmedAt) ||
     !isInstant(p.expiresAt) ||
     Date.parse(p.confirmedAt) > Date.parse(now) ||
-    Date.parse(p.expiresAt) <= Date.parse(now) ||
-    (requested > 0 && Date.parse(p.expiresAt) < Date.parse(now) + 120000) ||
-    Date.parse(p.expiresAt) > monthEnd ||
+    Date.parse(p.expiresAt) <= Date.parse(p.confirmedAt) ||
+    Date.parse(expiresAt) <= Date.parse(now) ||
+    (requested > 0 && Date.parse(expiresAt) < Date.parse(now) + 120000) ||
+    Date.parse(expiresAt) > monthEnd ||
     !recordCount(requested) ||
     typeof p.accountRef !== "string" ||
     !p.accountRef.trim() ||
@@ -202,6 +227,8 @@ function checkScopedFreeOnly(p, ledger, now, requested, context) {
     !recordCount(f?.total) ||
     f.remaining > f.total ||
     f.unit !== "credits" ||
+    !recordCount(holdback) ||
+    holdback > f.remaining ||
     !amount(b?.amountUsd) ||
     !["unknown", "bonus", "deposited"].includes(b?.kind) ||
     !amount(p.cashSpend?.amountUsd) ||
@@ -209,11 +236,11 @@ function checkScopedFreeOnly(p, ledger, now, requested, context) {
     !["none-reported", "none-confirmed", "unknown", "present"].includes(
       p.paymentMethod,
     ) ||
-    !Number.isFinite(p.baselineReservedCredits) ||
-    p.baselineReservedCredits < 0 ||
-    p.baselineReservedCredits > credits ||
-    !recordCount(p.baselineLegacyReservedRecords) ||
-    p.baselineLegacyReservedRecords !== legacy ||
+    !Number.isFinite(baselineCredits) ||
+    baselineCredits < 0 ||
+    baselineCredits > credits ||
+    !recordCount(baselineLegacy) ||
+    baselineLegacy !== legacy ||
     p.paidSpendLimitUsd !== 0
   )
     throw new BrightDataError("INVALID_SCOPED_ZERO_COST_APPROVAL");
@@ -241,7 +268,10 @@ function checkScopedFreeOnly(p, ledger, now, requested, context) {
       requested > 1
     )
       throw new BrightDataError("ZERO_COST_SCOPE_MISMATCH");
-  } else if (context.mode !== "sync" || p.autoRecharge !== false)
+  } else if (
+    context.mode !== "sync" ||
+    !(p.autoRecharge === false || (p.autoRecharge === null && noPaymentMethod))
+  )
     throw new BrightDataError("SCHEDULE_ZERO_COST_APPROVAL_REQUIRED");
   const fingerprint = createHash("sha256").update(p.accountRef).digest("hex");
   if (ledger.accountFingerprint && ledger.accountFingerprint !== fingerprint)
@@ -256,7 +286,7 @@ function checkScopedFreeOnly(p, ledger, now, requested, context) {
     )
   )
     throw new BrightDataError("PROBE_ALREADY_RESERVED");
-  const remainingCredits = f.remaining - (credits - p.baselineReservedCredits);
+  const remainingCredits = f.remaining - holdback - (credits - baselineCredits);
   const remaining = Math.min(
     BRIGHTDATA_MONTHLY_LIMIT - used,
     Math.floor(remainingCredits / a.maxCreditsPerRecord),
@@ -268,17 +298,25 @@ function checkScopedFreeOnly(p, ledger, now, requested, context) {
     used,
     remaining,
     fingerprint,
-    expiresAt: p.expiresAt,
+    expiresAt,
     purpose: a.scope,
     creditsPerRecord: a.maxCreditsPerRecord,
     observation: {
-      freeCredits: { remaining: f.remaining, total: f.total, unit: f.unit },
+      freeCredits: { ...p.freeCredits },
       balance: { amountUsd: b.amountUsd, kind: b.kind },
       cashSpend: { amountUsd: p.cashSpend.amountUsd },
       paymentMethod: p.paymentMethod,
       autoRecharge: p.autoRecharge,
       source: "maintainer-reported",
       observedAt: p.confirmedAt,
+      budgetAllowance: {
+        month,
+        creditsAtBaseline: f.remaining,
+        holdbackCredits: holdback,
+        source: renewed
+          ? "documented-monthly-renewal-not-account-read"
+          : "reported-baseline",
+      },
     },
   };
 }

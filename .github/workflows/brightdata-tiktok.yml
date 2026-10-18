@@ -30,7 +30,8 @@ jobs:
       contents: write # Shared budget branch; only after all preconditions pass.
       actions: read # Download the selected probe artifact for manual reconciliation.
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    # Profile discovery can exceed two minutes; six bounded jobs run serially.
+    timeout-minutes: 75
     outputs:
       changed: ${{ steps.changes.outputs.changed }}
       failed: ${{ steps.collect.outcome == 'failure' }}
