@@ -191,7 +191,11 @@ export async function importReviewed(
         const before = byId.get(i.id);
         i.fetchedAt = before.fetchedAt;
         // Reimporting an older link-list format must not erase separate evidence.
-        for (const field of ["sourceAvailability", "embedAvailability"])
+        for (const field of [
+          "sourceAvailability",
+          "embedAvailability",
+          "apiEvidence",
+        ])
           if (i[field] === undefined && before[field] !== undefined)
             i[field] = before[field];
         if (JSON.stringify(metadata(before)) !== JSON.stringify(metadata(i)))

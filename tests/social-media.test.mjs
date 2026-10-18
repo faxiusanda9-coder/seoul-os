@@ -460,7 +460,11 @@ test("production manifests contain only schema-valid distinct reviewed sources a
         JSON.stringify(i),
         /FixtureONLY|ACTUAL_SHORTCODE|exampleOnly/,
       );
-      assert.equal(i.acquisitionMethod, "manual-verified");
+      assert.ok(["manual-verified", "api"].includes(i.acquisitionMethod));
+      if (i.acquisitionMethod === "api") {
+        assert.equal(i.verificationStatus, "api-verified");
+        assert.ok(i.apiEvidence);
+      }
       if (platform === "tiktok")
         assert.equal(
           socialIdentity(platform, i.sourceUrl).handle,

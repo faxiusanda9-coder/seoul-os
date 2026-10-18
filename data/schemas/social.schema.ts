@@ -21,8 +21,15 @@ export type SocialContent = {
   sourceUrl: string;
   embedUrl: string;
   officialAccountUrl: string;
-  verificationStatus: "manual-verified";
-  acquisitionMethod: "manual-verified";
+  verificationStatus: "manual-verified" | "api-verified";
+  acquisitionMethod: "manual-verified" | "api";
+  apiEvidence?: {
+    provider: "instagram-business-discovery" | "tiktok-display-api";
+    mediaId: string;
+    accountId: string;
+    checkedAt: string;
+    mediaProductType?: "REELS" | "FEED";
+  };
   fetchedAt: string;
   lastValidatedAt: string;
   availabilityStatus: "available" | "restricted" | "deleted" | "unknown";
@@ -178,9 +185,36 @@ export function parseSocialSnapshot(
           ? i.contentType === "short-video"
           : identity.kind === "reel"
             ? i.contentType === "reels"
-            : ["post", "video-post"].includes(i.contentType)) ||
-        i.verificationStatus !== "manual-verified" ||
-        i.acquisitionMethod !== "manual-verified" ||
+            : ["post", "video-post"].includes(i.contentType) ||
+              (i.apiEvidence?.mediaProductType === "REELS" &&
+                i.contentType === "reels")) ||
+        !(
+          (i.verificationStatus === "manual-verified" &&
+            i.acquisitionMethod === "manual-verified") ||
+          (i.verificationStatus === "api-verified" &&
+            i.acquisitionMethod === "api" &&
+            i.apiEvidence)
+        ) ||
+        (i.apiEvidence !== undefined &&
+          (!i.apiEvidence ||
+            i.apiEvidence.provider !==
+              (platform === "instagram"
+                ? "instagram-business-discovery"
+                : "tiktok-display-api") ||
+            !/^\d{5,40}$/.test(i.apiEvidence.mediaId) ||
+            typeof i.apiEvidence.accountId !== "string" ||
+            (platform === "instagram"
+              ? !/^\d{5,40}$/.test(i.apiEvidence.accountId)
+              : i.apiEvidence.accountId !== a.handle.toLowerCase()) ||
+            (platform === "tiktok" &&
+              i.apiEvidence.mediaId !== identity.id.slice(3)) ||
+            !isInstant(i.apiEvidence.checkedAt) ||
+            (i.apiEvidence.mediaProductType !== undefined &&
+              (platform !== "instagram" ||
+                !["REELS", "FEED"].includes(i.apiEvidence.mediaProductType))) ||
+            (i.acquisitionMethod === "api" &&
+              Date.parse(i.apiEvidence.checkedAt) >
+                Date.parse(i.lastValidatedAt)))) ||
         !["available", "restricted", "deleted", "unknown"].includes(
           i.availabilityStatus,
         ) ||
@@ -200,7 +234,10 @@ export function parseSocialSnapshot(
         Date.parse(i.lastValidatedAt) < Date.parse(i.fetchedAt) ||
         (i.publishedAt !== null && !isInstant(i.publishedAt)) ||
         ![i.title, i.description].every(
-          (v) => v === null || (typeof v === "string" && v.length <= 2000),
+          (v) =>
+            v === null ||
+            (typeof v === "string" &&
+              v.length <= (i.acquisitionMethod === "api" ? 10000 : 2000)),
         ) ||
         i.thumbnail !== null ||
         !safeHttps(i.evidenceUrl) ||

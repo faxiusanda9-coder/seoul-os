@@ -1,5 +1,7 @@
 # Phase 3：实现、来源边界与维护
 
+本文件包含历史实现；当前官方 API 发现代码、未授权状态和三次调度配置见 [Phase 3.2 验收报告](phase-3.2-acceptance.md) 与 [开通指南](phase-3.2-setup.md)。没有平台凭证，当前真实开通的自动发现账号仍为 0。
+
 **Phase 3.1 当前覆盖：Instagram 78 条（47 视频 + 31 图片／轮播帖子），TikTok 35 条视频；14 个 Instagram、8 个 TikTok 官方账号。逐艺人数量、18 条 Instagram 视频真实播放、29 条受限、31 条帖子显示及 35 条 TikTok 真实播放见 [中文验收报告](phase-3.1-acceptance.md)。以下包含 Phase 3 历史审计；当前清单以报告为准。仅更新原 PR #1，不合并、不发布。**
 
 审计日：2026-10-17（北京时间）。起点 main=97e0d162425b47e6d8d6ab7e56e95d94f582d8a5；在独立 phase3-official-media 分支实施。起点工作区干净，原始检出目录未改写用户文件。

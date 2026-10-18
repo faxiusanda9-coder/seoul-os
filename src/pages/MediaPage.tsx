@@ -9,6 +9,7 @@ import { socialForArtist } from "../data/officialSocialAccounts";
 import { SocialCard } from "../components/SocialCard";
 import { FeedCard } from "../components/FeedCard";
 import { SourceFreshness } from "../components/SourceFreshness";
+import { SocialDiscoveryStatus } from "../components/SocialDiscoveryStatus";
 import { OfficialXTimeline } from "../components/OfficialXTimeline";
 import { TikTokProfile } from "../components/TikTokProfile";
 import { selectSocialContent, type SocialKind } from "../utils/social-library";
@@ -138,11 +139,11 @@ export function MediaPage() {
           <>
             <div className="media-source-intro">
               <div>
-                <p className="eyebrow">{t("media.manual")}</p>
+                <p className="eyebrow">{t("discovery.library")}</p>
                 <h2>
                   {t(tab === "instagram" ? "media.instagram" : "media.tiktok")}
                 </h2>
-                <p>{t("media.manualMeaning")}</p>
+                <p>{t("discovery.libraryMeaning")}</p>
               </div>
               {account && (
                 <a
@@ -155,6 +156,10 @@ export function MediaPage() {
                 </a>
               )}
             </div>
+            <SocialDiscoveryStatus
+              artistId={artistId}
+              platform={socialPlatform}
+            />
             <SourceFreshness artistId={artistId} platform={socialPlatform} />
             {account ? (
               <p className="tiny-note">

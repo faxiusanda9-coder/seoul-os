@@ -222,7 +222,12 @@ export function SocialCard({ item }: { item: SocialContent }) {
                 ? "media.videoPosts"
                 : "media.postType",
         )}{" "}
-        · {t("media.manual")}
+        ·{" "}
+        {t(
+          item.acquisitionMethod === "api"
+            ? "discovery.apiContent"
+            : "media.manual",
+        )}
       </p>
       {item.description && <p>{item.description}</p>}
       <p className="tiny-note">

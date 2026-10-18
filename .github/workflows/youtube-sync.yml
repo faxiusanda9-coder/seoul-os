@@ -60,11 +60,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/youtube/*.json
-          git add data/status/youtube.json
-          git commit -m "data: sync independent official YouTube channels"
-          git pull --rebase origin main
-          git push origin HEAD:main
+          node scripts/push-sync-changes.mjs youtube
       - name: Check source freshness
         if: always()
         continue-on-error: true

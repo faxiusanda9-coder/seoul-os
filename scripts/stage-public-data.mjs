@@ -5,6 +5,8 @@ import { parseSnapshot, currentlyPublishable } from "../src/calendar/engine.ts";
 import { approvedManualEvents, readManual } from "./events/manual-events.mjs";
 import { parseSocialAccounts, parseSocialSnapshot } from "../data/schemas/social.schema.ts";
 import { parseSyncStatus } from "../data/schemas/sync-status.schema.ts";
+import { parseDiscoveryStatus } from "../data/schemas/social-discovery.schema.ts";
+import { expireApiMetadata } from "./social-sync/retention.mjs";
 
 const publicRoot = resolve("public");
 const targetDir = resolve("public/data/youtube");
@@ -45,7 +47,10 @@ console.log(`Staged ${staged} independent channel snapshots`);
 const socialAccountsRaw = JSON.parse(await readFile(resolve("data/social/accounts.json"), "utf8"));
 const socialAccounts = parseSocialAccounts(socialAccountsRaw, new Set(config.channels.filter(c=>c.enabled).map(c=>c.artistId)));
 if(!socialAccounts) throw new Error("Social account registry failed validation");
+const discoveryRaw = await readFile(resolve("data/status/social-discovery.json"),"utf8");
+if (!parseDiscoveryStatus(JSON.parse(discoveryRaw),socialAccounts)) throw new Error("Invalid social discovery status");
 await mkdir(resolve("public/data/status"), {recursive:true});
+await writeFile(resolve("public/data/status/social-discovery.json"),discoveryRaw);
 for(const platform of ["youtube","instagram","tiktok"]) {
   const statusRaw=await readFile(resolve(`data/status/${platform}.json`),"utf8");
   const status=parseSyncStatus(JSON.parse(statusRaw));
@@ -57,7 +62,8 @@ for(const platform of ["youtube","instagram","tiktok"]) {
   if(!snapshot) throw new Error(`${platform}: social snapshot failed publication validation`);
   await mkdir(resolve(`public/data/social/${platform}`),{recursive:true});
   // Deleted media metadata is not republished; stored bookmarks remain as local IDs.
-  await writeFile(resolve(`public/data/social/${platform}/items.json`),JSON.stringify({...snapshot,items:snapshot.items.filter(i=>i.availabilityStatus!=="deleted")},null,2)+"\n");
+  const retained = expireApiMetadata(snapshot,new Date().toISOString()).snapshot;
+  await writeFile(resolve(`public/data/social/${platform}/items.json`),JSON.stringify({...retained,items:retained.items.filter(i=>i.availabilityStatus!=="deleted")},null,2)+"\n");
 }
 
 const rosterIds = new Set(config.channels.filter((item) => item.enabled).map((item) => item.artistId));

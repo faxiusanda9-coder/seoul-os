@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-18T06:57:31.633Z",
+  "mode": "controlled engineering tests; NOT real playback",
+  "checks": [
+    "default includes real posts; no requests or frames before consent; neutral title and unknown date",
+    "video-only filter excludes photo posts; artist search and no-match state",
+    "Instagram controlled embed success; one global player; repeat prevention; close and artist cleanup",
+    "TikTok controlled ready/error and forged sender rejection; source fallback; 9:16 and 375/390/412px",
+    "Instagram and TikTok bookmarks survive refresh and render in Archive alongside original YouTube ID",
+    "original Discover shows 50 YouTube cards and retains bookmark controls",
+    "YouTube artist switch, search and canonical original playback links remain intact",
+    "ITZY restricted embed can be attempted/retried; source unavailable blocked; unknown legacy accepted; duplicate clicks, mobile widths, evidence links",
+    "Instagram script HTTP 503 keeps usable card and original link",
+    "failed Instagram SDK retries successfully without duplicate frames; shell success is never labelled video playback",
+    "manifest HTTP 503 is isolated to social panel with retry"
+  ],
+  "errors": []
+}

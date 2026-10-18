@@ -371,5 +371,20 @@
   "media.postHelp": "Post rendered by the official Instagram embed.",
   "media.sourceUnavailable": "The original content was confirmed unavailable. See the source review below.",
   "media.embedShellReady": "The official embed has loaded; playback is not confirmed. If only a poster appears or playback fails, open the original content.",
-  "media.retryEmbed": "Retry player"
+  "media.retryEmbed": "Retry player",
+  "discovery.library": "Official content library",
+  "discovery.libraryMeaning": "Content comes from verified official accounts. Automatic discovery status appears below; manually reviewed entries retain separate evidence.",
+  "discovery.apiContent": "Retrieved through official API",
+  "discovery.accountUnknown": "This artist’s official account has not been verified; automatic discovery is unavailable.",
+  "discovery.statusUnavailable": "Automatic discovery status is temporarily unavailable.",
+  "discovery.checked": "Last automatic check",
+  "discovery.notConfigured": "Automatic discovery is not connected · Showing manually reviewed content",
+  "discovery.authRequired": "Authorization or renewal is required · Existing content remains available",
+  "discovery.disabled": "Automatic discovery is disabled · Manually reviewed content remains available",
+  "discovery.failed": "The latest automatic check did not complete · Previous content is retained",
+  "discovery.schedule": "Scheduled daily at 08:00, 12:00 and 20:00 Beijing time; checks and page updates may be delayed.",
+  "discovery.pendingSchedule": "Once connected, automatic checks are planned daily at 08:00, 12:00 and 20:00 Beijing time. This does not indicate an active connection.",
+  "discovery.meaning": "Automatic discovery, local manifest validation and inline playback are separate states. Discovering content does not guarantee playback.",
+  "discovery.success": "Last successful discovery check",
+  "discovery.notChecked": "Remote check not completed; this is not a zero-new-content success"
 }

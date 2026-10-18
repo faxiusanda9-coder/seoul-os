@@ -1,8 +1,8 @@
 name: Monitor source freshness
 on:
   schedule:
-    # After the morning/evening source jobs. No requests to social platforms.
-    - cron: "45 1,13 * * *"
+    # After the morning/noon/evening source jobs. No platform requests.
+    - cron: "45 1,5,13 * * *"
   workflow_dispatch:
 permissions:
   contents: read
