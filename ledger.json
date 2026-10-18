@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "accountFingerprint": "d7016e734b806172e40fec61cb8559333f655f532b79647e073706b6be8e6958",
+  "reservations": [
+    {
+      "id": "f5c758c4-ad22-46da-b05f-3f05e0513465",
+      "artistId": "itzy",
+      "slot": "probe:2026-10-18",
+      "month": "2026-10",
+      "limit": 1,
+      "state": "reserved",
+      "snapshotId": null,
+      "recordCount": null,
+      "createdAt": "2026-10-18T17:16:14.573Z",
+      "completedAt": null,
+      "purpose": "itzy-probe-once",
+      "creditLimit": 1
+    }
+  ]
+}
