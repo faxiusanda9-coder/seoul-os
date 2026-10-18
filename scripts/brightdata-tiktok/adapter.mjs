@@ -136,11 +136,11 @@ export async function collectProfile(
     onSnapshot = async () => {},
     onTerminal = async () => {},
     onRows = async () => {},
-    maxPolls = 24,
+    maxPolls = 120,
   } = {},
 ) {
   const request = triggerRequest(account, limit),
-    deadline = Date.now() + 120000;
+    deadline = Date.now() + 600000;
   // Never retry POST: a timeout does not prove the provider did not create a job.
   const started = await providerJson(request.url, {
     token,
