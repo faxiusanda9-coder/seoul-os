@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "artistIds": ["twice", "stray-kids", "nmixx", "nexz", "itzy", "niziu"],
+  "perAccountLimit": 8,
+  "schedule": "0 0,12 * * *"
+}

@@ -1,0 +1,33 @@
+{
+  "snapshotId": "sd_mvdx30v5inbop8r5r",
+  "evidenceSource": "original-local-import-report.md (sanitized report, not original provider payload)",
+  "rows": [
+    {
+      "index": 0,
+      "artistId": "itzy",
+      "id": "tt-7693500342285225237",
+      "sourceUrl": "https://www.tiktok.com/@itzyofficial/video/7693500342285225237",
+      "capturedAt": "2026-10-18T14:27:42.394Z",
+      "code": "PROVIDER_DEAD_PAGE",
+      "previouslyKnown": false
+    },
+    {
+      "index": 1,
+      "artistId": "twice",
+      "id": "tt-7696754928999517461",
+      "sourceUrl": "https://www.tiktok.com/@twice_tiktok_official/video/7696754928999517461",
+      "capturedAt": "2026-10-18T14:28:11.620Z",
+      "code": "PROVIDER_DEAD_PAGE",
+      "previouslyKnown": true
+    },
+    {
+      "index": 2,
+      "artistId": "stray-kids",
+      "id": "tt-7692365601884425492",
+      "sourceUrl": "https://www.tiktok.com/@jypestraykids/video/7692365601884425492",
+      "capturedAt": "2026-10-18T14:42:37.746Z",
+      "code": "PROVIDER_WAIT_ELEMENT_TIMEOUT",
+      "previouslyKnown": true
+    }
+  ]
+}

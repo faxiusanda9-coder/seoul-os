@@ -3,6 +3,27 @@ import { isInstant, type SocialAccount } from "./social.schema.ts";
 export const BRIGHTDATA_DATASET = "gd_lu702nij2f790tmv9h";
 export const BRIGHTDATA_PROVIDER = "brightdata-tiktok-posts";
 export const BRIGHTDATA_MONTHLY_LIMIT = 4000;
+export const TIKTOK_AUTO_ARTISTS = [
+  "twice",
+  "stray-kids",
+  "nmixx",
+  "nexz",
+  "itzy",
+  "niziu",
+] as const;
+export function selectAutomaticAccounts(accounts: SocialAccount[]) {
+  return TIKTOK_AUTO_ARTISTS.map((id) => {
+    const matches = accounts.filter(
+      (a) =>
+        a.platform === "tiktok" &&
+        a.artistId === id &&
+        a.verificationStatus === "verified",
+    );
+    if (matches.length !== 1)
+      throw new Error("INVALID_VERIFIED_ACCOUNT_COVERAGE");
+    return matches[0];
+  });
+}
 export type BrightDataSource = {
   artistId: string;
   accountUrl: string;
@@ -42,7 +63,7 @@ export function parseBrightDataStatus(
   try {
     const r = raw as BrightDataStatus,
       b = r.budget;
-    const targets = accounts.filter((a) => a.platform === "tiktok");
+    const targets = selectAutomaticAccounts(accounts);
     if (
       r.schemaVersion !== 1 ||
       r.provider !== BRIGHTDATA_PROVIDER ||

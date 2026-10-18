@@ -1,7 +1,6 @@
 import { readFile, mkdir, open, unlink } from "node:fs/promises";
 import { resolve } from "node:path";
 import { pathToFileURL } from "node:url";
-import { execFileSync } from "node:child_process";
 import { loadSocialAccounts, loadSocial } from "../social-sync/index.mjs";
 import { atomicJson } from "../sync-status.mjs";
 import {
@@ -13,6 +12,7 @@ import {
   BRIGHTDATA_PROVIDER,
   BRIGHTDATA_MONTHLY_LIMIT,
   parseBrightDataStatus,
+  selectAutomaticAccounts,
 } from "../../data/schemas/brightdata.schema.ts";
 import {
   BrightDataError,
@@ -28,8 +28,9 @@ import {
   collectProfile,
   normalizeRows,
   mergeBrightData,
+  failedRowEvidence,
 } from "./adapter.mjs";
-import { pushSyncChanges } from "../push-sync-changes.mjs";
+import { gitBudgetStore } from "./budget-store.mjs";
 
 export function emptyBrightDataStatus(accounts) {
   return {
@@ -47,20 +48,18 @@ export function emptyBrightDataStatus(accounts) {
       paidSpendUsd: null,
       confirmationValidUntil: null,
     },
-    sources: accounts
-      .filter((a) => a.platform === "tiktok")
-      .map((a) => ({
-        artistId: a.artistId,
-        accountUrl: a.accountUrl,
-        state: "not-configured",
-        lastAttemptAt: null,
-        lastSuccessAt: null,
-        lastContentChangeAt: null,
-        newCount: null,
-        updatedCount: null,
-        returnedCount: null,
-        error: null,
-      })),
+    sources: selectAutomaticAccounts(accounts).map((a) => ({
+      artistId: a.artistId,
+      accountUrl: a.accountUrl,
+      state: "not-configured",
+      lastAttemptAt: null,
+      lastSuccessAt: null,
+      lastContentChangeAt: null,
+      newCount: null,
+      updatedCount: null,
+      returnedCount: null,
+      error: null,
+    })),
   };
 }
 async function readJson(file) {
@@ -77,6 +76,7 @@ export async function syncBrightData({
   sleep,
   maxPolls,
   persistBudget,
+  budgetStore,
   slot,
 } = {}) {
   const now = clock();
@@ -90,12 +90,19 @@ export async function syncBrightData({
   )
     throw new BrightDataError("INVALID_BRIGHTDATA_OPTIONS");
   const accounts = await loadSocialAccounts(root),
-    targets = accounts.filter(
-      (a) =>
-        a.platform === "tiktok" && (artist === "all" || a.artistId === artist),
+    automatic = selectAutomaticAccounts(accounts),
+    targets = automatic.filter(
+      (a) => artist === "all" || a.artistId === artist,
     );
+  const scope = await readJson(
+    resolve(root, "providers/tiktok-auto-scope.json"),
+  );
   if (
-    accounts.filter((a) => a.platform === "tiktok").length !== 8 ||
+    scope.schemaVersion !== 1 ||
+    scope.perAccountLimit !== 8 ||
+    scope.schedule !== "0 0,12 * * *" ||
+    JSON.stringify(scope.artistIds) !==
+      JSON.stringify(automatic.map((a) => a.artistId)) ||
     !targets.length
   )
     throw new BrightDataError("INVALID_VERIFIED_ACCOUNT_COVERAGE");
@@ -116,6 +123,19 @@ export async function syncBrightData({
     sources: [],
     preview: [],
     budget: null,
+    liveValidation: {
+      requestSent: false,
+      apiReturned: false,
+      taskSubmitted: false,
+      snapshotIds: [],
+      resultDownloaded: false,
+      returnedCount: null,
+      authorValidated: false,
+      newestPublishedAt: null,
+      billingVerified: false,
+      playerPlaybackVerified: false,
+    },
+    failedRecords: [],
   };
   if (mode === "plan") {
     let reason = null;
@@ -150,6 +170,7 @@ export async function syncBrightData({
   const persist = async () => {
     parseLedger(ledger);
     await atomicJson(ledgerFile, ledger);
+    if (budgetStore) await budgetStore.save(ledger);
     if (persistBudget) await persistBudget();
   };
   const updateBudget = (permission = null) => {
@@ -170,7 +191,13 @@ export async function syncBrightData({
     summary.budget = status.budget;
   };
   try {
-    ledger = parseLedger(await readJson(ledgerFile));
+    ledger = parseLedger(
+      budgetStore &&
+        env.BRIGHT_DATA_API_KEY &&
+        env.BRIGHTDATA_TIKTOK_ENABLED === "true"
+        ? await budgetStore.load(ledger)
+        : await readJson(ledgerFile),
+    );
     const runSlot = checkSlot(now, mode, slot);
     const unreserved = targets.filter(
       (a) =>
@@ -239,16 +266,26 @@ export async function syncBrightData({
         await persist();
         const result = await collectProfile(account, {
           limit,
-          token: env.BRIGHTDATA_API_TOKEN,
+          token: env.BRIGHT_DATA_API_KEY,
           fetcher: async (...args) => {
             summary.requests++;
+            summary.liveValidation.requestSent = true;
             return fetcher(...args);
           },
           sleep,
           maxPolls,
           onSnapshot: async (id) => {
+            summary.liveValidation.apiReturned = true;
+            summary.liveValidation.taskSubmitted = true;
+            summary.liveValidation.snapshotIds.push(id);
             reservation.snapshotId = id;
             await persist();
+          },
+          onRows: async (rows) => {
+            summary.liveValidation.resultDownloaded = true;
+            if (Array.isArray(rows))
+              summary.liveValidation.returnedCount =
+                (summary.liveValidation.returnedCount ?? 0) + rows.length;
           },
           onTerminal: async () => {
             reservation.state = "failed";
@@ -257,6 +294,10 @@ export async function syncBrightData({
           },
         });
         const completed = clock();
+        summary.liveValidation.apiReturned = true;
+        summary.failedRecords.push(
+          ...failedRowEvidence(result.rows, account, result.snapshotId),
+        );
         if (
           !isInstant(completed) ||
           Date.parse(completed) < Date.parse(attempt)
@@ -274,10 +315,20 @@ export async function syncBrightData({
         });
         if (mode === "probe" && !incoming.length)
           throw new BrightDataError("BRIGHTDATA_EMPTY_PROBE");
-        const merged = mergeBrightData(snapshot, incoming);
+        const merged = mergeBrightData(snapshot, incoming, {
+          onlyNew: mode === "sync",
+        });
         if (!parseSocialSnapshot(merged.snapshot, "tiktok", accounts))
           throw new BrightDataError("BRIGHTDATA_CONTENT_VALIDATION_FAILED");
         summary.connected = true;
+        summary.liveValidation.authorValidated = true;
+        for (const item of incoming)
+          if (
+            !summary.liveValidation.newestPublishedAt ||
+            Date.parse(item.publishedAt) >
+              Date.parse(summary.liveValidation.newestPublishedAt)
+          )
+            summary.liveValidation.newestPublishedAt = item.publishedAt;
         summary.preview.push(
           ...incoming.map((i) => ({
             id: i.id,
@@ -300,7 +351,7 @@ export async function syncBrightData({
         });
         if (mode === "sync") {
           snapshot = merged.snapshot;
-          contentChanged = true;
+          contentChanged ||= merged.newCount > 0;
         }
       } catch (e) {
         const error = safeBrightDataError(e);
@@ -369,20 +420,21 @@ if (
     const mode = get("mode") ?? "plan";
     const persistGit = process.argv.includes("--persist-git");
     if (
-      persistGit &&
-      execFileSync("git", ["branch", "--show-current"], {
-        encoding: "utf8",
-      }).trim() !== "main"
+      mode !== "plan" &&
+      process.env.BRIGHT_DATA_API_KEY &&
+      process.env.GITHUB_ACTIONS !== "true"
     )
-      throw new BrightDataError("LIVE_WORKFLOW_REQUIRES_MAIN");
+      throw new BrightDataError("LIVE_REQUESTS_REQUIRE_GITHUB_ACTIONS");
+    if (mode !== "plan" && process.env.BRIGHT_DATA_API_KEY && !persistGit)
+      throw new BrightDataError("DURABLE_REMOTE_BUDGET_REQUIRED");
     const result = await syncBrightData({
       mode,
       artist: get("artist") ?? "all",
       limit: Number(get("limit") ?? (mode === "probe" ? 1 : 8)),
-      persistBudget: persistGit
-        ? async () => {
-            pushSyncChanges({ scope: "brightdata-budget" });
-          }
+      budgetStore: persistGit
+        ? gitBudgetStore({
+            allowCreate: process.env.BRIGHTDATA_BUDGET_INITIALIZE === "true",
+          })
         : undefined,
     });
     console.log(JSON.stringify(result, null, 2));
@@ -393,8 +445,13 @@ if (
     )
       process.exitCode = 1;
   } catch (e) {
-    console.error(
-      JSON.stringify({ error: safeBrightDataError(e), connected: false }),
+    console.log(
+      JSON.stringify({
+        error: safeBrightDataError(e),
+        connected: false,
+        requestSent: null,
+        contentWrites: null,
+      }),
     );
     process.exitCode = 1;
   }

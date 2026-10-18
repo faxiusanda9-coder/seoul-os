@@ -13,6 +13,30 @@ import { BrightDataError } from "./budget.mjs";
 const origin = "https://api.brightdata.com";
 const snapshotId = (value) =>
   typeof value === "string" && /^s(?:d)?_[A-Za-z0-9]{5,80}$/.test(value);
+export function failedRowEvidence(rows, account, id) {
+  return rows.flatMap((row, index) => {
+    if (!row?.error && !row?.error_code) return [];
+    const url = row.input?.url,
+      identity = typeof url === "string" ? socialIdentity("tiktok", url) : null;
+    return [
+      {
+        index,
+        artistId: account.artistId,
+        snapshotId: id,
+        code:
+          row.error_code === "dead_page"
+            ? "PROVIDER_DEAD_PAGE"
+            : row.error_code === "wait_element_timeout"
+              ? "PROVIDER_WAIT_ELEMENT_TIMEOUT"
+              : "PROVIDER_RECORD_ERROR",
+        ...(identity?.handle === account.handle.toLowerCase()
+          ? { sourceUrl: url }
+          : {}),
+        ...(isInstant(row.timestamp) ? { capturedAt: row.timestamp } : {}),
+      },
+    ];
+  });
+}
 export function triggerRequest(account, limit) {
   if (
     account.platform !== "tiktok" ||
@@ -111,6 +135,7 @@ export async function collectProfile(
     sleep = (ms) => new Promise((r) => setTimeout(r, ms)),
     onSnapshot = async () => {},
     onTerminal = async () => {},
+    onRows = async () => {},
     maxPolls = 24,
   } = {},
 ) {
@@ -152,6 +177,7 @@ export async function collectProfile(
         `/datasets/v3/snapshot/${id}?format=json`,
         { token, fetcher, deadline },
       );
+      await onRows(rows);
       if (!Array.isArray(rows) || rows.length > limit)
         throw new BrightDataError("BRIGHTDATA_RESULT_LIMIT_OR_FORMAT");
       return { snapshotId: id, rows };
@@ -195,8 +221,12 @@ export function normalizeRows(
       !identity ||
       identity.id !== `tt-${row.post_id}` ||
       identity.handle !== handle ||
+      // Bright Data's profile_username is the display name (for example
+      // "ITZY"), while account_id and profile_url identify the handle.
+      typeof row.account_id !== "string" ||
+      row.account_id.toLowerCase() !== handle ||
       typeof row.profile_username !== "string" ||
-      row.profile_username.toLowerCase() !== handle ||
+      !row.profile_username.trim() ||
       canonicalAccount("tiktok", row.profile_url) !== account.accountUrl ||
       (row.discovery_input?.url &&
         canonicalAccount("tiktok", row.discovery_input.url) !==
@@ -256,7 +286,7 @@ export function normalizeRows(
   }
   return [...seen.values()];
 }
-export function mergeBrightData(snapshot, incoming) {
+export function mergeBrightData(snapshot, incoming, { onlyNew = false } = {}) {
   const next = new Map(snapshot.items.map((i) => [i.id, i]));
   let newCount = 0,
     updatedCount = 0;
@@ -274,6 +304,7 @@ export function mergeBrightData(snapshot, incoming) {
       continue;
     }
     // Preserve manual/official provenance, source removal, bookmarks and embed evidence.
+    if (onlyNew) continue;
     const merged =
       old.acquisitionMethod === "third-party-api"
         ? {

@@ -85,30 +85,6 @@
       "updatedCount": null,
       "returnedCount": null,
       "error": null
-    },
-    {
-      "artistId": "boy-story",
-      "accountUrl": "https://www.tiktok.com/@boystory_official_2018/",
-      "state": "not-configured",
-      "lastAttemptAt": null,
-      "lastSuccessAt": null,
-      "lastContentChangeAt": null,
-      "newCount": null,
-      "updatedCount": null,
-      "returnedCount": null,
-      "error": null
-    },
-    {
-      "artistId": "girlset",
-      "accountUrl": "https://www.tiktok.com/@girlset/",
-      "state": "not-configured",
-      "lastAttemptAt": null,
-      "lastSuccessAt": null,
-      "lastContentChangeAt": null,
-      "newCount": null,
-      "updatedCount": null,
-      "returnedCount": null,
-      "error": null
     }
   ]
 }

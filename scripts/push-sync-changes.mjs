@@ -3,7 +3,7 @@ import { resolve } from "node:path";
 import { pathToFileURL } from "node:url";
 const scopes = {
   'brightdata-budget': ['data/usage/brightdata-tiktok.json'],
-  'brightdata': ['data/social/tiktok/items.json', 'data/status/brightdata-tiktok.json'],
+  'brightdata': ['data/social/tiktok/items.json', 'data/status/brightdata-tiktok.json', 'data/usage/brightdata-tiktok.json'],
   social: [
     "data/social/instagram/items.json",
     "data/social/tiktok/items.json",

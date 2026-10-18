@@ -1,5 +1,7 @@
 # Bright Data TikTok：安全开通步骤
 
+> 本页为旧阶段配置记录，不能继续使用其中旧密钥名、八账号范围或本地 live 方式。[Phase 3.4 当前开通指南](../phase-3.4/setup.md)已改为 BRIGHT_DATA_API_KEY、六团和 Actions 共享预算。
+
 现状：代码准备阶段，缺 Token，未真实接通，未合并/部署。不要把测试夹具当成账户授权或费用核验。
 
 ## 1. 核实账户与用途

@@ -1,0 +1,51 @@
+{
+  "checkedAt": "2026-10-18T15:59:38.794Z",
+  "sourceWorkspacePreserved": true,
+  "fingerprints": [
+    {
+      "path": "data/social/tiktok/items.json",
+      "sha256": "3e3eec2fc0dcf3e553a03056e949c2080248ad6de122cd3a5b32868e1defc27e",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/brightdata-tiktok/adapter.mjs",
+      "sha256": "9e7d4752340c3e88b9347a3614103464d63035b7057a8f91898ba53ef98d1f4f",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/brightdata-tiktok/import-file.mjs",
+      "sha256": "2a12e41877e19a736160fe6c06cacce2a1a1b27ae884525a4dc508aba29e9096",
+      "unchanged": true
+    },
+    {
+      "path": "tests/brightdata-tiktok.test.mjs",
+      "sha256": "7c3a4ab4716c95acf96301823bf5766690096f648753fc376146adf68bdc3ead",
+      "unchanged": true
+    }
+  ],
+  "sourceGitStatus": "M data/social/tiktok/items.json\n M scripts/brightdata-tiktok/adapter.mjs\n M tests/brightdata-tiktok.test.mjs\n?? scripts/brightdata-tiktok/import-file.mjs",
+  "otherPlatformFilesEqualToMain": [
+    ".github/workflows/youtube-sync.yml",
+    ".github/workflows/social-sync.yml",
+    ".github/workflows/calendar-sync.yml",
+    ".github/workflows/deploy.yml",
+    "data/youtube",
+    "data/calendar",
+    "data/social/instagram/items.json",
+    "data/social/accounts.json"
+  ],
+  "baselineMain": "42b260763711be7d31b523bec2b0f23bf042e988",
+  "automatedTests": {
+    "passed": 99,
+    "failed": 0
+  },
+  "typeCheck": "passed",
+  "productionBuild": "passed",
+  "browserGroups": {
+    "social": 11,
+    "discovery": 5,
+    "brightdata": 5
+  },
+  "realBrightDataRequests": 0,
+  "productionDeployed": false
+}

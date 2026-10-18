@@ -36,7 +36,8 @@
     "test:discovery:ui": "node scripts/test-social-discovery-ui.mjs",
     "sync:brightdata:tiktok": "node scripts/brightdata-tiktok/sync.mjs",
     "test:brightdata": "node --test tests/brightdata-tiktok.test.mjs",
-    "test:brightdata:ui": "node scripts/test-brightdata-ui.mjs"
+    "test:brightdata:ui": "node scripts/test-brightdata-ui.mjs",
+    "import:brightdata:tiktok": "node scripts/brightdata-tiktok/import-file.mjs"
   },
   "dependencies": {
     "date-fns": "^4.4.0",

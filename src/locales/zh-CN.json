@@ -405,5 +405,6 @@
   "brightdata.reservationMeaning": "预留按返回上限计算，包含旧视频重复读取和不确定任务，不等于新增数量或实际账单。",
   "brightdata.reason": "暂停或失败原因",
   "brightdata.content": "Bright Data 第三方获取 · 作者匹配",
-  "brightdata.evidence": "第三方视频 ID：{id} · 作者：@{author}；不是 TikTok 官方 API 授权数据。"
+  "brightdata.evidence": "第三方视频 ID：{id} · 作者：@{author}；不是 TikTok 官方 API 授权数据。",
+  "brightdata.outOfScope": "本轮未纳入自动采集，仍保留已有内容与人工入口。"
 }

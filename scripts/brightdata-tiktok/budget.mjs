@@ -75,7 +75,7 @@ export function reservedThisMonth(ledger, month) {
     .reduce((n, r) => n + r.limit, 0);
 }
 export function checkPermissionAndBudget(env, ledger, now, requested) {
-  if (!env.BRIGHTDATA_API_TOKEN?.trim())
+  if (!env.BRIGHT_DATA_API_KEY?.trim())
     throw new BrightDataError("BRIGHTDATA_TOKEN_MISSING");
   if (env.BRIGHTDATA_TIKTOK_ENABLED !== "true")
     throw new BrightDataError("BRIGHTDATA_NOT_ENABLED");

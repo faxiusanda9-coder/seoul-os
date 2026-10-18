@@ -1,5 +1,7 @@
 # Bright Data TikTok Posts：开发分支验收
 
+> 这是 Phase 3.3 的历史记录。当前六团范围、BRIGHT_DATA_API_KEY、共享预算及实际导入结果，以 [Phase 3.4 验收](../phase-3.4/acceptance.md) 和[开通指南](../phase-3.4/setup.md)为准；不要使用下文旧八账号参数执行采集。
+
 核实日期：2026-10-18。基线：`fba011760d29ec39f44874c571e22b4854bd1abb`；分支：`feat/brightdata-tiktok`。开始时工作区干净。未覆盖个人未提交改动，未合并、未部署或修改线上 Secrets。
 
 ## 当前结论

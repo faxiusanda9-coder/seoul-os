@@ -9,6 +9,12 @@ import { syncBrightData } from "./brightdata-tiktok/sync.mjs";
 const temp = await mkdtemp(join(tmpdir(), "seoul-brightdata-ui-"));
 let browser;
 const checks = [];
+const currentTikTok = JSON.parse(
+  await readFile("data/social/tiktok/items.json", "utf8"),
+);
+const expectedItzy = currentTikTok.items.filter(
+  (i) => i.artistId === "itzy",
+).length;
 try {
   await cp(resolve("data"), join(temp, "data"), { recursive: true });
   const now = new Date().toISOString(),
@@ -37,7 +43,8 @@ try {
         {
           url: `https://www.tiktok.com/@itzyofficial/video/${fixtureId}`,
           post_id: fixtureId,
-          profile_username: "itzyofficial",
+          profile_username: "ITZY",
+          account_id: "itzyofficial",
           profile_url: "https://www.tiktok.com/@itzyofficial/",
           post_type: "video",
           create_time: now,
@@ -50,7 +57,7 @@ try {
     mode: "sync",
     artist: "itzy",
     env: {
-      BRIGHTDATA_API_TOKEN: "PRIVATE_ENGINEERING_FIXTURE_ONLY",
+      BRIGHT_DATA_API_KEY: "PRIVATE_ENGINEERING_FIXTURE_ONLY",
       BRIGHTDATA_TIKTOK_ENABLED: "true",
       BRIGHTDATA_ZERO_COST_APPROVAL_JSON: JSON.stringify({
         schemaVersion: 1,
@@ -103,7 +110,10 @@ try {
   const url = site + "#/media?artist=itzy&platform=tiktok";
   await page.goto(url, { waitUntil: "networkidle" });
   await page.getByText("Bright Data 尚未接通", { exact: true }).waitFor();
-  assert.equal(await page.locator(".social-grid > .social-card").count(), 5);
+  assert.equal(
+    await page.locator(".social-grid > .social-card").count(),
+    expectedItzy,
+  );
   assert.equal(await page.locator("iframe").count(), 0);
   assert.equal(external.length, 0);
   await page.locator(".brightdata-status summary").click();
@@ -111,7 +121,7 @@ try {
     .getByText("付费上限 $0；实际账单未通过 API 核实", { exact: true })
     .waitFor();
   checks.push(
-    "Real not-configured status, five existing ITZY cards, no false discovery or billing success",
+    `Real not-configured status, ${expectedItzy} existing ITZY cards, no false discovery or billing success`,
   );
   await mkdir("test-results", { recursive: true });
   await page.screenshot({

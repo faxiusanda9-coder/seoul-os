@@ -405,5 +405,6 @@
   "brightdata.reservationMeaning": "Reservations include repeated old videos and uncertain jobs. They are upper bounds, not new-item counts or actual bills.",
   "brightdata.reason": "Pause or failure reason",
   "brightdata.content": "Bright Data third-party retrieval; author matched",
-  "brightdata.evidence": "Third-party video ID: {id}; author: @{author}. Not TikTok official API authorization."
+  "brightdata.evidence": "Third-party video ID: {id}; author: @{author}. Not TikTok official API authorization.",
+  "brightdata.outOfScope": "Outside this automatic collection scope; existing content and reviewed links remain available."
 }

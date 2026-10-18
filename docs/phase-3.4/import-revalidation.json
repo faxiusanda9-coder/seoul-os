@@ -1,0 +1,130 @@
+{
+  "mode": "real supplied export revalidation; NOT a live API call",
+  "sourceSha256": "2412385315ea708f811889f22411d1958b2d2561c3427686c6ca7aa5d79f4883",
+  "rawPayloadCopied": false,
+  "requests": 0,
+  "accepted": 57,
+  "new": 45,
+  "updated": 0,
+  "enriched": 12,
+  "failed": 3,
+  "accounts": {
+    "twice": {
+      "handle": "twice_tiktok_official",
+      "rows": 10,
+      "valid": 9,
+      "duplicate": 0,
+      "new": 5,
+      "updated": 0,
+      "enriched": 4,
+      "newestCapturedAt": "2026-10-18T14:32:05.704Z",
+      "newestPublishedAt": "2026-10-15T09:00:34.000Z",
+      "failures": [
+        {
+          "index": 1,
+          "code": "PROVIDER_DEAD_PAGE",
+          "sourceUrl": "https://www.tiktok.com/@twice_tiktok_official/video/7696754928999517461",
+          "capturedAt": "2026-10-18T14:28:11.620Z"
+        }
+      ]
+    },
+    "stray-kids": {
+      "handle": "jypestraykids",
+      "rows": 10,
+      "valid": 9,
+      "duplicate": 0,
+      "new": 5,
+      "updated": 0,
+      "enriched": 4,
+      "newestCapturedAt": "2026-10-18T14:42:37.746Z",
+      "newestPublishedAt": "2026-10-11T07:56:12.000Z",
+      "failures": [
+        {
+          "index": 2,
+          "code": "PROVIDER_WAIT_ELEMENT_TIMEOUT",
+          "sourceUrl": "https://www.tiktok.com/@jypestraykids/video/7692365601884425492",
+          "capturedAt": "2026-10-18T14:42:37.746Z"
+        }
+      ]
+    },
+    "nmixx": {
+      "handle": "nmixx_official",
+      "rows": 10,
+      "valid": 10,
+      "duplicate": 0,
+      "new": 6,
+      "updated": 0,
+      "enriched": 4,
+      "newestCapturedAt": "2026-10-18T14:32:16.829Z",
+      "newestPublishedAt": "2026-10-18T11:28:00.000Z",
+      "failures": []
+    },
+    "itzy": {
+      "handle": "itzyofficial",
+      "rows": 10,
+      "valid": 9,
+      "duplicate": 0,
+      "new": 9,
+      "updated": 0,
+      "enriched": 0,
+      "newestCapturedAt": "2026-10-18T14:37:28.031Z",
+      "newestPublishedAt": "2026-10-16T05:00:00.000Z",
+      "failures": [
+        {
+          "index": 0,
+          "code": "PROVIDER_DEAD_PAGE",
+          "sourceUrl": "https://www.tiktok.com/@itzyofficial/video/7693500342285225237",
+          "capturedAt": "2026-10-18T14:27:42.394Z"
+        }
+      ]
+    },
+    "niziu": {
+      "handle": "niziu_official",
+      "rows": 10,
+      "valid": 10,
+      "duplicate": 0,
+      "new": 10,
+      "updated": 0,
+      "enriched": 0,
+      "newestCapturedAt": "2026-10-18T14:37:44.672Z",
+      "newestPublishedAt": "2026-10-18T08:01:46.000Z",
+      "failures": []
+    },
+    "nexz": {
+      "handle": "nexz_official",
+      "rows": 10,
+      "valid": 10,
+      "duplicate": 0,
+      "new": 10,
+      "updated": 0,
+      "enriched": 0,
+      "newestCapturedAt": "2026-10-18T14:32:27.232Z",
+      "newestPublishedAt": "2026-10-18T13:00:00.000Z",
+      "failures": []
+    },
+    "boy-story": {
+      "handle": "boystory_official_2018",
+      "rows": 0,
+      "valid": 0,
+      "duplicate": 0,
+      "new": 0,
+      "updated": 0,
+      "enriched": 0,
+      "newestCapturedAt": null,
+      "newestPublishedAt": null,
+      "failures": []
+    },
+    "girlset": {
+      "handle": "girlset",
+      "rows": 0,
+      "valid": 0,
+      "duplicate": 0,
+      "new": 0,
+      "updated": 0,
+      "enriched": 0,
+      "newestCapturedAt": null,
+      "newestPublishedAt": null,
+      "failures": []
+    }
+  }
+}

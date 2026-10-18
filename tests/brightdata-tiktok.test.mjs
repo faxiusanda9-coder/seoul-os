@@ -28,6 +28,7 @@ import { parseSocialSnapshot } from "../data/schemas/social.schema.ts";
 import { mergeDiscovered } from "../scripts/social-sync/discover.mjs";
 import { expireApiMetadata } from "../scripts/social-sync/retention.mjs";
 import { pushSyncChanges } from "../scripts/push-sync-changes.mjs";
+import { prepareFileImport } from "../scripts/brightdata-tiktok/import-file.mjs";
 const accounts = await loadSocialAccounts(),
   account = accounts.find(
     (a) => a.platform === "tiktok" && a.artistId === "itzy",
@@ -55,14 +56,15 @@ const approval = {
   baselineReservedRecords: 0,
 };
 const env = (patch = {}) => ({
-  BRIGHTDATA_API_TOKEN: "PRIVATE_FIXTURE_TOKEN",
+  BRIGHT_DATA_API_KEY: "PRIVATE_FIXTURE_TOKEN",
   BRIGHTDATA_TIKTOK_ENABLED: "true",
   BRIGHTDATA_ZERO_COST_APPROVAL_JSON: JSON.stringify({ ...approval, ...patch }),
 });
 const row = (patch = {}) => ({
   post_id: id,
   url: `https://www.tiktok.com/@itzyofficial/video/${id}`,
-  profile_username: "itzyofficial",
+  profile_username: "ITZY",
+  account_id: "itzyofficial",
   profile_url: account.accountUrl,
   post_type: "video",
   create_time: "2026-10-17T12:00:00+08:00",
@@ -223,7 +225,8 @@ test("provider ID precision, author links, timezone and video type validation re
   for (const patch of [
     { post_id: Number(id) },
     { post_id: "123" },
-    { profile_username: "fan_itzy" },
+    { profile_username: "" },
+    { account_id: "fan_itzy" },
     { profile_url: "https://www.tiktok.com/@fan/" },
     { url: `https://www.tiktok.com/@fan/video/${id}` },
     { url: `https://www.tiktok.com.evil.test/@itzyofficial/video/${id}` },
@@ -237,12 +240,89 @@ test("provider ID precision, author links, timezone and video type validation re
   ])
     assert.throws(() => normalized([row(patch)]));
   const tracked = normalized([row({ url: row().url + "?lang=ko" })])[0];
+  assert.equal(
+    normalized([row({ profile_username: "ITZY", account_id: "itzyofficial" })])
+      .length,
+    1,
+  );
   assert.equal(tracked.sourceUrl, row().url);
   assert.equal(tracked.thirdPartyEvidence.originalUrl, row().url + "?lang=ko");
   assert.equal(normalized([row(), row()]).length, 1);
   assert.throws(() =>
     normalized([row(), row({ create_time: "2026-10-16T00:00:00Z" })]),
   );
+});
+test("local snapshot import isolates failed rows, deduplicates IDs and omits signed media links", async () => {
+  const snapshot = JSON.parse(
+    await readFile("data/social/tiktok/items.json", "utf8"),
+  );
+  const capture = "2026-10-18T14:30:00.000Z";
+  const good = row({
+    profile_username: "ITZY",
+    account_id: "itzyofficial",
+    timestamp: capture,
+    description: "Verified provider caption",
+    video_url: "https://temporary.example/signed?token=PRIVATE",
+    cdn_url: "https://temporary.example/cdn?token=PRIVATE",
+  });
+  const bad = {
+    ...good,
+    post_id: "7686800836638330122",
+    account_id: "fan_itzy",
+  };
+  const { manifest, report } = prepareFileImport(
+    [
+      good,
+      good,
+      bad,
+      {
+        discovery_input: { url: account.accountUrl },
+        input: { url: good.url },
+        timestamp: capture,
+        error_code: "dead_page",
+        error: "Do not print this provider detail",
+      },
+    ],
+    accounts,
+    snapshot,
+    "sd_FIXTURE123",
+  );
+  assert.equal(report.accepted, 1);
+  assert.equal(report.accounts.itzy.duplicate, 1);
+  assert.deepEqual(
+    report.accounts.itzy.failures.map((f) => f.code),
+    ["BRIGHTDATA_AUTHOR_MISMATCH", "PROVIDER_DEAD_PAGE"],
+  );
+  assert.equal(report.accounts.itzy.failures[1].sourceUrl, good.url);
+  const item = manifest.items.find((i) => i.id === `tt-${id}`);
+  assert.equal(item.fetchedAt, capture);
+  assert.equal(item.publishedAt, good.create_time);
+  assert.equal(item.sourceUrl, good.url);
+  assert.equal(item.embedUrl, `https://www.tiktok.com/player/v1/${id}`);
+  assert.equal(
+    JSON.stringify({ manifest, report }).includes("temporary.example"),
+    false,
+  );
+  assert.equal(
+    JSON.stringify({ manifest, report }).includes("provider detail"),
+    false,
+  );
+  const manual = {
+    ...item,
+    acquisitionMethod: "manual-verified",
+    verificationStatus: "manual-verified",
+    publishedAt: null,
+  };
+  delete manual.thirdPartyEvidence;
+  const enrichment = prepareFileImport(
+    [good],
+    accounts,
+    { schemaVersion: 1, platform: "tiktok", items: [manual] },
+    "sd_FIXTURE123",
+  ).report.accounts.itzy;
+  assert.equal(enrichment.new, 0);
+  assert.equal(enrichment.updated, 0);
+  assert.equal(enrichment.enriched, 1);
 });
 test("durable reservation precedes POST, success time and zero-new check update independently", async (t) => {
   const root = await fixture(t);
@@ -320,7 +400,7 @@ test("POST is never retried after timeout; stop all remaining accounts; preserve
     },
   });
   assert.equal(calls, 1);
-  assert.equal(r.sources.length, 8);
+  assert.equal(r.sources.length, 6);
   assert.ok(
     r.sources
       .slice(1)
@@ -333,7 +413,7 @@ test("POST is never retried after timeout; stop all remaining accounts; preserve
 test("ready snapshot with wrong author or invalid dates never changes data or success time", async (t) => {
   const root = await fixture(t),
     before = await read(root, "social/tiktok/items.json");
-  const net = network([row({ profile_username: "fan" })]);
+  const net = network([row({ account_id: "fan" })]);
   const r = await execute(root, { fetcher: net.fetcher });
   assert.equal(r.sources[0].state, "failed");
   assert.equal(r.sources[0].lastSuccessAt, null);
@@ -420,7 +500,7 @@ test("strict monthly cap includes old video rereads and never resets a corrupt/m
   await rm(join(root, "usage/brightdata-tiktok.json"));
   await assert.rejects(() => execute(root));
 });
-test("all eight verified profiles are independently capped at eight; unverified artists cannot be requested", async (t) => {
+test("only six verified profiles are independently capped at eight; other artists cannot be requested", async (t) => {
   const root = await fixture(t),
     sent = [];
   let n = 0,
@@ -448,17 +528,18 @@ test("all eight verified profiles are independently capped at eight; unverified 
         post_id: video,
         url: `https://www.tiktok.com/@${last.handle}/video/${video}`,
         profile_username: last.handle,
+        account_id: last.handle,
         profile_url: last.accountUrl,
         discovery_input: { url: last.accountUrl },
       }),
     ]);
   };
   const result = await execute(root, { artist: "all", fetcher });
-  assert.equal(sent.length, 8);
-  assert.equal(new Set(sent).size, 8);
+  assert.equal(sent.length, 6);
+  assert.equal(new Set(sent).size, 6);
   assert.ok(result.sources.every((s) => s.state === "ok"));
-  assert.equal(result.budget.reservedRecords, 64);
-  assert.equal(result.requests, 24);
+  assert.equal(result.budget.reservedRecords, 48);
+  assert.equal(result.requests, 18);
   await assert.rejects(
     () => execute(root, { artist: "not-verified" }),
     /INVALID_VERIFIED_ACCOUNT_COVERAGE/,
@@ -628,9 +709,8 @@ test("manual and Display API provenance, playback/removal evidence and stable ID
     { schemaVersion: 1, platform: "tiktok", items: [third, enriched] },
     "2026-12-01T00:00:00Z",
   ).snapshot;
-  assert.equal(expired.items.length, 1);
-  assert.equal(expired.items[0].id, old.id);
-  assert.equal(expired.items[0].thirdPartyEvidence, undefined);
+  assert.equal(expired.items.length, 2);
+  assert.deepEqual(expired.items, [third, enriched]);
 });
 test("public schema rejects forged provider, identity and official-authorization labels", () => {
   const good = normalized()[0];
@@ -664,7 +744,7 @@ test("08/20 schedule, fresh success and blocked status are distinct from officia
   );
   assert.ok(parseBrightDataStatus(status, accounts));
   assert.ok(status.sources.every((s) => s.lastSuccessAt === null));
-  assert.equal(status.sources.length, 8);
+  assert.equal(status.sources.length, 6);
   assert.equal(
     brightDataOverdue(
       {

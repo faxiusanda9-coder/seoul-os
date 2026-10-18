@@ -1,0 +1,112 @@
+{
+  "snapshotId": "sd_mvdx30v5inbop8r5r",
+  "totalRows": 60,
+  "accepted": 57,
+  "unknown": [],
+  "accounts": {
+    "twice": {
+      "handle": "twice_tiktok_official",
+      "rows": 10,
+      "valid": 9,
+      "duplicate": 0,
+      "new": 5,
+      "updated": 4,
+      "newestCapturedAt": "2026-10-18T14:32:05.704Z",
+      "newestPublishedAt": "2026-10-15T09:00:34.000Z",
+      "failures": [
+        {
+          "index": 1,
+          "code": "PROVIDER_DEAD_PAGE"
+        }
+      ]
+    },
+    "stray-kids": {
+      "handle": "jypestraykids",
+      "rows": 10,
+      "valid": 9,
+      "duplicate": 0,
+      "new": 5,
+      "updated": 4,
+      "newestCapturedAt": "2026-10-18T14:42:37.746Z",
+      "newestPublishedAt": "2026-10-11T07:56:12.000Z",
+      "failures": [
+        {
+          "index": 2,
+          "code": "PROVIDER_WAIT_ELEMENT_TIMEOUT"
+        }
+      ]
+    },
+    "nmixx": {
+      "handle": "nmixx_official",
+      "rows": 10,
+      "valid": 10,
+      "duplicate": 0,
+      "new": 6,
+      "updated": 4,
+      "newestCapturedAt": "2026-10-18T14:32:16.829Z",
+      "newestPublishedAt": "2026-10-18T11:28:00.000Z",
+      "failures": []
+    },
+    "itzy": {
+      "handle": "itzyofficial",
+      "rows": 10,
+      "valid": 9,
+      "duplicate": 0,
+      "new": 9,
+      "updated": 0,
+      "newestCapturedAt": "2026-10-18T14:37:28.031Z",
+      "newestPublishedAt": "2026-10-16T05:00:00.000Z",
+      "failures": [
+        {
+          "index": 0,
+          "code": "PROVIDER_DEAD_PAGE"
+        }
+      ]
+    },
+    "niziu": {
+      "handle": "niziu_official",
+      "rows": 10,
+      "valid": 10,
+      "duplicate": 0,
+      "new": 10,
+      "updated": 0,
+      "newestCapturedAt": "2026-10-18T14:37:44.672Z",
+      "newestPublishedAt": "2026-10-18T08:01:46.000Z",
+      "failures": []
+    },
+    "nexz": {
+      "handle": "nexz_official",
+      "rows": 10,
+      "valid": 10,
+      "duplicate": 0,
+      "new": 10,
+      "updated": 0,
+      "newestCapturedAt": "2026-10-18T14:32:27.232Z",
+      "newestPublishedAt": "2026-10-18T13:00:00.000Z",
+      "failures": []
+    },
+    "boy-story": {
+      "handle": "boystory_official_2018",
+      "rows": 0,
+      "valid": 0,
+      "duplicate": 0,
+      "new": 0,
+      "updated": 0,
+      "newestCapturedAt": null,
+      "newestPublishedAt": null,
+      "failures": []
+    },
+    "girlset": {
+      "handle": "girlset",
+      "rows": 0,
+      "valid": 0,
+      "duplicate": 0,
+      "new": 0,
+      "updated": 0,
+      "newestCapturedAt": null,
+      "newestPublishedAt": null,
+      "failures": []
+    }
+  },
+  "wroteManifest": true
+}

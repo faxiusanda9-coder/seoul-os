@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import {
   parseBrightDataStatus,
   brightDataOverdue,
+  TIKTOK_AUTO_ARTISTS,
   type BrightDataStatus as Status,
 } from "../../data/schemas/brightdata.schema";
 import { verifiedMediaAccounts } from "../data/social";
@@ -30,6 +31,8 @@ export function BrightDataStatus({ artistId }: { artistId: string }) {
     return () => abort.abort();
   }, []);
   const s = data?.sources.find((s) => s.artistId === artistId);
+  if (!TIKTOK_AUTO_ARTISTS.some((id) => id === artistId))
+    return <p className="tiny-note">{t("brightdata.outOfScope")}</p>;
   if (
     !verifiedMediaAccounts.some(
       (a) => a.artistId === artistId && a.platform === "tiktok",
