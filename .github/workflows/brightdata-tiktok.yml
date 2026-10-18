@@ -3,27 +3,23 @@ on:
   schedule:
     # 08:00 and 20:00 Asia/Shanghai; scheduling may be delayed by GitHub.
     - cron: "0 0,12 * * *"
-  pull_request:
-    # Manual pre-merge probe: add this label to the same-repository PR.
-    # No production publish, and the same budget/permission gates still apply.
-    types: [labeled]
-    branches: [main]
   workflow_dispatch:
     inputs:
       mode:
-        description: plan is offline; probe reads one ITZY record; sync updates metadata
+        description: plan is offline; probe checks one ITZY record; sync requires separate schedule approval
         type: choice
         options: [plan, probe, sync]
         default: plan
 permissions:
-  contents: write
+  contents: read
 concurrency:
   # Same lock as the official social adapter, independent from its schedule.
   group: social-manifests
   cancel-in-progress: false
 jobs:
   sync:
-    if: github.event_name != 'pull_request' || (github.event.label.name == 'brightdata-probe' && github.event.pull_request.head.repo.full_name == github.repository && github.event.pull_request.head.ref == 'feat/brightdata-tiktok')
+    permissions:
+      contents: write # Shared budget branch; only after all preconditions pass.
     runs-on: ubuntu-latest
     timeout-minutes: 25
     outputs:
@@ -32,35 +28,37 @@ jobs:
     steps:
       - uses: actions/checkout@v7
         with:
-          ref: ${{ github.event.pull_request.head.sha || github.ref }}
+          ref: ${{ github.ref }}
       - uses: actions/setup-node@v7
         with:
           node-version: "24"
           cache: npm
-      - run: npm ci
-      # Validate before any potentially billable operation.
-      - run: node --test tests/*.test.mjs && npm run build
-      - name: Select an offline plan, one-record probe or main sync
-        id: mode
+      # No secrets or data/ reads in this gate. Disabled schedule writes only an artifact.
+      - name: Select mode and enforce separate schedule approval
+        id: launch
         env:
-          REQUESTED_MODE: ${{ inputs.mode || 'sync' }}
-          EVENT_NAME: ${{ github.event_name }}
-        shell: bash
-        run: |
-          mode="$REQUESTED_MODE"
-          if [[ "$EVENT_NAME" == 'pull_request' ]]; then
-            mode=probe
-          elif [[ "$GITHUB_REF" != 'refs/heads/main' && "$mode" != 'probe' ]]; then
-            mode=plan
-          fi
-          echo "mode=$mode" >> "$GITHUB_OUTPUT"
+          REQUESTED_MODE: ${{ inputs.mode || 'plan' }}
+          BRIGHTDATA_DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+          BRIGHTDATA_TIKTOK_SCHEDULE_ENABLED: ${{ vars.BRIGHTDATA_TIKTOK_SCHEDULE_ENABLED }}
+        run: node scripts/brightdata-tiktok/launch.mjs
+      - run: npm ci
+        if: steps.launch.outputs.execute == 'true'
+      # Validate reviewed default-branch code before any potentially billable operation.
+      - run: node --test tests/*.test.mjs && npm run build
+        if: steps.launch.outputs.execute == 'true'
+      - name: Offline plan without access to Bright Data secrets
+        if: steps.launch.outputs.execute == 'true' && steps.launch.outputs.mode == 'plan'
+        run: node scripts/brightdata-tiktok/sync.mjs --mode=plan > test-results/brightdata-summary.json
       - name: Bounded third-party check with durable free-budget reservation
         id: collect
+        if: steps.launch.outputs.execute == 'true' && steps.launch.outputs.mode != 'plan'
         continue-on-error: true
         env:
-          REQUESTED_MODE: ${{ steps.mode.outputs.mode }}
+          REQUESTED_MODE: ${{ steps.launch.outputs.mode }}
+          BRIGHTDATA_DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
           BRIGHT_DATA_API_KEY: ${{ secrets.BRIGHT_DATA_API_KEY }}
           BRIGHTDATA_TIKTOK_ENABLED: ${{ vars.BRIGHTDATA_TIKTOK_ENABLED }}
+          BRIGHTDATA_TIKTOK_SCHEDULE_ENABLED: ${{ vars.BRIGHTDATA_TIKTOK_SCHEDULE_ENABLED }}
           BRIGHTDATA_ZERO_COST_APPROVAL_JSON: ${{ secrets.BRIGHTDATA_ZERO_COST_APPROVAL_JSON }}
           BRIGHTDATA_BUDGET_INITIALIZE: ${{ vars.BRIGHTDATA_BUDGET_INITIALIZE }}
         shell: bash
@@ -84,7 +82,7 @@ jobs:
           retention-days: 7
       - name: Publish status and validated metadata only
         id: changes
-        if: always() && github.ref == 'refs/heads/main' && steps.mode.outputs.mode == 'sync'
+        if: ${{ !cancelled() && steps.launch.outputs.execute == 'true' && github.ref == format('refs/heads/{0}', github.event.repository.default_branch) && steps.launch.outputs.mode == 'sync' && (steps.collect.outcome == 'success' || steps.collect.outcome == 'failure') }}
         shell: bash
         run: |
           if [[ -n "$(git status --porcelain -- data/social/tiktok/items.json data/status/brightdata-tiktok.json data/usage/brightdata-tiktok.json)" ]]; then

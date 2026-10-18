@@ -31,6 +31,7 @@ import {
   failedRowEvidence,
 } from "./adapter.mjs";
 import { gitBudgetStore } from "./budget-store.mjs";
+import { emptyRunSummary } from "./launch.mjs";
 
 export function emptyBrightDataStatus(accounts) {
   return {
@@ -89,6 +90,16 @@ export async function syncBrightData({
     (mode === "probe" && (artist !== "itzy" || limit !== 1))
   )
     throw new BrightDataError("INVALID_BRIGHTDATA_OPTIONS");
+  const summary = emptyRunSummary(mode, now);
+  // A separate collection switch: manual probe permission cannot enable sync.
+  // Stop before reading data, acquiring locks or loading/persisting any ledger.
+  if (mode === "sync" && env.BRIGHTDATA_TIKTOK_SCHEDULE_ENABLED !== "true")
+    return {
+      ...summary,
+      executionStatus: "disabled",
+      reason: "SCHEDULE_NOT_ENABLED",
+      message: "定时采集尚未启用。",
+    };
   const accounts = await loadSocialAccounts(root),
     automatic = selectAutomaticAccounts(accounts),
     targets = automatic.filter(
@@ -113,31 +124,8 @@ export async function syncBrightData({
   const status = parseBrightDataStatus(await readJson(statusFile), accounts);
   if (!status) throw new BrightDataError("INVALID_BRIGHTDATA_STATUS");
   let ledger = parseLedger(await readJson(ledgerFile));
-  const summary = {
-    mode,
-    checkedAt: now,
-    provider: BRIGHTDATA_PROVIDER,
-    requests: 0,
-    connected: false,
-    contentWrites: 0,
-    sources: [],
-    preview: [],
-    budget: null,
-    liveValidation: {
-      requestSent: false,
-      apiReturned: false,
-      taskSubmitted: false,
-      snapshotIds: [],
-      resultDownloaded: false,
-      returnedCount: null,
-      authorValidated: false,
-      newestPublishedAt: null,
-      billingVerified: false,
-      playerPlaybackVerified: false,
-    },
-    failedRecords: [],
-  };
   if (mode === "plan") {
+    summary.executionStatus = "offline-plan";
     let reason = null;
     try {
       checkPermissionAndBudget(env, ledger, now, targets.length * limit);
@@ -419,13 +407,25 @@ if (
       throw new BrightDataError("INVALID_BRIGHTDATA_OPTIONS");
     const mode = get("mode") ?? "plan";
     const persistGit = process.argv.includes("--persist-git");
+    const live =
+      mode === "probe" ||
+      (mode === "sync" &&
+        process.env.BRIGHTDATA_TIKTOK_SCHEDULE_ENABLED === "true");
     if (
-      mode !== "plan" &&
+      live &&
       process.env.BRIGHT_DATA_API_KEY &&
       process.env.GITHUB_ACTIONS !== "true"
     )
       throw new BrightDataError("LIVE_REQUESTS_REQUIRE_GITHUB_ACTIONS");
-    if (mode !== "plan" && process.env.BRIGHT_DATA_API_KEY && !persistGit)
+    if (
+      live &&
+      process.env.BRIGHT_DATA_API_KEY &&
+      (!process.env.BRIGHTDATA_DEFAULT_BRANCH ||
+        process.env.GITHUB_REF !==
+          `refs/heads/${process.env.BRIGHTDATA_DEFAULT_BRANCH}`)
+    )
+      throw new BrightDataError("DEFAULT_BRANCH_REQUIRED");
+    if (live && process.env.BRIGHT_DATA_API_KEY && !persistGit)
       throw new BrightDataError("DURABLE_REMOTE_BUDGET_REQUIRED");
     const result = await syncBrightData({
       mode,
@@ -439,6 +439,7 @@ if (
     });
     console.log(JSON.stringify(result, null, 2));
     if (
+      mode !== "plan" &&
       result.sources.some((s) =>
         ["blocked", "not-configured", "failed"].includes(s.state),
       )

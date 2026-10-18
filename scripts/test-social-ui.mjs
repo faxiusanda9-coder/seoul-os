@@ -234,6 +234,8 @@ try {
       "ITZY",
   );
   const youtube = JSON.parse(await readFile("data/youtube/itzy.json", "utf8"));
+  // Artist text changes before its async channel snapshot replaces fallback cards.
+  await page.locator("#daily-feed .feed-image-link").nth(49).waitFor();
   const youtubeLinks = await page
     .locator("#daily-feed .feed-image-link")
     .evaluateAll((es) => es.map((a) => a.href));

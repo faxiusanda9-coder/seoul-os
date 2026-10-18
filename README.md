@@ -6,7 +6,7 @@ Instagram 播放排查与当前限制见 [Phase 3.1.1 修复报告](docs/phase-3
 
 **Phase 3.2：已实现 Instagram Business Discovery / TikTok Display API 适配器及北京时间每日 08:00、12:00、20:00 调度配置，当前缺少平台授权，真实开通账号为 0。** 本地清单校验与远程发现成功时间分开记录。见 [实施与验收](docs/phase-3.2-acceptance.md)、[应用、权限和 Secrets 配置](docs/phase-3.2-setup.md)。PR #2 已合并发布，配置发布不代表已获得平台授权。
 
-**Phase 3.4 Bright Data TikTok（开发分支，未上线）：** 已整合本地 57 条有效导入结果（45 新增、12 匹配旧记录），TikTok 清单 80 个唯一 ID。自动采集仅限 TWICE、Stray Kids、NMIXX、NEXZ、ITZY、NiziU；每日北京时间 08:00/20:00、每账号最多 8 条，内部月预留上限 4,000、额外付费上限 $0。唯一采集密钥为 Actions Secret `BRIGHT_DATA_API_KEY`；当前未配置，真实 API/定时/部署均未完成。见 [分阶段中文验收](docs/phase-3.4/acceptance.md)、[安全开通与共享预算维护](docs/phase-3.4/setup.md)。
+**Phase 3.4.1 Bright Data TikTok（开发分支，未上线）：** 保留 80 个唯一视频和原收藏 ID。六团采集为北京 08:00/20:00、每账号最多 8 条，内部月预留上限 4,000、额外付费上限 $0。新增独立变量 `BRIGHTDATA_TIKTOK_SCHEDULE_ENABLED`，缺失或非字符串 `true` 时停止同步，保持视频、预算和公开成功时间不变。流程改为：先在关闭采集时审查合并/发布 → 默认分支手动 ITZY 单条 probe → 实测、账单和许可核验并获批准后才开启定时。唯一实际采集密钥来源仍为 Actions Secret `BRIGHT_DATA_API_KEY`。本轮仅更新功能分支，不代表已合并、已连接 API 或已正式运行。见 [启动修复验收与开通步骤](docs/phase-3.4.1/acceptance.md)；历史导入证据见 [Phase 3.4](docs/phase-3.4/acceptance.md)。
 
 ## 本地运行
 
@@ -103,7 +103,7 @@ npm run test:brightdata
 
 人工导入的历史维护说明见 [Phase 3 实施与维护](docs/phase-3-official-media.md)；当前自动发现实现、限制和开通步骤以 [Phase 3.2 指南](docs/phase-3.2-setup.md) 为准。没有应用审批、授权令牌或可核实接口时，保留人工清单，不记录发现成功。
 
-历史播放证据见 [Phase 3.1 中文验收报告](docs/phase-3.1-acceptance.md)。本地当前 Instagram 78 条；TikTok 80 条包含原 35 条人工记录与 45 条第三方新记录，来源分别标记。开发分支导入不代表线上已更新；当前缺少真实 API 试读和使用条件证据，不合并、不发布生产。
+历史播放证据见 [Phase 3.1 中文验收报告](docs/phase-3.1-acceptance.md)。本地当前 Instagram 78 条；TikTok 80 条包含原 35 条人工记录与 45 条第三方新记录，来源分别标记。开发分支导入不代表线上已更新；维护者可按 Phase 3.4.1 指南在采集默认关闭时审查合并/发布，本轮没有执行合并或生产部署。
 
 ## 项目结构
 

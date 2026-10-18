@@ -58,6 +58,7 @@ const approval = {
 const env = (patch = {}) => ({
   BRIGHT_DATA_API_KEY: "PRIVATE_FIXTURE_TOKEN",
   BRIGHTDATA_TIKTOK_ENABLED: "true",
+  BRIGHTDATA_TIKTOK_SCHEDULE_ENABLED: "true",
   BRIGHTDATA_ZERO_COST_APPROVAL_JSON: JSON.stringify({ ...approval, ...patch }),
 });
 const row = (patch = {}) => ({

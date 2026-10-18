@@ -59,6 +59,7 @@ try {
     env: {
       BRIGHT_DATA_API_KEY: "PRIVATE_ENGINEERING_FIXTURE_ONLY",
       BRIGHTDATA_TIKTOK_ENABLED: "true",
+      BRIGHTDATA_TIKTOK_SCHEDULE_ENABLED: "true",
       BRIGHTDATA_ZERO_COST_APPROVAL_JSON: JSON.stringify({
         schemaVersion: 1,
         month,
@@ -179,10 +180,11 @@ try {
       `https://www.tiktok.com/player/v1/${fixtureId}?`,
     ),
   );
-  const frame = page
-    .frames()
-    .find((f) => f.url().includes("/player/v1/" + fixtureId));
-  assert.ok(frame);
+  // The iframe element can exist while its navigation is still about:blank.
+  // Locator auto-wait requires the controlled frame's actual button to load.
+  const frame = page.frameLocator(
+    `iframe[src^="https://www.tiktok.com/player/v1/${fixtureId}?"]`,
+  );
   await frame.getByRole("button", { name: "Simulate player failure" }).click();
   await card
     .getByText("站内播放暂不可用，原视频可能仍可访问。", { exact: true })

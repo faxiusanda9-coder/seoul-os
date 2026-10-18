@@ -54,6 +54,7 @@ const approval = {
 const env = {
   BRIGHT_DATA_API_KEY: "PRIVATE_PHASE34_ENGINEERING_ONLY",
   BRIGHTDATA_TIKTOK_ENABLED: "true",
+  BRIGHTDATA_TIKTOK_SCHEDULE_ENABLED: "true",
   BRIGHTDATA_ZERO_COST_APPROVAL_JSON: JSON.stringify(approval),
 };
 const ledger = () => ({
@@ -444,9 +445,12 @@ test("workflow binds required Secret, preserves scheduling and excludes probe br
   );
   assert.ok(!workflow.includes("secrets.BRIGHTDATA_API_TOKEN"));
   assert.match(workflow, /cron: "0 0,12 \* \* \*"/);
-  assert.match(workflow, /types: \[labeled\]/);
-  assert.match(workflow, /steps.mode.outputs.mode == 'sync'/);
-  assert.match(workflow, /github.ref == 'refs\/heads\/main'/);
+  assert.doesNotMatch(workflow, /pull_request|labeled|brightdata-probe/);
+  assert.match(workflow, /steps.launch.outputs.mode == 'sync'/);
+  assert.match(
+    workflow,
+    /github.ref == format\('refs\/heads\/\{0\}', github.event.repository.default_branch\)/,
+  );
   assert.match(workflow, /uses: .\/.github\/workflows\/deploy.yml/);
   assert.match(workflow, /group: social-manifests/);
   assert.doesNotMatch(workflow, /pull_request_target/);
