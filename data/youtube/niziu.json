@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUHp2q2i85qt_9nn2H7AvGOw",
   "artistId": "niziu",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-17T12:24:21.103Z",
+  "fetchedAt": "2026-10-18T12:24:00.538Z",
   "items": [
+    {
+      "id": "yt-WA0Kr3jL5eU",
+      "source": {
+        "platform": "youtube",
+        "videoId": "WA0Kr3jL5eU",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "#SourGrapes with #MINAMI @RESCENE_official 🍇 #리센느 #미나미#NiziU #니쥬 #NiziU_SourGrapes",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/WA0Kr3jL5eU/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/WA0Kr3jL5eU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/WA0Kr3jL5eU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/WA0Kr3jL5eU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/WA0Kr3jL5eU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/WA0Kr3jL5eU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-18T08:02:29.000Z",
+      "url": "https://www.youtube.com/watch?v=WA0Kr3jL5eU",
+      "fetchedAt": "2026-10-18T12:24:00.538Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-18T12:24:00.538Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-O0mhvDl9NB0",
       "source": {
@@ -2959,66 +3019,6 @@
       ],
       "publishedAt": "2026-10-08T04:30:22.000Z",
       "url": "https://www.youtube.com/watch?v=K2BWI_O3P38",
-      "fetchedAt": "2026-10-14T16:52:38.651Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.651Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-pOWGWfZXxzk",
-      "source": {
-        "platform": "youtube",
-        "videoId": "pOWGWfZXxzk",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "You you you you 🤗",
-      "description": "#MAKO #MAYA #MAYUKA #RIMA\n#NiziU #니쥬\n#SourGrapes\n#NiziU_SourGrapes",
-      "thumbnail": "https://i.ytimg.com/vi/pOWGWfZXxzk/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/pOWGWfZXxzk/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/pOWGWfZXxzk/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/pOWGWfZXxzk/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/pOWGWfZXxzk/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/pOWGWfZXxzk/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-08T03:36:14.000Z",
-      "url": "https://www.youtube.com/watch?v=pOWGWfZXxzk",
       "fetchedAt": "2026-10-14T16:52:38.651Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:38.651Z",
