@@ -1,0 +1,420 @@
+{
+  "checkedAt": "2026-10-18T06:53:36.987Z",
+  "mode": "configuration audit; no real platform API calls; user confirmed no credentials",
+  "rows": [
+    {
+      "artistId": "twice",
+      "instagram": {
+        "handle": "twicetagram",
+        "officialAccountUrl": "https://www.instagram.com/twicetagram/",
+        "method": "instagram-business-discovery",
+        "professionalType": "unknown",
+        "remoteCallAttempted": false,
+        "remoteSuccess": false,
+        "missing": [
+          "Meta app approval and permissions",
+          "Calling professional account and Facebook Page",
+          "Access token and caller IG ID"
+        ],
+        "state": "not-configured"
+      },
+      "tiktok": {
+        "handle": "twice_tiktok_official",
+        "officialAccountUrl": "https://www.tiktok.com/@twice_tiktok_official/",
+        "method": "tiktok-display-api",
+        "remoteCallAttempted": false,
+        "remoteSuccess": false,
+        "missing": [
+          "App approval",
+          "Target account OAuth grant",
+          "user.info.basic + user.info.profile + video.list"
+        ],
+        "state": "not-configured"
+      }
+    },
+    {
+      "artistId": "stray-kids",
+      "instagram": {
+        "handle": "realstraykids",
+        "officialAccountUrl": "https://www.instagram.com/realstraykids/",
+        "method": "instagram-business-discovery",
+        "professionalType": "unknown",
+        "remoteCallAttempted": false,
+        "remoteSuccess": false,
+        "missing": [
+          "Meta app approval and permissions",
+          "Calling professional account and Facebook Page",
+          "Access token and caller IG ID"
+        ],
+        "state": "not-configured"
+      },
+      "tiktok": {
+        "handle": "jypestraykids",
+        "officialAccountUrl": "https://www.tiktok.com/@jypestraykids/",
+        "method": "tiktok-display-api",
+        "remoteCallAttempted": false,
+        "remoteSuccess": false,
+        "missing": [
+          "App approval",
+          "Target account OAuth grant",
+          "user.info.basic + user.info.profile + video.list"
+        ],
+        "state": "not-configured"
+      }
+    },
+    {
+      "artistId": "itzy",
+      "instagram": {
+        "handle": "itzy.all.in.us",
+        "officialAccountUrl": "https://www.instagram.com/itzy.all.in.us/",
+        "method": "instagram-business-discovery",
+        "professionalType": "unknown",
+        "remoteCallAttempted": false,
+        "remoteSuccess": false,
+        "missing": [
+          "Meta app approval and permissions",
+          "Calling professional account and Facebook Page",
+          "Access token and caller IG ID"
+        ],
+        "state": "not-configured"
+      },
+      "tiktok": {
+        "handle": "itzyofficial",
+        "officialAccountUrl": "https://www.tiktok.com/@itzyofficial/",
+        "method": "tiktok-display-api",
+        "remoteCallAttempted": false,
+        "remoteSuccess": false,
+        "missing": [
+          "App approval",
+          "Target account OAuth grant",
+          "user.info.basic + user.info.profile + video.list"
+        ],
+        "state": "not-configured"
+      }
+    },
+    {
+      "artistId": "nmixx",
+      "instagram": {
+        "handle": "nmixx_official",
+        "officialAccountUrl": "https://www.instagram.com/nmixx_official/",
+        "method": "instagram-business-discovery",
+        "professionalType": "unknown",
+        "remoteCallAttempted": false,
+        "remoteSuccess": false,
+        "missing": [
+          "Meta app approval and permissions",
+          "Calling professional account and Facebook Page",
+          "Access token and caller IG ID"
+        ],
+        "state": "not-configured"
+      },
+      "tiktok": {
+        "handle": "nmixx_official",
+        "officialAccountUrl": "https://www.tiktok.com/@nmixx_official/",
+        "method": "tiktok-display-api",
+        "remoteCallAttempted": false,
+        "remoteSuccess": false,
+        "missing": [
+          "App approval",
+          "Target account OAuth grant",
+          "user.info.basic + user.info.profile + video.list"
+        ],
+        "state": "not-configured"
+      }
+    },
+    {
+      "artistId": "day6",
+      "instagram": {
+        "handle": "day6kilogram",
+        "officialAccountUrl": "https://www.instagram.com/day6kilogram/",
+        "method": "instagram-business-discovery",
+        "professionalType": "unknown",
+        "remoteCallAttempted": false,
+        "remoteSuccess": false,
+        "missing": [
+          "Meta app approval and permissions",
+          "Calling professional account and Facebook Page",
+          "Access token and caller IG ID"
+        ],
+        "state": "not-configured"
+      },
+      "tiktok": {
+        "handle": null,
+        "officialAccountUrl": null,
+        "method": null,
+        "remoteCallAttempted": false,
+        "remoteSuccess": false,
+        "missing": [
+          "Verified official account",
+          "Confirmed data access route"
+        ],
+        "state": "account-unverified"
+      }
+    },
+    {
+      "artistId": "xdinary-heroes",
+      "instagram": {
+        "handle": "xdinaryheroes_official",
+        "officialAccountUrl": "https://www.instagram.com/xdinaryheroes_official/",
+        "method": "instagram-business-discovery",
+        "professionalType": "unknown",
+        "remoteCallAttempted": false,
+        "remoteSuccess": false,
+        "missing": [
+          "Meta app approval and permissions",
+          "Calling professional account and Facebook Page",
+          "Access token and caller IG ID"
+        ],
+        "state": "not-configured"
+      },
+      "tiktok": {
+        "handle": null,
+        "officialAccountUrl": null,
+        "method": null,
+        "remoteCallAttempted": false,
+        "remoteSuccess": false,
+        "missing": [
+          "Verified official account",
+          "Confirmed data access route"
+        ],
+        "state": "account-unverified"
+      }
+    },
+    {
+      "artistId": "kickflip",
+      "instagram": {
+        "handle": "kickflip_jype",
+        "officialAccountUrl": "https://www.instagram.com/kickflip_jype/",
+        "method": "instagram-business-discovery",
+        "professionalType": "unknown",
+        "remoteCallAttempted": false,
+        "remoteSuccess": false,
+        "missing": [
+          "Meta app approval and permissions",
+          "Calling professional account and Facebook Page",
+          "Access token and caller IG ID"
+        ],
+        "state": "not-configured"
+      },
+      "tiktok": {
+        "handle": null,
+        "officialAccountUrl": null,
+        "method": null,
+        "remoteCallAttempted": false,
+        "remoteSuccess": false,
+        "missing": [
+          "Verified official account",
+          "Confirmed data access route"
+        ],
+        "state": "account-unverified"
+      }
+    },
+    {
+      "artistId": "niziu",
+      "instagram": {
+        "handle": "niziu_info_official",
+        "officialAccountUrl": "https://www.instagram.com/niziu_info_official/",
+        "method": "instagram-business-discovery",
+        "professionalType": "unknown",
+        "remoteCallAttempted": false,
+        "remoteSuccess": false,
+        "missing": [
+          "Meta app approval and permissions",
+          "Calling professional account and Facebook Page",
+          "Access token and caller IG ID"
+        ],
+        "state": "not-configured"
+      },
+      "tiktok": {
+        "handle": "niziu_official",
+        "officialAccountUrl": "https://www.tiktok.com/@niziu_official/",
+        "method": "tiktok-display-api",
+        "remoteCallAttempted": false,
+        "remoteSuccess": false,
+        "missing": [
+          "App approval",
+          "Target account OAuth grant",
+          "user.info.basic + user.info.profile + video.list"
+        ],
+        "state": "not-configured"
+      }
+    },
+    {
+      "artistId": "nexz",
+      "instagram": {
+        "handle": "real_nexz",
+        "officialAccountUrl": "https://www.instagram.com/real_nexz/",
+        "method": "instagram-business-discovery",
+        "professionalType": "unknown",
+        "remoteCallAttempted": false,
+        "remoteSuccess": false,
+        "missing": [
+          "Meta app approval and permissions",
+          "Calling professional account and Facebook Page",
+          "Access token and caller IG ID"
+        ],
+        "state": "not-configured"
+      },
+      "tiktok": {
+        "handle": "nexz_official",
+        "officialAccountUrl": "https://www.tiktok.com/@nexz_official/",
+        "method": "tiktok-display-api",
+        "remoteCallAttempted": false,
+        "remoteSuccess": false,
+        "missing": [
+          "App approval",
+          "Target account OAuth grant",
+          "user.info.basic + user.info.profile + video.list"
+        ],
+        "state": "not-configured"
+      }
+    },
+    {
+      "artistId": "jy-park",
+      "instagram": {
+        "handle": "asiansoul_jyp",
+        "officialAccountUrl": "https://www.instagram.com/asiansoul_jyp/",
+        "method": "instagram-business-discovery",
+        "professionalType": "unknown",
+        "remoteCallAttempted": false,
+        "remoteSuccess": false,
+        "missing": [
+          "Meta app approval and permissions",
+          "Calling professional account and Facebook Page",
+          "Access token and caller IG ID"
+        ],
+        "state": "not-configured"
+      },
+      "tiktok": {
+        "handle": null,
+        "officialAccountUrl": null,
+        "method": null,
+        "remoteCallAttempted": false,
+        "remoteSuccess": false,
+        "missing": [
+          "Verified official account",
+          "Confirmed data access route"
+        ],
+        "state": "account-unverified"
+      }
+    },
+    {
+      "artistId": "2pm",
+      "instagram": {
+        "handle": "real_2pmstagram",
+        "officialAccountUrl": "https://www.instagram.com/real_2pmstagram/",
+        "method": "instagram-business-discovery",
+        "professionalType": "unknown",
+        "remoteCallAttempted": false,
+        "remoteSuccess": false,
+        "missing": [
+          "Meta app approval and permissions",
+          "Calling professional account and Facebook Page",
+          "Access token and caller IG ID"
+        ],
+        "state": "not-configured"
+      },
+      "tiktok": {
+        "handle": null,
+        "officialAccountUrl": null,
+        "method": null,
+        "remoteCallAttempted": false,
+        "remoteSuccess": false,
+        "missing": [
+          "Verified official account",
+          "Confirmed data access route"
+        ],
+        "state": "account-unverified"
+      }
+    },
+    {
+      "artistId": "boy-story",
+      "instagram": {
+        "handle": "official_boystory",
+        "officialAccountUrl": "https://www.instagram.com/official_boystory/",
+        "method": "instagram-business-discovery",
+        "professionalType": "unknown",
+        "remoteCallAttempted": false,
+        "remoteSuccess": false,
+        "missing": [
+          "Meta app approval and permissions",
+          "Calling professional account and Facebook Page",
+          "Access token and caller IG ID"
+        ],
+        "state": "not-configured"
+      },
+      "tiktok": {
+        "handle": "boystory_official_2018",
+        "officialAccountUrl": "https://www.tiktok.com/@boystory_official_2018/",
+        "method": "tiktok-display-api",
+        "remoteCallAttempted": false,
+        "remoteSuccess": false,
+        "missing": [
+          "App approval",
+          "Target account OAuth grant",
+          "user.info.basic + user.info.profile + video.list"
+        ],
+        "state": "not-configured"
+      }
+    },
+    {
+      "artistId": "yaochen",
+      "instagram": {
+        "handle": "yao_chen0323",
+        "officialAccountUrl": "https://www.instagram.com/yao_chen0323/",
+        "method": "instagram-business-discovery",
+        "professionalType": "unknown",
+        "remoteCallAttempted": false,
+        "remoteSuccess": false,
+        "missing": [
+          "Meta app approval and permissions",
+          "Calling professional account and Facebook Page",
+          "Access token and caller IG ID"
+        ],
+        "state": "not-configured"
+      },
+      "tiktok": {
+        "handle": null,
+        "officialAccountUrl": null,
+        "method": null,
+        "remoteCallAttempted": false,
+        "remoteSuccess": false,
+        "missing": [
+          "Verified official account",
+          "Confirmed data access route"
+        ],
+        "state": "account-unverified"
+      }
+    },
+    {
+      "artistId": "girlset",
+      "instagram": {
+        "handle": "girlset",
+        "officialAccountUrl": "https://www.instagram.com/girlset/",
+        "method": "instagram-business-discovery",
+        "professionalType": "unknown",
+        "remoteCallAttempted": false,
+        "remoteSuccess": false,
+        "missing": [
+          "Meta app approval and permissions",
+          "Calling professional account and Facebook Page",
+          "Access token and caller IG ID"
+        ],
+        "state": "not-configured"
+      },
+      "tiktok": {
+        "handle": "girlset",
+        "officialAccountUrl": "https://www.tiktok.com/@girlset/",
+        "method": "tiktok-display-api",
+        "remoteCallAttempted": false,
+        "remoteSuccess": false,
+        "missing": [
+          "App approval",
+          "Target account OAuth grant",
+          "user.info.basic + user.info.profile + video.list"
+        ],
+        "state": "not-configured"
+      }
+    }
+  ]
+}

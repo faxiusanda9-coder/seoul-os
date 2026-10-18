@@ -1,0 +1,24 @@
+{
+  "id": "ig-Deiu8BPBfNn",
+  "checkedAt": "2026-10-17T16:38:46.742Z",
+  "popups": [],
+  "siteUrl": "http://localhost:5174/seoul-os/#/media?artist=itzy&platform=instagram",
+  "afterClickVideoCount": 0,
+  "retry1FrameCount": 1,
+  "retry2FrameCount": 1,
+  "widths": [
+    {
+      "width": 375,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 412,
+      "overflow": false
+    }
+  ],
+  "closedCleanly": true
+}

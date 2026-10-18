@@ -30,7 +30,10 @@
     "test:social": "node --test tests/social-media.test.mjs",
     "monitor:freshness": "node scripts/check-freshness.mjs",
     "test:social:ui": "node scripts/test-social-ui.mjs",
-    "verify:social:playback": "node scripts/verify-social-playback.mjs"
+    "verify:social:playback": "node scripts/verify-social-playback.mjs",
+    "discover:social": "node scripts/social-sync/discover.mjs",
+    "test:discovery": "node --test tests/social-discovery.test.mjs",
+    "test:discovery:ui": "node scripts/test-social-discovery-ui.mjs"
   },
   "dependencies": {
     "date-fns": "^4.4.0",
@@ -45,6 +48,7 @@
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.1.2",
+    "libsodium-wrappers": "^0.8.4",
     "playwright-core": "^1.64.1",
     "prettier": "^3.9.10",
     "tailwindcss": "^4.3.3",

@@ -2,6 +2,10 @@
 
 **Your K-pop Universe, Organized.** 一个独立的 JYP 粉丝网页应用。界面默认简体中文，保留英文编辑式标题。YouTube 视频由已核实的官方频道分别同步；SEOUL.OS 不是 JYP 或 YouTube 的官方产品。
 
+Instagram 播放排查与当前限制见 [Phase 3.1.1 修复报告](docs/phase-3.1.1-playback-repair.md)：已修复错误阻断与重试，目标 ITZY Reel 的官方嵌入仍仅提供封面，未恢复实际视频播放。
+
+**Phase 3.2：已实现 Instagram Business Discovery / TikTok Display API 适配器及北京时间每日 08:00、12:00、20:00 调度配置，当前缺少平台授权，真实开通账号为 0。** 本地清单校验与远程发现成功时间分开记录。见 [实施与验收](docs/phase-3.2-acceptance.md)、[应用、权限和 Secrets 配置](docs/phase-3.2-setup.md)。开发分支尚未合并，不能据此认定线上已开启自动发现。
+
 ## 本地运行
 
 需要 Node.js 24+ 和 npm。同步脚本使用 Node 的 TypeScript 类型剥离功能读取共享 schema。
@@ -82,18 +86,20 @@ npm run calendar:pilot:youtube -- --channel=twice
 - Phase 3.1 实际清单：Instagram 78 条（47 视频、31 图片／轮播帖子），TikTok 35 条单条视频。18 条 Instagram 视频真实站内播放、29 条标记受限、31 条帖子确认站内显示；TikTok 35 条真实站内播放。Instagram 默认显示全部内容，可筛选视频／帖子。官方账号预览位于单条库下方，不计入清单；未确认的标题、缩略图、发布时间留空。
 - 视频播放器和 Instagram 官方 `embed.js`、TikTok 官方账号 `embed.js` 均需主动同意后加载。单条 TikTok 使用官方 `/player/v1/<id>`。失败时保留外链。Instagram/TikTok 收藏沿用 Archive 的 `Watch Later`，只存稳定 ID、艺人、分类，不缓存社交视频或全文。
 - `data/status/{youtube,instagram,tiktok}.json` 区分 `lastAttemptAt`、`lastSuccessAt`、`lastContentChangeAt`、本次新增/更新、条数及失败来源。YouTube 用 `mode=api`；社交平台当前用 `mode=manual-validation`，成功只意味着本地清单校验，不代表访问原平台或发现新内容。没有历史检查记录时显示“暂无记录”，不伪填历史成功时间。
-- `.github/workflows/social-sync.yml` 在北京时间 08:10、20:10 只做本地清单验证和状态发布；不抓取 Instagram/TikTok。`freshness.yml` 在 09:45、21:45 检查记录是否超过 36 小时或失败。原 YouTube 三次计划、Calendar 两次计划保留。
+- Phase 3.2 的 `.github/workflows/social-sync.yml` 计划在北京时间 08:00、12:00、20:00 读取有条件授权的官方 API，并单独校验本地清单。`data/status/social-discovery.json` 记录真实远程发现状态；目前均为 not-configured。`freshness.yml` 在 09:45、13:45、21:45 检查应完成的自动发现窗口，本地清单校验仍单独监控。原 YouTube 三次计划、Calendar 两次计划保留；这些开发分支变更只有后续合并后才生效。
 
 ```bash
 npm run sync:social          # 本地格式/来源校验，无网络抓取
+npm run discover:social -- --platform=all --dry-run  # 官方 API 发现试读；当前缺凭证，预期退出 1
+npm run test:discovery
 npm run social:import -- --file=/path/to/reviewed-links.json --reviewer=MAINTAINER
 npm run monitor:freshness
 npm run test:social
 ```
 
-可导入的 JSON、人工审核步骤、平台 API 条件、权限及验收结果见 [Phase 3 实施与维护](docs/phase-3-official-media.md)。没有 Instagram/TikTok 应用审批、授权令牌或可核实接口时，不启用最新媒体自动发现。Instagram Business Discovery 在满足条件时可访问其他专业账号，不应被误写为“一定需要每位艺人 OAuth”；本阶段没有符合条件的应用和令牌，采用人工清单。
+人工导入的历史维护说明见 [Phase 3 实施与维护](docs/phase-3-official-media.md)；当前自动发现实现、限制和开通步骤以 [Phase 3.2 指南](docs/phase-3.2-setup.md) 为准。没有应用审批、授权令牌或可核实接口时，保留人工清单，不记录发现成功。
 
-逐艺人数量、真实播放证据、受限条目与复现步骤见 [Phase 3.1 中文验收报告](docs/phase-3.1-acceptance.md)。清单不是完整历史或自动发现；本轮只更新原 PR #1，等待人工审查，不合并、不发布生产。
+逐艺人数量及历史播放证据见 [Phase 3.1 中文验收报告](docs/phase-3.1-acceptance.md)。当前 78 条 Instagram / 35 条 TikTok 清单仍为人工核验内容；本轮在开发分支及现有草稿 PR 增量实现，不合并、不发布生产。
 
 ## 项目结构
 

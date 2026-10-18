@@ -1,0 +1,13 @@
+{
+  "checkedAt": "2026-10-18T06:57:24.623Z",
+  "mode": "controlled engineering fixtures; NOT real platform discovery or video playback",
+  "passed": true,
+  "checks": [
+    "real unconfigured status, five existing ITZY entries retained, no false zero-new success",
+    "controlled response through adapter -> atomic data -> actual stage script -> rendered API card",
+    "status success, source link, search, bookmark/refresh/Archive",
+    "no third-party player requests before consent; 375/390/412px no overflow",
+    "discovery status 503 isolated from content and navigation"
+  ],
+  "errors": []
+}

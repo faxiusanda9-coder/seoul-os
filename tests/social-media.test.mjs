@@ -9,6 +9,7 @@ import {
   isInstant,
   canonicalAccount,
   socialIdentity,
+  socialAvailability,
 } from "../data/schemas/social.schema.ts";
 import { selectSocialContent } from "../src/utils/social-library.ts";
 import { parseSyncStatus } from "../data/schemas/sync-status.schema.ts";
@@ -50,6 +51,88 @@ const candidate = {
   evidenceUrl: "https://www.instagram.com/reel/FixtureONLY/embed/",
   evidenceNote: "TEST FIXTURE ONLY; never publish",
 };
+test("source accessibility, embed restrictions and manual verification remain independent for old and new records", () => {
+  const item = instagram.items[0];
+  for (const legacy of ["available", "unknown", "restricted"]) {
+    const old = {
+      ...item,
+      availabilityStatus: legacy,
+      sourceAvailability: undefined,
+      embedAvailability: undefined,
+    };
+    assert.equal(socialAvailability(old).source, "unknown");
+    assert.equal(
+      socialAvailability(old).embed,
+      legacy === "restricted" ? "restricted" : "untested",
+    );
+    assert.ok(
+      parseSocialSnapshot(
+        { ...instagram, items: [old] },
+        "instagram",
+        accounts,
+      ),
+    );
+  }
+  assert.equal(
+    socialAvailability({ ...item, availabilityStatus: "deleted" }).source,
+    "unavailable",
+  );
+  const checked = {
+    ...item,
+    availabilityStatus: "restricted",
+    sourceAvailability: "available",
+    embedAvailability: "restricted",
+  };
+  assert.deepEqual(socialAvailability(checked), {
+    source: "available",
+    embed: "restricted",
+  });
+  for (const patch of [
+    { sourceAvailability: "pending" },
+    { embedAvailability: "unknown" },
+    { sourceAvailability: null },
+    { availabilityStatus: "deleted", sourceAvailability: "available" },
+  ])
+    assert.equal(
+      parseSocialSnapshot(
+        { ...instagram, items: [{ ...item, ...patch }] },
+        "instagram",
+        accounts,
+      ),
+      null,
+    );
+});
+test("manual import defaults to unknown, accepts separate review and preserves it through legacy reimport", async (t) => {
+  const root = await fixture(t),
+    options = { root, accounts, reviewer: "test", now: time };
+  const file = join(root, "social/instagram/items.json");
+  await importReviewed([candidate], options);
+  let item = JSON.parse(await readFile(file, "utf8")).items[0];
+  assert.deepEqual(socialAvailability(item), {
+    source: "unknown",
+    embed: "untested",
+  });
+  await importReviewed(
+    [
+      {
+        ...candidate,
+        sourceAvailability: "available",
+        embedAvailability: "failed",
+      },
+    ],
+    options,
+  );
+  await importReviewed([candidate], options);
+  item = JSON.parse(await readFile(file, "utf8")).items[0];
+  assert.deepEqual(socialAvailability(item), {
+    source: "available",
+    embed: "failed",
+  });
+  await assert.rejects(
+    importReviewed([{ ...candidate, sourceAvailability: "pending" }], options),
+    /Invalid/,
+  );
+});
 test("registry covers enabled Instagram roster with official evidence; spoofed and malformed accounts fail closed", () => {
   assert.equal(accounts.filter((a) => a.platform === "instagram").length, 14);
   const artists = new Set(accounts.map((a) => a.artistId));
@@ -377,7 +460,11 @@ test("production manifests contain only schema-valid distinct reviewed sources a
         JSON.stringify(i),
         /FixtureONLY|ACTUAL_SHORTCODE|exampleOnly/,
       );
-      assert.equal(i.acquisitionMethod, "manual-verified");
+      assert.ok(["manual-verified", "api"].includes(i.acquisitionMethod));
+      if (i.acquisitionMethod === "api") {
+        assert.equal(i.verificationStatus, "api-verified");
+        assert.ok(i.apiEvidence);
+      }
       if (platform === "tiktok")
         assert.equal(
           socialIdentity(platform, i.sourceUrl).handle,

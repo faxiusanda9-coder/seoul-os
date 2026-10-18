@@ -1,67 +1,115 @@
-name: Validate reviewed social links
+name: Discover official Instagram and TikTok content
 on:
   schedule:
-    # Local manifest validation only, at 08:10 and 20:10 Beijing.
-    - cron: "10 0,12 * * *"
+    # 08:00, 12:00, 20:00 Asia/Shanghai; GitHub may delay execution.
+    - cron: "0 0,4,12 * * *"
   workflow_dispatch:
+    inputs:
+      platform:
+        type: choice
+        options: [all, instagram, tiktok]
+        default: all
+        description: Platform
+      artist:
+        type: string
+        default: all
+        description: Verified artist ID, or all
+      dry_run:
+        type: boolean
+        default: true
+        description: No data writes, token rotation, commits or deployment
+      max_pages:
+        type: string
+        default: "250"
+        description: Per-account pagination cap (1-1000); incomplete scans preserve old data
 permissions:
   contents: write
 concurrency:
   group: social-manifests
   cancel-in-progress: false
 jobs:
-  validate:
+  sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 30
     outputs:
       changed: ${{ steps.changes.outputs.changed }}
       failed: ${{ steps.social.outcome == 'failure' }}
+    env:
+      PLATFORM: ${{ inputs.platform || 'all' }}
+      ARTIST: ${{ inputs.artist || 'all' }}
+      MAX_PAGES: ${{ inputs.max_pages || '250' }}
+      DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || github.ref != 'refs/heads/main' }}
     steps:
       - uses: actions/checkout@v7
         with:
-          ref: main
+          # Branch runs are read-only previews; never publish development data.
+          ref: ${{ github.ref }}
       - uses: actions/setup-node@v7
         with:
           node-version: "24"
           cache: npm
       - run: npm ci
-      - name: Validate reviewed local manifests (no platform discovery)
+      - name: Discover remote official media
         id: social
         continue-on-error: true
+        env:
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_IG_USER_ID: ${{ secrets.INSTAGRAM_IG_USER_ID }}
+          INSTAGRAM_ACCESS_TOKEN_EXPIRES_AT: ${{ secrets.INSTAGRAM_ACCESS_TOKEN_EXPIRES_AT }}
+          INSTAGRAM_GRAPH_VERSION: ${{ vars.INSTAGRAM_GRAPH_VERSION || 'v26.0' }}
+          TIKTOK_CREDENTIALS_JSON: ${{ secrets.TIKTOK_CREDENTIALS_JSON }}
+          TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+          TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+          SOCIAL_SECRET_WRITER_TOKEN: ${{ secrets.SOCIAL_SECRET_WRITER_TOKEN }}
+          SOCIAL_DISABLED_SOURCES: ${{ vars.SOCIAL_DISABLED_SOURCES }}
+        shell: bash
+        run: |
+          args=(--platform="$PLATFORM" --artist="$ARTIST" --max-pages="$MAX_PAGES")
+          if [[ "$DRY_RUN" == 'true' ]]; then args+=(--dry-run); fi
+          mkdir -p test-results
+          node scripts/social-sync/discover.mjs "${args[@]}" > test-results/discovery-summary.json
+      - name: Validate local manifests separately
+        if: env.DRY_RUN != 'true'
         run: npm run sync:social
-      - run: npm run test:social && npm run build
-      - name: Check status changes
+      - run: npm run test:social && npm run test:discovery && npm run build
+      - name: Upload sanitized discovery summary
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: social-discovery-summary
+          path: test-results/discovery-summary.json
+          retention-days: 7
+      - name: Check generated changes
         id: changes
         shell: bash
         run: |
-          if [[ -n "$(git status --porcelain -- data/status/instagram.json data/status/tiktok.json)" ]]; then
+          if [[ "$DRY_RUN" != 'true' && -n "$(git status --porcelain -- data/social/instagram/items.json data/social/tiktok/items.json data/status/social-discovery.json data/status/instagram.json data/status/tiktok.json)" ]]; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "changed=false" >> "$GITHUB_OUTPUT"
           fi
-      - name: Commit local validation status
+      - name: Commit and safely push generated data
         if: steps.changes.outputs.changed == 'true'
-        shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/status/instagram.json data/status/tiktok.json
-          git commit -m "data: record reviewed social manifest validation"
-          git pull --rebase origin main
-          git push origin HEAD:main
+          node scripts/push-sync-changes.mjs social
   deploy:
-    needs: validate
-    if: needs.validate.outputs.changed == 'true'
+    needs: sync
+    if: needs.sync.outputs.changed == 'true'
     permissions:
       contents: read
       pages: write
       id-token: write
     uses: ./.github/workflows/deploy.yml
     with:
+      # Resolve latest merged main, including concurrent independent syncs.
       ref: main
   report-failure:
-    needs: [validate, deploy]
-    if: always() && needs.validate.outputs.failed == 'true'
+    needs: [sync, deploy]
+    if: always() && needs.sync.outputs.failed == 'true'
     runs-on: ubuntu-latest
     steps:
-      - run: exit 1
+      - run: |
+          echo "Some sources are unconfigured, require authorization or failed. No successful discovery was fabricated. Inspect the sanitized summary."
+          exit 1

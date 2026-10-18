@@ -185,11 +185,13 @@
       "verificationStatus": "manual-verified",
       "acquisitionMethod": "manual-verified",
       "fetchedAt": "2026-10-17T15:28:34.122Z",
-      "lastValidatedAt": "2026-10-17T15:51:24.499Z",
+      "lastValidatedAt": "2026-10-17T16:26:41.225Z",
       "availabilityStatus": "restricted",
       "evidenceUrl": "https://www.instagram.com/reel/Deiu8BPBfNn/embed/",
-      "evidenceNote": "本轮逐条读取 Instagram 官方公开单条嵌入：HTTP 200，原作者 itzy.all.in.us，视频类型由官方公开呈现资料 GraphVideo 核对。单条 ID=Deiu8BPBfNn。发布时间来自原平台公开嵌入的 taken_at_timestamp，转换为 UTC；没有缓存封面、下载视频或调用私有接口。 本站实际播放未通过（2026-10-17T15:32:58.162Z）。复核官方单条嵌入 HTTP 200，仅封面与 Watch on Instagram 跳转，未提供原生播放控件或 video 元素。availabilityStatus=restricted 表示当前环境嵌入播放受限，不推断删除或作者关闭。",
-      "reviewedBy": "Codex Phase 3.1 original-platform review"
+      "evidenceNote": "本轮逐条读取 Instagram 官方公开单条嵌入：HTTP 200，原作者 itzy.all.in.us，视频类型由官方公开呈现资料 GraphVideo 核对。单条 ID=Deiu8BPBfNn。发布时间来自原平台公开嵌入的 taken_at_timestamp，转换为 UTC；没有缓存封面、下载视频或调用私有接口。 本站实际播放未通过（2026-10-17T15:32:58.162Z）。复核官方单条嵌入 HTTP 200，仅封面与 Watch on Instagram 跳转，未提供原生播放控件或 video 元素。availabilityStatus=restricted 表示当前环境嵌入播放受限，不推断删除或作者关闭。 Phase 3.1.1 复核：原始单条页面 HTTP 200，能读取原作者与帖子正文，匿名环境有登录/注册提示，原平台视频播放未确认；sourceAvailability=available 仅表示原帖子可访问。官方 embed.js 成功挂载 iframe，但响应 copyright_blocked=true，仅封面与原平台跳转，未提供 video 或原生播放控件，embedAvailability=restricted。该标志只记录当前嵌入响应，不推断具体权利原因、地区或账号设置。详见 docs/phase-3.1.1/diagnosis.json。",
+      "reviewedBy": "Codex Phase 3.1 original-platform review",
+      "sourceAvailability": "available",
+      "embedAvailability": "restricted"
     },
     {
       "id": "ig-DebGMmgS0lI",
@@ -206,11 +208,13 @@
       "verificationStatus": "manual-verified",
       "acquisitionMethod": "manual-verified",
       "fetchedAt": "2026-10-17T15:28:34.122Z",
-      "lastValidatedAt": "2026-10-17T15:51:24.499Z",
+      "lastValidatedAt": "2026-10-17T16:27:00.027Z",
       "availabilityStatus": "restricted",
       "evidenceUrl": "https://www.instagram.com/reel/DebGMmgS0lI/embed/",
-      "evidenceNote": "本轮逐条读取 Instagram 官方公开单条嵌入：HTTP 200，原作者 itzy.all.in.us，视频类型由官方公开呈现资料 GraphVideo 核对。单条 ID=DebGMmgS0lI。发布时间来自原平台公开嵌入的 taken_at_timestamp，转换为 UTC；没有缓存封面、下载视频或调用私有接口。 本站实际播放未通过（2026-10-17T15:33:11.452Z）。复核官方单条嵌入 HTTP 200，仅封面与 Watch on Instagram 跳转，未提供原生播放控件或 video 元素。availabilityStatus=restricted 表示当前环境嵌入播放受限，不推断删除或作者关闭。",
-      "reviewedBy": "Codex Phase 3.1 original-platform review"
+      "evidenceNote": "本轮逐条读取 Instagram 官方公开单条嵌入：HTTP 200，原作者 itzy.all.in.us，视频类型由官方公开呈现资料 GraphVideo 核对。单条 ID=DebGMmgS0lI。发布时间来自原平台公开嵌入的 taken_at_timestamp，转换为 UTC；没有缓存封面、下载视频或调用私有接口。 本站实际播放未通过（2026-10-17T15:33:11.452Z）。复核官方单条嵌入 HTTP 200，仅封面与 Watch on Instagram 跳转，未提供原生播放控件或 video 元素。availabilityStatus=restricted 表示当前环境嵌入播放受限，不推断删除或作者关闭。 Phase 3.1.1 复核：原始单条页面 HTTP 200，能读取原作者与帖子正文，匿名环境有登录/注册提示，原平台视频播放未确认；sourceAvailability=available 仅表示原帖子可访问。官方 embed.js 成功挂载 iframe，但响应 copyright_blocked=true，仅封面与原平台跳转，未提供 video 或原生播放控件，embedAvailability=restricted。该标志只记录当前嵌入响应，不推断具体权利原因、地区或账号设置。详见 docs/phase-3.1.1/diagnosis.json。",
+      "reviewedBy": "Codex Phase 3.1 original-platform review",
+      "sourceAvailability": "available",
+      "embedAvailability": "restricted"
     },
     {
       "id": "ig-DemYT3vtO0n",
@@ -1004,11 +1008,13 @@
       "verificationStatus": "manual-verified",
       "acquisitionMethod": "manual-verified",
       "fetchedAt": "2026-10-17T15:28:34.122Z",
-      "lastValidatedAt": "2026-10-17T15:51:24.499Z",
+      "lastValidatedAt": "2026-10-17T16:27:18.481Z",
       "availabilityStatus": "restricted",
       "evidenceUrl": "https://www.instagram.com/reel/DHOB5WwS04T/embed/",
-      "evidenceNote": "本轮逐条读取 Instagram 官方公开单条嵌入：HTTP 200，原作者 itzy.all.in.us，视频类型由官方公开呈现资料 GraphVideo 核对。单条 ID=DHOB5WwS04T。原始发布时间未可靠确认，留空；没有缓存封面、下载视频或调用私有接口。 本站实际播放未通过（2026-10-17T15:39:20.406Z）。复核官方单条嵌入 HTTP 200，仅封面与 Watch on Instagram 跳转，未提供原生播放控件或 video 元素。availabilityStatus=restricted 表示当前环境嵌入播放受限，不推断删除或作者关闭。",
-      "reviewedBy": "Codex Phase 3.1 original-platform review"
+      "evidenceNote": "本轮逐条读取 Instagram 官方公开单条嵌入：HTTP 200，原作者 itzy.all.in.us，视频类型由官方公开呈现资料 GraphVideo 核对。单条 ID=DHOB5WwS04T。原始发布时间未可靠确认，留空；没有缓存封面、下载视频或调用私有接口。 本站实际播放未通过（2026-10-17T15:39:20.406Z）。复核官方单条嵌入 HTTP 200，仅封面与 Watch on Instagram 跳转，未提供原生播放控件或 video 元素。availabilityStatus=restricted 表示当前环境嵌入播放受限，不推断删除或作者关闭。 Phase 3.1.1 复核：原始单条页面 HTTP 200，能读取原作者与帖子正文，匿名环境有登录/注册提示，原平台视频播放未确认；sourceAvailability=available 仅表示原帖子可访问。官方 embed.js 成功挂载 iframe，但响应 copyright_blocked=true，仅封面与原平台跳转，未提供 video 或原生播放控件，embedAvailability=restricted。该标志只记录当前嵌入响应，不推断具体权利原因、地区或账号设置。详见 docs/phase-3.1.1/diagnosis.json。",
+      "reviewedBy": "Codex Phase 3.1 original-platform review",
+      "sourceAvailability": "available",
+      "embedAvailability": "restricted"
     },
     {
       "id": "ig-DemXE3QSf0I",

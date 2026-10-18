@@ -21,11 +21,22 @@ export type SocialContent = {
   sourceUrl: string;
   embedUrl: string;
   officialAccountUrl: string;
-  verificationStatus: "manual-verified";
-  acquisitionMethod: "manual-verified";
+  verificationStatus: "manual-verified" | "api-verified";
+  acquisitionMethod: "manual-verified" | "api";
+  apiEvidence?: {
+    provider: "instagram-business-discovery" | "tiktok-display-api";
+    mediaId: string;
+    accountId: string;
+    checkedAt: string;
+    mediaProductType?: "REELS" | "FEED";
+  };
   fetchedAt: string;
   lastValidatedAt: string;
   availabilityStatus: "available" | "restricted" | "deleted" | "unknown";
+  // Legacy availabilityStatus mixed source and embed observations. Do not infer
+  // source removal from an embed restriction, or playback from a loaded shell.
+  sourceAvailability?: "available" | "unavailable" | "unknown";
+  embedAvailability?: "available" | "failed" | "untested" | "restricted";
   evidenceUrl: string;
   evidenceNote: string;
   reviewedBy: string;
@@ -35,6 +46,16 @@ export type SocialSnapshot = {
   platform: SocialPlatform;
   items: SocialContent[];
 };
+export function socialAvailability(item: SocialContent) {
+  return {
+    source:
+      item.sourceAvailability ??
+      (item.availabilityStatus === "deleted" ? "unavailable" : "unknown"),
+    embed:
+      item.embedAvailability ??
+      (item.availabilityStatus === "restricted" ? "restricted" : "untested"),
+  };
+}
 export const isInstant = (x: unknown): x is string =>
   typeof x === "string" &&
   /^\d{4}-\d\d-\d\dT(?:[01]\d|2[0-3]):[0-5]\d:[0-5]\d(?:\.\d+)?(?:Z|[+-](?:[01]\d|2[0-3]):[0-5]\d)$/.test(
@@ -164,18 +185,59 @@ export function parseSocialSnapshot(
           ? i.contentType === "short-video"
           : identity.kind === "reel"
             ? i.contentType === "reels"
-            : ["post", "video-post"].includes(i.contentType)) ||
-        i.verificationStatus !== "manual-verified" ||
-        i.acquisitionMethod !== "manual-verified" ||
+            : ["post", "video-post"].includes(i.contentType) ||
+              (i.apiEvidence?.mediaProductType === "REELS" &&
+                i.contentType === "reels")) ||
+        !(
+          (i.verificationStatus === "manual-verified" &&
+            i.acquisitionMethod === "manual-verified") ||
+          (i.verificationStatus === "api-verified" &&
+            i.acquisitionMethod === "api" &&
+            i.apiEvidence)
+        ) ||
+        (i.apiEvidence !== undefined &&
+          (!i.apiEvidence ||
+            i.apiEvidence.provider !==
+              (platform === "instagram"
+                ? "instagram-business-discovery"
+                : "tiktok-display-api") ||
+            !/^\d{5,40}$/.test(i.apiEvidence.mediaId) ||
+            typeof i.apiEvidence.accountId !== "string" ||
+            (platform === "instagram"
+              ? !/^\d{5,40}$/.test(i.apiEvidence.accountId)
+              : i.apiEvidence.accountId !== a.handle.toLowerCase()) ||
+            (platform === "tiktok" &&
+              i.apiEvidence.mediaId !== identity.id.slice(3)) ||
+            !isInstant(i.apiEvidence.checkedAt) ||
+            (i.apiEvidence.mediaProductType !== undefined &&
+              (platform !== "instagram" ||
+                !["REELS", "FEED"].includes(i.apiEvidence.mediaProductType))) ||
+            (i.acquisitionMethod === "api" &&
+              Date.parse(i.apiEvidence.checkedAt) >
+                Date.parse(i.lastValidatedAt)))) ||
         !["available", "restricted", "deleted", "unknown"].includes(
           i.availabilityStatus,
         ) ||
+        (i.sourceAvailability !== undefined &&
+          !["available", "unavailable", "unknown"].includes(
+            i.sourceAvailability,
+          )) ||
+        (i.embedAvailability !== undefined &&
+          !["available", "failed", "untested", "restricted"].includes(
+            i.embedAvailability,
+          )) ||
+        (i.availabilityStatus === "deleted" &&
+          i.sourceAvailability !== undefined &&
+          i.sourceAvailability !== "unavailable") ||
         !isInstant(i.fetchedAt) ||
         !isInstant(i.lastValidatedAt) ||
         Date.parse(i.lastValidatedAt) < Date.parse(i.fetchedAt) ||
         (i.publishedAt !== null && !isInstant(i.publishedAt)) ||
         ![i.title, i.description].every(
-          (v) => v === null || (typeof v === "string" && v.length <= 2000),
+          (v) =>
+            v === null ||
+            (typeof v === "string" &&
+              v.length <= (i.acquisitionMethod === "api" ? 10000 : 2000)),
         ) ||
         i.thumbnail !== null ||
         !safeHttps(i.evidenceUrl) ||

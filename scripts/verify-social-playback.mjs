@@ -4,6 +4,7 @@ import { chromium } from "playwright-core";
 import { readFile, mkdir, writeFile, access } from "node:fs/promises";
 import { resolve } from "node:path";
 import { pathToFileURL } from "node:url";
+import { socialAvailability } from "../data/schemas/social.schema.ts";
 
 export async function launchBrowser() {
   let executablePath = process.env.BROWSER_EXECUTABLE;
@@ -36,7 +37,7 @@ export async function verifyPlayback() {
     .filter(
       (i) =>
         i.contentType !== "post" &&
-        i.availabilityStatus === "available" &&
+        socialAvailability(i).source !== "unavailable" &&
         (!get("artist") || i.artistId === get("artist")) &&
         (!get("id") || i.id === get("id")),
     )
@@ -60,12 +61,12 @@ export async function verifyPlayback() {
         environment:
           "real official iframe in local SEOUL.OS; Edge/Chrome headless; 390px; no mocks",
       };
+      const card = page.locator(`[data-content-id="${item.id}"]`);
       try {
         await page.goto(
           `${site}#/media?artist=${item.artistId}&platform=${platform}`,
           { waitUntil: "domcontentloaded" },
         );
-        const card = page.locator(`[data-content-id="${item.id}"]`);
         await card
           .getByRole("button", { name: "在站内播放", exact: true })
           .click();
@@ -100,32 +101,66 @@ export async function verifyPlayback() {
           {},
           { timeout: 12000 },
         );
-        result.videoState = await frame
-          .locator("video")
-          .evaluateAll((es) =>
-            es.map((v) => ({
-              currentTime: v.currentTime,
-              readyState: v.readyState,
-              paused: v.paused,
-              errorCode: v.error?.code ?? null,
-            })),
-          );
+        result.videoState = await frame.locator("video").evaluateAll((es) =>
+          es.map((v) => ({
+            currentTime: v.currentTime,
+            readyState: v.readyState,
+            paused: v.paused,
+            errorCode: v.error?.code ?? null,
+          })),
+        );
         result.playbackConfirmed = result.videoState.some(
           (v) => v.currentTime > 0.5 && !v.paused && v.readyState >= 2,
         );
         result.noHorizontalOverflow = await page.evaluate(
           () => document.documentElement.scrollWidth <= innerWidth,
         );
-        await card.scrollIntoViewIfNeeded();
-        await page.screenshot({ path: resolve(output, `${item.id}.png`) });
-        await card
-          .getByRole("button", { name: "关闭播放器", exact: true })
-          .click();
-        result.closedCleanly =
-          (await page.locator(".official-embed iframe").count()) === 0;
       } catch (e) {
         result.playbackConfirmed = false;
         result.error = e.message.slice(0, 300);
+      }
+      // Capture failed real attempts as well. An iframe load is not playback.
+      try {
+        const embedded = page
+          .frames()
+          .find((f) => f.url().startsWith(item.embedUrl));
+        if (embedded)
+          result.embedObservation = await embedded.evaluate(() => ({
+            videoCount: document.querySelectorAll("video").length,
+            nativeControlCount: document.querySelectorAll(
+              '[aria-label="Control"],[aria-label="控件"],.EmbeddedMediaPlayButton',
+            ).length,
+            copyrightBlocked: /copyright_blocked[^a-z]{0,12}true/.test(
+              document.documentElement.innerHTML,
+            ),
+            text: document.body.innerText.slice(0, 500),
+          }));
+        result.originalLinkRetained =
+          (await card
+            .getByRole("link", { name: "打开原始内容", exact: false })
+            .last()
+            .getAttribute("href")) === item.sourceUrl;
+        result.accountLinkRetained =
+          (await card
+            .getByRole("link", { name: "打开官方账号", exact: true })
+            .getAttribute("href")) === item.officialAccountUrl;
+        result.noHorizontalOverflow = await page.evaluate(
+          () => document.documentElement.scrollWidth <= innerWidth,
+        );
+        await card.scrollIntoViewIfNeeded();
+        await page.screenshot({ path: resolve(output, `${item.id}.png`) });
+        const close = card.getByRole("button", {
+          name: "关闭播放器",
+          exact: true,
+        });
+        if (await close.count()) {
+          await close.focus();
+          await page.keyboard.press("Enter");
+        }
+        result.closedCleanly =
+          (await page.locator(".official-embed iframe").count()) === 0;
+      } catch (e) {
+        result.cleanupError = e.message.slice(0, 300);
       }
       results.push(result);
       await writeFile(
