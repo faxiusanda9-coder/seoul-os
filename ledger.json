@@ -15,6 +15,20 @@
       "completedAt": "2026-10-18T17:21:07.077Z",
       "purpose": "itzy-probe-once",
       "creditLimit": 1
+    },
+    {
+      "id": "889799d2-b1d6-4f02-90e2-66498f35d8d7",
+      "artistId": "twice",
+      "slot": "2026-10-18T12:00:00.000Z",
+      "month": "2026-10",
+      "limit": 8,
+      "state": "reserved",
+      "snapshotId": null,
+      "recordCount": null,
+      "createdAt": "2026-10-18T17:22:53.124Z",
+      "completedAt": null,
+      "purpose": "scheduled-free-only",
+      "creditLimit": 8
     }
   ]
 }
