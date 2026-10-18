@@ -14,7 +14,11 @@ import { tmpdir } from "node:os";
 import { resolve, join, sep } from "node:path";
 import { selectLaunch } from "../scripts/brightdata-tiktok/launch.mjs";
 import { syncBrightData } from "../scripts/brightdata-tiktok/sync.mjs";
-import { BrightDataError } from "../scripts/brightdata-tiktok/budget.mjs";
+import {
+  BrightDataError,
+  checkPermissionAndBudget,
+  reserve,
+} from "../scripts/brightdata-tiktok/budget.mjs";
 
 const now = "2026-10-19T00:01:00Z";
 const approval = {
@@ -434,4 +438,195 @@ test("workflow removes all PR live triggers, gates secret-bearing steps and publ
   assert.match(publish, /steps.launch.outputs.mode == 'sync'/);
   assert.match(publish, /github.event.repository.default_branch/);
   assert.match(workflow, /if: needs.sync.outputs.changed == 'true'/);
+});
+
+test("offline plan validates six account mappings and local budget without inspecting any credentials or remote state", async (t) => {
+  const dir = await fixture(t),
+    root = join(dir, "data"),
+    before = await bytes(root);
+  const forbidden = () => {
+    throw Error("PLAN MUST NOT ACCESS CREDENTIALS OR NETWORK");
+  };
+  const result = await execute(root, {
+    mode: "plan",
+    artist: "all",
+    limit: 8,
+    env: new Proxy({}, { get: forbidden }),
+    fetcher: forbidden,
+    budgetStore: { load: forbidden, save: forbidden },
+    persistBudget: forbidden,
+  });
+  assert.equal(result.executionStatus, "offline-plan");
+  assert.deepEqual(result.configuration.artistIds, [
+    "twice",
+    "stray-kids",
+    "nmixx",
+    "nexz",
+    "itzy",
+    "niziu",
+  ]);
+  assert.equal(result.configuration.perAccountLimit, 8);
+  assert.equal(result.configuration.schedule, "0 0,12 * * *");
+  assert.equal(result.sources.length, 6);
+  assert.ok(
+    result.sources.every(
+      (s) => s.state === "planned" && s.request.body.limit_per_input === 8,
+    ),
+  );
+  assert.equal(result.budget.requestedRecords, 48);
+  assert.equal(result.budget.remainingInternalRecords, 4000);
+  assert.equal(result.budget.providerFreeCreditsRemaining, null);
+  assert.equal(result.budget.authoritative, false);
+  assert.equal(result.liveReadiness.apiSecret, "not-inspected");
+  assert.equal(result.liveReadiness.zeroCostEvidence, "not-inspected");
+  assert.equal(result.liveReadiness.canSendRequests, false);
+  assert.equal(result.requests, 0);
+  assert.equal(result.connected, false);
+  assert.deepEqual(await bytes(root), before);
+});
+
+test("offline plan reports pending local tasks without resolving them or modifying budget history", async (t) => {
+  const dir = await fixture(t),
+    root = join(dir, "data");
+  const ledger = {
+    schemaVersion: 1,
+    accountFingerprint: null,
+    reservations: [],
+  };
+  const p = checkPermissionAndBudget(env, ledger, now, 1);
+  const pending = reserve(
+    ledger,
+    { artistId: "itzy" },
+    "probe:2026-10-19",
+    1,
+    now,
+    p.fingerprint,
+  );
+  pending.snapshotId = "sd_PHASE341PENDING";
+  await writeFile(
+    join(root, "usage/brightdata-tiktok.json"),
+    JSON.stringify(ledger),
+  );
+  const before = await bytes(root);
+  const r = await execute(root, {
+    mode: "plan",
+    env: {},
+    fetcher: () => {
+      throw Error("MUST NOT REQUEST");
+    },
+  });
+  assert.equal(r.sources[0].error, "UNRESOLVED_PROVIDER_JOB");
+  assert.equal(r.budget.unresolvedTaskCount, 1);
+  assert.equal(r.budget.reservedRecords, 1);
+  assert.equal(r.budget.source, "local-mirror");
+  assert.deepEqual(await bytes(root), before);
+});
+
+test("offline plan reports exhausted internal budget without assuming provider free credit or resetting reservations", async (t) => {
+  const dir = await fixture(t),
+    root = join(dir, "data");
+  const ledger = {
+    schemaVersion: 1,
+    accountFingerprint: null,
+    reservations: [],
+  };
+  const p = checkPermissionAndBudget(env, ledger, now, 8);
+  for (let i = 0; i < 500; i++) {
+    const r = reserve(
+      ledger,
+      { artistId: "itzy" },
+      `offline-limit-${i}`,
+      8,
+      now,
+      p.fingerprint,
+    );
+    Object.assign(r, {
+      state: "complete",
+      snapshotId: "sd_PHASE341BUDGET",
+      recordCount: 0,
+      completedAt: now,
+    });
+  }
+  await writeFile(
+    join(root, "usage/brightdata-tiktok.json"),
+    JSON.stringify(ledger),
+  );
+  const before = await bytes(root);
+  const r = await execute(root, {
+    mode: "plan",
+    artist: "all",
+    limit: 8,
+    env: {},
+  });
+  assert.equal(r.budget.reservedRecords, 4000);
+  assert.equal(r.budget.remainingInternalRecords, 0);
+  assert.equal(r.budget.providerFreeCreditsRemaining, null);
+  assert.ok(r.sources.every((s) => s.error === "FREE_RECORD_BUDGET_EXHAUSTED"));
+  assert.equal(r.requests, 0);
+  assert.deepEqual(await bytes(root), before);
+});
+
+test("reported 3441 free credits never override unknown or deposited 2 USD balance; missing hard stop also blocks", async (t) => {
+  // These values reproduce the user's stated numbers as engineering fixtures,
+  // not verified billing, account eligibility or permission evidence.
+  for (const patch of [
+    { depositedBalanceUsd: null },
+    { depositedBalanceUsd: 2 },
+    { serverFreeTierHardStop: false },
+    { autoRecharge: null },
+  ]) {
+    const dir = await fixture(t),
+      root = join(dir, "data"),
+      before = await bytes(root);
+    const result = await execute(root, {
+      env: {
+        ...env,
+        BRIGHTDATA_ZERO_COST_APPROVAL_JSON: JSON.stringify({
+          ...approval,
+          freeCreditsRemaining: 3441,
+          ...patch,
+        }),
+      },
+      fetcher: () => {
+        throw Error("MUST NOT REQUEST");
+      },
+    });
+    assert.equal(result.requests, 0);
+    assert.equal(
+      result.sources[0].error,
+      "ZERO_COST_OR_USE_PERMISSION_UNCONFIRMED",
+    );
+    assert.deepEqual(await bytes(root), before);
+  }
+  const permission = checkPermissionAndBudget(
+    {
+      ...env,
+      BRIGHTDATA_ZERO_COST_APPROVAL_JSON: JSON.stringify({
+        ...approval,
+        freeCreditsRemaining: 3441,
+      }),
+    },
+    { schemaVersion: 1, accountFingerprint: null, reservations: [] },
+    now,
+    48,
+  );
+  assert.equal(permission.remaining, 3441);
+});
+
+test("actual offline plan CLI needs no API key and returns local-only readiness without writes", async (t) => {
+  const dir = await fixture(t),
+    root = join(dir, "data"),
+    before = await bytes(root);
+  const result = spawnSync(
+    process.execPath,
+    [resolve("scripts/brightdata-tiktok/sync.mjs"), "--mode=plan"],
+    { cwd: dir, encoding: "utf8", env: {} },
+  );
+  assert.equal(result.status, 0, result.stderr);
+  const report = JSON.parse(result.stdout);
+  assert.equal(report.sources.length, 6);
+  assert.equal(report.requests, 0);
+  assert.equal(report.liveReadiness.apiSecret, "not-inspected");
+  assert.equal(report.budget.authoritative, false);
+  assert.deepEqual(await bytes(root), before);
 });

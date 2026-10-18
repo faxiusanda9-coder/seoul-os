@@ -126,22 +126,51 @@ export async function syncBrightData({
   let ledger = parseLedger(await readJson(ledgerFile));
   if (mode === "plan") {
     summary.executionStatus = "offline-plan";
-    let reason = null;
-    try {
-      checkPermissionAndBudget(env, ledger, now, targets.length * limit);
-    } catch (e) {
-      reason = safeBrightDataError(e);
-    }
+    // Inspect only the local mirror. Plan must never read credentials/approval,
+    // fetch the authoritative ledger, reserve records or imply live readiness.
+    const month = now.slice(0, 7),
+      used = reservedThisMonth(ledger, month),
+      remaining = BRIGHTDATA_MONTHLY_LIMIT - used,
+      requested = targets.length * limit,
+      unresolved = ledger.reservations.filter((r) => r.state === "reserved");
+    const reason = unresolved.length
+      ? "UNRESOLVED_PROVIDER_JOB"
+      : remaining < requested
+        ? "FREE_RECORD_BUDGET_EXHAUSTED"
+        : null;
+    summary.configuration = {
+      validated: true,
+      artistIds: targets.map((a) => a.artistId),
+      perAccountLimit: limit,
+      schedule: scope.schedule,
+    };
+    summary.liveReadiness = {
+      canSendRequests: false,
+      apiSecret: "not-inspected",
+      apiPermission: "not-inspected",
+      zeroCostEvidence: "not-inspected",
+      remoteBudget: "not-read",
+    };
     summary.sources = targets.map((a) => ({
       artistId: a.artistId,
+      accountUrl: a.accountUrl,
       state: reason ? "blocked" : "planned",
       error: reason,
       request: triggerRequest(a, limit),
     }));
     summary.budget = {
-      month: now.slice(0, 7),
+      month,
       recordLimit: BRIGHTDATA_MONTHLY_LIMIT,
-      reservedRecords: reservedThisMonth(ledger, now.slice(0, 7)),
+      source: "local-mirror",
+      authoritative: false,
+      reservedRecords: used,
+      deliveredRecords: ledger.reservations
+        .filter((r) => r.month === month)
+        .reduce((n, r) => n + (r.recordCount ?? 0), 0),
+      remainingInternalRecords: remaining,
+      requestedRecords: requested,
+      unresolvedTaskCount: unresolved.length,
+      providerFreeCreditsRemaining: null,
       paidSpendLimitUsd: 0,
       paidSpendUsd: null,
     };

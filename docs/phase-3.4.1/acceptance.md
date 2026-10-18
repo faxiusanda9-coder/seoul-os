@@ -1,6 +1,8 @@
 # SEOUL.OS Phase 3.4.1：Bright Data 启动架构修复
 
-日期：2026-10-19，北京时间。工作分支 `feat/brightdata-tiktok`，PR #3；基线 `5021bcbe5777e11983e5222838c1ee9f4cfbb1d9`，默认分支基线 `42b260763711be7d31b523bec2b0f23bf042e988`。本轮未合并、未生产部署、未配置或读取真实 Actions Secrets、未发送真实 Bright Data 请求。用户后续要求真实采集；账户剩余免费额度、免费硬停止与用途许可的证据仍待确认，工作流也尚未进入默认分支，因此尚未进入 B。所有 API 流程测试均使用明确标注的受控假凭据和模拟响应。
+日期：2026-10-19，北京时间。工作分支 `feat/brightdata-tiktok`，PR #3；启动修复基线 `5021bcbe5777e11983e5222838c1ee9f4cfbb1d9`，本次离线补充基线 `3acdd8aaeee0aa2f8c66099fa3a41caa2124f1e6`，默认分支基线 `42b260763711be7d31b523bec2b0f23bf042e988`。用户最新要求明确恢复为**只修改代码和离线测试，不合并、不部署、不配置/读取真实密钥、不请求真实 API、不产生付费操作**。所有 API 流程测试均使用明确标注的受控假凭据和模拟响应。
+
+用户报告账户显示免费额度 **3,441/5,000、Balance $2、无支付方式**。这些属于用户提供的控制台观察，尚未独立核实；不能自动作为零付费授权，也没有据此填写真实 approval、更新预算或启用开关。待控制台确认事项见本文末尾。
 
 ## 1. 触发机制诊断
 
@@ -19,7 +21,7 @@
 | --- | --- |
 | `.github/workflows/brightdata-tiktok.yml` | 删除 PR labeled 触发，只保留 cron 和 workflow_dispatch；默认 plan；新增无密钥启动门禁；只有允许执行的 live 步骤可接收 Secrets；probe 永不提交生产内容或调用 Pages |
 | `scripts/brightdata-tiktok/launch.mjs` | 纯离线路由及脱敏报告；检查事件、默认分支、模式和独立定时开关；禁用时只写 test-results 报告与 Actions Summary |
-| `scripts/brightdata-tiktok/sync.mjs` | 核心 sync 也在读取 data、加锁、远端台账操作前检查开关；CLI live 限 Actions/默认分支/持久化预算；plan 成功生成离线计划可退出 0，但 connected=false，不标成 API 成功 |
+| `scripts/brightdata-tiktok/sync.mjs` | 核心 sync 在读 data、加锁、远端台账操作前检查开关；CLI live 限 Actions/默认分支/持久化预算；plan 只检查账号配置和本地预算镜像，不读取密钥或授权 JSON；生成计划退出 0，但 connected=false，不标成 API 成功 |
 | `.env.example` | 加入 `BRIGHTDATA_TIKTOK_SCHEDULE_ENABLED=false` 示例，不含真实凭据 |
 | `tests/phase341-launch.test.mjs` | 新增关闭状态零副作用、触发矩阵、实际 CLI、受控单条探测、许可/预算/未知 Snapshot 的回归 |
 | `tests/brightdata-tiktok.test.mjs`、`tests/phase34-tiktok.test.mjs` | 有意模拟已启用 sync 的夹具显式设置新开关；工作流断言改为无标签入口并校验默认分支保护；原测试保留 |
@@ -33,7 +35,7 @@
 | 状态 | 结果 |
 | --- | --- |
 | schedule 或手动 sync；定时开关缺失、false、TRUE、带空白等 | `executionStatus=disabled`、`reason=SCHEDULE_NOT_ENABLED`、消息“定时采集尚未启用”；请求 0、内容写入 0；不读写远端预算，不修改公开时间 |
-| workflow_dispatch 默认 plan | 离线计划；不注入 Bright Data Secrets，无采集、预留、公开状态写入或发布 |
+| workflow_dispatch 默认 plan | 离线验证六团配置、本地预算余量、未决任务和每轮 48 条预留需求；不读取密钥/授权、不查询远端，不采集、预留或发布；供应商额度与账单保持未知 |
 | 默认分支手动 probe；定时开关关闭 | 允许进入原密钥、API 使用许可及零付费/预算检查；全部通过才能申请 ITZY 1 条 |
 | 非默认分支 probe/sync | 拦截为 DEFAULT_BRANCH_REQUIRED，不注入执行步骤凭据、不发送请求 |
 | 定时开关精确 true，但缺少 API 许可/密钥/有效预算或存在未知旧任务 | 原有保护继续拦截；开关不是许可证明 |
@@ -100,7 +102,7 @@ node scripts/brightdata-tiktok/sync.mjs --mode=sync
 
 本轮实际结果与保护性文件指纹将随最终验证记录保存。阶段必须分开：代码/模拟测试完成不等于真实 API 验证；CI 通过不等于网站部署；网站部署不等于正式定时运行。
 
-## 本轮实际验收结果
+## 启动修复前次验收结果（提交 3acdd8a）
 
 - **108/108 完整自动化测试通过**（新增 9 项启动测试），TypeScript、生产构建、格式检查与 git diff --check 通过。保留现有大于 500 kB 的非阻断分包提示。
 - 生产构建预览 5183 上 **21 组浏览器回归通过**：社交 11、发现 5、Bright Data 5；报告保存在本目录。初跑暴露的两处等待竞态已修正，仍断言完整 50 条频道链接及目标 iframe 内控件。
@@ -108,3 +110,30 @@ node scripts/brightdata-tiktok/sync.mjs --mode=sync
 - [保护性核验与默认关闭结果](verification.json)：data/、src/ 和其他 6 份工作流与 5021bcb 完全一致；TikTok 80 个唯一 ID；视频、公开成功时间和预算文件 SHA-256 在关闭检查前后相同。
 - **真实 API 未执行、账单未核验；本轮没有新的视频实际播放验收**。浏览器用受控嵌入壳验证同意、加载、失败回退、关闭、布局与收藏，不能冒充真实播放。Phase 3.4 的历史 NEXZ 播放证据不代表当前真实 API 已连接。
 - **没有合并、没有部署生产、没有正式启用或实际运行定时采集，也没有配置/读取真实 Actions Secrets**。下一步仍须 A 的维护者审查合并、B 的账户与真实单条核验，最后才能明确批准 C。
+
+## 8. 本次离线 plan 补充与账户确认清单
+
+发现的问题：旧 plan 会调用真实请求的权限检查，首先因缺 Key 返回 TOKEN_MISSING，无法直观看到本地预算准备情况。现在独立检查配置及本地预算，完全不访问 env 中的密钥/授权字段，也不读取共享远端账本。Proxy 拒绝任何 env 读取的回归测试可证明此边界。
+
+计划报告包括 configuration（六团、每团上限 8、cron）、budget.source=local-mirror、authoritative=false、reservedRecords、deliveredRecords、remainingInternalRecords、requestedRecords=48、unresolvedTaskCount。供应商余额 providerFreeCreditsRemaining=null、paidSpendUsd=null；liveReadiness 显示密钥/许可未检查、远端预算未读、canSendRequests=false。本地记录为空不意味着供应商没有历史用量或未完成任务。
+
+本地未决任务或内部额度不足时，plan 显示对应 blocked 原因；不删除历史、不预留、不解析/解锁 Snapshot。计划成功只表示离线检查完成，不能证明 B 已通过。真实请求原有密钥、许可、有效期、共享预算预留、并发冲突和未知任务保护继续保留。
+
+用户仍须在 Bright Data 控制台或向供应商核实并保存私密依据：
+
+| 待确认项 | 必须弄清的问题 |
+| --- | --- |
+| 3,441 剩余额度 | 单位是记录、credits 还是请求？是否适用于本 TikTok Posts profile 数据集？重复、失败、最小计费量和任务超限如何计算？到期/重置周期是什么？不能把它直接认定为本项目可用 3,441 条 |
+| Balance $2 | 是充值、赠送还是其他余额？免费额度耗尽后是否会自动扣它？当前代码要求 depositedBalanceUsd=0；未确认来源时为 null，会停止。若属于充值/可扣费余额，当前严格零付费路径不允许据此继续；不得为了通过校验填成 0 |
+| 服务端免费硬停止 | 能否证明额度耗尽后采集会停止，且不会转到余额、按量计费、欠费或后付费？保存真实设置或供应商说明；没有支付方式不等于已经证明硬停止 |
+| 自动充值/升级/支付 | 自动充值确实关闭，无自动升级、其他扣费方式或后付费约定；本项目不执行充值、升级或新增支付方式 |
+| 其他任务和历史 Snapshot | 是否有手动导出、其他项目或尚未结算任务共享额度？本项目当前要求账户专用；开通时对账真实剩余额度、预算 baseline 和未知任务，禁止清空本地/远端账本来代替对账 |
+| 使用许可 | Bright Data 合同与适用平台条件是否允许公开展示/保留最小元数据索引及原帖链接、使用官方播放器？供应商结果不代表 TikTok 官方 OAuth 授权，不下载或重托管视频 |
+
+正式启用的必要条件：先由维护者批准在默认关闭时审查合并/发布 → 后续单独授权配置 Actions Secret 与真实有效的零付费/用途证据 → 共享远端账本可靠预留且无未知任务 → 默认分支手动 ITZY 1 条真实 probe → 核对实际响应、作者、时间、Snapshot 终态、实际额度/账单及播放器 → 获明确批准后才将定时变量设为 true。**本次不执行任何一项真实开通或付费操作。**
+
+六团、8 条/团、北京 08:00/20:00、4,000 条/月内部上限与 $0 额外付费限制不变；80 条唯一视频及其他平台数据不变。本次测试结果和本地 plan 样本保存于 [离线补充核验](offline-verification.json)；之前的 108 项与 21 组浏览器记录保留为前次验收，不冒充本次新测试。
+
+本次补充验收：**113/113 完整自动化测试通过**（新增 5 项 plan/额度回归）、TypeScript 检查、生产构建、7 份工作流 actionlint 和格式/diff 检查通过。构建仍有既有非阻断分包提示；本次未重复浏览器测试，也未调用平台播放器。实际本地结果见 [offline-plan.json](offline-plan.json)：六团、每团 8 条、本轮需求 48 条、本地镜像已预留 0 条、内部剩余空间 4,000 条；供应商实际额度和账单均未查询、保持 null。
+
+本次实际生产数据/状态/预算写入 0，真实 Bright Data 请求 0；没有合并、部署、读取/配置真实密钥或产生付费操作。代码/模拟测试、真实 API、网站部署、正式定时运行继续分别记录，后三项均未完成。

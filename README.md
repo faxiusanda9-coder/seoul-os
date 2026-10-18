@@ -101,6 +101,8 @@ npm run sync:brightdata:tiktok -- --mode=plan # 纯离线第三方请求计划
 npm run test:brightdata
 ```
 
+Bright Data 的 plan 只读本地配置和预算镜像，不读取密钥/授权、不查询供应商或远端台账。报告中的本地剩余预留空间不是供应商免费额度；密钥、零付费证据及实际账单均保留为未检查。账户 Balance、无支付方式和免费额度不能自动启用采集，控制台确认清单见 [Phase 3.4.1 验收](docs/phase-3.4.1/acceptance.md#8-本次离线-plan-补充与账户确认清单)。
+
 人工导入的历史维护说明见 [Phase 3 实施与维护](docs/phase-3-official-media.md)；当前自动发现实现、限制和开通步骤以 [Phase 3.2 指南](docs/phase-3.2-setup.md) 为准。没有应用审批、授权令牌或可核实接口时，保留人工清单，不记录发现成功。
 
 历史播放证据见 [Phase 3.1 中文验收报告](docs/phase-3.1-acceptance.md)。本地当前 Instagram 78 条；TikTok 80 条包含原 35 条人工记录与 45 条第三方新记录，来源分别标记。开发分支导入不代表线上已更新；维护者可按 Phase 3.4.1 指南在采集默认关闭时审查合并/发布，本轮没有执行合并或生产部署。
