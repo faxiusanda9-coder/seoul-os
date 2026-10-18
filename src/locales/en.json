@@ -398,7 +398,7 @@
   "brightdata.schedule": "Planned checks at 08:00 and 20:00 Beijing, subject to confirmed free credits and data-use permission.",
   "brightdata.success": "Last successful third-party read",
   "brightdata.budget": "Monthly reserved records / hard limit",
-  "brightdata.remaining": "Confirmed remaining record allowance",
+  "brightdata.remaining": "Estimated remaining project record budget",
   "brightdata.confirmation": "Zero-cost confirmation expires",
   "brightdata.paid": "Paid limit / actual bill",
   "brightdata.paidUnknown": "Paid limit USD 0; actual bill not verified by API",
