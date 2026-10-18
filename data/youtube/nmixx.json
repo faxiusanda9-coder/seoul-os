@@ -4,8 +4,188 @@
   "uploadsPlaylistId": "UUnUAyD4t2LkvW68YrDh7fDg",
   "artistId": "nmixx",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-18T00:29:12.036Z",
+  "fetchedAt": "2026-10-18T12:24:00.538Z",
   "items": [
+    {
+      "id": "yt-Ri7RYbVo1BE",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Ri7RYbVo1BE",
+        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nmixx",
+        "name": "NMIXX"
+      },
+      "title": "우따따와 초를 불어 🕯️ ⋆౨ৎ˚⟡˖ 🍩 #NMIXX #HAEWON #JIWOO #KYUJIN #긴소원_BirthdayWish",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/Ri7RYbVo1BE/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Ri7RYbVo1BE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Ri7RYbVo1BE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Ri7RYbVo1BE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Ri7RYbVo1BE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Ri7RYbVo1BE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-18T11:30:31.000Z",
+      "url": "https://www.youtube.com/watch?v=Ri7RYbVo1BE",
+      "fetchedAt": "2026-10-18T12:24:00.538Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-18T12:24:00.538Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-QZdKs_PefiM",
+      "source": {
+        "platform": "youtube",
+        "videoId": "QZdKs_PefiM",
+        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nmixx",
+        "name": "NMIXX"
+      },
+      "title": "병아리와 초를 불어 🕯️ ⋆౨ৎ˚⟡˖ 🍩 #NMIXX #LILY #SULLYOON #BAE #긴소원_BirthdayWish",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/QZdKs_PefiM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/QZdKs_PefiM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/QZdKs_PefiM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/QZdKs_PefiM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/QZdKs_PefiM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/QZdKs_PefiM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-18T11:00:18.000Z",
+      "url": "https://www.youtube.com/watch?v=QZdKs_PefiM",
+      "fetchedAt": "2026-10-18T12:24:00.538Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-18T12:24:00.538Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-oEvgbmsFmMc",
+      "source": {
+        "platform": "youtube",
+        "videoId": "oEvgbmsFmMc",
+        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nmixx",
+        "name": "NMIXX"
+      },
+      "title": "사랑이 시작된 순간을 기억하나요? #NMIXX #BAE #아이유 #IU #이별로부터_Challenge",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/oEvgbmsFmMc/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/oEvgbmsFmMc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/oEvgbmsFmMc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/oEvgbmsFmMc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/oEvgbmsFmMc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/oEvgbmsFmMc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-18T10:00:06.000Z",
+      "url": "https://www.youtube.com/watch?v=oEvgbmsFmMc",
+      "fetchedAt": "2026-10-18T12:24:00.538Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-18T12:24:00.538Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-sMYOiFWba_g",
       "source": {
@@ -2842,193 +3022,6 @@
       ],
       "publishedAt": "2026-09-10T11:00:34.000Z",
       "url": "https://www.youtube.com/watch?v=da_-chUgw70",
-      "fetchedAt": "2026-10-14T16:52:36.836Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:36.836Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-kb-cQvhQzNs",
-      "source": {
-        "platform": "youtube",
-        "videoId": "kb-cQvhQzNs",
-        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nmixx",
-        "name": "NMIXX"
-      },
-      "title": "“엔믹스가 스키비디 했습니다.” #NMIXX #엔믹스 #배이 #BAE",
-      "description": "“엔믹스가 스키비디 했습니다.” #NMIXX #엔믹스 #배이 #BAE \n\nNMIXX Official YouTube ▶ https://www.youtube.com/c/NMIXXOfficial\nNMIXX Official X ▶ https://x.com/NMIXX_official\nNMIXX Official X(Members) ▶ https://x.com/WE_NMIXX\nNMIXX Official Instagram ▶ https://www.instagram.com/nmixx_official/\nNMIXX ",
-      "thumbnail": "https://i.ytimg.com/vi/kb-cQvhQzNs/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/kb-cQvhQzNs/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/kb-cQvhQzNs/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/kb-cQvhQzNs/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/kb-cQvhQzNs/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/kb-cQvhQzNs/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-09T11:00:10.000Z",
-      "url": "https://www.youtube.com/watch?v=kb-cQvhQzNs",
-      "fetchedAt": "2026-10-14T16:52:36.836Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:36.836Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-Igf-WyPoJwc",
-      "source": {
-        "platform": "youtube",
-        "videoId": "Igf-WyPoJwc",
-        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nmixx",
-        "name": "NMIXX"
-      },
-      "title": "앞으로도 많이 기대해 주세요 포에버~🎀 | NMIXX 메이크업포에버 광고 비하인드 | Day MIXX",
-      "description": "앞으로도 많이 기대해 주세요 포에버~🎀 | NMIXX 메이크업포에버 광고 비하인드 | Day MIXX\n\nNMIXX Official YouTube ▶ https://www.youtube.com/c/NMIXXOfficial \nNMIXX Official X ▶ https://x.com/NMIXX_official\nNMIXX Official X(Members) ▶ https://x.com/WE_NMIXX\nNMIXX Official Instagram ▶ https://www.instagram.com/nmi",
-      "thumbnail": "https://i.ytimg.com/vi/Igf-WyPoJwc/fhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/Igf-WyPoJwc/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/Igf-WyPoJwc/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/Igf-WyPoJwc/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/Igf-WyPoJwc/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/Igf-WyPoJwc/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "fhd",
-          "url": "https://i.ytimg.com/vi/Igf-WyPoJwc/fhddefault.jpg",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "publishedAt": "2026-09-09T09:00:19.000Z",
-      "url": "https://www.youtube.com/watch?v=Igf-WyPoJwc",
-      "fetchedAt": "2026-10-14T16:52:36.836Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:36.836Z",
-      "type": "other",
-      "category": "behind",
-      "subcategory": "making",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.95,
-        "ruleId": "making"
-      }
-    },
-    {
-      "id": "yt-QCaQGRwI84M",
-      "source": {
-        "platform": "youtube",
-        "videoId": "QCaQGRwI84M",
-        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nmixx",
-        "name": "NMIXX"
-      },
-      "title": "우따따 레츠고 #NMIXX #HAEWON #JIWOO #KYUJIN",
-      "description": "우따따 레츠고 #NMIXX #HAEWON #JIWOO #KYUJIN \n\nNMIXX Official YouTube ▶ https://www.youtube.com/c/NMIXXOfficial\nNMIXX Official X ▶ https://x.com/NMIXX_official\nNMIXX Official X(Members) ▶ https://x.com/WE_NMIXX\nNMIXX Official Instagram ▶ https://www.instagram.com/nmixx_official/\nNMIXX O",
-      "thumbnail": "https://i.ytimg.com/vi/QCaQGRwI84M/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/QCaQGRwI84M/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/QCaQGRwI84M/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/QCaQGRwI84M/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/QCaQGRwI84M/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/QCaQGRwI84M/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-08T11:00:18.000Z",
-      "url": "https://www.youtube.com/watch?v=QCaQGRwI84M",
       "fetchedAt": "2026-10-14T16:52:36.836Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:36.836Z",
