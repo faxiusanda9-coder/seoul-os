@@ -4,8 +4,116 @@
   "uploadsPlaylistId": "UU-o9yrZxu5Ru-DVGhnmeTug",
   "artistId": "nexz",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-19T00:29:33.022Z",
+  "fetchedAt": "2026-10-19T12:33:52.233Z",
   "items": [
+    {
+      "id": "yt-qoSYcHerfaQ",
+      "source": {
+        "platform": "youtube",
+        "videoId": "qoSYcHerfaQ",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "𝐖𝐚𝐧𝐭 𝐌𝐨𝐫𝐞? | #NEXZ",
+      "description": "NEXZ 1ST ASIA TOUR [SAUCIN' THE WORLD]\n2026.10.17-18 @ OLYMPIC HALL\n\n#NEXZ\n#SAUCIN_THE_WORLD_IN_SEOUL\n#NEXZ_ASIA_TOUR\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
+      "thumbnail": "https://i.ytimg.com/vi/qoSYcHerfaQ/hqdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/qoSYcHerfaQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/qoSYcHerfaQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/qoSYcHerfaQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        }
+      ],
+      "publishedAt": "2026-10-19T12:00:20.000Z",
+      "url": "https://www.youtube.com/watch?v=qoSYcHerfaQ",
+      "fetchedAt": "2026-10-19T12:33:52.233Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-19T12:33:52.233Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-tUqWVScJ8Oo",
+      "source": {
+        "platform": "youtube",
+        "videoId": "tUqWVScJ8Oo",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "@NiziUOfficial #NiziU #MIIHI 님과 쏘씬 쏘씬  | #YUKI",
+      "description": "#NEXZ #YUKI\n#SAUCIN #NEXZ_SAUCIN\n#SAUCIN_Challenge\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
+      "thumbnail": "https://i.ytimg.com/vi/tUqWVScJ8Oo/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/tUqWVScJ8Oo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/tUqWVScJ8Oo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/tUqWVScJ8Oo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/tUqWVScJ8Oo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/tUqWVScJ8Oo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-19T05:00:04.000Z",
+      "url": "https://www.youtube.com/watch?v=tUqWVScJ8Oo",
+      "fetchedAt": "2026-10-19T12:33:52.233Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-19T12:33:52.233Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-WemTNnp4rI8",
       "source": {
@@ -2870,126 +2978,6 @@
       ],
       "publishedAt": "2026-10-06T11:59:20.000Z",
       "url": "https://www.youtube.com/watch?v=W-4_7y4AlTk",
-      "fetchedAt": "2026-10-14T16:52:39.086Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:39.086Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-CXDmF2UPgz0",
-      "source": {
-        "platform": "youtube",
-        "videoId": "CXDmF2UPgz0",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "대장 가나디 🐾 | #YU #SOGEON #SEITA #YUKI",
-      "description": "#NEXZ #YU #SOGEON\n#SEITA #YUKI\n#NEXZ_meong_meong\n#2027SEASONSGREETINGS\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
-      "thumbnail": "https://i.ytimg.com/vi/CXDmF2UPgz0/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/CXDmF2UPgz0/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/CXDmF2UPgz0/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/CXDmF2UPgz0/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/CXDmF2UPgz0/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/CXDmF2UPgz0/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-06T06:00:33.000Z",
-      "url": "https://www.youtube.com/watch?v=CXDmF2UPgz0",
-      "fetchedAt": "2026-10-14T16:52:39.086Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:39.086Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-iiUvBIKqQ9A",
-      "source": {
-        "platform": "youtube",
-        "videoId": "iiUvBIKqQ9A",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "𝗟𝗶𝗹𝗮 𝗹𝗮𝗹𝗶 𝗹𝗮𝗹𝗶 𝗹𝗮𝗹𝗮 🚁 | #NEXZ",
-      "description": "#NEXZ\n#SAUCIN #NEXZ_SAUCIN\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
-      "thumbnail": "https://i.ytimg.com/vi/iiUvBIKqQ9A/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/iiUvBIKqQ9A/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/iiUvBIKqQ9A/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/iiUvBIKqQ9A/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/iiUvBIKqQ9A/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/iiUvBIKqQ9A/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-05T13:00:30.000Z",
-      "url": "https://www.youtube.com/watch?v=iiUvBIKqQ9A",
       "fetchedAt": "2026-10-14T16:52:39.086Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:39.086Z",

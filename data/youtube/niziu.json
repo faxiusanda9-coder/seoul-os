@@ -4,8 +4,129 @@
   "uploadsPlaylistId": "UUHp2q2i85qt_9nn2H7AvGOw",
   "artistId": "niziu",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-18T12:24:00.538Z",
+  "fetchedAt": "2026-10-19T12:33:52.233Z",
   "items": [
+    {
+      "id": "yt-frFVqM-pviU",
+      "source": {
+        "platform": "youtube",
+        "videoId": "frFVqM-pviU",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "NiziU INKIGAYO LIVE in TOKYO Behind",
+      "description": "NiziU INKIGAYO LIVE in TOKYO Behind\n\nNiziU Official Homepage: https://niziu.com/\nNiziU Official YouTube: https://www.youtube.com/@NiziUOfficial\nNiziU Official Facebook: https://www.facebook.com/NiziUinfoofficial/\nNiziU Official X(Twitter): https://twitter.com/NiziU__official\nNizi",
+      "thumbnail": "https://i.ytimg.com/vi/frFVqM-pviU/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/frFVqM-pviU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/frFVqM-pviU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/frFVqM-pviU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/frFVqM-pviU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/frFVqM-pviU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-19T09:00:11.000Z",
+      "url": "https://www.youtube.com/watch?v=frFVqM-pviU",
+      "fetchedAt": "2026-10-19T12:33:52.233Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-19T12:33:52.233Z",
+      "type": "other",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
+    },
+    {
+      "id": "yt-GryQQOlwNYQ",
+      "source": {
+        "platform": "youtube",
+        "videoId": "GryQQOlwNYQ",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "#SourGrapes with #MINJU ​⁠@ILLIT_official 🍇",
+      "description": "#ILLIT #아일릿 #민주\n#NiziU #니쥬 #MIIHI\n#NiziU_SourGrapes",
+      "thumbnail": "https://i.ytimg.com/vi/GryQQOlwNYQ/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/GryQQOlwNYQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/GryQQOlwNYQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/GryQQOlwNYQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/GryQQOlwNYQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/GryQQOlwNYQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-19T07:00:21.000Z",
+      "url": "https://www.youtube.com/watch?v=GryQQOlwNYQ",
+      "fetchedAt": "2026-10-19T12:33:52.233Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-19T12:33:52.233Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-WA0Kr3jL5eU",
       "source": {
@@ -2899,126 +3020,6 @@
       ],
       "publishedAt": "2026-10-08T06:07:20.000Z",
       "url": "https://www.youtube.com/watch?v=_WneDtJ9v0Y",
-      "fetchedAt": "2026-10-14T16:52:38.651Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.651Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-tjZKEAas9g8",
-      "source": {
-        "platform": "youtube",
-        "videoId": "tjZKEAas9g8",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "𝓢𝓾𝓰𝓪𝓻 𝓸𝓷 𝓜𝔂 𝓣𝓸𝓷𝓰𝓾𝓮🌿",
-      "description": "#MAYA\n#NiziU #니쥬\n#SourGrapes\n#NiziU_SourGrapes",
-      "thumbnail": "https://i.ytimg.com/vi/tjZKEAas9g8/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/tjZKEAas9g8/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/tjZKEAas9g8/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/tjZKEAas9g8/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/tjZKEAas9g8/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/tjZKEAas9g8/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-08T05:46:41.000Z",
-      "url": "https://www.youtube.com/watch?v=tjZKEAas9g8",
-      "fetchedAt": "2026-10-14T16:52:38.651Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.651Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-K2BWI_O3P38",
-      "source": {
-        "platform": "youtube",
-        "videoId": "K2BWI_O3P38",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "最強ツインテール🎀",
-      "description": "#MIIHI\n#NiziU #니쥬\n#SourGrapes\n#NiziU_SourGrapes",
-      "thumbnail": "https://i.ytimg.com/vi/K2BWI_O3P38/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/K2BWI_O3P38/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/K2BWI_O3P38/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/K2BWI_O3P38/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/K2BWI_O3P38/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/K2BWI_O3P38/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-08T04:30:22.000Z",
-      "url": "https://www.youtube.com/watch?v=K2BWI_O3P38",
       "fetchedAt": "2026-10-14T16:52:38.651Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:38.651Z",

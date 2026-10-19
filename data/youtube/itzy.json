@@ -4,8 +4,128 @@
   "uploadsPlaylistId": "UUDhM2k2Cua-JdobAh5moMFg",
   "artistId": "itzy",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-16T12:31:37.200Z",
+  "fetchedAt": "2026-10-19T12:33:52.233Z",
   "items": [
+    {
+      "id": "yt-dUV7pM23L_A",
+      "source": {
+        "platform": "youtube",
+        "videoId": "dUV7pM23L_A",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "𝙄'𝙢 𝙍𝙚𝙖𝙙𝙮⋰˚🌳#ITZY #MIDZY #LIA #리아 #GMF2026 #shorts",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/dUV7pM23L_A/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/dUV7pM23L_A/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/dUV7pM23L_A/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/dUV7pM23L_A/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/dUV7pM23L_A/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/dUV7pM23L_A/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-19T11:30:18.000Z",
+      "url": "https://www.youtube.com/watch?v=dUV7pM23L_A",
+      "fetchedAt": "2026-10-19T12:33:52.233Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-19T12:33:52.233Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-a5L0AuQggOk",
+      "source": {
+        "platform": "youtube",
+        "videoId": "a5L0AuQggOk",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "𝐾𝑛𝑜𝑐𝑘 𝑘𝑛𝑜𝑐𝑘, 𝐶𝑜𝑚𝑖𝑛𝑔 𝑠𝑜𝑜𝑛 ...💓 #ITZY #CHAERYEONG #채령 #Chaeryeong_Lovesick #shorts",
+      "description": "💿 ALBUM RELEASE\n2026.11.09 MON 6PM (KST) | 4AM (ET)",
+      "thumbnail": "https://i.ytimg.com/vi/a5L0AuQggOk/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/a5L0AuQggOk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/a5L0AuQggOk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/a5L0AuQggOk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/a5L0AuQggOk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/a5L0AuQggOk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-19T10:00:29.000Z",
+      "url": "https://www.youtube.com/watch?v=a5L0AuQggOk",
+      "fetchedAt": "2026-10-19T12:33:52.233Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-19T12:33:52.233Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-4vmBvGMSLBw",
       "source": {
@@ -3040,126 +3160,6 @@
       ],
       "publishedAt": "2026-09-07T06:00:17.000Z",
       "url": "https://www.youtube.com/watch?v=nSQKwAzWyps",
-      "fetchedAt": "2026-10-14T16:52:36.440Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:36.440Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-TqHEweZsyCE",
-      "source": {
-        "platform": "youtube",
-        "videoId": "TqHEweZsyCE",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "we want you back🖤💙 #ITZY #YEJI #RYUJIN #예지 #류진",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/TqHEweZsyCE/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/TqHEweZsyCE/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/TqHEweZsyCE/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/TqHEweZsyCE/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/TqHEweZsyCE/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/TqHEweZsyCE/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-05T14:59:12.000Z",
-      "url": "https://www.youtube.com/watch?v=TqHEweZsyCE",
-      "fetchedAt": "2026-10-14T16:52:36.440Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:36.440Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-a6TGZavdX4Y",
-      "source": {
-        "platform": "youtube",
-        "videoId": "a6TGZavdX4Y",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "[🔴LIVE] ITZY 3RD WORLD TOUR 'TUNNEL VISION' in TAIPEI🎵 WRAP UP🎤",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/a6TGZavdX4Y/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/a6TGZavdX4Y/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/a6TGZavdX4Y/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/a6TGZavdX4Y/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/a6TGZavdX4Y/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/a6TGZavdX4Y/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-05T12:51:53.000Z",
-      "url": "https://www.youtube.com/watch?v=a6TGZavdX4Y",
       "fetchedAt": "2026-10-14T16:52:36.440Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:36.440Z",

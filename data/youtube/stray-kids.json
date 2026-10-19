@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UU9rMiEjNaCSsebs31MRDCRA",
   "artistId": "stray-kids",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-15T12:32:22.966Z",
+  "fetchedAt": "2026-10-19T12:33:52.233Z",
   "items": [
+    {
+      "id": "yt-qDFiqYi0sXA",
+      "source": {
+        "platform": "youtube",
+        "videoId": "qDFiqYi0sXA",
+        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "stray-kids",
+        "name": "Stray Kids"
+      },
+      "title": "Cool (^._.^)ﾉ #StrayKids #스트레이키즈 #한 #HAN #필릭스 #Felix #YouMakeStrayKidsStay",
+      "description": "Cool (^._.^)ﾉ #StrayKids #스트레이키즈 #한 #HAN #필릭스 #Felix #YouMakeStrayKidsStay  \n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" now➡️\nhttp",
+      "thumbnail": "https://i.ytimg.com/vi/qDFiqYi0sXA/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/qDFiqYi0sXA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/qDFiqYi0sXA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/qDFiqYi0sXA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/qDFiqYi0sXA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/qDFiqYi0sXA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-19T11:00:09.000Z",
+      "url": "https://www.youtube.com/watch?v=qDFiqYi0sXA",
+      "fetchedAt": "2026-10-19T12:33:52.233Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-19T12:33:52.233Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-BDY7GUM-4TE",
       "source": {
@@ -2966,66 +3026,6 @@
         "method": "rule",
         "confidence": 0.94,
         "ruleId": "stage"
-      }
-    },
-    {
-      "id": "yt-BFfu3rRvw2w",
-      "source": {
-        "platform": "youtube",
-        "videoId": "BFfu3rRvw2w",
-        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "stray-kids",
-        "name": "Stray Kids"
-      },
-      "title": "둠칫🐷🐰둠칫🐥 #StrayKids #스트레이키즈 #창빈 #Changbin #필릭스 #Felix #YouMakeStrayKidsStay",
-      "description": "둠칫🐷🐰둠칫🐥 #StrayKids #스트레이키즈 #창빈 #Changbin #필릭스 #Felix #YouMakeStrayKidsStay    \n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" now➡️",
-      "thumbnail": "https://i.ytimg.com/vi/BFfu3rRvw2w/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/BFfu3rRvw2w/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/BFfu3rRvw2w/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/BFfu3rRvw2w/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/BFfu3rRvw2w/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/BFfu3rRvw2w/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-13T11:00:01.000Z",
-      "url": "https://www.youtube.com/watch?v=BFfu3rRvw2w",
-      "fetchedAt": "2026-10-14T16:52:36.079Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
       }
     }
   ]
