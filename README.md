@@ -6,11 +6,11 @@ Instagram 播放排查与当前限制见 [Phase 3.1.1 修复报告](docs/phase-3
 
 **Phase 3.2：已实现 Instagram Business Discovery / TikTok Display API 适配器及北京时间每日 08:00、12:00、20:00 调度配置，当前缺少平台授权，真实开通账号为 0。** 本地清单校验与远程发现成功时间分开记录。见 [实施与验收](docs/phase-3.2-acceptance.md)、[应用、权限和 Secrets 配置](docs/phase-3.2-setup.md)。PR #2 已合并发布，配置发布不代表已获得平台授权。
 
-**Phase 3.4.1 Bright Data TikTok（开发分支，未上线）：** 保留 80 个唯一视频和原收藏 ID。六团采集为北京 08:00/20:00、每账号最多 8 条，内部月预留上限 4,000、额外付费上限 $0。新增独立变量 `BRIGHTDATA_TIKTOK_SCHEDULE_ENABLED`，缺失或非字符串 `true` 时停止同步，保持视频、预算和公开成功时间不变。流程改为：先在关闭采集时审查合并/发布 → 默认分支手动 ITZY 单条 probe → 实测、账单和许可核验并获批准后才开启定时。唯一实际采集密钥来源仍为 Actions Secret `BRIGHT_DATA_API_KEY`。本轮仅更新功能分支，不代表已合并、已连接 API 或已正式运行。见 [启动修复验收与开通步骤](docs/phase-3.4.1/acceptance.md)；历史导入证据见 [Phase 3.4](docs/phase-3.4/acceptance.md)。
+**Phase 3.4.3 Bright Data TikTok（已上线）：** 原 80 条历史记录及收藏 ID 保留，真实 API 返回并核验的新增 ITZY 视频已发布，站内实际播放通过。本站已获维护者明确批准启用六团采集：TWICE、Stray Kids、NMIXX、NEXZ、ITZY、NiziU，北京时间每日 08:00/20:00、每账号每轮最多 8 条。内部月预留上限 4,000、额外付费授权 $0，不充值、不购买套餐、不自动付费回退。代码和新仓库仍默认关闭，只有独立变量 `BRIGHTDATA_TIKTOK_SCHEDULE_ENABLED=true` 才运行。密钥仅放 Actions Secret `BRIGHT_DATA_API_KEY`。当前状态和恢复流程见 [运行说明](docs/phase-3.4.3-activation.md)，实际结果见 [采集工作流](https://github.com/faxiusanda9-coder/seoul-os/actions/workflows/brightdata-tiktok.yml)；历史导入证据见 [Phase 3.4](docs/phase-3.4/acceptance.md)。第三方采集与 TikTok 官方 Display API 分开标记。
 
 ## 本地运行
 
-**Bright Data 当前开通流程见 [Phase 3.4.2 操作指南](docs/phase-3.4.2/operations.md)**：默认关闭，先安全审查合并/发布，再 ITZY 单条 probe，最后使用不发采集请求的 reconcile 核对实际额度/账单。$2 Balance 与实际现金支出分开，不伪填为 0。单次授权不会自动启用定时。
+**Bright Data 当前流程以 [Phase 3.4.3 运行说明](docs/phase-3.4.3-activation.md) 为准。** Phase 3.4.1/3.4.2 文档保留为历史记录。人工导入、真实请求、页面发布、定时触发和账单核验分别记录；未知的实际额度扣减或现金支出不会填写成 0。
 
 需要 Node.js 24+ 和 npm。同步脚本使用 Node 的 TypeScript 类型剥离功能读取共享 schema。
 
@@ -103,11 +103,11 @@ npm run sync:brightdata:tiktok -- --mode=plan # 纯离线第三方请求计划
 npm run test:brightdata
 ```
 
-Bright Data 的 plan 只读本地配置和预算镜像，不读取密钥/授权、不查询供应商或远端台账。报告中的本地剩余预留空间不是供应商免费额度；密钥、零付费证据及实际账单均保留为未检查。账户 Balance、无支付方式和免费额度不能自动启用采集，控制台确认清单见 [Phase 3.4.1 验收](docs/phase-3.4.1/acceptance.md#8-本次离线-plan-补充与账户确认清单)。
+Bright Data 的 plan 只读本地配置和预算镜像，不读取密钥/授权、不查询供应商或远端台账。本地预留空间与供应商免费 credits、账户 Balance、实际现金支出分别记录。已批准的免费额度内更新依据官方计量规则及共享远端账本先预留后请求，未知任务不重新 POST；具体保护和月度规则见当前运行说明。代码不购买或充值。
 
-人工导入的历史维护说明见 [Phase 3 实施与维护](docs/phase-3-official-media.md)；当前自动发现实现、限制和开通步骤以 [Phase 3.2 指南](docs/phase-3.2-setup.md) 为准。没有应用审批、授权令牌或可核实接口时，保留人工清单，不记录发现成功。
+人工导入的历史维护说明见 [Phase 3 实施与维护](docs/phase-3-official-media.md)。Instagram / TikTok 官方 API 的授权限制见 [Phase 3.2 指南](docs/phase-3.2-setup.md)；Bright Data 第三方采集见 Phase 3.4.3，不把第三方接通冒称平台官方 OAuth 授权。
 
-历史播放证据见 [Phase 3.1 中文验收报告](docs/phase-3.1-acceptance.md)。本地当前 Instagram 78 条；TikTok 80 条包含原 35 条人工记录与 45 条第三方新记录，来源分别标记。开发分支导入不代表线上已更新；维护者可按 Phase 3.4.1 指南在采集默认关闭时审查合并/发布，本轮没有执行合并或生产部署。
+历史播放证据见 [Phase 3.1 中文验收报告](docs/phase-3.1-acceptance.md)。Instagram 清单保留 78 条。TikTok 保留原 35 条人工记录、45 条第三方导入及后续自动去重的新视频，来源分别标记；当前总数以 [生产清单](data/social/tiktok/items.json) 为准。数据及真实成功检查时间通过现有 GitHub Pages 工作流发布，未新增视频时保留视频文件原字节，只更新有意义的同步状态和预算记录。
 
 ## 项目结构
 
