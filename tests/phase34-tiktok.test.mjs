@@ -12,6 +12,7 @@ import {
   importSnapshotFile,
 } from "../scripts/brightdata-tiktok/import-file.mjs";
 import { syncBrightData } from "../scripts/brightdata-tiktok/sync.mjs";
+import { initializeBrightDataFixture } from "./helpers/brightdata-fixture.mjs";
 import {
   gitBudgetStore,
   BUDGET_BRANCH,
@@ -76,6 +77,7 @@ async function fixture(t) {
     await rm(path, { recursive: true, force: true });
   });
   await cp(resolve("data"), join(path, "data"), { recursive: true });
+  await initializeBrightDataFixture(join(path, "data"));
   return join(path, "data");
 }
 function network(rows, states = ["ready"]) {
@@ -149,13 +151,26 @@ test("historical third-party index is not deleted by age; official API retention
 });
 
 test("actual supplied export replays 57/45/12/3; original 35 records and all imported IDs are preserved", async () => {
-  const current = JSON.parse(
+  const production = JSON.parse(
     await readFile("data/social/tiktok/items.json", "utf8"),
   );
   const audit = JSON.parse(
     await readFile("docs/phase-3.4/pre-integration-audit.json", "utf8"),
   );
   const added = new Set(audit.addedIds);
+  const hashes = JSON.parse(
+    await readFile("docs/phase-3.4/baseline35-hashes.json", "utf8"),
+  );
+  const historicalIds = new Set([...hashes.map((x) => x.id), ...added]);
+  const current = {
+    ...production,
+    items: production.items.filter((i) => historicalIds.has(i.id)),
+  };
+  assert.ok(parseSocialSnapshot(production, "tiktok", accounts));
+  assert.equal(
+    new Set(production.items.map((i) => i.id)).size,
+    production.items.length,
+  );
   const baseline = {
     ...current,
     items: current.items
@@ -185,9 +200,6 @@ test("actual supplied export replays 57/45/12/3; original 35 records and all imp
   );
   assert.deepEqual(totals, { new: 45, enriched: 12, failed: 3 });
   assert.deepEqual(result.manifest, current);
-  const hashes = JSON.parse(
-    await readFile("docs/phase-3.4/baseline35-hashes.json", "utf8"),
-  );
   for (const entry of hashes) {
     const item = current.items.find((i) => i.id === entry.id);
     assert.ok(item);
@@ -280,7 +292,7 @@ test("controlled new ID is appended once, leaving every existing object and save
   assert.equal(result.sources[0].newCount, 1);
   assert.equal(result.contentWrites, 1);
   const after = await read(root, "social/tiktok/items.json");
-  assert.equal(after.items.length, 81);
+  assert.equal(after.items.length, before.items.length + 1);
   for (const item of before.items)
     assert.deepEqual(
       after.items.find((i) => i.id === item.id),
