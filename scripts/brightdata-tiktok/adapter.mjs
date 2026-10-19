@@ -136,6 +136,7 @@ export async function collectProfile(
     onSnapshot = async () => {},
     onTerminal = async () => {},
     onRows = async () => {},
+    onUnknownState = async () => {},
     maxPolls = 360,
   } = {},
 ) {
@@ -153,6 +154,7 @@ export async function collectProfile(
     throw new BrightDataError("BRIGHTDATA_INVALID_SNAPSHOT");
   const id = started.snapshot_id;
   await onSnapshot(id);
+  let unknownPolls = 0;
   for (let n = 0; n < maxPolls && Date.now() < deadline; n++) {
     const progress = await providerJson(`/datasets/v3/progress/${id}`, {
       token,
@@ -182,8 +184,19 @@ export async function collectProfile(
         throw new BrightDataError("BRIGHTDATA_RESULT_LIMIT_OR_FORMAT");
       return { snapshotId: id, rows };
     }
-    if (!["starting", "running"].includes(progress.status))
-      throw new BrightDataError("BRIGHTDATA_UNKNOWN_JOB_STATE");
+    if (!["starting", "running"].includes(progress.status)) {
+      // A real job briefly returned an undocumented state before becoming
+      // ready. Re-read the SAME job for at most one minute. Unknown is never
+      // considered success, never downloaded, and never causes another POST.
+      await onUnknownState(
+        typeof progress.status === "string" &&
+          /^[a-z_-]{1,32}$/.test(progress.status)
+          ? progress.status
+          : "unrecognized-value",
+      );
+      if (++unknownPolls >= 13 || n + 1 >= maxPolls)
+        throw new BrightDataError("BRIGHTDATA_UNKNOWN_JOB_STATE");
+    } else unknownPolls = 0;
     if (n + 1 < maxPolls)
       await sleep(Math.min(5000, Math.max(1, deadline - Date.now())));
   }

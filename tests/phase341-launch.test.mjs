@@ -398,7 +398,7 @@ test("unknown Snapshot state stops probe, preserves public records and blocks a 
     root = join(dir, "data"),
     before = await bytes(root, protectedFiles.slice(0, 2));
   const net = network("unknown-provider-state");
-  const r = await execute(root, { fetcher: net.fetcher });
+  const r = await execute(root, { fetcher: net.fetcher, maxPolls: 1 });
   assert.equal(r.sources[0].error, "BRIGHTDATA_UNKNOWN_JOB_STATE");
   assert.equal(r.contentWrites, 0);
   assert.equal(r.liveValidation.resultDownloaded, false);
