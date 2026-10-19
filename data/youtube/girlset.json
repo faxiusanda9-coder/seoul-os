@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUSskmnvIhEy3nSZxxVKTeIg",
   "artistId": "girlset",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-17T00:30:07.976Z",
+  "fetchedAt": "2026-10-19T00:29:33.022Z",
   "items": [
+    {
+      "id": "yt-JtisQYlyJMs",
+      "source": {
+        "platform": "youtube",
+        "videoId": "JtisQYlyJMs",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "gl #GIRLSET",
+      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
+      "thumbnail": "https://i.ytimg.com/vi/JtisQYlyJMs/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/JtisQYlyJMs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/JtisQYlyJMs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/JtisQYlyJMs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/JtisQYlyJMs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/JtisQYlyJMs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-18T17:48:22.000Z",
+      "url": "https://www.youtube.com/watch?v=JtisQYlyJMs",
+      "fetchedAt": "2026-10-19T00:29:33.022Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-19T00:29:33.022Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-47TXLR-hza0",
       "source": {
@@ -2993,73 +3053,6 @@
       ],
       "publishedAt": "2026-08-11T16:16:25.000Z",
       "url": "https://www.youtube.com/watch?v=vZAsZgdVVyk",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
-      "type": "other",
-      "category": "music",
-      "subcategory": "performance-video",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.91,
-        "ruleId": "music-performance"
-      }
-    },
-    {
-      "id": "yt-fCdXPaAle8g",
-      "source": {
-        "platform": "youtube",
-        "videoId": "fCdXPaAle8g",
-        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "girlset",
-        "name": "GIRLSET"
-      },
-      "title": "GIRLSET \"CHAT\" Lyric Video (Fan Made)",
-      "description": "GIRLSET \"CHAT\" Spotify: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official Website: https://girlset.com\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://www.twitter.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/",
-      "thumbnail": "https://i.ytimg.com/vi/fCdXPaAle8g/qhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/fCdXPaAle8g/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/fCdXPaAle8g/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/fCdXPaAle8g/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/fCdXPaAle8g/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/fCdXPaAle8g/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "qhd",
-          "url": "https://i.ytimg.com/vi/fCdXPaAle8g/qhddefault.jpg",
-          "width": 2560,
-          "height": 1440
-        }
-      ],
-      "publishedAt": "2026-08-11T16:00:39.000Z",
-      "url": "https://www.youtube.com/watch?v=fCdXPaAle8g",
       "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:41.420Z",

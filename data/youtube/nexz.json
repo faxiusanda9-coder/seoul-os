@@ -4,8 +4,56 @@
   "uploadsPlaylistId": "UU-o9yrZxu5Ru-DVGhnmeTug",
   "artistId": "nexz",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-18T04:23:25.504Z",
+  "fetchedAt": "2026-10-19T00:29:33.022Z",
   "items": [
+    {
+      "id": "yt-WemTNnp4rI8",
+      "source": {
+        "platform": "youtube",
+        "videoId": "WemTNnp4rI8",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "POV: NEXZ 콘서트 전후 | #NEXZ",
+      "description": "NEXZ 1ST ASIA TOUR [SAUCIN' THE WORLD]\n2026.10.17-18 @ OLYMPIC HALL\n\n#NEXZ\n#SAUCIN_THE_WORLD_IN_SEOUL\n#NEXZ_ASIA_TOUR\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
+      "thumbnail": "https://i.ytimg.com/vi/WemTNnp4rI8/hqdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/WemTNnp4rI8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/WemTNnp4rI8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/WemTNnp4rI8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        }
+      ],
+      "publishedAt": "2026-10-18T13:00:14.000Z",
+      "url": "https://www.youtube.com/watch?v=WemTNnp4rI8",
+      "fetchedAt": "2026-10-19T00:29:33.022Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-19T00:29:33.022Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-Ta41PG1qfYs",
       "source": {
@@ -2951,67 +2999,6 @@
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-ADOiSmpvlNM",
-      "source": {
-        "platform": "youtube",
-        "videoId": "ADOiSmpvlNM",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "Hands up, Yo! Challenge with #REIA さん #RYOTA さん (#ONEOREIGHT) |  #HARU #SOGEON #HYUI",
-      "description": "#NEXZ #HARU\n#SOGEON #HYUI\n#Handsup_Yo\n#Hellmate #NEXZ_Hellmate\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
-      "thumbnail": "https://i.ytimg.com/vi/ADOiSmpvlNM/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/ADOiSmpvlNM/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/ADOiSmpvlNM/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/ADOiSmpvlNM/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/ADOiSmpvlNM/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/ADOiSmpvlNM/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-05T12:00:16.000Z",
-      "url": "https://www.youtube.com/watch?v=ADOiSmpvlNM",
-      "fetchedAt": "2026-10-14T16:52:39.086Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:39.086Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
       }
     }
   ]
