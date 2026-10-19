@@ -141,6 +141,34 @@
       "completedAt": "2026-10-19T08:36:47.480Z",
       "purpose": "scheduled-free-only",
       "creditLimit": 8
+    },
+    {
+      "id": "783fd7f9-3682-4ff8-98bd-c46859a98cf6",
+      "artistId": "twice",
+      "slot": "2026-10-19T12:00:00.000Z",
+      "month": "2026-10",
+      "limit": 8,
+      "state": "complete",
+      "snapshotId": "sd_mvf8d2jd1f3wak2ais",
+      "recordCount": 8,
+      "createdAt": "2026-10-19T12:28:20.410Z",
+      "completedAt": "2026-10-19T12:33:51.349Z",
+      "purpose": "scheduled-free-only",
+      "creditLimit": 8
+    },
+    {
+      "id": "e02bfde7-1642-44c2-9f6a-47579ed4feb2",
+      "artistId": "stray-kids",
+      "slot": "2026-10-19T12:00:00.000Z",
+      "month": "2026-10",
+      "limit": 8,
+      "state": "complete",
+      "snapshotId": "sd_mvf8k6kl1cp52qqskx",
+      "recordCount": 8,
+      "createdAt": "2026-10-19T12:33:52.331Z",
+      "completedAt": "2026-10-19T12:53:49.777Z",
+      "purpose": "scheduled-free-only",
+      "creditLimit": 8
     }
   ]
 }
