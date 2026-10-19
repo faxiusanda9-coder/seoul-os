@@ -57,6 +57,62 @@
       "completedAt": "2026-10-19T07:09:14.273Z",
       "purpose": "scheduled-free-only",
       "creditLimit": 8
+    },
+    {
+      "id": "7498dd57-784c-4371-ab6d-2b89915a5028",
+      "artistId": "twice",
+      "slot": "2026-10-19T00:00:00.000Z",
+      "month": "2026-10",
+      "limit": 8,
+      "state": "complete",
+      "snapshotId": "sd_mvex0nwusraxvyunl",
+      "recordCount": 8,
+      "createdAt": "2026-10-19T07:10:45.745Z",
+      "completedAt": "2026-10-19T07:15:50.619Z",
+      "purpose": "scheduled-free-only",
+      "creditLimit": 8
+    },
+    {
+      "id": "16298307-40f5-444d-8521-a16cf352d2cf",
+      "artistId": "stray-kids",
+      "slot": "2026-10-19T00:00:00.000Z",
+      "month": "2026-10",
+      "limit": 8,
+      "state": "complete",
+      "snapshotId": "sd_mvex780qoyy1ldzgt",
+      "recordCount": 8,
+      "createdAt": "2026-10-19T07:15:51.803Z",
+      "completedAt": "2026-10-19T07:32:27.741Z",
+      "purpose": "scheduled-free-only",
+      "creditLimit": 8
+    },
+    {
+      "id": "44d9a546-b6d3-441c-9aa2-5096852ebb65",
+      "artistId": "nmixx",
+      "slot": "2026-10-19T00:00:00.000Z",
+      "month": "2026-10",
+      "limit": 8,
+      "state": "complete",
+      "snapshotId": "sd_mvexslg79um0u7oeh",
+      "recordCount": 8,
+      "createdAt": "2026-10-19T07:32:29.134Z",
+      "completedAt": "2026-10-19T07:45:42.932Z",
+      "purpose": "scheduled-free-only",
+      "creditLimit": 8
+    },
+    {
+      "id": "3d6714ff-cce6-4cbf-ad90-9ea868a14c07",
+      "artistId": "nexz",
+      "slot": "2026-10-19T00:00:00.000Z",
+      "month": "2026-10",
+      "limit": 8,
+      "state": "reserved",
+      "snapshotId": "sd_mvey9n0lqvayiks17",
+      "recordCount": null,
+      "createdAt": "2026-10-19T07:45:44.168Z",
+      "completedAt": null,
+      "purpose": "scheduled-free-only",
+      "creditLimit": 8
     }
   ]
 }
