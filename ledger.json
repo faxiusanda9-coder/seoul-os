@@ -57,6 +57,20 @@
       "completedAt": "2026-10-19T07:09:14.273Z",
       "purpose": "scheduled-free-only",
       "creditLimit": 8
+    },
+    {
+      "id": "7498dd57-784c-4371-ab6d-2b89915a5028",
+      "artistId": "twice",
+      "slot": "2026-10-19T00:00:00.000Z",
+      "month": "2026-10",
+      "limit": 8,
+      "state": "reserved",
+      "snapshotId": null,
+      "recordCount": null,
+      "createdAt": "2026-10-19T07:10:45.745Z",
+      "completedAt": null,
+      "purpose": "scheduled-free-only",
+      "creditLimit": 8
     }
   ]
 }
