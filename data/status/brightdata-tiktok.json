@@ -6,12 +6,12 @@
   "budget": {
     "month": "2026-10",
     "recordLimit": 4000,
-    "reservedRecords": 89,
-    "deliveredRecords": 89,
-    "remainingRecords": 2911,
+    "reservedRecords": 105,
+    "deliveredRecords": 97,
+    "remainingRecords": null,
     "paidSpendLimitUsd": 0,
     "paidSpendUsd": null,
-    "confirmationValidUntil": "2026-11-01T00:00:00.000Z"
+    "confirmationValidUntil": null
   },
   "sources": [
     {
@@ -41,20 +41,20 @@
     {
       "artistId": "nmixx",
       "accountUrl": "https://www.tiktok.com/@nmixx_official/",
-      "state": "blocked",
-      "lastAttemptAt": "2026-10-19T12:53:50.896Z",
-      "lastSuccessAt": "2026-10-19T07:45:42.932Z",
-      "lastContentChangeAt": null,
-      "newCount": null,
-      "updatedCount": null,
-      "returnedCount": null,
-      "error": "STOPPED_AFTER_PROVIDER_FAILURE"
+      "state": "ok",
+      "lastAttemptAt": "2026-10-19T14:14:55.994Z",
+      "lastSuccessAt": "2026-10-19T14:23:28.428Z",
+      "lastContentChangeAt": "2026-10-19T14:23:28.428Z",
+      "newCount": 4,
+      "updatedCount": 0,
+      "returnedCount": 8,
+      "error": null
     },
     {
       "artistId": "itzy",
       "accountUrl": "https://www.tiktok.com/@itzyofficial/",
       "state": "blocked",
-      "lastAttemptAt": "2026-10-19T12:53:50.896Z",
+      "lastAttemptAt": "2026-10-19T14:53:31.002Z",
       "lastSuccessAt": "2026-10-19T08:24:27.543Z",
       "lastContentChangeAt": "2026-10-19T08:24:27.543Z",
       "newCount": null,
@@ -66,7 +66,7 @@
       "artistId": "niziu",
       "accountUrl": "https://www.tiktok.com/@niziu_official/",
       "state": "blocked",
-      "lastAttemptAt": "2026-10-19T12:53:50.896Z",
+      "lastAttemptAt": "2026-10-19T14:53:31.002Z",
       "lastSuccessAt": "2026-10-19T08:36:47.480Z",
       "lastContentChangeAt": "2026-10-19T08:36:47.480Z",
       "newCount": null,
@@ -77,14 +77,14 @@
     {
       "artistId": "nexz",
       "accountUrl": "https://www.tiktok.com/@nexz_official/",
-      "state": "blocked",
-      "lastAttemptAt": "2026-10-19T12:53:50.896Z",
+      "state": "failed",
+      "lastAttemptAt": "2026-10-19T14:23:29.735Z",
       "lastSuccessAt": "2026-10-19T08:17:20.296Z",
       "lastContentChangeAt": "2026-10-19T08:17:20.296Z",
       "newCount": null,
       "updatedCount": null,
       "returnedCount": null,
-      "error": "STOPPED_AFTER_PROVIDER_FAILURE"
+      "error": "BRIGHTDATA_JOB_TIMEOUT"
     }
   ]
 }

@@ -169,6 +169,34 @@
       "completedAt": "2026-10-19T12:53:49.777Z",
       "purpose": "scheduled-free-only",
       "creditLimit": 8
+    },
+    {
+      "id": "4115ca31-f87b-40db-949e-379a32b4da67",
+      "artistId": "nmixx",
+      "slot": "2026-10-19T12:00:00.000Z",
+      "month": "2026-10",
+      "limit": 8,
+      "state": "complete",
+      "snapshotId": "sd_mvfc65os2n0uqz1ils",
+      "recordCount": 8,
+      "createdAt": "2026-10-19T14:14:55.994Z",
+      "completedAt": "2026-10-19T14:23:28.428Z",
+      "purpose": "scheduled-free-only",
+      "creditLimit": 8
+    },
+    {
+      "id": "f35a4e03-eb3e-477a-af10-32a6af8f81c5",
+      "artistId": "nexz",
+      "slot": "2026-10-19T12:00:00.000Z",
+      "month": "2026-10",
+      "limit": 8,
+      "state": "reserved",
+      "snapshotId": "sd_mvfch5uf1yyqezxnve",
+      "recordCount": null,
+      "createdAt": "2026-10-19T14:23:29.735Z",
+      "completedAt": null,
+      "purpose": "scheduled-free-only",
+      "creditLimit": 8
     }
   ]
 }
