@@ -54,15 +54,17 @@ export function BrightDataStatus({ artistId }: { artistId: string }) {
     >
       <summary>
         {t(
-          s?.state === "ok"
-            ? "brightdata.checked"
-            : s?.state === "failed"
-              ? "brightdata.failed"
-              : s?.state === "blocked"
-                ? "brightdata.blocked"
-                : s?.state === "not-configured"
-                  ? "brightdata.notConfigured"
-                  : "brightdata.unavailable",
+          s?.error === "BRIGHTDATA_PARTIAL_RESULT"
+            ? "brightdata.partial"
+            : s?.state === "ok"
+              ? "brightdata.checked"
+              : s?.state === "failed"
+                ? "brightdata.failed"
+                : s?.state === "blocked"
+                  ? "brightdata.blocked"
+                  : s?.state === "not-configured"
+                    ? "brightdata.notConfigured"
+                    : "brightdata.unavailable",
         )}
         {s?.state === "ok" && brightDataOverdue(s)
           ? ` · ${t("media.checkWarning")}`

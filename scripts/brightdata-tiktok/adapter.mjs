@@ -299,6 +299,19 @@ export function normalizeRows(
   }
   return [...seen.values()];
 }
+// A ready snapshot can mix real posts with explicit per-post scraper errors.
+// Keep those errors as evidence; every remaining row still passes all original
+// identity/date/video checks. Malformed or foreign-author rows remain fatal.
+export function normalizeCollectedRows(rows, account, options) {
+  if (!Array.isArray(rows) || rows.length > (options.limit ?? 8))
+    throw new BrightDataError("BRIGHTDATA_RESULT_LIMIT_OR_FORMAT");
+  const candidates = rows.filter((row) => !row?.error && !row?.error_code);
+  return {
+    items: normalizeRows(candidates, account, options),
+    failedRecords: failedRowEvidence(rows, account, options.snapshotId),
+    rejectedCount: rows.length - candidates.length,
+  };
+}
 export function mergeBrightData(snapshot, incoming, { onlyNew = false } = {}) {
   const next = new Map(snapshot.items.map((i) => [i.id, i]));
   let newCount = 0,

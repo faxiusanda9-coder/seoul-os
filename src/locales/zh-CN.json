@@ -390,6 +390,7 @@
   "brightdata.authorChecked": "第三方元数据作者匹配于",
   "brightdata.officialChecked": "官方接口核验于",
   "brightdata.checked": "Bright Data 第三方检查已完成",
+  "brightdata.partial": "部分记录未通过 · 合格视频已处理",
   "brightdata.failed": "Bright Data 第三方检查失败 · 保留已有内容",
   "brightdata.blocked": "Bright Data 已暂停 · 费用或使用条件待确认",
   "brightdata.notConfigured": "Bright Data 尚未接通",
