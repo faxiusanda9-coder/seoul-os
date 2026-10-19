@@ -390,6 +390,7 @@
   "brightdata.authorChecked": "Third-party metadata author matched on",
   "brightdata.officialChecked": "Official API check on",
   "brightdata.checked": "Bright Data third-party check completed",
+  "brightdata.partial": "Some records failed; validated videos were processed",
   "brightdata.failed": "Bright Data check failed; existing content retained",
   "brightdata.blocked": "Bright Data paused; costs or usage permission unconfirmed",
   "brightdata.notConfigured": "Bright Data is not connected",

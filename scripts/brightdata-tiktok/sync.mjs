@@ -27,7 +27,7 @@ import {
 import {
   triggerRequest,
   collectProfile,
-  normalizeRows,
+  normalizeCollectedRows,
   mergeBrightData,
   failedRowEvidence,
 } from "./adapter.mjs";
@@ -356,11 +356,12 @@ export async function syncBrightData({
         reservation.state = "complete";
         reservation.completedAt = completed;
         await persist();
-        const incoming = normalizeRows(result.rows, account, {
+        const collected = normalizeCollectedRows(result.rows, account, {
           snapshotId: result.snapshotId,
           now: completed,
           limit,
         });
+        const incoming = collected.items;
         if (mode === "probe" && !incoming.length)
           throw new BrightDataError("BRIGHTDATA_EMPTY_PROBE");
         const merged = mergeBrightData(snapshot, incoming, {
@@ -369,7 +370,7 @@ export async function syncBrightData({
         if (!parseSocialSnapshot(merged.snapshot, "tiktok", accounts))
           throw new BrightDataError("BRIGHTDATA_CONTENT_VALIDATION_FAILED");
         summary.connected = true;
-        summary.liveValidation.authorValidated = true;
+        if (incoming.length) summary.liveValidation.authorValidated = true;
         for (const item of incoming)
           if (
             !summary.liveValidation.newestPublishedAt ||
@@ -387,8 +388,13 @@ export async function syncBrightData({
           })),
         );
         Object.assign(s, {
-          state: "ok",
-          lastSuccessAt: completed,
+          // Rejected provider rows are visible failures, never playable cards.
+          // A known, downloaded result can safely leave other accounts running.
+          state: collected.rejectedCount ? "failed" : "ok",
+          lastSuccessAt:
+            incoming.length || !collected.rejectedCount
+              ? completed
+              : s.lastSuccessAt,
           lastContentChangeAt:
             mode === "sync" && (merged.newCount || merged.updatedCount)
               ? completed
@@ -396,6 +402,11 @@ export async function syncBrightData({
           newCount: merged.newCount,
           updatedCount: merged.updatedCount,
           returnedCount: result.rows.length,
+          error: collected.rejectedCount
+            ? incoming.length
+              ? "BRIGHTDATA_PARTIAL_RESULT"
+              : "BRIGHTDATA_RECORD_ERROR"
+            : null,
         });
         if (mode === "sync") {
           snapshot = merged.snapshot;
