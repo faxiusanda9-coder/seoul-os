@@ -14,6 +14,7 @@ import { tmpdir } from "node:os";
 import { resolve, join, sep } from "node:path";
 import { selectLaunch } from "../scripts/brightdata-tiktok/launch.mjs";
 import { syncBrightData } from "../scripts/brightdata-tiktok/sync.mjs";
+import { initializeBrightDataFixture } from "./helpers/brightdata-fixture.mjs";
 import {
   BrightDataError,
   checkPermissionAndBudget,
@@ -75,7 +76,10 @@ async function fixture(t, copy = true) {
     assert.ok(resolve(dir).startsWith(resolve(tmpdir()) + sep));
     await rm(dir, { recursive: true, force: true });
   });
-  if (copy) await cp(resolve("data"), join(dir, "data"), { recursive: true });
+  if (copy) {
+    await cp(resolve("data"), join(dir, "data"), { recursive: true });
+    await initializeBrightDataFixture(join(dir, "data"));
+  }
   return dir;
 }
 const execute = (root, extra = {}) =>

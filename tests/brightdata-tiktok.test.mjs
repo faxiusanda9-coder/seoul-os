@@ -5,7 +5,11 @@ import { mkdtemp, cp, readFile, writeFile, rm, open } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { resolve, join, sep } from "node:path";
 import { execFileSync } from "node:child_process";
-import { syncBrightData } from "../scripts/brightdata-tiktok/sync.mjs";
+import {
+  syncBrightData,
+  emptyBrightDataStatus,
+} from "../scripts/brightdata-tiktok/sync.mjs";
+import { initializeBrightDataFixture } from "./helpers/brightdata-fixture.mjs";
 import {
   collectProfile,
   normalizeRows,
@@ -91,6 +95,7 @@ async function fixture(t) {
     await rm(dir, { recursive: true, force: true });
   });
   await cp(resolve("data"), join(dir, "data"), { recursive: true });
+  await initializeBrightDataFixture(join(dir, "data"));
   return join(dir, "data");
 }
 function network(rows = [row()], hook = async () => {}) {
@@ -740,9 +745,11 @@ test("public schema rejects forged provider, identity and official-authorization
     );
 });
 test("08/20 schedule, fresh success and blocked status are distinct from official API schedule", async () => {
-  const status = JSON.parse(
+  const production = JSON.parse(
     await readFile("data/status/brightdata-tiktok.json", "utf8"),
   );
+  assert.ok(parseBrightDataStatus(production, accounts));
+  const status = emptyBrightDataStatus(accounts);
   assert.ok(parseBrightDataStatus(status, accounts));
   assert.ok(status.sources.every((s) => s.lastSuccessAt === null));
   assert.equal(status.sources.length, 6);

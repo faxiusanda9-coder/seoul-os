@@ -11,6 +11,7 @@ import {
   BrightDataError,
 } from "../scripts/brightdata-tiktok/budget.mjs";
 import { syncBrightData } from "../scripts/brightdata-tiktok/sync.mjs";
+import { initializeBrightDataFixture } from "./helpers/brightdata-fixture.mjs";
 import { reconcileProbe } from "../scripts/brightdata-tiktok/reconcile.mjs";
 import { selectLaunch } from "../scripts/brightdata-tiktok/launch.mjs";
 const now = "2026-10-19T01:00:00Z";
@@ -66,6 +67,7 @@ async function fixture(t) {
     await rm(dir, { recursive: true, force: true });
   });
   await cp(resolve("data"), join(dir, "data"), { recursive: true });
+  await initializeBrightDataFixture(join(dir, "data"));
   return join(dir, "data");
 }
 const request = (root, extra = {}) =>
