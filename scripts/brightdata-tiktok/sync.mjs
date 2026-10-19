@@ -317,6 +317,11 @@ export async function syncBrightData({
           },
           sleep,
           maxPolls,
+          onUnknownState: async (state) => {
+            summary.liveValidation.unrecognizedTaskStates ??= [];
+            if (!summary.liveValidation.unrecognizedTaskStates.includes(state))
+              summary.liveValidation.unrecognizedTaskStates.push(state);
+          },
           onSnapshot: async (id) => {
             summary.liveValidation.apiReturned = true;
             summary.liveValidation.taskSubmitted = true;
