@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUO9GhtdQcCRf67GIdSQ0HNQ",
   "artistId": "xdinary-heroes",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-18T12:24:00.538Z",
+  "fetchedAt": "2026-10-19T04:29:41.788Z",
   "items": [
+    {
+      "id": "yt-olfeRo4v_Jw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "olfeRo4v_Jw",
+        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "xdinary-heroes",
+        "name": "Xdinary Heroes"
+      },
+      "title": "Obsessed with #WOODZ #우즈❤️‍🔥",
+      "description": "Obsessed with #WOODZ #우즈❤️‍🔥\n\n#XdinaryHeroes #엑스디너리히어로즈\n#Obsessed_with_Youth\n@WOODZ_dnwm",
+      "thumbnail": "https://i.ytimg.com/vi/olfeRo4v_Jw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/olfeRo4v_Jw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/olfeRo4v_Jw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/olfeRo4v_Jw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/olfeRo4v_Jw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/olfeRo4v_Jw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-19T04:00:32.000Z",
+      "url": "https://www.youtube.com/watch?v=olfeRo4v_Jw",
+      "fetchedAt": "2026-10-19T04:29:41.788Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-19T04:29:41.788Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-jezOsATnxOA",
       "source": {
@@ -2957,66 +3017,6 @@
       ],
       "publishedAt": "2026-09-25T09:00:40.000Z",
       "url": "https://www.youtube.com/watch?v=PJx96eIi5TQ",
-      "fetchedAt": "2026-10-14T16:52:37.595Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:37.595Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-9Pgb7GZRl_g",
-      "source": {
-        "platform": "youtube",
-        "videoId": "9Pgb7GZRl_g",
-        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "xdinary-heroes",
-        "name": "Xdinary Heroes"
-      },
-      "title": "런즈야… 여기 자리 비었는데, 앉을래? 🚌👀💞",
-      "description": "런즈야… 여기 자리 비었는데, 앉을래? 🚌👀💞\n\n#XdinaryHeroes #엑스디너리히어로즈\n#WE_ARE_ALL_HEROES",
-      "thumbnail": "https://i.ytimg.com/vi/9Pgb7GZRl_g/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/9Pgb7GZRl_g/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/9Pgb7GZRl_g/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/9Pgb7GZRl_g/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/9Pgb7GZRl_g/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/9Pgb7GZRl_g/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-24T09:00:28.000Z",
-      "url": "https://www.youtube.com/watch?v=9Pgb7GZRl_g",
       "fetchedAt": "2026-10-14T16:52:37.595Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:37.595Z",
