@@ -85,6 +85,20 @@
       "completedAt": "2026-10-19T07:32:27.741Z",
       "purpose": "scheduled-free-only",
       "creditLimit": 8
+    },
+    {
+      "id": "44d9a546-b6d3-441c-9aa2-5096852ebb65",
+      "artistId": "nmixx",
+      "slot": "2026-10-19T00:00:00.000Z",
+      "month": "2026-10",
+      "limit": 8,
+      "state": "reserved",
+      "snapshotId": null,
+      "recordCount": null,
+      "createdAt": "2026-10-19T07:32:29.134Z",
+      "completedAt": null,
+      "purpose": "scheduled-free-only",
+      "creditLimit": 8
     }
   ]
 }
