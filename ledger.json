@@ -71,6 +71,20 @@
       "completedAt": "2026-10-19T07:15:50.619Z",
       "purpose": "scheduled-free-only",
       "creditLimit": 8
+    },
+    {
+      "id": "16298307-40f5-444d-8521-a16cf352d2cf",
+      "artistId": "stray-kids",
+      "slot": "2026-10-19T00:00:00.000Z",
+      "month": "2026-10",
+      "limit": 8,
+      "state": "reserved",
+      "snapshotId": null,
+      "recordCount": null,
+      "createdAt": "2026-10-19T07:15:51.803Z",
+      "completedAt": null,
+      "purpose": "scheduled-free-only",
+      "creditLimit": 8
     }
   ]
 }
