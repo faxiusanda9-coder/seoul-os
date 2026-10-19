@@ -113,6 +113,34 @@
       "completedAt": "2026-10-19T08:17:20.296Z",
       "purpose": "scheduled-free-only",
       "creditLimit": 8
+    },
+    {
+      "id": "a41484ce-b82c-4c5c-b551-51dea1cd54d5",
+      "artistId": "itzy",
+      "slot": "2026-10-19T00:00:00.000Z",
+      "month": "2026-10",
+      "limit": 8,
+      "state": "complete",
+      "snapshotId": "sd_mvezezm41k395dpvzx",
+      "recordCount": 8,
+      "createdAt": "2026-10-19T08:17:53.451Z",
+      "completedAt": "2026-10-19T08:24:27.543Z",
+      "purpose": "scheduled-free-only",
+      "creditLimit": 8
+    },
+    {
+      "id": "efe120a6-5fba-498f-a5f1-8a3ab0190731",
+      "artistId": "niziu",
+      "slot": "2026-10-19T00:00:00.000Z",
+      "month": "2026-10",
+      "limit": 8,
+      "state": "complete",
+      "snapshotId": "sd_mvezngi22cr6m90ez4",
+      "recordCount": 8,
+      "createdAt": "2026-10-19T08:24:28.664Z",
+      "completedAt": "2026-10-19T08:36:47.480Z",
+      "purpose": "scheduled-free-only",
+      "creditLimit": 8
     }
   ]
 }

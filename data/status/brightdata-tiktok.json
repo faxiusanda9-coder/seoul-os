@@ -6,12 +6,12 @@
   "budget": {
     "month": "2026-10",
     "recordLimit": 4000,
-    "reservedRecords": 57,
-    "deliveredRecords": 57,
-    "remainingRecords": null,
+    "reservedRecords": 73,
+    "deliveredRecords": 73,
+    "remainingRecords": 2927,
     "paidSpendLimitUsd": 0,
     "paidSpendUsd": null,
-    "confirmationValidUntil": null
+    "confirmationValidUntil": "2026-11-01T00:00:00.000Z"
   },
   "sources": [
     {
@@ -53,26 +53,26 @@
     {
       "artistId": "itzy",
       "accountUrl": "https://www.tiktok.com/@itzyofficial/",
-      "state": "blocked",
-      "lastAttemptAt": "2026-10-19T08:10:13.937Z",
-      "lastSuccessAt": "2026-10-19T07:09:11.815Z",
-      "lastContentChangeAt": "2026-10-19T07:09:11.815Z",
-      "newCount": null,
-      "updatedCount": null,
-      "returnedCount": null,
-      "error": "STOPPED_AFTER_PROVIDER_FAILURE"
+      "state": "ok",
+      "lastAttemptAt": "2026-10-19T08:17:53.451Z",
+      "lastSuccessAt": "2026-10-19T08:24:27.543Z",
+      "lastContentChangeAt": "2026-10-19T08:24:27.543Z",
+      "newCount": 1,
+      "updatedCount": 0,
+      "returnedCount": 8,
+      "error": null
     },
     {
       "artistId": "niziu",
       "accountUrl": "https://www.tiktok.com/@niziu_official/",
-      "state": "blocked",
-      "lastAttemptAt": "2026-10-19T08:10:13.937Z",
-      "lastSuccessAt": null,
-      "lastContentChangeAt": null,
-      "newCount": null,
-      "updatedCount": null,
-      "returnedCount": null,
-      "error": "STOPPED_AFTER_PROVIDER_FAILURE"
+      "state": "ok",
+      "lastAttemptAt": "2026-10-19T08:24:28.664Z",
+      "lastSuccessAt": "2026-10-19T08:36:47.480Z",
+      "lastContentChangeAt": "2026-10-19T08:36:47.480Z",
+      "newCount": 1,
+      "updatedCount": 0,
+      "returnedCount": 8,
+      "error": null
     },
     {
       "artistId": "nexz",
