@@ -183,6 +183,20 @@
       "completedAt": "2026-10-19T14:23:28.428Z",
       "purpose": "scheduled-free-only",
       "creditLimit": 8
+    },
+    {
+      "id": "f35a4e03-eb3e-477a-af10-32a6af8f81c5",
+      "artistId": "nexz",
+      "slot": "2026-10-19T12:00:00.000Z",
+      "month": "2026-10",
+      "limit": 8,
+      "state": "reserved",
+      "snapshotId": null,
+      "recordCount": null,
+      "createdAt": "2026-10-19T14:23:29.735Z",
+      "completedAt": null,
+      "purpose": "scheduled-free-only",
+      "creditLimit": 8
     }
   ]
 }
