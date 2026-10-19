@@ -1,5 +1,62 @@
 {
   "schemaVersion": 1,
-  "accountFingerprint": null,
-  "reservations": []
+  "accountFingerprint": "d7016e734b806172e40fec61cb8559333f655f532b79647e073706b6be8e6958",
+  "reservations": [
+    {
+      "id": "f5c758c4-ad22-46da-b05f-3f05e0513465",
+      "artistId": "itzy",
+      "slot": "probe:2026-10-18",
+      "month": "2026-10",
+      "limit": 1,
+      "state": "complete",
+      "snapshotId": "sd_mve37gu02h2aluxhn5",
+      "recordCount": 1,
+      "createdAt": "2026-10-18T17:16:14.573Z",
+      "completedAt": "2026-10-18T17:21:07.077Z",
+      "purpose": "itzy-probe-once",
+      "creditLimit": 1
+    },
+    {
+      "id": "889799d2-b1d6-4f02-90e2-66498f35d8d7",
+      "artistId": "twice",
+      "slot": "2026-10-18T12:00:00.000Z",
+      "month": "2026-10",
+      "limit": 8,
+      "state": "complete",
+      "snapshotId": "sd_mve3g0el2qrpw5dycw",
+      "recordCount": 8,
+      "createdAt": "2026-10-18T17:22:53.124Z",
+      "completedAt": "2026-10-18T17:32:43.665Z",
+      "purpose": "scheduled-free-only",
+      "creditLimit": 8
+    },
+    {
+      "id": "e68a89fa-5697-442e-9ee1-20f4a480d8cb",
+      "artistId": "stray-kids",
+      "slot": "2026-10-18T12:00:00.000Z",
+      "month": "2026-10",
+      "limit": 8,
+      "state": "complete",
+      "snapshotId": "sd_mve3soth1inkr6lh9k",
+      "recordCount": 8,
+      "createdAt": "2026-10-18T17:32:44.900Z",
+      "completedAt": "2026-10-18T17:37:49.280Z",
+      "purpose": "scheduled-free-only",
+      "creditLimit": 8
+    },
+    {
+      "id": "a52eee75-9c1d-4b00-b3ab-bc264b8bd787",
+      "artistId": "nmixx",
+      "slot": "2026-10-18T12:00:00.000Z",
+      "month": "2026-10",
+      "limit": 8,
+      "state": "complete",
+      "snapshotId": "sd_mve3z8e21nxdfyucps",
+      "recordCount": 8,
+      "createdAt": "2026-10-18T17:37:50.377Z",
+      "completedAt": "2026-10-19T07:09:14.273Z",
+      "purpose": "scheduled-free-only",
+      "creditLimit": 8
+    }
+  ]
 }

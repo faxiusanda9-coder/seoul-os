@@ -2455,6 +2455,41 @@
         "accountEvidenceUrl": "https://www.youtube.com/watch?v=O0mhvDl9NB0",
         "checkedAt": "2026-10-18T14:37:44.672Z"
       }
+    },
+    {
+      "id": "tt-7697244417584827669",
+      "artistId": "itzy",
+      "platform": "tiktok",
+      "contentType": "short-video",
+      "title": null,
+      "description": null,
+      "thumbnail": null,
+      "publishedAt": "2026-10-18T15:00:00.000Z",
+      "sourceUrl": "https://www.tiktok.com/@itzyofficial/video/7697244417584827669",
+      "embedUrl": "https://www.tiktok.com/player/v1/7697244417584827669",
+      "officialAccountUrl": "https://www.tiktok.com/@itzyofficial/",
+      "verificationStatus": "account-matched",
+      "acquisitionMethod": "third-party-api",
+      "fetchedAt": "2026-10-19T07:09:11.815Z",
+      "lastValidatedAt": "2026-10-19T07:09:11.815Z",
+      "availabilityStatus": "unknown",
+      "sourceAvailability": "unknown",
+      "embedAvailability": "untested",
+      "evidenceUrl": "https://www.youtube.com/watch?v=4vmBvGMSLBw",
+      "evidenceNote": "账号归属来自已核实的官方交叉链接；视频元数据由 Bright Data 第三方接口返回并核对作者，不代表 TikTok 官方 API 授权或实际播放成功。",
+      "reviewedBy": "system:brightdata-author-match",
+      "thirdPartyEvidence": {
+        "provider": "brightdata-tiktok-posts",
+        "datasetId": "gd_lu702nij2f790tmv9h",
+        "snapshotId": "sd_mve37gu02h2aluxhn5",
+        "videoId": "7697244417584827669",
+        "authorHandle": "itzyofficial",
+        "authorProfileUrl": "https://www.tiktok.com/@itzyofficial/",
+        "originalUrl": "https://www.tiktok.com/@itzyofficial/video/7697244417584827669",
+        "rawCreateTime": "2026-10-18T15:00:00.000Z",
+        "accountEvidenceUrl": "https://www.youtube.com/watch?v=4vmBvGMSLBw",
+        "checkedAt": "2026-10-19T07:09:11.815Z"
+      }
     }
   ]
 }
