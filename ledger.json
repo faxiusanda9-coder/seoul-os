@@ -162,11 +162,11 @@
       "slot": "2026-10-19T12:00:00.000Z",
       "month": "2026-10",
       "limit": 8,
-      "state": "reserved",
+      "state": "complete",
       "snapshotId": "sd_mvf8k6kl1cp52qqskx",
-      "recordCount": null,
+      "recordCount": 8,
       "createdAt": "2026-10-19T12:33:52.331Z",
-      "completedAt": null,
+      "completedAt": "2026-10-19T12:53:49.777Z",
       "purpose": "scheduled-free-only",
       "creditLimit": 8
     }
