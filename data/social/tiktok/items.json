@@ -2595,6 +2595,41 @@
         "accountEvidenceUrl": "https://www.youtube.com/watch?v=O0mhvDl9NB0",
         "checkedAt": "2026-10-19T08:36:47.480Z"
       }
+    },
+    {
+      "id": "tt-7698331929979997461",
+      "artistId": "stray-kids",
+      "platform": "tiktok",
+      "contentType": "short-video",
+      "title": null,
+      "description": null,
+      "thumbnail": null,
+      "publishedAt": "2026-10-19T10:59:51.000Z",
+      "sourceUrl": "https://www.tiktok.com/@jypestraykids/video/7698331929979997461",
+      "embedUrl": "https://www.tiktok.com/player/v1/7698331929979997461",
+      "officialAccountUrl": "https://www.tiktok.com/@jypestraykids/",
+      "verificationStatus": "account-matched",
+      "acquisitionMethod": "third-party-api",
+      "fetchedAt": "2026-10-19T14:14:19.802Z",
+      "lastValidatedAt": "2026-10-19T14:14:19.802Z",
+      "availabilityStatus": "unknown",
+      "sourceAvailability": "unknown",
+      "embedAvailability": "untested",
+      "evidenceUrl": "https://newsroom.tiktok.com/tiktok-live-lineup-march?lang=ko-KR",
+      "evidenceNote": "账号归属来自已核实的官方交叉链接；视频元数据由 Bright Data 第三方接口返回并核对作者，不代表 TikTok 官方 API 授权或实际播放成功。",
+      "reviewedBy": "system:brightdata-author-match",
+      "thirdPartyEvidence": {
+        "provider": "brightdata-tiktok-posts",
+        "datasetId": "gd_lu702nij2f790tmv9h",
+        "snapshotId": "sd_mvf8k6kl1cp52qqskx",
+        "videoId": "7698331929979997461",
+        "authorHandle": "jypestraykids",
+        "authorProfileUrl": "https://www.tiktok.com/@jypestraykids/",
+        "originalUrl": "https://www.tiktok.com/@jypestraykids/video/7698331929979997461",
+        "rawCreateTime": "2026-10-19T10:59:51.000Z",
+        "accountEvidenceUrl": "https://newsroom.tiktok.com/tiktok-live-lineup-march?lang=ko-KR",
+        "checkedAt": "2026-10-19T14:14:19.802Z"
+      }
     }
   ]
 }

@@ -30,13 +30,13 @@
       "artistId": "stray-kids",
       "accountUrl": "https://www.tiktok.com/@jypestraykids/",
       "state": "failed",
-      "lastAttemptAt": "2026-10-19T12:33:52.331Z",
-      "lastSuccessAt": "2026-10-19T07:32:27.741Z",
-      "lastContentChangeAt": null,
-      "newCount": null,
-      "updatedCount": null,
-      "returnedCount": null,
-      "error": "BRIGHTDATA_RECORD_ERROR"
+      "lastAttemptAt": "2026-10-19T14:14:17.901Z",
+      "lastSuccessAt": "2026-10-19T14:14:19.802Z",
+      "lastContentChangeAt": "2026-10-19T14:14:19.802Z",
+      "newCount": 1,
+      "updatedCount": 0,
+      "returnedCount": 8,
+      "error": "BRIGHTDATA_PARTIAL_RESULT"
     },
     {
       "artistId": "nmixx",
