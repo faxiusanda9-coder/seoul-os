@@ -113,6 +113,20 @@
       "completedAt": "2026-10-19T08:17:20.296Z",
       "purpose": "scheduled-free-only",
       "creditLimit": 8
+    },
+    {
+      "id": "a41484ce-b82c-4c5c-b551-51dea1cd54d5",
+      "artistId": "itzy",
+      "slot": "2026-10-19T00:00:00.000Z",
+      "month": "2026-10",
+      "limit": 8,
+      "state": "reserved",
+      "snapshotId": null,
+      "recordCount": null,
+      "createdAt": "2026-10-19T08:17:53.451Z",
+      "completedAt": null,
+      "purpose": "scheduled-free-only",
+      "creditLimit": 8
     }
   ]
 }
