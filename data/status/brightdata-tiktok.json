@@ -7,7 +7,7 @@
     "month": "2026-10",
     "recordLimit": 4000,
     "reservedRecords": 57,
-    "deliveredRecords": 49,
+    "deliveredRecords": 57,
     "remainingRecords": null,
     "paidSpendLimitUsd": 0,
     "paidSpendUsd": null,
@@ -77,14 +77,14 @@
     {
       "artistId": "nexz",
       "accountUrl": "https://www.tiktok.com/@nexz_official/",
-      "state": "failed",
-      "lastAttemptAt": "2026-10-19T07:45:44.168Z",
-      "lastSuccessAt": null,
-      "lastContentChangeAt": null,
-      "newCount": null,
-      "updatedCount": null,
-      "returnedCount": null,
-      "error": "BRIGHTDATA_UNKNOWN_JOB_STATE"
+      "state": "ok",
+      "lastAttemptAt": "2026-10-19T08:17:18.403Z",
+      "lastSuccessAt": "2026-10-19T08:17:20.296Z",
+      "lastContentChangeAt": "2026-10-19T08:17:20.296Z",
+      "newCount": 1,
+      "updatedCount": 0,
+      "returnedCount": 8,
+      "error": null
     }
   ]
 }
