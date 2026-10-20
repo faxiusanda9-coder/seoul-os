@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUO9GhtdQcCRf67GIdSQ0HNQ",
   "artistId": "xdinary-heroes",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-19T12:33:52.233Z",
+  "fetchedAt": "2026-10-20T04:26:37.845Z",
   "items": [
+    {
+      "id": "yt-KbK8Mh8-LGc",
+      "source": {
+        "platform": "youtube",
+        "videoId": "KbK8Mh8-LGc",
+        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "xdinary-heroes",
+        "name": "Xdinary Heroes"
+      },
+      "title": "Obsessed with #ITZY #리아❤️‍🔥",
+      "description": "Obsessed with #ITZY #리아❤️‍🔥\n\n#XdinaryHeroes #엑스디너리히어로즈\n#LIA\n#Obsessed_with_Youth\n@ITZY",
+      "thumbnail": "https://i.ytimg.com/vi/KbK8Mh8-LGc/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/KbK8Mh8-LGc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/KbK8Mh8-LGc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/KbK8Mh8-LGc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/KbK8Mh8-LGc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/KbK8Mh8-LGc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-20T03:30:35.000Z",
+      "url": "https://www.youtube.com/watch?v=KbK8Mh8-LGc",
+      "fetchedAt": "2026-10-20T04:26:37.845Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-20T04:26:37.845Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-f7-oYpPGY9M",
       "source": {
@@ -2967,66 +3027,6 @@
         "method": "rule",
         "confidence": 0.95,
         "ruleId": "making"
-      }
-    },
-    {
-      "id": "yt-vORsv_yeOZU",
-      "source": {
-        "platform": "youtube",
-        "videoId": "vORsv_yeOZU",
-        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "xdinary-heroes",
-        "name": "Xdinary Heroes"
-      },
-      "title": "POV. 추석을 보내는 밴드맨들의 자세 🎸🌕",
-      "description": "POV. 추석을 보내는 밴드맨들의 자세 🎸🌕\n\n#XdinaryHeroes #엑스디너리히어로즈\n#WE_ARE_ALL_HEROES",
-      "thumbnail": "https://i.ytimg.com/vi/vORsv_yeOZU/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/vORsv_yeOZU/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/vORsv_yeOZU/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/vORsv_yeOZU/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/vORsv_yeOZU/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/vORsv_yeOZU/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-27T09:00:28.000Z",
-      "url": "https://www.youtube.com/watch?v=vORsv_yeOZU",
-      "fetchedAt": "2026-10-14T16:52:37.595Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:37.595Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
       }
     }
   ]

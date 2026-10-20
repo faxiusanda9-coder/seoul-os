@@ -4,8 +4,128 @@
   "uploadsPlaylistId": "UUzgxx_DM2Dcb9Y1spb9mUJA",
   "artistId": "twice",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-20T00:32:23.234Z",
+  "fetchedAt": "2026-10-20T04:26:37.845Z",
   "items": [
+    {
+      "id": "yt-VUHTHzgrAqA",
+      "source": {
+        "platform": "youtube",
+        "videoId": "VUHTHzgrAqA",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "Bo Peep Bo Peep 🐾🩷 #ONCE #원스 #TWICE #트와이스 #TWICE_11th_Anniversary",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/VUHTHzgrAqA/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/VUHTHzgrAqA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/VUHTHzgrAqA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/VUHTHzgrAqA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/VUHTHzgrAqA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/VUHTHzgrAqA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-20T04:00:29.000Z",
+      "url": "https://www.youtube.com/watch?v=VUHTHzgrAqA",
+      "fetchedAt": "2026-10-20T04:26:37.845Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-20T04:26:37.845Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-ZJsLly1SlVM",
+      "source": {
+        "platform": "youtube",
+        "videoId": "ZJsLly1SlVM",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "When TWICE is ALL TOGETHER! 🍭 #ONCE #원스 #TWICE #트와이스 #TWICE_11th_Anniversary",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/ZJsLly1SlVM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/ZJsLly1SlVM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/ZJsLly1SlVM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/ZJsLly1SlVM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/ZJsLly1SlVM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/ZJsLly1SlVM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-20T03:00:21.000Z",
+      "url": "https://www.youtube.com/watch?v=ZJsLly1SlVM",
+      "fetchedAt": "2026-10-20T04:26:37.845Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-20T04:26:37.845Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-FqLWN-GWtC0",
       "source": {
@@ -2899,127 +3019,6 @@
       ],
       "publishedAt": "2026-07-16T03:00:11.000Z",
       "url": "https://www.youtube.com/watch?v=D1_ryQAQvig",
-      "fetchedAt": "2026-10-14T16:52:35.634Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-yqRozxU-Bqw",
-      "source": {
-        "platform": "youtube",
-        "videoId": "yqRozxU-Bqw",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "[TW-DAY☀️] #21 Guess who's back from Miami? 👀 JIHYO's chaotic shoot begins! 💥",
-      "description": "[TW-DAY☀️] #21 Guess who's back from Miami? 👀 JIHYO's chaotic shoot begins! 💥\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.",
-      "thumbnail": "https://i.ytimg.com/vi/yqRozxU-Bqw/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/yqRozxU-Bqw/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/yqRozxU-Bqw/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/yqRozxU-Bqw/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/yqRozxU-Bqw/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/yqRozxU-Bqw/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-07-15T09:00:04.000Z",
-      "url": "https://www.youtube.com/watch?v=yqRozxU-Bqw",
-      "fetchedAt": "2026-10-14T16:52:35.634Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt-UPsCaaaqRe0",
-      "source": {
-        "platform": "youtube",
-        "videoId": "UPsCaaaqRe0",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "TWICE ＜THIS IS FOR＞ WORLD TOUR FINALE IN SEOUL Playlist",
-      "description": "TWICE ＜THIS IS FOR＞ WORLD TOUR FINALE IN SEOUL Playlist\n\n00:00:00 FOUR\n00:01:46 THIS IS FOR\n00:03:56 Strategy\n00:06:43 MAKE ME GO\n00:09:50 SET ME FREE\n00:12:50 I CAN'T STOP ME\n00:16:16 OPTIONS\n00:19:23 MOONLIGHT SUNRISE\n00:22:23 MARS\n00:24:44 I GOT YOU\n00:27:37 Talk that Talk\n00:",
-      "thumbnail": "https://i.ytimg.com/vi/UPsCaaaqRe0/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/UPsCaaaqRe0/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/UPsCaaaqRe0/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/UPsCaaaqRe0/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/UPsCaaaqRe0/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/UPsCaaaqRe0/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-07-13T09:00:01.000Z",
-      "url": "https://www.youtube.com/watch?v=UPsCaaaqRe0",
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",
