@@ -4,8 +4,128 @@
   "uploadsPlaylistId": "UU-o9yrZxu5Ru-DVGhnmeTug",
   "artistId": "nexz",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-20T00:32:23.234Z",
+  "fetchedAt": "2026-10-20T12:31:28.348Z",
   "items": [
+    {
+      "id": "yt-z2ZtnvWQgIg",
+      "source": {
+        "platform": "youtube",
+        "videoId": "z2ZtnvWQgIg",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "🤧💦 | #HARU #SOGEON #HYUI",
+      "description": "#NEXZ #HARU #SOGEON #HYUI\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
+      "thumbnail": "https://i.ytimg.com/vi/z2ZtnvWQgIg/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/z2ZtnvWQgIg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/z2ZtnvWQgIg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/z2ZtnvWQgIg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/z2ZtnvWQgIg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/z2ZtnvWQgIg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-20T12:00:07.000Z",
+      "url": "https://www.youtube.com/watch?v=z2ZtnvWQgIg",
+      "fetchedAt": "2026-10-20T12:31:28.348Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-20T12:31:28.348Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-Cpk5b0_ya8I",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Cpk5b0_ya8I",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "내 사랑 받아 ꨄꨄꨄ | #SEITA #HYUI #YUKI",
+      "description": "#NEXZ #SEITA #HYUI #YUKI\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
+      "thumbnail": "https://i.ytimg.com/vi/Cpk5b0_ya8I/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Cpk5b0_ya8I/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Cpk5b0_ya8I/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Cpk5b0_ya8I/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Cpk5b0_ya8I/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Cpk5b0_ya8I/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-20T09:00:17.000Z",
+      "url": "https://www.youtube.com/watch?v=Cpk5b0_ya8I",
+      "fetchedAt": "2026-10-20T12:31:28.348Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-20T12:31:28.348Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-0i4UdrN6ijo",
       "source": {
@@ -2857,127 +2977,6 @@
       ],
       "publishedAt": "2026-10-07T12:00:21.000Z",
       "url": "https://www.youtube.com/watch?v=NEcp9C5n1no",
-      "fetchedAt": "2026-10-14T16:52:39.086Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:39.086Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-kvMHV7YTcM0",
-      "source": {
-        "platform": "youtube",
-        "videoId": "kvMHV7YTcM0",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "SAUCIN' Challenge 🥫🦄  with #REi さん #GAKU さん #KAREN さん (#PG) | #HYUI #YUKI",
-      "description": "#NEXZ #HYUI #YUKI\n#SAUCIN #NEXZ_SAUCIN\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
-      "thumbnail": "https://i.ytimg.com/vi/kvMHV7YTcM0/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/kvMHV7YTcM0/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/kvMHV7YTcM0/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/kvMHV7YTcM0/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/kvMHV7YTcM0/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/kvMHV7YTcM0/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-07T10:00:08.000Z",
-      "url": "https://www.youtube.com/watch?v=kvMHV7YTcM0",
-      "fetchedAt": "2026-10-14T16:52:39.086Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:39.086Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt-hDpCEaqRFHM",
-      "source": {
-        "platform": "youtube",
-        "videoId": "hDpCEaqRFHM",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "Have you heard Grandpa's Phone 📞 | #SOGEON",
-      "description": "#NEXZ #SOGEON\n#SAUCIN #NEXZ_SAUCIN\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
-      "thumbnail": "https://i.ytimg.com/vi/hDpCEaqRFHM/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/hDpCEaqRFHM/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/hDpCEaqRFHM/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/hDpCEaqRFHM/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/hDpCEaqRFHM/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/hDpCEaqRFHM/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-07T09:00:10.000Z",
-      "url": "https://www.youtube.com/watch?v=hDpCEaqRFHM",
       "fetchedAt": "2026-10-14T16:52:39.086Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:39.086Z",

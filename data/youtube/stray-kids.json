@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UU9rMiEjNaCSsebs31MRDCRA",
   "artistId": "stray-kids",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-19T12:33:52.233Z",
+  "fetchedAt": "2026-10-20T12:31:28.348Z",
   "items": [
+    {
+      "id": "yt-vkShP2XlP0w",
+      "source": {
+        "platform": "youtube",
+        "videoId": "vkShP2XlP0w",
+        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "stray-kids",
+        "name": "Stray Kids"
+      },
+      "title": "𝗜𝗻𝘀𝗶𝗱𝗲 𝗢𝘂𝘁 #StrayKids #스트레이키즈 #리노 #LeeKnow #현진 #Hyunjin #YouMakeStrayKidsStay",
+      "description": "𝗜𝗻𝘀𝗶𝗱𝗲 𝗢𝘂𝘁 #StrayKids #스트레이키즈 #리노 #LeeKnow #현진 #Hyunjin #YouMakeStrayKidsStay\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" ",
+      "thumbnail": "https://i.ytimg.com/vi/vkShP2XlP0w/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/vkShP2XlP0w/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/vkShP2XlP0w/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/vkShP2XlP0w/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/vkShP2XlP0w/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/vkShP2XlP0w/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-20T11:00:15.000Z",
+      "url": "https://www.youtube.com/watch?v=vkShP2XlP0w",
+      "fetchedAt": "2026-10-20T12:31:28.348Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-20T12:31:28.348Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-qDFiqYi0sXA",
       "source": {
@@ -2965,67 +3025,6 @@
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-cQu_h27Hatc",
-      "source": {
-        "platform": "youtube",
-        "videoId": "cQu_h27Hatc",
-        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "stray-kids",
-        "name": "Stray Kids"
-      },
-      "title": "#RockinRio2026 Recap🎸 이 에너지 그대로 다음 무대로💖 #StrayKids #스트레이키즈 #YouMakeStrayKidsStay",
-      "description": "#RockinRio2026 Recap🎸 이 에너지 그대로 다음 무대로💖 #StrayKids #스트레이키즈 #YouMakeStrayKidsStay  \n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" no",
-      "thumbnail": "https://i.ytimg.com/vi/cQu_h27Hatc/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/cQu_h27Hatc/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/cQu_h27Hatc/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/cQu_h27Hatc/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/cQu_h27Hatc/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/cQu_h27Hatc/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-13T13:00:03.000Z",
-      "url": "https://www.youtube.com/watch?v=cQu_h27Hatc",
-      "fetchedAt": "2026-10-14T16:52:36.079Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
-      "type": "other",
-      "category": "stage",
-      "subcategory": "live-stage",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.94,
-        "ruleId": "stage"
       }
     }
   ]

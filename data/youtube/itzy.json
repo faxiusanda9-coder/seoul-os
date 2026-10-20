@@ -4,8 +4,75 @@
   "uploadsPlaylistId": "UUDhM2k2Cua-JdobAh5moMFg",
   "artistId": "itzy",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-19T12:33:52.233Z",
+  "fetchedAt": "2026-10-20T12:31:28.348Z",
   "items": [
+    {
+      "id": "yt-umepcbYdW_I",
+      "source": {
+        "platform": "youtube",
+        "videoId": "umepcbYdW_I",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "[ITZY?ITZY!] EP 272 | KRAZY Music Festival Taipei & Yeji Roger Vivier Indonesia",
+      "description": "[ITZY?ITZY!] EP 272 | KRAZY Music Festival Taipei & Yeji Roger Vivier Indonesia\n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZ",
+      "thumbnail": "https://i.ytimg.com/vi/umepcbYdW_I/fhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/umepcbYdW_I/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/umepcbYdW_I/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/umepcbYdW_I/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/umepcbYdW_I/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/umepcbYdW_I/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "fhd",
+          "url": "https://i.ytimg.com/vi/umepcbYdW_I/fhddefault.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "publishedAt": "2026-10-20T08:59:57.000Z",
+      "url": "https://www.youtube.com/watch?v=umepcbYdW_I",
+      "fetchedAt": "2026-10-20T12:31:28.348Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-20T12:31:28.348Z",
+      "type": "other",
+      "category": "variety",
+      "subcategory": "series",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.9,
+        "ruleId": "variety-series"
+      }
+    },
     {
       "id": "yt-dUV7pM23L_A",
       "source": {
@@ -3100,66 +3167,6 @@
       ],
       "publishedAt": "2026-09-08T05:00:21.000Z",
       "url": "https://www.youtube.com/watch?v=0kc-kYDmj88",
-      "fetchedAt": "2026-10-14T16:52:36.440Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:36.440Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-nSQKwAzWyps",
-      "source": {
-        "platform": "youtube",
-        "videoId": "nSQKwAzWyps",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "지금부터 마술쇼를 시작해보겠습니다 ·̩͙꒰ঌ( っ️˘꒳˘)っ*.+ﾟ🪄 #ITZY #MIDZY #YEJI #예지 #YUNA #유나",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/nSQKwAzWyps/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/nSQKwAzWyps/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/nSQKwAzWyps/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/nSQKwAzWyps/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/nSQKwAzWyps/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/nSQKwAzWyps/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-07T06:00:17.000Z",
-      "url": "https://www.youtube.com/watch?v=nSQKwAzWyps",
       "fetchedAt": "2026-10-14T16:52:36.440Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:36.440Z",
