@@ -4,8 +4,69 @@
   "uploadsPlaylistId": "UUzgxx_DM2Dcb9Y1spb9mUJA",
   "artistId": "twice",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-17T12:24:17.673Z",
+  "fetchedAt": "2026-10-20T00:32:23.234Z",
   "items": [
+    {
+      "id": "yt-FqLWN-GWtC0",
+      "source": {
+        "platform": "youtube",
+        "videoId": "FqLWN-GWtC0",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "TWICE 11TH ANNIVERSARY🍭❤️ #ONCE #원스 #TWICE #트와이스  #TWICE_11th_Anniversary",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/FqLWN-GWtC0/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/FqLWN-GWtC0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/FqLWN-GWtC0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/FqLWN-GWtC0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/FqLWN-GWtC0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/FqLWN-GWtC0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-19T15:00:13.000Z",
+      "url": "https://www.youtube.com/watch?v=FqLWN-GWtC0",
+      "fetchedAt": "2026-10-20T00:32:23.234Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-20T00:32:23.234Z",
+      "type": "other",
+      "category": "fan",
+      "subcategory": "fan-content",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.86,
+        "ruleId": "fan-message"
+      }
+    },
     {
       "id": "yt-jcmVRR_BnZU",
       "source": {
@@ -2959,66 +3020,6 @@
       ],
       "publishedAt": "2026-07-13T09:00:01.000Z",
       "url": "https://www.youtube.com/watch?v=UPsCaaaqRe0",
-      "fetchedAt": "2026-10-14T16:52:35.634Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-YMB4aDkERHQ",
-      "source": {
-        "platform": "youtube",
-        "videoId": "YMB4aDkERHQ",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "트와이스 트와이스 잘했다!🍭 #TWICE #트와이스",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/YMB4aDkERHQ/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/YMB4aDkERHQ/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/YMB4aDkERHQ/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/YMB4aDkERHQ/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/YMB4aDkERHQ/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/YMB4aDkERHQ/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-07-13T08:00:05.000Z",
-      "url": "https://www.youtube.com/watch?v=YMB4aDkERHQ",
       "fetchedAt": "2026-10-14T16:52:35.634Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:35.634Z",

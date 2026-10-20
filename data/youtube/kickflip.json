@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUmq9jjpHA69PwAwlA0DwOsg",
   "artistId": "kickflip",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-19T12:33:52.233Z",
+  "fetchedAt": "2026-10-20T00:32:23.234Z",
   "items": [
+    {
+      "id": "yt-ZQcgGwdcmUU",
+      "source": {
+        "platform": "youtube",
+        "videoId": "ZQcgGwdcmUU",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "I’m movin’ through with #운학 선배님 ✌️",
+      "description": "#KickFlip #킥플립\n#BOYNEXTDOOR #보이넥스트도어\n#KICKOFFTHEWALL_Pt1\n#KickOffTheWall\n\n@boynextdoor_official",
+      "thumbnail": "https://i.ytimg.com/vi/ZQcgGwdcmUU/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/ZQcgGwdcmUU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/ZQcgGwdcmUU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/ZQcgGwdcmUU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/ZQcgGwdcmUU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/ZQcgGwdcmUU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-19T13:00:29.000Z",
+      "url": "https://www.youtube.com/watch?v=ZQcgGwdcmUU",
+      "fetchedAt": "2026-10-20T00:32:23.234Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-20T00:32:23.234Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-ivu-a0RENlc",
       "source": {
@@ -2938,66 +2998,6 @@
       ],
       "publishedAt": "2026-10-12T09:00:23.000Z",
       "url": "https://www.youtube.com/watch?v=jEYN82xjrpo",
-      "fetchedAt": "2026-10-14T16:52:38.117Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.117Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-hEqoPX-aT7M",
-      "source": {
-        "platform": "youtube",
-        "videoId": "hEqoPX-aT7M",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "I'm movin’ through with #리쿠 선배님 🐱",
-      "description": "#KickFlip #킥플립\n#NiziU #니쥬\n#KICKOFFTHEWALL_Pt1\n#KickOffTheWall\n\n@NiziUOfficial",
-      "thumbnail": "https://i.ytimg.com/vi/hEqoPX-aT7M/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/hEqoPX-aT7M/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/hEqoPX-aT7M/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/hEqoPX-aT7M/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/hEqoPX-aT7M/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/hEqoPX-aT7M/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-12T07:00:14.000Z",
-      "url": "https://www.youtube.com/watch?v=hEqoPX-aT7M",
       "fetchedAt": "2026-10-14T16:52:38.117Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:38.117Z",
