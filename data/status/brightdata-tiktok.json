@@ -17,74 +17,74 @@
     {
       "artistId": "twice",
       "accountUrl": "https://www.tiktok.com/@twice_tiktok_official/",
-      "state": "ok",
-      "lastAttemptAt": "2026-10-19T12:28:20.410Z",
+      "state": "blocked",
+      "lastAttemptAt": "2026-10-20T00:25:13.727Z",
       "lastSuccessAt": "2026-10-19T12:33:51.349Z",
       "lastContentChangeAt": null,
-      "newCount": 0,
-      "updatedCount": 0,
-      "returnedCount": 8,
-      "error": null
+      "newCount": null,
+      "updatedCount": null,
+      "returnedCount": null,
+      "error": "UNRESOLVED_PROVIDER_JOB"
     },
     {
       "artistId": "stray-kids",
       "accountUrl": "https://www.tiktok.com/@jypestraykids/",
-      "state": "failed",
-      "lastAttemptAt": "2026-10-19T14:14:17.901Z",
+      "state": "blocked",
+      "lastAttemptAt": "2026-10-20T00:25:13.727Z",
       "lastSuccessAt": "2026-10-19T14:14:19.802Z",
       "lastContentChangeAt": "2026-10-19T14:14:19.802Z",
-      "newCount": 1,
-      "updatedCount": 0,
-      "returnedCount": 8,
-      "error": "BRIGHTDATA_PARTIAL_RESULT"
+      "newCount": null,
+      "updatedCount": null,
+      "returnedCount": null,
+      "error": "UNRESOLVED_PROVIDER_JOB"
     },
     {
       "artistId": "nmixx",
       "accountUrl": "https://www.tiktok.com/@nmixx_official/",
-      "state": "ok",
-      "lastAttemptAt": "2026-10-19T14:14:55.994Z",
+      "state": "blocked",
+      "lastAttemptAt": "2026-10-20T00:25:13.727Z",
       "lastSuccessAt": "2026-10-19T14:23:28.428Z",
       "lastContentChangeAt": "2026-10-19T14:23:28.428Z",
-      "newCount": 4,
-      "updatedCount": 0,
-      "returnedCount": 8,
-      "error": null
+      "newCount": null,
+      "updatedCount": null,
+      "returnedCount": null,
+      "error": "UNRESOLVED_PROVIDER_JOB"
     },
     {
       "artistId": "itzy",
       "accountUrl": "https://www.tiktok.com/@itzyofficial/",
       "state": "blocked",
-      "lastAttemptAt": "2026-10-19T14:53:31.002Z",
+      "lastAttemptAt": "2026-10-20T00:25:13.727Z",
       "lastSuccessAt": "2026-10-19T08:24:27.543Z",
       "lastContentChangeAt": "2026-10-19T08:24:27.543Z",
       "newCount": null,
       "updatedCount": null,
       "returnedCount": null,
-      "error": "STOPPED_AFTER_PROVIDER_FAILURE"
+      "error": "UNRESOLVED_PROVIDER_JOB"
     },
     {
       "artistId": "niziu",
       "accountUrl": "https://www.tiktok.com/@niziu_official/",
       "state": "blocked",
-      "lastAttemptAt": "2026-10-19T14:53:31.002Z",
+      "lastAttemptAt": "2026-10-20T00:25:13.727Z",
       "lastSuccessAt": "2026-10-19T08:36:47.480Z",
       "lastContentChangeAt": "2026-10-19T08:36:47.480Z",
       "newCount": null,
       "updatedCount": null,
       "returnedCount": null,
-      "error": "STOPPED_AFTER_PROVIDER_FAILURE"
+      "error": "UNRESOLVED_PROVIDER_JOB"
     },
     {
       "artistId": "nexz",
       "accountUrl": "https://www.tiktok.com/@nexz_official/",
-      "state": "failed",
-      "lastAttemptAt": "2026-10-19T14:23:29.735Z",
+      "state": "blocked",
+      "lastAttemptAt": "2026-10-20T00:25:13.727Z",
       "lastSuccessAt": "2026-10-19T08:17:20.296Z",
       "lastContentChangeAt": "2026-10-19T08:17:20.296Z",
       "newCount": null,
       "updatedCount": null,
       "returnedCount": null,
-      "error": "BRIGHTDATA_JOB_TIMEOUT"
+      "error": "UNRESOLVED_PROVIDER_JOB"
     }
   ]
 }
