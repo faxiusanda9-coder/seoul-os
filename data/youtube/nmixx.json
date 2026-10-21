@@ -4,8 +4,74 @@
   "uploadsPlaylistId": "UUnUAyD4t2LkvW68YrDh7fDg",
   "artistId": "nmixx",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-20T12:31:28.348Z",
+  "fetchedAt": "2026-10-21T04:28:31.023Z",
   "items": [
+    {
+      "id": "yt-1TFLfpoFYRI",
+      "source": {
+        "platform": "youtube",
+        "videoId": "1TFLfpoFYRI",
+        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nmixx",
+        "name": "NMIXX"
+      },
+      "title": "NMIXX(엔믹스) \"긴 소원 (Birthday Wish)\" 응원법 (아기 시점 ver.) | 6th EP \"Strange Muse\"",
+      "description": "NMIXX(엔믹스) \"긴 소원 (Birthday Wish)\" 응원법 (아기 시점 ver.) | 6th EP \"Strange Muse\"\n\nNMIXX Official YouTube ▶ https://www.youtube.com/c/NMIXXOfficial \nNMIXX Official X ▶ https://x.com/NMIXX_official\nNMIXX Official X(Members) ▶ https://x.com/WE_NMIXX\nNMIXX Official Instagram ▶ https://www.",
+      "thumbnail": "https://i.ytimg.com/vi/1TFLfpoFYRI/fhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/1TFLfpoFYRI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/1TFLfpoFYRI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/1TFLfpoFYRI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/1TFLfpoFYRI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/1TFLfpoFYRI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "fhd",
+          "url": "https://i.ytimg.com/vi/1TFLfpoFYRI/fhddefault.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "publishedAt": "2026-10-21T03:00:00.000Z",
+      "url": "https://www.youtube.com/watch?v=1TFLfpoFYRI",
+      "fetchedAt": "2026-10-21T04:28:31.023Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-21T04:28:31.023Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-9k1l3dzarKA",
       "source": {
@@ -2995,60 +3061,6 @@
       ],
       "publishedAt": "2026-09-30T06:53:13.000Z",
       "url": "https://www.youtube.com/watch?v=aN7RV8JdwTA",
-      "fetchedAt": "2026-10-14T16:52:36.836Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:36.836Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-XKctKktN-to",
-      "source": {
-        "platform": "youtube",
-        "videoId": "XKctKktN-to",
-        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nmixx",
-        "name": "NMIXX"
-      },
-      "title": "쮸 라이브✨",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/XKctKktN-to/sddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/XKctKktN-to/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/XKctKktN-to/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/XKctKktN-to/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/XKctKktN-to/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        }
-      ],
-      "publishedAt": "2026-09-29T09:01:30.000Z",
-      "url": "https://www.youtube.com/watch?v=XKctKktN-to",
       "fetchedAt": "2026-10-14T16:52:36.836Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:36.836Z",
