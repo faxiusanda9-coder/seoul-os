@@ -4,8 +4,69 @@
   "uploadsPlaylistId": "UUp-pqXsizklX3ZHvLxXyhxw",
   "artistId": "day6",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-17T04:23:04.437Z",
+  "fetchedAt": "2026-10-21T12:32:15.037Z",
   "items": [
+    {
+      "id": "yt-aDt7Dpbwwqk",
+      "source": {
+        "platform": "youtube",
+        "videoId": "aDt7Dpbwwqk",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[데식이들] XMF 2026 비하인드",
+      "description": "[데식이들] XMF 2026 비하인드\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY6Official\nDAY6 FANS App St",
+      "thumbnail": "https://i.ytimg.com/vi/aDt7Dpbwwqk/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/aDt7Dpbwwqk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/aDt7Dpbwwqk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/aDt7Dpbwwqk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/aDt7Dpbwwqk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/aDt7Dpbwwqk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-21T09:00:02.000Z",
+      "url": "https://www.youtube.com/watch?v=aDt7Dpbwwqk",
+      "fetchedAt": "2026-10-21T12:32:15.037Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-21T12:32:15.037Z",
+      "type": "other",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
+    },
     {
       "id": "yt-KsZp8Y9r_3U",
       "source": {
@@ -2964,67 +3025,6 @@
       ],
       "publishedAt": "2026-08-20T06:30:17.000Z",
       "url": "https://www.youtube.com/watch?v=LlsgSILVH_8",
-      "fetchedAt": "2026-10-14T16:52:37.203Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:37.203Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt-hmwxs3U2l8g",
-      "source": {
-        "platform": "youtube",
-        "videoId": "hmwxs3U2l8g",
-        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "day6",
-        "name": "DAY6"
-      },
-      "title": "#Shut_The_Door Challenge with #8TURN #윤성 님🚪",
-      "description": "#Shut_The_Door Challenge with #8TURN #윤성 님🚪\n\n#DAY6 #데이식스\n#YoungK #영케이\n#YOUNGEST\n@8TURN.official",
-      "thumbnail": "https://i.ytimg.com/vi/hmwxs3U2l8g/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/hmwxs3U2l8g/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/hmwxs3U2l8g/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/hmwxs3U2l8g/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/hmwxs3U2l8g/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/hmwxs3U2l8g/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-08-19T11:00:39.000Z",
-      "url": "https://www.youtube.com/watch?v=hmwxs3U2l8g",
       "fetchedAt": "2026-10-14T16:52:37.203Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:37.203Z",

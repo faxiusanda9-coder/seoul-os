@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUDhM2k2Cua-JdobAh5moMFg",
   "artistId": "itzy",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-20T12:31:28.348Z",
+  "fetchedAt": "2026-10-21T12:32:15.037Z",
   "items": [
+    {
+      "id": "yt-nLceBSbGJWU",
+      "source": {
+        "platform": "youtube",
+        "videoId": "nLceBSbGJWU",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "당신의 마음을 설레게 할 새로운 💘𝐿𝑜𝑣𝑒𝑠𝑖𝑐𝑘𝑛𝑎𝑙💘 #ITZY #CHAERYEONG #채령 #Chaeryeong_Lovesick #shorts",
+      "description": "💿 ALBUM RELEASE\n2026.11.09 MON 6PM (KST) | 4AM (ET)",
+      "thumbnail": "https://i.ytimg.com/vi/nLceBSbGJWU/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/nLceBSbGJWU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/nLceBSbGJWU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/nLceBSbGJWU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/nLceBSbGJWU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/nLceBSbGJWU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-21T10:00:00.000Z",
+      "url": "https://www.youtube.com/watch?v=nLceBSbGJWU",
+      "fetchedAt": "2026-10-21T12:32:15.037Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-21T12:32:15.037Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-umepcbYdW_I",
       "source": {
@@ -3116,66 +3176,6 @@
         "method": "rule",
         "confidence": 0.9,
         "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt-0kc-kYDmj88",
-      "source": {
-        "platform": "youtube",
-        "videoId": "0kc-kYDmj88",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "𝗵𝗶𝗱𝗲𝗮𝘄𝗮𝘆 🙈🙉 #ITZY #LIA #CHAERYEONG #리아 #채령 #hideaway #shorts",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/0kc-kYDmj88/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/0kc-kYDmj88/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/0kc-kYDmj88/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/0kc-kYDmj88/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/0kc-kYDmj88/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/0kc-kYDmj88/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-08T05:00:21.000Z",
-      "url": "https://www.youtube.com/watch?v=0kc-kYDmj88",
-      "fetchedAt": "2026-10-14T16:52:36.440Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:36.440Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
       }
     }
   ]

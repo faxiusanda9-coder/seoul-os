@@ -4,8 +4,135 @@
   "uploadsPlaylistId": "UUmq9jjpHA69PwAwlA0DwOsg",
   "artistId": "kickflip",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-21T00:30:21.116Z",
+  "fetchedAt": "2026-10-21T12:32:15.037Z",
   "items": [
+    {
+      "id": "yt-uK3YGluoeSc",
+      "source": {
+        "platform": "youtube",
+        "videoId": "uK3YGluoeSc",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "KickFlip(킥플립) 별봤다 EP11 | 별안간 게임을 해봤다 | 틀린그림찾기",
+      "description": "#KickFlip #킥플립\n#별봤다 #별안간_게임을_해봤다",
+      "thumbnail": "https://i.ytimg.com/vi/uK3YGluoeSc/fhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/uK3YGluoeSc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/uK3YGluoeSc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/uK3YGluoeSc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/uK3YGluoeSc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/uK3YGluoeSc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "fhd",
+          "url": "https://i.ytimg.com/vi/uK3YGluoeSc/fhddefault.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "publishedAt": "2026-10-21T11:00:15.000Z",
+      "url": "https://www.youtube.com/watch?v=uK3YGluoeSc",
+      "fetchedAt": "2026-10-21T12:32:15.037Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-21T12:32:15.037Z",
+      "type": "other",
+      "category": "variety",
+      "subcategory": "series",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.9,
+        "ruleId": "variety-series"
+      }
+    },
+    {
+      "id": "yt-gksIdmFjkGU",
+      "source": {
+        "platform": "youtube",
+        "videoId": "gksIdmFjkGU",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "뭘 해도 #정일영 교수님은 아름다울 거니까 🎓🖤",
+      "description": "#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1\n#미완성 #Puzzle_Piece",
+      "thumbnail": "https://i.ytimg.com/vi/gksIdmFjkGU/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/gksIdmFjkGU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/gksIdmFjkGU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/gksIdmFjkGU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/gksIdmFjkGU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/gksIdmFjkGU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-21T10:00:01.000Z",
+      "url": "https://www.youtube.com/watch?v=gksIdmFjkGU",
+      "fetchedAt": "2026-10-21T12:32:15.037Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-21T12:32:15.037Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-8-sC7G-JT8k",
       "source": {
@@ -2878,126 +3005,6 @@
       ],
       "publishedAt": "2026-10-13T11:00:07.000Z",
       "url": "https://www.youtube.com/watch?v=7HnM4laoaVw",
-      "fetchedAt": "2026-10-14T16:52:38.117Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.117Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-R4EcUErkvCo",
-      "source": {
-        "platform": "youtube",
-        "videoId": "R4EcUErkvCo",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "ฅ՞•ﻌ•՞ฅ♡",
-      "description": "#Kyehoon #Juwang\n#KICKOFFTHEWALL_Pt1\n#미완성 #Puzzle_Piece",
-      "thumbnail": "https://i.ytimg.com/vi/R4EcUErkvCo/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/R4EcUErkvCo/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/R4EcUErkvCo/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/R4EcUErkvCo/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/R4EcUErkvCo/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/R4EcUErkvCo/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-13T10:00:27.000Z",
-      "url": "https://www.youtube.com/watch?v=R4EcUErkvCo",
-      "fetchedAt": "2026-10-14T16:52:38.117Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.117Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-UMIOC1sJA2w",
-      "source": {
-        "platform": "youtube",
-        "videoId": "UMIOC1sJA2w",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "お前が大事😉",
-      "description": "#KickFlip #킥플립\n#민제 #Minje #케이주 #Keiju",
-      "thumbnail": "https://i.ytimg.com/vi/UMIOC1sJA2w/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/UMIOC1sJA2w/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/UMIOC1sJA2w/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/UMIOC1sJA2w/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/UMIOC1sJA2w/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/UMIOC1sJA2w/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-13T09:00:14.000Z",
-      "url": "https://www.youtube.com/watch?v=UMIOC1sJA2w",
       "fetchedAt": "2026-10-14T16:52:38.117Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:38.117Z",
