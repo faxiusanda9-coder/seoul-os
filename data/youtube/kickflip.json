@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUmq9jjpHA69PwAwlA0DwOsg",
   "artistId": "kickflip",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-20T12:31:28.348Z",
+  "fetchedAt": "2026-10-21T00:30:21.116Z",
   "items": [
+    {
+      "id": "yt-8-sC7G-JT8k",
+      "source": {
+        "platform": "youtube",
+        "videoId": "8-sC7G-JT8k",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "NEON",
+      "description": "#KickFlip #킥플립 \n#계훈 #Kyehoon\n#동화 #Donghwa",
+      "thumbnail": "https://i.ytimg.com/vi/8-sC7G-JT8k/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/8-sC7G-JT8k/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/8-sC7G-JT8k/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/8-sC7G-JT8k/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/8-sC7G-JT8k/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/8-sC7G-JT8k/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-20T13:30:29.000Z",
+      "url": "https://www.youtube.com/watch?v=8-sC7G-JT8k",
+      "fetchedAt": "2026-10-21T00:30:21.116Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-21T00:30:21.116Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-YZAV-XssZzI",
       "source": {
@@ -2938,66 +2998,6 @@
       ],
       "publishedAt": "2026-10-13T09:00:14.000Z",
       "url": "https://www.youtube.com/watch?v=UMIOC1sJA2w",
-      "fetchedAt": "2026-10-14T16:52:38.117Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.117Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-3_k81x9o9H0",
-      "source": {
-        "platform": "youtube",
-        "videoId": "3_k81x9o9H0",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "뭘 해도 #Camila #Kendall 선배님은 아름다울 거니까 💞",
-      "description": "#KickFlip #킥플립\n#GIRLSET\n#KICKOFFTHEWALL_Pt1\n#미완성 #Puzzle_Piece\n\n@GIRLSET",
-      "thumbnail": "https://i.ytimg.com/vi/3_k81x9o9H0/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/3_k81x9o9H0/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/3_k81x9o9H0/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/3_k81x9o9H0/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/3_k81x9o9H0/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/3_k81x9o9H0/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-13T08:00:28.000Z",
-      "url": "https://www.youtube.com/watch?v=3_k81x9o9H0",
       "fetchedAt": "2026-10-14T16:52:38.117Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:38.117Z",
