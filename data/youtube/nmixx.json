@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUnUAyD4t2LkvW68YrDh7fDg",
   "artistId": "nmixx",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-21T12:32:15.037Z",
+  "fetchedAt": "2026-10-22T04:28:42.368Z",
   "items": [
+    {
+      "id": "yt-YUx0mT87kgI",
+      "source": {
+        "platform": "youtube",
+        "videoId": "YUx0mT87kgI",
+        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nmixx",
+        "name": "NMIXX"
+      },
+      "title": "#룩삼 위한 긴 소원을 빌게 🪩 #NMIXX #LILY #HAEWON #긴소원_BirthdayWish",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/YUx0mT87kgI/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/YUx0mT87kgI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/YUx0mT87kgI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/YUx0mT87kgI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/YUx0mT87kgI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/YUx0mT87kgI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-22T04:00:08.000Z",
+      "url": "https://www.youtube.com/watch?v=YUx0mT87kgI",
+      "fetchedAt": "2026-10-22T04:28:42.368Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-22T04:28:42.368Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-40t10VIe0k8",
       "source": {
@@ -3009,67 +3069,6 @@
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-mAdhOqkmPjY",
-      "source": {
-        "platform": "youtube",
-        "videoId": "mAdhOqkmPjY",
-        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nmixx",
-        "name": "NMIXX"
-      },
-      "title": "NMIXX \"Strange Muse\" A Cappella Highlight Medley (Choir Ver.) #NMIXX #Strange_Muse #긴소원_BirthdayWish",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/mAdhOqkmPjY/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/mAdhOqkmPjY/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/mAdhOqkmPjY/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/mAdhOqkmPjY/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/mAdhOqkmPjY/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/mAdhOqkmPjY/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-11T13:30:38.000Z",
-      "url": "https://www.youtube.com/watch?v=mAdhOqkmPjY",
-      "fetchedAt": "2026-10-14T16:52:36.836Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:36.836Z",
-      "type": "teaser",
-      "category": "music",
-      "subcategory": "music-preview",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.83,
-        "ruleId": "music-preview"
       }
     }
   ]
