@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUmq9jjpHA69PwAwlA0DwOsg",
   "artistId": "kickflip",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-21T12:32:15.037Z",
+  "fetchedAt": "2026-10-22T00:31:01.341Z",
   "items": [
+    {
+      "id": "yt-tpuq4EHty_o",
+      "source": {
+        "platform": "youtube",
+        "videoId": "tpuq4EHty_o",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "I’m movin’ through with #신예찬 선배님 💫",
+      "description": "#KickFlip #킥플립\n#TIOT #티아이오티\n#KICKOFFTHEWALL_Pt1\n#KickOffTheWall\n\n@TIOT_NOW",
+      "thumbnail": "https://i.ytimg.com/vi/tpuq4EHty_o/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/tpuq4EHty_o/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/tpuq4EHty_o/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/tpuq4EHty_o/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/tpuq4EHty_o/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/tpuq4EHty_o/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-21T13:00:01.000Z",
+      "url": "https://www.youtube.com/watch?v=tpuq4EHty_o",
+      "fetchedAt": "2026-10-22T00:31:01.341Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-22T00:31:01.341Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-uK3YGluoeSc",
       "source": {
@@ -2945,66 +3005,6 @@
       ],
       "publishedAt": "2026-10-13T12:00:19.000Z",
       "url": "https://www.youtube.com/watch?v=ZjxxkYXXFTM",
-      "fetchedAt": "2026-10-14T16:52:38.117Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.117Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-7HnM4laoaVw",
-      "source": {
-        "platform": "youtube",
-        "videoId": "7HnM4laoaVw",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "🐺 × 🐱ྀི",
-      "description": "#Minje #Keiju\n#KICKOFFTHEWALL_Pt1\n#미완성 #Puzzle_Piece",
-      "thumbnail": "https://i.ytimg.com/vi/7HnM4laoaVw/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/7HnM4laoaVw/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/7HnM4laoaVw/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/7HnM4laoaVw/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/7HnM4laoaVw/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/7HnM4laoaVw/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-13T11:00:07.000Z",
-      "url": "https://www.youtube.com/watch?v=7HnM4laoaVw",
       "fetchedAt": "2026-10-14T16:52:38.117Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:38.117Z",
