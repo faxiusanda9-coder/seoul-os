@@ -4,8 +4,128 @@
   "uploadsPlaylistId": "UUp-pqXsizklX3ZHvLxXyhxw",
   "artistId": "day6",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-21T12:32:15.037Z",
+  "fetchedAt": "2026-10-22T12:34:00.351Z",
   "items": [
+    {
+      "id": "yt-lyJwyAbgBWw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "lyJwyAbgBWw",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "Ｍｙ Ｄａｙ, 좋아해..❤️",
+      "description": "Ｍｙ Ｄａｙ, 좋아해..❤️\n\n#DAY6 #데이식스\n#원필 #WONPIL\n#좋아해",
+      "thumbnail": "https://i.ytimg.com/vi/lyJwyAbgBWw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/lyJwyAbgBWw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/lyJwyAbgBWw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/lyJwyAbgBWw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/lyJwyAbgBWw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/lyJwyAbgBWw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-22T12:00:09.000Z",
+      "url": "https://www.youtube.com/watch?v=lyJwyAbgBWw",
+      "fetchedAt": "2026-10-22T12:34:00.351Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-22T12:34:00.351Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-tPfHhOqpY4Q",
+      "source": {
+        "platform": "youtube",
+        "videoId": "tPfHhOqpY4Q",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "원필(WONPIL) - 좋아해.. (바른연애 길잡이 X 죠지 cover)",
+      "description": "원필(WONPIL) - 좋아해.. (바른연애 길잡이 X 죠지 cover)\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY6Offic",
+      "thumbnail": "https://i.ytimg.com/vi/tPfHhOqpY4Q/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/tPfHhOqpY4Q/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/tPfHhOqpY4Q/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/tPfHhOqpY4Q/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/tPfHhOqpY4Q/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/tPfHhOqpY4Q/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-22T11:00:03.000Z",
+      "url": "https://www.youtube.com/watch?v=tPfHhOqpY4Q",
+      "fetchedAt": "2026-10-22T12:34:00.351Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-22T12:34:00.351Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-aDt7Dpbwwqk",
       "source": {
@@ -2903,128 +3023,6 @@
       ],
       "publishedAt": "2026-08-22T03:00:19.000Z",
       "url": "https://www.youtube.com/watch?v=LXj2lFsayR8",
-      "fetchedAt": "2026-10-14T16:52:37.203Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:37.203Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt--YDCtzvexLg",
-      "source": {
-        "platform": "youtube",
-        "videoId": "-YDCtzvexLg",
-        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "day6",
-        "name": "DAY6"
-      },
-      "title": "#Shut_The_Door Challenge with #YOUNITE #은호 님🚪",
-      "description": "#Shut_The_Door Challenge with #YOUNITE #은호 님🚪\n\n#DAY6 #데이식스\n#YoungK #영케이\n#YOUNGEST\n@YOUNITEOFFICIAL",
-      "thumbnail": "https://i.ytimg.com/vi/-YDCtzvexLg/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/-YDCtzvexLg/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/-YDCtzvexLg/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/-YDCtzvexLg/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/-YDCtzvexLg/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/-YDCtzvexLg/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-08-20T08:30:35.000Z",
-      "url": "https://www.youtube.com/watch?v=-YDCtzvexLg",
-      "fetchedAt": "2026-10-14T16:52:37.203Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:37.203Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt-LlsgSILVH_8",
-      "source": {
-        "platform": "youtube",
-        "videoId": "LlsgSILVH_8",
-        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "day6",
-        "name": "DAY6"
-      },
-      "title": "#Shut_The_Door Challenge with #EVAN 님🚪",
-      "description": "#Shut_The_Door Challenge with #EVAN 님🚪\n\n#DAY6 #데이식스\n#YoungK #영케이\n#YOUNGEST\n@h_evva_n",
-      "thumbnail": "https://i.ytimg.com/vi/LlsgSILVH_8/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/LlsgSILVH_8/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/LlsgSILVH_8/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/LlsgSILVH_8/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/LlsgSILVH_8/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/LlsgSILVH_8/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-08-20T06:30:17.000Z",
-      "url": "https://www.youtube.com/watch?v=LlsgSILVH_8",
       "fetchedAt": "2026-10-14T16:52:37.203Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:37.203Z",

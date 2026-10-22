@@ -4,8 +4,129 @@
   "uploadsPlaylistId": "UUO9GhtdQcCRf67GIdSQ0HNQ",
   "artistId": "xdinary-heroes",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-22T04:28:42.368Z",
+  "fetchedAt": "2026-10-22T12:34:00.351Z",
   "items": [
+    {
+      "id": "yt-CsxOIaTIEGw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "CsxOIaTIEGw",
+        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "xdinary-heroes",
+        "name": "Xdinary Heroes"
+      },
+      "title": "[Xdinary Heroes : Xtra Files] Ep.97 Jungsu SSG Landers First Pitch Behind",
+      "description": "[Xdinary Heroes : Xtra Files] Ep.97 Jungsu SSG Landers First Pitch Behind\n\nListen to Xdinary Heroes \"Obsessed with Youth\"\nhttp://Xdinaryheroes.lnk.to/IMPULSE\n\nXdinary Heroes Official YouTube: https://www.youtube.com/c/xdinaryheroesofficial\nXdinary Heroes Official Facebook: https:",
+      "thumbnail": "https://i.ytimg.com/vi/CsxOIaTIEGw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/CsxOIaTIEGw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/CsxOIaTIEGw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/CsxOIaTIEGw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/CsxOIaTIEGw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/CsxOIaTIEGw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-22T09:00:05.000Z",
+      "url": "https://www.youtube.com/watch?v=CsxOIaTIEGw",
+      "fetchedAt": "2026-10-22T12:34:00.351Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-22T12:34:00.351Z",
+      "type": "other",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
+    },
+    {
+      "id": "yt-g7IQU1QJ3hA",
+      "source": {
+        "platform": "youtube",
+        "videoId": "g7IQU1QJ3hA",
+        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "xdinary-heroes",
+        "name": "Xdinary Heroes"
+      },
+      "title": "Obsessed with #cantbeblue #권다현❤️‍🔥",
+      "description": "Obsessed with #cantbeblue #권다현❤️‍🔥\n\n#XdinaryHeroes #엑스디너리히어로즈\n#Obsessed_with_Youth\n@cant_beblue",
+      "thumbnail": "https://i.ytimg.com/vi/g7IQU1QJ3hA/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/g7IQU1QJ3hA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/g7IQU1QJ3hA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/g7IQU1QJ3hA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/g7IQU1QJ3hA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/g7IQU1QJ3hA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-22T07:00:15.000Z",
+      "url": "https://www.youtube.com/watch?v=g7IQU1QJ3hA",
+      "fetchedAt": "2026-10-22T12:34:00.351Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-22T12:34:00.351Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-dbYJWnLWdt4",
       "source": {
@@ -2898,133 +3019,6 @@
         "method": "rule",
         "confidence": 0.91,
         "ruleId": "music-performance"
-      }
-    },
-    {
-      "id": "yt-QYWYR7U6ivw",
-      "source": {
-        "platform": "youtube",
-        "videoId": "QYWYR7U6ivw",
-        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "xdinary-heroes",
-        "name": "Xdinary Heroes"
-      },
-      "title": "Xdinary Heroes 9TH MINI ALBUM 〈IMPULSE〉 UNLOCK YOUR IMPULSE",
-      "description": "Xdinary Heroes 9TH MINI ALBUM 〈IMPULSE〉 UNLOCK YOUR IMPULSE\n\nListen to Xdinary Heroes \"Obsessed with Youth\"\nXdinaryHeroes.lnk.to/IMPULSE\n\nXdinary Heroes Official YouTube: https://www.youtube.com/c/xdinaryheroesofficial\nXdinary Heroes Official Facebook: https://www.facebook.com/Xd",
-      "thumbnail": "https://i.ytimg.com/vi/QYWYR7U6ivw/uhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/QYWYR7U6ivw/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/QYWYR7U6ivw/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/QYWYR7U6ivw/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/QYWYR7U6ivw/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/QYWYR7U6ivw/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "uhd",
-          "url": "https://i.ytimg.com/vi/QYWYR7U6ivw/uhddefault.jpg",
-          "width": 3840,
-          "height": 2160
-        }
-      ],
-      "publishedAt": "2026-10-12T08:44:10.000Z",
-      "url": "https://www.youtube.com/watch?v=QYWYR7U6ivw",
-      "fetchedAt": "2026-10-14T16:52:37.595Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:37.595Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-CcP2eg_qZHk",
-      "source": {
-        "platform": "youtube",
-        "videoId": "CcP2eg_qZHk",
-        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "xdinary-heroes",
-        "name": "Xdinary Heroes"
-      },
-      "title": "Xdinary Heroes 〈IMPULSE〉 Jacket Making Film",
-      "description": "Xdinary Heroes 〈IMPULSE〉 Jacket Making Film \n\nListen to Xdinary Heroes \"Obsessed with Youth\"\nhttp://Xdinaryheroes.lnk.to/IMPULSE\n\nXdinary Heroes Official YouTube: https://www.youtube.com/c/xdinaryheroesofficial\nXdinary Heroes Official Facebook: https://www.facebook.com/XdinaryHer",
-      "thumbnail": "https://i.ytimg.com/vi/CcP2eg_qZHk/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/CcP2eg_qZHk/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/CcP2eg_qZHk/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/CcP2eg_qZHk/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/CcP2eg_qZHk/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/CcP2eg_qZHk/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-12T03:00:05.000Z",
-      "url": "https://www.youtube.com/watch?v=CcP2eg_qZHk",
-      "fetchedAt": "2026-10-14T16:52:37.595Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:37.595Z",
-      "type": "other",
-      "category": "behind",
-      "subcategory": "making",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.95,
-        "ruleId": "making"
       }
     }
   ]

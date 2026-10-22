@@ -4,8 +4,248 @@
   "uploadsPlaylistId": "UUHp2q2i85qt_9nn2H7AvGOw",
   "artistId": "niziu",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-20T12:31:28.348Z",
+  "fetchedAt": "2026-10-22T12:34:00.351Z",
   "items": [
+    {
+      "id": "yt-tBeuMlunOz4",
+      "source": {
+        "platform": "youtube",
+        "videoId": "tBeuMlunOz4",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "besties don't need words💞",
+      "description": "#RIMA #NINA\n#NiziU #니쥬\n#SourGrapes\n#NiziU_SourGrapes",
+      "thumbnail": "https://i.ytimg.com/vi/tBeuMlunOz4/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/tBeuMlunOz4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/tBeuMlunOz4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/tBeuMlunOz4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/tBeuMlunOz4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/tBeuMlunOz4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-22T07:30:19.000Z",
+      "url": "https://www.youtube.com/watch?v=tBeuMlunOz4",
+      "fetchedAt": "2026-10-22T12:34:00.351Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-22T12:34:00.351Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-wllZfw63LWY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "wllZfw63LWY",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "고민 고민하지마 Girl☝️",
+      "description": "#MAYA\n#NiziU #니쥬\n#SourGrapes\n#NiziU_SourGrapes",
+      "thumbnail": "https://i.ytimg.com/vi/wllZfw63LWY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/wllZfw63LWY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/wllZfw63LWY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/wllZfw63LWY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/wllZfw63LWY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/wllZfw63LWY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-22T07:20:27.000Z",
+      "url": "https://www.youtube.com/watch?v=wllZfw63LWY",
+      "fetchedAt": "2026-10-22T12:34:00.351Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-22T12:34:00.351Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-0lFKHqUnfec",
+      "source": {
+        "platform": "youtube",
+        "videoId": "0lFKHqUnfec",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "두근두근 두근두근",
+      "description": "#MAKO #AYAKA #MAYUKA\n#NiziU #니쥬\n#SourGrapes\n#NiziU_SourGrapes",
+      "thumbnail": "https://i.ytimg.com/vi/0lFKHqUnfec/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/0lFKHqUnfec/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/0lFKHqUnfec/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/0lFKHqUnfec/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/0lFKHqUnfec/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/0lFKHqUnfec/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-22T07:10:26.000Z",
+      "url": "https://www.youtube.com/watch?v=0lFKHqUnfec",
+      "fetchedAt": "2026-10-22T12:34:00.351Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-22T12:34:00.351Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-owKyESTzBWw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "owKyESTzBWw",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "what you doin'?",
+      "description": "#RIKU #MIIHI\n#NiziU #니쥬\n#SourGrapes\n#NiziU_SourGrapes",
+      "thumbnail": "https://i.ytimg.com/vi/owKyESTzBWw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/owKyESTzBWw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/owKyESTzBWw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/owKyESTzBWw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/owKyESTzBWw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/owKyESTzBWw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-22T07:00:35.000Z",
+      "url": "https://www.youtube.com/watch?v=owKyESTzBWw",
+      "fetchedAt": "2026-10-22T12:34:00.351Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-22T12:34:00.351Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-CckbCOzQuXM",
       "source": {
@@ -2787,246 +3027,6 @@
       ],
       "publishedAt": "2026-10-09T07:00:31.000Z",
       "url": "https://www.youtube.com/watch?v=iBgbw6PBgaI",
-      "fetchedAt": "2026-10-14T16:52:38.651Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.651Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-p1w7W_e1_a4",
-      "source": {
-        "platform": "youtube",
-        "videoId": "p1w7W_e1_a4",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "#SourGrapes with #YOUDAYEON ​⁠@dayeon_you 🍇",
-      "description": "#유다연\n#NiziU #니쥬 #NINA\n#NiziU_SourGrapes",
-      "thumbnail": "https://i.ytimg.com/vi/p1w7W_e1_a4/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/p1w7W_e1_a4/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/p1w7W_e1_a4/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/p1w7W_e1_a4/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/p1w7W_e1_a4/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/p1w7W_e1_a4/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-09T05:06:42.000Z",
-      "url": "https://www.youtube.com/watch?v=p1w7W_e1_a4",
-      "fetchedAt": "2026-10-14T16:52:38.651Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.651Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-Yn7d-QPwESw",
-      "source": {
-        "platform": "youtube",
-        "videoId": "Yn7d-QPwESw",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "😎",
-      "description": "#NiziU #니쥬\n#SourGrapes\n#NiziU_SourGrapes",
-      "thumbnail": "https://i.ytimg.com/vi/Yn7d-QPwESw/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/Yn7d-QPwESw/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/Yn7d-QPwESw/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/Yn7d-QPwESw/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/Yn7d-QPwESw/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/Yn7d-QPwESw/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-08T13:00:00.000Z",
-      "url": "https://www.youtube.com/watch?v=Yn7d-QPwESw",
-      "fetchedAt": "2026-10-14T16:52:38.651Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.651Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-2nkhAKTrf2E",
-      "source": {
-        "platform": "youtube",
-        "videoId": "2nkhAKTrf2E",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "♪· *· NiziU’s Trip to Taipei 🥟🛍️ ·* ·♪",
-      "description": "♪· *· NiziU’s Trip to Taipei 🥟🛍️ ·* ·♪\n\nNiziU(니쥬) Korea 1st Mini Album \"Sour Grapes\"\n2026.09.28 MON 6PM (KST) Release\n\n🎧 https://niziu.lnk.to/SourGrapes\n\nNiziU Official Homepage: https://niziu.com/\nNiziU Official YouTube:    / @niziuofficial  \nNiziU Official Facebook:   / nizi",
-      "thumbnail": "https://i.ytimg.com/vi/2nkhAKTrf2E/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/2nkhAKTrf2E/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/2nkhAKTrf2E/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/2nkhAKTrf2E/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/2nkhAKTrf2E/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/2nkhAKTrf2E/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-08T11:00:04.000Z",
-      "url": "https://www.youtube.com/watch?v=2nkhAKTrf2E",
-      "fetchedAt": "2026-10-14T16:52:38.651Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.651Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-xRJS-wFcyZo",
-      "source": {
-        "platform": "youtube",
-        "videoId": "xRJS-wFcyZo",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "Dancing in my room🎶",
-      "description": "#NiziU #니쥬\n#SourGrapes\n#NiziU_SourGrapes",
-      "thumbnail": "https://i.ytimg.com/vi/xRJS-wFcyZo/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/xRJS-wFcyZo/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/xRJS-wFcyZo/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/xRJS-wFcyZo/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/xRJS-wFcyZo/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/xRJS-wFcyZo/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-08T07:00:05.000Z",
-      "url": "https://www.youtube.com/watch?v=xRJS-wFcyZo",
       "fetchedAt": "2026-10-14T16:52:38.651Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:38.651Z",
