@@ -4,8 +4,75 @@
   "uploadsPlaylistId": "UUHp2q2i85qt_9nn2H7AvGOw",
   "artistId": "niziu",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-23T04:27:51.633Z",
+  "fetchedAt": "2026-10-23T12:28:24.051Z",
   "items": [
+    {
+      "id": "yt-M4BmPAW65JY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "M4BmPAW65JY",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "NiziU(니쥬) \"Sour Grapes\" MV Behind #2",
+      "description": "NiziU(니쥬) \"Sour Grapes\" MV Behind #2\n\nNiziU(니쥬) Korea 1st Mini Album \"Sour Grapes\"\n2026.09.28 MON 6PM (KST) Release\n\n🎧 https://niziu.lnk.to/SourGrapes\n\nNiziU Official Homepage: https://niziu.com/\nNiziU Official YouTube:    / @niziuofficial  \nNiziU Official Facebook:   / niziuinf",
+      "thumbnail": "https://i.ytimg.com/vi/M4BmPAW65JY/uhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/M4BmPAW65JY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/M4BmPAW65JY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/M4BmPAW65JY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/M4BmPAW65JY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/M4BmPAW65JY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "uhd",
+          "url": "https://i.ytimg.com/vi/M4BmPAW65JY/uhddefault.jpg",
+          "width": 3840,
+          "height": 2160
+        }
+      ],
+      "publishedAt": "2026-10-23T11:00:12.000Z",
+      "url": "https://www.youtube.com/watch?v=M4BmPAW65JY",
+      "fetchedAt": "2026-10-23T12:28:24.051Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-23T12:28:24.051Z",
+      "type": "other",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
+    },
     {
       "id": "yt-3G8lD45yQsY",
       "source": {
@@ -2971,66 +3038,6 @@
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:38.651Z",
       "type": "teaser",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-KvFRJ7CpwxE",
-      "source": {
-        "platform": "youtube",
-        "videoId": "KvFRJ7CpwxE",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "Sour Grapes 🍇 Relay ver.",
-      "description": "#NiziU #니쥬\n#SourGrapes\n#NiziU_SourGrapes",
-      "thumbnail": "https://i.ytimg.com/vi/KvFRJ7CpwxE/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/KvFRJ7CpwxE/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/KvFRJ7CpwxE/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/KvFRJ7CpwxE/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/KvFRJ7CpwxE/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/KvFRJ7CpwxE/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-09T11:00:28.000Z",
-      "url": "https://www.youtube.com/watch?v=KvFRJ7CpwxE",
-      "fetchedAt": "2026-10-14T16:52:38.651Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.651Z",
-      "type": "other",
       "category": "other",
       "classification": {
         "method": "fallback",

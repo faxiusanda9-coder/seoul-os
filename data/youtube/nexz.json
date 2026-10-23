@@ -4,8 +4,134 @@
   "uploadsPlaylistId": "UU-o9yrZxu5Ru-DVGhnmeTug",
   "artistId": "nexz",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-23T00:32:27.609Z",
+  "fetchedAt": "2026-10-23T12:28:24.051Z",
   "items": [
+    {
+      "id": "yt-g7uE_d5ES1g",
+      "source": {
+        "platform": "youtube",
+        "videoId": "g7uE_d5ES1g",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "NEXZ わちゃわちゃな遊び場",
+      "description": "NEXZ わちゃわちゃな遊び場\n\nNEXZ Official Website: https://nexz.jype.com\nNEXZ Official YouTube: https://www.youtube.com/@NEXZ_official\nNEXZ Official Facebook: https://www.facebook.com/realnexz\nNEXZ Official X: https://twitter.com/NEXZ_official\nNEXZ Official Instagram: https://www.instagram.",
+      "thumbnail": "https://i.ytimg.com/vi/g7uE_d5ES1g/fhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/g7uE_d5ES1g/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/g7uE_d5ES1g/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/g7uE_d5ES1g/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/g7uE_d5ES1g/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/g7uE_d5ES1g/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "fhd",
+          "url": "https://i.ytimg.com/vi/g7uE_d5ES1g/fhddefault.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "publishedAt": "2026-10-23T11:00:01.000Z",
+      "url": "https://www.youtube.com/watch?v=g7uE_d5ES1g",
+      "fetchedAt": "2026-10-23T12:28:24.051Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-23T12:28:24.051Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-sBqGn7UvqnY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "sBqGn7UvqnY",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "⋆⁺₊❅BABY Penguin🕺❅₊⁺⋆ | #TOMOYA",
+      "description": "#NEXZ #TOMOYA\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
+      "thumbnail": "https://i.ytimg.com/vi/sBqGn7UvqnY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/sBqGn7UvqnY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/sBqGn7UvqnY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/sBqGn7UvqnY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/sBqGn7UvqnY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/sBqGn7UvqnY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-23T09:00:07.000Z",
+      "url": "https://www.youtube.com/watch?v=sBqGn7UvqnY",
+      "fetchedAt": "2026-10-23T12:28:24.051Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-23T12:28:24.051Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-xxw8kobRbuc",
       "source": {
@@ -2857,127 +2983,6 @@
       ],
       "publishedAt": "2026-10-11T13:00:25.000Z",
       "url": "https://www.youtube.com/watch?v=RBazG_NcyEA",
-      "fetchedAt": "2026-10-14T16:52:39.086Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:39.086Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-P4sZQ4MyeKA",
-      "source": {
-        "platform": "youtube",
-        "videoId": "P4sZQ4MyeKA",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "Hellmate Challenge 💜 with #リョウガ さん (#超特急) | #YU",
-      "description": "#NEXZ #YU  \n#Hellmate #NEXZ_Hellmate \n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
-      "thumbnail": "https://i.ytimg.com/vi/P4sZQ4MyeKA/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/P4sZQ4MyeKA/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/P4sZQ4MyeKA/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/P4sZQ4MyeKA/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/P4sZQ4MyeKA/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/P4sZQ4MyeKA/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-11T12:00:37.000Z",
-      "url": "https://www.youtube.com/watch?v=P4sZQ4MyeKA",
-      "fetchedAt": "2026-10-14T16:52:39.086Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:39.086Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt-w53zKeMWekY",
-      "source": {
-        "platform": "youtube",
-        "videoId": "w53zKeMWekY",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "Meet & Greet with NEXZOO🤍 | #NEXZ",
-      "description": "#NEXZ\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
-      "thumbnail": "https://i.ytimg.com/vi/w53zKeMWekY/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/w53zKeMWekY/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/w53zKeMWekY/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/w53zKeMWekY/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/w53zKeMWekY/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/w53zKeMWekY/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-11T11:35:14.000Z",
-      "url": "https://www.youtube.com/watch?v=w53zKeMWekY",
       "fetchedAt": "2026-10-14T16:52:39.086Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:39.086Z",
