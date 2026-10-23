@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUHp2q2i85qt_9nn2H7AvGOw",
   "artistId": "niziu",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-22T12:34:00.351Z",
+  "fetchedAt": "2026-10-23T04:27:51.633Z",
   "items": [
+    {
+      "id": "yt-3G8lD45yQsY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "3G8lD45yQsY",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "🅚🅤🅡🅞🅜🅘 #NYLONJAPAN @nylonjapan #MAYUKA #RIMA #NiziU #WithU",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/3G8lD45yQsY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/3G8lD45yQsY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/3G8lD45yQsY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/3G8lD45yQsY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/3G8lD45yQsY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/3G8lD45yQsY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-23T02:35:03.000Z",
+      "url": "https://www.youtube.com/watch?v=3G8lD45yQsY",
+      "fetchedAt": "2026-10-23T04:27:51.633Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-23T04:27:51.633Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-tBeuMlunOz4",
       "source": {
@@ -2967,66 +3027,6 @@
       ],
       "publishedAt": "2026-10-09T11:00:28.000Z",
       "url": "https://www.youtube.com/watch?v=KvFRJ7CpwxE",
-      "fetchedAt": "2026-10-14T16:52:38.651Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.651Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-iBgbw6PBgaI",
-      "source": {
-        "platform": "youtube",
-        "videoId": "iBgbw6PBgaI",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "#SourGrapes with #미미미누 ​⁠@mimiminu_official 🍇",
-      "description": "#NiziU #니쥬 #RIKU\n#NiziU_SourGrapes",
-      "thumbnail": "https://i.ytimg.com/vi/iBgbw6PBgaI/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/iBgbw6PBgaI/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/iBgbw6PBgaI/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/iBgbw6PBgaI/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/iBgbw6PBgaI/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/iBgbw6PBgaI/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-09T07:00:31.000Z",
-      "url": "https://www.youtube.com/watch?v=iBgbw6PBgaI",
       "fetchedAt": "2026-10-14T16:52:38.651Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:38.651Z",

@@ -4,8 +4,130 @@
   "uploadsPlaylistId": "UUzgxx_DM2Dcb9Y1spb9mUJA",
   "artistId": "twice",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-22T12:34:00.351Z",
+  "fetchedAt": "2026-10-23T04:27:51.633Z",
   "items": [
+    {
+      "id": "yt-Llxr_FUhbqU",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Llxr_FUhbqU",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "트둥의 숲 TDOONG's Crossing EP.01 Highlight #2 #TWICE #트와이스 #TWICEREALITY #TIMETOTWICE #TTT",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/Llxr_FUhbqU/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Llxr_FUhbqU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Llxr_FUhbqU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Llxr_FUhbqU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Llxr_FUhbqU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Llxr_FUhbqU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-23T04:01:28.000Z",
+      "url": "https://www.youtube.com/watch?v=Llxr_FUhbqU",
+      "fetchedAt": "2026-10-23T04:27:51.633Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-23T04:27:51.633Z",
+      "type": "other",
+      "category": "variety",
+      "subcategory": "series",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.9,
+        "ruleId": "variety-series"
+      }
+    },
+    {
+      "id": "yt-sAuOClNi58g",
+      "source": {
+        "platform": "youtube",
+        "videoId": "sAuOClNi58g",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "트둥의 숲 TDOONG's Crossing EP.01 Highlight #1 #TWICE #트와이스 #TWICEREALITY #TIMETOTWICE #TTT",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/sAuOClNi58g/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/sAuOClNi58g/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/sAuOClNi58g/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/sAuOClNi58g/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/sAuOClNi58g/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/sAuOClNi58g/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-23T04:00:30.000Z",
+      "url": "https://www.youtube.com/watch?v=sAuOClNi58g",
+      "fetchedAt": "2026-10-23T04:27:51.633Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-23T04:27:51.633Z",
+      "type": "other",
+      "category": "variety",
+      "subcategory": "series",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.9,
+        "ruleId": "variety-series"
+      }
+    },
     {
       "id": "yt-pUoEgXuIc4k",
       "source": {
@@ -2905,127 +3027,6 @@
         "method": "rule",
         "confidence": 0.94,
         "ruleId": "stage"
-      }
-    },
-    {
-      "id": "yt-tO6tvHGrYQI",
-      "source": {
-        "platform": "youtube",
-        "videoId": "tO6tvHGrYQI",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "TW-LOG @ 6TH WORLD TOUR ‘THIS IS FOR’ ep.DAHYUN | Pt.2",
-      "description": "TW-LOG @ 6TH WORLD TOUR ‘THIS IS FOR’ ep.DAHYUN | Pt.2\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.twitter.com/JYPETWICE \nTW",
-      "thumbnail": "https://i.ytimg.com/vi/tO6tvHGrYQI/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/tO6tvHGrYQI/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/tO6tvHGrYQI/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/tO6tvHGrYQI/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/tO6tvHGrYQI/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/tO6tvHGrYQI/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-08-06T09:00:02.000Z",
-      "url": "https://www.youtube.com/watch?v=tO6tvHGrYQI",
-      "fetchedAt": "2026-10-14T16:52:35.634Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt-vekEedAibDs",
-      "source": {
-        "platform": "youtube",
-        "videoId": "vekEedAibDs",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "🫦💦 #TWICE #트와이스 #MOMO #모모 #JYPark #박진영 #WET @JYPark",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/vekEedAibDs/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/vekEedAibDs/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/vekEedAibDs/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/vekEedAibDs/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/vekEedAibDs/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/vekEedAibDs/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-07-31T05:00:43.000Z",
-      "url": "https://www.youtube.com/watch?v=vekEedAibDs",
-      "fetchedAt": "2026-10-14T16:52:35.634Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
       }
     }
   ]
