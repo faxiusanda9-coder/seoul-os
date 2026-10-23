@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUO9GhtdQcCRf67GIdSQ0HNQ",
   "artistId": "xdinary-heroes",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-22T12:34:00.351Z",
+  "fetchedAt": "2026-10-23T00:32:27.609Z",
   "items": [
+    {
+      "id": "yt-CdM8Gw4yAic",
+      "source": {
+        "platform": "youtube",
+        "videoId": "CdM8Gw4yAic",
+        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "xdinary-heroes",
+        "name": "Xdinary Heroes"
+      },
+      "title": "MEOVV - GO HARD Cover by #JunHan & #Ode",
+      "description": "MEOVV - GO HARD \nCover by #JunHan & #Ode\n\n#XdinaryHeroes #엑스디너리히어로즈\n#WE_ARE_ALL_HEROES\n@MEOVV_OFFICIAL",
+      "thumbnail": "https://i.ytimg.com/vi/CdM8Gw4yAic/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/CdM8Gw4yAic/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/CdM8Gw4yAic/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/CdM8Gw4yAic/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/CdM8Gw4yAic/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/CdM8Gw4yAic/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-22T14:00:06.000Z",
+      "url": "https://www.youtube.com/watch?v=CdM8Gw4yAic",
+      "fetchedAt": "2026-10-23T00:32:27.609Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-23T00:32:27.609Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-CsxOIaTIEGw",
       "source": {
@@ -2948,67 +3008,6 @@
       ],
       "publishedAt": "2026-10-12T09:02:20.000Z",
       "url": "https://www.youtube.com/watch?v=vHqsq4ik-RQ",
-      "fetchedAt": "2026-10-14T16:52:37.595Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:37.595Z",
-      "type": "other",
-      "category": "music",
-      "subcategory": "performance-video",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.91,
-        "ruleId": "music-performance"
-      }
-    },
-    {
-      "id": "yt-RC32cZMHCXk",
-      "source": {
-        "platform": "youtube",
-        "videoId": "RC32cZMHCXk",
-        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "xdinary-heroes",
-        "name": "Xdinary Heroes"
-      },
-      "title": "Xdinary Heroes - Obsessed with Youth (Official Audio)",
-      "description": "Xdinary Heroes - Obsessed with Youth (Official Audio) \n\nListen to Xdinary Heroes \"Obsessed with Youth\"\nhttp://Xdinaryheroes.lnk.to/IMPULSE\n\nXdinary Heroes Official YouTube: https://www.youtube.com/c/xdinaryheroesofficial\nXdinary Heroes Official Facebook: https://www.facebook.com/",
-      "thumbnail": "https://i.ytimg.com/vi/RC32cZMHCXk/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/RC32cZMHCXk/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/RC32cZMHCXk/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/RC32cZMHCXk/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/RC32cZMHCXk/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/RC32cZMHCXk/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-12T09:01:58.000Z",
-      "url": "https://www.youtube.com/watch?v=RC32cZMHCXk",
       "fetchedAt": "2026-10-14T16:52:37.595Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:37.595Z",
