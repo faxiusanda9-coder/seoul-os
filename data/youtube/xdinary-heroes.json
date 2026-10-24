@@ -4,8 +4,128 @@
   "uploadsPlaylistId": "UUO9GhtdQcCRf67GIdSQ0HNQ",
   "artistId": "xdinary-heroes",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-24T04:23:55.831Z",
+  "fetchedAt": "2026-10-24T12:26:18.943Z",
   "items": [
+    {
+      "id": "yt-h3Ko_ySyAc4",
+      "source": {
+        "platform": "youtube",
+        "videoId": "h3Ko_ySyAc4",
+        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "xdinary-heroes",
+        "name": "Xdinary Heroes"
+      },
+      "title": "Obsessed with #StrayKids #한❤️‍🔥",
+      "description": "Obsessed with #StrayKids #한❤️‍🔥\n\n#XdinaryHeroes #엑스디너리히어로즈\n#Obsessed_with_Youth\n@StrayKids",
+      "thumbnail": "https://i.ytimg.com/vi/h3Ko_ySyAc4/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/h3Ko_ySyAc4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/h3Ko_ySyAc4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/h3Ko_ySyAc4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/h3Ko_ySyAc4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/h3Ko_ySyAc4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-24T07:00:28.000Z",
+      "url": "https://www.youtube.com/watch?v=h3Ko_ySyAc4",
+      "fetchedAt": "2026-10-24T12:26:18.943Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-24T12:26:18.943Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-7popbQuYHdM",
+      "source": {
+        "platform": "youtube",
+        "videoId": "7popbQuYHdM",
+        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "xdinary-heroes",
+        "name": "Xdinary Heroes"
+      },
+      "title": "POV: I'm obsessed with Youthhh?!🎧",
+      "description": "POV: I'm obsessed with Youthhh?!🎧\n\n#XdinaryHeroes #엑스디너리히어로즈\n#Obsessed_with_Youth",
+      "thumbnail": "https://i.ytimg.com/vi/7popbQuYHdM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/7popbQuYHdM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/7popbQuYHdM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/7popbQuYHdM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/7popbQuYHdM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/7popbQuYHdM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-24T05:00:22.000Z",
+      "url": "https://www.youtube.com/watch?v=7popbQuYHdM",
+      "fetchedAt": "2026-10-24T12:26:18.943Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-24T12:26:18.943Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-HXlQ6Z0v_vM",
       "source": {
@@ -2884,126 +3004,6 @@
       ],
       "publishedAt": "2026-10-13T04:00:12.000Z",
       "url": "https://www.youtube.com/watch?v=AAocCM7FOu0",
-      "fetchedAt": "2026-10-14T16:52:37.595Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:37.595Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-LlCifhUfdJw",
-      "source": {
-        "platform": "youtube",
-        "videoId": "LlCifhUfdJw",
-        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "xdinary-heroes",
-        "name": "Xdinary Heroes"
-      },
-      "title": "Obsessed with #DAY6 #원필❤️‍🔥",
-      "description": "Obsessed with #DAY6 #원필❤️‍🔥\n\n#XdinaryHeroes #엑스디너리히어로즈\n#Obsessed_with_Youth\n@DAY6Official",
-      "thumbnail": "https://i.ytimg.com/vi/LlCifhUfdJw/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/LlCifhUfdJw/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/LlCifhUfdJw/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/LlCifhUfdJw/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/LlCifhUfdJw/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/LlCifhUfdJw/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-12T13:00:39.000Z",
-      "url": "https://www.youtube.com/watch?v=LlCifhUfdJw",
-      "fetchedAt": "2026-10-14T16:52:37.595Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:37.595Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-t6qMKehsor4",
-      "source": {
-        "platform": "youtube",
-        "videoId": "t6qMKehsor4",
-        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "xdinary-heroes",
-        "name": "Xdinary Heroes"
-      },
-      "title": "Obsessed with #CNBLUE #정용화❤️‍🔥",
-      "description": "Obsessed with #CNBLUE #정용화❤️‍🔥\n\n#XdinaryHeroes #엑스디너리히어로즈\n#Obsessed_with_Youth\n@cnblueofficial",
-      "thumbnail": "https://i.ytimg.com/vi/t6qMKehsor4/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/t6qMKehsor4/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/t6qMKehsor4/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/t6qMKehsor4/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/t6qMKehsor4/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/t6qMKehsor4/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-12T11:00:35.000Z",
-      "url": "https://www.youtube.com/watch?v=t6qMKehsor4",
       "fetchedAt": "2026-10-14T16:52:37.595Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:37.595Z",

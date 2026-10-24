@@ -4,8 +4,74 @@
   "uploadsPlaylistId": "UUHp2q2i85qt_9nn2H7AvGOw",
   "artistId": "niziu",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-23T12:28:24.051Z",
+  "fetchedAt": "2026-10-24T12:26:18.943Z",
   "items": [
+    {
+      "id": "yt-0dH9gBcWpVE",
+      "source": {
+        "platform": "youtube",
+        "videoId": "0dH9gBcWpVE",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "[#NiziU_BDay] \"UNTITLED VOL.08” Visual Teaser",
+      "description": "[#NiziU_BDay] \"UNTITLED VOL.08” Visual Teaser\n\nNiziU Official Homepage: https://niziu.com/\nNiziU Official YouTube: https://www.youtube.com/@NiziUOfficial\nNiziU Official Facebook: https://www.facebook.com/NiziUinfoofficial/\nNiziU Official X(Twitter): https://twitter.com/NiziU__off",
+      "thumbnail": "https://i.ytimg.com/vi/0dH9gBcWpVE/fhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/0dH9gBcWpVE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/0dH9gBcWpVE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/0dH9gBcWpVE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/0dH9gBcWpVE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/0dH9gBcWpVE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "fhd",
+          "url": "https://i.ytimg.com/vi/0dH9gBcWpVE/fhddefault.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "publishedAt": "2026-10-24T09:31:42.000Z",
+      "url": "https://www.youtube.com/watch?v=0dH9gBcWpVE",
+      "fetchedAt": "2026-10-24T12:26:18.943Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-24T12:26:18.943Z",
+      "type": "teaser",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-M4BmPAW65JY",
       "source": {
@@ -2978,66 +3044,6 @@
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:38.651Z",
       "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-4T6nSIgbTBs",
-      "source": {
-        "platform": "youtube",
-        "videoId": "4T6nSIgbTBs",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "NiziU SEASON’S GREETINGS 2027 “Wash It All Away” Group Teaser",
-      "description": "NiziU SEASON’S GREETINGS 2027 “Wash It All Away” Group Teaser \n\n商品詳細はこちらから\nhttps://niziu.com/s/n123/page/news?info_type=single&info_id=587077\n\n通信販売サイト\nJYP JAPAN ONLINE STORE : https://jypj-store.com/collections/niziu-official-goods\nSony Music Shop :  https://www.sonymusicshop.jp/",
-      "thumbnail": "https://i.ytimg.com/vi/4T6nSIgbTBs/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/4T6nSIgbTBs/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/4T6nSIgbTBs/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/4T6nSIgbTBs/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/4T6nSIgbTBs/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/4T6nSIgbTBs/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-10T02:00:13.000Z",
-      "url": "https://www.youtube.com/watch?v=4T6nSIgbTBs",
-      "fetchedAt": "2026-10-14T16:52:38.651Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.651Z",
-      "type": "teaser",
       "category": "other",
       "classification": {
         "method": "fallback",
