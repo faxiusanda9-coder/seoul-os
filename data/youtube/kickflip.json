@@ -4,8 +4,128 @@
   "uploadsPlaylistId": "UUmq9jjpHA69PwAwlA0DwOsg",
   "artistId": "kickflip",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-23T12:28:24.051Z",
+  "fetchedAt": "2026-10-24T00:35:16.435Z",
   "items": [
+    {
+      "id": "yt-V0TynhpcmkY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "V0TynhpcmkY",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "We’re movin’ through with #ELLA 선배님 🐱",
+      "description": "#KickFlip #킥플립\n#MEOVV \n#KICKOFFTHEWALL_Pt1\n#KickOffTheWall\n\n@MEOVV_OFFICIAL",
+      "thumbnail": "https://i.ytimg.com/vi/V0TynhpcmkY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/V0TynhpcmkY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/V0TynhpcmkY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/V0TynhpcmkY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/V0TynhpcmkY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/V0TynhpcmkY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-23T13:30:25.000Z",
+      "url": "https://www.youtube.com/watch?v=V0TynhpcmkY",
+      "fetchedAt": "2026-10-24T00:35:16.435Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-24T00:35:16.435Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-oZCcHB86vmc",
+      "source": {
+        "platform": "youtube",
+        "videoId": "oZCcHB86vmc",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "We’re movin’ through with #RIKU 선배님 (₍ᐢ.  ̫.ᐢ₎♡",
+      "description": "#KickFlip #킥플립\n#NCTWISH\n#KICKOFFTHEWALL_Pt1\n#KickOffTheWall\n\n@NCTWISH",
+      "thumbnail": "https://i.ytimg.com/vi/oZCcHB86vmc/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/oZCcHB86vmc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/oZCcHB86vmc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/oZCcHB86vmc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/oZCcHB86vmc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/oZCcHB86vmc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-23T12:30:21.000Z",
+      "url": "https://www.youtube.com/watch?v=oZCcHB86vmc",
+      "fetchedAt": "2026-10-24T00:35:16.435Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-24T00:35:16.435Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-vP6yfN-Otdw",
       "source": {
@@ -2884,126 +3004,6 @@
       ],
       "publishedAt": "2026-10-15T12:00:38.000Z",
       "url": "https://www.youtube.com/watch?v=u-v7GNBrpx0",
-      "fetchedAt": "2026-10-15T12:32:24.876Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-15T12:32:24.876Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-RwX46kVU3Fw",
-      "source": {
-        "platform": "youtube",
-        "videoId": "RwX46kVU3Fw",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "위플립 고마워요 잉잉잉잉 💖💞💓💘💗",
-      "description": "#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1\n#KickOffTheWall",
-      "thumbnail": "https://i.ytimg.com/vi/RwX46kVU3Fw/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/RwX46kVU3Fw/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/RwX46kVU3Fw/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/RwX46kVU3Fw/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/RwX46kVU3Fw/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/RwX46kVU3Fw/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-15T11:56:27.000Z",
-      "url": "https://www.youtube.com/watch?v=RwX46kVU3Fw",
-      "fetchedAt": "2026-10-15T12:32:24.876Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-15T12:32:24.876Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-v8gyOZTJ6bs",
-      "source": {
-        "platform": "youtube",
-        "videoId": "v8gyOZTJ6bs",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "뭘 해도 #조현아 선배님은 아름다울 거니까 🎹🤍",
-      "description": "#KicFlip #킥플립\n#KICKOFFTHEWALL_Pt1\n#미완성 #Puzzle_Piece\n\n@commonthursday_official",
-      "thumbnail": "https://i.ytimg.com/vi/v8gyOZTJ6bs/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/v8gyOZTJ6bs/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/v8gyOZTJ6bs/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/v8gyOZTJ6bs/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/v8gyOZTJ6bs/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/v8gyOZTJ6bs/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-15T11:00:16.000Z",
-      "url": "https://www.youtube.com/watch?v=v8gyOZTJ6bs",
       "fetchedAt": "2026-10-15T12:32:24.876Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-15T12:32:24.876Z",

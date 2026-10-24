@@ -4,8 +4,128 @@
   "uploadsPlaylistId": "UUzgxx_DM2Dcb9Y1spb9mUJA",
   "artistId": "twice",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-23T04:27:51.633Z",
+  "fetchedAt": "2026-10-24T00:35:16.435Z",
   "items": [
+    {
+      "id": "yt-z7afHJ5I0Ws",
+      "source": {
+        "platform": "youtube",
+        "videoId": "z7afHJ5I0Ws",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "NAYEON SINGLE “NA-sty” CAPTIVATED MODE: ON",
+      "description": "NAYEON SINGLE “NA-sty” CAPTIVATED MODE: ON \n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.twitter.com/JYPETWICE \nTWICE Officia",
+      "thumbnail": "https://i.ytimg.com/vi/z7afHJ5I0Ws/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/z7afHJ5I0Ws/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/z7afHJ5I0Ws/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/z7afHJ5I0Ws/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/z7afHJ5I0Ws/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/z7afHJ5I0Ws/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-23T13:00:04.000Z",
+      "url": "https://www.youtube.com/watch?v=z7afHJ5I0Ws",
+      "fetchedAt": "2026-10-24T00:35:16.435Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-24T00:35:16.435Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-hwr7DS_mHwY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "hwr7DS_mHwY",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "NAYEON SINGLE “NA-sty” CAPTIVATED MODE: ON #TWICE #트와이스 #NAYEON #나연 #NA_sty",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/hwr7DS_mHwY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/hwr7DS_mHwY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/hwr7DS_mHwY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/hwr7DS_mHwY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/hwr7DS_mHwY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/hwr7DS_mHwY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-23T13:00:02.000Z",
+      "url": "https://www.youtube.com/watch?v=hwr7DS_mHwY",
+      "fetchedAt": "2026-10-24T00:35:16.435Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-24T00:35:16.435Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-Llxr_FUhbqU",
       "source": {
@@ -2905,128 +3025,6 @@
         "method": "rule",
         "confidence": 0.95,
         "ruleId": "making"
-      }
-    },
-    {
-      "id": "yt-FD_oc92GO6k",
-      "source": {
-        "platform": "youtube",
-        "videoId": "FD_oc92GO6k",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "TWICE \"RIGHT HAND GIRL\" Live Stage @ TWICE ＜THIS IS FOR＞ WORLD TOUR FINALE IN SEOUL",
-      "description": "TWICE \"RIGHT HAND GIRL\" Live Stage @ TWICE ＜THIS IS FOR＞ WORLD TOUR FINALE IN SEOUL\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://",
-      "thumbnail": "https://i.ytimg.com/vi/FD_oc92GO6k/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/FD_oc92GO6k/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/FD_oc92GO6k/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/FD_oc92GO6k/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/FD_oc92GO6k/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/FD_oc92GO6k/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-08-11T09:00:04.000Z",
-      "url": "https://www.youtube.com/watch?v=FD_oc92GO6k",
-      "fetchedAt": "2026-10-14T16:52:35.634Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "performance",
-      "category": "stage",
-      "subcategory": "live-stage",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.94,
-        "ruleId": "stage"
-      }
-    },
-    {
-      "id": "yt-c6IPi5QIyUs",
-      "source": {
-        "platform": "youtube",
-        "videoId": "c6IPi5QIyUs",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "TWICE \"FIREWORK\" Live Stage @ TWICE ＜THIS IS FOR＞ WORLD TOUR FINALE IN SEOUL",
-      "description": "TWICE \"FIREWORK\" Live Stage @ TWICE ＜THIS IS FOR＞ WORLD TOUR FINALE IN SEOUL\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.twi",
-      "thumbnail": "https://i.ytimg.com/vi/c6IPi5QIyUs/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/c6IPi5QIyUs/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/c6IPi5QIyUs/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/c6IPi5QIyUs/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/c6IPi5QIyUs/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/c6IPi5QIyUs/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-08-10T09:00:02.000Z",
-      "url": "https://www.youtube.com/watch?v=c6IPi5QIyUs",
-      "fetchedAt": "2026-10-14T16:52:35.634Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "performance",
-      "category": "stage",
-      "subcategory": "live-stage",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.94,
-        "ruleId": "stage"
       }
     }
   ]
