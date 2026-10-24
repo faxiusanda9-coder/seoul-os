@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUSskmnvIhEy3nSZxxVKTeIg",
   "artistId": "girlset",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-24T00:35:16.435Z",
+  "fetchedAt": "2026-10-24T04:23:55.831Z",
   "items": [
+    {
+      "id": "yt-X4n9MYKmmRA",
+      "source": {
+        "platform": "youtube",
+        "videoId": "X4n9MYKmmRA",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "that’s too bad 😛 #GIRLSET #Savanna #Lexi",
+      "description": "GIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLSET\nGIRLSET Official Facebook: https://www.facebook.com/",
+      "thumbnail": "https://i.ytimg.com/vi/X4n9MYKmmRA/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/X4n9MYKmmRA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/X4n9MYKmmRA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/X4n9MYKmmRA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/X4n9MYKmmRA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/X4n9MYKmmRA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-24T03:40:59.000Z",
+      "url": "https://www.youtube.com/watch?v=X4n9MYKmmRA",
+      "fetchedAt": "2026-10-24T04:23:55.831Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-24T04:23:55.831Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-DFpz_DZlIVk",
       "source": {
@@ -3001,66 +3061,6 @@
       ],
       "publishedAt": "2026-08-15T18:00:28.000Z",
       "url": "https://www.youtube.com/watch?v=mo7GscxH_hw",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-waEzX2cR5OU",
-      "source": {
-        "platform": "youtube",
-        "videoId": "waEzX2cR5OU",
-        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "girlset",
-        "name": "GIRLSET"
-      },
-      "title": "⋆˙⟡ from era to era ⋆˙⟡ #GIRLSET #CHAT",
-      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/waEzX2cR5OU/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/waEzX2cR5OU/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/waEzX2cR5OU/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/waEzX2cR5OU/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/waEzX2cR5OU/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/waEzX2cR5OU/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-08-15T16:16:56.000Z",
-      "url": "https://www.youtube.com/watch?v=waEzX2cR5OU",
       "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:41.420Z",
