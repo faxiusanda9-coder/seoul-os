@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUnUAyD4t2LkvW68YrDh7fDg",
   "artistId": "nmixx",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-24T12:26:18.943Z",
+  "fetchedAt": "2026-10-25T04:26:19.496Z",
   "items": [
+    {
+      "id": "yt-Ih2OIbXMpak",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Ih2OIbXMpak",
+        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nmixx",
+        "name": "NMIXX"
+      },
+      "title": "#LIGHTSUM #JUHYEON 위한 긴 소원을 빌게🤍ᴍʏ ᴊᴊᴜ&ᴊᴊʏᴜ⡱ #NMIXX #JIWOO #긴소원_BirthdayWish",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/Ih2OIbXMpak/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Ih2OIbXMpak/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Ih2OIbXMpak/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Ih2OIbXMpak/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Ih2OIbXMpak/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Ih2OIbXMpak/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-25T04:00:21.000Z",
+      "url": "https://www.youtube.com/watch?v=Ih2OIbXMpak",
+      "fetchedAt": "2026-10-25T04:26:19.496Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-25T04:26:19.496Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-fVErItxpe2s",
       "source": {
@@ -2976,73 +3036,6 @@
       ],
       "publishedAt": "2026-10-19T09:02:09.000Z",
       "url": "https://www.youtube.com/watch?v=Ttkuuf4corU",
-      "fetchedAt": "2026-10-19T12:33:52.233Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-19T12:33:52.233Z",
-      "type": "other",
-      "category": "music",
-      "subcategory": "performance-video",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.91,
-        "ruleId": "music-performance"
-      }
-    },
-    {
-      "id": "yt-H6Uv2xfdo0I",
-      "source": {
-        "platform": "youtube",
-        "videoId": "H6Uv2xfdo0I",
-        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nmixx",
-        "name": "NMIXX"
-      },
-      "title": "NMIXX(엔믹스) “너는 달 (Sing to the Moon) (LILY, HAEWON)” (Official Audio)",
-      "description": "NMIXX(엔믹스) “너는 달 (Sing to the Moon) (LILY, HAEWON)” (Official Audio)\n\nNMIXX Official YouTube ▶ https://www.youtube.com/c/NMIXXOfficial \nNMIXX Official X ▶ https://x.com/NMIXX_official\nNMIXX Official X(Members) ▶ https://x.com/WE_NMIXX\nNMIXX Official Instagram ▶ https://www.instag",
-      "thumbnail": "https://i.ytimg.com/vi/H6Uv2xfdo0I/fhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/H6Uv2xfdo0I/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/H6Uv2xfdo0I/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/H6Uv2xfdo0I/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/H6Uv2xfdo0I/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/H6Uv2xfdo0I/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "fhd",
-          "url": "https://i.ytimg.com/vi/H6Uv2xfdo0I/fhddefault.jpg",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "publishedAt": "2026-10-19T09:02:01.000Z",
-      "url": "https://www.youtube.com/watch?v=H6Uv2xfdo0I",
       "fetchedAt": "2026-10-19T12:33:52.233Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-19T12:33:52.233Z",

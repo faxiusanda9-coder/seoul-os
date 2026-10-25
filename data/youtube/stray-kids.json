@@ -4,8 +4,69 @@
   "uploadsPlaylistId": "UU9rMiEjNaCSsebs31MRDCRA",
   "artistId": "stray-kids",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-22T12:34:00.351Z",
+  "fetchedAt": "2026-10-25T04:26:19.496Z",
   "items": [
+    {
+      "id": "yt-dtqYHT6P8gQ",
+      "source": {
+        "platform": "youtube",
+        "videoId": "dtqYHT6P8gQ",
+        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "stray-kids",
+        "name": "Stray Kids"
+      },
+      "title": "[kNOw맘대로(The kNOw Way)] Ep.10",
+      "description": "[kNOw맘대로(The kNOw Way)] Ep.10\n\n✨ English, Japanese, Chinese, Spanish, Indonesian & Thai subtitles are available!\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"Th",
+      "thumbnail": "https://i.ytimg.com/vi/dtqYHT6P8gQ/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/dtqYHT6P8gQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/dtqYHT6P8gQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/dtqYHT6P8gQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/dtqYHT6P8gQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/dtqYHT6P8gQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-25T02:59:56.000Z",
+      "url": "https://www.youtube.com/watch?v=dtqYHT6P8gQ",
+      "fetchedAt": "2026-10-25T04:26:19.496Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-25T04:26:19.496Z",
+      "type": "other",
+      "category": "variety",
+      "subcategory": "series",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.9,
+        "ruleId": "variety-series"
+      }
+    },
     {
       "id": "yt-k8tfXGZJAPw",
       "source": {
@@ -2956,66 +3017,6 @@
       ],
       "publishedAt": "2026-09-15T03:02:46.000Z",
       "url": "https://www.youtube.com/watch?v=6z9DZyXdw1U",
-      "fetchedAt": "2026-10-14T16:52:36.079Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-3OVspPZFLEo",
-      "source": {
-        "platform": "youtube",
-        "videoId": "3OVspPZFLEo",
-        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "stray-kids",
-        "name": "Stray Kids"
-      },
-      "title": "STRAYCITY 두 번째 도시, 부에노스아이레스 첫 공연 즐겁게 즐겨준 스테이 고마워요!",
-      "description": "STRAYCITY 두 번째 도시, 부에노스아이레스 첫 공연 즐겁게 즐겨준 스테이 고마워요! 스테이 덕분에 공연장의 열기가 훅 뜨거워진 것 같아서 저희도 더 신나게 즐길 수 있었어요!💪\nSTRAYCITY’s second city, Buenos Aires! Thank you STAY, for making our first show here so much fun!🥹\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen",
-      "thumbnail": "https://i.ytimg.com/vi/3OVspPZFLEo/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/3OVspPZFLEo/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/3OVspPZFLEo/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/3OVspPZFLEo/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/3OVspPZFLEo/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/3OVspPZFLEo/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-15T03:02:01.000Z",
-      "url": "https://www.youtube.com/watch?v=3OVspPZFLEo",
       "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:36.079Z",
