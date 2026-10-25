@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUmq9jjpHA69PwAwlA0DwOsg",
   "artistId": "kickflip",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-24T12:26:18.943Z",
+  "fetchedAt": "2026-10-25T00:25:59.450Z",
   "items": [
+    {
+      "id": "yt-KbbzHmW9ap0",
+      "source": {
+        "platform": "youtube",
+        "videoId": "KbbzHmW9ap0",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "Love 좡 💓",
+      "description": "#KickFlip #킥플립\n#주왕 #Juwang",
+      "thumbnail": "https://i.ytimg.com/vi/KbbzHmW9ap0/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/KbbzHmW9ap0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/KbbzHmW9ap0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/KbbzHmW9ap0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/KbbzHmW9ap0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/KbbzHmW9ap0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-24T13:00:23.000Z",
+      "url": "https://www.youtube.com/watch?v=KbbzHmW9ap0",
+      "fetchedAt": "2026-10-25T00:25:59.450Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-25T00:25:59.450Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-wLg8f2Xs42Y",
       "source": {
@@ -2945,66 +3005,6 @@
       ],
       "publishedAt": "2026-10-16T10:15:11.000Z",
       "url": "https://www.youtube.com/watch?v=U3FuVNWB8VA",
-      "fetchedAt": "2026-10-16T12:31:39.051Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-16T12:31:39.051Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-wL-gQ3nxETU",
-      "source": {
-        "platform": "youtube",
-        "videoId": "wL-gQ3nxETU",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "뭘 해도 #선미 선배님은 아름다울 거니까 🩵",
-      "description": "#KickFlip #킥플립\n#SUNMI\n#KICKOFFTHEWALL_Pt1\n#미완성 #Puzzle_Piece\n\n@sunmi_official",
-      "thumbnail": "https://i.ytimg.com/vi/wL-gQ3nxETU/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/wL-gQ3nxETU/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/wL-gQ3nxETU/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/wL-gQ3nxETU/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/wL-gQ3nxETU/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/wL-gQ3nxETU/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-16T09:00:10.000Z",
-      "url": "https://www.youtube.com/watch?v=wL-gQ3nxETU",
       "fetchedAt": "2026-10-16T12:31:39.051Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-16T12:31:39.051Z",
