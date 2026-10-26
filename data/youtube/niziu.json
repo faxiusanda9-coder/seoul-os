@@ -4,8 +4,135 @@
   "uploadsPlaylistId": "UUHp2q2i85qt_9nn2H7AvGOw",
   "artistId": "niziu",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-24T12:26:18.943Z",
+  "fetchedAt": "2026-10-26T14:39:25.270Z",
   "items": [
+    {
+      "id": "yt-PGQYFhzmr0s",
+      "source": {
+        "platform": "youtube",
+        "videoId": "PGQYFhzmr0s",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "[#NiziU_BDay]What's in RIKU's bag ?",
+      "description": "[#NiziU_BDay]What's in RIKU's bag ? \n\nNiziU Official Homepage: https://niziu.com/\nNiziU Official YouTube: https://www.youtube.com/@NiziUOfficial\nNiziU Official Facebook: https://www.facebook.com/NiziUinfoofficial/\nNiziU Official X(Twitter): https://twitter.com/NiziU__official\nNiz",
+      "thumbnail": "https://i.ytimg.com/vi/PGQYFhzmr0s/fhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/PGQYFhzmr0s/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/PGQYFhzmr0s/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/PGQYFhzmr0s/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/PGQYFhzmr0s/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/PGQYFhzmr0s/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "fhd",
+          "url": "https://i.ytimg.com/vi/PGQYFhzmr0s/fhddefault.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "publishedAt": "2026-10-26T12:00:25.000Z",
+      "url": "https://www.youtube.com/watch?v=PGQYFhzmr0s",
+      "fetchedAt": "2026-10-26T14:39:25.270Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-26T14:39:25.270Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-OEbCrRofS4o",
+      "source": {
+        "platform": "youtube",
+        "videoId": "OEbCrRofS4o",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "RIKU \"UNTITLED VOL.08”Behind the Scenes 📰 🎥#RIKU #NiziU #NiziU_BDay #HappyRIKUday",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/OEbCrRofS4o/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/OEbCrRofS4o/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/OEbCrRofS4o/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/OEbCrRofS4o/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/OEbCrRofS4o/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/OEbCrRofS4o/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-26T09:00:23.000Z",
+      "url": "https://www.youtube.com/watch?v=OEbCrRofS4o",
+      "fetchedAt": "2026-10-26T14:39:25.270Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-26T14:39:25.270Z",
+      "type": "other",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
+    },
     {
       "id": "yt-0dH9gBcWpVE",
       "source": {
@@ -2929,126 +3056,6 @@
         "method": "rule",
         "confidence": 0.95,
         "ruleId": "making"
-      }
-    },
-    {
-      "id": "yt-lM6rsuOBTqE",
-      "source": {
-        "platform": "youtube",
-        "videoId": "lM6rsuOBTqE",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "House Tour with RIMA👨‍🔬",
-      "description": "#RIMA\n#NiziU #니쥬\n#SourGrapes\n#NiziU_SourGrapes",
-      "thumbnail": "https://i.ytimg.com/vi/lM6rsuOBTqE/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/lM6rsuOBTqE/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/lM6rsuOBTqE/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/lM6rsuOBTqE/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/lM6rsuOBTqE/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/lM6rsuOBTqE/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-10T05:00:15.000Z",
-      "url": "https://www.youtube.com/watch?v=lM6rsuOBTqE",
-      "fetchedAt": "2026-10-14T16:52:38.651Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.651Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-hB0KmBJInx0",
-      "source": {
-        "platform": "youtube",
-        "videoId": "hB0KmBJInx0",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "🧪👨‍🔬🍇🔬",
-      "description": "#NiziU #니쥬\n#SourGrapes\n#NiziU_SourGrapes",
-      "thumbnail": "https://i.ytimg.com/vi/hB0KmBJInx0/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/hB0KmBJInx0/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/hB0KmBJInx0/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/hB0KmBJInx0/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/hB0KmBJInx0/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/hB0KmBJInx0/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-10T04:00:34.000Z",
-      "url": "https://www.youtube.com/watch?v=hB0KmBJInx0",
-      "fetchedAt": "2026-10-14T16:52:38.651Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.651Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
       }
     }
   ]

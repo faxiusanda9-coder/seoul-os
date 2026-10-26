@@ -4,8 +4,128 @@
   "uploadsPlaylistId": "UU9rMiEjNaCSsebs31MRDCRA",
   "artistId": "stray-kids",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-25T12:25:52.904Z",
+  "fetchedAt": "2026-10-26T14:39:25.270Z",
   "items": [
+    {
+      "id": "yt-10rApTYO5E4",
+      "source": {
+        "platform": "youtube",
+        "videoId": "10rApTYO5E4",
+        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "stray-kids",
+        "name": "Stray Kids"
+      },
+      "title": "낮에 쓰는 밤편지💌 #StrayKids #스트레이키즈 #방찬 #BangChan #한 #Han #YouMakeStrayKidsStay",
+      "description": "낮에 쓰는 밤편지💌 #StrayKids #스트레이키즈 #방찬 #BangChan #한 #Han #YouMakeStrayKidsStay\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" now➡️\nhttps:",
+      "thumbnail": "https://i.ytimg.com/vi/10rApTYO5E4/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/10rApTYO5E4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/10rApTYO5E4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/10rApTYO5E4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/10rApTYO5E4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/10rApTYO5E4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-26T11:00:09.000Z",
+      "url": "https://www.youtube.com/watch?v=10rApTYO5E4",
+      "fetchedAt": "2026-10-26T14:39:25.270Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-26T14:39:25.270Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-h2GZzh5iRiY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "h2GZzh5iRiY",
+        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "stray-kids",
+        "name": "Stray Kids"
+      },
+      "title": "햅삐 버rrr스데이 to Lee Know~🎹🎉 #StrayKids #리노 #LeeKnow #kNOw맘대로 #ThekNOwWay #YouMakeStrayKidsStay",
+      "description": "햅삐 버rrr스데이 to Lee Know~🎹🎉 #StrayKids #리노 #LeeKnow #kNOw맘대로 #ThekNOwWay #YouMakeStrayKidsStay\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Re",
+      "thumbnail": "https://i.ytimg.com/vi/h2GZzh5iRiY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/h2GZzh5iRiY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/h2GZzh5iRiY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/h2GZzh5iRiY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/h2GZzh5iRiY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/h2GZzh5iRiY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-26T05:00:05.000Z",
+      "url": "https://www.youtube.com/watch?v=h2GZzh5iRiY",
+      "fetchedAt": "2026-10-26T14:39:25.270Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-26T14:39:25.270Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-ayY8LdHyZJ4",
       "source": {
@@ -2897,126 +3017,6 @@
       ],
       "publishedAt": "2026-09-16T03:00:56.000Z",
       "url": "https://www.youtube.com/watch?v=vcYchinrM4U",
-      "fetchedAt": "2026-10-14T16:52:36.079Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-6rBTa9BoVfM",
-      "source": {
-        "platform": "youtube",
-        "videoId": "6rBTa9BoVfM",
-        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "stray-kids",
-        "name": "Stray Kids"
-      },
-      "title": "스테이 오늘도 와줘서 고마워요, 우리 또 만나요!",
-      "description": "스테이 오늘도 와줘서 고마워요, 우리 또 만나요!\nSTAY, thank you for coming today! Let’s meet again! 🩵\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" now➡",
-      "thumbnail": "https://i.ytimg.com/vi/6rBTa9BoVfM/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/6rBTa9BoVfM/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/6rBTa9BoVfM/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/6rBTa9BoVfM/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/6rBTa9BoVfM/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/6rBTa9BoVfM/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-16T02:58:27.000Z",
-      "url": "https://www.youtube.com/watch?v=6rBTa9BoVfM",
-      "fetchedAt": "2026-10-14T16:52:36.079Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:36.079Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-v9AO968SbjQ",
-      "source": {
-        "platform": "youtube",
-        "videoId": "v9AO968SbjQ",
-        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "stray-kids",
-        "name": "Stray Kids"
-      },
-      "title": "🐥's birthday🎮 #StrayKids #스트레이키즈 #필릭스 #Felix #HappyFelixDay #YouMakeStrayKidsStay",
-      "description": "🐥's birthday🎮 #StrayKids #스트레이키즈 #필릭스 #Felix #HappyFelixDay #YouMakeStrayKidsStay  \n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" n",
-      "thumbnail": "https://i.ytimg.com/vi/v9AO968SbjQ/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/v9AO968SbjQ/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/v9AO968SbjQ/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/v9AO968SbjQ/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/v9AO968SbjQ/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/v9AO968SbjQ/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-15T11:00:04.000Z",
-      "url": "https://www.youtube.com/watch?v=v9AO968SbjQ",
       "fetchedAt": "2026-10-14T16:52:36.079Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:36.079Z",

@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUDhM2k2Cua-JdobAh5moMFg",
   "artistId": "itzy",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-24T00:35:16.435Z",
+  "fetchedAt": "2026-10-26T14:39:25.270Z",
   "items": [
+    {
+      "id": "yt-FiG9DDYaUBQ",
+      "source": {
+        "platform": "youtube",
+        "videoId": "FiG9DDYaUBQ",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "𝘓𝘰𝘷𝘦𝘴𝘪𝘤𝘬 𝘓𝘰𝘢𝘥𝘪𝘯𝘨…🫧👀💗 #ITZY #CHAERYEONG #채령 #Chaeryeong_Lovesick #shorts",
+      "description": "💿 ALBUM RELEASE\n2026.11.09 MON 6PM (KST) | 4AM (ET)",
+      "thumbnail": "https://i.ytimg.com/vi/FiG9DDYaUBQ/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/FiG9DDYaUBQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/FiG9DDYaUBQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/FiG9DDYaUBQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/FiG9DDYaUBQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/FiG9DDYaUBQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-26T10:00:19.000Z",
+      "url": "https://www.youtube.com/watch?v=FiG9DDYaUBQ",
+      "fetchedAt": "2026-10-26T14:39:25.270Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-26T14:39:25.270Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-6fmyWuopHOw",
       "source": {
@@ -3079,73 +3139,6 @@
       ],
       "publishedAt": "2026-09-17T08:59:58.000Z",
       "url": "https://www.youtube.com/watch?v=fP6GFkLhuGM",
-      "fetchedAt": "2026-10-14T16:52:36.440Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:36.440Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt-rW672TjNbNY",
-      "source": {
-        "platform": "youtube",
-        "videoId": "rW672TjNbNY",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "[ITZY?ITZY!] EP 267 | Ryujin GOODBAI Commercial",
-      "description": "[ITZY?ITZY!] EP 267 | Ryujin GOODBAI Commercial\n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOfficial\n▶ http://www.facebook.",
-      "thumbnail": "https://i.ytimg.com/vi/rW672TjNbNY/fhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/rW672TjNbNY/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/rW672TjNbNY/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/rW672TjNbNY/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/rW672TjNbNY/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/rW672TjNbNY/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "fhd",
-          "url": "https://i.ytimg.com/vi/rW672TjNbNY/fhddefault.jpg",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "publishedAt": "2026-09-15T09:00:02.000Z",
-      "url": "https://www.youtube.com/watch?v=rW672TjNbNY",
       "fetchedAt": "2026-10-14T16:52:36.440Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:36.440Z",

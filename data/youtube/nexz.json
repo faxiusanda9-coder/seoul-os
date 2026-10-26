@@ -4,8 +4,188 @@
   "uploadsPlaylistId": "UU-o9yrZxu5Ru-DVGhnmeTug",
   "artistId": "nexz",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-25T00:25:59.450Z",
+  "fetchedAt": "2026-10-26T14:39:25.270Z",
   "items": [
+    {
+      "id": "yt-pYvkZKOWi_Y",
+      "source": {
+        "platform": "youtube",
+        "videoId": "pYvkZKOWi_Y",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "𝗣𝗼𝗽𝗽𝗶𝗻𝗴 𝗼𝗻 𝗧𝗿𝗮𝗰𝗸 𝟭𝟬 | #HARU",
+      "description": "#NEXZ #HARU\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
+      "thumbnail": "https://i.ytimg.com/vi/pYvkZKOWi_Y/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/pYvkZKOWi_Y/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/pYvkZKOWi_Y/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/pYvkZKOWi_Y/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/pYvkZKOWi_Y/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/pYvkZKOWi_Y/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-26T13:00:17.000Z",
+      "url": "https://www.youtube.com/watch?v=pYvkZKOWi_Y",
+      "fetchedAt": "2026-10-26T14:39:25.270Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-26T14:39:25.270Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-ntnfqvUCG-M",
+      "source": {
+        "platform": "youtube",
+        "videoId": "ntnfqvUCG-M",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "Toc toc 🐎 | #NEXZ",
+      "description": "#NEXZ #TOMOYA #HARU #YU #SEITA #HYUI\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
+      "thumbnail": "https://i.ytimg.com/vi/ntnfqvUCG-M/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/ntnfqvUCG-M/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/ntnfqvUCG-M/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/ntnfqvUCG-M/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/ntnfqvUCG-M/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/ntnfqvUCG-M/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-26T11:58:57.000Z",
+      "url": "https://www.youtube.com/watch?v=ntnfqvUCG-M",
+      "fetchedAt": "2026-10-26T14:39:25.270Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-26T14:39:25.270Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-5TnJobDkDUk",
+      "source": {
+        "platform": "youtube",
+        "videoId": "5TnJobDkDUk",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "세이타 Choreo, 방찬 선배님 Cameo ✌️ | #SEITA",
+      "description": "#NEXZ #SEITA\n#StrayKids #BangChan\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
+      "thumbnail": "https://i.ytimg.com/vi/5TnJobDkDUk/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/5TnJobDkDUk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/5TnJobDkDUk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/5TnJobDkDUk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/5TnJobDkDUk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/5TnJobDkDUk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-26T08:59:52.000Z",
+      "url": "https://www.youtube.com/watch?v=5TnJobDkDUk",
+      "fetchedAt": "2026-10-26T14:39:25.270Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-26T14:39:25.270Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-nwQtp23UvNo",
       "source": {
@@ -2812,186 +2992,6 @@
         "method": "rule",
         "confidence": 0.9,
         "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt-ENPwbFJXop0",
-      "source": {
-        "platform": "youtube",
-        "videoId": "ENPwbFJXop0",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "don't | #TOMOYA #HARU",
-      "description": "#NEXZ #TOMOYA #HARU\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
-      "thumbnail": "https://i.ytimg.com/vi/ENPwbFJXop0/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/ENPwbFJXop0/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/ENPwbFJXop0/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/ENPwbFJXop0/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/ENPwbFJXop0/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/ENPwbFJXop0/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-13T10:00:20.000Z",
-      "url": "https://www.youtube.com/watch?v=ENPwbFJXop0",
-      "fetchedAt": "2026-10-14T16:52:39.086Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:39.086Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-3PtgH6K_OLk",
-      "source": {
-        "platform": "youtube",
-        "videoId": "3PtgH6K_OLk",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "キユーピー 🥛😋 | #YU",
-      "description": "#NEXZ #YU\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
-      "thumbnail": "https://i.ytimg.com/vi/3PtgH6K_OLk/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/3PtgH6K_OLk/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/3PtgH6K_OLk/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/3PtgH6K_OLk/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/3PtgH6K_OLk/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/3PtgH6K_OLk/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-13T09:00:14.000Z",
-      "url": "https://www.youtube.com/watch?v=3PtgH6K_OLk",
-      "fetchedAt": "2026-10-14T16:52:39.086Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:39.086Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-jspuuYQ9sbQ",
-      "source": {
-        "platform": "youtube",
-        "videoId": "jspuuYQ9sbQ",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "𝓟𝓸𝓲𝓼𝓸𝓷 | #YU #YUKI",
-      "description": "#NEXZ #YU #YUKI\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
-      "thumbnail": "https://i.ytimg.com/vi/jspuuYQ9sbQ/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/jspuuYQ9sbQ/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/jspuuYQ9sbQ/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/jspuuYQ9sbQ/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/jspuuYQ9sbQ/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/jspuuYQ9sbQ/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-12T12:00:26.000Z",
-      "url": "https://www.youtube.com/watch?v=jspuuYQ9sbQ",
-      "fetchedAt": "2026-10-14T16:52:39.086Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:39.086Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
       }
     }
   ]
