@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUp-pqXsizklX3ZHvLxXyhxw",
   "artistId": "day6",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-22T12:34:00.351Z",
+  "fetchedAt": "2026-10-26T00:37:30.354Z",
   "items": [
+    {
+      "id": "yt-0nvRMDJ2wfo",
+      "source": {
+        "platform": "youtube",
+        "videoId": "0nvRMDJ2wfo",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "My Day의 마음을 훔치러 온 데식파티즈 (｡•̀ᴗ-)✧",
+      "description": "My Day의 마음을 훔치러 온 데식파티즈 (｡•̀ᴗ-)✧\n\n#DAY6 #데이식스\n#MyDay #마이데이\n#DAY6_5TH_FANMEETING\n#EVERY_DAY6_EVERY_My_Day",
+      "thumbnail": "https://i.ytimg.com/vi/0nvRMDJ2wfo/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/0nvRMDJ2wfo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/0nvRMDJ2wfo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/0nvRMDJ2wfo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/0nvRMDJ2wfo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/0nvRMDJ2wfo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-25T13:30:14.000Z",
+      "url": "https://www.youtube.com/watch?v=0nvRMDJ2wfo",
+      "fetchedAt": "2026-10-26T00:37:30.354Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-26T00:37:30.354Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-lyJwyAbgBWw",
       "source": {
@@ -2972,67 +3032,6 @@
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-LXj2lFsayR8",
-      "source": {
-        "platform": "youtube",
-        "videoId": "LXj2lFsayR8",
-        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "day6",
-        "name": "DAY6"
-      },
-      "title": "#Shut_The_Door Challenge with #Kep1er #김채현 님🚪",
-      "description": "#Shut_The_Door Challenge with #Kep1er #김채현 님🚪\n\n#DAY6 #데이식스\n#YoungK #영케이\n#YOUNGEST\n@Kep1er_Offcl",
-      "thumbnail": "https://i.ytimg.com/vi/LXj2lFsayR8/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/LXj2lFsayR8/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/LXj2lFsayR8/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/LXj2lFsayR8/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/LXj2lFsayR8/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/LXj2lFsayR8/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-08-22T03:00:19.000Z",
-      "url": "https://www.youtube.com/watch?v=LXj2lFsayR8",
-      "fetchedAt": "2026-10-14T16:52:37.203Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:37.203Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
       }
     }
   ]
