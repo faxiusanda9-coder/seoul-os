@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUnUAyD4t2LkvW68YrDh7fDg",
   "artistId": "nmixx",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-25T12:25:52.904Z",
+  "fetchedAt": "2026-10-26T04:30:19.416Z",
   "items": [
+    {
+      "id": "yt-gG7wP6bGnoY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "gG7wP6bGnoY",
+        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nmixx",
+        "name": "NMIXX"
+      },
+      "title": "#SUNGHANBIN 위한 긴 소원을 빌게 🪽˖♡ ⁺#NMIXX #KYUJIN #긴소원_BirthdayWish",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/gG7wP6bGnoY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/gG7wP6bGnoY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/gG7wP6bGnoY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/gG7wP6bGnoY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/gG7wP6bGnoY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/gG7wP6bGnoY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-26T04:00:24.000Z",
+      "url": "https://www.youtube.com/watch?v=gG7wP6bGnoY",
+      "fetchedAt": "2026-10-26T04:30:19.416Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-26T04:30:19.416Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt--EZnijC8s-M",
       "source": {
@@ -2970,66 +3030,6 @@
       ],
       "publishedAt": "2026-10-19T11:46:07.000Z",
       "url": "https://www.youtube.com/watch?v=ICyOogcWQrQ",
-      "fetchedAt": "2026-10-19T12:33:52.233Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-19T12:33:52.233Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-4d3EilkT-dA",
-      "source": {
-        "platform": "youtube",
-        "videoId": "4d3EilkT-dA",
-        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nmixx",
-        "name": "NMIXX"
-      },
-      "title": "I’d lose my way a thousand times to find you *:･ﾟ#NMIXX #LILY #BAE #긴소원_BirthdayWish",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/4d3EilkT-dA/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/4d3EilkT-dA/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/4d3EilkT-dA/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/4d3EilkT-dA/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/4d3EilkT-dA/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/4d3EilkT-dA/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-19T11:30:06.000Z",
-      "url": "https://www.youtube.com/watch?v=4d3EilkT-dA",
       "fetchedAt": "2026-10-19T12:33:52.233Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-19T12:33:52.233Z",
