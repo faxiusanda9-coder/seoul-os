@@ -4,8 +4,432 @@
   "uploadsPlaylistId": "UUp-pqXsizklX3ZHvLxXyhxw",
   "artistId": "day6",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-26T00:37:30.354Z",
+  "fetchedAt": "2026-10-27T12:36:33.643Z",
   "items": [
+    {
+      "id": "yt-bPus2GI7Nhg",
+      "source": {
+        "platform": "youtube",
+        "videoId": "bPus2GI7Nhg",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "재밌는 얘기해 주면 무슨 공 던질지 알려주~지",
+      "description": "재밌는 얘기해 주면 무슨 공 던질지 알려주~지\n\n#DAY6 #데이식스\n#MyDay #마이데이\n#DAY6_5TH_FANMEETING\n#EVERY_DAY6_EVERY_My_Day",
+      "thumbnail": "https://i.ytimg.com/vi/bPus2GI7Nhg/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/bPus2GI7Nhg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/bPus2GI7Nhg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/bPus2GI7Nhg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/bPus2GI7Nhg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/bPus2GI7Nhg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-27T11:05:57.000Z",
+      "url": "https://www.youtube.com/watch?v=bPus2GI7Nhg",
+      "fetchedAt": "2026-10-27T12:36:33.643Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-27T12:36:33.643Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-V9RG0rKIPgA",
+      "source": {
+        "platform": "youtube",
+        "videoId": "V9RG0rKIPgA",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "강 사원의 워크숍 회심작, 로데오 머신 🐎",
+      "description": "강 사원의 워크숍 회심작, 로데오 머신 🐎\n\n#DAY6 #데이식스\n#MyDay #마이데이\n#DAY6_5TH_FANMEETING\n#EVERY_DAY6_EVERY_My_Day",
+      "thumbnail": "https://i.ytimg.com/vi/V9RG0rKIPgA/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/V9RG0rKIPgA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/V9RG0rKIPgA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/V9RG0rKIPgA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/V9RG0rKIPgA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/V9RG0rKIPgA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-27T11:05:30.000Z",
+      "url": "https://www.youtube.com/watch?v=V9RG0rKIPgA",
+      "fetchedAt": "2026-10-27T12:36:33.643Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-27T12:36:33.643Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-OVNbSp1XSUQ",
+      "source": {
+        "platform": "youtube",
+        "videoId": "OVNbSp1XSUQ",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "조선시대 왈검투덕소 세계관🌌",
+      "description": "조선시대 왈검투덕소 세계관🌌\n\n#DAY6 #데이식스\n#MyDay #마이데이\n#DAY6_5TH_FANMEETING\n#EVERY_DAY6_EVERY_My_Day",
+      "thumbnail": "https://i.ytimg.com/vi/OVNbSp1XSUQ/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/OVNbSp1XSUQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/OVNbSp1XSUQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/OVNbSp1XSUQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/OVNbSp1XSUQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/OVNbSp1XSUQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-27T11:05:13.000Z",
+      "url": "https://www.youtube.com/watch?v=OVNbSp1XSUQ",
+      "fetchedAt": "2026-10-27T12:36:33.643Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-27T12:36:33.643Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-HZ5gcpe1VQU",
+      "source": {
+        "platform": "youtube",
+        "videoId": "HZ5gcpe1VQU",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "DAY6(데이식스) 5TH FANMEETING 〈EVERY DAY6, EVERY My Day〉 Ending VCR",
+      "description": "DAY6(데이식스) 5TH FANMEETING 〈EVERY DAY6, EVERY My Day〉 Ending VCR\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://ww",
+      "thumbnail": "https://i.ytimg.com/vi/HZ5gcpe1VQU/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/HZ5gcpe1VQU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/HZ5gcpe1VQU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/HZ5gcpe1VQU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/HZ5gcpe1VQU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/HZ5gcpe1VQU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-27T11:00:13.000Z",
+      "url": "https://www.youtube.com/watch?v=HZ5gcpe1VQU",
+      "fetchedAt": "2026-10-27T12:36:33.643Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-27T12:36:33.643Z",
+      "type": "other",
+      "category": "fan",
+      "subcategory": "fan-content",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.86,
+        "ruleId": "fan-message"
+      }
+    },
+    {
+      "id": "yt-sT4-RgWeMgo",
+      "source": {
+        "platform": "youtube",
+        "videoId": "sT4-RgWeMgo",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "DAY6(데이식스) 5TH FANMEETING 〈EVERY DAY6, EVERY My Day〉 Bridge VCR",
+      "description": "DAY6(데이식스) 5TH FANMEETING 〈EVERY DAY6, EVERY My Day〉 Bridge VCR\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://ww",
+      "thumbnail": "https://i.ytimg.com/vi/sT4-RgWeMgo/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/sT4-RgWeMgo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/sT4-RgWeMgo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/sT4-RgWeMgo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/sT4-RgWeMgo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/sT4-RgWeMgo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-27T11:00:10.000Z",
+      "url": "https://www.youtube.com/watch?v=sT4-RgWeMgo",
+      "fetchedAt": "2026-10-27T12:36:33.643Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-27T12:36:33.643Z",
+      "type": "other",
+      "category": "fan",
+      "subcategory": "fan-content",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.86,
+        "ruleId": "fan-message"
+      }
+    },
+    {
+      "id": "yt-VP2NdNKLtus",
+      "source": {
+        "platform": "youtube",
+        "videoId": "VP2NdNKLtus",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "DAY6(데이식스) 5TH FANMEETING 〈EVERY DAY6, EVERY My Day〉 Opening VCR",
+      "description": "DAY6(데이식스) 5TH FANMEETING 〈EVERY DAY6, EVERY My Day〉 Opening VCR \n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://",
+      "thumbnail": "https://i.ytimg.com/vi/VP2NdNKLtus/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/VP2NdNKLtus/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/VP2NdNKLtus/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/VP2NdNKLtus/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/VP2NdNKLtus/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/VP2NdNKLtus/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-27T11:00:07.000Z",
+      "url": "https://www.youtube.com/watch?v=VP2NdNKLtus",
+      "fetchedAt": "2026-10-27T12:36:33.643Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-27T12:36:33.643Z",
+      "type": "other",
+      "category": "fan",
+      "subcategory": "fan-content",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.86,
+        "ruleId": "fan-message"
+      }
+    },
+    {
+      "id": "yt-rFSw1sengjs",
+      "source": {
+        "platform": "youtube",
+        "videoId": "rFSw1sengjs",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "DAY6(데이식스) 5TH FANMEETING ＜EVERY DAY6, EVERY My Day＞ MD Shooting Sketch 📸",
+      "description": "DAY6(데이식스) 5TH FANMEETING ＜EVERY DAY6, EVERY My Day＞ MD Shooting Sketch 📸\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter",
+      "thumbnail": "https://i.ytimg.com/vi/rFSw1sengjs/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/rFSw1sengjs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/rFSw1sengjs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/rFSw1sengjs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/rFSw1sengjs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/rFSw1sengjs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-27T10:00:02.000Z",
+      "url": "https://www.youtube.com/watch?v=rFSw1sengjs",
+      "fetchedAt": "2026-10-27T12:36:33.643Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-27T12:36:33.643Z",
+      "type": "other",
+      "category": "fan",
+      "subcategory": "fan-content",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.86,
+        "ruleId": "fan-message"
+      }
+    },
     {
       "id": "yt-0nvRMDJ2wfo",
       "source": {
@@ -2593,436 +3017,6 @@
       ],
       "publishedAt": "2026-09-07T15:53:47.000Z",
       "url": "https://www.youtube.com/watch?v=W2ktAJbaYnA",
-      "fetchedAt": "2026-10-14T16:52:37.203Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:37.203Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-Hee4wgZ7a3M",
-      "source": {
-        "platform": "youtube",
-        "videoId": "Hee4wgZ7a3M",
-        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "day6",
-        "name": "DAY6"
-      },
-      "title": "My Day Pick❗️하지하지마를 하지하지마 🙅",
-      "description": "My Day Pick❗️\n하지하지마를 하지하지마 🙅\n\n#DAY6 #데이식스\n#DAY6_11th_Anniversary",
-      "thumbnail": "https://i.ytimg.com/vi/Hee4wgZ7a3M/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/Hee4wgZ7a3M/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/Hee4wgZ7a3M/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/Hee4wgZ7a3M/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/Hee4wgZ7a3M/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/Hee4wgZ7a3M/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-07T15:50:13.000Z",
-      "url": "https://www.youtube.com/watch?v=Hee4wgZ7a3M",
-      "fetchedAt": "2026-10-14T16:52:37.203Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:37.203Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-ASSRx03COS0",
-      "source": {
-        "platform": "youtube",
-        "videoId": "ASSRx03COS0",
-        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "day6",
-        "name": "DAY6"
-      },
-      "title": "My Day Pick❗️나는 MJ 말고 𝓜(𝔂)𝓓(𝓪𝔂) 🕷️🕸️",
-      "description": "My Day Pick❗️\n나는 MJ 말고 𝓜(𝔂)𝓓(𝓪𝔂) 🕷️🕸️\n\n#DAY6 #데이식스\n#DAY6_11th_Anniversary",
-      "thumbnail": "https://i.ytimg.com/vi/ASSRx03COS0/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/ASSRx03COS0/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/ASSRx03COS0/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/ASSRx03COS0/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/ASSRx03COS0/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/ASSRx03COS0/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-07T15:44:24.000Z",
-      "url": "https://www.youtube.com/watch?v=ASSRx03COS0",
-      "fetchedAt": "2026-10-14T16:52:37.203Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:37.203Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-etcA8OjEV6s",
-      "source": {
-        "platform": "youtube",
-        "videoId": "etcA8OjEV6s",
-        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "day6",
-        "name": "DAY6"
-      },
-      "title": "DAY6 11th Anniversary Live🥳 〈Welcome to the Party〉",
-      "description": "DAY6 11th Anniversary Live🥳 〈Welcome to the Party〉",
-      "thumbnail": "https://i.ytimg.com/vi/etcA8OjEV6s/fhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/etcA8OjEV6s/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/etcA8OjEV6s/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/etcA8OjEV6s/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/etcA8OjEV6s/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/etcA8OjEV6s/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "fhd",
-          "url": "https://i.ytimg.com/vi/etcA8OjEV6s/fhddefault.jpg",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "publishedAt": "2026-09-07T13:48:26.000Z",
-      "url": "https://www.youtube.com/watch?v=etcA8OjEV6s",
-      "fetchedAt": "2026-10-14T16:52:37.203Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:37.203Z",
-      "type": "other",
-      "category": "fan",
-      "subcategory": "fan-content",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.86,
-        "ruleId": "fan-message"
-      }
-    },
-    {
-      "id": "yt-3J1diKFzBGM",
-      "source": {
-        "platform": "youtube",
-        "videoId": "3J1diKFzBGM",
-        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "day6",
-        "name": "DAY6"
-      },
-      "title": "Young K Solo Tour ＜YOUNGEST＞ Concert Behind #2",
-      "description": "Young K Solo Tour ＜YOUNGEST＞ Concert Behind #2\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY",
-      "thumbnail": "https://i.ytimg.com/vi/3J1diKFzBGM/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/3J1diKFzBGM/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/3J1diKFzBGM/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/3J1diKFzBGM/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/3J1diKFzBGM/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/3J1diKFzBGM/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-06T09:00:02.000Z",
-      "url": "https://www.youtube.com/watch?v=3J1diKFzBGM",
-      "fetchedAt": "2026-10-14T16:52:37.203Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:37.203Z",
-      "type": "other",
-      "category": "behind",
-      "subcategory": "making",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.95,
-        "ruleId": "making"
-      }
-    },
-    {
-      "id": "yt-Tqt-cMVDT1k",
-      "source": {
-        "platform": "youtube",
-        "videoId": "Tqt-cMVDT1k",
-        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "day6",
-        "name": "DAY6"
-      },
-      "title": "Young K Solo Tour ＜YOUNGEST＞ Concert Behind #1",
-      "description": "Young K Solo Tour ＜YOUNGEST＞ Concert Behind #1 \n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DA",
-      "thumbnail": "https://i.ytimg.com/vi/Tqt-cMVDT1k/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/Tqt-cMVDT1k/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/Tqt-cMVDT1k/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/Tqt-cMVDT1k/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/Tqt-cMVDT1k/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/Tqt-cMVDT1k/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-08-28T09:00:02.000Z",
-      "url": "https://www.youtube.com/watch?v=Tqt-cMVDT1k",
-      "fetchedAt": "2026-10-14T16:52:37.203Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:37.203Z",
-      "type": "other",
-      "category": "behind",
-      "subcategory": "making",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.95,
-        "ruleId": "making"
-      }
-    },
-    {
-      "id": "yt-NNkCxSzceaY",
-      "source": {
-        "platform": "youtube",
-        "videoId": "NNkCxSzceaY",
-        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "day6",
-        "name": "DAY6"
-      },
-      "title": "[데식이들] 원필 x 2026 SBS 가요대전 SUMMER 비하인드",
-      "description": "[데식이들] 원필 x 2026 SBS 가요대전 SUMMER 비하인드\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY6Official",
-      "thumbnail": "https://i.ytimg.com/vi/NNkCxSzceaY/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/NNkCxSzceaY/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/NNkCxSzceaY/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/NNkCxSzceaY/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/NNkCxSzceaY/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/NNkCxSzceaY/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-08-27T09:00:05.000Z",
-      "url": "https://www.youtube.com/watch?v=NNkCxSzceaY",
-      "fetchedAt": "2026-10-14T16:52:37.203Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:37.203Z",
-      "type": "other",
-      "category": "behind",
-      "subcategory": "making",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.95,
-        "ruleId": "making"
-      }
-    },
-    {
-      "id": "yt-PIBWqReObCU",
-      "source": {
-        "platform": "youtube",
-        "videoId": "PIBWqReObCU",
-        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "day6",
-        "name": "DAY6"
-      },
-      "title": "My Day와 함께해 더 아름답게 물든 도운이의 여름 ⋆⁺₊⋆ ☀︎ ⋆⁺₊⋆",
-      "description": "My Day와 함께해 더 아름답게 물든 도운이의 여름 ⋆⁺₊⋆ ☀︎ ⋆⁺₊⋆\n\n#DAY6 #데이식스\n#DOWOON #도운 \n#도운으로_물든_여름\n#Our_Summer_DOWOON",
-      "thumbnail": "https://i.ytimg.com/vi/PIBWqReObCU/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/PIBWqReObCU/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/PIBWqReObCU/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/PIBWqReObCU/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/PIBWqReObCU/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/PIBWqReObCU/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-08-25T11:25:03.000Z",
-      "url": "https://www.youtube.com/watch?v=PIBWqReObCU",
       "fetchedAt": "2026-10-14T16:52:37.203Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:37.203Z",

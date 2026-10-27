@@ -4,8 +4,311 @@
   "uploadsPlaylistId": "UUzgxx_DM2Dcb9Y1spb9mUJA",
   "artistId": "twice",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-24T00:35:16.435Z",
+  "fetchedAt": "2026-10-27T12:36:33.643Z",
   "items": [
+    {
+      "id": "yt-nTKW9RpfmtM",
+      "source": {
+        "platform": "youtube",
+        "videoId": "nTKW9RpfmtM",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "🤗💕 #TWICE #트와이스 #TWICEREALITY #TIMETOTWICE #TTT",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/nTKW9RpfmtM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/nTKW9RpfmtM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/nTKW9RpfmtM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/nTKW9RpfmtM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/nTKW9RpfmtM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/nTKW9RpfmtM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-27T11:00:20.000Z",
+      "url": "https://www.youtube.com/watch?v=nTKW9RpfmtM",
+      "fetchedAt": "2026-10-27T12:36:33.643Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-27T12:36:33.643Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-654NjPbfHbM",
+      "source": {
+        "platform": "youtube",
+        "videoId": "654NjPbfHbM",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "👯‍♀️👯‍♀️🪩 #TWICE #트와이스 #TWICEREALITY #TIMETOTWICE #TTT",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/654NjPbfHbM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/654NjPbfHbM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/654NjPbfHbM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/654NjPbfHbM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/654NjPbfHbM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/654NjPbfHbM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-27T10:00:27.000Z",
+      "url": "https://www.youtube.com/watch?v=654NjPbfHbM",
+      "fetchedAt": "2026-10-27T12:36:33.643Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-27T12:36:33.643Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-k6WpDXC5T-I",
+      "source": {
+        "platform": "youtube",
+        "videoId": "k6WpDXC5T-I",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "트둥의 숲 TDOONG's crossing EP.02 Highlight #2 #TWICE #트와이스#TWICEREALITY #TIMETOTWICE #TTT",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/k6WpDXC5T-I/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/k6WpDXC5T-I/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/k6WpDXC5T-I/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/k6WpDXC5T-I/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/k6WpDXC5T-I/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/k6WpDXC5T-I/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-27T09:31:27.000Z",
+      "url": "https://www.youtube.com/watch?v=k6WpDXC5T-I",
+      "fetchedAt": "2026-10-27T12:36:33.643Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-27T12:36:33.643Z",
+      "type": "other",
+      "category": "variety",
+      "subcategory": "series",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.9,
+        "ruleId": "variety-series"
+      }
+    },
+    {
+      "id": "yt-C1Ei0KlI5vs",
+      "source": {
+        "platform": "youtube",
+        "videoId": "C1Ei0KlI5vs",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "트둥의 숲 TDOONG's crossing EP.02 Highlight #1 #TWICE #트와이스#TWICEREALITY #TIMETOTWICE #TTT",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/C1Ei0KlI5vs/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/C1Ei0KlI5vs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/C1Ei0KlI5vs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/C1Ei0KlI5vs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/C1Ei0KlI5vs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/C1Ei0KlI5vs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-27T09:30:12.000Z",
+      "url": "https://www.youtube.com/watch?v=C1Ei0KlI5vs",
+      "fetchedAt": "2026-10-27T12:36:33.643Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-27T12:36:33.643Z",
+      "type": "other",
+      "category": "variety",
+      "subcategory": "series",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.9,
+        "ruleId": "variety-series"
+      }
+    },
+    {
+      "id": "yt-Zb4TqCg65ZM",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Zb4TqCg65ZM",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "[TIME TO TWICE] 트둥의 숲 TDOONG's Crossing EP.02",
+      "description": "[TIME TO TWICE] 트둥의 숲 TDOONG's Crossing EP.02\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.twitter.com/JYPETWICE \nTWICE Offic",
+      "thumbnail": "https://i.ytimg.com/vi/Zb4TqCg65ZM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Zb4TqCg65ZM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Zb4TqCg65ZM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Zb4TqCg65ZM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Zb4TqCg65ZM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Zb4TqCg65ZM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-27T09:00:02.000Z",
+      "url": "https://www.youtube.com/watch?v=Zb4TqCg65ZM",
+      "fetchedAt": "2026-10-27T12:36:33.643Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-27T12:36:33.643Z",
+      "type": "other",
+      "category": "variety",
+      "subcategory": "series",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.9,
+        "ruleId": "variety-series"
+      }
+    },
     {
       "id": "yt-z7afHJ5I0Ws",
       "source": {
@@ -2720,311 +3023,6 @@
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-tz1Sm5SShTc",
-      "source": {
-        "platform": "youtube",
-        "videoId": "tz1Sm5SShTc",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "SANA ‘사나의 냉터뷰 시즌 3’ First Filming Behind The Scenes",
-      "description": "SANA ‘사나의 냉터뷰 시즌 3’ First Filming Behind the Scenes\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.twitter.com/JYPETWICE \nTWICE",
-      "thumbnail": "https://i.ytimg.com/vi/tz1Sm5SShTc/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/tz1Sm5SShTc/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/tz1Sm5SShTc/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/tz1Sm5SShTc/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/tz1Sm5SShTc/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/tz1Sm5SShTc/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-07T09:00:08.000Z",
-      "url": "https://www.youtube.com/watch?v=tz1Sm5SShTc",
-      "fetchedAt": "2026-10-14T16:52:35.634Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other",
-      "category": "behind",
-      "subcategory": "making",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.95,
-        "ruleId": "making"
-      }
-    },
-    {
-      "id": "yt-jYJjq9iOm6E",
-      "source": {
-        "platform": "youtube",
-        "videoId": "jYJjq9iOm6E",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "NAYEON First Pitch Behind with LG TWINS",
-      "description": "NAYEON First Pitch Behind with LG TWINS\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.twitter.com/JYPETWICE \nTWICE Official Ti",
-      "thumbnail": "https://i.ytimg.com/vi/jYJjq9iOm6E/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/jYJjq9iOm6E/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/jYJjq9iOm6E/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/jYJjq9iOm6E/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/jYJjq9iOm6E/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/jYJjq9iOm6E/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-08-31T09:00:03.000Z",
-      "url": "https://www.youtube.com/watch?v=jYJjq9iOm6E",
-      "fetchedAt": "2026-10-14T16:52:35.634Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other",
-      "category": "behind",
-      "subcategory": "making",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.95,
-        "ruleId": "making"
-      }
-    },
-    {
-      "id": "yt-UI9sJjUT2fc",
-      "source": {
-        "platform": "youtube",
-        "videoId": "UI9sJjUT2fc",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "DAHYUN-log : GLOBAL OTT AWARDS 2026",
-      "description": "DAHYUN-log : GLOBAL OTT AWARDS 2026\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.twitter.com/JYPETWICE \nTWICE Official TikTok",
-      "thumbnail": "https://i.ytimg.com/vi/UI9sJjUT2fc/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/UI9sJjUT2fc/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/UI9sJjUT2fc/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/UI9sJjUT2fc/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/UI9sJjUT2fc/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/UI9sJjUT2fc/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-08-24T09:00:03.000Z",
-      "url": "https://www.youtube.com/watch?v=UI9sJjUT2fc",
-      "fetchedAt": "2026-10-14T16:52:35.634Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt-bp4InMLGJl8",
-      "source": {
-        "platform": "youtube",
-        "videoId": "bp4InMLGJl8",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "TWICE \"Be as ONE (Korean Ver.)\" Live Stage @ TWICE ＜THIS IS FOR＞ WORLD TOUR FINALE IN SEOUL",
-      "description": "TWICE \"Be as ONE (Korean Ver.)\" Live Stage @ TWICE ＜THIS IS FOR＞ WORLD TOUR FINALE IN SEOUL\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter):",
-      "thumbnail": "https://i.ytimg.com/vi/bp4InMLGJl8/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/bp4InMLGJl8/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/bp4InMLGJl8/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/bp4InMLGJl8/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/bp4InMLGJl8/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/bp4InMLGJl8/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-08-14T09:00:01.000Z",
-      "url": "https://www.youtube.com/watch?v=bp4InMLGJl8",
-      "fetchedAt": "2026-10-14T16:52:35.634Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "performance",
-      "category": "stage",
-      "subcategory": "live-stage",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.94,
-        "ruleId": "stage"
-      }
-    },
-    {
-      "id": "yt-h_5NFu_UmRA",
-      "source": {
-        "platform": "youtube",
-        "videoId": "h_5NFu_UmRA",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "TWICE ＜THIS IS FOR＞ WORLD TOUR FINALE IN SEOUL Behind",
-      "description": "TWICE ＜THIS IS FOR＞ WORLD TOUR FINALE IN SEOUL Behind\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.twitter.com/JYPETWICE \nTWI",
-      "thumbnail": "https://i.ytimg.com/vi/h_5NFu_UmRA/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/h_5NFu_UmRA/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/h_5NFu_UmRA/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/h_5NFu_UmRA/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/h_5NFu_UmRA/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/h_5NFu_UmRA/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-08-13T09:00:10.000Z",
-      "url": "https://www.youtube.com/watch?v=h_5NFu_UmRA",
-      "fetchedAt": "2026-10-14T16:52:35.634Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:35.634Z",
-      "type": "other",
-      "category": "behind",
-      "subcategory": "making",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.95,
-        "ruleId": "making"
       }
     }
   ]

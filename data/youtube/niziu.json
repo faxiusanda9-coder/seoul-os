@@ -4,8 +4,75 @@
   "uploadsPlaylistId": "UUHp2q2i85qt_9nn2H7AvGOw",
   "artistId": "niziu",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-26T14:39:25.270Z",
+  "fetchedAt": "2026-10-27T12:36:33.643Z",
   "items": [
+    {
+      "id": "yt-EBEe7Vfb7o8",
+      "source": {
+        "platform": "youtube",
+        "videoId": "EBEe7Vfb7o8",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "NiziU(니쥬) \"Sour Grapes\" Highlight Medley Behind",
+      "description": "NiziU(니쥬) \"Sour Grapes\" Highlight Medley Behind\n\nNiziU(니쥬) Korea 1st Mini Album \"Sour Grapes\"\n2026.09.28 MON 6PM (KST) Release\n\n🎧 https://niziu.lnk.to/SourGrapes\n\nNiziU Official Homepage: https://niziu.com/\nNiziU Official YouTube:    / @niziuofficial  \nNiziU Official Facebook:  ",
+      "thumbnail": "https://i.ytimg.com/vi/EBEe7Vfb7o8/uhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/EBEe7Vfb7o8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/EBEe7Vfb7o8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/EBEe7Vfb7o8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/EBEe7Vfb7o8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/EBEe7Vfb7o8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "uhd",
+          "url": "https://i.ytimg.com/vi/EBEe7Vfb7o8/uhddefault.jpg",
+          "width": 3840,
+          "height": 2160
+        }
+      ],
+      "publishedAt": "2026-10-27T11:00:50.000Z",
+      "url": "https://www.youtube.com/watch?v=EBEe7Vfb7o8",
+      "fetchedAt": "2026-10-27T12:36:33.643Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-27T12:36:33.643Z",
+      "type": "teaser",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
+    },
     {
       "id": "yt-PGQYFhzmr0s",
       "source": {
@@ -2995,67 +3062,6 @@
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-Wng86xgHvro",
-      "source": {
-        "platform": "youtube",
-        "videoId": "Wng86xgHvro",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "RIKU'S GRAPE JUICE MAKING🍇",
-      "description": "#RIKU\n#NiziU #니쥬\n#SourGrapes\n#NiziU_SourGrapes",
-      "thumbnail": "https://i.ytimg.com/vi/Wng86xgHvro/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/Wng86xgHvro/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/Wng86xgHvro/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/Wng86xgHvro/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/Wng86xgHvro/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/Wng86xgHvro/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-10T05:30:06.000Z",
-      "url": "https://www.youtube.com/watch?v=Wng86xgHvro",
-      "fetchedAt": "2026-10-14T16:52:38.651Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:38.651Z",
-      "type": "other",
-      "category": "behind",
-      "subcategory": "making",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.95,
-        "ruleId": "making"
       }
     }
   ]
