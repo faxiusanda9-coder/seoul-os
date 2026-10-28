@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUSskmnvIhEy3nSZxxVKTeIg",
   "artistId": "girlset",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-24T04:23:55.831Z",
+  "fetchedAt": "2026-10-28T00:40:07.621Z",
   "items": [
+    {
+      "id": "yt-hq_TrJSqqek",
+      "source": {
+        "platform": "youtube",
+        "videoId": "hq_TrJSqqek",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "been feeling like the one @kyliecantrall #GIRLSET #KylieCantrall #GlownUp",
+      "description": "Listen to “Glown Up”: http://GIRLSET.lnk.to/GlownUp\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLSET",
+      "thumbnail": "https://i.ytimg.com/vi/hq_TrJSqqek/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/hq_TrJSqqek/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/hq_TrJSqqek/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/hq_TrJSqqek/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/hq_TrJSqqek/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/hq_TrJSqqek/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-27T16:12:12.000Z",
+      "url": "https://www.youtube.com/watch?v=hq_TrJSqqek",
+      "fetchedAt": "2026-10-28T00:40:07.621Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-28T00:40:07.621Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-X4n9MYKmmRA",
       "source": {
@@ -3001,66 +3061,6 @@
       ],
       "publishedAt": "2026-08-16T16:09:59.000Z",
       "url": "https://www.youtube.com/watch?v=P-4SXO6GYYY",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-mo7GscxH_hw",
-      "source": {
-        "platform": "youtube",
-        "videoId": "mo7GscxH_hw",
-        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "girlset",
-        "name": "GIRLSET"
-      },
-      "title": "same audio different baddie #GIRLSET #Lexi #CHAT",
-      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/mo7GscxH_hw/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/mo7GscxH_hw/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/mo7GscxH_hw/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/mo7GscxH_hw/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/mo7GscxH_hw/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/mo7GscxH_hw/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-08-15T18:00:28.000Z",
-      "url": "https://www.youtube.com/watch?v=mo7GscxH_hw",
       "fetchedAt": "2026-10-14T16:52:41.420Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:41.420Z",
