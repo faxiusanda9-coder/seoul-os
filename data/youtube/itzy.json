@@ -4,8 +4,135 @@
   "uploadsPlaylistId": "UUDhM2k2Cua-JdobAh5moMFg",
   "artistId": "itzy",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-27T12:36:33.643Z",
+  "fetchedAt": "2026-10-28T12:40:59.654Z",
   "items": [
+    {
+      "id": "yt-eLB44HRGF9I",
+      "source": {
+        "platform": "youtube",
+        "videoId": "eLB44HRGF9I",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "𝐿𝑜𝑣𝑒𝑠𝑖𝑐𝑘 𝑚𝑜𝑜𝑑..💫 #ITZY #CHAERYEONG #채령 #Chaeryeong_Lovesick #shorts",
+      "description": "💿 ALBUM RELEASE\n2026.11.09 MON 6PM (KST) | 4AM (ET)",
+      "thumbnail": "https://i.ytimg.com/vi/eLB44HRGF9I/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/eLB44HRGF9I/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/eLB44HRGF9I/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/eLB44HRGF9I/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/eLB44HRGF9I/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/eLB44HRGF9I/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-28T11:00:17.000Z",
+      "url": "https://www.youtube.com/watch?v=eLB44HRGF9I",
+      "fetchedAt": "2026-10-28T12:40:59.654Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-28T12:40:59.654Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-lp8F-cIDPB8",
+      "source": {
+        "platform": "youtube",
+        "videoId": "lp8F-cIDPB8",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "CHAERYEONG ‘Lovesick’ JACKET & TRAILER BEHIND",
+      "description": "CHAERYEONG ‘Lovesick’ JACKET & TRAILER BEHIND\n\nCHAERYEONG 'Lovesick'\nhttp://CHAERYEONG.lnk.to/Lovesick\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOfficial\n▶ http:",
+      "thumbnail": "https://i.ytimg.com/vi/lp8F-cIDPB8/fhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/lp8F-cIDPB8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/lp8F-cIDPB8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/lp8F-cIDPB8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/lp8F-cIDPB8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/lp8F-cIDPB8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "fhd",
+          "url": "https://i.ytimg.com/vi/lp8F-cIDPB8/fhddefault.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "publishedAt": "2026-10-28T09:59:58.000Z",
+      "url": "https://www.youtube.com/watch?v=lp8F-cIDPB8",
+      "fetchedAt": "2026-10-28T12:40:59.654Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-28T12:40:59.654Z",
+      "type": "teaser",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
+    },
     {
       "id": "yt-XjPgYps7954",
       "source": {
@@ -3029,126 +3156,6 @@
         "method": "rule",
         "confidence": 0.84,
         "ruleId": "tour-log"
-      }
-    },
-    {
-      "id": "yt-hLh846AIyic",
-      "source": {
-        "platform": "youtube",
-        "videoId": "hLh846AIyic",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "𝑺𝒆𝒕 𝒎𝒆 𝒇𝒓𝒆𝒆 🌃 #ITZY #MIDZY #RYUJIN #류진",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/hLh846AIyic/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/hLh846AIyic/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/hLh846AIyic/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/hLh846AIyic/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/hLh846AIyic/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/hLh846AIyic/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-17T12:00:11.000Z",
-      "url": "https://www.youtube.com/watch?v=hLh846AIyic",
-      "fetchedAt": "2026-10-14T16:52:36.440Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:36.440Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-Wu52X9WdWWA",
-      "source": {
-        "platform": "youtube",
-        "videoId": "Wu52X9WdWWA",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": ". ݁₊ 🤝⊹ 🤝 . ݁˖🤝. ݁ 🤝⊹ 🤝݁˖⭑ #ITZY #MIDZY #다다있지 #DaDaITZY",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/Wu52X9WdWWA/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/Wu52X9WdWWA/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/Wu52X9WdWWA/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/Wu52X9WdWWA/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/Wu52X9WdWWA/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/Wu52X9WdWWA/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-17T09:35:18.000Z",
-      "url": "https://www.youtube.com/watch?v=Wu52X9WdWWA",
-      "fetchedAt": "2026-10-14T16:52:36.440Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:36.440Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
       }
     }
   ]

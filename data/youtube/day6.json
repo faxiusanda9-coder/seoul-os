@@ -4,8 +4,69 @@
   "uploadsPlaylistId": "UUp-pqXsizklX3ZHvLxXyhxw",
   "artistId": "day6",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-27T12:36:33.643Z",
+  "fetchedAt": "2026-10-28T12:40:59.654Z",
   "items": [
+    {
+      "id": "yt-w_RCuuWcB0M",
+      "source": {
+        "platform": "youtube",
+        "videoId": "w_RCuuWcB0M",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "DAY6(데이식스) 5TH FANMEETING ＜EVERY DAY6, EVERY My Day＞ VCR Making Film",
+      "description": "DAY6(데이식스) 5TH FANMEETING ＜EVERY DAY6, EVERY My Day＞ VCR Making Film\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http",
+      "thumbnail": "https://i.ytimg.com/vi/w_RCuuWcB0M/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/w_RCuuWcB0M/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/w_RCuuWcB0M/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/w_RCuuWcB0M/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/w_RCuuWcB0M/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/w_RCuuWcB0M/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-28T10:00:02.000Z",
+      "url": "https://www.youtube.com/watch?v=w_RCuuWcB0M",
+      "fetchedAt": "2026-10-28T12:40:59.654Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-28T12:40:59.654Z",
+      "type": "other",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
+    },
     {
       "id": "yt-bPus2GI7Nhg",
       "source": {
@@ -2966,66 +3027,6 @@
         "method": "rule",
         "confidence": 0.95,
         "ruleId": "making"
-      }
-    },
-    {
-      "id": "yt-W2ktAJbaYnA",
-      "source": {
-        "platform": "youtube",
-        "videoId": "W2ktAJbaYnA",
-        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "day6",
-        "name": "DAY6"
-      },
-      "title": "My Day Pick❗️어디서나 당당하게 걷기💗",
-      "description": "My Day Pick❗️\n어디서나 당당하게 걷기💗\n\n#DAY6 #데이식스\n#DAY6_11th_Anniversary",
-      "thumbnail": "https://i.ytimg.com/vi/W2ktAJbaYnA/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/W2ktAJbaYnA/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/W2ktAJbaYnA/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/W2ktAJbaYnA/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/W2ktAJbaYnA/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/W2ktAJbaYnA/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-07T15:53:47.000Z",
-      "url": "https://www.youtube.com/watch?v=W2ktAJbaYnA",
-      "fetchedAt": "2026-10-14T16:52:37.203Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:37.203Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
       }
     }
   ]
