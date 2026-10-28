@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUnUAyD4t2LkvW68YrDh7fDg",
   "artistId": "nmixx",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-27T12:36:33.643Z",
+  "fetchedAt": "2026-10-28T04:37:38.596Z",
   "items": [
+    {
+      "id": "yt-mlAte5NfohQ",
+      "source": {
+        "platform": "youtube",
+        "videoId": "mlAte5NfohQ",
+        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nmixx",
+        "name": "NMIXX"
+      },
+      "title": "#에릭남 위한 긴 소원을 빌게 🎂 #NMIXX #LILY #긴소원_BirthdayWish",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/mlAte5NfohQ/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/mlAte5NfohQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/mlAte5NfohQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/mlAte5NfohQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/mlAte5NfohQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/mlAte5NfohQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-28T02:00:37.000Z",
+      "url": "https://www.youtube.com/watch?v=mlAte5NfohQ",
+      "fetchedAt": "2026-10-28T04:37:38.596Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-28T04:37:38.596Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-rigIjD_DXAU",
       "source": {
@@ -2975,66 +3035,6 @@
       ],
       "publishedAt": "2026-10-21T07:30:26.000Z",
       "url": "https://www.youtube.com/watch?v=lt3vgm0DG8Y",
-      "fetchedAt": "2026-10-21T12:32:15.037Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-21T12:32:15.037Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-hromlWMlbos",
-      "source": {
-        "platform": "youtube",
-        "videoId": "hromlWMlbos",
-        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nmixx",
-        "name": "NMIXX"
-      },
-      "title": "생일인 친구에게 공유해주세요🎂 #NMIXX #엔믹스#Strange_Muse #긴소원_BirthdayWish",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/hromlWMlbos/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/hromlWMlbos/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/hromlWMlbos/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/hromlWMlbos/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/hromlWMlbos/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/hromlWMlbos/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-21T07:00:09.000Z",
-      "url": "https://www.youtube.com/watch?v=hromlWMlbos",
       "fetchedAt": "2026-10-21T12:32:15.037Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-21T12:32:15.037Z",
