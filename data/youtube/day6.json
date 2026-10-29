@@ -4,8 +4,69 @@
   "uploadsPlaylistId": "UUp-pqXsizklX3ZHvLxXyhxw",
   "artistId": "day6",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-28T12:40:59.654Z",
+  "fetchedAt": "2026-10-29T12:42:02.502Z",
   "items": [
+    {
+      "id": "yt-zIoF4uWNeI4",
+      "source": {
+        "platform": "youtube",
+        "videoId": "zIoF4uWNeI4",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[데식이들] 원필 x KRAZY Music Festival Taipei 비하인드",
+      "description": "[데식이들] 원필 x KRAZY Music Festival Taipei 비하인드\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY6O",
+      "thumbnail": "https://i.ytimg.com/vi/zIoF4uWNeI4/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/zIoF4uWNeI4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/zIoF4uWNeI4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/zIoF4uWNeI4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/zIoF4uWNeI4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/zIoF4uWNeI4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-29T09:00:13.000Z",
+      "url": "https://www.youtube.com/watch?v=zIoF4uWNeI4",
+      "fetchedAt": "2026-10-29T12:42:02.502Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-29T12:42:02.502Z",
+      "type": "other",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
+    },
     {
       "id": "yt-w_RCuuWcB0M",
       "source": {
@@ -2956,67 +3017,6 @@
       ],
       "publishedAt": "2026-09-12T03:00:01.000Z",
       "url": "https://www.youtube.com/watch?v=-FzmiLkC0GI",
-      "fetchedAt": "2026-10-14T16:52:37.203Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:37.203Z",
-      "type": "other",
-      "category": "behind",
-      "subcategory": "making",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.95,
-        "ruleId": "making"
-      }
-    },
-    {
-      "id": "yt-UiRzMcwwsfs",
-      "source": {
-        "platform": "youtube",
-        "videoId": "UiRzMcwwsfs",
-        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "day6",
-        "name": "DAY6"
-      },
-      "title": "[데식이들] 2026 가족사진 비하인드",
-      "description": "[데식이들] 2026 가족사진 비하인드\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY6Official\nDAY6 FANS App S",
-      "thumbnail": "https://i.ytimg.com/vi/UiRzMcwwsfs/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/UiRzMcwwsfs/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/UiRzMcwwsfs/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/UiRzMcwwsfs/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/UiRzMcwwsfs/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/UiRzMcwwsfs/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-08T12:07:07.000Z",
-      "url": "https://www.youtube.com/watch?v=UiRzMcwwsfs",
       "fetchedAt": "2026-10-14T16:52:37.203Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-14T16:52:37.203Z",

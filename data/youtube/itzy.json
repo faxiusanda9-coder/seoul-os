@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUDhM2k2Cua-JdobAh5moMFg",
   "artistId": "itzy",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-28T12:40:59.654Z",
+  "fetchedAt": "2026-10-29T12:42:02.502Z",
   "items": [
+    {
+      "id": "yt-rHbzc4--GqQ",
+      "source": {
+        "platform": "youtube",
+        "videoId": "rHbzc4--GqQ",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "[NOTICE] Hello everyone. We’re informing you about ITZY’s 2026 Harvestrip.",
+      "description": "[NOTICE] Hello everyone. We’re informing you about ITZY’s 2026 Harvestrip. \n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOff",
+      "thumbnail": "https://i.ytimg.com/vi/rHbzc4--GqQ/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/rHbzc4--GqQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/rHbzc4--GqQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/rHbzc4--GqQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/rHbzc4--GqQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/rHbzc4--GqQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-29T08:59:58.000Z",
+      "url": "https://www.youtube.com/watch?v=rHbzc4--GqQ",
+      "fetchedAt": "2026-10-29T12:42:02.502Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-29T12:42:02.502Z",
+      "type": "announcement",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-eLB44HRGF9I",
       "source": {
@@ -3089,73 +3149,6 @@
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-6x1ptsXpGqg",
-      "source": {
-        "platform": "youtube",
-        "videoId": "6x1ptsXpGqg",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "[TOUR-LOG] EP07 #LIA #MANILA | ITZY 3RD WORLD TOUR 'TUNNEL VISION'",
-      "description": "[TOUR-LOG] EP07 #LIA #MANILA | ITZY 3RD WORLD TOUR 'TUNNEL VISION'\n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOfficial\n▶ h",
-      "thumbnail": "https://i.ytimg.com/vi/6x1ptsXpGqg/fhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/6x1ptsXpGqg/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/6x1ptsXpGqg/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/6x1ptsXpGqg/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/6x1ptsXpGqg/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/6x1ptsXpGqg/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "fhd",
-          "url": "https://i.ytimg.com/vi/6x1ptsXpGqg/fhddefault.jpg",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "publishedAt": "2026-09-18T08:59:51.000Z",
-      "url": "https://www.youtube.com/watch?v=6x1ptsXpGqg",
-      "fetchedAt": "2026-10-14T16:52:36.440Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:36.440Z",
-      "type": "other",
-      "category": "behind",
-      "subcategory": "tour-log",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.84,
-        "ruleId": "tour-log"
       }
     }
   ]
