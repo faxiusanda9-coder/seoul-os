@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UU-o9yrZxu5Ru-DVGhnmeTug",
   "artistId": "nexz",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-28T12:40:59.654Z",
+  "fetchedAt": "2026-10-29T00:40:25.468Z",
   "items": [
+    {
+      "id": "yt-Y4-Be4bmBvo",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Y4-Be4bmBvo",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "#NavaRose #SkylerLee 님과 쏘씬 쏘씬 🥫 | #TOMOYA #HARU",
+      "description": "#NEXZ #TOMOYA #HARU\n#SAUCIN #NEXZ_SAUCIN\n#SAUCIN_Challenge\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
+      "thumbnail": "https://i.ytimg.com/vi/Y4-Be4bmBvo/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Y4-Be4bmBvo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Y4-Be4bmBvo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Y4-Be4bmBvo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Y4-Be4bmBvo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Y4-Be4bmBvo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-28T13:00:16.000Z",
+      "url": "https://www.youtube.com/watch?v=Y4-Be4bmBvo",
+      "fetchedAt": "2026-10-29T00:40:25.468Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-29T00:40:25.468Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-fsfozPOBmaI",
       "source": {
@@ -2901,67 +2961,6 @@
       ],
       "publishedAt": "2026-10-15T03:01:02.000Z",
       "url": "https://www.youtube.com/watch?v=8fhRuDa4s0U",
-      "fetchedAt": "2026-10-15T03:36:32.950Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-15T03:36:32.950Z",
-      "type": "teaser",
-      "category": "fan",
-      "subcategory": "fan-content",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.86,
-        "ruleId": "fan-message"
-      }
-    },
-    {
-      "id": "yt-Uqutt1FqpfY",
-      "source": {
-        "platform": "youtube",
-        "videoId": "Uqutt1FqpfY",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "NEXZ JAPAN SEASON'S GREETINGS 2027 “NEXT LEVEL” Teaser Movie | #TOMOYA",
-      "description": "#NEXZ \n#NEXZ_SEASONS_GREETINGS #NEXT_LEVEL\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
-      "thumbnail": "https://i.ytimg.com/vi/Uqutt1FqpfY/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/Uqutt1FqpfY/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/Uqutt1FqpfY/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/Uqutt1FqpfY/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/Uqutt1FqpfY/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/Uqutt1FqpfY/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-15T03:00:29.000Z",
-      "url": "https://www.youtube.com/watch?v=Uqutt1FqpfY",
       "fetchedAt": "2026-10-15T03:36:32.950Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-15T03:36:32.950Z",
