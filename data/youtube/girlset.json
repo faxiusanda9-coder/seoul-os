@@ -4,8 +4,128 @@
   "uploadsPlaylistId": "UUSskmnvIhEy3nSZxxVKTeIg",
   "artistId": "girlset",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-29T00:40:25.468Z",
+  "fetchedAt": "2026-10-30T00:41:28.144Z",
   "items": [
+    {
+      "id": "yt-g2U7WYYAD6k",
+      "source": {
+        "platform": "youtube",
+        "videoId": "g2U7WYYAD6k",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "i can’t help it that i’m popular #GIRLSET #Savanna",
+      "description": "GIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLSET\nGIRLSET Official Facebook: https://www.facebook.com/",
+      "thumbnail": "https://i.ytimg.com/vi/g2U7WYYAD6k/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/g2U7WYYAD6k/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/g2U7WYYAD6k/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/g2U7WYYAD6k/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/g2U7WYYAD6k/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/g2U7WYYAD6k/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-29T23:33:36.000Z",
+      "url": "https://www.youtube.com/watch?v=g2U7WYYAD6k",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-IS53kQkXbjs",
+      "source": {
+        "platform": "youtube",
+        "videoId": "IS53kQkXbjs",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "it’s not my fault you’re like in love with me or something #GIRLSET #Lexi",
+      "description": "GIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLSET\nGIRLSET Official Facebook: https://www.facebook.com/",
+      "thumbnail": "https://i.ytimg.com/vi/IS53kQkXbjs/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/IS53kQkXbjs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/IS53kQkXbjs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/IS53kQkXbjs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/IS53kQkXbjs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/IS53kQkXbjs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-29T19:07:33.000Z",
+      "url": "https://www.youtube.com/watch?v=IS53kQkXbjs",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-T8klDdXK-aI",
       "source": {
@@ -924,9 +1044,9 @@
       ],
       "publishedAt": "2026-10-12T16:04:04.000Z",
       "url": "https://www.youtube.com/watch?v=mP1nfeDPgew",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -984,9 +1104,9 @@
       ],
       "publishedAt": "2026-10-06T16:08:53.000Z",
       "url": "https://www.youtube.com/watch?v=JJ-np8FZ8X0",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1050,9 +1170,9 @@
       ],
       "publishedAt": "2026-10-06T15:59:50.000Z",
       "url": "https://www.youtube.com/watch?v=gBq5T6dBp3Q",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1110,9 +1230,9 @@
       ],
       "publishedAt": "2026-10-01T16:05:29.000Z",
       "url": "https://www.youtube.com/watch?v=msnaEYLX4fU",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1170,9 +1290,9 @@
       ],
       "publishedAt": "2026-09-19T16:09:56.000Z",
       "url": "https://www.youtube.com/watch?v=Qzdl4O077lo",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "music",
       "subcategory": "performance-video",
@@ -1237,9 +1357,9 @@
       ],
       "publishedAt": "2026-09-19T16:00:42.000Z",
       "url": "https://www.youtube.com/watch?v=tEi_FdyAWxw",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "music",
       "subcategory": "performance-video",
@@ -1298,9 +1418,9 @@
       ],
       "publishedAt": "2026-09-18T16:08:38.000Z",
       "url": "https://www.youtube.com/watch?v=EEWoabbiqOU",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1358,9 +1478,9 @@
       ],
       "publishedAt": "2026-09-16T01:10:12.000Z",
       "url": "https://www.youtube.com/watch?v=oIXgHm1OVG4",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1424,9 +1544,9 @@
       ],
       "publishedAt": "2026-09-16T01:00:14.000Z",
       "url": "https://www.youtube.com/watch?v=QplqNBL6KKI",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1484,9 +1604,9 @@
       ],
       "publishedAt": "2026-09-08T17:16:35.000Z",
       "url": "https://www.youtube.com/watch?v=W5n3giqt_AI",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1544,9 +1664,9 @@
       ],
       "publishedAt": "2026-09-05T19:02:31.000Z",
       "url": "https://www.youtube.com/watch?v=pSZqjn6STyI",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1604,9 +1724,9 @@
       ],
       "publishedAt": "2026-09-02T16:10:32.000Z",
       "url": "https://www.youtube.com/watch?v=2v8T7u6Xvd4",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1664,9 +1784,9 @@
       ],
       "publishedAt": "2026-08-31T16:07:30.000Z",
       "url": "https://www.youtube.com/watch?v=n-4pjZzv1Gk",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1724,9 +1844,9 @@
       ],
       "publishedAt": "2026-08-30T01:06:46.000Z",
       "url": "https://www.youtube.com/watch?v=CJ-WaZ2ee3U",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1784,9 +1904,9 @@
       ],
       "publishedAt": "2026-08-29T16:08:22.000Z",
       "url": "https://www.youtube.com/watch?v=1jzWbjorRhY",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1850,9 +1970,9 @@
       ],
       "publishedAt": "2026-08-29T02:48:35.000Z",
       "url": "https://www.youtube.com/watch?v=sL50vOx_zKY",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1910,9 +2030,9 @@
       ],
       "publishedAt": "2026-08-28T16:04:04.000Z",
       "url": "https://www.youtube.com/watch?v=ndmejbsgGYs",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1970,9 +2090,9 @@
       ],
       "publishedAt": "2026-08-28T02:08:41.000Z",
       "url": "https://www.youtube.com/watch?v=QB9vVY73_Hg",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2036,9 +2156,9 @@
       ],
       "publishedAt": "2026-08-28T02:00:00.000Z",
       "url": "https://www.youtube.com/watch?v=1cWOM4cihKU",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2096,9 +2216,9 @@
       ],
       "publishedAt": "2026-08-27T18:34:57.000Z",
       "url": "https://www.youtube.com/watch?v=KuJzqLEEP-w",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2156,9 +2276,9 @@
       ],
       "publishedAt": "2026-08-26T22:38:17.000Z",
       "url": "https://www.youtube.com/watch?v=z5mj8vCCACs",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2216,9 +2336,9 @@
       ],
       "publishedAt": "2026-08-26T16:42:48.000Z",
       "url": "https://www.youtube.com/watch?v=4FOUNmOvV7M",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2276,9 +2396,9 @@
       ],
       "publishedAt": "2026-08-25T22:39:34.000Z",
       "url": "https://www.youtube.com/watch?v=XbLpdu1aBws",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2336,9 +2456,9 @@
       ],
       "publishedAt": "2026-08-25T17:07:13.000Z",
       "url": "https://www.youtube.com/watch?v=NZ8Ur_3HYnU",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2396,9 +2516,9 @@
       ],
       "publishedAt": "2026-08-24T17:11:01.000Z",
       "url": "https://www.youtube.com/watch?v=1X0Eb74S-24",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2456,9 +2576,9 @@
       ],
       "publishedAt": "2026-08-23T19:35:45.000Z",
       "url": "https://www.youtube.com/watch?v=_WVisoVA2YU",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2516,9 +2636,9 @@
       ],
       "publishedAt": "2026-08-23T17:18:44.000Z",
       "url": "https://www.youtube.com/watch?v=nFhVsbPjhzY",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2582,9 +2702,9 @@
       ],
       "publishedAt": "2026-08-23T17:00:30.000Z",
       "url": "https://www.youtube.com/watch?v=NVKAYI3XIhA",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2642,9 +2762,9 @@
       ],
       "publishedAt": "2026-08-22T16:13:12.000Z",
       "url": "https://www.youtube.com/watch?v=59xLkShc-jo",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2702,9 +2822,9 @@
       ],
       "publishedAt": "2026-08-21T20:08:24.000Z",
       "url": "https://www.youtube.com/watch?v=cCWFr4BjNeU",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2762,9 +2882,9 @@
       ],
       "publishedAt": "2026-08-21T16:11:56.000Z",
       "url": "https://www.youtube.com/watch?v=tsjRmKkCJis",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2828,9 +2948,9 @@
       ],
       "publishedAt": "2026-08-21T16:00:38.000Z",
       "url": "https://www.youtube.com/watch?v=7__A-_HHxks",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2888,9 +3008,9 @@
       ],
       "publishedAt": "2026-08-20T21:05:19.000Z",
       "url": "https://www.youtube.com/watch?v=o8rds0As6VE",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2948,135 +3068,9 @@
       ],
       "publishedAt": "2026-08-20T00:07:00.000Z",
       "url": "https://www.youtube.com/watch?v=NnI1v9RPP2c",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
+      "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-3f5gXlIBpX8",
-      "source": {
-        "platform": "youtube",
-        "videoId": "3f5gXlIBpX8",
-        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "girlset",
-        "name": "GIRLSET"
-      },
-      "title": "“CHAT” in korea part 1 out now #GIRLSET #CHAT",
-      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/3f5gXlIBpX8/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/3f5gXlIBpX8/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/3f5gXlIBpX8/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/3f5gXlIBpX8/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/3f5gXlIBpX8/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/3f5gXlIBpX8/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-08-19T17:06:34.000Z",
-      "url": "https://www.youtube.com/watch?v=3f5gXlIBpX8",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-Lb5AweFW6G4",
-      "source": {
-        "platform": "youtube",
-        "videoId": "Lb5AweFW6G4",
-        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "girlset",
-        "name": "GIRLSET"
-      },
-      "title": "GIRLSET \"CHAT\" in Korea Part 1",
-      "description": "GIRLSET \"CHAT\" Spotify: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official Website: https://girlset.com\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://www.twitter.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/",
-      "thumbnail": "https://i.ytimg.com/vi/Lb5AweFW6G4/qhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/Lb5AweFW6G4/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/Lb5AweFW6G4/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/Lb5AweFW6G4/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/Lb5AweFW6G4/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/Lb5AweFW6G4/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "qhd",
-          "url": "https://i.ytimg.com/vi/Lb5AweFW6G4/qhddefault.jpg",
-          "width": 2560,
-          "height": 1440
-        }
-      ],
-      "publishedAt": "2026-08-19T17:00:17.000Z",
-      "url": "https://www.youtube.com/watch?v=Lb5AweFW6G4",
-      "fetchedAt": "2026-10-14T16:52:41.420Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-14T16:52:41.420Z",
+      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "other",
       "category": "other",
       "classification": {
