@@ -4,8 +4,69 @@
   "uploadsPlaylistId": "UUp-pqXsizklX3ZHvLxXyhxw",
   "artistId": "day6",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-30T00:41:28.144Z",
+  "fetchedAt": "2026-10-30T12:42:05.236Z",
   "items": [
+    {
+      "id": "yt-8THL9I375ok",
+      "source": {
+        "platform": "youtube",
+        "videoId": "8THL9I375ok",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[DAY6 VLOG] 강영현 브이로그 in 타이베이 | (딤섬 먹기엔) 하루가 짧다 🥢",
+      "description": "[DAY6 VLOG] 강영현 브이로그 in 타이베이 | (딤섬 먹기엔) 하루가 짧다 🥢\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/",
+      "thumbnail": "https://i.ytimg.com/vi/8THL9I375ok/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/8THL9I375ok/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/8THL9I375ok/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/8THL9I375ok/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/8THL9I375ok/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/8THL9I375ok/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-30T09:00:01.000Z",
+      "url": "https://www.youtube.com/watch?v=8THL9I375ok",
+      "fetchedAt": "2026-10-30T12:42:05.236Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-30T12:42:05.236Z",
+      "type": "other",
+      "category": "variety",
+      "subcategory": "series",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.9,
+        "ruleId": "variety-series"
+      }
+    },
     {
       "id": "yt-gW0lpmd5N-c",
       "source": {
@@ -2966,67 +3027,6 @@
         "method": "rule",
         "confidence": 0.86,
         "ruleId": "fan-message"
-      }
-    },
-    {
-      "id": "yt--FzmiLkC0GI",
-      "source": {
-        "platform": "youtube",
-        "videoId": "-FzmiLkC0GI",
-        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "day6",
-        "name": "DAY6"
-      },
-      "title": "[데식이들] 원필 x KIA 타이거즈 세 번째 시구 비하인드",
-      "description": "[데식이들] 원필 x KIA 타이거즈 세 번째 시구 비하인드\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY6Official\nDAY",
-      "thumbnail": "https://i.ytimg.com/vi/-FzmiLkC0GI/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/-FzmiLkC0GI/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/-FzmiLkC0GI/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/-FzmiLkC0GI/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/-FzmiLkC0GI/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/-FzmiLkC0GI/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-12T03:00:01.000Z",
-      "url": "https://www.youtube.com/watch?v=-FzmiLkC0GI",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "behind",
-      "subcategory": "making",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.95,
-        "ruleId": "making"
       }
     }
   ]

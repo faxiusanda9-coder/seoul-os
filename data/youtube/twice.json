@@ -4,7 +4,7 @@
   "uploadsPlaylistId": "UUzgxx_DM2Dcb9Y1spb9mUJA",
   "artistId": "twice",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-30T00:41:28.144Z",
+  "fetchedAt": "2026-10-30T12:42:05.236Z",
   "items": [
     {
       "id": "yt-nTKW9RpfmtM",
@@ -1271,9 +1271,9 @@
       ],
       "publishedAt": "2026-10-15T09:00:07.000Z",
       "url": "https://www.youtube.com/watch?v=mD3oHeiWtVc",
-      "fetchedAt": "2026-10-15T12:32:22.449Z",
+      "fetchedAt": "2026-10-30T12:42:05.236Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-15T12:32:22.449Z",
+      "lastValidatedAt": "2026-10-30T12:42:05.236Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1331,9 +1331,9 @@
       ],
       "publishedAt": "2026-10-15T05:00:08.000Z",
       "url": "https://www.youtube.com/watch?v=u7IK-YomePs",
-      "fetchedAt": "2026-10-15T12:32:22.449Z",
+      "fetchedAt": "2026-10-30T12:42:05.236Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-15T12:32:22.449Z",
+      "lastValidatedAt": "2026-10-30T12:42:05.236Z",
       "type": "other",
       "category": "other",
       "classification": {

@@ -4,8 +4,128 @@
   "uploadsPlaylistId": "UU-o9yrZxu5Ru-DVGhnmeTug",
   "artistId": "nexz",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-30T04:40:29.748Z",
+  "fetchedAt": "2026-10-30T12:42:05.236Z",
   "items": [
+    {
+      "id": "yt-AK0OXKdnFNg",
+      "source": {
+        "platform": "youtube",
+        "videoId": "AK0OXKdnFNg",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "@NCTDREAM #JAEMIN 선배님과 쏘씬 쏘씬 🥫 | #TOMOYA",
+      "description": "#NEXZ #TOMOYA\n#SAUCIN #NEXZ_SAUCIN\n#SAUCIN_Challenge\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
+      "thumbnail": "https://i.ytimg.com/vi/AK0OXKdnFNg/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/AK0OXKdnFNg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/AK0OXKdnFNg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/AK0OXKdnFNg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/AK0OXKdnFNg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/AK0OXKdnFNg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-30T11:00:35.000Z",
+      "url": "https://www.youtube.com/watch?v=AK0OXKdnFNg",
+      "fetchedAt": "2026-10-30T12:42:05.236Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-30T12:42:05.236Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-TNlihAQ8vZU",
+      "source": {
+        "platform": "youtube",
+        "videoId": "TNlihAQ8vZU",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "𝖕𝖆𝖗𝖙𝖞-𝖆𝖗𝖙𝖞 | #SOGEON",
+      "description": "#NEXZ #SOGEON\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
+      "thumbnail": "https://i.ytimg.com/vi/TNlihAQ8vZU/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/TNlihAQ8vZU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/TNlihAQ8vZU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/TNlihAQ8vZU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/TNlihAQ8vZU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/TNlihAQ8vZU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-30T09:00:12.000Z",
+      "url": "https://www.youtube.com/watch?v=TNlihAQ8vZU",
+      "fetchedAt": "2026-10-30T12:42:05.236Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-30T12:42:05.236Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-sTM0DGerbgY",
       "source": {
@@ -2765,9 +2885,9 @@
       ],
       "publishedAt": "2026-10-15T12:00:36.000Z",
       "url": "https://www.youtube.com/watch?v=r25_rjlBzzA",
-      "fetchedAt": "2026-10-15T12:32:25.637Z",
+      "fetchedAt": "2026-10-30T12:42:05.236Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-15T12:32:25.637Z",
+      "lastValidatedAt": "2026-10-30T12:42:05.236Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2825,137 +2945,15 @@
       ],
       "publishedAt": "2026-10-15T09:00:22.000Z",
       "url": "https://www.youtube.com/watch?v=YSi6OkJUqi0",
-      "fetchedAt": "2026-10-15T12:32:25.637Z",
+      "fetchedAt": "2026-10-30T12:42:05.236Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-15T12:32:25.637Z",
+      "lastValidatedAt": "2026-10-30T12:42:05.236Z",
       "type": "other",
       "category": "other",
       "classification": {
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-tDEtW0KEf88",
-      "source": {
-        "platform": "youtube",
-        "videoId": "tDEtW0KEf88",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "NEXZ JAPAN SEASON'S GREETINGS 2027 “NEXT LEVEL” Teaser Movie | #YUKI",
-      "description": "#NEXZ \n#NEXZ_SEASONS_GREETINGS #NEXT_LEVEL\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
-      "thumbnail": "https://i.ytimg.com/vi/tDEtW0KEf88/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/tDEtW0KEf88/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/tDEtW0KEf88/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/tDEtW0KEf88/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/tDEtW0KEf88/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/tDEtW0KEf88/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-15T03:06:28.000Z",
-      "url": "https://www.youtube.com/watch?v=tDEtW0KEf88",
-      "fetchedAt": "2026-10-30T04:40:29.748Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T04:40:29.748Z",
-      "type": "teaser",
-      "category": "fan",
-      "subcategory": "fan-content",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.86,
-        "ruleId": "fan-message"
-      }
-    },
-    {
-      "id": "yt-JD3iHg9aRRc",
-      "source": {
-        "platform": "youtube",
-        "videoId": "JD3iHg9aRRc",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "NEXZ JAPAN SEASON'S GREETINGS 2027 “NEXT LEVEL” Teaser Movie | #HYUI",
-      "description": "#NEXZ \n#NEXZ_SEASONS_GREETINGS #NEXT_LEVEL\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
-      "thumbnail": "https://i.ytimg.com/vi/JD3iHg9aRRc/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/JD3iHg9aRRc/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/JD3iHg9aRRc/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/JD3iHg9aRRc/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/JD3iHg9aRRc/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/JD3iHg9aRRc/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-15T03:05:07.000Z",
-      "url": "https://www.youtube.com/watch?v=JD3iHg9aRRc",
-      "fetchedAt": "2026-10-30T04:40:29.748Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T04:40:29.748Z",
-      "type": "teaser",
-      "category": "fan",
-      "subcategory": "fan-content",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.86,
-        "ruleId": "fan-message"
       }
     }
   ]
