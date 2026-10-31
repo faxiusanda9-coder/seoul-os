@@ -4,8 +4,128 @@
   "uploadsPlaylistId": "UUSskmnvIhEy3nSZxxVKTeIg",
   "artistId": "girlset",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-30T00:41:28.144Z",
+  "fetchedAt": "2026-10-31T00:47:32.246Z",
   "items": [
+    {
+      "id": "yt-GLFq2HkmAf4",
+      "source": {
+        "platform": "youtube",
+        "videoId": "GLFq2HkmAf4",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "i’m a mouse, duh #GIRLSET #Kendall",
+      "description": "GIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLSET\nGIRLSET Official Facebook: https://www.facebook.com/",
+      "thumbnail": "https://i.ytimg.com/vi/GLFq2HkmAf4/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/GLFq2HkmAf4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/GLFq2HkmAf4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/GLFq2HkmAf4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/GLFq2HkmAf4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/GLFq2HkmAf4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-30T23:49:18.000Z",
+      "url": "https://www.youtube.com/watch?v=GLFq2HkmAf4",
+      "fetchedAt": "2026-10-31T00:47:32.246Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-31T00:47:32.246Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-IVdF3nAHl98",
+      "source": {
+        "platform": "youtube",
+        "videoId": "IVdF3nAHl98",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "why are you so obsessed with me? #GIRLSET #Camila",
+      "description": "GIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLSET\nGIRLSET Official Facebook: https://www.facebook.com/",
+      "thumbnail": "https://i.ytimg.com/vi/IVdF3nAHl98/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/IVdF3nAHl98/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/IVdF3nAHl98/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/IVdF3nAHl98/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/IVdF3nAHl98/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/IVdF3nAHl98/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-30T19:35:24.000Z",
+      "url": "https://www.youtube.com/watch?v=IVdF3nAHl98",
+      "fetchedAt": "2026-10-31T00:47:32.246Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-31T00:47:32.246Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-g2U7WYYAD6k",
       "source": {
@@ -632,7 +752,7 @@
         "name": "GIRLSET"
       },
       "title": "should we tell them what’s coming tomorrow @kyliecantrall 👀 #GIRLSET #KylieCantrall",
-      "description": "",
+      "description": "Listen to “Glown Up”: http://GIRLSET.lnk.to/GlownUp\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLSET",
       "thumbnail": "https://i.ytimg.com/vi/4kR_VgyfyD0/maxresdefault.jpg",
       "thumbnails": [
         {
@@ -668,9 +788,9 @@
       ],
       "publishedAt": "2026-10-22T04:00:31.000Z",
       "url": "https://www.youtube.com/watch?v=4kR_VgyfyD0",
-      "fetchedAt": "2026-10-22T04:28:42.368Z",
+      "fetchedAt": "2026-10-31T00:47:32.246Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-22T04:28:42.368Z",
+      "lastValidatedAt": "2026-10-31T00:47:32.246Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2948,126 +3068,6 @@
       ],
       "publishedAt": "2026-08-21T16:00:38.000Z",
       "url": "https://www.youtube.com/watch?v=7__A-_HHxks",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-o8rds0As6VE",
-      "source": {
-        "platform": "youtube",
-        "videoId": "o8rds0As6VE",
-        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "girlset",
-        "name": "GIRLSET"
-      },
-      "title": "the baddest bitches are in… 🗺️🩷 #GIRLSET",
-      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/o8rds0As6VE/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/o8rds0As6VE/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/o8rds0As6VE/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/o8rds0As6VE/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/o8rds0As6VE/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/o8rds0As6VE/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-08-20T21:05:19.000Z",
-      "url": "https://www.youtube.com/watch?v=o8rds0As6VE",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-NnI1v9RPP2c",
-      "source": {
-        "platform": "youtube",
-        "videoId": "NnI1v9RPP2c",
-        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "girlset",
-        "name": "GIRLSET"
-      },
-      "title": "CHAT got us moving like a metronome @izna_offcl #GIRLSET #izna #BANGJEEMIN #CHAT",
-      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/NnI1v9RPP2c/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/NnI1v9RPP2c/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/NnI1v9RPP2c/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/NnI1v9RPP2c/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/NnI1v9RPP2c/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/NnI1v9RPP2c/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-08-20T00:07:00.000Z",
-      "url": "https://www.youtube.com/watch?v=NnI1v9RPP2c",
       "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-30T00:41:28.144Z",
