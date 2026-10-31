@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUnUAyD4t2LkvW68YrDh7fDg",
   "artistId": "nmixx",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-30T12:42:05.236Z",
+  "fetchedAt": "2026-10-31T12:38:32.540Z",
   "items": [
+    {
+      "id": "yt-AaR0cxOhdt0",
+      "source": {
+        "platform": "youtube",
+        "videoId": "AaR0cxOhdt0",
+        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nmixx",
+        "name": "NMIXX"
+      },
+      "title": "Lᴏᴠᴇ ᴀɴᴅ ᴄᴏᴜɢʜ ᴄᴀɴ'ᴛ ʙᴇ ʜɪᴅᴅᴇɴ ♡ #NMIXX #LILY #SULLYOON #JIWOO #긴소원_BirthdayWish",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/AaR0cxOhdt0/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/AaR0cxOhdt0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/AaR0cxOhdt0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/AaR0cxOhdt0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/AaR0cxOhdt0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/AaR0cxOhdt0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-31T11:00:02.000Z",
+      "url": "https://www.youtube.com/watch?v=AaR0cxOhdt0",
+      "fetchedAt": "2026-10-31T12:38:32.540Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-10-31T12:38:32.540Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-k2tdsM1wy6A",
       "source": {
@@ -2978,66 +3038,6 @@
       ],
       "publishedAt": "2026-10-21T12:00:15.000Z",
       "url": "https://www.youtube.com/watch?v=kOTUyJNzjv8",
-      "fetchedAt": "2026-10-21T12:32:15.037Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-21T12:32:15.037Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-HPJn_1TLmiY",
-      "source": {
-        "platform": "youtube",
-        "videoId": "HPJn_1TLmiY",
-        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nmixx",
-        "name": "NMIXX"
-      },
-      "title": "배진솔 어린이 참 잘했어요♥︎",
-      "description": "배진솔 어린이 참 잘했어요♥︎\n\nNMIXX Official YouTube ▶ https://www.youtube.com/c/NMIXXOfficial \nNMIXX Official X ▶ https://x.com/NMIXX_official\nNMIXX Official X(Members) ▶ https://x.com/WE_NMIXX\nNMIXX Official Instagram ▶ https://www.instagram.com/nmixx_official/ \nNMIXX Official Facebook ▶ h",
-      "thumbnail": "https://i.ytimg.com/vi/HPJn_1TLmiY/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/HPJn_1TLmiY/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/HPJn_1TLmiY/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/HPJn_1TLmiY/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/HPJn_1TLmiY/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/HPJn_1TLmiY/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-21T12:00:12.000Z",
-      "url": "https://www.youtube.com/watch?v=HPJn_1TLmiY",
       "fetchedAt": "2026-10-21T12:32:15.037Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-21T12:32:15.037Z",

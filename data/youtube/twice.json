@@ -4,7 +4,7 @@
   "uploadsPlaylistId": "UUzgxx_DM2Dcb9Y1spb9mUJA",
   "artistId": "twice",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-30T12:42:05.236Z",
+  "fetchedAt": "2026-10-31T12:38:32.540Z",
   "items": [
     {
       "id": "yt-nTKW9RpfmtM",
@@ -1210,9 +1210,9 @@
       ],
       "publishedAt": "2026-10-16T09:00:11.000Z",
       "url": "https://www.youtube.com/watch?v=qcTMapoI-OM",
-      "fetchedAt": "2026-10-16T12:31:36.331Z",
+      "fetchedAt": "2026-10-31T12:38:32.540Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-16T12:31:36.331Z",
+      "lastValidatedAt": "2026-10-31T12:38:32.540Z",
       "type": "teaser",
       "category": "behind",
       "subcategory": "making",
