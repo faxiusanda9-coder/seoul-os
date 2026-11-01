@@ -4,7 +4,7 @@
   "uploadsPlaylistId": "UU-o9yrZxu5Ru-DVGhnmeTug",
   "artistId": "nexz",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-31T12:38:32.540Z",
+  "fetchedAt": "2026-11-01T00:47:09.447Z",
   "items": [
     {
       "id": "yt-AK0OXKdnFNg",
@@ -2476,9 +2476,9 @@
       ],
       "publishedAt": "2026-10-16T14:00:21.000Z",
       "url": "https://www.youtube.com/watch?v=dQYerDHYTh0",
-      "fetchedAt": "2026-10-17T00:30:05.221Z",
+      "fetchedAt": "2026-11-01T00:47:09.447Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-17T00:30:05.221Z",
+      "lastValidatedAt": "2026-11-01T00:47:09.447Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2536,9 +2536,9 @@
       ],
       "publishedAt": "2026-10-16T13:00:07.000Z",
       "url": "https://www.youtube.com/watch?v=bUahV318AOg",
-      "fetchedAt": "2026-10-17T00:30:05.221Z",
+      "fetchedAt": "2026-11-01T00:47:09.447Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-17T00:30:05.221Z",
+      "lastValidatedAt": "2026-11-01T00:47:09.447Z",
       "type": "other",
       "category": "other",
       "classification": {

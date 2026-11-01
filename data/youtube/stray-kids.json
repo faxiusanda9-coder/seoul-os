@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UU9rMiEjNaCSsebs31MRDCRA",
   "artistId": "stray-kids",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-30T12:42:05.236Z",
+  "fetchedAt": "2026-11-01T00:47:09.447Z",
   "items": [
+    {
+      "id": "yt-dlhI9UxRjvA",
+      "source": {
+        "platform": "youtube",
+        "videoId": "dlhI9UxRjvA",
+        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "stray-kids",
+        "name": "Stray Kids"
+      },
+      "title": "Seungmin (with 한로로) - 시간을 달리네 (한로로 Cover) & 어떻게 이별까지 사랑하겠어, 널 사랑하는 거지 (AKMU Cover) | [SONG by 2] S#2",
+      "description": "승민 (with 한로로) - 시간을 달리네 (한로로 Cover) & 어떻게 이별까지 사랑하겠어, 널 사랑하는 거지 (AKMU Cover) | [SONG by 2] S#2 \n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That R",
+      "thumbnail": "https://i.ytimg.com/vi/dlhI9UxRjvA/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/dlhI9UxRjvA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/dlhI9UxRjvA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/dlhI9UxRjvA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/dlhI9UxRjvA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/dlhI9UxRjvA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-10-31T13:00:05.000Z",
+      "url": "https://www.youtube.com/watch?v=dlhI9UxRjvA",
+      "fetchedAt": "2026-11-01T00:47:09.447Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-01T00:47:09.447Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-iDbB16wFG98",
       "source": {
@@ -2967,66 +3027,6 @@
         "method": "rule",
         "confidence": 0.9,
         "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt-X7IZNXesuFM",
-      "source": {
-        "platform": "youtube",
-        "videoId": "X7IZNXesuFM",
-        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "stray-kids",
-        "name": "Stray Kids"
-      },
-      "title": "Stray Kids ＜Rock in Rio 2026＞",
-      "description": "Stray Kids(스트레이 키즈) ＜Rock in Rio 2026＞\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" now➡️\nhttps://Stray-Kids.lnk.to/THAT_REMIXES \n\nS",
-      "thumbnail": "https://i.ytimg.com/vi/X7IZNXesuFM/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/X7IZNXesuFM/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/X7IZNXesuFM/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/X7IZNXesuFM/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/X7IZNXesuFM/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/X7IZNXesuFM/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-17T08:00:01.000Z",
-      "url": "https://www.youtube.com/watch?v=X7IZNXesuFM",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
       }
     }
   ]
