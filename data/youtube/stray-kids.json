@@ -4,8 +4,128 @@
   "uploadsPlaylistId": "UU9rMiEjNaCSsebs31MRDCRA",
   "artistId": "stray-kids",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-01T00:47:09.447Z",
+  "fetchedAt": "2026-11-01T12:39:41.521Z",
   "items": [
+    {
+      "id": "yt-CReJVnojbtQ",
+      "source": {
+        "platform": "youtube",
+        "videoId": "CReJVnojbtQ",
+        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "stray-kids",
+        "name": "Stray Kids"
+      },
+      "title": "사랑이라는 이유로 아파할 수 없어 난  | 어떻게 이별까지 사랑하겠어, 널 사랑하는 거지 Cover by #승민 #한로로 #StrayKids #SONGby #송바이",
+      "description": "사랑이라는 이유로 아파할 수 없어 난  | 어떻게 이별까지 사랑하겠어, 널 사랑하는 거지 Cover by #승민 #한로로 #StrayKids #SONGby #송바이\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remix",
+      "thumbnail": "https://i.ytimg.com/vi/CReJVnojbtQ/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/CReJVnojbtQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/CReJVnojbtQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/CReJVnojbtQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/CReJVnojbtQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/CReJVnojbtQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-01T05:00:05.000Z",
+      "url": "https://www.youtube.com/watch?v=CReJVnojbtQ",
+      "fetchedAt": "2026-11-01T12:39:41.521Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-01T12:39:41.521Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-t0nH8YKg-Dw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "t0nH8YKg-Dw",
+        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "stray-kids",
+        "name": "Stray Kids"
+      },
+      "title": "아무도 모를 추억 틈에 너와 나 | 시간을 달리네 Cover by #승민 #Seungmin #한로로 #HARORO #StrayKids #스트레이키즈 #SONGby #송바이",
+      "description": "아무도 모를 추억 틈에 너와 나 | 시간을 달리네 Cover by #승민 #Seungmin #한로로 #HARORO #StrayKids #스트레이키즈 #SONGby #송바이\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That R",
+      "thumbnail": "https://i.ytimg.com/vi/t0nH8YKg-Dw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/t0nH8YKg-Dw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/t0nH8YKg-Dw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/t0nH8YKg-Dw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/t0nH8YKg-Dw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/t0nH8YKg-Dw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-01T05:00:02.000Z",
+      "url": "https://www.youtube.com/watch?v=t0nH8YKg-Dw",
+      "fetchedAt": "2026-11-01T12:39:41.521Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-01T12:39:41.521Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-dlhI9UxRjvA",
       "source": {
@@ -2905,128 +3025,6 @@
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-Bzfl9x3JiBc",
-      "source": {
-        "platform": "youtube",
-        "videoId": "Bzfl9x3JiBc",
-        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "stray-kids",
-        "name": "Stray Kids"
-      },
-      "title": "돼끼 살려!!! #StrayKids #스트레이키즈 #스키즈코드 #SKZCODE #스키지컬8 #SKZ_ical8",
-      "description": "돼끼 살려!!! #StrayKids #스트레이키즈 #스키즈코드 #SKZCODE #스키지컬8 #SKZ_ical8  \n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" now➡️\nhttps://Stray-Kid",
-      "thumbnail": "https://i.ytimg.com/vi/Bzfl9x3JiBc/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/Bzfl9x3JiBc/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/Bzfl9x3JiBc/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/Bzfl9x3JiBc/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/Bzfl9x3JiBc/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/Bzfl9x3JiBc/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-18T03:00:01.000Z",
-      "url": "https://www.youtube.com/watch?v=Bzfl9x3JiBc",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt-tw7iHpr3Nls",
-      "source": {
-        "platform": "youtube",
-        "videoId": "tw7iHpr3Nls",
-        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "stray-kids",
-        "name": "Stray Kids"
-      },
-      "title": "스키지컬: 8 (SKZ-ical: 8)｜[SKZ CODE] Ep.103",
-      "description": "스키지컬: 8 (SKZ-ical: 8)｜[SKZ CODE(스키즈 코드)] Ep.103\n\n✨ English, Japanese, Chinese, Spanish, Indonesian & Thai subtitles are available!\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMI",
-      "thumbnail": "https://i.ytimg.com/vi/tw7iHpr3Nls/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/tw7iHpr3Nls/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/tw7iHpr3Nls/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/tw7iHpr3Nls/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/tw7iHpr3Nls/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/tw7iHpr3Nls/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-17T10:59:56.000Z",
-      "url": "https://www.youtube.com/watch?v=tw7iHpr3Nls",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
       }
     }
   ]
