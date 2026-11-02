@@ -4,8 +4,135 @@
   "uploadsPlaylistId": "UUnUAyD4t2LkvW68YrDh7fDg",
   "artistId": "nmixx",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-01T12:39:41.521Z",
+  "fetchedAt": "2026-11-02T12:53:31.648Z",
   "items": [
+    {
+      "id": "yt-xd63CgLVzI4",
+      "source": {
+        "platform": "youtube",
+        "videoId": "xd63CgLVzI4",
+        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nmixx",
+        "name": "NMIXX"
+      },
+      "title": "돌고래반 학예발표회 준비 모습🐬 | 긴 소원 (Birthday Wish) 안무 연습 비하인드 | Making MIXX",
+      "description": "돌고래반 학예발표회 준비 모습🐬 | 긴 소원 (Birthday Wish) 안무 연습 비하인드 | Making MIXX\n\nNMIXX Official YouTube ▶ https://www.youtube.com/c/NMIXXOfficial \nNMIXX Official X ▶ https://x.com/NMIXX_official\nNMIXX Official X(Members) ▶ https://x.com/WE_NMIXX\nNMIXX Official Instagram ▶ https://www.instagra",
+      "thumbnail": "https://i.ytimg.com/vi/xd63CgLVzI4/fhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/xd63CgLVzI4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/xd63CgLVzI4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/xd63CgLVzI4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/xd63CgLVzI4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/xd63CgLVzI4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "fhd",
+          "url": "https://i.ytimg.com/vi/xd63CgLVzI4/fhddefault.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "publishedAt": "2026-11-02T09:00:13.000Z",
+      "url": "https://www.youtube.com/watch?v=xd63CgLVzI4",
+      "fetchedAt": "2026-11-02T12:53:31.648Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-02T12:53:31.648Z",
+      "type": "other",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
+    },
+    {
+      "id": "yt-aSsUX_79mbo",
+      "source": {
+        "platform": "youtube",
+        "videoId": "aSsUX_79mbo",
+        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nmixx",
+        "name": "NMIXX"
+      },
+      "title": "#AND2BLE #YOOSEUNGEON 위한 긴 소원을 빌게 🐿️°•☁︎⋆🐣 #NMIXX #BAE #긴소원_BirthdayWish",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/aSsUX_79mbo/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/aSsUX_79mbo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/aSsUX_79mbo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/aSsUX_79mbo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/aSsUX_79mbo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/aSsUX_79mbo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-02T07:30:29.000Z",
+      "url": "https://www.youtube.com/watch?v=aSsUX_79mbo",
+      "fetchedAt": "2026-11-02T12:53:31.648Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-02T12:53:31.648Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-8t1EbZRBXDE",
       "source": {
@@ -2922,126 +3049,6 @@
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-22T12:34:00.351Z",
       "type": "teaser",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-yiqwynHS3pc",
-      "source": {
-        "platform": "youtube",
-        "videoId": "yiqwynHS3pc",
-        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nmixx",
-        "name": "NMIXX"
-      },
-      "title": "#TWICE #NAYEON 위한 긴 소원을 빌게 🐰‧₊˚🐨 #NMIXX #LILY #긴소원_BirthdayWish",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/yiqwynHS3pc/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/yiqwynHS3pc/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/yiqwynHS3pc/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/yiqwynHS3pc/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/yiqwynHS3pc/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/yiqwynHS3pc/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-22T07:00:20.000Z",
-      "url": "https://www.youtube.com/watch?v=yiqwynHS3pc",
-      "fetchedAt": "2026-10-22T12:34:00.351Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-22T12:34:00.351Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-PvxbhV-3rp4",
-      "source": {
-        "platform": "youtube",
-        "videoId": "PvxbhV-3rp4",
-        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nmixx",
-        "name": "NMIXX"
-      },
-      "title": "🐶･͛♡･͛🐤 #NMIXX #BAE #JIWOO #긴소원_BirthdayWish",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/PvxbhV-3rp4/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/PvxbhV-3rp4/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/PvxbhV-3rp4/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/PvxbhV-3rp4/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/PvxbhV-3rp4/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/PvxbhV-3rp4/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-22T06:00:08.000Z",
-      "url": "https://www.youtube.com/watch?v=PvxbhV-3rp4",
-      "fetchedAt": "2026-10-22T12:34:00.351Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-22T12:34:00.351Z",
-      "type": "other",
       "category": "other",
       "classification": {
         "method": "fallback",
