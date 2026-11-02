@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUO9GhtdQcCRf67GIdSQ0HNQ",
   "artistId": "xdinary-heroes",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-01T12:39:41.521Z",
+  "fetchedAt": "2026-11-02T04:53:05.231Z",
   "items": [
+    {
+      "id": "yt-kg_CS7t1TVI",
+      "source": {
+        "platform": "youtube",
+        "videoId": "kg_CS7t1TVI",
+        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "xdinary-heroes",
+        "name": "Xdinary Heroes"
+      },
+      "title": "POV. ME when \"OwY\" comes on right after \"Breathe in, Breathe out\"",
+      "description": "POV. ME when \"OwY\" comes on right after \"Breathe in, Breathe out\"\n\n#XdinaryHeroes #엑스디너리히어로즈\n#가온 #Gaon\n#Obsessed_with_Youth",
+      "thumbnail": "https://i.ytimg.com/vi/kg_CS7t1TVI/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/kg_CS7t1TVI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/kg_CS7t1TVI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/kg_CS7t1TVI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/kg_CS7t1TVI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/kg_CS7t1TVI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-02T04:00:25.000Z",
+      "url": "https://www.youtube.com/watch?v=kg_CS7t1TVI",
+      "fetchedAt": "2026-11-02T04:53:05.231Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-02T04:53:05.231Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-cbZNgG4MKOo",
       "source": {
@@ -2945,76 +3005,15 @@
       ],
       "publishedAt": "2026-10-18T03:00:05.000Z",
       "url": "https://www.youtube.com/watch?v=ixZFRpZ10qY",
-      "fetchedAt": "2026-10-18T04:23:25.504Z",
+      "fetchedAt": "2026-11-02T04:53:05.231Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-18T04:23:25.504Z",
+      "lastValidatedAt": "2026-11-02T04:53:05.231Z",
       "type": "other",
       "category": "other",
       "classification": {
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-_6PB4Edu4kM",
-      "source": {
-        "platform": "youtube",
-        "videoId": "_6PB4Edu4kM",
-        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "xdinary-heroes",
-        "name": "Xdinary Heroes"
-      },
-      "title": "Xdinary Heroes \"Obsessed with Youth\" M/V REACTION VIDEO",
-      "description": "Xdinary Heroes \"Obsessed with Youth\" M/V REACTION VIDEO\n\nListen to Xdinary Heroes \"Obsessed with Youth\"\nhttp://Xdinaryheroes.lnk.to/IMPULSE\n\nXdinary Heroes Official YouTube: https://www.youtube.com/c/xdinaryheroesofficial\nXdinary Heroes Official Facebook: https://www.facebook.com",
-      "thumbnail": "https://i.ytimg.com/vi/_6PB4Edu4kM/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/_6PB4Edu4kM/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/_6PB4Edu4kM/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/_6PB4Edu4kM/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/_6PB4Edu4kM/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/_6PB4Edu4kM/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-17T12:00:01.000Z",
-      "url": "https://www.youtube.com/watch?v=_6PB4Edu4kM",
-      "fetchedAt": "2026-11-01T12:39:41.521Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-01T12:39:41.521Z",
-      "type": "music-video",
-      "category": "music",
-      "subcategory": "official-mv",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.97,
-        "ruleId": "official-mv"
       }
     }
   ]
