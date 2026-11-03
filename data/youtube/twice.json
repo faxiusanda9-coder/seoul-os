@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUzgxx_DM2Dcb9Y1spb9mUJA",
   "artistId": "twice",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-03T00:48:20.214Z",
+  "fetchedAt": "2026-11-03T04:46:11.090Z",
   "items": [
+    {
+      "id": "yt-mH4xcn1K_iE",
+      "source": {
+        "platform": "youtube",
+        "videoId": "mH4xcn1K_iE",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "HAPPY ONCE, HAPPY TWICE #ONCE #원스 #TWICE #트와이스#HappyONCEday",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/mH4xcn1K_iE/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/mH4xcn1K_iE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/mH4xcn1K_iE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/mH4xcn1K_iE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/mH4xcn1K_iE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/mH4xcn1K_iE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-03T04:00:14.000Z",
+      "url": "https://www.youtube.com/watch?v=mH4xcn1K_iE",
+      "fetchedAt": "2026-11-03T04:46:11.090Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-03T04:46:11.090Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-8sw_KVuDafs",
       "source": {
@@ -2954,66 +3014,6 @@
       ],
       "publishedAt": "2026-09-21T03:00:18.000Z",
       "url": "https://www.youtube.com/watch?v=h5P5aCqg3qw",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-uZ6wJJiYgFM",
-      "source": {
-        "platform": "youtube",
-        "videoId": "uZ6wJJiYgFM",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "🐰💕 #TWICE #트와이스 #NAYEON #나연",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/uZ6wJJiYgFM/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/uZ6wJJiYgFM/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/uZ6wJJiYgFM/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/uZ6wJJiYgFM/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/uZ6wJJiYgFM/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/uZ6wJJiYgFM/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-20T11:00:33.000Z",
-      "url": "https://www.youtube.com/watch?v=uZ6wJJiYgFM",
       "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-30T00:41:28.144Z",
