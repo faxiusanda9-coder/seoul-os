@@ -4,8 +4,128 @@
   "uploadsPlaylistId": "UUSskmnvIhEy3nSZxxVKTeIg",
   "artistId": "girlset",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-02T00:48:32.388Z",
+  "fetchedAt": "2026-11-03T00:48:20.214Z",
   "items": [
+    {
+      "id": "yt-lvUryCsxS48",
+      "source": {
+        "platform": "youtube",
+        "videoId": "lvUryCsxS48",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "this is the time to be young & dumb #GIRLSET #younganddumb",
+      "description": "Pre-save “young & dumb”: https://girlset.lnk.to/YoungAndDumb\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com",
+      "thumbnail": "https://i.ytimg.com/vi/lvUryCsxS48/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/lvUryCsxS48/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/lvUryCsxS48/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/lvUryCsxS48/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/lvUryCsxS48/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/lvUryCsxS48/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-02T18:12:08.000Z",
+      "url": "https://www.youtube.com/watch?v=lvUryCsxS48",
+      "fetchedAt": "2026-11-03T00:48:20.214Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-03T00:48:20.214Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-NgxN2ZGDiLY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "NgxN2ZGDiLY",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "“that little one” 😃 #GIRLSET #Savanna",
+      "description": "GIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLSET\nGIRLSET Official Facebook: https://www.facebook.com/",
+      "thumbnail": "https://i.ytimg.com/vi/NgxN2ZGDiLY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/NgxN2ZGDiLY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/NgxN2ZGDiLY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/NgxN2ZGDiLY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/NgxN2ZGDiLY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/NgxN2ZGDiLY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-02T16:00:49.000Z",
+      "url": "https://www.youtube.com/watch?v=NgxN2ZGDiLY",
+      "fetchedAt": "2026-11-03T00:48:20.214Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-03T00:48:20.214Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-DII6EiAxeIA",
       "source": {
@@ -1216,9 +1336,9 @@
       ],
       "publishedAt": "2026-10-18T17:48:22.000Z",
       "url": "https://www.youtube.com/watch?v=JtisQYlyJMs",
-      "fetchedAt": "2026-10-19T00:29:33.022Z",
+      "fetchedAt": "2026-11-03T00:48:20.214Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-19T00:29:33.022Z",
+      "lastValidatedAt": "2026-11-03T00:48:20.214Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2936,132 +3056,6 @@
       ],
       "publishedAt": "2026-08-23T19:35:45.000Z",
       "url": "https://www.youtube.com/watch?v=_WVisoVA2YU",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-nFhVsbPjhzY",
-      "source": {
-        "platform": "youtube",
-        "videoId": "nFhVsbPjhzY",
-        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "girlset",
-        "name": "GIRLSET"
-      },
-      "title": "“CHAT” in korea part 3 out now #GIRLSET #CHAT",
-      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/nFhVsbPjhzY/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/nFhVsbPjhzY/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/nFhVsbPjhzY/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/nFhVsbPjhzY/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/nFhVsbPjhzY/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/nFhVsbPjhzY/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-08-23T17:18:44.000Z",
-      "url": "https://www.youtube.com/watch?v=nFhVsbPjhzY",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-NVKAYI3XIhA",
-      "source": {
-        "platform": "youtube",
-        "videoId": "NVKAYI3XIhA",
-        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "girlset",
-        "name": "GIRLSET"
-      },
-      "title": "GIRLSET \"CHAT\" in Korea Part 3",
-      "description": "GIRLSET \"CHAT\" Spotify: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official Website: https://girlset.com\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://www.twitter.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/",
-      "thumbnail": "https://i.ytimg.com/vi/NVKAYI3XIhA/qhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/NVKAYI3XIhA/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/NVKAYI3XIhA/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/NVKAYI3XIhA/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/NVKAYI3XIhA/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/NVKAYI3XIhA/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "qhd",
-          "url": "https://i.ytimg.com/vi/NVKAYI3XIhA/qhddefault.jpg",
-          "width": 2560,
-          "height": 1440
-        }
-      ],
-      "publishedAt": "2026-08-23T17:00:30.000Z",
-      "url": "https://www.youtube.com/watch?v=NVKAYI3XIhA",
       "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-30T00:41:28.144Z",
