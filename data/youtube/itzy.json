@@ -4,8 +4,135 @@
   "uploadsPlaylistId": "UUDhM2k2Cua-JdobAh5moMFg",
   "artistId": "itzy",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-02T12:53:31.648Z",
+  "fetchedAt": "2026-11-03T12:52:17.349Z",
   "items": [
+    {
+      "id": "yt-JD8aepDpzOY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "JD8aepDpzOY",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "ﾟ・*:｡.+ 너무 궁금했던 청사과 왁뿌볼 ASMR 🍏  ﾟ・˚₊· ♡ #ITZY #MIDZY #YUNA #유나",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/JD8aepDpzOY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/JD8aepDpzOY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/JD8aepDpzOY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/JD8aepDpzOY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/JD8aepDpzOY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/JD8aepDpzOY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-03T11:00:16.000Z",
+      "url": "https://www.youtube.com/watch?v=JD8aepDpzOY",
+      "fetchedAt": "2026-11-03T12:52:17.349Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-03T12:52:17.349Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-A4OSdedyF0M",
+      "source": {
+        "platform": "youtube",
+        "videoId": "A4OSdedyF0M",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "[ITZY?ITZY!] EP 274 | Lia Grand Mint Festival 2026",
+      "description": "[ITZY?ITZY!] EP 274 | Lia Grand Mint Festival 2026\n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOfficial\n▶ http://www.facebo",
+      "thumbnail": "https://i.ytimg.com/vi/A4OSdedyF0M/fhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/A4OSdedyF0M/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/A4OSdedyF0M/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/A4OSdedyF0M/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/A4OSdedyF0M/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/A4OSdedyF0M/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "fhd",
+          "url": "https://i.ytimg.com/vi/A4OSdedyF0M/fhddefault.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "publishedAt": "2026-11-03T09:00:14.000Z",
+      "url": "https://www.youtube.com/watch?v=A4OSdedyF0M",
+      "fetchedAt": "2026-11-03T12:52:17.349Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-03T12:52:17.349Z",
+      "type": "other",
+      "category": "variety",
+      "subcategory": "series",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.9,
+        "ruleId": "variety-series"
+      }
+    },
     {
       "id": "yt-wpjuQj6B58s",
       "source": {
@@ -982,9 +1109,9 @@
       ],
       "publishedAt": "2026-10-19T11:30:18.000Z",
       "url": "https://www.youtube.com/watch?v=dUV7pM23L_A",
-      "fetchedAt": "2026-10-19T12:33:52.233Z",
+      "fetchedAt": "2026-11-03T12:52:17.349Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-19T12:33:52.233Z",
+      "lastValidatedAt": "2026-11-03T12:52:17.349Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1042,9 +1169,9 @@
       ],
       "publishedAt": "2026-10-19T10:00:29.000Z",
       "url": "https://www.youtube.com/watch?v=a5L0AuQggOk",
-      "fetchedAt": "2026-10-19T12:33:52.233Z",
+      "fetchedAt": "2026-11-03T12:52:17.349Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-19T12:33:52.233Z",
+      "lastValidatedAt": "2026-11-03T12:52:17.349Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -3004,138 +3131,6 @@
         "method": "rule",
         "confidence": 0.9,
         "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt--EV6geXW6T0",
-      "source": {
-        "platform": "youtube",
-        "videoId": "-EV6geXW6T0",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "ITZY “Sorry Not Sorry” (CONCERT CAM VER.) @ 'TUNNEL VISION' in EUROPE & UK",
-      "description": "ITZY “Sorry Not Sorry” (CONCERT CAM VER.) @ 'TUNNEL VISION' in EUROPE & UK\n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOffi",
-      "thumbnail": "https://i.ytimg.com/vi/-EV6geXW6T0/fhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/-EV6geXW6T0/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/-EV6geXW6T0/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/-EV6geXW6T0/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/-EV6geXW6T0/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/-EV6geXW6T0/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "fhd",
-          "url": "https://i.ytimg.com/vi/-EV6geXW6T0/fhddefault.jpg",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "publishedAt": "2026-09-23T10:00:13.000Z",
-      "url": "https://www.youtube.com/watch?v=-EV6geXW6T0",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-cOqiSOTNPNM",
-      "source": {
-        "platform": "youtube",
-        "videoId": "cOqiSOTNPNM",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "ITZY “Wild Wild West” (CONCERT CAM VER.) @ 'TUNNEL VISION' in EUROPE & UK",
-      "description": "ITZY “Wild Wild West” (CONCERT CAM VER.) @ 'TUNNEL VISION' in EUROPE & UK\n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOffic",
-      "thumbnail": "https://i.ytimg.com/vi/cOqiSOTNPNM/fhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/cOqiSOTNPNM/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/cOqiSOTNPNM/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/cOqiSOTNPNM/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/cOqiSOTNPNM/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/cOqiSOTNPNM/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "fhd",
-          "url": "https://i.ytimg.com/vi/cOqiSOTNPNM/fhddefault.jpg",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "publishedAt": "2026-09-23T10:00:10.000Z",
-      "url": "https://www.youtube.com/watch?v=cOqiSOTNPNM",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
       }
     }
   ]

@@ -4,8 +4,191 @@
   "uploadsPlaylistId": "UUzgxx_DM2Dcb9Y1spb9mUJA",
   "artistId": "twice",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-03T04:46:11.090Z",
+  "fetchedAt": "2026-11-03T12:52:17.349Z",
   "items": [
+    {
+      "id": "yt-zMPXdQkzEcY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "zMPXdQkzEcY",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "트둥의 숲 TDOONG's crossing EP.03 Highlight #2 #TWICE #트와이스#TWICEREALITY #TIMETOTWICE #TTT",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/zMPXdQkzEcY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/zMPXdQkzEcY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/zMPXdQkzEcY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/zMPXdQkzEcY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/zMPXdQkzEcY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/zMPXdQkzEcY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-03T09:31:38.000Z",
+      "url": "https://www.youtube.com/watch?v=zMPXdQkzEcY",
+      "fetchedAt": "2026-11-03T12:52:17.349Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-03T12:52:17.349Z",
+      "type": "other",
+      "category": "variety",
+      "subcategory": "series",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.9,
+        "ruleId": "variety-series"
+      }
+    },
+    {
+      "id": "yt-kss7EqN58Dg",
+      "source": {
+        "platform": "youtube",
+        "videoId": "kss7EqN58Dg",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "트둥의 숲 TDOONG's crossing EP.03 Highlight #1 #TWICE #트와이스#TWICEREALITY #TIMETOTWICE #TTT",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/kss7EqN58Dg/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/kss7EqN58Dg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/kss7EqN58Dg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/kss7EqN58Dg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/kss7EqN58Dg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/kss7EqN58Dg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-03T09:30:00.000Z",
+      "url": "https://www.youtube.com/watch?v=kss7EqN58Dg",
+      "fetchedAt": "2026-11-03T12:52:17.349Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-03T12:52:17.349Z",
+      "type": "other",
+      "category": "variety",
+      "subcategory": "series",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.9,
+        "ruleId": "variety-series"
+      }
+    },
+    {
+      "id": "yt-7R2QUwCk-Js",
+      "source": {
+        "platform": "youtube",
+        "videoId": "7R2QUwCk-Js",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "[TIME TO TWICE] 트둥의 숲 TDOONG's Crossing EP.03",
+      "description": "[TIME TO TWICE] 트둥의 숲 TDOONG's Crossing EP.03\n\n🖥️[NA-sty] Pre-save🖥️\nhttp://NAYEON.Ink.to/NAsty\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twi",
+      "thumbnail": "https://i.ytimg.com/vi/7R2QUwCk-Js/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/7R2QUwCk-Js/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/7R2QUwCk-Js/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/7R2QUwCk-Js/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/7R2QUwCk-Js/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/7R2QUwCk-Js/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-03T09:00:07.000Z",
+      "url": "https://www.youtube.com/watch?v=7R2QUwCk-Js",
+      "fetchedAt": "2026-11-03T12:52:17.349Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-03T12:52:17.349Z",
+      "type": "other",
+      "category": "variety",
+      "subcategory": "series",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.9,
+        "ruleId": "variety-series"
+      }
+    },
     {
       "id": "yt-mH4xcn1K_iE",
       "source": {
@@ -2838,186 +3021,6 @@
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-30T00:41:28.144Z",
       "type": "teaser",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-XmkxstvR5XY",
-      "source": {
-        "platform": "youtube",
-        "videoId": "XmkxstvR5XY",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "다현이 문을 열고 들어와~♥️🚪 #TWICE #트와이스 #DAHYUN #다현",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/XmkxstvR5XY/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/XmkxstvR5XY/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/XmkxstvR5XY/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/XmkxstvR5XY/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/XmkxstvR5XY/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/XmkxstvR5XY/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-23T04:00:14.000Z",
-      "url": "https://www.youtube.com/watch?v=XmkxstvR5XY",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-4R87juS92h0",
-      "source": {
-        "platform": "youtube",
-        "videoId": "4R87juS92h0",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "사시스세소!🤍 #TWICE #트와이스 #DAHYUN #다현",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/4R87juS92h0/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/4R87juS92h0/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/4R87juS92h0/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/4R87juS92h0/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/4R87juS92h0/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/4R87juS92h0/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-23T03:00:14.000Z",
-      "url": "https://www.youtube.com/watch?v=4R87juS92h0",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-h5P5aCqg3qw",
-      "source": {
-        "platform": "youtube",
-        "videoId": "h5P5aCqg3qw",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "pretty girl🩵 #TWICE #트와이스 #NAYEON #나연",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/h5P5aCqg3qw/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/h5P5aCqg3qw/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/h5P5aCqg3qw/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/h5P5aCqg3qw/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/h5P5aCqg3qw/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/h5P5aCqg3qw/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-21T03:00:18.000Z",
-      "url": "https://www.youtube.com/watch?v=h5P5aCqg3qw",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
       "category": "other",
       "classification": {
         "method": "fallback",

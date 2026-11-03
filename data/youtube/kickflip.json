@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUmq9jjpHA69PwAwlA0DwOsg",
   "artistId": "kickflip",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-02T12:53:31.648Z",
+  "fetchedAt": "2026-11-03T12:52:17.349Z",
   "items": [
+    {
+      "id": "yt-CsqCNQ5AASw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "CsqCNQ5AASw",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "天气预报今天有雨🌧️",
+      "description": "#KickFlip #킥플립\n#Donghwa #Keiju",
+      "thumbnail": "https://i.ytimg.com/vi/CsqCNQ5AASw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/CsqCNQ5AASw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/CsqCNQ5AASw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/CsqCNQ5AASw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/CsqCNQ5AASw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/CsqCNQ5AASw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-03T08:00:23.000Z",
+      "url": "https://www.youtube.com/watch?v=CsqCNQ5AASw",
+      "fetchedAt": "2026-11-03T12:52:17.349Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-03T12:52:17.349Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-FEvuj0GDv14",
       "source": {
@@ -1467,7 +1527,7 @@
         "name": "KickFlip"
       },
       "title": "LA를 즐겨LA I KICK OFF THE LA I TEASER",
-      "description": "#KickFlip #킥플립",
+      "description": "#KickFlip #킥플립\n#KICKOFFTHELA",
       "thumbnail": "https://i.ytimg.com/vi/1QhcLfpH9qU/fhddefault.jpg",
       "thumbnails": [
         {
@@ -1509,9 +1569,9 @@
       ],
       "publishedAt": "2026-10-25T11:00:04.000Z",
       "url": "https://www.youtube.com/watch?v=1QhcLfpH9qU",
-      "fetchedAt": "2026-10-25T12:25:52.904Z",
+      "fetchedAt": "2026-11-03T12:52:17.349Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-25T12:25:52.904Z",
+      "lastValidatedAt": "2026-11-03T12:52:17.349Z",
       "type": "teaser",
       "category": "other",
       "classification": {
@@ -2960,66 +3020,6 @@
       "fetchedAt": "2026-10-21T12:32:15.037Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-21T12:32:15.037Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-8-sC7G-JT8k",
-      "source": {
-        "platform": "youtube",
-        "videoId": "8-sC7G-JT8k",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "NEON",
-      "description": "#KickFlip #킥플립 \n#계훈 #Kyehoon\n#동화 #Donghwa",
-      "thumbnail": "https://i.ytimg.com/vi/8-sC7G-JT8k/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/8-sC7G-JT8k/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/8-sC7G-JT8k/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/8-sC7G-JT8k/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/8-sC7G-JT8k/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/8-sC7G-JT8k/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-20T13:30:29.000Z",
-      "url": "https://www.youtube.com/watch?v=8-sC7G-JT8k",
-      "fetchedAt": "2026-10-21T00:30:21.116Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-21T00:30:21.116Z",
       "type": "other",
       "category": "other",
       "classification": {

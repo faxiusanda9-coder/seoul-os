@@ -4,7 +4,7 @@
   "uploadsPlaylistId": "UU9rMiEjNaCSsebs31MRDCRA",
   "artistId": "stray-kids",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-01T12:39:41.521Z",
+  "fetchedAt": "2026-11-03T12:52:17.349Z",
   "items": [
     {
       "id": "yt-CReJVnojbtQ",
@@ -897,9 +897,9 @@
       ],
       "publishedAt": "2026-10-19T11:00:09.000Z",
       "url": "https://www.youtube.com/watch?v=qDFiqYi0sXA",
-      "fetchedAt": "2026-10-19T12:33:52.233Z",
+      "fetchedAt": "2026-11-03T12:52:17.349Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-19T12:33:52.233Z",
+      "lastValidatedAt": "2026-11-03T12:52:17.349Z",
       "type": "other",
       "category": "other",
       "classification": {

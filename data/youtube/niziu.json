@@ -4,7 +4,7 @@
   "uploadsPlaylistId": "UUHp2q2i85qt_9nn2H7AvGOw",
   "artistId": "niziu",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-02T12:53:31.648Z",
+  "fetchedAt": "2026-11-03T12:52:17.349Z",
   "items": [
     {
       "id": "yt-9mqWBFvAMNI",
@@ -936,9 +936,9 @@
       ],
       "publishedAt": "2026-10-19T09:00:11.000Z",
       "url": "https://www.youtube.com/watch?v=frFVqM-pviU",
-      "fetchedAt": "2026-10-19T12:33:52.233Z",
+      "fetchedAt": "2026-11-03T12:52:17.349Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-19T12:33:52.233Z",
+      "lastValidatedAt": "2026-11-03T12:52:17.349Z",
       "type": "other",
       "category": "behind",
       "subcategory": "making",
@@ -997,9 +997,9 @@
       ],
       "publishedAt": "2026-10-19T07:00:21.000Z",
       "url": "https://www.youtube.com/watch?v=GryQQOlwNYQ",
-      "fetchedAt": "2026-10-19T12:33:52.233Z",
+      "fetchedAt": "2026-11-03T12:52:17.349Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-19T12:33:52.233Z",
+      "lastValidatedAt": "2026-11-03T12:52:17.349Z",
       "type": "other",
       "category": "other",
       "classification": {
