@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUDhM2k2Cua-JdobAh5moMFg",
   "artistId": "itzy",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-03T12:52:17.349Z",
+  "fetchedAt": "2026-11-04T12:52:33.548Z",
   "items": [
+    {
+      "id": "yt-sS4hzNPw0sI",
+      "source": {
+        "platform": "youtube",
+        "videoId": "sS4hzNPw0sI",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "𝘠𝘰𝘶 𝘢𝘯𝘥 𝘺𝘰𝘶 𝘢𝘯𝘥 𝘺𝘰𝘶 𝘢𝘯𝘥 𝘺𝘰𝘶 𝘢𝘯𝘥 𝘺𝘰𝘶 ☁️🫵🏻💚 #ITZY #채령 #LovesickChallenge",
+      "description": "💿 ALBUM RELEASE\n2026.11.09 MON 6PM (KST) | 4AM (ET)",
+      "thumbnail": "https://i.ytimg.com/vi/sS4hzNPw0sI/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/sS4hzNPw0sI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/sS4hzNPw0sI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/sS4hzNPw0sI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/sS4hzNPw0sI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/sS4hzNPw0sI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-04T09:00:35.000Z",
+      "url": "https://www.youtube.com/watch?v=sS4hzNPw0sI",
+      "fetchedAt": "2026-11-04T12:52:33.548Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-04T12:52:33.548Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-JD8aepDpzOY",
       "source": {
@@ -1048,9 +1108,9 @@
       ],
       "publishedAt": "2026-10-20T08:59:57.000Z",
       "url": "https://www.youtube.com/watch?v=umepcbYdW_I",
-      "fetchedAt": "2026-10-20T12:31:28.348Z",
+      "fetchedAt": "2026-11-04T12:52:33.548Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-20T12:31:28.348Z",
+      "lastValidatedAt": "2026-11-04T12:52:33.548Z",
       "type": "other",
       "category": "variety",
       "subcategory": "series",
@@ -3064,73 +3124,6 @@
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-e-NubreYmVg",
-      "source": {
-        "platform": "youtube",
-        "videoId": "e-NubreYmVg",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "DaDa-ITZY EP.05 | I’m The Billiards Queen⚡️Stay Focused⚡️",
-      "description": "DaDa-ITZY EP.05 | I’m The Billiards Queen⚡️Stay Focused⚡️\n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOfficial\n▶ http://www",
-      "thumbnail": "https://i.ytimg.com/vi/e-NubreYmVg/fhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/e-NubreYmVg/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/e-NubreYmVg/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/e-NubreYmVg/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/e-NubreYmVg/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/e-NubreYmVg/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "fhd",
-          "url": "https://i.ytimg.com/vi/e-NubreYmVg/fhddefault.jpg",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "publishedAt": "2026-09-24T08:59:59.000Z",
-      "url": "https://www.youtube.com/watch?v=e-NubreYmVg",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
       }
     }
   ]

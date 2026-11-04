@@ -4,8 +4,69 @@
   "uploadsPlaylistId": "UUHp2q2i85qt_9nn2H7AvGOw",
   "artistId": "niziu",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-03T12:52:17.349Z",
+  "fetchedAt": "2026-11-04T12:52:33.548Z",
   "items": [
+    {
+      "id": "yt-n7B49ilLraw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "n7B49ilLraw",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "NiziU(니쥬) \"Sour Grapes\" Music Show Behind #2",
+      "description": "NiziU(니쥬) \"Sour Grapes\" Music Show Behind #2\n\nNiziU(니쥬) Korea 1st Mini Album \"Sour Grapes\"\n2026.09.28 MON 6PM (KST) Release\n\n🎧 https://niziu.lnk.to/SourGrapes\n\nNiziU Official Homepage: https://niziu.com/\nNiziU Official YouTube:    / @niziuofficial  \nNiziU Official Facebook:   / ",
+      "thumbnail": "https://i.ytimg.com/vi/n7B49ilLraw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/n7B49ilLraw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/n7B49ilLraw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/n7B49ilLraw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/n7B49ilLraw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/n7B49ilLraw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-04T11:00:04.000Z",
+      "url": "https://www.youtube.com/watch?v=n7B49ilLraw",
+      "fetchedAt": "2026-11-04T12:52:33.548Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-04T12:52:33.548Z",
+      "type": "other",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
+    },
     {
       "id": "yt-9mqWBFvAMNI",
       "source": {
@@ -875,9 +936,9 @@
       ],
       "publishedAt": "2026-10-20T11:00:28.000Z",
       "url": "https://www.youtube.com/watch?v=CckbCOzQuXM",
-      "fetchedAt": "2026-10-20T12:31:28.348Z",
+      "fetchedAt": "2026-11-04T12:52:33.548Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-20T12:31:28.348Z",
+      "lastValidatedAt": "2026-11-04T12:52:33.548Z",
       "type": "other",
       "category": "behind",
       "subcategory": "making",
@@ -3009,66 +3070,6 @@
         "method": "rule",
         "confidence": 0.95,
         "ruleId": "making"
-      }
-    },
-    {
-      "id": "yt-q0SoYyCq4jM",
-      "source": {
-        "platform": "youtube",
-        "videoId": "q0SoYyCq4jM",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "#SourGrapes with #HWANWOONG @ONEUS 🍇#ONEUS #원어스 #환웅#NiziU #니쥬 #NiziU_SourGrapes",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/q0SoYyCq4jM/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/q0SoYyCq4jM/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/q0SoYyCq4jM/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/q0SoYyCq4jM/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/q0SoYyCq4jM/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/q0SoYyCq4jM/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-10T11:02:23.000Z",
-      "url": "https://www.youtube.com/watch?v=q0SoYyCq4jM",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
       }
     }
   ]

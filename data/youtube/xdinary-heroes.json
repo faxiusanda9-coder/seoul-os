@@ -4,8 +4,69 @@
   "uploadsPlaylistId": "UUO9GhtdQcCRf67GIdSQ0HNQ",
   "artistId": "xdinary-heroes",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-04T04:50:19.807Z",
+  "fetchedAt": "2026-11-04T12:52:33.548Z",
   "items": [
+    {
+      "id": "yt-wzzOH3Fv0Ks",
+      "source": {
+        "platform": "youtube",
+        "videoId": "wzzOH3Fv0Ks",
+        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "xdinary-heroes",
+        "name": "Xdinary Heroes"
+      },
+      "title": "[Xdinary Heroes : Xtra Files] Ep.101 Jungsu & Gaon 〈Marie Claire November Issue〉 Photoshoot Behind",
+      "description": "[Xdinary Heroes : Xtra Files] Ep.101 Jungsu & Gaon 〈Marie Claire November Issue〉 Photoshoot Behind\n\nListen to Xdinary Heroes \"Obsessed with Youth\"\nhttp://Xdinaryheroes.lnk.to/IMPULSE\n\nXdinary Heroes Official YouTube: https://www.youtube.com/c/xdinaryheroesofficial\nXdinary Heroes ",
+      "thumbnail": "https://i.ytimg.com/vi/wzzOH3Fv0Ks/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/wzzOH3Fv0Ks/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/wzzOH3Fv0Ks/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/wzzOH3Fv0Ks/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/wzzOH3Fv0Ks/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/wzzOH3Fv0Ks/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-04T09:00:04.000Z",
+      "url": "https://www.youtube.com/watch?v=wzzOH3Fv0Ks",
+      "fetchedAt": "2026-11-04T12:52:33.548Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-04T12:52:33.548Z",
+      "type": "other",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
+    },
     {
       "id": "yt-4iwM_jnpVyI",
       "source": {
@@ -2825,9 +2886,9 @@
       ],
       "publishedAt": "2026-10-20T10:00:38.000Z",
       "url": "https://www.youtube.com/watch?v=UZDuMgfKvQQ",
-      "fetchedAt": "2026-10-20T12:31:28.348Z",
+      "fetchedAt": "2026-11-04T12:52:33.548Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-20T12:31:28.348Z",
+      "lastValidatedAt": "2026-11-04T12:52:33.548Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2885,9 +2946,9 @@
       ],
       "publishedAt": "2026-10-20T08:00:36.000Z",
       "url": "https://www.youtube.com/watch?v=qLG_JEiSEGs",
-      "fetchedAt": "2026-10-20T12:31:28.348Z",
+      "fetchedAt": "2026-11-04T12:52:33.548Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-20T12:31:28.348Z",
+      "lastValidatedAt": "2026-11-04T12:52:33.548Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2945,69 +3006,9 @@
       ],
       "publishedAt": "2026-10-20T05:00:24.000Z",
       "url": "https://www.youtube.com/watch?v=kTXnTb8_w4c",
-      "fetchedAt": "2026-10-20T12:31:28.348Z",
+      "fetchedAt": "2026-11-04T12:52:33.548Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-20T12:31:28.348Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-KbK8Mh8-LGc",
-      "source": {
-        "platform": "youtube",
-        "videoId": "KbK8Mh8-LGc",
-        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "xdinary-heroes",
-        "name": "Xdinary Heroes"
-      },
-      "title": "Obsessed with #ITZY #리아❤️‍🔥",
-      "description": "Obsessed with #ITZY #리아❤️‍🔥\n\n#XdinaryHeroes #엑스디너리히어로즈\n#LIA\n#Obsessed_with_Youth\n@ITZY",
-      "thumbnail": "https://i.ytimg.com/vi/KbK8Mh8-LGc/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/KbK8Mh8-LGc/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/KbK8Mh8-LGc/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/KbK8Mh8-LGc/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/KbK8Mh8-LGc/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/KbK8Mh8-LGc/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-20T03:30:35.000Z",
-      "url": "https://www.youtube.com/watch?v=KbK8Mh8-LGc",
-      "fetchedAt": "2026-11-04T04:50:19.807Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-04T04:50:19.807Z",
+      "lastValidatedAt": "2026-11-04T12:52:33.548Z",
       "type": "other",
       "category": "other",
       "classification": {
