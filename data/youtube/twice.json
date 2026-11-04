@@ -4,7 +4,7 @@
   "uploadsPlaylistId": "UUzgxx_DM2Dcb9Y1spb9mUJA",
   "artistId": "twice",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-03T12:52:17.349Z",
+  "fetchedAt": "2026-11-04T00:48:57.083Z",
   "items": [
     {
       "id": "yt-zMPXdQkzEcY",
@@ -1385,9 +1385,9 @@
       ],
       "publishedAt": "2026-10-19T15:00:13.000Z",
       "url": "https://www.youtube.com/watch?v=FqLWN-GWtC0",
-      "fetchedAt": "2026-10-20T00:32:23.234Z",
+      "fetchedAt": "2026-11-04T00:48:57.083Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-20T00:32:23.234Z",
+      "lastValidatedAt": "2026-11-04T00:48:57.083Z",
       "type": "other",
       "category": "fan",
       "subcategory": "fan-content",

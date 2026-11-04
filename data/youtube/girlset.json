@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUSskmnvIhEy3nSZxxVKTeIg",
   "artistId": "girlset",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-03T00:48:20.214Z",
+  "fetchedAt": "2026-11-04T00:48:57.083Z",
   "items": [
+    {
+      "id": "yt-65DXZ77tJko",
+      "source": {
+        "platform": "youtube",
+        "videoId": "65DXZ77tJko",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "ready to sing along? “young & dumb” out november 13th #GIRLSET #younganddumb",
+      "description": "Pre-save “young & dumb”: https://girlset.lnk.to/YoungAndDumb\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com",
+      "thumbnail": "https://i.ytimg.com/vi/65DXZ77tJko/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/65DXZ77tJko/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/65DXZ77tJko/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/65DXZ77tJko/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/65DXZ77tJko/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/65DXZ77tJko/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-03T17:06:24.000Z",
+      "url": "https://www.youtube.com/watch?v=65DXZ77tJko",
+      "fetchedAt": "2026-11-04T00:48:57.083Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-04T00:48:57.083Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-lvUryCsxS48",
       "source": {
@@ -1208,9 +1268,9 @@
       ],
       "publishedAt": "2026-10-19T16:10:34.000Z",
       "url": "https://www.youtube.com/watch?v=sJ2UZwKzUuo",
-      "fetchedAt": "2026-10-20T00:32:23.234Z",
+      "fetchedAt": "2026-11-04T00:48:57.083Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-20T00:32:23.234Z",
+      "lastValidatedAt": "2026-11-04T00:48:57.083Z",
       "type": "other",
       "category": "variety",
       "subcategory": "series",
@@ -1275,9 +1335,9 @@
       ],
       "publishedAt": "2026-10-19T16:00:03.000Z",
       "url": "https://www.youtube.com/watch?v=F8-NJ-MPgYo",
-      "fetchedAt": "2026-10-20T00:32:23.234Z",
+      "fetchedAt": "2026-11-04T00:48:57.083Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-20T00:32:23.234Z",
+      "lastValidatedAt": "2026-11-04T00:48:57.083Z",
       "type": "other",
       "category": "variety",
       "subcategory": "series",
@@ -2996,66 +3056,6 @@
       ],
       "publishedAt": "2026-08-24T17:11:01.000Z",
       "url": "https://www.youtube.com/watch?v=1X0Eb74S-24",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-_WVisoVA2YU",
-      "source": {
-        "platform": "youtube",
-        "videoId": "_WVisoVA2YU",
-        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "girlset",
-        "name": "GIRLSET"
-      },
-      "title": "had to throw it back for this one #GIRLSET #CHAT",
-      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/_WVisoVA2YU/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/_WVisoVA2YU/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/_WVisoVA2YU/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/_WVisoVA2YU/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/_WVisoVA2YU/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/_WVisoVA2YU/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-08-23T19:35:45.000Z",
-      "url": "https://www.youtube.com/watch?v=_WVisoVA2YU",
       "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-30T00:41:28.144Z",
