@@ -4,8 +4,129 @@
   "uploadsPlaylistId": "UUDhM2k2Cua-JdobAh5moMFg",
   "artistId": "itzy",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-04T12:52:33.548Z",
+  "fetchedAt": "2026-11-05T12:57:29.787Z",
   "items": [
+    {
+      "id": "yt-0C_RoD_gBEw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "0C_RoD_gBEw",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "𝙩𝙮𝙥𝙚 𝙡𝙤𝙫𝙚❤️ 𝙩𝙮𝙥𝙚 𝙨𝙞𝙘𝙠💔 #ITZY #CHAERYEONG #채령 #Chaeryeong_Lovesick #Shorts",
+      "description": "💿 ALBUM RELEASE\n2026.11.09 MON 6PM (KST) | 4AM (ET)",
+      "thumbnail": "https://i.ytimg.com/vi/0C_RoD_gBEw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/0C_RoD_gBEw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/0C_RoD_gBEw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/0C_RoD_gBEw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/0C_RoD_gBEw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/0C_RoD_gBEw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-05T10:00:13.000Z",
+      "url": "https://www.youtube.com/watch?v=0C_RoD_gBEw",
+      "fetchedAt": "2026-11-05T12:57:29.787Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-05T12:57:29.787Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-yxcShahGkt0",
+      "source": {
+        "platform": "youtube",
+        "videoId": "yxcShahGkt0",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "[Harvestrip] EP.1 | Better Together for Harvesting",
+      "description": "[Harvestrip] EP.1 | Better Together for Harvesting\n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOfficial\n▶ http://www.facebo",
+      "thumbnail": "https://i.ytimg.com/vi/yxcShahGkt0/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/yxcShahGkt0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/yxcShahGkt0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/yxcShahGkt0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/yxcShahGkt0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/yxcShahGkt0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-05T09:00:02.000Z",
+      "url": "https://www.youtube.com/watch?v=yxcShahGkt0",
+      "fetchedAt": "2026-11-05T12:57:29.787Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-05T12:57:29.787Z",
+      "type": "other",
+      "category": "variety",
+      "subcategory": "series",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.9,
+        "ruleId": "variety-series"
+      }
+    },
     {
       "id": "yt-sS4hzNPw0sI",
       "source": {
@@ -1042,9 +1163,9 @@
       ],
       "publishedAt": "2026-10-21T10:00:00.000Z",
       "url": "https://www.youtube.com/watch?v=nLceBSbGJWU",
-      "fetchedAt": "2026-10-21T12:32:15.037Z",
+      "fetchedAt": "2026-11-05T12:57:29.787Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-21T12:32:15.037Z",
+      "lastValidatedAt": "2026-11-05T12:57:29.787Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2988,133 +3109,6 @@
       ],
       "publishedAt": "2026-09-25T11:00:28.000Z",
       "url": "https://www.youtube.com/watch?v=bmq2FDdEJhU",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-HnGUV2dKO5E",
-      "source": {
-        "platform": "youtube",
-        "videoId": "HnGUV2dKO5E",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "[TOUR-LOG] EP08 #YEJI #MACAO | ITZY 3RD WORLD TOUR 'TUNNEL VISION'",
-      "description": "[TOUR-LOG] EP08 #YEJI #MACAO | ITZY 3RD WORLD TOUR 'TUNNEL VISION'\n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOfficial\n▶ h",
-      "thumbnail": "https://i.ytimg.com/vi/HnGUV2dKO5E/fhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/HnGUV2dKO5E/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/HnGUV2dKO5E/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/HnGUV2dKO5E/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/HnGUV2dKO5E/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/HnGUV2dKO5E/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "fhd",
-          "url": "https://i.ytimg.com/vi/HnGUV2dKO5E/fhddefault.jpg",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "publishedAt": "2026-09-25T09:00:04.000Z",
-      "url": "https://www.youtube.com/watch?v=HnGUV2dKO5E",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "behind",
-      "subcategory": "tour-log",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.84,
-        "ruleId": "tour-log"
-      }
-    },
-    {
-      "id": "yt-Pi-SVH_dFRI",
-      "source": {
-        "platform": "youtube",
-        "videoId": "Pi-SVH_dFRI",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "526 Magic 🐈‍⬛🐈🖤 #ITZY #YEJI #예지 #RogerVivier #RogerVivierIndonesia",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/Pi-SVH_dFRI/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/Pi-SVH_dFRI/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/Pi-SVH_dFRI/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/Pi-SVH_dFRI/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/Pi-SVH_dFRI/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/Pi-SVH_dFRI/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-24T15:05:13.000Z",
-      "url": "https://www.youtube.com/watch?v=Pi-SVH_dFRI",
       "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-30T00:41:28.144Z",

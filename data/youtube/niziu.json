@@ -4,8 +4,69 @@
   "uploadsPlaylistId": "UUHp2q2i85qt_9nn2H7AvGOw",
   "artistId": "niziu",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-04T12:52:33.548Z",
+  "fetchedAt": "2026-11-05T12:57:29.787Z",
   "items": [
+    {
+      "id": "yt-mO4cBW9niss",
+      "source": {
+        "platform": "youtube",
+        "videoId": "mO4cBW9niss",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "NiziU(니쥬) \"Lullaby\" Track Video Behind",
+      "description": "NiziU(니쥬) \"Lullaby\" Track Video Behind\n\nNiziU(니쥬) Korea 1st Mini Album \"Sour Grapes\"\n2026.09.28 MON 6PM (KST) Release\n\n🎧 https://niziu.lnk.to/SourGrapes\n\nNiziU Official Homepage: https://niziu.com/\nNiziU Official YouTube:    / @niziuofficial  \nNiziU Official Facebook:   / niziui",
+      "thumbnail": "https://i.ytimg.com/vi/mO4cBW9niss/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/mO4cBW9niss/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/mO4cBW9niss/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/mO4cBW9niss/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/mO4cBW9niss/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/mO4cBW9niss/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-05T11:00:05.000Z",
+      "url": "https://www.youtube.com/watch?v=mO4cBW9niss",
+      "fetchedAt": "2026-11-05T12:57:29.787Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-05T12:57:29.787Z",
+      "type": "other",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
+    },
     {
       "id": "yt-n7B49ilLraw",
       "source": {
@@ -3009,67 +3070,6 @@
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-ZdnRFXT6PW4",
-      "source": {
-        "platform": "youtube",
-        "videoId": "ZdnRFXT6PW4",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "NiziU SEASON’S GREETINGS 2027 “Wash It All Away” BEHIND",
-      "description": "NiziU SEASON’S GREETINGS 2027 “Wash It All Away” BEHIND\n\n商品詳細はこちらから\nhttps://niziu.com/s/n123/page/news?info_type=single&info_id=587077\n\n通信販売サイト\nJYP JAPAN ONLINE STORE : https://jypj-store.com/collections/niziu-official-goods\nSony Music Shop :  https://www.sonymusicshop.jp/goods/n",
-      "thumbnail": "https://i.ytimg.com/vi/ZdnRFXT6PW4/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/ZdnRFXT6PW4/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/ZdnRFXT6PW4/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/ZdnRFXT6PW4/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/ZdnRFXT6PW4/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/ZdnRFXT6PW4/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-11T02:00:26.000Z",
-      "url": "https://www.youtube.com/watch?v=ZdnRFXT6PW4",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "behind",
-      "subcategory": "making",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.95,
-        "ruleId": "making"
       }
     }
   ]

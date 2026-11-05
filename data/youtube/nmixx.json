@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUnUAyD4t2LkvW68YrDh7fDg",
   "artistId": "nmixx",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-04T12:52:33.548Z",
+  "fetchedAt": "2026-11-05T12:57:29.787Z",
   "items": [
+    {
+      "id": "yt-ufuhu3hhOtA",
+      "source": {
+        "platform": "youtube",
+        "videoId": "ufuhu3hhOtA",
+        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nmixx",
+        "name": "NMIXX"
+      },
+      "title": "𝗣𝗮𝘄 𝗣𝗮𝘄 x𐦯 🐾 #NMIXX #SULLYOON #JIWOO #KYUJIN #긴소원_BirthdayWish",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/ufuhu3hhOtA/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/ufuhu3hhOtA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/ufuhu3hhOtA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/ufuhu3hhOtA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/ufuhu3hhOtA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/ufuhu3hhOtA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-05T11:00:00.000Z",
+      "url": "https://www.youtube.com/watch?v=ufuhu3hhOtA",
+      "fetchedAt": "2026-11-05T12:57:29.787Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-05T12:57:29.787Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-CjV2LNNcWRc",
       "source": {
@@ -2988,67 +3048,6 @@
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-csczCaKQMRA",
-      "source": {
-        "platform": "youtube",
-        "videoId": "csczCaKQMRA",
-        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nmixx",
-        "name": "NMIXX"
-      },
-      "title": "•┈୨ 기세와 기합으로 최상급의 응원을 제공합니다 ୧┈• | Strange Agent EP.1 | PICK NMIXX",
-      "description": "•┈୨ 기세와 기합으로 최상급의 응원을 제공합니다 ୧┈• | Strange Agent EP.1 | PICK NMIXX\n\nNMIXX Official YouTube ▶ https://www.youtube.com/c/NMIXXOfficial \nNMIXX Official X ▶ https://x.com/NMIXX_official\nNMIXX Official X(Members) ▶ https://x.com/WE_NMIXX\nNMIXX Official Instagram ▶ https://www.instagram",
-      "thumbnail": "https://i.ytimg.com/vi/csczCaKQMRA/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/csczCaKQMRA/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/csczCaKQMRA/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/csczCaKQMRA/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/csczCaKQMRA/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/csczCaKQMRA/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-23T09:00:36.000Z",
-      "url": "https://www.youtube.com/watch?v=csczCaKQMRA",
-      "fetchedAt": "2026-10-23T12:28:24.051Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-23T12:28:24.051Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
       }
     }
   ]

@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUmq9jjpHA69PwAwlA0DwOsg",
   "artistId": "kickflip",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-03T12:52:17.349Z",
+  "fetchedAt": "2026-11-05T12:57:29.787Z",
   "items": [
+    {
+      "id": "yt-YCKlOt759B8",
+      "source": {
+        "platform": "youtube",
+        "videoId": "YCKlOt759B8",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "Be ready for the trip at 8am (🎥 by KYEHOON 🦊)",
+      "description": "#KickFlip #킥플립\n#KICKOFFTHELA",
+      "thumbnail": "https://i.ytimg.com/vi/YCKlOt759B8/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/YCKlOt759B8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/YCKlOt759B8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/YCKlOt759B8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/YCKlOt759B8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/YCKlOt759B8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-05T11:00:05.000Z",
+      "url": "https://www.youtube.com/watch?v=YCKlOt759B8",
+      "fetchedAt": "2026-11-05T12:57:29.787Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-05T12:57:29.787Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-CsqCNQ5AASw",
       "source": {
@@ -2956,9 +3016,9 @@
       ],
       "publishedAt": "2026-10-21T11:00:15.000Z",
       "url": "https://www.youtube.com/watch?v=uK3YGluoeSc",
-      "fetchedAt": "2026-10-21T12:32:15.037Z",
+      "fetchedAt": "2026-11-05T12:57:29.787Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-21T12:32:15.037Z",
+      "lastValidatedAt": "2026-11-05T12:57:29.787Z",
       "type": "other",
       "category": "variety",
       "subcategory": "series",
@@ -2966,66 +3026,6 @@
         "method": "rule",
         "confidence": 0.9,
         "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt-gksIdmFjkGU",
-      "source": {
-        "platform": "youtube",
-        "videoId": "gksIdmFjkGU",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "뭘 해도 #정일영 교수님은 아름다울 거니까 🎓🖤",
-      "description": "#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1\n#미완성 #Puzzle_Piece",
-      "thumbnail": "https://i.ytimg.com/vi/gksIdmFjkGU/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/gksIdmFjkGU/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/gksIdmFjkGU/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/gksIdmFjkGU/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/gksIdmFjkGU/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/gksIdmFjkGU/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-21T10:00:01.000Z",
-      "url": "https://www.youtube.com/watch?v=gksIdmFjkGU",
-      "fetchedAt": "2026-10-21T12:32:15.037Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-21T12:32:15.037Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
       }
     }
   ]
