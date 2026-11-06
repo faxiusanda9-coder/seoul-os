@@ -4,8 +4,69 @@
   "uploadsPlaylistId": "UUp-pqXsizklX3ZHvLxXyhxw",
   "artistId": "day6",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-05T12:57:29.787Z",
+  "fetchedAt": "2026-11-06T12:53:14.308Z",
   "items": [
+    {
+      "id": "yt-s3iCL4g5_C4",
+      "source": {
+        "platform": "youtube",
+        "videoId": "s3iCL4g5_C4",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "Young K Solo Tour ＜YOUNGEST＞ in BANGKOK Behind",
+      "description": "Young K Solo Tour ＜YOUNGEST＞ in BANGKOK Behind\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY",
+      "thumbnail": "https://i.ytimg.com/vi/s3iCL4g5_C4/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/s3iCL4g5_C4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/s3iCL4g5_C4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/s3iCL4g5_C4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/s3iCL4g5_C4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/s3iCL4g5_C4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-06T09:00:09.000Z",
+      "url": "https://www.youtube.com/watch?v=s3iCL4g5_C4",
+      "fetchedAt": "2026-11-06T12:53:14.308Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-06T12:53:14.308Z",
+      "type": "other",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
+    },
     {
       "id": "yt-8THL9I375ok",
       "source": {
@@ -722,9 +783,9 @@
       ],
       "publishedAt": "2026-10-22T12:00:09.000Z",
       "url": "https://www.youtube.com/watch?v=lyJwyAbgBWw",
-      "fetchedAt": "2026-10-22T12:34:00.351Z",
+      "fetchedAt": "2026-11-06T12:53:14.308Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-22T12:34:00.351Z",
+      "lastValidatedAt": "2026-11-06T12:53:14.308Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -782,9 +843,9 @@
       ],
       "publishedAt": "2026-10-22T11:00:03.000Z",
       "url": "https://www.youtube.com/watch?v=tPfHhOqpY4Q",
-      "fetchedAt": "2026-10-22T12:34:00.351Z",
+      "fetchedAt": "2026-11-06T12:53:14.308Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-22T12:34:00.351Z",
+      "lastValidatedAt": "2026-11-06T12:53:14.308Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2956,67 +3017,6 @@
       ],
       "publishedAt": "2026-09-15T09:07:23.000Z",
       "url": "https://www.youtube.com/watch?v=PzJmRnnCACg",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "fan",
-      "subcategory": "fan-content",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.86,
-        "ruleId": "fan-message"
-      }
-    },
-    {
-      "id": "yt-AJHS9WbC9HE",
-      "source": {
-        "platform": "youtube",
-        "videoId": "AJHS9WbC9HE",
-        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "day6",
-        "name": "DAY6"
-      },
-      "title": "DAY6 5TH FANMEETING 〈EVERY DAY6, EVERY My Day〉 🌌 Sketch Film 📸",
-      "description": "DAY6 5TH FANMEETING\n〈EVERY DAY6, EVERY My Day〉 🌌\n\n#SUNGJIN #성진\n#YoungK #영케이 \nSketch Film 📸\n\n2026.10.23 | 10.24 | 10.25 + Beyond LIVE\n\n@ INSPIRE ARENA\n\n#DAY6 #데이식스\n#MyDay #마이데이\n#DAY6_5TH_FANMEETING\n#EVERY_DAY6_EVERY_My_Day",
-      "thumbnail": "https://i.ytimg.com/vi/AJHS9WbC9HE/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/AJHS9WbC9HE/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/AJHS9WbC9HE/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/AJHS9WbC9HE/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/AJHS9WbC9HE/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/AJHS9WbC9HE/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-14T09:07:37.000Z",
-      "url": "https://www.youtube.com/watch?v=AJHS9WbC9HE",
       "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-30T00:41:28.144Z",
