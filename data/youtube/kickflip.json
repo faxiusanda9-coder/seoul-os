@@ -4,7 +4,7 @@
   "uploadsPlaylistId": "UUmq9jjpHA69PwAwlA0DwOsg",
   "artistId": "kickflip",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-05T12:57:29.787Z",
+  "fetchedAt": "2026-11-06T00:52:45.796Z",
   "items": [
     {
       "id": "yt-YCKlOt759B8",
@@ -2950,9 +2950,9 @@
       ],
       "publishedAt": "2026-10-21T13:00:01.000Z",
       "url": "https://www.youtube.com/watch?v=tpuq4EHty_o",
-      "fetchedAt": "2026-10-22T00:31:01.341Z",
+      "fetchedAt": "2026-11-06T00:52:45.796Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-22T00:31:01.341Z",
+      "lastValidatedAt": "2026-11-06T00:52:45.796Z",
       "type": "other",
       "category": "other",
       "classification": {
