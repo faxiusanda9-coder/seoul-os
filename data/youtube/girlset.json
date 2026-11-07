@@ -4,8 +4,128 @@
   "uploadsPlaylistId": "UUSskmnvIhEy3nSZxxVKTeIg",
   "artistId": "girlset",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-06T00:52:45.796Z",
+  "fetchedAt": "2026-11-07T00:48:41.383Z",
   "items": [
+    {
+      "id": "yt-YTFoOhKl75A",
+      "source": {
+        "platform": "youtube",
+        "videoId": "YTFoOhKl75A",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "tongue tied, so tan, like my favorite show #GIRLSET #Savanna #Camila #younganddumb",
+      "description": "Pre-save “young & dumb”: https://girlset.lnk.to/YoungAndDumb\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com",
+      "thumbnail": "https://i.ytimg.com/vi/YTFoOhKl75A/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/YTFoOhKl75A/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/YTFoOhKl75A/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/YTFoOhKl75A/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/YTFoOhKl75A/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/YTFoOhKl75A/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-06T20:26:58.000Z",
+      "url": "https://www.youtube.com/watch?v=YTFoOhKl75A",
+      "fetchedAt": "2026-11-07T00:48:41.383Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-07T00:48:41.383Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-vHt4Ja4ugcI",
+      "source": {
+        "platform": "youtube",
+        "videoId": "vHt4Ja4ugcI",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "cutesy duo version of the choreo for you #GIRLSET #Lexi #Kendall #younganddumb",
+      "description": "Pre-save “young & dumb”: https://girlset.lnk.to/YoungAndDumb\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com",
+      "thumbnail": "https://i.ytimg.com/vi/vHt4Ja4ugcI/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/vHt4Ja4ugcI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/vHt4Ja4ugcI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/vHt4Ja4ugcI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/vHt4Ja4ugcI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/vHt4Ja4ugcI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-06T17:05:54.000Z",
+      "url": "https://www.youtube.com/watch?v=vHt4Ja4ugcI",
+      "fetchedAt": "2026-11-07T00:48:41.383Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-07T00:48:41.383Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-hBfOBe61ZPw",
       "source": {
@@ -1208,9 +1328,9 @@
       ],
       "publishedAt": "2026-10-22T16:11:42.000Z",
       "url": "https://www.youtube.com/watch?v=c8ihXqVOYQE",
-      "fetchedAt": "2026-10-23T00:32:27.609Z",
+      "fetchedAt": "2026-11-07T00:48:41.383Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-23T00:32:27.609Z",
+      "lastValidatedAt": "2026-11-07T00:48:41.383Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2936,126 +3056,6 @@
       ],
       "publishedAt": "2026-08-26T16:42:48.000Z",
       "url": "https://www.youtube.com/watch?v=4FOUNmOvV7M",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-XbLpdu1aBws",
-      "source": {
-        "platform": "youtube",
-        "videoId": "XbLpdu1aBws",
-        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "girlset",
-        "name": "GIRLSET"
-      },
-      "title": "had to throw on the shoes 🩰 for @ADÉLAJERGOVÁ #GIRLSET #Kendall #Lexi",
-      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/XbLpdu1aBws/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/XbLpdu1aBws/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/XbLpdu1aBws/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/XbLpdu1aBws/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/XbLpdu1aBws/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/XbLpdu1aBws/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-08-25T22:39:34.000Z",
-      "url": "https://www.youtube.com/watch?v=XbLpdu1aBws",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-NZ8Ur_3HYnU",
-      "source": {
-        "platform": "youtube",
-        "videoId": "NZ8Ur_3HYnU",
-        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "girlset",
-        "name": "GIRLSET"
-      },
-      "title": "how it looks vs. how it feels #GIRLSET #Lexi #Savanna #CHAT",
-      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/NZ8Ur_3HYnU/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/NZ8Ur_3HYnU/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/NZ8Ur_3HYnU/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/NZ8Ur_3HYnU/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/NZ8Ur_3HYnU/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/NZ8Ur_3HYnU/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-08-25T17:07:13.000Z",
-      "url": "https://www.youtube.com/watch?v=NZ8Ur_3HYnU",
       "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-30T00:41:28.144Z",
