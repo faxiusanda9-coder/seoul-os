@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UU-o9yrZxu5Ru-DVGhnmeTug",
   "artistId": "nexz",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-07T00:48:41.383Z",
+  "fetchedAt": "2026-11-07T12:40:13.053Z",
   "items": [
+    {
+      "id": "yt-PT_xbWYkJI0",
+      "source": {
+        "platform": "youtube",
+        "videoId": "PT_xbWYkJI0",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "흐린 기억 속의 🐧🦌 | #TOMOYA #SEITA",
+      "description": "#NEXZ #TOMOYA #SEITA\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
+      "thumbnail": "https://i.ytimg.com/vi/PT_xbWYkJI0/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/PT_xbWYkJI0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/PT_xbWYkJI0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/PT_xbWYkJI0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/PT_xbWYkJI0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/PT_xbWYkJI0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-07T06:00:14.000Z",
+      "url": "https://www.youtube.com/watch?v=PT_xbWYkJI0",
+      "fetchedAt": "2026-11-07T12:40:13.053Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-07T12:40:13.053Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-2quetSE3gwo",
       "source": {
@@ -1781,9 +1841,9 @@
       ],
       "publishedAt": "2026-10-23T11:00:01.000Z",
       "url": "https://www.youtube.com/watch?v=g7uE_d5ES1g",
-      "fetchedAt": "2026-10-23T12:28:24.051Z",
+      "fetchedAt": "2026-11-07T12:40:13.053Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-23T12:28:24.051Z",
+      "lastValidatedAt": "2026-11-07T12:40:13.053Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1841,9 +1901,9 @@
       ],
       "publishedAt": "2026-10-23T09:00:07.000Z",
       "url": "https://www.youtube.com/watch?v=sBqGn7UvqnY",
-      "fetchedAt": "2026-10-23T12:28:24.051Z",
+      "fetchedAt": "2026-11-07T12:40:13.053Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-23T12:28:24.051Z",
+      "lastValidatedAt": "2026-11-07T12:40:13.053Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2903,66 +2963,6 @@
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-02T00:48:32.388Z",
       "type": "performance",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-dQYerDHYTh0",
-      "source": {
-        "platform": "youtube",
-        "videoId": "dQYerDHYTh0",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "𝐃-𝟏 | #NEXZ",
-      "description": "NEXZ 1ST ASIA TOUR [SAUCIN' THE WORLD]\n2026.10.17-18 @ OLYMPIC HALL\n\n#NEXZ\n#SAUCIN_THE_WORLD_IN_SEOUL\n#NEXZ_ASIA_TOUR\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
-      "thumbnail": "https://i.ytimg.com/vi/dQYerDHYTh0/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/dQYerDHYTh0/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/dQYerDHYTh0/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/dQYerDHYTh0/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/dQYerDHYTh0/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/dQYerDHYTh0/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-16T14:00:21.000Z",
-      "url": "https://www.youtube.com/watch?v=dQYerDHYTh0",
-      "fetchedAt": "2026-11-01T00:47:09.447Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-01T00:47:09.447Z",
-      "type": "other",
       "category": "other",
       "classification": {
         "method": "fallback",

@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UU9rMiEjNaCSsebs31MRDCRA",
   "artistId": "stray-kids",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-06T12:53:14.308Z",
+  "fetchedAt": "2026-11-07T12:40:13.053Z",
   "items": [
+    {
+      "id": "yt-vGg-TH2by2w",
+      "source": {
+        "platform": "youtube",
+        "videoId": "vGg-TH2by2w",
+        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "stray-kids",
+        "name": "Stray Kids"
+      },
+      "title": "타쿠타쿠 챠오 (՞• ̫ •՞) #StrayKids #스트레이키즈 #YouMakeStrayKidsStay",
+      "description": "타쿠타쿠 챠오 (՞• ̫ •՞) #StrayKids #스트레이키즈 #YouMakeStrayKidsStay\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" now➡️\nhttps://Stray-Kids.lnk",
+      "thumbnail": "https://i.ytimg.com/vi/vGg-TH2by2w/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/vGg-TH2by2w/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/vGg-TH2by2w/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/vGg-TH2by2w/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/vGg-TH2by2w/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/vGg-TH2by2w/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-07T06:00:08.000Z",
+      "url": "https://www.youtube.com/watch?v=vGg-TH2by2w",
+      "fetchedAt": "2026-11-07T12:40:13.053Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-07T12:40:13.053Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-cfxxSsojp6A",
       "source": {
@@ -2957,66 +3017,6 @@
       ],
       "publishedAt": "2026-09-21T12:00:01.000Z",
       "url": "https://www.youtube.com/watch?v=BL5RBogL9CE",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-uvcpylgYDSU",
-      "source": {
-        "platform": "youtube",
-        "videoId": "uvcpylgYDSU",
-        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "stray-kids",
-        "name": "Stray Kids"
-      },
-      "title": "Felix \"다시 사랑한다 말할까\" Cover (원곡 : 김동률) | [Stray Kids : SKZ-RECORD]",
-      "description": "필릭스(Felix) \"다시 사랑한다 말할까\" Cover (원곡 : 김동률) | [Stray Kids(스트레이 키즈) : SKZ-RECORD(슼즈 레코드)]\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" ",
-      "thumbnail": "https://i.ytimg.com/vi/uvcpylgYDSU/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/uvcpylgYDSU/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/uvcpylgYDSU/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/uvcpylgYDSU/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/uvcpylgYDSU/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/uvcpylgYDSU/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-20T12:59:58.000Z",
-      "url": "https://www.youtube.com/watch?v=uvcpylgYDSU",
       "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-30T00:41:28.144Z",

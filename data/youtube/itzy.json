@@ -4,8 +4,134 @@
   "uploadsPlaylistId": "UUDhM2k2Cua-JdobAh5moMFg",
   "artistId": "itzy",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-07T04:45:35.217Z",
+  "fetchedAt": "2026-11-07T12:40:13.053Z",
   "items": [
+    {
+      "id": "yt-LvUuHe5XCrg",
+      "source": {
+        "platform": "youtube",
+        "videoId": "LvUuHe5XCrg",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "#로잘린 님과 #채령 의 #LovesickChallenge 는 사랑인 걸 ॱ˚ʚ♥ɞ˚ॱ#ITZY #CHAERYEONG #Chaeryeong_Lovesick #Shorts",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/LvUuHe5XCrg/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/LvUuHe5XCrg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/LvUuHe5XCrg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/LvUuHe5XCrg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/LvUuHe5XCrg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/LvUuHe5XCrg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-07T10:00:29.000Z",
+      "url": "https://www.youtube.com/watch?v=LvUuHe5XCrg",
+      "fetchedAt": "2026-11-07T12:40:13.053Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-07T12:40:13.053Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-zSj2y19wmQ4",
+      "source": {
+        "platform": "youtube",
+        "videoId": "zSj2y19wmQ4",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "[공식] 채령 선생님의 DO IT LIKE A PRO! | #LovesickChallenge CLASS",
+      "description": "[공식] 채령 선생님의 DO IT LIKE A PRO! | #LovesickChallenge CLASS\n\nCHAERYEONG 'Lovesick'\nhttp://CHAERYEONG.lnk.to/Lovesick\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOffi",
+      "thumbnail": "https://i.ytimg.com/vi/zSj2y19wmQ4/fhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/zSj2y19wmQ4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/zSj2y19wmQ4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/zSj2y19wmQ4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/zSj2y19wmQ4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/zSj2y19wmQ4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "fhd",
+          "url": "https://i.ytimg.com/vi/zSj2y19wmQ4/fhddefault.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "publishedAt": "2026-11-07T08:59:56.000Z",
+      "url": "https://www.youtube.com/watch?v=zSj2y19wmQ4",
+      "fetchedAt": "2026-11-07T12:40:13.053Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-07T12:40:13.053Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-JjeujWCnJ14",
       "source": {
@@ -1044,9 +1170,9 @@
       ],
       "publishedAt": "2026-10-23T10:15:13.000Z",
       "url": "https://www.youtube.com/watch?v=zAiOmQeZLdM",
-      "fetchedAt": "2026-10-23T12:28:24.051Z",
+      "fetchedAt": "2026-11-07T12:40:13.053Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-23T12:28:24.051Z",
+      "lastValidatedAt": "2026-11-07T12:40:13.053Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1104,9 +1230,9 @@
       ],
       "publishedAt": "2026-10-23T10:00:22.000Z",
       "url": "https://www.youtube.com/watch?v=oI7YS_nOuzI",
-      "fetchedAt": "2026-10-23T12:28:24.051Z",
+      "fetchedAt": "2026-11-07T12:40:13.053Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-23T12:28:24.051Z",
+      "lastValidatedAt": "2026-11-07T12:40:13.053Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2997,134 +3123,6 @@
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-XzXpGHNvHm0",
-      "source": {
-        "platform": "youtube",
-        "videoId": "XzXpGHNvHm0",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "[ITZY?ITZY!] EP 269 | Yeji Roger Vivier Singapore",
-      "description": "[ITZY?ITZY!] EP 269 | Yeji Roger Vivier Singapore\n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOfficial\n▶ http://www.faceboo",
-      "thumbnail": "https://i.ytimg.com/vi/XzXpGHNvHm0/fhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/XzXpGHNvHm0/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/XzXpGHNvHm0/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/XzXpGHNvHm0/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/XzXpGHNvHm0/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/XzXpGHNvHm0/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "fhd",
-          "url": "https://i.ytimg.com/vi/XzXpGHNvHm0/fhddefault.jpg",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "publishedAt": "2026-09-29T08:59:57.000Z",
-      "url": "https://www.youtube.com/watch?v=XzXpGHNvHm0",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt-x7VfNo43Bq8",
-      "source": {
-        "platform": "youtube",
-        "videoId": "x7VfNo43Bq8",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "mini-log 🐈‍⬛🖤 #ITZY #YEJI #예지 #RogerVivier #RogerVivierIndonesia",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/x7VfNo43Bq8/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/x7VfNo43Bq8/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/x7VfNo43Bq8/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/x7VfNo43Bq8/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/x7VfNo43Bq8/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/x7VfNo43Bq8/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-28T15:13:08.000Z",
-      "url": "https://www.youtube.com/watch?v=x7VfNo43Bq8",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
       }
     }
   ]

@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUHp2q2i85qt_9nn2H7AvGOw",
   "artistId": "niziu",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-07T04:45:35.217Z",
+  "fetchedAt": "2026-11-07T12:40:13.053Z",
   "items": [
+    {
+      "id": "yt-mqy0NK0NGbM",
+      "source": {
+        "platform": "youtube",
+        "videoId": "mqy0NK0NGbM",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "天气很晴～☀️#RIKU#NiziU",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/mqy0NK0NGbM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/mqy0NK0NGbM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/mqy0NK0NGbM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/mqy0NK0NGbM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/mqy0NK0NGbM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/mqy0NK0NGbM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-07T10:00:31.000Z",
+      "url": "https://www.youtube.com/watch?v=mqy0NK0NGbM",
+      "fetchedAt": "2026-11-07T12:40:13.053Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-07T12:40:13.053Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-9bSChsRv5gU",
       "source": {
@@ -816,9 +876,9 @@
       ],
       "publishedAt": "2026-10-23T11:00:12.000Z",
       "url": "https://www.youtube.com/watch?v=M4BmPAW65JY",
-      "fetchedAt": "2026-10-23T12:28:24.051Z",
+      "fetchedAt": "2026-11-07T12:40:13.053Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-23T12:28:24.051Z",
+      "lastValidatedAt": "2026-11-07T12:40:13.053Z",
       "type": "other",
       "category": "behind",
       "subcategory": "making",
@@ -3007,66 +3067,6 @@
       ],
       "publishedAt": "2026-10-11T09:00:22.000Z",
       "url": "https://www.youtube.com/watch?v=wrfxL8zt2GM",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-1AHvpgXLSws",
-      "source": {
-        "platform": "youtube",
-        "videoId": "1AHvpgXLSws",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "Sour Grapes 👀",
-      "description": "#NiziU #니쥬\n#SourGrapes\n#NiziU_SourGrapes",
-      "thumbnail": "https://i.ytimg.com/vi/1AHvpgXLSws/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/1AHvpgXLSws/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/1AHvpgXLSws/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/1AHvpgXLSws/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/1AHvpgXLSws/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/1AHvpgXLSws/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-11T06:00:31.000Z",
-      "url": "https://www.youtube.com/watch?v=1AHvpgXLSws",
       "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-30T00:41:28.144Z",
