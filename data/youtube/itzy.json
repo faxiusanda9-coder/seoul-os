@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUDhM2k2Cua-JdobAh5moMFg",
   "artistId": "itzy",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-08T00:48:42.261Z",
+  "fetchedAt": "2026-11-08T04:46:41.877Z",
   "items": [
+    {
+      "id": "yt-3HfosCP17Nw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "3HfosCP17Nw",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "예상 못한 #커스틴 님과의 #LovesickChallenge 에 𝙛𝙧𝙚𝙚𝙯𝙚 ⏰ #ITZY #CHAERYEONG #채령 #Shorts @KirstenDodgenn",
+      "description": "💿 CHAERYEONG ‘Lovesick’ RELEASE\n2026.11.09 MON 6PM (KST) | 4AM (ET)",
+      "thumbnail": "https://i.ytimg.com/vi/3HfosCP17Nw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/3HfosCP17Nw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/3HfosCP17Nw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/3HfosCP17Nw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/3HfosCP17Nw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/3HfosCP17Nw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-08T04:00:39.000Z",
+      "url": "https://www.youtube.com/watch?v=3HfosCP17Nw",
+      "fetchedAt": "2026-11-08T04:46:41.877Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-08T04:46:41.877Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-LvUuHe5XCrg",
       "source": {
@@ -3054,66 +3114,6 @@
       ],
       "publishedAt": "2026-09-30T11:00:25.000Z",
       "url": "https://www.youtube.com/watch?v=85oRrV7juhk",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-zzEq9ByNZ5o",
-      "source": {
-        "platform": "youtube",
-        "videoId": "zzEq9ByNZ5o",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "우리 셋이 길을 걸을 때 ⸜( ˙ ˘ ˙)⸝♡ #ITZY #MIDZY #YEJI #예지 #LIA #리아 #RYUJIN #류진 #shorts",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/zzEq9ByNZ5o/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/zzEq9ByNZ5o/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/zzEq9ByNZ5o/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/zzEq9ByNZ5o/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/zzEq9ByNZ5o/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/zzEq9ByNZ5o/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-29T11:00:21.000Z",
-      "url": "https://www.youtube.com/watch?v=zzEq9ByNZ5o",
       "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-30T00:41:28.144Z",
