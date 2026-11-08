@@ -4,8 +4,129 @@
   "uploadsPlaylistId": "UUmq9jjpHA69PwAwlA0DwOsg",
   "artistId": "kickflip",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-08T00:48:42.261Z",
+  "fetchedAt": "2026-11-08T12:39:23.467Z",
   "items": [
+    {
+      "id": "yt-g_thQ5IhpKQ",
+      "source": {
+        "platform": "youtube",
+        "videoId": "g_thQ5IhpKQ",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "[KickFlip B-roll] “Kick Off The Wall” Recording Behind",
+      "description": "#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1",
+      "thumbnail": "https://i.ytimg.com/vi/g_thQ5IhpKQ/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/g_thQ5IhpKQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/g_thQ5IhpKQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/g_thQ5IhpKQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/g_thQ5IhpKQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/g_thQ5IhpKQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-08T11:00:14.000Z",
+      "url": "https://www.youtube.com/watch?v=g_thQ5IhpKQ",
+      "fetchedAt": "2026-11-08T12:39:23.467Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-08T12:39:23.467Z",
+      "type": "other",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
+    },
+    {
+      "id": "yt-P6kFqg9GP6w",
+      "source": {
+        "platform": "youtube",
+        "videoId": "P6kFqg9GP6w",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "🍭🍬💥",
+      "description": "#KickFlip #킥플립\n#Juwang #Minje",
+      "thumbnail": "https://i.ytimg.com/vi/P6kFqg9GP6w/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/P6kFqg9GP6w/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/P6kFqg9GP6w/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/P6kFqg9GP6w/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/P6kFqg9GP6w/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/P6kFqg9GP6w/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-08T09:00:38.000Z",
+      "url": "https://www.youtube.com/watch?v=P6kFqg9GP6w",
+      "fetchedAt": "2026-11-08T12:39:23.467Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-08T12:39:23.467Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-BTA5woB3A0Y",
       "source": {
@@ -2235,9 +2356,9 @@
       ],
       "publishedAt": "2026-10-24T12:00:00.000Z",
       "url": "https://www.youtube.com/watch?v=wLg8f2Xs42Y",
-      "fetchedAt": "2026-10-24T12:26:18.943Z",
+      "fetchedAt": "2026-11-08T12:39:23.467Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-24T12:26:18.943Z",
+      "lastValidatedAt": "2026-11-08T12:39:23.467Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2295,9 +2416,9 @@
       ],
       "publishedAt": "2026-10-24T11:00:35.000Z",
       "url": "https://www.youtube.com/watch?v=Rsgi1v--03M",
-      "fetchedAt": "2026-10-24T12:26:18.943Z",
+      "fetchedAt": "2026-11-08T12:39:23.467Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-24T12:26:18.943Z",
+      "lastValidatedAt": "2026-11-08T12:39:23.467Z",
       "type": "other",
       "category": "behind",
       "subcategory": "making",
@@ -2356,9 +2477,9 @@
       ],
       "publishedAt": "2026-10-24T08:30:39.000Z",
       "url": "https://www.youtube.com/watch?v=xPGhtxjbWnM",
-      "fetchedAt": "2026-10-24T12:26:18.943Z",
+      "fetchedAt": "2026-11-08T12:39:23.467Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-24T12:26:18.943Z",
+      "lastValidatedAt": "2026-11-08T12:39:23.467Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2416,9 +2537,9 @@
       ],
       "publishedAt": "2026-10-24T08:00:36.000Z",
       "url": "https://www.youtube.com/watch?v=aeXcXXwNXpw",
-      "fetchedAt": "2026-10-24T12:26:18.943Z",
+      "fetchedAt": "2026-11-08T12:39:23.467Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-24T12:26:18.943Z",
+      "lastValidatedAt": "2026-11-08T12:39:23.467Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2476,9 +2597,9 @@
       ],
       "publishedAt": "2026-10-24T07:00:23.000Z",
       "url": "https://www.youtube.com/watch?v=WgghSNr4fKo",
-      "fetchedAt": "2026-10-24T12:26:18.943Z",
+      "fetchedAt": "2026-11-08T12:39:23.467Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-24T12:26:18.943Z",
+      "lastValidatedAt": "2026-11-08T12:39:23.467Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2896,126 +3017,6 @@
       ],
       "publishedAt": "2026-10-22T11:00:05.000Z",
       "url": "https://www.youtube.com/watch?v=pPjlmQJcRMk",
-      "fetchedAt": "2026-11-06T12:53:14.308Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-06T12:53:14.308Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-qu73eCl0Wh4",
-      "source": {
-        "platform": "youtube",
-        "videoId": "qu73eCl0Wh4",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "OKAYYYY",
-      "description": "#KickFlip #킥플립\n#Kyehoon #Donghwa",
-      "thumbnail": "https://i.ytimg.com/vi/qu73eCl0Wh4/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/qu73eCl0Wh4/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/qu73eCl0Wh4/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/qu73eCl0Wh4/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/qu73eCl0Wh4/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/qu73eCl0Wh4/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-22T10:00:12.000Z",
-      "url": "https://www.youtube.com/watch?v=qu73eCl0Wh4",
-      "fetchedAt": "2026-11-06T12:53:14.308Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-06T12:53:14.308Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-0lVWH99XE9g",
-      "source": {
-        "platform": "youtube",
-        "videoId": "0lVWH99XE9g",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "I’m movin’ through with #조혜진 님 🎂",
-      "description": "#KickFlip #킥플립\n#OURBIRTHDAY #아워벌스데이\n#KICKOFFTHEWALL_Pt1\n#KickOffTheWall\n\n@OURBIRTHDAY",
-      "thumbnail": "https://i.ytimg.com/vi/0lVWH99XE9g/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/0lVWH99XE9g/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/0lVWH99XE9g/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/0lVWH99XE9g/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/0lVWH99XE9g/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/0lVWH99XE9g/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-22T09:14:53.000Z",
-      "url": "https://www.youtube.com/watch?v=0lVWH99XE9g",
       "fetchedAt": "2026-11-06T12:53:14.308Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-06T12:53:14.308Z",
