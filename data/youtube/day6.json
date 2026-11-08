@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUp-pqXsizklX3ZHvLxXyhxw",
   "artistId": "day6",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-06T12:53:14.308Z",
+  "fetchedAt": "2026-11-08T00:48:42.261Z",
   "items": [
+    {
+      "id": "yt-Ckjr4pc4nZw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Ckjr4pc4nZw",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "에헤라 헤이야〰️ 얼씨구나 늴리리야〰️ 이거 강영현 이모지야🤴",
+      "description": "에헤라 헤이야〰️ 얼씨구나 늴리리야〰️ 이거 강영현 이모지야🤴\n\n#DAY6 #데이식스\n#YoungK #영케이\n#KGMA #2026KGMA",
+      "thumbnail": "https://i.ytimg.com/vi/Ckjr4pc4nZw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Ckjr4pc4nZw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Ckjr4pc4nZw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Ckjr4pc4nZw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Ckjr4pc4nZw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Ckjr4pc4nZw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-07T14:08:59.000Z",
+      "url": "https://www.youtube.com/watch?v=Ckjr4pc4nZw",
+      "fetchedAt": "2026-11-08T00:48:42.261Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-08T00:48:42.261Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-s3iCL4g5_C4",
       "source": {
@@ -2966,67 +3026,6 @@
         "method": "rule",
         "confidence": 0.9,
         "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt-PzJmRnnCACg",
-      "source": {
-        "platform": "youtube",
-        "videoId": "PzJmRnnCACg",
-        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "day6",
-        "name": "DAY6"
-      },
-      "title": "DAY6 5TH FANMEETING 〈EVERY DAY6, EVERY My Day〉 🌌 Sketch Film 📸",
-      "description": "DAY6 5TH FANMEETING\n〈EVERY DAY6, EVERY My Day〉 🌌\n\n#WONPIL #원필\n#DOWOON #도운 \nSketch Film 📸\n\n2026.10.23 | 10.24 | 10.25 + Beyond LIVE\n\n@ INSPIRE ARENA\n\n#DAY6 #데이식스\n#MyDay #마이데이\n#DAY6_5TH_FANMEETING\n#EVERY_DAY6_EVERY_My_Day",
-      "thumbnail": "https://i.ytimg.com/vi/PzJmRnnCACg/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/PzJmRnnCACg/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/PzJmRnnCACg/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/PzJmRnnCACg/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/PzJmRnnCACg/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/PzJmRnnCACg/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-15T09:07:23.000Z",
-      "url": "https://www.youtube.com/watch?v=PzJmRnnCACg",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "fan",
-      "subcategory": "fan-content",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.86,
-        "ruleId": "fan-message"
       }
     }
   ]

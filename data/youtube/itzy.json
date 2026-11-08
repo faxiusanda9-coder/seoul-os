@@ -4,7 +4,7 @@
   "uploadsPlaylistId": "UUDhM2k2Cua-JdobAh5moMFg",
   "artistId": "itzy",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-07T12:40:13.053Z",
+  "fetchedAt": "2026-11-08T00:48:42.261Z",
   "items": [
     {
       "id": "yt-LvUuHe5XCrg",
@@ -1110,9 +1110,9 @@
       ],
       "publishedAt": "2026-10-23T12:44:44.000Z",
       "url": "https://www.youtube.com/watch?v=6fmyWuopHOw",
-      "fetchedAt": "2026-10-24T00:35:16.435Z",
+      "fetchedAt": "2026-11-08T00:48:42.261Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-24T00:35:16.435Z",
+      "lastValidatedAt": "2026-11-08T00:48:42.261Z",
       "type": "other",
       "category": "other",
       "classification": {
