@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUDhM2k2Cua-JdobAh5moMFg",
   "artistId": "itzy",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-09T00:51:09.670Z",
+  "fetchedAt": "2026-11-09T04:57:14.282Z",
   "items": [
+    {
+      "id": "yt-AOLZg2xOtOs",
+      "source": {
+        "platform": "youtube",
+        "videoId": "AOLZg2xOtOs",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "#채령 이가 직접 해본 Lovesick 이상형 테스트 💌 #ITZY #MIDZY #CHAERYEONG #Chaeryeong_Lovesick #Shorts",
+      "description": "믿지에게 도착한 편지 속 채령이는 누구일까요?\n\n프로필 링크를 통해 테스트 참여해보고\n결과를 댓글로 알려주세요!\n\n✨ 운영 기간: ~ 11/22(일) 23:59 (KST)\n\n#ITZY #MIDZY #채령 #CHAERYEONG #Chaeryeong_Lovesick",
+      "thumbnail": "https://i.ytimg.com/vi/AOLZg2xOtOs/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/AOLZg2xOtOs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/AOLZg2xOtOs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/AOLZg2xOtOs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/AOLZg2xOtOs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/AOLZg2xOtOs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-09T04:00:18.000Z",
+      "url": "https://www.youtube.com/watch?v=AOLZg2xOtOs",
+      "fetchedAt": "2026-11-09T04:57:14.282Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-09T04:57:14.282Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-YsTayb2x2wo",
       "source": {
@@ -3056,73 +3116,6 @@
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-e4oJZGD6ZxA",
-      "source": {
-        "platform": "youtube",
-        "videoId": "e4oJZGD6ZxA",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "DaDa-ITZY EP.06 | ⏱️The Time Stopper! This ain’t billiards, it’s Superpower.",
-      "description": "DaDa-ITZY EP.06 | ⏱️The Time Stopper! This ain’t billiards, it’s Superpower.\n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOf",
-      "thumbnail": "https://i.ytimg.com/vi/e4oJZGD6ZxA/fhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/e4oJZGD6ZxA/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/e4oJZGD6ZxA/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/e4oJZGD6ZxA/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/e4oJZGD6ZxA/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/e4oJZGD6ZxA/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "fhd",
-          "url": "https://i.ytimg.com/vi/e4oJZGD6ZxA/fhddefault.jpg",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "publishedAt": "2026-10-01T08:59:59.000Z",
-      "url": "https://www.youtube.com/watch?v=e4oJZGD6ZxA",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
       }
     }
   ]
