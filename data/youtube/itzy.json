@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUDhM2k2Cua-JdobAh5moMFg",
   "artistId": "itzy",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-08T04:46:41.877Z",
+  "fetchedAt": "2026-11-09T00:51:09.670Z",
   "items": [
+    {
+      "id": "yt-YsTayb2x2wo",
+      "source": {
+        "platform": "youtube",
+        "videoId": "YsTayb2x2wo",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "𝙏𝙃𝘼𝙏'𝙎 𝘼 𝙉𝙊 𝙉𝙊 𝘼𝙝 𝙮𝙖 𝙮𝙖 𝙮𝙖❤️‍🔥 #ITZY #RYUJIN #류진 #CHAERYEONG #채령 #2026KGMA",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/YsTayb2x2wo/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/YsTayb2x2wo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/YsTayb2x2wo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/YsTayb2x2wo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/YsTayb2x2wo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/YsTayb2x2wo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-08T14:00:30.000Z",
+      "url": "https://www.youtube.com/watch?v=YsTayb2x2wo",
+      "fetchedAt": "2026-11-09T00:51:09.670Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-09T00:51:09.670Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-3HfosCP17Nw",
       "source": {
@@ -3063,66 +3123,6 @@
         "method": "rule",
         "confidence": 0.9,
         "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt-85oRrV7juhk",
-      "source": {
-        "platform": "youtube",
-        "videoId": "85oRrV7juhk",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "𝑺𝒘𝒂𝒈, 𝒔𝒘𝒂𝒈, 𝒔𝒘𝒂𝒈🔥 #ITZY #YEJI #예지 #shorts",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/85oRrV7juhk/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/85oRrV7juhk/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/85oRrV7juhk/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/85oRrV7juhk/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/85oRrV7juhk/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/85oRrV7juhk/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-30T11:00:25.000Z",
-      "url": "https://www.youtube.com/watch?v=85oRrV7juhk",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
       }
     }
   ]

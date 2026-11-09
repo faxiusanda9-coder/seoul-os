@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UU-o9yrZxu5Ru-DVGhnmeTug",
   "artistId": "nexz",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-08T12:39:23.467Z",
+  "fetchedAt": "2026-11-09T00:51:09.670Z",
   "items": [
+    {
+      "id": "yt-ykkIXBdQbW0",
+      "source": {
+        "platform": "youtube",
+        "videoId": "ykkIXBdQbW0",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "KGMA🏆🏆 NEX2Y❤️",
+      "description": "NEXZ Official Website: https://nexz.jype.com\nNEXZ Official YouTube: https://www.youtube.com/@NEXZ_official\nNEXZ Official Facebook: https://www.facebook.com/realnexz\nNEXZ Official X: https://twitter.com/NEXZ_official\nNEXZ Official Instagram: https://www.instagram.com/real_nexz/ \nN",
+      "thumbnail": "https://i.ytimg.com/vi/ykkIXBdQbW0/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/ykkIXBdQbW0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/ykkIXBdQbW0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/ykkIXBdQbW0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/ykkIXBdQbW0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/ykkIXBdQbW0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-08T14:14:59.000Z",
+      "url": "https://www.youtube.com/watch?v=ykkIXBdQbW0",
+      "fetchedAt": "2026-11-09T00:51:09.670Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-09T00:51:09.670Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-02pf6meS_gs",
       "source": {
@@ -1763,9 +1823,9 @@
       ],
       "publishedAt": "2026-10-24T12:59:44.000Z",
       "url": "https://www.youtube.com/watch?v=nwQtp23UvNo",
-      "fetchedAt": "2026-10-25T00:25:59.450Z",
+      "fetchedAt": "2026-11-09T00:51:09.670Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-25T00:25:59.450Z",
+      "lastValidatedAt": "2026-11-09T00:51:09.670Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2902,54 +2962,6 @@
       "fetchedAt": "2026-11-03T12:52:17.349Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-03T12:52:17.349Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-WemTNnp4rI8",
-      "source": {
-        "platform": "youtube",
-        "videoId": "WemTNnp4rI8",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "POV: NEXZ 콘서트 전후 | #NEXZ",
-      "description": "NEXZ 1ST ASIA TOUR [SAUCIN' THE WORLD]\n2026.10.17-18 @ OLYMPIC HALL\n\n#NEXZ\n#SAUCIN_THE_WORLD_IN_SEOUL\n#NEXZ_ASIA_TOUR\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
-      "thumbnail": "https://i.ytimg.com/vi/WemTNnp4rI8/hqdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/WemTNnp4rI8/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/WemTNnp4rI8/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/WemTNnp4rI8/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        }
-      ],
-      "publishedAt": "2026-10-18T13:00:14.000Z",
-      "url": "https://www.youtube.com/watch?v=WemTNnp4rI8",
-      "fetchedAt": "2026-11-03T00:48:20.214Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-03T00:48:20.214Z",
       "type": "other",
       "category": "other",
       "classification": {

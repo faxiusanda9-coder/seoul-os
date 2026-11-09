@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUmq9jjpHA69PwAwlA0DwOsg",
   "artistId": "kickflip",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-08T12:39:23.467Z",
+  "fetchedAt": "2026-11-09T00:51:09.670Z",
   "items": [
+    {
+      "id": "yt-LUIBPxUBiSQ",
+      "source": {
+        "platform": "youtube",
+        "videoId": "LUIBPxUBiSQ",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "𝙙𝙧𝙞𝙥",
+      "description": "#KickFlip #킥플립\n#Kyehoon #Donghyeon",
+      "thumbnail": "https://i.ytimg.com/vi/LUIBPxUBiSQ/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/LUIBPxUBiSQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/LUIBPxUBiSQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/LUIBPxUBiSQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/LUIBPxUBiSQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/LUIBPxUBiSQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-08T13:00:30.000Z",
+      "url": "https://www.youtube.com/watch?v=LUIBPxUBiSQ",
+      "fetchedAt": "2026-11-09T00:51:09.670Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-09T00:51:09.670Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-g_thQ5IhpKQ",
       "source": {
@@ -2296,9 +2356,9 @@
       ],
       "publishedAt": "2026-10-24T13:00:23.000Z",
       "url": "https://www.youtube.com/watch?v=KbbzHmW9ap0",
-      "fetchedAt": "2026-10-25T00:25:59.450Z",
+      "fetchedAt": "2026-11-09T00:51:09.670Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-25T00:25:59.450Z",
+      "lastValidatedAt": "2026-11-09T00:51:09.670Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2957,66 +3017,6 @@
       ],
       "publishedAt": "2026-10-22T12:00:36.000Z",
       "url": "https://www.youtube.com/watch?v=w4OYO5_bHTI",
-      "fetchedAt": "2026-11-06T12:53:14.308Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-06T12:53:14.308Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-pPjlmQJcRMk",
-      "source": {
-        "platform": "youtube",
-        "videoId": "pPjlmQJcRMk",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "𓀠𓀠𓀠𓀡𓀡𓀡",
-      "description": "#KickFlip #킥플립\n#Juwang #Minje",
-      "thumbnail": "https://i.ytimg.com/vi/pPjlmQJcRMk/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/pPjlmQJcRMk/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/pPjlmQJcRMk/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/pPjlmQJcRMk/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/pPjlmQJcRMk/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/pPjlmQJcRMk/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-22T11:00:05.000Z",
-      "url": "https://www.youtube.com/watch?v=pPjlmQJcRMk",
       "fetchedAt": "2026-11-06T12:53:14.308Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-06T12:53:14.308Z",
