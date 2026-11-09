@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUDhM2k2Cua-JdobAh5moMFg",
   "artistId": "itzy",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-09T04:57:14.282Z",
+  "fetchedAt": "2026-11-09T12:58:30.685Z",
   "items": [
+    {
+      "id": "yt-p0p87KEan6Y",
+      "source": {
+        "platform": "youtube",
+        "videoId": "p0p87KEan6Y",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "#유병재 님께 가까이 와 🫶 #ITZY #CHAERYEONG #채령 #Chaeryeong_Lovesick @KoreanCryingGuy  @youtubekorea",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/p0p87KEan6Y/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/p0p87KEan6Y/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/p0p87KEan6Y/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/p0p87KEan6Y/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/p0p87KEan6Y/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/p0p87KEan6Y/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-09T12:00:27.000Z",
+      "url": "https://www.youtube.com/watch?v=p0p87KEan6Y",
+      "fetchedAt": "2026-11-09T12:58:30.685Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-09T12:58:30.685Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-AOLZg2xOtOs",
       "source": {
@@ -3056,66 +3116,6 @@
         "method": "rule",
         "confidence": 0.84,
         "ruleId": "tour-log"
-      }
-    },
-    {
-      "id": "yt-VOu0_HIRZhM",
-      "source": {
-        "platform": "youtube",
-        "videoId": "VOu0_HIRZhM",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "𝓓𝓪𝓷𝓼𝓮 𝓘𝓣𝓩𝓨🎱💃 #ITZY #MIDZY #다다있지 #DaDaITZY",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/VOu0_HIRZhM/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/VOu0_HIRZhM/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/VOu0_HIRZhM/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/VOu0_HIRZhM/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/VOu0_HIRZhM/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/VOu0_HIRZhM/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-01T09:35:27.000Z",
-      "url": "https://www.youtube.com/watch?v=VOu0_HIRZhM",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
       }
     }
   ]

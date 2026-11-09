@@ -4,8 +4,189 @@
   "uploadsPlaylistId": "UU-o9yrZxu5Ru-DVGhnmeTug",
   "artistId": "nexz",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-09T00:51:09.670Z",
+  "fetchedAt": "2026-11-09T12:58:30.685Z",
   "items": [
+    {
+      "id": "yt-Sm0ojasJkZg",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Sm0ojasJkZg",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "[NEX.Zip] #61 Rock in Rio 2026 비하인드",
+      "description": "[NEX.Zip] #61 Rock in Rio 2026 비하인드\n\nNEXZ Official Website: https://nexz.jype.com\nNEXZ Official YouTube: https://www.youtube.com/@NEXZ_official\nNEXZ Official Facebook: https://www.facebook.com/realnexz\nNEXZ Official X: https://twitter.com/NEXZ_official\nNEXZ Official Instagram: ht",
+      "thumbnail": "https://i.ytimg.com/vi/Sm0ojasJkZg/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Sm0ojasJkZg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Sm0ojasJkZg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Sm0ojasJkZg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Sm0ojasJkZg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Sm0ojasJkZg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-09T11:00:01.000Z",
+      "url": "https://www.youtube.com/watch?v=Sm0ojasJkZg",
+      "fetchedAt": "2026-11-09T12:58:30.685Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-09T12:58:30.685Z",
+      "type": "other",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
+    },
+    {
+      "id": "yt-wH3JToQClMc",
+      "source": {
+        "platform": "youtube",
+        "videoId": "wH3JToQClMc",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "토미야스 펀치 🐈‍⬛ | #YU",
+      "description": "#NEXZ #YU\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
+      "thumbnail": "https://i.ytimg.com/vi/wH3JToQClMc/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/wH3JToQClMc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/wH3JToQClMc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/wH3JToQClMc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/wH3JToQClMc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/wH3JToQClMc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-09T10:00:02.000Z",
+      "url": "https://www.youtube.com/watch?v=wH3JToQClMc",
+      "fetchedAt": "2026-11-09T12:58:30.685Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-09T12:58:30.685Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-1UZtCvg-sIA",
+      "source": {
+        "platform": "youtube",
+        "videoId": "1UZtCvg-sIA",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "우리 하토즈 사이 좋아요 | #TOMOYA #HARU",
+      "description": "#NEXZ #TOMOYA #HARU\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
+      "thumbnail": "https://i.ytimg.com/vi/1UZtCvg-sIA/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/1UZtCvg-sIA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/1UZtCvg-sIA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/1UZtCvg-sIA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/1UZtCvg-sIA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/1UZtCvg-sIA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-09T09:00:16.000Z",
+      "url": "https://www.youtube.com/watch?v=1UZtCvg-sIA",
+      "fetchedAt": "2026-11-09T12:58:30.685Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-09T12:58:30.685Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-ykkIXBdQbW0",
       "source": {
@@ -19,7 +200,7 @@
         "name": "NEXZ"
       },
       "title": "KGMA🏆🏆 NEX2Y❤️",
-      "description": "NEXZ Official Website: https://nexz.jype.com\nNEXZ Official YouTube: https://www.youtube.com/@NEXZ_official\nNEXZ Official Facebook: https://www.facebook.com/realnexz\nNEXZ Official X: https://twitter.com/NEXZ_official\nNEXZ Official Instagram: https://www.instagram.com/real_nexz/ \nN",
+      "description": "KGMA🏆🏆 NEX2Y❤️\n\nNEXZ Official Website: https://nexz.jype.com\nNEXZ Official YouTube: https://www.youtube.com/@NEXZ_official\nNEXZ Official Facebook: https://www.facebook.com/realnexz\nNEXZ Official X: https://twitter.com/NEXZ_official\nNEXZ Official Instagram: https://www.instagram",
       "thumbnail": "https://i.ytimg.com/vi/ykkIXBdQbW0/maxresdefault.jpg",
       "thumbnails": [
         {
@@ -55,9 +236,9 @@
       ],
       "publishedAt": "2026-11-08T14:14:59.000Z",
       "url": "https://www.youtube.com/watch?v=ykkIXBdQbW0",
-      "fetchedAt": "2026-11-09T00:51:09.670Z",
+      "fetchedAt": "2026-11-09T12:58:30.685Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-09T00:51:09.670Z",
+      "lastValidatedAt": "2026-11-09T12:58:30.685Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2794,174 +2975,6 @@
       "fetchedAt": "2026-11-04T12:52:33.548Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-04T12:52:33.548Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-0i4UdrN6ijo",
-      "source": {
-        "platform": "youtube",
-        "videoId": "0i4UdrN6ijo",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "피 땀 눈물 🐧.*˚.* | #TOMOYA",
-      "description": "#NEXZ #TOMOYA\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
-      "thumbnail": "https://i.ytimg.com/vi/0i4UdrN6ijo/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/0i4UdrN6ijo/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/0i4UdrN6ijo/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/0i4UdrN6ijo/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/0i4UdrN6ijo/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/0i4UdrN6ijo/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-19T13:00:07.000Z",
-      "url": "https://www.youtube.com/watch?v=0i4UdrN6ijo",
-      "fetchedAt": "2026-11-04T00:48:57.083Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-04T00:48:57.083Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-qoSYcHerfaQ",
-      "source": {
-        "platform": "youtube",
-        "videoId": "qoSYcHerfaQ",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "𝐖𝐚𝐧𝐭 𝐌𝐨𝐫𝐞? | #NEXZ",
-      "description": "NEXZ 1ST ASIA TOUR [SAUCIN' THE WORLD]\n2026.10.17-18 @ OLYMPIC HALL\n\n#NEXZ\n#SAUCIN_THE_WORLD_IN_SEOUL\n#NEXZ_ASIA_TOUR\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
-      "thumbnail": "https://i.ytimg.com/vi/qoSYcHerfaQ/hqdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/qoSYcHerfaQ/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/qoSYcHerfaQ/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/qoSYcHerfaQ/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        }
-      ],
-      "publishedAt": "2026-10-19T12:00:20.000Z",
-      "url": "https://www.youtube.com/watch?v=qoSYcHerfaQ",
-      "fetchedAt": "2026-11-03T12:52:17.349Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-03T12:52:17.349Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-tUqWVScJ8Oo",
-      "source": {
-        "platform": "youtube",
-        "videoId": "tUqWVScJ8Oo",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "@NiziUOfficial #NiziU #MIIHI 님과 쏘씬 쏘씬  | #YUKI",
-      "description": "#NEXZ #YUKI\n#SAUCIN #NEXZ_SAUCIN\n#SAUCIN_Challenge\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
-      "thumbnail": "https://i.ytimg.com/vi/tUqWVScJ8Oo/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/tUqWVScJ8Oo/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/tUqWVScJ8Oo/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/tUqWVScJ8Oo/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/tUqWVScJ8Oo/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/tUqWVScJ8Oo/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-19T05:00:04.000Z",
-      "url": "https://www.youtube.com/watch?v=tUqWVScJ8Oo",
-      "fetchedAt": "2026-11-03T12:52:17.349Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-03T12:52:17.349Z",
       "type": "other",
       "category": "other",
       "classification": {
