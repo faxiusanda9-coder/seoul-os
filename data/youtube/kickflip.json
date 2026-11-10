@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUmq9jjpHA69PwAwlA0DwOsg",
   "artistId": "kickflip",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-09T12:58:30.685Z",
+  "fetchedAt": "2026-11-10T00:49:42.403Z",
   "items": [
+    {
+      "id": "yt-EgJSMRMZcIg",
+      "source": {
+        "platform": "youtube",
+        "videoId": "EgJSMRMZcIg",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "🐱 케요미 키요미 🦦",
+      "description": "#KickFlip #킥플립 #Keiju\n#NEXZ #YUKI\n\n@NEXZ_official",
+      "thumbnail": "https://i.ytimg.com/vi/EgJSMRMZcIg/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/EgJSMRMZcIg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/EgJSMRMZcIg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/EgJSMRMZcIg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/EgJSMRMZcIg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/EgJSMRMZcIg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-09T13:00:36.000Z",
+      "url": "https://www.youtube.com/watch?v=EgJSMRMZcIg",
+      "fetchedAt": "2026-11-10T00:49:42.403Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-10T00:49:42.403Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-5tHxQlF-9TY",
       "source": {
@@ -1990,9 +2050,9 @@
       ],
       "publishedAt": "2026-10-25T14:00:24.000Z",
       "url": "https://www.youtube.com/watch?v=tGY45jVP6sI",
-      "fetchedAt": "2026-10-26T00:37:30.354Z",
+      "fetchedAt": "2026-11-10T00:49:42.403Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-26T00:37:30.354Z",
+      "lastValidatedAt": "2026-11-10T00:49:42.403Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2050,9 +2110,9 @@
       ],
       "publishedAt": "2026-10-25T13:00:04.000Z",
       "url": "https://www.youtube.com/watch?v=EIM0F5EIH6Q",
-      "fetchedAt": "2026-10-26T00:37:30.354Z",
+      "fetchedAt": "2026-11-10T00:49:42.403Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-26T00:37:30.354Z",
+      "lastValidatedAt": "2026-11-10T00:49:42.403Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2957,66 +3017,6 @@
       ],
       "publishedAt": "2026-10-23T09:00:11.000Z",
       "url": "https://www.youtube.com/watch?v=vP6yfN-Otdw",
-      "fetchedAt": "2026-11-07T12:40:13.053Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-07T12:40:13.053Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-YG8MMBAZWKY",
-      "source": {
-        "platform": "youtube",
-        "videoId": "YG8MMBAZWKY",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "우리 다시 만나 👋",
-      "description": "#KickFlip #킥플립\n#계훈 #Kyehoon",
-      "thumbnail": "https://i.ytimg.com/vi/YG8MMBAZWKY/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/YG8MMBAZWKY/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/YG8MMBAZWKY/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/YG8MMBAZWKY/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/YG8MMBAZWKY/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/YG8MMBAZWKY/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-23T08:00:07.000Z",
-      "url": "https://www.youtube.com/watch?v=YG8MMBAZWKY",
       "fetchedAt": "2026-11-07T12:40:13.053Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-07T12:40:13.053Z",

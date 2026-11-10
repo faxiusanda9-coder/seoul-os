@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UU-o9yrZxu5Ru-DVGhnmeTug",
   "artistId": "nexz",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-09T12:58:30.685Z",
+  "fetchedAt": "2026-11-10T00:49:42.403Z",
   "items": [
+    {
+      "id": "yt-o7dSsgnySks",
+      "source": {
+        "platform": "youtube",
+        "videoId": "o7dSsgnySks",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "🦦 키요미 케요미 🐱 | #YUKI",
+      "description": "#NEXZ #YUKI\n#KickFlip #Keiju\n@kickflip_jype \n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
+      "thumbnail": "https://i.ytimg.com/vi/o7dSsgnySks/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/o7dSsgnySks/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/o7dSsgnySks/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/o7dSsgnySks/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/o7dSsgnySks/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/o7dSsgnySks/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-09T13:00:02.000Z",
+      "url": "https://www.youtube.com/watch?v=o7dSsgnySks",
+      "fetchedAt": "2026-11-10T00:49:42.403Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-10T00:49:42.403Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-Sm0ojasJkZg",
       "source": {
@@ -2912,66 +2972,6 @@
       ],
       "publishedAt": "2026-10-20T12:00:07.000Z",
       "url": "https://www.youtube.com/watch?v=z2ZtnvWQgIg",
-      "fetchedAt": "2026-11-04T12:52:33.548Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-04T12:52:33.548Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-Cpk5b0_ya8I",
-      "source": {
-        "platform": "youtube",
-        "videoId": "Cpk5b0_ya8I",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "내 사랑 받아 ꨄꨄꨄ | #SEITA #HYUI #YUKI",
-      "description": "#NEXZ #SEITA #HYUI #YUKI\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
-      "thumbnail": "https://i.ytimg.com/vi/Cpk5b0_ya8I/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/Cpk5b0_ya8I/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/Cpk5b0_ya8I/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/Cpk5b0_ya8I/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/Cpk5b0_ya8I/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/Cpk5b0_ya8I/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-20T09:00:17.000Z",
-      "url": "https://www.youtube.com/watch?v=Cpk5b0_ya8I",
       "fetchedAt": "2026-11-04T12:52:33.548Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-04T12:52:33.548Z",

@@ -4,8 +4,128 @@
   "uploadsPlaylistId": "UUDhM2k2Cua-JdobAh5moMFg",
   "artistId": "itzy",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-09T12:58:30.685Z",
+  "fetchedAt": "2026-11-10T00:49:42.403Z",
   "items": [
+    {
+      "id": "yt-iFg7m60_dTQ",
+      "source": {
+        "platform": "youtube",
+        "videoId": "iFg7m60_dTQ",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "𝐊𝐆𝐌𝐀 𝐑𝐞𝐚𝐝𝐲 𝐝𝐢𝐯𝐞 𝐢𝐧 🖤 #ITZY #YEJI #예지 #ITZY_Motto #2026KGMA #shorts",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/iFg7m60_dTQ/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/iFg7m60_dTQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/iFg7m60_dTQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/iFg7m60_dTQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/iFg7m60_dTQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/iFg7m60_dTQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-09T14:00:19.000Z",
+      "url": "https://www.youtube.com/watch?v=iFg7m60_dTQ",
+      "fetchedAt": "2026-11-10T00:49:42.403Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-10T00:49:42.403Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-9-TNr6i8xMc",
+      "source": {
+        "platform": "youtube",
+        "videoId": "9-TNr6i8xMc",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "궁합즈 𝙤𝙝 𝙞 𝙡𝙤𝙫𝙚 𝙞𝙩🍦#ITZY #MIDZY #LIA #리아 #YUNA #유나#YUNA_IceCream #2026KGMA #shorts",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/9-TNr6i8xMc/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/9-TNr6i8xMc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/9-TNr6i8xMc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/9-TNr6i8xMc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/9-TNr6i8xMc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/9-TNr6i8xMc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-09T13:30:00.000Z",
+      "url": "https://www.youtube.com/watch?v=9-TNr6i8xMc",
+      "fetchedAt": "2026-11-10T00:49:42.403Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-10T00:49:42.403Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-p0p87KEan6Y",
       "source": {
@@ -2989,133 +3109,6 @@
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-qD9x6F2Ldkk",
-      "source": {
-        "platform": "youtube",
-        "videoId": "qD9x6F2Ldkk",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "𝘵𝘶𝘳𝘯𝘪𝘯𝘨 𝘪𝘯𝘵𝘰...  ˚₊·🌹´- #ITZY #YEJI #RogerVivier #GherardoFelloni#VivierEnFleur #shorts",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/qD9x6F2Ldkk/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/qD9x6F2Ldkk/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/qD9x6F2Ldkk/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/qD9x6F2Ldkk/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/qD9x6F2Ldkk/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/qD9x6F2Ldkk/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-02T11:00:17.000Z",
-      "url": "https://www.youtube.com/watch?v=qD9x6F2Ldkk",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-Bvga1ATtoj8",
-      "source": {
-        "platform": "youtube",
-        "videoId": "Bvga1ATtoj8",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "[TOUR-LOG] EP09 #CHAERYEONG #TAIPEI | ITZY 3RD WORLD TOUR 'TUNNEL VISION'",
-      "description": "[TOUR-LOG] EP09 #CHAERYEONG #TAIPEI | ITZY 3RD WORLD TOUR 'TUNNEL VISION'\n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOffic",
-      "thumbnail": "https://i.ytimg.com/vi/Bvga1ATtoj8/fhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/Bvga1ATtoj8/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/Bvga1ATtoj8/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/Bvga1ATtoj8/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/Bvga1ATtoj8/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/Bvga1ATtoj8/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "fhd",
-          "url": "https://i.ytimg.com/vi/Bvga1ATtoj8/fhddefault.jpg",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "publishedAt": "2026-10-02T09:00:01.000Z",
-      "url": "https://www.youtube.com/watch?v=Bvga1ATtoj8",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "behind",
-      "subcategory": "tour-log",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.84,
-        "ruleId": "tour-log"
       }
     }
   ]
