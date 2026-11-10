@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUnUAyD4t2LkvW68YrDh7fDg",
   "artistId": "nmixx",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-09T12:58:30.685Z",
+  "fetchedAt": "2026-11-10T12:18:17.427Z",
   "items": [
+    {
+      "id": "yt-HAdh8UcPkcQ",
+      "source": {
+        "platform": "youtube",
+        "videoId": "HAdh8UcPkcQ",
+        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nmixx",
+        "name": "NMIXX"
+      },
+      "title": "저희 친해요 #NMIXX #SULLYOON #BAE",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/HAdh8UcPkcQ/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/HAdh8UcPkcQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/HAdh8UcPkcQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/HAdh8UcPkcQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/HAdh8UcPkcQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/HAdh8UcPkcQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-10T11:00:22.000Z",
+      "url": "https://www.youtube.com/watch?v=HAdh8UcPkcQ",
+      "fetchedAt": "2026-11-10T12:18:17.427Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-10T12:18:17.427Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-wk_KNLjprSg",
       "source": {
@@ -2993,66 +3053,6 @@
       ],
       "publishedAt": "2026-10-23T12:00:20.000Z",
       "url": "https://www.youtube.com/watch?v=yC77MwJdHhY",
-      "fetchedAt": "2026-11-06T00:52:45.796Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-06T00:52:45.796Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-BZp0ZGjAd-w",
-      "source": {
-        "platform": "youtube",
-        "videoId": "BZp0ZGjAd-w",
-        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nmixx",
-        "name": "NMIXX"
-      },
-      "title": "“요즘 쟤 별로더라” ????? ㅋ #NMIXX #HAEWON #BAE #JIWOO #긴소원_BirthdayWish",
-      "description": "“요즘 쟤 별로더라” ????? ㅋ #NMIXX #HAEWON #BAE #JIWOO #긴소원_BirthdayWish \n\nNMIXX Official YouTube ▶ https://www.youtube.com/c/NMIXXOfficial\nNMIXX Official X ▶ https://x.com/NMIXX_official\nNMIXX Official X(Members) ▶ https://x.com/WE_NMIXX\nNMIXX Official Instagram ▶ https://www.instagram.",
-      "thumbnail": "https://i.ytimg.com/vi/BZp0ZGjAd-w/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/BZp0ZGjAd-w/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/BZp0ZGjAd-w/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/BZp0ZGjAd-w/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/BZp0ZGjAd-w/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/BZp0ZGjAd-w/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-23T11:30:31.000Z",
-      "url": "https://www.youtube.com/watch?v=BZp0ZGjAd-w",
       "fetchedAt": "2026-11-06T00:52:45.796Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-06T00:52:45.796Z",

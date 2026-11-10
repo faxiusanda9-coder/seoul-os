@@ -4,8 +4,188 @@
   "uploadsPlaylistId": "UU-o9yrZxu5Ru-DVGhnmeTug",
   "artistId": "nexz",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-10T00:49:42.403Z",
+  "fetchedAt": "2026-11-10T12:18:17.427Z",
   "items": [
+    {
+      "id": "yt-TXdMkfA-42Y",
+      "source": {
+        "platform": "youtube",
+        "videoId": "TXdMkfA-42Y",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "⚡⚈ ․̫ ⚈⚡ | #HYUI",
+      "description": "#NEXZ #HYUI\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
+      "thumbnail": "https://i.ytimg.com/vi/TXdMkfA-42Y/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/TXdMkfA-42Y/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/TXdMkfA-42Y/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/TXdMkfA-42Y/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/TXdMkfA-42Y/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/TXdMkfA-42Y/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-10T12:00:22.000Z",
+      "url": "https://www.youtube.com/watch?v=TXdMkfA-42Y",
+      "fetchedAt": "2026-11-10T12:18:17.427Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-10T12:18:17.427Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-7k2Dmm6NCGw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "7k2Dmm6NCGw",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "paw paw ₊˚⊹ᰔ | #YUKI",
+      "description": "#NEXZ #YUKI\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
+      "thumbnail": "https://i.ytimg.com/vi/7k2Dmm6NCGw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/7k2Dmm6NCGw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/7k2Dmm6NCGw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/7k2Dmm6NCGw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/7k2Dmm6NCGw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/7k2Dmm6NCGw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-10T11:00:01.000Z",
+      "url": "https://www.youtube.com/watch?v=7k2Dmm6NCGw",
+      "fetchedAt": "2026-11-10T12:18:17.427Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-10T12:18:17.427Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-J-6ejQAc2Bw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "J-6ejQAc2Bw",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "🖤Brrrrr🖤 | #TOMOYA #HARU #HYUI",
+      "description": "#NEXZ #TOMOYA #HARU #HYUI \n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
+      "thumbnail": "https://i.ytimg.com/vi/J-6ejQAc2Bw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/J-6ejQAc2Bw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/J-6ejQAc2Bw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/J-6ejQAc2Bw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/J-6ejQAc2Bw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/J-6ejQAc2Bw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-10T09:00:15.000Z",
+      "url": "https://www.youtube.com/watch?v=J-6ejQAc2Bw",
+      "fetchedAt": "2026-11-10T12:18:17.427Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-10T12:18:17.427Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-o7dSsgnySks",
       "source": {
@@ -2795,186 +2975,6 @@
       "fetchedAt": "2026-11-05T12:57:29.787Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-05T12:57:29.787Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-Naw_N8PfVhI",
-      "source": {
-        "platform": "youtube",
-        "videoId": "Naw_N8PfVhI",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "Ride the Car #9 🐧🐾",
-      "description": "Ride the Car #9 🐧🐾\n\nNEXZ Official Website: https://nexz.jype.com\nNEXZ Official YouTube: https://www.youtube.com/@NEXZ_official\nNEXZ Official Facebook: https://www.facebook.com/realnexz\nNEXZ Official X: https://twitter.com/NEXZ_official\nNEXZ Official Instagram: https://www.insta",
-      "thumbnail": "https://i.ytimg.com/vi/Naw_N8PfVhI/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/Naw_N8PfVhI/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/Naw_N8PfVhI/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/Naw_N8PfVhI/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/Naw_N8PfVhI/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/Naw_N8PfVhI/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-20T16:38:38.000Z",
-      "url": "https://www.youtube.com/watch?v=Naw_N8PfVhI",
-      "fetchedAt": "2026-11-05T00:51:43.460Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-05T00:51:43.460Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-e_b49VcjFzA",
-      "source": {
-        "platform": "youtube",
-        "videoId": "e_b49VcjFzA",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "NEXZ at SAUCIN' THE WORLD in SEOUL🥫 | #NEXZ",
-      "description": "NEXZ 1ST ASIA TOUR [SAUCIN' THE WORLD]\n\n#NEXZ\n#SAUCIN_THE_WORLD_IN_SEOUL\n#NEXZ_ASIA_TOUR\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
-      "thumbnail": "https://i.ytimg.com/vi/e_b49VcjFzA/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/e_b49VcjFzA/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/e_b49VcjFzA/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/e_b49VcjFzA/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/e_b49VcjFzA/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/e_b49VcjFzA/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-20T14:00:26.000Z",
-      "url": "https://www.youtube.com/watch?v=e_b49VcjFzA",
-      "fetchedAt": "2026-11-05T00:51:43.460Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-05T00:51:43.460Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-z2ZtnvWQgIg",
-      "source": {
-        "platform": "youtube",
-        "videoId": "z2ZtnvWQgIg",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "🤧💦 | #HARU #SOGEON #HYUI",
-      "description": "#NEXZ #HARU #SOGEON #HYUI\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
-      "thumbnail": "https://i.ytimg.com/vi/z2ZtnvWQgIg/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/z2ZtnvWQgIg/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/z2ZtnvWQgIg/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/z2ZtnvWQgIg/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/z2ZtnvWQgIg/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/z2ZtnvWQgIg/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-20T12:00:07.000Z",
-      "url": "https://www.youtube.com/watch?v=z2ZtnvWQgIg",
-      "fetchedAt": "2026-11-04T12:52:33.548Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-04T12:52:33.548Z",
       "type": "other",
       "category": "other",
       "classification": {

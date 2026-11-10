@@ -4,8 +4,69 @@
   "uploadsPlaylistId": "UUO9GhtdQcCRf67GIdSQ0HNQ",
   "artistId": "xdinary-heroes",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-10T00:49:42.403Z",
+  "fetchedAt": "2026-11-10T12:18:17.427Z",
   "items": [
+    {
+      "id": "yt-lBKHmQDXFWY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "lBKHmQDXFWY",
+        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "xdinary-heroes",
+        "name": "Xdinary Heroes"
+      },
+      "title": "[Xdinary Heroes : Xtra Files] Ep.102 \"Obsessed with Youth\" Music Show Behind #1",
+      "description": "[Xdinary Heroes : Xtra Files] Ep.102 \"Obsessed with Youth\" Music Show Behind #1 \n\nListen to Xdinary Heroes \"Obsessed with Youth\"\nhttp://Xdinaryheroes.lnk.to/IMPULSE\n\nXdinary Heroes Official YouTube: https://www.youtube.com/c/xdinaryheroesofficial\nXdinary Heroes Official Facebook:",
+      "thumbnail": "https://i.ytimg.com/vi/lBKHmQDXFWY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/lBKHmQDXFWY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/lBKHmQDXFWY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/lBKHmQDXFWY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/lBKHmQDXFWY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/lBKHmQDXFWY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-10T09:05:10.000Z",
+      "url": "https://www.youtube.com/watch?v=lBKHmQDXFWY",
+      "fetchedAt": "2026-11-10T12:18:17.427Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-10T12:18:17.427Z",
+      "type": "other",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
+    },
     {
       "id": "yt-CX5ZF8RzW3U",
       "source": {
@@ -1682,9 +1743,9 @@
       ],
       "publishedAt": "2026-10-26T04:00:14.000Z",
       "url": "https://www.youtube.com/watch?v=tUpWf1nZQwA",
-      "fetchedAt": "2026-10-26T04:30:19.416Z",
+      "fetchedAt": "2026-11-10T12:18:17.427Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-26T04:30:19.416Z",
+      "lastValidatedAt": "2026-11-10T12:18:17.427Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2949,66 +3010,6 @@
       "fetchedAt": "2026-11-05T04:52:32.596Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-05T04:52:32.596Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-UZDuMgfKvQQ",
-      "source": {
-        "platform": "youtube",
-        "videoId": "UZDuMgfKvQQ",
-        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "xdinary-heroes",
-        "name": "Xdinary Heroes"
-      },
-      "title": "Obsessed with #TXT #휴닝카이❤️‍🔥",
-      "description": "Obsessed with #TXT #휴닝카이❤️‍🔥\n\n#XdinaryHeroes #엑스디너리히어로즈\n#HUENINGKAI \n#Obsessed_with_Youth\n@TXT_bighit",
-      "thumbnail": "https://i.ytimg.com/vi/UZDuMgfKvQQ/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/UZDuMgfKvQQ/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/UZDuMgfKvQQ/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/UZDuMgfKvQQ/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/UZDuMgfKvQQ/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/UZDuMgfKvQQ/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-20T10:00:38.000Z",
-      "url": "https://www.youtube.com/watch?v=UZDuMgfKvQQ",
-      "fetchedAt": "2026-11-04T12:52:33.548Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-04T12:52:33.548Z",
       "type": "other",
       "category": "other",
       "classification": {
