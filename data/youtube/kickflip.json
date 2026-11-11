@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUmq9jjpHA69PwAwlA0DwOsg",
   "artistId": "kickflip",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-10T12:18:17.427Z",
+  "fetchedAt": "2026-11-11T05:19:23.022Z",
   "items": [
+    {
+      "id": "yt-b3qY38OuFEE",
+      "source": {
+        "platform": "youtube",
+        "videoId": "b3qY38OuFEE",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "기본기 유산소 부작용",
+      "description": "#KickFlip #킥플립 \n#KickOffTheWall #MidnightDriftRemix",
+      "thumbnail": "https://i.ytimg.com/vi/b3qY38OuFEE/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/b3qY38OuFEE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/b3qY38OuFEE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/b3qY38OuFEE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/b3qY38OuFEE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/b3qY38OuFEE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-10T13:00:36.000Z",
+      "url": "https://www.youtube.com/watch?v=b3qY38OuFEE",
+      "fetchedAt": "2026-11-11T05:19:23.022Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-11T05:19:23.022Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-8gWAg9AYxBw",
       "source": {
@@ -2050,9 +2110,9 @@
       ],
       "publishedAt": "2026-10-26T13:00:18.000Z",
       "url": "https://www.youtube.com/watch?v=ORFml2yhBxk",
-      "fetchedAt": "2026-10-26T14:39:25.270Z",
+      "fetchedAt": "2026-11-11T05:19:23.022Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-26T14:39:25.270Z",
+      "lastValidatedAt": "2026-11-11T05:19:23.022Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2110,9 +2170,9 @@
       ],
       "publishedAt": "2026-10-26T12:00:15.000Z",
       "url": "https://www.youtube.com/watch?v=BnOZPPkEQ8s",
-      "fetchedAt": "2026-10-26T14:39:25.270Z",
+      "fetchedAt": "2026-11-11T05:19:23.022Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-26T14:39:25.270Z",
+      "lastValidatedAt": "2026-11-11T05:19:23.022Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2170,9 +2230,9 @@
       ],
       "publishedAt": "2026-10-26T10:00:00.000Z",
       "url": "https://www.youtube.com/watch?v=2pMlSg2dcGQ",
-      "fetchedAt": "2026-10-26T14:39:25.270Z",
+      "fetchedAt": "2026-11-11T05:19:23.022Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-26T14:39:25.270Z",
+      "lastValidatedAt": "2026-11-11T05:19:23.022Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2230,9 +2290,9 @@
       ],
       "publishedAt": "2026-10-26T09:00:07.000Z",
       "url": "https://www.youtube.com/watch?v=OFFhkIUf6gc",
-      "fetchedAt": "2026-10-26T14:39:25.270Z",
+      "fetchedAt": "2026-11-11T05:19:23.022Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-26T14:39:25.270Z",
+      "lastValidatedAt": "2026-11-11T05:19:23.022Z",
       "type": "music-video",
       "category": "music",
       "subcategory": "official-mv",
@@ -2291,9 +2351,9 @@
       ],
       "publishedAt": "2026-10-26T08:00:24.000Z",
       "url": "https://www.youtube.com/watch?v=QfLnCnz0ZJ4",
-      "fetchedAt": "2026-10-26T14:39:25.270Z",
+      "fetchedAt": "2026-11-11T05:19:23.022Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-26T14:39:25.270Z",
+      "lastValidatedAt": "2026-11-11T05:19:23.022Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2967,66 +3027,6 @@
         "method": "rule",
         "confidence": 0.95,
         "ruleId": "making"
-      }
-    },
-    {
-      "id": "yt-xPGhtxjbWnM",
-      "source": {
-        "platform": "youtube",
-        "videoId": "xPGhtxjbWnM",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "I’m movin’ through with #ZHANGHAO 님 🌀",
-      "description": "#KickFlip #킥플립\n#AND2BLE #앤더블\n#KICKOFFTHEWALL_Pt1\n#KickOffTheWall\n\n@AND2BLE",
-      "thumbnail": "https://i.ytimg.com/vi/xPGhtxjbWnM/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/xPGhtxjbWnM/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/xPGhtxjbWnM/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/xPGhtxjbWnM/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/xPGhtxjbWnM/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/xPGhtxjbWnM/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-24T08:30:39.000Z",
-      "url": "https://www.youtube.com/watch?v=xPGhtxjbWnM",
-      "fetchedAt": "2026-11-08T12:39:23.467Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-08T12:39:23.467Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
       }
     }
   ]

@@ -4,8 +4,134 @@
   "uploadsPlaylistId": "UUDhM2k2Cua-JdobAh5moMFg",
   "artistId": "itzy",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-10T12:18:17.427Z",
+  "fetchedAt": "2026-11-11T05:19:23.022Z",
   "items": [
+    {
+      "id": "yt-_GV54eVlFzw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "_GV54eVlFzw",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "Love-sickness Specialist, Dr. RYEONG l CHAERYEONG “Lovesick” Cheer Guide",
+      "description": "Love-sickness Specialist, Dr. RYEONG l CHAERYEONG “Lovesick” Cheer Guide\n\nCHAERYEONG 'Lovesick'\nhttp://CHAERYEONG.lnk.to/Lovesick\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitt",
+      "thumbnail": "https://i.ytimg.com/vi/_GV54eVlFzw/fhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/_GV54eVlFzw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/_GV54eVlFzw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/_GV54eVlFzw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/_GV54eVlFzw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/_GV54eVlFzw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "fhd",
+          "url": "https://i.ytimg.com/vi/_GV54eVlFzw/fhddefault.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "publishedAt": "2026-11-11T02:59:59.000Z",
+      "url": "https://www.youtube.com/watch?v=_GV54eVlFzw",
+      "fetchedAt": "2026-11-11T05:19:23.022Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-11T05:19:23.022Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-9_OimLQKCIY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "9_OimLQKCIY",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "ITZY @YouTube Diamond Button Un-Boxing💎 #ITZY #MIDZY #YouTube",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/9_OimLQKCIY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/9_OimLQKCIY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/9_OimLQKCIY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/9_OimLQKCIY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/9_OimLQKCIY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/9_OimLQKCIY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-10T14:55:34.000Z",
+      "url": "https://www.youtube.com/watch?v=9_OimLQKCIY",
+      "fetchedAt": "2026-11-11T05:19:23.022Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-11T05:19:23.022Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-_xbi_HmhmN0",
       "source": {
@@ -1904,9 +2030,9 @@
       ],
       "publishedAt": "2026-10-26T10:00:19.000Z",
       "url": "https://www.youtube.com/watch?v=FiG9DDYaUBQ",
-      "fetchedAt": "2026-10-26T14:39:25.270Z",
+      "fetchedAt": "2026-11-11T05:19:23.022Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-26T14:39:25.270Z",
+      "lastValidatedAt": "2026-11-11T05:19:23.022Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2959,140 +3085,6 @@
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-RMpRsPiSdU8",
-      "source": {
-        "platform": "youtube",
-        "videoId": "RMpRsPiSdU8",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "DaDa-ITZY EP.08 | Confidence over logic! ITZY’s ultimate debate show🗣💬",
-      "description": "DaDa-ITZY EP.08 | Confidence over logic! ITZY’s ultimate debate show🗣💬\n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOffici",
-      "thumbnail": "https://i.ytimg.com/vi/RMpRsPiSdU8/fhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/RMpRsPiSdU8/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/RMpRsPiSdU8/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/RMpRsPiSdU8/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/RMpRsPiSdU8/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/RMpRsPiSdU8/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "fhd",
-          "url": "https://i.ytimg.com/vi/RMpRsPiSdU8/fhddefault.jpg",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "publishedAt": "2026-10-15T08:59:57.000Z",
-      "url": "https://www.youtube.com/watch?v=RMpRsPiSdU8",
-      "fetchedAt": "2026-10-30T12:42:05.236Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T12:42:05.236Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt-wS-uobpfVmg",
-      "source": {
-        "platform": "youtube",
-        "videoId": "wS-uobpfVmg",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "[ITZY?ITZY!] EP 271 | Yuna DYNAFIT X Vogue",
-      "description": "[ITZY?ITZY!] EP 271 | Yuna DYNAFIT X Vogue\n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOfficial\n▶ http://www.facebook.com/O",
-      "thumbnail": "https://i.ytimg.com/vi/wS-uobpfVmg/fhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/wS-uobpfVmg/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/wS-uobpfVmg/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/wS-uobpfVmg/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/wS-uobpfVmg/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/wS-uobpfVmg/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "fhd",
-          "url": "https://i.ytimg.com/vi/wS-uobpfVmg/fhddefault.jpg",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "publishedAt": "2026-10-13T09:00:03.000Z",
-      "url": "https://www.youtube.com/watch?v=wS-uobpfVmg",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
       }
     }
   ]
