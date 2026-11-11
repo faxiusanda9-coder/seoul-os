@@ -4,8 +4,329 @@
   "uploadsPlaylistId": "UUDhM2k2Cua-JdobAh5moMFg",
   "artistId": "itzy",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-11T05:19:23.022Z",
+  "fetchedAt": "2026-11-11T19:23:29.321Z",
   "items": [
+    {
+      "id": "yt-uR0M1QsNln8",
+      "source": {
+        "platform": "youtube",
+        "videoId": "uR0M1QsNln8",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "CHAERYEONG \"Moonlit Club\" Performance Video (4K)",
+      "description": "CHAERYEONG \"Moonlit Club\" Performance Video (4K)\nhttps://chaeryeong.lnk.to/Lovesick\n\n💿 ALBUM RELEASE\n2026.11.09 MON 6PM (KST) | 4AM (ET)\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://w",
+      "thumbnail": "https://i.ytimg.com/vi/uR0M1QsNln8/qhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/uR0M1QsNln8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/uR0M1QsNln8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/uR0M1QsNln8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/uR0M1QsNln8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/uR0M1QsNln8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "qhd",
+          "url": "https://i.ytimg.com/vi/uR0M1QsNln8/qhddefault.jpg",
+          "width": 2560,
+          "height": 1440
+        }
+      ],
+      "publishedAt": "2026-11-11T15:00:12.000Z",
+      "url": "https://www.youtube.com/watch?v=uR0M1QsNln8",
+      "fetchedAt": "2026-11-11T19:23:29.321Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
+      "type": "performance",
+      "category": "music",
+      "subcategory": "performance-video",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.91,
+        "ruleId": "music-performance"
+      }
+    },
+    {
+      "id": "yt-XvISxn5u8jk",
+      "source": {
+        "platform": "youtube",
+        "videoId": "XvISxn5u8jk",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "CHAERYEONG \"Lovesick\" Performance Video (4K)",
+      "description": "CHAERYEONG \"Lovesick\" Performance Video (4K)\nhttps://chaeryeong.lnk.to/Lovesick\n\n💿 ALBUM RELEASE\n2026.11.09 MON 6PM (KST) | 4AM (ET)\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.t",
+      "thumbnail": "https://i.ytimg.com/vi/XvISxn5u8jk/qhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/XvISxn5u8jk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/XvISxn5u8jk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/XvISxn5u8jk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/XvISxn5u8jk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/XvISxn5u8jk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "qhd",
+          "url": "https://i.ytimg.com/vi/XvISxn5u8jk/qhddefault.jpg",
+          "width": 2560,
+          "height": 1440
+        }
+      ],
+      "publishedAt": "2026-11-11T14:59:57.000Z",
+      "url": "https://www.youtube.com/watch?v=XvISxn5u8jk",
+      "fetchedAt": "2026-11-11T19:23:29.321Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
+      "type": "performance",
+      "category": "music",
+      "subcategory": "performance-video",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.91,
+        "ruleId": "music-performance"
+      }
+    },
+    {
+      "id": "yt-kKND9VRxIV0",
+      "source": {
+        "platform": "youtube",
+        "videoId": "kKND9VRxIV0",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "넌 ㅁト치 qцiz.. #10CM 선배님과 감미로운💞​ #LovesickChallenge #ITZY #CHAERYEONG #권정열 #Chaeryeong_Lovesick",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/kKND9VRxIV0/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/kKND9VRxIV0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/kKND9VRxIV0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/kKND9VRxIV0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/kKND9VRxIV0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/kKND9VRxIV0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-11T11:00:37.000Z",
+      "url": "https://www.youtube.com/watch?v=kKND9VRxIV0",
+      "fetchedAt": "2026-11-11T19:23:29.321Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-aApJGpE0uh4",
+      "source": {
+        "platform": "youtube",
+        "videoId": "aApJGpE0uh4",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "CHAERYEONG “Lovesick” Dance Practice (Fix Ver.) (4K)",
+      "description": "CHAERYEONG “Lovesick” Dance Practice (Fix Ver.) (4K)\n\nCHAERYEONG 'Lovesick'\nhttp://CHAERYEONG.lnk.to/Lovesick\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOfficial\n",
+      "thumbnail": "https://i.ytimg.com/vi/aApJGpE0uh4/fhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/aApJGpE0uh4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/aApJGpE0uh4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/aApJGpE0uh4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/aApJGpE0uh4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/aApJGpE0uh4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "fhd",
+          "url": "https://i.ytimg.com/vi/aApJGpE0uh4/fhddefault.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "publishedAt": "2026-11-11T08:15:11.000Z",
+      "url": "https://www.youtube.com/watch?v=aApJGpE0uh4",
+      "fetchedAt": "2026-11-11T19:23:29.321Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
+      "type": "performance",
+      "category": "music",
+      "subcategory": "performance-video",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.91,
+        "ruleId": "music-performance"
+      }
+    },
+    {
+      "id": "yt-Cb03E-aAyyY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Cb03E-aAyyY",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "다음곡 [261109번] Lovesick 🎤💕 #ITZY #CHAERYEONG #채령 #Chaeryeong_Lovesick #shorts",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/Cb03E-aAyyY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Cb03E-aAyyY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Cb03E-aAyyY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Cb03E-aAyyY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Cb03E-aAyyY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Cb03E-aAyyY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-11T07:00:20.000Z",
+      "url": "https://www.youtube.com/watch?v=Cb03E-aAyyY",
+      "fetchedAt": "2026-11-11T19:23:29.321Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-_GV54eVlFzw",
       "source": {
@@ -1969,9 +2290,9 @@
       ],
       "publishedAt": "2026-10-27T08:59:59.000Z",
       "url": "https://www.youtube.com/watch?v=XjPgYps7954",
-      "fetchedAt": "2026-10-27T12:36:33.643Z",
+      "fetchedAt": "2026-11-11T19:23:29.321Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-27T12:36:33.643Z",
+      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
       "type": "other",
       "category": "variety",
       "subcategory": "series",
@@ -2763,319 +3084,6 @@
       ],
       "publishedAt": "2026-10-16T09:59:51.000Z",
       "url": "https://www.youtube.com/watch?v=ShQUAsdpj4s",
-      "fetchedAt": "2026-10-31T12:38:32.540Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-31T12:38:32.540Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-rPQB_k4MT-0",
-      "source": {
-        "platform": "youtube",
-        "videoId": "rPQB_k4MT-0",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "LIA \"Asylum\" @ 'TUNNEL VISION' in SINGAPORE",
-      "description": "LIA \"Asylum\" @ 'TUNNEL VISION' in SINGAPORE\n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOfficial\n▶ http://www.facebook.com/",
-      "thumbnail": "https://i.ytimg.com/vi/rPQB_k4MT-0/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/rPQB_k4MT-0/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/rPQB_k4MT-0/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/rPQB_k4MT-0/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/rPQB_k4MT-0/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/rPQB_k4MT-0/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-16T09:59:47.000Z",
-      "url": "https://www.youtube.com/watch?v=rPQB_k4MT-0",
-      "fetchedAt": "2026-10-31T12:38:32.540Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-31T12:38:32.540Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-QglH2zPsKzY",
-      "source": {
-        "platform": "youtube",
-        "videoId": "QglH2zPsKzY",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "YEJI \"Pocket\" @ 'TUNNEL VISION' in SINGAPORE",
-      "description": "YEJI \"Pocket\" @ 'TUNNEL VISION' in SINGAPORE\n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOfficial\n▶ http://www.facebook.com",
-      "thumbnail": "https://i.ytimg.com/vi/QglH2zPsKzY/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/QglH2zPsKzY/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/QglH2zPsKzY/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/QglH2zPsKzY/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/QglH2zPsKzY/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/QglH2zPsKzY/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-16T09:59:44.000Z",
-      "url": "https://www.youtube.com/watch?v=QglH2zPsKzY",
-      "fetchedAt": "2026-10-31T12:38:32.540Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-31T12:38:32.540Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-LRLuMssDOGs",
-      "source": {
-        "platform": "youtube",
-        "videoId": "LRLuMssDOGs",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "ITZY \"THAT'S A NO NO\" @ 'TUNNEL VISION' in SINGAPORE",
-      "description": "ITZY \"THAT'S A NO NO\" @ 'TUNNEL VISION' in SINGAPORE\n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOfficial\n▶ http://www.face",
-      "thumbnail": "https://i.ytimg.com/vi/LRLuMssDOGs/fhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/LRLuMssDOGs/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/LRLuMssDOGs/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/LRLuMssDOGs/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/LRLuMssDOGs/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/LRLuMssDOGs/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "fhd",
-          "url": "https://i.ytimg.com/vi/LRLuMssDOGs/fhddefault.jpg",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "publishedAt": "2026-10-16T09:59:35.000Z",
-      "url": "https://www.youtube.com/watch?v=LRLuMssDOGs",
-      "fetchedAt": "2026-10-31T12:38:32.540Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-31T12:38:32.540Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-SMlOP-A6gek",
-      "source": {
-        "platform": "youtube",
-        "videoId": "SMlOP-A6gek",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "[TOUR-LOG] EP11 #RYUJIN #AMSTERDAM | ITZY 3RD WORLD TOUR 'TUNNEL VISION'",
-      "description": "[TOUR-LOG] EP11 #RYUJIN #AMSTERDAM | ITZY 3RD WORLD TOUR 'TUNNEL VISION'\n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOffici",
-      "thumbnail": "https://i.ytimg.com/vi/SMlOP-A6gek/fhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/SMlOP-A6gek/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/SMlOP-A6gek/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/SMlOP-A6gek/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/SMlOP-A6gek/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/SMlOP-A6gek/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "fhd",
-          "url": "https://i.ytimg.com/vi/SMlOP-A6gek/fhddefault.jpg",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "publishedAt": "2026-10-16T09:00:00.000Z",
-      "url": "https://www.youtube.com/watch?v=SMlOP-A6gek",
-      "fetchedAt": "2026-10-31T12:38:32.540Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-31T12:38:32.540Z",
-      "type": "other",
-      "category": "behind",
-      "subcategory": "tour-log",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.84,
-        "ruleId": "tour-log"
-      }
-    },
-    {
-      "id": "yt-FnurncvSyD0",
-      "source": {
-        "platform": "youtube",
-        "videoId": "FnurncvSyD0",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "보름달이 뜨는 날‧⁺ ⊹˚.🌕 #ITZY #CHAERYEONG #채령 #SUNMI #선미 #shorts @sunmi_official",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/FnurncvSyD0/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/FnurncvSyD0/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/FnurncvSyD0/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/FnurncvSyD0/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/FnurncvSyD0/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/FnurncvSyD0/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-16T05:00:37.000Z",
-      "url": "https://www.youtube.com/watch?v=FnurncvSyD0",
       "fetchedAt": "2026-10-31T12:38:32.540Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-31T12:38:32.540Z",

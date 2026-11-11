@@ -4,8 +4,69 @@
   "uploadsPlaylistId": "UUnUAyD4t2LkvW68YrDh7fDg",
   "artistId": "nmixx",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-11T05:19:23.022Z",
+  "fetchedAt": "2026-11-11T19:23:29.321Z",
   "items": [
+    {
+      "id": "yt-xyqG1l8pNh4",
+      "source": {
+        "platform": "youtube",
+        "videoId": "xyqG1l8pNh4",
+        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nmixx",
+        "name": "NMIXX"
+      },
+      "title": "˚₊‧꒰ა Our wishes come true ໒꒱ ‧₊˚ | 'Strange Muse' 음악방송 2주차 비하인드 | Day MIXX",
+      "description": "˚₊‧꒰ა Our wishes come true ໒꒱ ‧₊˚ | 'Strange Muse' 음악방송 2주차 비하인드 | Day MIXX\n\nNMIXX Official YouTube ▶ https://www.youtube.com/c/NMIXXOfficial \nNMIXX Official X ▶ https://x.com/NMIXX_official\nNMIXX Official X(Members) ▶ https://x.com/WE_NMIXX\nNMIXX Official Instagram ▶ https://www",
+      "thumbnail": "https://i.ytimg.com/vi/xyqG1l8pNh4/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/xyqG1l8pNh4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/xyqG1l8pNh4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/xyqG1l8pNh4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/xyqG1l8pNh4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/xyqG1l8pNh4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-11T09:00:05.000Z",
+      "url": "https://www.youtube.com/watch?v=xyqG1l8pNh4",
+      "fetchedAt": "2026-11-11T19:23:29.321Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
+      "type": "other",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
+    },
     {
       "id": "yt-HAdh8UcPkcQ",
       "source": {
@@ -1893,9 +1954,9 @@
       ],
       "publishedAt": "2026-10-27T09:00:08.000Z",
       "url": "https://www.youtube.com/watch?v=Yw4f2ov6BrA",
-      "fetchedAt": "2026-10-27T12:36:33.643Z",
+      "fetchedAt": "2026-11-11T19:23:29.321Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-27T12:36:33.643Z",
+      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
       "type": "music-video",
       "category": "music",
       "subcategory": "official-mv",
@@ -2014,9 +2075,9 @@
       ],
       "publishedAt": "2026-10-27T06:56:21.000Z",
       "url": "https://www.youtube.com/watch?v=-1lw4E1EEEQ",
-      "fetchedAt": "2026-10-27T12:36:33.643Z",
+      "fetchedAt": "2026-11-11T19:23:29.321Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-27T12:36:33.643Z",
+      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2993,66 +3054,6 @@
       ],
       "publishedAt": "2026-10-24T05:30:38.000Z",
       "url": "https://www.youtube.com/watch?v=IiOKk0splyY",
-      "fetchedAt": "2026-11-06T00:52:45.796Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-06T00:52:45.796Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-yC77MwJdHhY",
-      "source": {
-        "platform": "youtube",
-        "videoId": "yC77MwJdHhY",
-        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nmixx",
-        "name": "NMIXX"
-      },
-      "title": "별거 아닌 rude talk ㅋㅋ #NMIXX #LILY #SULLYOON #KYUJIN #긴소원_BirthdayWish",
-      "description": "별거 아닌 rude talk ㅋㅋ #NMIXX #LILY #SULLYOON #KYUJIN #긴소원_BirthdayWish \n\nNMIXX Official YouTube ▶ https://www.youtube.com/c/NMIXXOfficial\nNMIXX Official X ▶ https://x.com/NMIXX_official\nNMIXX Official X(Members) ▶ https://x.com/WE_NMIXX\nNMIXX Official Instagram ▶ https://www.instagr",
-      "thumbnail": "https://i.ytimg.com/vi/yC77MwJdHhY/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/yC77MwJdHhY/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/yC77MwJdHhY/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/yC77MwJdHhY/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/yC77MwJdHhY/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/yC77MwJdHhY/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-23T12:00:20.000Z",
-      "url": "https://www.youtube.com/watch?v=yC77MwJdHhY",
       "fetchedAt": "2026-11-06T00:52:45.796Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-06T00:52:45.796Z",

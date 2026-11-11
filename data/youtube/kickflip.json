@@ -4,8 +4,189 @@
   "uploadsPlaylistId": "UUmq9jjpHA69PwAwlA0DwOsg",
   "artistId": "kickflip",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-11T05:19:23.022Z",
+  "fetchedAt": "2026-11-11T19:23:29.321Z",
   "items": [
+    {
+      "id": "yt-0jstrhHsITU",
+      "source": {
+        "platform": "youtube",
+        "videoId": "0jstrhHsITU",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "[KickFlip B-roll] “KICK OFF THE WALL pt.1” Comeback Stage Behind",
+      "description": "#KickFlip #킥플립\n#KICKOFFTHEWALL_Pt1",
+      "thumbnail": "https://i.ytimg.com/vi/0jstrhHsITU/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/0jstrhHsITU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/0jstrhHsITU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/0jstrhHsITU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/0jstrhHsITU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/0jstrhHsITU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-11T11:00:36.000Z",
+      "url": "https://www.youtube.com/watch?v=0jstrhHsITU",
+      "fetchedAt": "2026-11-11T19:23:29.321Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
+      "type": "performance",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
+    },
+    {
+      "id": "yt-jB6kNjIG7hM",
+      "source": {
+        "platform": "youtube",
+        "videoId": "jB6kNjIG7hM",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "We’re movin’ through with #KYUNGMIN 선배님 💙",
+      "description": "#KickFlip #킥플립\n#TWS\n#KICKOFFTHEWALL_Pt1\n#KickOffTheWall\n\n@TWS_PLEDIS",
+      "thumbnail": "https://i.ytimg.com/vi/jB6kNjIG7hM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/jB6kNjIG7hM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/jB6kNjIG7hM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/jB6kNjIG7hM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/jB6kNjIG7hM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/jB6kNjIG7hM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-11T09:30:00.000Z",
+      "url": "https://www.youtube.com/watch?v=jB6kNjIG7hM",
+      "fetchedAt": "2026-11-11T19:23:29.321Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-khrSsZzXWZM",
+      "source": {
+        "platform": "youtube",
+        "videoId": "khrSsZzXWZM",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "All we want is.. MIDZY and WeFlip ♡",
+      "description": "#ITZY #RYUJIN\n#KickFlip #킥플립 #Minje",
+      "thumbnail": "https://i.ytimg.com/vi/khrSsZzXWZM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/khrSsZzXWZM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/khrSsZzXWZM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/khrSsZzXWZM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/khrSsZzXWZM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/khrSsZzXWZM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-11T08:00:09.000Z",
+      "url": "https://www.youtube.com/watch?v=khrSsZzXWZM",
+      "fetchedAt": "2026-11-11T19:23:29.321Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-b3qY38OuFEE",
       "source": {
@@ -1810,9 +1991,9 @@
       ],
       "publishedAt": "2026-10-27T12:00:15.000Z",
       "url": "https://www.youtube.com/watch?v=JsAXwqxmafo",
-      "fetchedAt": "2026-10-27T12:36:33.643Z",
+      "fetchedAt": "2026-11-11T19:23:29.321Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-27T12:36:33.643Z",
+      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1870,9 +2051,9 @@
       ],
       "publishedAt": "2026-10-27T11:00:07.000Z",
       "url": "https://www.youtube.com/watch?v=qucQF0oMLWY",
-      "fetchedAt": "2026-10-27T12:36:33.643Z",
+      "fetchedAt": "2026-11-11T19:23:29.321Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-27T12:36:33.643Z",
+      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1930,9 +2111,9 @@
       ],
       "publishedAt": "2026-10-27T10:00:27.000Z",
       "url": "https://www.youtube.com/watch?v=F8S2syEb70w",
-      "fetchedAt": "2026-10-27T12:36:33.643Z",
+      "fetchedAt": "2026-11-11T19:23:29.321Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-27T12:36:33.643Z",
+      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1990,9 +2171,9 @@
       ],
       "publishedAt": "2026-10-27T09:00:31.000Z",
       "url": "https://www.youtube.com/watch?v=tdklUVRgBhs",
-      "fetchedAt": "2026-10-27T12:36:33.643Z",
+      "fetchedAt": "2026-11-11T19:23:29.321Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-27T12:36:33.643Z",
+      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2050,9 +2231,9 @@
       ],
       "publishedAt": "2026-10-27T08:00:35.000Z",
       "url": "https://www.youtube.com/watch?v=3cWaWw0N7R4",
-      "fetchedAt": "2026-10-27T12:36:33.643Z",
+      "fetchedAt": "2026-11-11T19:23:29.321Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-27T12:36:33.643Z",
+      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2846,187 +3027,6 @@
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-KbbzHmW9ap0",
-      "source": {
-        "platform": "youtube",
-        "videoId": "KbbzHmW9ap0",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "Love 좡 💓",
-      "description": "#KickFlip #킥플립\n#주왕 #Juwang",
-      "thumbnail": "https://i.ytimg.com/vi/KbbzHmW9ap0/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/KbbzHmW9ap0/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/KbbzHmW9ap0/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/KbbzHmW9ap0/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/KbbzHmW9ap0/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/KbbzHmW9ap0/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-24T13:00:23.000Z",
-      "url": "https://www.youtube.com/watch?v=KbbzHmW9ap0",
-      "fetchedAt": "2026-11-09T00:51:09.670Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-09T00:51:09.670Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-wLg8f2Xs42Y",
-      "source": {
-        "platform": "youtube",
-        "videoId": "wLg8f2Xs42Y",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "Bloody Paradise 🩸",
-      "description": "#KickFlip #킥플립\n#Kyehoon #Donghyeon",
-      "thumbnail": "https://i.ytimg.com/vi/wLg8f2Xs42Y/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/wLg8f2Xs42Y/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/wLg8f2Xs42Y/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/wLg8f2Xs42Y/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/wLg8f2Xs42Y/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/wLg8f2Xs42Y/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-24T12:00:00.000Z",
-      "url": "https://www.youtube.com/watch?v=wLg8f2Xs42Y",
-      "fetchedAt": "2026-11-08T12:39:23.467Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-08T12:39:23.467Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-Rsgi1v--03M",
-      "source": {
-        "platform": "youtube",
-        "videoId": "Rsgi1v--03M",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "[KickFlip B-roll] \"2027 Season's Greetings\" Behind",
-      "description": "#KickFlip #킥플립",
-      "thumbnail": "https://i.ytimg.com/vi/Rsgi1v--03M/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/Rsgi1v--03M/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/Rsgi1v--03M/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/Rsgi1v--03M/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/Rsgi1v--03M/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/Rsgi1v--03M/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-24T11:00:35.000Z",
-      "url": "https://www.youtube.com/watch?v=Rsgi1v--03M",
-      "fetchedAt": "2026-11-08T12:39:23.467Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-08T12:39:23.467Z",
-      "type": "other",
-      "category": "behind",
-      "subcategory": "making",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.95,
-        "ruleId": "making"
       }
     }
   ]

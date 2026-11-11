@@ -4,8 +4,128 @@
   "uploadsPlaylistId": "UUHp2q2i85qt_9nn2H7AvGOw",
   "artistId": "niziu",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-11T05:19:23.022Z",
+  "fetchedAt": "2026-11-11T19:23:29.321Z",
   "items": [
+    {
+      "id": "yt-esJjXJ3JyPQ",
+      "source": {
+        "platform": "youtube",
+        "videoId": "esJjXJ3JyPQ",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "🤧🤧#MAKO #MIIHI#NiziU #니쥬 #WithU",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/esJjXJ3JyPQ/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/esJjXJ3JyPQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/esJjXJ3JyPQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/esJjXJ3JyPQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/esJjXJ3JyPQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/esJjXJ3JyPQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-11T14:52:05.000Z",
+      "url": "https://www.youtube.com/watch?v=esJjXJ3JyPQ",
+      "fetchedAt": "2026-11-11T19:23:29.321Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-j3oJi7loeos",
+      "source": {
+        "platform": "youtube",
+        "videoId": "j3oJi7loeos",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "🫶ＬＯＶＥ🫶#AYAKA #MAYUKA#NiziU #니쥬 #WithU",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/j3oJi7loeos/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/j3oJi7loeos/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/j3oJi7loeos/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/j3oJi7loeos/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/j3oJi7loeos/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/j3oJi7loeos/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-11T14:51:52.000Z",
+      "url": "https://www.youtube.com/watch?v=j3oJi7loeos",
+      "fetchedAt": "2026-11-11T19:23:29.321Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-esK-gk3fc_s",
       "source": {
@@ -676,9 +796,9 @@
       ],
       "publishedAt": "2026-10-27T11:00:50.000Z",
       "url": "https://www.youtube.com/watch?v=EBEe7Vfb7o8",
-      "fetchedAt": "2026-10-27T12:36:33.643Z",
+      "fetchedAt": "2026-11-11T19:23:29.321Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-27T12:36:33.643Z",
+      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
       "type": "teaser",
       "category": "behind",
       "subcategory": "making",
@@ -2940,133 +3060,6 @@
       ],
       "publishedAt": "2026-10-11T12:00:35.000Z",
       "url": "https://www.youtube.com/watch?v=RJ_L9v0r7YQ",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-4eKuAmDwHfE",
-      "source": {
-        "platform": "youtube",
-        "videoId": "4eKuAmDwHfE",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "NiziU(니쥬) \"Sour Grapes\" Dance Practice (Sniper Ver.)",
-      "description": "NiziU(니쥬) \"Sour Grapes\" Dance Practice (Sniper Ver.)\n\nNiziU(니쥬) Korea 1st Mini Album \"Sour Grapes\"\n2026.09.28 MON 6PM (KST) Release\n\n🎧 https://niziu.lnk.to/SourGrapes\n\nNiziU Official Homepage: https://niziu.com/\nNiziU Official YouTube:    / @niziuofficial  \nNiziU Official Facebo",
-      "thumbnail": "https://i.ytimg.com/vi/4eKuAmDwHfE/uhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/4eKuAmDwHfE/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/4eKuAmDwHfE/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/4eKuAmDwHfE/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/4eKuAmDwHfE/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/4eKuAmDwHfE/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "uhd",
-          "url": "https://i.ytimg.com/vi/4eKuAmDwHfE/uhddefault.jpg",
-          "width": 3840,
-          "height": 2160
-        }
-      ],
-      "publishedAt": "2026-10-11T11:00:05.000Z",
-      "url": "https://www.youtube.com/watch?v=4eKuAmDwHfE",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "performance",
-      "category": "music",
-      "subcategory": "performance-video",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.91,
-        "ruleId": "music-performance"
-      }
-    },
-    {
-      "id": "yt-M6zLfwt8v4s",
-      "source": {
-        "platform": "youtube",
-        "videoId": "M6zLfwt8v4s",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "Upside Down 🙃 #MAKO #MIIHI#NiziU #니쥬#SourGrapes#NiziU_SourGrapes",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/M6zLfwt8v4s/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/M6zLfwt8v4s/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/M6zLfwt8v4s/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/M6zLfwt8v4s/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/M6zLfwt8v4s/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/M6zLfwt8v4s/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-11T10:01:57.000Z",
-      "url": "https://www.youtube.com/watch?v=M6zLfwt8v4s",
       "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-30T00:41:28.144Z",
