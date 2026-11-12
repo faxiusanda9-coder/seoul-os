@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUHp2q2i85qt_9nn2H7AvGOw",
   "artistId": "niziu",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-11T19:23:29.321Z",
+  "fetchedAt": "2026-11-12T06:23:35.446Z",
   "items": [
+    {
+      "id": "yt-QrH-e_sp_gw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "QrH-e_sp_gw",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "NiziU Live with U 2026-2027 “Who? U! NiziU Fes.” is coming ౽🛷❄︎",
+      "description": "⛄特設サイト\nhttps://niziu.com/s/n123/page/livewithu2026_2027\n\n#NiziU #ニジュー #니쥬 #WithU\n#NiziU_tour #LivewithU2026_2027 #Who_U_NiziU_Fes",
+      "thumbnail": "https://i.ytimg.com/vi/QrH-e_sp_gw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/QrH-e_sp_gw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/QrH-e_sp_gw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/QrH-e_sp_gw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/QrH-e_sp_gw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/QrH-e_sp_gw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-12T03:00:24.000Z",
+      "url": "https://www.youtube.com/watch?v=QrH-e_sp_gw",
+      "fetchedAt": "2026-11-12T06:23:35.446Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-12T06:23:35.446Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-esJjXJ3JyPQ",
       "source": {
@@ -3000,66 +3060,6 @@
       ],
       "publishedAt": "2026-10-11T12:30:00.000Z",
       "url": "https://www.youtube.com/watch?v=bB-B7A7iuzI",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-RJ_L9v0r7YQ",
-      "source": {
-        "platform": "youtube",
-        "videoId": "RJ_L9v0r7YQ",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "🔫😎",
-      "description": "#NiziU #니쥬\n#SourGrapes\n#NiziU_SourGrapes",
-      "thumbnail": "https://i.ytimg.com/vi/RJ_L9v0r7YQ/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/RJ_L9v0r7YQ/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/RJ_L9v0r7YQ/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/RJ_L9v0r7YQ/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/RJ_L9v0r7YQ/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/RJ_L9v0r7YQ/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-11T12:00:35.000Z",
-      "url": "https://www.youtube.com/watch?v=RJ_L9v0r7YQ",
       "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-30T00:41:28.144Z",

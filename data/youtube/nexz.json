@@ -4,7 +4,7 @@
   "uploadsPlaylistId": "UU-o9yrZxu5Ru-DVGhnmeTug",
   "artistId": "nexz",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-11T19:23:29.321Z",
+  "fetchedAt": "2026-11-12T06:23:35.446Z",
   "items": [
     {
       "id": "yt-maWAZyRBljQ",
@@ -2067,9 +2067,9 @@
       ],
       "publishedAt": "2026-10-27T13:15:13.000Z",
       "url": "https://www.youtube.com/watch?v=W57gccgIieA",
-      "fetchedAt": "2026-10-28T00:40:07.621Z",
+      "fetchedAt": "2026-11-12T06:23:35.446Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-28T00:40:07.621Z",
+      "lastValidatedAt": "2026-11-12T06:23:35.446Z",
       "type": "performance",
       "category": "other",
       "classification": {
@@ -2127,9 +2127,9 @@
       ],
       "publishedAt": "2026-10-27T13:10:04.000Z",
       "url": "https://www.youtube.com/watch?v=QYitixBf2-g",
-      "fetchedAt": "2026-10-28T00:40:07.621Z",
+      "fetchedAt": "2026-11-12T06:23:35.446Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-28T00:40:07.621Z",
+      "lastValidatedAt": "2026-11-12T06:23:35.446Z",
       "type": "performance",
       "category": "other",
       "classification": {
@@ -2187,9 +2187,9 @@
       ],
       "publishedAt": "2026-10-27T13:05:16.000Z",
       "url": "https://www.youtube.com/watch?v=Q2yZu2QSdvw",
-      "fetchedAt": "2026-10-28T00:40:07.621Z",
+      "fetchedAt": "2026-11-12T06:23:35.446Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-28T00:40:07.621Z",
+      "lastValidatedAt": "2026-11-12T06:23:35.446Z",
       "type": "performance",
       "category": "other",
       "classification": {
@@ -2247,9 +2247,9 @@
       ],
       "publishedAt": "2026-10-27T13:00:01.000Z",
       "url": "https://www.youtube.com/watch?v=rxPY9TZlvbE",
-      "fetchedAt": "2026-10-28T00:40:07.621Z",
+      "fetchedAt": "2026-11-12T06:23:35.446Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-28T00:40:07.621Z",
+      "lastValidatedAt": "2026-11-12T06:23:35.446Z",
       "type": "performance",
       "category": "other",
       "classification": {
