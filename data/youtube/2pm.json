@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUBpzJvEhkemwMOkYLq9yUsA",
   "artistId": "2pm",
   "syncStatus": "ok",
-  "fetchedAt": "2026-10-30T00:41:28.144Z",
+  "fetchedAt": "2026-11-12T19:41:04.309Z",
   "items": [
+    {
+      "id": "yt-ni6qzfqKyTg",
+      "source": {
+        "platform": "youtube",
+        "videoId": "ni6qzfqKyTg",
+        "channelId": "UCBpzJvEhkemwMOkYLq9yUsA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "2pm",
+        "name": "2PM"
+      },
+      "title": "💫Jang Wooyoung Concert 2026.11.14 SAT 5PM(KST) 2026.11.15 SUN 4PM(KST)📍YES24 LIVE HALL",
+      "description": "#장우영 #JangWooyoung\n#JangWooyoung_Concert",
+      "thumbnail": "https://i.ytimg.com/vi/ni6qzfqKyTg/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/ni6qzfqKyTg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/ni6qzfqKyTg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/ni6qzfqKyTg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/ni6qzfqKyTg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/ni6qzfqKyTg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-12T09:00:32.000Z",
+      "url": "https://www.youtube.com/watch?v=ni6qzfqKyTg",
+      "fetchedAt": "2026-11-12T19:41:04.309Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-12T19:41:04.309Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-7gVwEc1-3tk",
       "source": {
@@ -2983,66 +3043,6 @@
       ],
       "publishedAt": "2025-12-24T09:30:29.000Z",
       "url": "https://www.youtube.com/watch?v=vuAMhYWneHY",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-CrG6sRQEDVU",
-      "source": {
-        "platform": "youtube",
-        "videoId": "CrG6sRQEDVU",
-        "channelId": "UCBpzJvEhkemwMOkYLq9yUsA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "2pm",
-        "name": "2PM"
-      },
-      "title": "회사 카페에서 만난 최애 핫티와 함께 춤을…★ | #NICHKHUN #닉쿤 #쿤이의세포들",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/CrG6sRQEDVU/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/CrG6sRQEDVU/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/CrG6sRQEDVU/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/CrG6sRQEDVU/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/CrG6sRQEDVU/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/CrG6sRQEDVU/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2025-12-24T09:30:09.000Z",
-      "url": "https://www.youtube.com/watch?v=CrG6sRQEDVU",
       "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-30T00:41:28.144Z",

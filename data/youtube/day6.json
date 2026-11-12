@@ -4,8 +4,69 @@
   "uploadsPlaylistId": "UUp-pqXsizklX3ZHvLxXyhxw",
   "artistId": "day6",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-11T19:23:29.321Z",
+  "fetchedAt": "2026-11-12T19:41:04.309Z",
   "items": [
+    {
+      "id": "yt-fmK7ZgBqzAs",
+      "source": {
+        "platform": "youtube",
+        "videoId": "fmK7ZgBqzAs",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[데식이들] 원필 x KIA 타이거즈 준플레이오프 1차전 시구 비하인드",
+      "description": "[데식이들] 원필 x KIA 타이거즈 준플레이오프 1차전 시구 비하인드\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY6Offici",
+      "thumbnail": "https://i.ytimg.com/vi/fmK7ZgBqzAs/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/fmK7ZgBqzAs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/fmK7ZgBqzAs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/fmK7ZgBqzAs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/fmK7ZgBqzAs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/fmK7ZgBqzAs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-12T09:00:05.000Z",
+      "url": "https://www.youtube.com/watch?v=fmK7ZgBqzAs",
+      "fetchedAt": "2026-11-12T19:41:04.309Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-12T19:41:04.309Z",
+      "type": "other",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
+    },
     {
       "id": "yt-Ckjr4pc4nZw",
       "source": {
@@ -359,9 +420,9 @@
       ],
       "publishedAt": "2026-10-28T10:00:02.000Z",
       "url": "https://www.youtube.com/watch?v=w_RCuuWcB0M",
-      "fetchedAt": "2026-10-28T12:40:59.654Z",
+      "fetchedAt": "2026-11-12T19:41:04.309Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-28T12:40:59.654Z",
+      "lastValidatedAt": "2026-11-12T19:41:04.309Z",
       "type": "other",
       "category": "behind",
       "subcategory": "making",
@@ -2965,67 +3026,6 @@
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-COS63FxdLrQ",
-      "source": {
-        "platform": "youtube",
-        "videoId": "COS63FxdLrQ",
-        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "day6",
-        "name": "DAY6"
-      },
-      "title": "#Shut_The_Door Challenge with #펭수 님🚪",
-      "description": "#Shut_The_Door Challenge with #펭수 님🚪\n\n#DAY6 #데이식스\n#YoungK #영케이\n#YOUNGEST\n@giantpengtv",
-      "thumbnail": "https://i.ytimg.com/vi/COS63FxdLrQ/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/COS63FxdLrQ/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/COS63FxdLrQ/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/COS63FxdLrQ/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/COS63FxdLrQ/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/COS63FxdLrQ/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-19T03:00:14.000Z",
-      "url": "https://www.youtube.com/watch?v=COS63FxdLrQ",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
       }
     }
   ]

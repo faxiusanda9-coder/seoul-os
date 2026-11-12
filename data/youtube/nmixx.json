@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUnUAyD4t2LkvW68YrDh7fDg",
   "artistId": "nmixx",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-11T19:23:29.321Z",
+  "fetchedAt": "2026-11-12T19:41:04.309Z",
   "items": [
+    {
+      "id": "yt-8wIIfJx_y2w",
+      "source": {
+        "platform": "youtube",
+        "videoId": "8wIIfJx_y2w",
+        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nmixx",
+        "name": "NMIXX"
+      },
+      "title": "𝒄𝒐𝒎𝒆 𝒃𝒂𝒄𝒌 𝒂𝒏𝒅 𝒃𝒂𝒄𝒌 #다함께따따따 #NMIXX #HAEWON #KYUJIN",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/8wIIfJx_y2w/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/8wIIfJx_y2w/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/8wIIfJx_y2w/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/8wIIfJx_y2w/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/8wIIfJx_y2w/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/8wIIfJx_y2w/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-12T11:00:37.000Z",
+      "url": "https://www.youtube.com/watch?v=8wIIfJx_y2w",
+      "fetchedAt": "2026-11-12T19:41:04.309Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-12T19:41:04.309Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-xyqG1l8pNh4",
       "source": {
@@ -1707,9 +1767,9 @@
       ],
       "publishedAt": "2026-10-28T09:00:21.000Z",
       "url": "https://www.youtube.com/watch?v=8VhblKF8o4M",
-      "fetchedAt": "2026-10-28T12:40:59.654Z",
+      "fetchedAt": "2026-11-12T19:41:04.309Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-28T12:40:59.654Z",
+      "lastValidatedAt": "2026-11-12T19:41:04.309Z",
       "type": "other",
       "category": "behind",
       "subcategory": "making",
@@ -2997,66 +3057,6 @@
       "fetchedAt": "2026-11-08T12:39:23.467Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-08T12:39:23.467Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-IiOKk0splyY",
-      "source": {
-        "platform": "youtube",
-        "videoId": "IiOKk0splyY",
-        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nmixx",
-        "name": "NMIXX"
-      },
-      "title": "#TWS #YOUNGJAE 위한 긴 소원을 빌게 🐶🎂 ̖́- #NMIXX #SULLYOON #긴소원_BirthdayWish",
-      "description": "#TWS #YOUNGJAE 위한 긴 소원을 빌게 🐶🎂 ̖́- #NMIXX #SULLYOON #긴소원_BirthdayWish \n\nNMIXX Official YouTube ▶ https://www.youtube.com/c/NMIXXOfficial\nNMIXX Official X ▶ https://x.com/NMIXX_official\nNMIXX Official X(Members) ▶ https://x.com/WE_NMIXX\nNMIXX Official Instagram ▶ https://www.inst",
-      "thumbnail": "https://i.ytimg.com/vi/IiOKk0splyY/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/IiOKk0splyY/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/IiOKk0splyY/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/IiOKk0splyY/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/IiOKk0splyY/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/IiOKk0splyY/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-24T05:30:38.000Z",
-      "url": "https://www.youtube.com/watch?v=IiOKk0splyY",
-      "fetchedAt": "2026-11-06T00:52:45.796Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-06T00:52:45.796Z",
       "type": "other",
       "category": "other",
       "classification": {

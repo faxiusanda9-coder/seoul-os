@@ -4,8 +4,189 @@
   "uploadsPlaylistId": "UUDhM2k2Cua-JdobAh5moMFg",
   "artistId": "itzy",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-12T06:23:35.446Z",
+  "fetchedAt": "2026-11-12T19:41:04.309Z",
   "items": [
+    {
+      "id": "yt-Yl_eVi8fYWE",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Yl_eVi8fYWE",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "#이연복 #박성웅 #김원훈 님과의 Lo-lo-lo- #LovesickChallenge 🍝🏹 #ITZY #CHAERYEONG #채령 #Chaeryeong_Lovesick",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/Yl_eVi8fYWE/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Yl_eVi8fYWE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Yl_eVi8fYWE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Yl_eVi8fYWE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Yl_eVi8fYWE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Yl_eVi8fYWE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-12T12:00:05.000Z",
+      "url": "https://www.youtube.com/watch?v=Yl_eVi8fYWE",
+      "fetchedAt": "2026-11-12T19:41:04.309Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-12T19:41:04.309Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-UCcJpkeJd3o",
+      "source": {
+        "platform": "youtube",
+        "videoId": "UCcJpkeJd3o",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "𝟭, 𝟮, 𝟯, 𝟰, 이찌 출발 ¨*•.¸¸♬✧ #ITZY #MIDZY #수확여행 #ITZY_Harvestrip",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/UCcJpkeJd3o/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/UCcJpkeJd3o/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/UCcJpkeJd3o/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/UCcJpkeJd3o/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/UCcJpkeJd3o/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/UCcJpkeJd3o/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-12T09:35:15.000Z",
+      "url": "https://www.youtube.com/watch?v=UCcJpkeJd3o",
+      "fetchedAt": "2026-11-12T19:41:04.309Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-12T19:41:04.309Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-EjnnKiLEsp4",
+      "source": {
+        "platform": "youtube",
+        "videoId": "EjnnKiLEsp4",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "[Harvestrip] EP.2 | Treasure Is Meant to Be Found",
+      "description": "[Harvestrip] EP.2 | Treasure Is Meant to Be Found \n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOfficial\n▶ http://www.facebo",
+      "thumbnail": "https://i.ytimg.com/vi/EjnnKiLEsp4/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/EjnnKiLEsp4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/EjnnKiLEsp4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/EjnnKiLEsp4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/EjnnKiLEsp4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/EjnnKiLEsp4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-12T09:00:19.000Z",
+      "url": "https://www.youtube.com/watch?v=EjnnKiLEsp4",
+      "fetchedAt": "2026-11-12T19:41:04.309Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-12T19:41:04.309Z",
+      "type": "other",
+      "category": "variety",
+      "subcategory": "series",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.9,
+        "ruleId": "variety-series"
+      }
+    },
     {
       "id": "yt-XUd8G7P8WI4",
       "source": {
@@ -2217,9 +2398,9 @@
       ],
       "publishedAt": "2026-10-28T11:00:17.000Z",
       "url": "https://www.youtube.com/watch?v=eLB44HRGF9I",
-      "fetchedAt": "2026-10-28T12:40:59.654Z",
+      "fetchedAt": "2026-11-12T19:41:04.309Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-28T12:40:59.654Z",
+      "lastValidatedAt": "2026-11-12T19:41:04.309Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2283,9 +2464,9 @@
       ],
       "publishedAt": "2026-10-28T09:59:58.000Z",
       "url": "https://www.youtube.com/watch?v=lp8F-cIDPB8",
-      "fetchedAt": "2026-10-28T12:40:59.654Z",
+      "fetchedAt": "2026-11-12T19:41:04.309Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-28T12:40:59.654Z",
+      "lastValidatedAt": "2026-11-12T19:41:04.309Z",
       "type": "teaser",
       "category": "behind",
       "subcategory": "making",
@@ -2907,186 +3088,6 @@
       "fetchedAt": "2026-11-03T12:52:17.349Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-03T12:52:17.349Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-a5L0AuQggOk",
-      "source": {
-        "platform": "youtube",
-        "videoId": "a5L0AuQggOk",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "𝐾𝑛𝑜𝑐𝑘 𝑘𝑛𝑜𝑐𝑘, 𝐶𝑜𝑚𝑖𝑛𝑔 𝑠𝑜𝑜𝑛 ...💓 #ITZY #CHAERYEONG #채령 #Chaeryeong_Lovesick #shorts",
-      "description": "💿 ALBUM RELEASE\n2026.11.09 MON 6PM (KST) | 4AM (ET)",
-      "thumbnail": "https://i.ytimg.com/vi/a5L0AuQggOk/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/a5L0AuQggOk/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/a5L0AuQggOk/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/a5L0AuQggOk/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/a5L0AuQggOk/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/a5L0AuQggOk/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-19T10:00:29.000Z",
-      "url": "https://www.youtube.com/watch?v=a5L0AuQggOk",
-      "fetchedAt": "2026-11-03T12:52:17.349Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-03T12:52:17.349Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-4vmBvGMSLBw",
-      "source": {
-        "platform": "youtube",
-        "videoId": "4vmBvGMSLBw",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "YUNA \"Tangerine\" @ 'TUNNEL VISION' in SINGAPORE",
-      "description": "YUNA \"Tangerine\" @ 'TUNNEL VISION' in SINGAPORE\n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOfficial\n▶ http://www.facebook.",
-      "thumbnail": "https://i.ytimg.com/vi/4vmBvGMSLBw/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/4vmBvGMSLBw/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/4vmBvGMSLBw/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/4vmBvGMSLBw/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/4vmBvGMSLBw/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/4vmBvGMSLBw/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-16T10:00:04.000Z",
-      "url": "https://www.youtube.com/watch?v=4vmBvGMSLBw",
-      "fetchedAt": "2026-10-31T12:38:32.540Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-31T12:38:32.540Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-ctGc_IBlJ74",
-      "source": {
-        "platform": "youtube",
-        "videoId": "ctGc_IBlJ74",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "CHAERYEONG \"Undefined\" @ 'TUNNEL VISION' in SINGAPORE",
-      "description": "CHAERYEONG \"Undefined\" @ 'TUNNEL VISION' in SINGAPORE\n\nITZY 'Motto'\nhttps://itzy.lnk.to/Motto\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOfficial\n▶ http://www.fac",
-      "thumbnail": "https://i.ytimg.com/vi/ctGc_IBlJ74/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/ctGc_IBlJ74/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/ctGc_IBlJ74/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/ctGc_IBlJ74/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/ctGc_IBlJ74/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/ctGc_IBlJ74/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-16T09:59:59.000Z",
-      "url": "https://www.youtube.com/watch?v=ctGc_IBlJ74",
-      "fetchedAt": "2026-10-31T12:38:32.540Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-31T12:38:32.540Z",
       "type": "other",
       "category": "other",
       "classification": {
