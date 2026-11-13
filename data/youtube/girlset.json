@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUSskmnvIhEy3nSZxxVKTeIg",
   "artistId": "girlset",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-12T06:23:35.446Z",
+  "fetchedAt": "2026-11-13T05:43:45.492Z",
   "items": [
+    {
+      "id": "yt-ZA9HGgL4Vmc",
+      "source": {
+        "platform": "youtube",
+        "videoId": "ZA9HGgL4Vmc",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "you’re young, so be dumb. “young & dumb” out now! #GIRLSET #younganddumb",
+      "description": "Listen to “young & dumb”: https://girlset.lnk.to/YoungAndDumb\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.co",
+      "thumbnail": "https://i.ytimg.com/vi/ZA9HGgL4Vmc/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/ZA9HGgL4Vmc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/ZA9HGgL4Vmc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/ZA9HGgL4Vmc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/ZA9HGgL4Vmc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/ZA9HGgL4Vmc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-13T05:05:44.000Z",
+      "url": "https://www.youtube.com/watch?v=ZA9HGgL4Vmc",
+      "fetchedAt": "2026-11-13T05:43:45.492Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-13T05:43:45.492Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-Cukeb75vQ1E",
       "source": {
@@ -1383,9 +1443,9 @@
       ],
       "publishedAt": "2026-10-29T00:08:35.000Z",
       "url": "https://www.youtube.com/watch?v=T8klDdXK-aI",
-      "fetchedAt": "2026-10-29T00:40:25.468Z",
+      "fetchedAt": "2026-11-13T05:43:45.492Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-29T00:40:25.468Z",
+      "lastValidatedAt": "2026-11-13T05:43:45.492Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1449,9 +1509,9 @@
       ],
       "publishedAt": "2026-10-29T00:00:02.000Z",
       "url": "https://www.youtube.com/watch?v=eVHHc4_bqM0",
-      "fetchedAt": "2026-10-29T00:40:25.468Z",
+      "fetchedAt": "2026-11-13T05:43:45.492Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-29T00:40:25.468Z",
+      "lastValidatedAt": "2026-11-13T05:43:45.492Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1515,9 +1575,9 @@
       ],
       "publishedAt": "2026-10-28T20:00:44.000Z",
       "url": "https://www.youtube.com/watch?v=PE7jD_z7E6o",
-      "fetchedAt": "2026-10-29T00:40:25.468Z",
+      "fetchedAt": "2026-11-13T05:43:45.492Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-29T00:40:25.468Z",
+      "lastValidatedAt": "2026-11-13T05:43:45.492Z",
       "type": "performance",
       "category": "music",
       "subcategory": "performance-video",
@@ -2992,66 +3052,6 @@
       ],
       "publishedAt": "2026-08-31T16:07:30.000Z",
       "url": "https://www.youtube.com/watch?v=n-4pjZzv1Gk",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-CJ-WaZ2ee3U",
-      "source": {
-        "platform": "youtube",
-        "videoId": "CJ-WaZ2ee3U",
-        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "girlset",
-        "name": "GIRLSET"
-      },
-      "title": "@LizaSoberanoOfficial’s in the chatt 💓💓 #GIRLSET #CHAT",
-      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/CJ-WaZ2ee3U/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/CJ-WaZ2ee3U/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/CJ-WaZ2ee3U/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/CJ-WaZ2ee3U/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/CJ-WaZ2ee3U/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/CJ-WaZ2ee3U/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-08-30T01:06:46.000Z",
-      "url": "https://www.youtube.com/watch?v=CJ-WaZ2ee3U",
       "fetchedAt": "2026-10-30T00:41:28.144Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-10-30T00:41:28.144Z",
