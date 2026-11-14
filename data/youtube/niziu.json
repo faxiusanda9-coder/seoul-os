@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUHp2q2i85qt_9nn2H7AvGOw",
   "artistId": "niziu",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-13T19:22:41.860Z",
+  "fetchedAt": "2026-11-14T05:33:34.635Z",
   "items": [
+    {
+      "id": "yt-Bxzx8IdiCmY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Bxzx8IdiCmY",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "NiziU Live with U 2026-2027 “Who? U! NiziU Fes.” Rehearsal Clip🔥",
+      "description": "⛄特設サイト\nhttps://niziu.com/s/n123/page/livewithu2026_2027\n\n#NiziU #ニジュー #니쥬 #WithU\n#NiziU_tour #LivewithU2026_2027 #Who_U_NiziU_Fes",
+      "thumbnail": "https://i.ytimg.com/vi/Bxzx8IdiCmY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Bxzx8IdiCmY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Bxzx8IdiCmY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Bxzx8IdiCmY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Bxzx8IdiCmY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Bxzx8IdiCmY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-14T04:30:29.000Z",
+      "url": "https://www.youtube.com/watch?v=Bxzx8IdiCmY",
+      "fetchedAt": "2026-11-14T05:33:34.635Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-YcGv7G1h6cY",
       "source": {
@@ -2585,9 +2645,9 @@
       ],
       "publishedAt": "2026-10-14T11:00:03.000Z",
       "url": "https://www.youtube.com/watch?v=GCuXJYLHClE",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
+      "fetchedAt": "2026-11-14T05:33:34.635Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
+      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
       "type": "other",
       "category": "behind",
       "subcategory": "making",
@@ -2646,9 +2706,9 @@
       ],
       "publishedAt": "2026-10-14T10:19:30.000Z",
       "url": "https://www.youtube.com/watch?v=WKYy57IKrSU",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
+      "fetchedAt": "2026-11-14T05:33:34.635Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
+      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2706,9 +2766,9 @@
       ],
       "publishedAt": "2026-10-13T08:59:02.000Z",
       "url": "https://www.youtube.com/watch?v=9UsA26nqFH8",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
+      "fetchedAt": "2026-11-14T05:33:34.635Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
+      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2766,9 +2826,9 @@
       ],
       "publishedAt": "2026-10-13T08:01:18.000Z",
       "url": "https://www.youtube.com/watch?v=ORi8MGJINes",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
+      "fetchedAt": "2026-11-14T05:33:34.635Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
+      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2826,9 +2886,9 @@
       ],
       "publishedAt": "2026-10-13T07:00:25.000Z",
       "url": "https://www.youtube.com/watch?v=I4pTDC2Z3f8",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
+      "fetchedAt": "2026-11-14T05:33:34.635Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
+      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2886,9 +2946,9 @@
       ],
       "publishedAt": "2026-10-12T12:00:08.000Z",
       "url": "https://www.youtube.com/watch?v=0mQGeFKfZuM",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
+      "fetchedAt": "2026-11-14T05:33:34.635Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
+      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2952,9 +3012,9 @@
       ],
       "publishedAt": "2026-10-12T11:00:02.000Z",
       "url": "https://www.youtube.com/watch?v=wp7L48JPkN0",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
+      "fetchedAt": "2026-11-14T05:33:34.635Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
+      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
       "type": "performance",
       "category": "behind",
       "subcategory": "making",
@@ -3013,69 +3073,9 @@
       ],
       "publishedAt": "2026-10-12T10:00:13.000Z",
       "url": "https://www.youtube.com/watch?v=EeHu4ifnl_Y",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
+      "fetchedAt": "2026-11-14T05:33:34.635Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-eLSX6I1KeSI",
-      "source": {
-        "platform": "youtube",
-        "videoId": "eLSX6I1KeSI",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "#SourGrapes with #Rothy @ROTHY_OFFICIAL 🍇#로시#NiziU #니쥬 #AYAKA#NiziU_SourGrapes",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/eLSX6I1KeSI/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/eLSX6I1KeSI/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/eLSX6I1KeSI/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/eLSX6I1KeSI/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/eLSX6I1KeSI/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/eLSX6I1KeSI/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-12T08:03:18.000Z",
-      "url": "https://www.youtube.com/watch?v=eLSX6I1KeSI",
-      "fetchedAt": "2026-10-30T00:41:28.144Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T00:41:28.144Z",
+      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
       "type": "other",
       "category": "other",
       "classification": {
