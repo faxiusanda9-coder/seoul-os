@@ -4,7 +4,7 @@
   "uploadsPlaylistId": "UUnUAyD4t2LkvW68YrDh7fDg",
   "artistId": "nmixx",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-13T19:22:41.860Z",
+  "fetchedAt": "2026-11-14T17:46:40.398Z",
   "items": [
     {
       "id": "yt-S0rbwhCQUZ0",
@@ -1464,9 +1464,9 @@
       ],
       "publishedAt": "2026-10-30T09:00:06.000Z",
       "url": "https://www.youtube.com/watch?v=FhZ4f7vkqtw",
-      "fetchedAt": "2026-10-30T12:42:05.236Z",
+      "fetchedAt": "2026-11-14T17:46:40.398Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T12:42:05.236Z",
+      "lastValidatedAt": "2026-11-14T17:46:40.398Z",
       "type": "other",
       "category": "variety",
       "subcategory": "series",

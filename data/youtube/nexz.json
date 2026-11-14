@@ -4,8 +4,128 @@
   "uploadsPlaylistId": "UU-o9yrZxu5Ru-DVGhnmeTug",
   "artistId": "nexz",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-14T05:33:34.635Z",
+  "fetchedAt": "2026-11-14T17:46:40.398Z",
   "items": [
+    {
+      "id": "yt-6jK4REJGgGE",
+      "source": {
+        "platform": "youtube",
+        "videoId": "6jK4REJGgGE",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "୧(๑BAD BOYS๑)૭ | #TOMOYA #SOGEON #SEITA",
+      "description": "#NEXZ #TOMOYA #SOGEON #SEITA\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
+      "thumbnail": "https://i.ytimg.com/vi/6jK4REJGgGE/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/6jK4REJGgGE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/6jK4REJGgGE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/6jK4REJGgGE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/6jK4REJGgGE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/6jK4REJGgGE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-14T14:00:05.000Z",
+      "url": "https://www.youtube.com/watch?v=6jK4REJGgGE",
+      "fetchedAt": "2026-11-14T17:46:40.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-14T17:46:40.398Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-Ygps1ED9XB8",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Ygps1ED9XB8",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "𝘛𝘩𝘪𝘴 𝘡𝘦𝘯𝘦𝘳𝘢𝘵𝘪𝘰𝘯 | #YU #HARU #SOGEON",
+      "description": "#NEXZ #YU #HARU #SOGEON\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
+      "thumbnail": "https://i.ytimg.com/vi/Ygps1ED9XB8/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Ygps1ED9XB8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Ygps1ED9XB8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Ygps1ED9XB8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Ygps1ED9XB8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Ygps1ED9XB8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-14T13:00:21.000Z",
+      "url": "https://www.youtube.com/watch?v=Ygps1ED9XB8",
+      "fetchedAt": "2026-11-14T17:46:40.398Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-14T17:46:40.398Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-V46UyVDoBvI",
       "source": {
@@ -1852,9 +1972,9 @@
       ],
       "publishedAt": "2026-10-30T11:00:35.000Z",
       "url": "https://www.youtube.com/watch?v=AK0OXKdnFNg",
-      "fetchedAt": "2026-10-30T12:42:05.236Z",
+      "fetchedAt": "2026-11-14T17:46:40.398Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T12:42:05.236Z",
+      "lastValidatedAt": "2026-11-14T17:46:40.398Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1912,9 +2032,9 @@
       ],
       "publishedAt": "2026-10-30T09:00:12.000Z",
       "url": "https://www.youtube.com/watch?v=TNlihAQ8vZU",
-      "fetchedAt": "2026-10-30T12:42:05.236Z",
+      "fetchedAt": "2026-11-14T17:46:40.398Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-30T12:42:05.236Z",
+      "lastValidatedAt": "2026-11-14T17:46:40.398Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2852,126 +2972,6 @@
       "fetchedAt": "2026-11-09T00:51:09.670Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-09T00:51:09.670Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-F2CM62uDPJU",
-      "source": {
-        "platform": "youtube",
-        "videoId": "F2CM62uDPJU",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "me&my Chipmunks 💙❤️💚 | #TOMOYA #YU #SOGEON",
-      "description": "#NEXZ #TOMOYA #YU #SOGEON\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
-      "thumbnail": "https://i.ytimg.com/vi/F2CM62uDPJU/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/F2CM62uDPJU/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/F2CM62uDPJU/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/F2CM62uDPJU/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/F2CM62uDPJU/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/F2CM62uDPJU/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-24T11:59:09.000Z",
-      "url": "https://www.youtube.com/watch?v=F2CM62uDPJU",
-      "fetchedAt": "2026-11-08T12:39:23.467Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-08T12:39:23.467Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-D_4l4ZlASfc",
-      "source": {
-        "platform": "youtube",
-        "videoId": "D_4l4ZlASfc",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "오토바이 없는 충칭 오토바이🏍️ | #TOMOYA #YU",
-      "description": "#NEXZ #TOMOYA #YU\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
-      "thumbnail": "https://i.ytimg.com/vi/D_4l4ZlASfc/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/D_4l4ZlASfc/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/D_4l4ZlASfc/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/D_4l4ZlASfc/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/D_4l4ZlASfc/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/D_4l4ZlASfc/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-24T09:00:28.000Z",
-      "url": "https://www.youtube.com/watch?v=D_4l4ZlASfc",
-      "fetchedAt": "2026-11-08T12:39:23.467Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-08T12:39:23.467Z",
       "type": "other",
       "category": "other",
       "classification": {
