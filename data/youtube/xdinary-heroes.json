@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUO9GhtdQcCRf67GIdSQ0HNQ",
   "artistId": "xdinary-heroes",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-15T05:31:26.310Z",
+  "fetchedAt": "2026-11-15T18:37:32.878Z",
   "items": [
+    {
+      "id": "yt--9kCLXBHJZI",
+      "source": {
+        "platform": "youtube",
+        "videoId": "-9kCLXBHJZI",
+        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "xdinary-heroes",
+        "name": "Xdinary Heroes"
+      },
+      "title": "IMPULSE 콘서트 끝나자마자 빌런즈 보러 충동적으로 달려왔지 💗",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/-9kCLXBHJZI/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/-9kCLXBHJZI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/-9kCLXBHJZI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/-9kCLXBHJZI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/-9kCLXBHJZI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/-9kCLXBHJZI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-15T11:21:06.000Z",
+      "url": "https://www.youtube.com/watch?v=-9kCLXBHJZI",
+      "fetchedAt": "2026-11-15T18:37:32.878Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-15T18:37:32.878Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-lbzB8tiWxlE",
       "source": {
@@ -1020,9 +1080,9 @@
       ],
       "publishedAt": "2026-10-31T09:00:12.000Z",
       "url": "https://www.youtube.com/watch?v=gTr6p-Wc6JU",
-      "fetchedAt": "2026-10-31T12:38:32.540Z",
+      "fetchedAt": "2026-11-15T18:37:32.878Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-31T12:38:32.540Z",
+      "lastValidatedAt": "2026-11-15T18:37:32.878Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2956,67 +3016,6 @@
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-N5Q5snlM7_8",
-      "source": {
-        "platform": "youtube",
-        "videoId": "N5Q5snlM7_8",
-        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "xdinary-heroes",
-        "name": "Xdinary Heroes"
-      },
-      "title": "Xdinary Heroes \"Obsessed with Youth\" LIVE CLIP",
-      "description": "Xdinary Heroes \"Obsessed with Youth\" LIVE CLIP\n\nListen to Xdinary Heroes \"Obsessed with Youth\"\nhttp://Xdinaryheroes.lnk.to/IMPULSE\n\nXdinary Heroes Official YouTube: https://www.youtube.com/c/xdinaryheroesofficial\nXdinary Heroes Official Facebook: https://www.facebook.com/XdinaryH",
-      "thumbnail": "https://i.ytimg.com/vi/N5Q5snlM7_8/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/N5Q5snlM7_8/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/N5Q5snlM7_8/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/N5Q5snlM7_8/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/N5Q5snlM7_8/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/N5Q5snlM7_8/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-21T09:00:04.000Z",
-      "url": "https://www.youtube.com/watch?v=N5Q5snlM7_8",
-      "fetchedAt": "2026-11-05T12:57:29.787Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-05T12:57:29.787Z",
-      "type": "other",
-      "category": "stage",
-      "subcategory": "live-stage",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.94,
-        "ruleId": "stage"
       }
     }
   ]

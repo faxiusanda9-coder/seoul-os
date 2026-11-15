@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUHp2q2i85qt_9nn2H7AvGOw",
   "artistId": "niziu",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-14T17:46:40.398Z",
+  "fetchedAt": "2026-11-15T18:37:32.878Z",
   "items": [
+    {
+      "id": "yt-eVBoH4DqNbI",
+      "source": {
+        "platform": "youtube",
+        "videoId": "eVBoH4DqNbI",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "😺♾️😸#MAYUKA #MIIHI#NiziU",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/eVBoH4DqNbI/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/eVBoH4DqNbI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/eVBoH4DqNbI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/eVBoH4DqNbI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/eVBoH4DqNbI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/eVBoH4DqNbI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-15T12:00:02.000Z",
+      "url": "https://www.youtube.com/watch?v=eVBoH4DqNbI",
+      "fetchedAt": "2026-11-15T18:37:32.878Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-15T18:37:32.878Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-e3eN-0vIEd4",
       "source": {
@@ -2284,9 +2344,9 @@
       ],
       "publishedAt": "2026-10-16T10:01:38.000Z",
       "url": "https://www.youtube.com/watch?v=PPKAI6x4daU",
-      "fetchedAt": "2026-10-31T12:38:32.540Z",
+      "fetchedAt": "2026-11-15T18:37:32.878Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-31T12:38:32.540Z",
+      "lastValidatedAt": "2026-11-15T18:37:32.878Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2344,9 +2404,9 @@
       ],
       "publishedAt": "2026-10-16T08:00:18.000Z",
       "url": "https://www.youtube.com/watch?v=hf2Fxb4qRus",
-      "fetchedAt": "2026-10-31T12:38:32.540Z",
+      "fetchedAt": "2026-11-15T18:37:32.878Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-31T12:38:32.540Z",
+      "lastValidatedAt": "2026-11-15T18:37:32.878Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2404,9 +2464,9 @@
       ],
       "publishedAt": "2026-10-16T05:02:19.000Z",
       "url": "https://www.youtube.com/watch?v=1BhUuCpLUMA",
-      "fetchedAt": "2026-10-31T12:38:32.540Z",
+      "fetchedAt": "2026-11-15T18:37:32.878Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-31T12:38:32.540Z",
+      "lastValidatedAt": "2026-11-15T18:37:32.878Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -3021,73 +3081,6 @@
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-wp7L48JPkN0",
-      "source": {
-        "platform": "youtube",
-        "videoId": "wp7L48JPkN0",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "NiziU(니쥬) \"Sour Grapes\" Dance Practice Behind",
-      "description": "NiziU(니쥬) \"Sour Grapes\" Dance Practice Behind\n\nNiziU(니쥬) Korea 1st Mini Album \"Sour Grapes\"\n2026.09.28 MON 6PM (KST) Release\n\n🎧 https://niziu.lnk.to/SourGrapes\n\nNiziU Official Homepage: https://niziu.com/\nNiziU Official YouTube:    / @niziuofficial  \nNiziU Official Facebook:   /",
-      "thumbnail": "https://i.ytimg.com/vi/wp7L48JPkN0/uhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/wp7L48JPkN0/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/wp7L48JPkN0/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/wp7L48JPkN0/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/wp7L48JPkN0/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/wp7L48JPkN0/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "uhd",
-          "url": "https://i.ytimg.com/vi/wp7L48JPkN0/uhddefault.jpg",
-          "width": 3840,
-          "height": 2160
-        }
-      ],
-      "publishedAt": "2026-10-12T11:00:02.000Z",
-      "url": "https://www.youtube.com/watch?v=wp7L48JPkN0",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
-      "type": "performance",
-      "category": "behind",
-      "subcategory": "making",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.95,
-        "ruleId": "making"
       }
     }
   ]

@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UU9rMiEjNaCSsebs31MRDCRA",
   "artistId": "stray-kids",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-15T05:31:26.310Z",
+  "fetchedAt": "2026-11-15T18:37:32.878Z",
   "items": [
+    {
+      "id": "yt-M2A1hTv2WTQ",
+      "source": {
+        "platform": "youtube",
+        "videoId": "M2A1hTv2WTQ",
+        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "stray-kids",
+        "name": "Stray Kids"
+      },
+      "title": "댕냥스쿨 폐교 후 개학",
+      "description": "댕냥스쿨 폐교 후 개학\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" now➡️\nhttps://Stray-Kids.lnk.to/THAT_REMIXES \n\nStray Kids \"THIS & THAT\"\niT",
+      "thumbnail": "https://i.ytimg.com/vi/M2A1hTv2WTQ/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/M2A1hTv2WTQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/M2A1hTv2WTQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/M2A1hTv2WTQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/M2A1hTv2WTQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/M2A1hTv2WTQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-15T13:14:38.000Z",
+      "url": "https://www.youtube.com/watch?v=M2A1hTv2WTQ",
+      "fetchedAt": "2026-11-15T18:37:32.878Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-15T18:37:32.878Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-2yFY8ETwJnI",
       "source": {
@@ -2956,67 +3016,6 @@
       ],
       "publishedAt": "2026-09-26T02:59:57.000Z",
       "url": "https://www.youtube.com/watch?v=eBQSBINoQdo",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt-bJfhr0zp7y0",
-      "source": {
-        "platform": "youtube",
-        "videoId": "bJfhr0zp7y0",
-        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "stray-kids",
-        "name": "Stray Kids"
-      },
-      "title": "𝓨𝓸𝓾는 선물입니다 𝓗𝓮𝓪𝓿𝓮𝓷이 내려준🤘 #StrayKids #스트레이키즈 #스키즈코드 #SKZCODE #K발라더이용복 #KBalladeerLeeYongbok",
-      "description": "𝓨𝓸𝓾는 선물입니다 𝓗𝓮𝓪𝓿𝓮𝓷이 내려준🤘 #StrayKids #스트레이키즈 #스키즈코드 #SKZCODE #K발라더이용복 #KBalladeerLeeYongbok  \n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (",
-      "thumbnail": "https://i.ytimg.com/vi/bJfhr0zp7y0/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/bJfhr0zp7y0/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/bJfhr0zp7y0/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/bJfhr0zp7y0/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/bJfhr0zp7y0/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/bJfhr0zp7y0/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-25T06:00:02.000Z",
-      "url": "https://www.youtube.com/watch?v=bJfhr0zp7y0",
       "fetchedAt": "2026-11-14T05:33:34.635Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-14T05:33:34.635Z",

@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUnUAyD4t2LkvW68YrDh7fDg",
   "artistId": "nmixx",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-14T17:46:40.398Z",
+  "fetchedAt": "2026-11-15T18:37:32.878Z",
   "items": [
+    {
+      "id": "yt-Ifjygocx-S4",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Ifjygocx-S4",
+        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nmixx",
+        "name": "NMIXX"
+      },
+      "title": "올해가 가기 전 돌아온 차개듀",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/Ifjygocx-S4/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Ifjygocx-S4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Ifjygocx-S4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Ifjygocx-S4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Ifjygocx-S4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Ifjygocx-S4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-15T09:01:02.000Z",
+      "url": "https://www.youtube.com/watch?v=Ifjygocx-S4",
+      "fetchedAt": "2026-11-15T18:37:32.878Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-15T18:37:32.878Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-S0rbwhCQUZ0",
       "source": {
@@ -2994,66 +3054,6 @@
       ],
       "publishedAt": "2026-10-24T11:00:11.000Z",
       "url": "https://www.youtube.com/watch?v=fVErItxpe2s",
-      "fetchedAt": "2026-11-06T00:52:45.796Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-06T00:52:45.796Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-2OpvpazCmcg",
-      "source": {
-        "platform": "youtube",
-        "videoId": "2OpvpazCmcg",
-        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nmixx",
-        "name": "NMIXX"
-      },
-      "title": "to find you . . . ♡ #NMIXX #KYUJIN #긴소원_BirthdayWish",
-      "description": "to find you . . . ♡ #NMIXX #KYUJIN #긴소원_BirthdayWish \n\nNMIXX Official YouTube ▶ https://www.youtube.com/c/NMIXXOfficial\nNMIXX Official X ▶ https://x.com/NMIXX_official\nNMIXX Official X(Members) ▶ https://x.com/WE_NMIXX\nNMIXX Official Instagram ▶ https://www.instagram.com/nmixx_of",
-      "thumbnail": "https://i.ytimg.com/vi/2OpvpazCmcg/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/2OpvpazCmcg/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/2OpvpazCmcg/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/2OpvpazCmcg/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/2OpvpazCmcg/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/2OpvpazCmcg/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-24T10:30:06.000Z",
-      "url": "https://www.youtube.com/watch?v=2OpvpazCmcg",
       "fetchedAt": "2026-11-06T00:52:45.796Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-06T00:52:45.796Z",
