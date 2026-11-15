@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UU9rMiEjNaCSsebs31MRDCRA",
   "artistId": "stray-kids",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-14T17:46:40.398Z",
+  "fetchedAt": "2026-11-15T05:31:26.310Z",
   "items": [
+    {
+      "id": "yt-2yFY8ETwJnI",
+      "source": {
+        "platform": "youtube",
+        "videoId": "2yFY8ETwJnI",
+        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "stray-kids",
+        "name": "Stray Kids"
+      },
+      "title": "중간이 없는 가을 남자🍂 #StrayKids #스트레이키즈 #리노 #LeeKnow #kNOw맘대로 #ThekNOwWay #YouMakeStrayKidsStay",
+      "description": "중간이 없는 가을 남자🍂 #StrayKids #스트레이키즈 #리노 #LeeKnow #kNOw맘대로 #ThekNOwWay #YouMakeStrayKidsStay \n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixe",
+      "thumbnail": "https://i.ytimg.com/vi/2yFY8ETwJnI/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/2yFY8ETwJnI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/2yFY8ETwJnI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/2yFY8ETwJnI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/2yFY8ETwJnI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/2yFY8ETwJnI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-15T03:00:02.000Z",
+      "url": "https://www.youtube.com/watch?v=2yFY8ETwJnI",
+      "fetchedAt": "2026-11-15T05:31:26.310Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-15T05:31:26.310Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-I2qDH2-uNEM",
       "source": {
@@ -2957,67 +3017,6 @@
       ],
       "publishedAt": "2026-09-25T06:00:02.000Z",
       "url": "https://www.youtube.com/watch?v=bJfhr0zp7y0",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt-N4XSxBgz1Ek",
-      "source": {
-        "platform": "youtube",
-        "videoId": "N4XSxBgz1Ek",
-        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "stray-kids",
-        "name": "Stray Kids"
-      },
-      "title": "K-발라더 이용복 (K-Balladeer Lee Yongbok) #1｜[SKZ CODE] Ep.104",
-      "description": "K-발라더 이용복 (K-Balladeer Lee Yongbok) #1｜[SKZ CODE(스키즈 코드)] Ep.104\n\n✨ English, Japanese, Chinese, Spanish, Indonesian & Thai subtitles are available!\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids",
-      "thumbnail": "https://i.ytimg.com/vi/N4XSxBgz1Ek/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/N4XSxBgz1Ek/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/N4XSxBgz1Ek/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/N4XSxBgz1Ek/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/N4XSxBgz1Ek/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/N4XSxBgz1Ek/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-24T10:59:56.000Z",
-      "url": "https://www.youtube.com/watch?v=N4XSxBgz1Ek",
       "fetchedAt": "2026-11-14T05:33:34.635Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-14T05:33:34.635Z",

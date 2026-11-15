@@ -4,7 +4,7 @@
   "uploadsPlaylistId": "UUO9GhtdQcCRf67GIdSQ0HNQ",
   "artistId": "xdinary-heroes",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-14T17:46:40.398Z",
+  "fetchedAt": "2026-11-15T05:31:26.310Z",
   "items": [
     {
       "id": "yt-lbzB8tiWxlE",
@@ -1080,9 +1080,9 @@
       ],
       "publishedAt": "2026-10-31T03:00:03.000Z",
       "url": "https://www.youtube.com/watch?v=lbeR6cGZKUg",
-      "fetchedAt": "2026-10-31T04:36:56.453Z",
+      "fetchedAt": "2026-11-15T05:31:26.310Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-31T04:36:56.453Z",
+      "lastValidatedAt": "2026-11-15T05:31:26.310Z",
       "type": "music-video",
       "category": "variety",
       "subcategory": "series",

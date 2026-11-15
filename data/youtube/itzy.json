@@ -4,8 +4,128 @@
   "uploadsPlaylistId": "UUDhM2k2Cua-JdobAh5moMFg",
   "artistId": "itzy",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-14T17:46:40.398Z",
+  "fetchedAt": "2026-11-15T05:31:26.310Z",
   "items": [
+    {
+      "id": "yt-LAWNpWrszFY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "LAWNpWrszFY",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "아니 카페에 앉아있는데 11월인데 벌써 캐롤이 나오는거야, 그래서 궁금해서 어떤곡인가… 더 보기 #ITZY #CHAERYEONG #채령#Chaeryeong_Lovesick",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/LAWNpWrszFY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/LAWNpWrszFY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/LAWNpWrszFY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/LAWNpWrszFY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/LAWNpWrszFY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/LAWNpWrszFY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-15T05:00:38.000Z",
+      "url": "https://www.youtube.com/watch?v=LAWNpWrszFY",
+      "fetchedAt": "2026-11-15T05:31:26.310Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-15T05:31:26.310Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-9OXZnSOLrVs",
+      "source": {
+        "platform": "youtube",
+        "videoId": "9OXZnSOLrVs",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "𝑑𝑎𝑛𝑐𝑖𝑛𝑔 𝑖𝑛 𝑡ℎ𝑒 𝑚𝑜𝑜𝑛𝑙𝑖𝑔ℎ𝑡 ⋆｡☽˳♪ #ITZY #CHAERYEONG #채령 #shorts",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/9OXZnSOLrVs/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/9OXZnSOLrVs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/9OXZnSOLrVs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/9OXZnSOLrVs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/9OXZnSOLrVs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/9OXZnSOLrVs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-15T04:00:37.000Z",
+      "url": "https://www.youtube.com/watch?v=9OXZnSOLrVs",
+      "fetchedAt": "2026-11-15T05:31:26.310Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-15T05:31:26.310Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-1VMUy4BOdfg",
       "source": {
@@ -2959,126 +3079,6 @@
       ],
       "publishedAt": "2026-11-02T07:04:02.000Z",
       "url": "https://www.youtube.com/watch?v=wpjuQj6B58s",
-      "fetchedAt": "2026-11-02T12:53:31.648Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-02T12:53:31.648Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-2P3xV3oiA8s",
-      "source": {
-        "platform": "youtube",
-        "videoId": "2P3xV3oiA8s",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "CHAERYEONG ＜Lovesick＞ 3D ALBUM PREVIEW PLATFORM ALBUM_Fans Album VER.",
-      "description": "CHAERYEONG ＜Lovesick＞ 3D ALBUM PREVIEW\nPLATFORM ALBUM_Fans Album VER.\n\n📌 Release\n2026.11.09 MON 6PM (KST) | 4AM (ET)\n\n📌  PRE-ORDER\nFANS SHOP | https://bit.ly/4zcTo5E \n\n#ITZY #MIDZY\n#CHAERYEONG #채령\n#Chaeryeong_Lovesick\n#FANS_SHOP #팬즈샵",
-      "thumbnail": "https://i.ytimg.com/vi/2P3xV3oiA8s/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/2P3xV3oiA8s/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/2P3xV3oiA8s/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/2P3xV3oiA8s/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/2P3xV3oiA8s/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/2P3xV3oiA8s/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-11-02T07:02:09.000Z",
-      "url": "https://www.youtube.com/watch?v=2P3xV3oiA8s",
-      "fetchedAt": "2026-11-02T12:53:31.648Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-02T12:53:31.648Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-pJC-8d82NkA",
-      "source": {
-        "platform": "youtube",
-        "videoId": "pJC-8d82NkA",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "CHAERYEONG ＜Lovesick＞ 3D ALBUM PREVIEW PHOTOBOOK VER.",
-      "description": "CHAERYEONG ＜Lovesick＞ 3D ALBUM PREVIEW\nPHOTOBOOK VER.\n\n📌 Release\n2026.11.09 MON 6PM (KST) | 4AM (ET)\n\n📌  PRE-ORDER\nFANS SHOP | https://bit.ly/4zcTo5E \n\n🔐FANS SHOP SECRET EVENT🔽\n3D 팩샷 영상 시청 후,\n아래 비밀링크를 통해 PHOTOBOOK VER. 구매 시\n추첨을 통해 친필 사인 앨범을 증정합니다!\n(비밀링크는 캡션 내 이벤트 링크를 통해서만 접속 ",
-      "thumbnail": "https://i.ytimg.com/vi/pJC-8d82NkA/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/pJC-8d82NkA/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/pJC-8d82NkA/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/pJC-8d82NkA/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/pJC-8d82NkA/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/pJC-8d82NkA/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-11-02T07:00:08.000Z",
-      "url": "https://www.youtube.com/watch?v=pJC-8d82NkA",
       "fetchedAt": "2026-11-02T12:53:31.648Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-02T12:53:31.648Z",

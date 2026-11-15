@@ -4,7 +4,7 @@
   "uploadsPlaylistId": "UUSskmnvIhEy3nSZxxVKTeIg",
   "artistId": "girlset",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-14T05:33:34.635Z",
+  "fetchedAt": "2026-11-15T05:31:26.310Z",
   "items": [
     {
       "id": "yt-9udJ7zKQ3l8",
@@ -1329,9 +1329,9 @@
       ],
       "publishedAt": "2026-10-30T23:49:18.000Z",
       "url": "https://www.youtube.com/watch?v=GLFq2HkmAf4",
-      "fetchedAt": "2026-10-31T00:47:32.246Z",
+      "fetchedAt": "2026-11-15T05:31:26.310Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-31T00:47:32.246Z",
+      "lastValidatedAt": "2026-11-15T05:31:26.310Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1389,9 +1389,9 @@
       ],
       "publishedAt": "2026-10-30T19:35:24.000Z",
       "url": "https://www.youtube.com/watch?v=IVdF3nAHl98",
-      "fetchedAt": "2026-10-31T00:47:32.246Z",
+      "fetchedAt": "2026-11-15T05:31:26.310Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-31T00:47:32.246Z",
+      "lastValidatedAt": "2026-11-15T05:31:26.310Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2062,9 +2062,9 @@
       ],
       "publishedAt": "2026-10-22T04:00:31.000Z",
       "url": "https://www.youtube.com/watch?v=4kR_VgyfyD0",
-      "fetchedAt": "2026-10-31T00:47:32.246Z",
+      "fetchedAt": "2026-11-15T05:31:26.310Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-10-31T00:47:32.246Z",
+      "lastValidatedAt": "2026-11-15T05:31:26.310Z",
       "type": "other",
       "category": "other",
       "classification": {
