@@ -4,7 +4,7 @@
   "uploadsPlaylistId": "UUzgxx_DM2Dcb9Y1spb9mUJA",
   "artistId": "twice",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-15T18:37:32.878Z",
+  "fetchedAt": "2026-11-16T21:46:03.973Z",
   "items": [
     {
       "id": "yt-l0IOElkRH6I",
@@ -1933,9 +1933,9 @@
       ],
       "publishedAt": "2026-10-17T11:33:11.000Z",
       "url": "https://www.youtube.com/watch?v=jcmVRR_BnZU",
-      "fetchedAt": "2026-11-01T12:39:41.521Z",
+      "fetchedAt": "2026-11-16T21:46:03.973Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-01T12:39:41.521Z",
+      "lastValidatedAt": "2026-11-16T21:46:03.973Z",
       "type": "other",
       "category": "live",
       "subcategory": "livestream",

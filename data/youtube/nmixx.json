@@ -4,8 +4,128 @@
   "uploadsPlaylistId": "UUnUAyD4t2LkvW68YrDh7fDg",
   "artistId": "nmixx",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-15T18:37:32.878Z",
+  "fetchedAt": "2026-11-16T21:46:03.973Z",
   "items": [
+    {
+      "id": "yt-M928XTcAiUs",
+      "source": {
+        "platform": "youtube",
+        "videoId": "M928XTcAiUs",
+        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nmixx",
+        "name": "NMIXX"
+      },
+      "title": "릴리리야 릴리딩 LILY’s Lost The Plot #29 𝑭𝒓𝒂𝒏𝒌𝒆𝒏𝒔𝒕𝒆𝒊𝒏 (SPOILERS) 🧟",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/M928XTcAiUs/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/M928XTcAiUs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/M928XTcAiUs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/M928XTcAiUs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/M928XTcAiUs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/M928XTcAiUs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-16T13:58:02.000Z",
+      "url": "https://www.youtube.com/watch?v=M928XTcAiUs",
+      "fetchedAt": "2026-11-16T21:46:03.973Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-16T21:46:03.973Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-rBJkaUoTT1k",
+      "source": {
+        "platform": "youtube",
+        "videoId": "rBJkaUoTT1k",
+        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nmixx",
+        "name": "NMIXX"
+      },
+      "title": "너 책임ℎ𝑎𝑝𝑝𝑦하는 거 도덕적ℎ𝑒𝑦라고 생각해 #NMIXX #엔믹스 #릴리 #LILY",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/rBJkaUoTT1k/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/rBJkaUoTT1k/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/rBJkaUoTT1k/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/rBJkaUoTT1k/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/rBJkaUoTT1k/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/rBJkaUoTT1k/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-16T11:00:22.000Z",
+      "url": "https://www.youtube.com/watch?v=rBJkaUoTT1k",
+      "fetchedAt": "2026-11-16T21:46:03.973Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-16T21:46:03.973Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-Ifjygocx-S4",
       "source": {
@@ -2934,126 +3054,6 @@
       ],
       "publishedAt": "2026-10-25T05:00:10.000Z",
       "url": "https://www.youtube.com/watch?v=MgwadfOBLTw",
-      "fetchedAt": "2026-11-06T00:52:45.796Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-06T00:52:45.796Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-Ih2OIbXMpak",
-      "source": {
-        "platform": "youtube",
-        "videoId": "Ih2OIbXMpak",
-        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nmixx",
-        "name": "NMIXX"
-      },
-      "title": "#LIGHTSUM #JUHYEON 위한 긴 소원을 빌게🤍ᴍʏ ᴊᴊᴜ&ᴊᴊʏᴜ⡱ #NMIXX #JIWOO #긴소원_BirthdayWish",
-      "description": "#LIGHTSUM #JUHYEON 위한 긴 소원을 빌게🤍ᴍʏ ᴊᴊᴜ&ᴊᴊʏᴜ⡱ #NMIXX #JIWOO #긴소원_BirthdayWish \n\nNMIXX Official YouTube ▶ https://www.youtube.com/c/NMIXXOfficial\nNMIXX Official X ▶ https://x.com/NMIXX_official\nNMIXX Official X(Members) ▶ https://x.com/WE_NMIXX\nNMIXX Official Instagram ▶ https://ww",
-      "thumbnail": "https://i.ytimg.com/vi/Ih2OIbXMpak/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/Ih2OIbXMpak/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/Ih2OIbXMpak/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/Ih2OIbXMpak/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/Ih2OIbXMpak/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/Ih2OIbXMpak/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-25T04:00:21.000Z",
-      "url": "https://www.youtube.com/watch?v=Ih2OIbXMpak",
-      "fetchedAt": "2026-11-06T00:52:45.796Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-06T00:52:45.796Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-fVErItxpe2s",
-      "source": {
-        "platform": "youtube",
-        "videoId": "fVErItxpe2s",
-        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nmixx",
-        "name": "NMIXX"
-      },
-      "title": "#잔망루피 위한 긴 소원을 빌게 🩷ᡣ𐭩˚ #NMIXX #BAE #긴소원_BirthdayWish",
-      "description": "#잔망루피 위한 긴 소원을 빌게 🩷ᡣ𐭩˚ #NMIXX #BAE #긴소원_BirthdayWish \n\nNMIXX Official YouTube ▶ https://www.youtube.com/c/NMIXXOfficial\nNMIXX Official X ▶ https://x.com/NMIXX_official\nNMIXX Official X(Members) ▶ https://x.com/WE_NMIXX\nNMIXX Official Instagram ▶ https://www.instagram.com/nmixx_",
-      "thumbnail": "https://i.ytimg.com/vi/fVErItxpe2s/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/fVErItxpe2s/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/fVErItxpe2s/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/fVErItxpe2s/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/fVErItxpe2s/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/fVErItxpe2s/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-24T11:00:11.000Z",
-      "url": "https://www.youtube.com/watch?v=fVErItxpe2s",
       "fetchedAt": "2026-11-06T00:52:45.796Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-06T00:52:45.796Z",

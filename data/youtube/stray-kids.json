@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UU9rMiEjNaCSsebs31MRDCRA",
   "artistId": "stray-kids",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-16T05:30:48.702Z",
+  "fetchedAt": "2026-11-16T21:46:03.973Z",
   "items": [
+    {
+      "id": "yt-Uqpyhrnu1go",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Uqpyhrnu1go",
+        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "stray-kids",
+        "name": "Stray Kids"
+      },
+      "title": "애기 체포하겠어🚨 #StrayKids #스트레이키즈 #창빈 #Changbin #한 #HAN #YouMakeStrayKidsStay",
+      "description": "애기 체포하겠어🚨 #StrayKids #스트레이키즈 #창빈 #Changbin #한 #HAN #YouMakeStrayKidsStay\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" now➡️\nhttps:/",
+      "thumbnail": "https://i.ytimg.com/vi/Uqpyhrnu1go/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Uqpyhrnu1go/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Uqpyhrnu1go/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Uqpyhrnu1go/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Uqpyhrnu1go/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Uqpyhrnu1go/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-16T10:00:07.000Z",
+      "url": "https://www.youtube.com/watch?v=Uqpyhrnu1go",
+      "fetchedAt": "2026-11-16T21:46:03.973Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-16T21:46:03.973Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-M2A1hTv2WTQ",
       "source": {
@@ -659,9 +719,9 @@
       ],
       "publishedAt": "2026-11-01T05:00:05.000Z",
       "url": "https://www.youtube.com/watch?v=CReJVnojbtQ",
-      "fetchedAt": "2026-11-01T12:39:41.521Z",
+      "fetchedAt": "2026-11-16T21:46:03.973Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-01T12:39:41.521Z",
+      "lastValidatedAt": "2026-11-16T21:46:03.973Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -719,9 +779,9 @@
       ],
       "publishedAt": "2026-11-01T05:00:02.000Z",
       "url": "https://www.youtube.com/watch?v=t0nH8YKg-Dw",
-      "fetchedAt": "2026-11-01T12:39:41.521Z",
+      "fetchedAt": "2026-11-16T21:46:03.973Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-01T12:39:41.521Z",
+      "lastValidatedAt": "2026-11-16T21:46:03.973Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2965,67 +3025,6 @@
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-eBQSBINoQdo",
-      "source": {
-        "platform": "youtube",
-        "videoId": "eBQSBINoQdo",
-        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "stray-kids",
-        "name": "Stray Kids"
-      },
-      "title": "[kNOw맘대로(The kNOw Way)] Ep.08",
-      "description": "[kNOw맘대로(The kNOw Way)] Ep.08\n\n✨ English, Japanese, Chinese, Spanish, Indonesian & Thai subtitles are available!\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"Th",
-      "thumbnail": "https://i.ytimg.com/vi/eBQSBINoQdo/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/eBQSBINoQdo/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/eBQSBINoQdo/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/eBQSBINoQdo/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/eBQSBINoQdo/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/eBQSBINoQdo/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-26T02:59:57.000Z",
-      "url": "https://www.youtube.com/watch?v=eBQSBINoQdo",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
       }
     }
   ]
