@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUzgxx_DM2Dcb9Y1spb9mUJA",
   "artistId": "twice",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-16T21:46:03.973Z",
+  "fetchedAt": "2026-11-17T20:37:40.249Z",
   "items": [
+    {
+      "id": "yt-y5e15Gjb6eY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "y5e15Gjb6eY",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "Your BABY ANGEL🪽#TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/y5e15Gjb6eY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/y5e15Gjb6eY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/y5e15Gjb6eY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/y5e15Gjb6eY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/y5e15Gjb6eY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/y5e15Gjb6eY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-17T14:00:06.000Z",
+      "url": "https://www.youtube.com/watch?v=y5e15Gjb6eY",
+      "fetchedAt": "2026-11-17T20:37:40.249Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-17T20:37:40.249Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-l0IOElkRH6I",
       "source": {
@@ -2966,67 +3026,6 @@
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-cRS10T0Ruq8",
-      "source": {
-        "platform": "youtube",
-        "videoId": "cRS10T0Ruq8",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "TWICE 2027 Season's Greetings [Spotless] Teaser",
-      "description": "TWICE 2027 Season's Greetings [Spotless] Teaser\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.twitter.com/JYPETWICE \nTWICE Off",
-      "thumbnail": "https://i.ytimg.com/vi/cRS10T0Ruq8/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/cRS10T0Ruq8/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/cRS10T0Ruq8/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/cRS10T0Ruq8/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/cRS10T0Ruq8/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/cRS10T0Ruq8/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-06T02:00:05.000Z",
-      "url": "https://www.youtube.com/watch?v=cRS10T0Ruq8",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
-      "type": "teaser",
-      "category": "fan",
-      "subcategory": "fan-content",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.86,
-        "ruleId": "fan-message"
       }
     }
   ]

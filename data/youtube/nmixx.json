@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUnUAyD4t2LkvW68YrDh7fDg",
   "artistId": "nmixx",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-16T21:46:03.973Z",
+  "fetchedAt": "2026-11-17T20:37:40.249Z",
   "items": [
+    {
+      "id": "yt-_ubTXjJVA6g",
+      "source": {
+        "platform": "youtube",
+        "videoId": "_ubTXjJVA6g",
+        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nmixx",
+        "name": "NMIXX"
+      },
+      "title": "Once bitten . . . ♡ #NMIXX #HAEWON #SULLYOON",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/_ubTXjJVA6g/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/_ubTXjJVA6g/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/_ubTXjJVA6g/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/_ubTXjJVA6g/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/_ubTXjJVA6g/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/_ubTXjJVA6g/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-17T11:00:26.000Z",
+      "url": "https://www.youtube.com/watch?v=_ubTXjJVA6g",
+      "fetchedAt": "2026-11-17T20:37:40.249Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-17T20:37:40.249Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-M928XTcAiUs",
       "source": {
@@ -1163,9 +1223,9 @@
       ],
       "publishedAt": "2026-11-02T09:00:13.000Z",
       "url": "https://www.youtube.com/watch?v=xd63CgLVzI4",
-      "fetchedAt": "2026-11-02T12:53:31.648Z",
+      "fetchedAt": "2026-11-17T20:37:40.249Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-02T12:53:31.648Z",
+      "lastValidatedAt": "2026-11-17T20:37:40.249Z",
       "type": "other",
       "category": "behind",
       "subcategory": "making",
@@ -2994,66 +3054,6 @@
       ],
       "publishedAt": "2026-10-25T06:00:17.000Z",
       "url": "https://www.youtube.com/watch?v=kIgD4IOl2rs",
-      "fetchedAt": "2026-11-06T00:52:45.796Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-06T00:52:45.796Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-MgwadfOBLTw",
-      "source": {
-        "platform": "youtube",
-        "videoId": "MgwadfOBLTw",
-        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nmixx",
-        "name": "NMIXX"
-      },
-      "title": "𝑹𝒆𝒃𝒐𝒐𝒕𝒊𝒏𝒈 𝒊𝒏𝒕𝒐 𝒂 𝒏𝒆𝒘 𝒄𝒉𝒂𝒑𝒕𝒆𝒓 ··· #NMIXX #엔믹스 #해원 #HAEWON #긴소원_BirthdayWish",
-      "description": "𝑹𝒆𝒃𝒐𝒐𝒕𝒊𝒏𝒈 𝒊𝒏𝒕𝒐 𝒂 𝒏𝒆𝒘 𝒄𝒉𝒂𝒑𝒕𝒆𝒓 ··· #NMIXX #엔믹스 #해원 #HAEWON #긴소원_BirthdayWish \n\nNMIXX Official YouTube ▶ https://www.youtube.com/c/NMIXXOfficial\nNMIXX Official X ▶ https://x.com/NMIXX_official\nNMIXX Official X(Members) ▶ https://x.com/WE_NMIXX\nNMIXX Official ",
-      "thumbnail": "https://i.ytimg.com/vi/MgwadfOBLTw/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/MgwadfOBLTw/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/MgwadfOBLTw/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/MgwadfOBLTw/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/MgwadfOBLTw/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/MgwadfOBLTw/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-25T05:00:10.000Z",
-      "url": "https://www.youtube.com/watch?v=MgwadfOBLTw",
       "fetchedAt": "2026-11-06T00:52:45.796Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-06T00:52:45.796Z",

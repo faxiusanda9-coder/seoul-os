@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUBpzJvEhkemwMOkYLq9yUsA",
   "artistId": "2pm",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-14T05:33:34.635Z",
+  "fetchedAt": "2026-11-17T20:37:40.249Z",
   "items": [
+    {
+      "id": "yt--2A2tDKqBxc",
+      "source": {
+        "platform": "youtube",
+        "videoId": "-2A2tDKqBxc",
+        "channelId": "UCBpzJvEhkemwMOkYLq9yUsA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "2pm",
+        "name": "2PM"
+      },
+      "title": "Jang Wooyoung Concert RECAP📹 #장우영 #JangWooyoung #JangWooyoung_Concert",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/-2A2tDKqBxc/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/-2A2tDKqBxc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/-2A2tDKqBxc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/-2A2tDKqBxc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/-2A2tDKqBxc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/-2A2tDKqBxc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-17T07:30:39.000Z",
+      "url": "https://www.youtube.com/watch?v=-2A2tDKqBxc",
+      "fetchedAt": "2026-11-17T20:37:40.249Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-17T20:37:40.249Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-ni6qzfqKyTg",
       "source": {
@@ -2983,66 +3043,6 @@
       ],
       "publishedAt": "2025-12-24T09:30:38.000Z",
       "url": "https://www.youtube.com/watch?v=JoLOiwRw3Nk",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-vuAMhYWneHY",
-      "source": {
-        "platform": "youtube",
-        "videoId": "vuAMhYWneHY",
-        "channelId": "UCBpzJvEhkemwMOkYLq9yUsA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "2pm",
-        "name": "2PM"
-      },
-      "title": "소울컵에 등장한 ★월드 스타★ SKZ 필릭스의 깜짝 방문 | #NICHKHUN #닉쿤 #쿤이의세포들",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/vuAMhYWneHY/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/vuAMhYWneHY/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/vuAMhYWneHY/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/vuAMhYWneHY/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/vuAMhYWneHY/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/vuAMhYWneHY/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2025-12-24T09:30:29.000Z",
-      "url": "https://www.youtube.com/watch?v=vuAMhYWneHY",
       "fetchedAt": "2026-11-14T05:33:34.635Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-14T05:33:34.635Z",

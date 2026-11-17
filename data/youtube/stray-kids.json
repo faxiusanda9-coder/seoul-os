@@ -4,8 +4,188 @@
   "uploadsPlaylistId": "UU9rMiEjNaCSsebs31MRDCRA",
   "artistId": "stray-kids",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-16T21:46:03.973Z",
+  "fetchedAt": "2026-11-17T20:37:40.249Z",
   "items": [
+    {
+      "id": "yt-bpTbA5-A3a8",
+      "source": {
+        "platform": "youtube",
+        "videoId": "bpTbA5-A3a8",
+        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "stray-kids",
+        "name": "Stray Kids"
+      },
+      "title": "You cannot return #StrayKids #스트레이키즈 #아이엔 #I_N #SKZ_PLAYER #슼즈플레이어 #YouMakeStrayKidsStay",
+      "description": "You cannot return #StrayKids #스트레이키즈 #아이엔 #I_N #SKZ_PLAYER #슼즈플레이어 #YouMakeStrayKidsStay \n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes",
+      "thumbnail": "https://i.ytimg.com/vi/bpTbA5-A3a8/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/bpTbA5-A3a8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/bpTbA5-A3a8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/bpTbA5-A3a8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/bpTbA5-A3a8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/bpTbA5-A3a8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-17T09:31:11.000Z",
+      "url": "https://www.youtube.com/watch?v=bpTbA5-A3a8",
+      "fetchedAt": "2026-11-17T20:37:40.249Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-17T20:37:40.249Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-GYmV7Kj6030",
+      "source": {
+        "platform": "youtube",
+        "videoId": "GYmV7Kj6030",
+        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "stray-kids",
+        "name": "Stray Kids"
+      },
+      "title": "I want it more #StrayKids #스트레이키즈 #아이엔 #I_N #SKZ_PLAYER #슼즈플레이어 #YouMakeStrayKidsStay",
+      "description": "I want it more #StrayKids #스트레이키즈 #아이엔 #I_N #SKZ_PLAYER #슼즈플레이어 #YouMakeStrayKidsStay\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" n",
+      "thumbnail": "https://i.ytimg.com/vi/GYmV7Kj6030/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/GYmV7Kj6030/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/GYmV7Kj6030/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/GYmV7Kj6030/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/GYmV7Kj6030/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/GYmV7Kj6030/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-17T09:29:55.000Z",
+      "url": "https://www.youtube.com/watch?v=GYmV7Kj6030",
+      "fetchedAt": "2026-11-17T20:37:40.249Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-17T20:37:40.249Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-masFBnN7jsA",
+      "source": {
+        "platform": "youtube",
+        "videoId": "masFBnN7jsA",
+        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "stray-kids",
+        "name": "Stray Kids"
+      },
+      "title": "I.N \"NO RETURN\" | [Stray Kids : SKZ-PLAYER]",
+      "description": "아이엔(I.N) \"NO RETURN\" | [Stray Kids(스트레이 키즈) : SKZ-PLAYER(슼즈 플레이어)]\n\n[Credits]\nLyrics by : 아이엔, 방찬 (3RACHA)\nComposed by :  방찬 (3RACHA), 아이엔, VERSACHOI\nArranged by :  VERSACHOI, 방찬 (3RACHA)\nOriginal Publisher : JYP Entertainment\nSub-publisher : JYP Entertainment\n\n[I.N \"NO RETURN\" L",
+      "thumbnail": "https://i.ytimg.com/vi/masFBnN7jsA/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/masFBnN7jsA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/masFBnN7jsA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/masFBnN7jsA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/masFBnN7jsA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/masFBnN7jsA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-17T09:00:01.000Z",
+      "url": "https://www.youtube.com/watch?v=masFBnN7jsA",
+      "fetchedAt": "2026-11-17T20:37:40.249Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-17T20:37:40.249Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-Uqpyhrnu1go",
       "source": {
@@ -2836,186 +3016,6 @@
       ],
       "publishedAt": "2026-09-26T06:15:57.000Z",
       "url": "https://www.youtube.com/watch?v=TRdmk6VZqIo",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-kCuAERWz90M",
-      "source": {
-        "platform": "youtube",
-        "videoId": "kCuAERWz90M",
-        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "stray-kids",
-        "name": "Stray Kids"
-      },
-      "title": "STRAYCITY 멕시코시티 첫 공연, 뜨거운 환호 보내줘서 고마워요!",
-      "description": "STRAYCITY 멕시코시티 첫 공연, 뜨거운 환호 보내줘서 고마워요! 내일도 기대할게요!😉\nWhat an energy at our first STRAYCITY show in Mexico City! See you again tomorrow!❤️\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/TH",
-      "thumbnail": "https://i.ytimg.com/vi/kCuAERWz90M/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/kCuAERWz90M/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/kCuAERWz90M/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/kCuAERWz90M/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/kCuAERWz90M/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/kCuAERWz90M/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-26T06:14:53.000Z",
-      "url": "https://www.youtube.com/watch?v=kCuAERWz90M",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-MMxk8bLCiyg",
-      "source": {
-        "platform": "youtube",
-        "videoId": "MMxk8bLCiyg",
-        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "stray-kids",
-        "name": "Stray Kids"
-      },
-      "title": "STRAYCITY 멕시코시티 첫 공연, 뜨거운 환호 보내줘서 고마워요!",
-      "description": "STRAYCITY 멕시코시티 첫 공연, 뜨거운 환호 보내줘서 고마워요! 내일도 기대할게요!😉\nWhat an energy at our first STRAYCITY show in Mexico City! See you again tomorrow!❤️\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/TH",
-      "thumbnail": "https://i.ytimg.com/vi/MMxk8bLCiyg/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/MMxk8bLCiyg/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/MMxk8bLCiyg/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/MMxk8bLCiyg/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/MMxk8bLCiyg/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/MMxk8bLCiyg/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-26T06:12:10.000Z",
-      "url": "https://www.youtube.com/watch?v=MMxk8bLCiyg",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-wDDoNWYrTDc",
-      "source": {
-        "platform": "youtube",
-        "videoId": "wDDoNWYrTDc",
-        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "stray-kids",
-        "name": "Stray Kids"
-      },
-      "title": "STRAYCITY 멕시코시티 첫 공연, 뜨거운 환호 보내줘서 고마워요!",
-      "description": "STRAYCITY 멕시코시티 첫 공연, 뜨거운 환호 보내줘서 고마워요! 내일도 기대할게요!😉\nWhat an energy at our first STRAYCITY show in Mexico City! See you again tomorrow!❤️\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/TH",
-      "thumbnail": "https://i.ytimg.com/vi/wDDoNWYrTDc/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/wDDoNWYrTDc/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/wDDoNWYrTDc/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/wDDoNWYrTDc/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/wDDoNWYrTDc/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/wDDoNWYrTDc/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-26T06:08:48.000Z",
-      "url": "https://www.youtube.com/watch?v=wDDoNWYrTDc",
       "fetchedAt": "2026-11-14T05:33:34.635Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-14T05:33:34.635Z",
