@@ -4,7 +4,7 @@
   "uploadsPlaylistId": "UU-o9yrZxu5Ru-DVGhnmeTug",
   "artistId": "nexz",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-16T21:46:03.973Z",
+  "fetchedAt": "2026-11-17T07:08:42.426Z",
   "items": [
     {
       "id": "yt-gCO3pF9p4Hk",
@@ -923,8 +923,8 @@
         "id": "nexz",
         "name": "NEXZ"
       },
-      "title": "[REAL NEXZ(리얼 넥스지)] EP.65 한강에서 만나!",
-      "description": "[REAL NEXZ(리얼 넥스지)] EP.65 한강에서 만나!\n\nNEXZ Official Website: https://nexz.jype.com\nNEXZ Official YouTube: https://www.youtube.com/@NEXZ_official\nNEXZ Official Facebook: https://www.facebook.com/realnexz\nNEXZ Official X: https://twitter.com/NEXZ_official\nNEXZ Official Instagram: htt",
+      "title": "[REAL NEXZ(리얼 넥스지)] EP.65 한강에서 만나! #1",
+      "description": "[REAL NEXZ(리얼 넥스지)] EP.65 한강에서 만나! #1\n\nNEXZ Official Website: https://nexz.jype.com\nNEXZ Official YouTube: https://www.youtube.com/@NEXZ_official\nNEXZ Official Facebook: https://www.facebook.com/realnexz\nNEXZ Official X: https://twitter.com/NEXZ_official\nNEXZ Official Instagram: ",
       "thumbnail": "https://i.ytimg.com/vi/aFkVrvB-t_Q/maxresdefault.jpg",
       "thumbnails": [
         {
@@ -960,9 +960,9 @@
       ],
       "publishedAt": "2026-11-11T11:00:09.000Z",
       "url": "https://www.youtube.com/watch?v=aFkVrvB-t_Q",
-      "fetchedAt": "2026-11-11T19:23:29.321Z",
+      "fetchedAt": "2026-11-17T07:08:42.426Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
+      "lastValidatedAt": "2026-11-17T07:08:42.426Z",
       "type": "other",
       "category": "variety",
       "subcategory": "series",

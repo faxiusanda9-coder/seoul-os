@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUDhM2k2Cua-JdobAh5moMFg",
   "artistId": "itzy",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-16T21:46:03.973Z",
+  "fetchedAt": "2026-11-17T07:08:42.426Z",
   "items": [
+    {
+      "id": "yt-BtezaVOJcww",
+      "source": {
+        "platform": "youtube",
+        "videoId": "BtezaVOJcww",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "온 세상이 다 🖤🍓🍬🐰 ⋰˚✩ #ITZY #CHAERYEONG #채령 #Chaeryeong_Lovesick #Shorts",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/BtezaVOJcww/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/BtezaVOJcww/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/BtezaVOJcww/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/BtezaVOJcww/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/BtezaVOJcww/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/BtezaVOJcww/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-17T03:01:19.000Z",
+      "url": "https://www.youtube.com/watch?v=BtezaVOJcww",
+      "fetchedAt": "2026-11-17T07:08:42.426Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-17T07:08:42.426Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-suk1iZmfRYM",
       "source": {
@@ -2234,8 +2294,8 @@
         "id": "itzy",
         "name": "ITZY"
       },
-      "title": "Love-식(食/style) EP.1 | 럽식(Lovesick)한 채령의 식생활",
-      "description": "Love-식(食/style) EP.1 | 럽식(Lovesick)한 채령의 식생활\n\nCHAERYEONG 'Lovesick'\nhttp://CHAERYEONG.lnk.to/Lovesick\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOfficial\n▶ http:/",
+      "title": "Love-sick(Foodie/style) EP.1 | What Chaeryeong Eats in a Day",
+      "description": "Love-sick(Foodie/style) EP.1 | What Chaeryeong Eats in a Day\n\nCHAERYEONG 'Lovesick'\nhttp://CHAERYEONG.lnk.to/Lovesick\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYO",
       "thumbnail": "https://i.ytimg.com/vi/_xbi_HmhmN0/fhddefault.jpg",
       "thumbnails": [
         {
@@ -2277,9 +2337,9 @@
       ],
       "publishedAt": "2026-11-10T10:59:49.000Z",
       "url": "https://www.youtube.com/watch?v=_xbi_HmhmN0",
-      "fetchedAt": "2026-11-10T12:18:17.427Z",
+      "fetchedAt": "2026-11-17T07:08:42.426Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-10T12:18:17.427Z",
+      "lastValidatedAt": "2026-11-17T07:08:42.426Z",
       "type": "other",
       "category": "variety",
       "subcategory": "series",
@@ -3008,66 +3068,6 @@
       "fetchedAt": "2026-11-09T00:51:09.670Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-09T00:51:09.670Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-3HfosCP17Nw",
-      "source": {
-        "platform": "youtube",
-        "videoId": "3HfosCP17Nw",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "예상 못한 #커스틴 님과의 #LovesickChallenge 에 𝙛𝙧𝙚𝙚𝙯𝙚 ⏰ #ITZY #CHAERYEONG #채령 #Shorts @KirstenDodgenn",
-      "description": "💿 CHAERYEONG ‘Lovesick’ RELEASE\n2026.11.09 MON 6PM (KST) | 4AM (ET)",
-      "thumbnail": "https://i.ytimg.com/vi/3HfosCP17Nw/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/3HfosCP17Nw/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/3HfosCP17Nw/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/3HfosCP17Nw/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/3HfosCP17Nw/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/3HfosCP17Nw/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-11-08T04:00:39.000Z",
-      "url": "https://www.youtube.com/watch?v=3HfosCP17Nw",
-      "fetchedAt": "2026-11-08T04:46:41.877Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-08T04:46:41.877Z",
       "type": "other",
       "category": "other",
       "classification": {

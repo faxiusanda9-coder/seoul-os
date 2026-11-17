@@ -4,7 +4,7 @@
   "uploadsPlaylistId": "UUO9GhtdQcCRf67GIdSQ0HNQ",
   "artistId": "xdinary-heroes",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-16T21:46:03.973Z",
+  "fetchedAt": "2026-11-17T07:08:42.426Z",
   "items": [
     {
       "id": "yt-ylijY5cq5MM",
@@ -960,9 +960,9 @@
       ],
       "publishedAt": "2026-11-02T04:00:25.000Z",
       "url": "https://www.youtube.com/watch?v=kg_CS7t1TVI",
-      "fetchedAt": "2026-11-02T04:53:05.231Z",
+      "fetchedAt": "2026-11-17T07:08:42.426Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-02T04:53:05.231Z",
+      "lastValidatedAt": "2026-11-17T07:08:42.426Z",
       "type": "other",
       "category": "other",
       "classification": {
