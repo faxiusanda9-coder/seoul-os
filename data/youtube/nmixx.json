@@ -4,8 +4,74 @@
   "uploadsPlaylistId": "UUnUAyD4t2LkvW68YrDh7fDg",
   "artistId": "nmixx",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-17T20:37:40.249Z",
+  "fetchedAt": "2026-11-18T06:32:59.314Z",
   "items": [
+    {
+      "id": "yt-FyaqX9yN5Ls",
+      "source": {
+        "platform": "youtube",
+        "videoId": "FyaqX9yN5Ls",
+        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nmixx",
+        "name": "NMIXX"
+      },
+      "title": "NMIXX(엔믹스) 2027학년도 대학수학능력시험 응원 Message🍀",
+      "description": "NMIXX(엔믹스) 2027학년도 대학수학능력시험 응원 Message🍀\n\nNMIXX Official YouTube ▶ https://www.youtube.com/c/NMIXXOfficial\nNMIXX Official X ▶ https://x.com/NMIXX_official\nNMIXX Official X(Members) ▶ https://x.com/WE_NMIXX\nNMIXX Official Instagram ▶ https://www.instagram.com/nmixx_official/\nNMIXX",
+      "thumbnail": "https://i.ytimg.com/vi/FyaqX9yN5Ls/fhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/FyaqX9yN5Ls/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/FyaqX9yN5Ls/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/FyaqX9yN5Ls/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/FyaqX9yN5Ls/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/FyaqX9yN5Ls/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "fhd",
+          "url": "https://i.ytimg.com/vi/FyaqX9yN5Ls/fhddefault.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "publishedAt": "2026-11-18T03:00:01.000Z",
+      "url": "https://www.youtube.com/watch?v=FyaqX9yN5Ls",
+      "fetchedAt": "2026-11-18T06:32:59.314Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-18T06:32:59.314Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-_ubTXjJVA6g",
       "source": {
@@ -3003,66 +3069,6 @@
         "method": "rule",
         "confidence": 0.95,
         "ruleId": "making"
-      }
-    },
-    {
-      "id": "yt-kIgD4IOl2rs",
-      "source": {
-        "platform": "youtube",
-        "videoId": "kIgD4IOl2rs",
-        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nmixx",
-        "name": "NMIXX"
-      },
-      "title": "#TVXQ! #MAXCHANGMIN 위한 긴 소원을 빌게 🦌ꔛ🐨 #NMIXX #LILY #긴소원_BirthdayWish",
-      "description": "#TVXQ! #MAXCHANGMIN 위한 긴 소원을 빌게 🦌ꔛ🐨 #NMIXX #LILY #긴소원_BirthdayWish \n\nNMIXX Official YouTube ▶ https://www.youtube.com/c/NMIXXOfficial\nNMIXX Official X ▶ https://x.com/NMIXX_official\nNMIXX Official X(Members) ▶ https://x.com/WE_NMIXX\nNMIXX Official Instagram ▶ https://www.instag",
-      "thumbnail": "https://i.ytimg.com/vi/kIgD4IOl2rs/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/kIgD4IOl2rs/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/kIgD4IOl2rs/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/kIgD4IOl2rs/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/kIgD4IOl2rs/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/kIgD4IOl2rs/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-25T06:00:17.000Z",
-      "url": "https://www.youtube.com/watch?v=kIgD4IOl2rs",
-      "fetchedAt": "2026-11-06T00:52:45.796Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-06T00:52:45.796Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
       }
     }
   ]

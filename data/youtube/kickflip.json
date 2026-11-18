@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUmq9jjpHA69PwAwlA0DwOsg",
   "artistId": "kickflip",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-17T20:37:40.249Z",
+  "fetchedAt": "2026-11-18T06:32:59.314Z",
   "items": [
+    {
+      "id": "yt-EZ7RtfkWsNg",
+      "source": {
+        "platform": "youtube",
+        "videoId": "EZ7RtfkWsNg",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "KickFlip(킥플립) 2027학년도 수능 응원 메시지 💌",
+      "description": "#KickFlip #킥플립",
+      "thumbnail": "https://i.ytimg.com/vi/EZ7RtfkWsNg/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/EZ7RtfkWsNg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/EZ7RtfkWsNg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/EZ7RtfkWsNg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/EZ7RtfkWsNg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/EZ7RtfkWsNg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-18T06:00:31.000Z",
+      "url": "https://www.youtube.com/watch?v=EZ7RtfkWsNg",
+      "fetchedAt": "2026-11-18T06:32:59.314Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-18T06:32:59.314Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-MXZQBm47-BE",
       "source": {
@@ -2967,66 +3027,6 @@
       "fetchedAt": "2026-11-11T19:23:29.321Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-11T19:23:29.321Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-ORFml2yhBxk",
-      "source": {
-        "platform": "youtube",
-        "videoId": "ORFml2yhBxk",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "I Hate it, but I love it 🫐💖",
-      "description": "#KickFlip #킥플립\n#Juwang #Minje\n#hateblueberry",
-      "thumbnail": "https://i.ytimg.com/vi/ORFml2yhBxk/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/ORFml2yhBxk/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/ORFml2yhBxk/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/ORFml2yhBxk/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/ORFml2yhBxk/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/ORFml2yhBxk/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-26T13:00:18.000Z",
-      "url": "https://www.youtube.com/watch?v=ORFml2yhBxk",
-      "fetchedAt": "2026-11-11T05:19:23.022Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-11T05:19:23.022Z",
       "type": "other",
       "category": "other",
       "classification": {

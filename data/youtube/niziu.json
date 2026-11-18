@@ -4,8 +4,248 @@
   "uploadsPlaylistId": "UUHp2q2i85qt_9nn2H7AvGOw",
   "artistId": "niziu",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-17T20:37:40.249Z",
+  "fetchedAt": "2026-11-18T06:32:59.314Z",
   "items": [
+    {
+      "id": "yt-Pck0V5VXyw4",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Pck0V5VXyw4",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "NiziU「I AM」from NiziU Live with U 2026 “NEW EvoNUtion” #NiziU #니쥬#NEW_EvoNUtion #Who_U_NiziU_Fes",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/Pck0V5VXyw4/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Pck0V5VXyw4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Pck0V5VXyw4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Pck0V5VXyw4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Pck0V5VXyw4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Pck0V5VXyw4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-18T05:01:08.000Z",
+      "url": "https://www.youtube.com/watch?v=Pck0V5VXyw4",
+      "fetchedAt": "2026-11-18T06:32:59.314Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-18T06:32:59.314Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-Te8JZv_ePv8",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Te8JZv_ePv8",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "NiziU「I AM」from NiziU Live with U 2026 “NEW EvoNUtion”#NiziU #니쥬 #NEW_EvoNUtion #Who_U_NiziU_Fes",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/Te8JZv_ePv8/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Te8JZv_ePv8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Te8JZv_ePv8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Te8JZv_ePv8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Te8JZv_ePv8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Te8JZv_ePv8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-18T05:00:16.000Z",
+      "url": "https://www.youtube.com/watch?v=Te8JZv_ePv8",
+      "fetchedAt": "2026-11-18T06:32:59.314Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-18T06:32:59.314Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-2gbb4f7mo0o",
+      "source": {
+        "platform": "youtube",
+        "videoId": "2gbb4f7mo0o",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "NiziU Live with U 2026-2027 “Who? U! NiziU Fes.” Official Merch Teaser #1",
+      "description": "NiziU Live with U 2026-2027 “Who? U! NiziU Fes.” Official Merch Teaser #1\n\n通信販売サイト\nJYP JAPAN ONLINE STORE : https://jypj-store.com/collections/niziu-official-goods\nSony Music Shop :  https://www.sonymusicshop.jp/goods/niziu/\n\nNiziU Official Homepage: https://niziu.com/\nNiziU Offi",
+      "thumbnail": "https://i.ytimg.com/vi/2gbb4f7mo0o/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/2gbb4f7mo0o/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/2gbb4f7mo0o/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/2gbb4f7mo0o/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/2gbb4f7mo0o/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/2gbb4f7mo0o/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-18T02:08:51.000Z",
+      "url": "https://www.youtube.com/watch?v=2gbb4f7mo0o",
+      "fetchedAt": "2026-11-18T06:32:59.314Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-18T06:32:59.314Z",
+      "type": "teaser",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-ruDo4Q0fULE",
+      "source": {
+        "platform": "youtube",
+        "videoId": "ruDo4Q0fULE",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "NiziU Live with U 2026-2027 “Who? U! NiziU Fes.” Official Merch Teaser #2",
+      "description": "NiziU Live with U 2026-2027 “Who? U! NiziU Fes.” Official Merch Teaser #2\n\n通信販売サイト\nJYP JAPAN ONLINE STORE : https://jypj-store.com/collections/niziu-official-goods\nSony Music Shop :  https://www.sonymusicshop.jp/goods/niziu/\n\nNiziU Official Homepage: https://niziu.com/\nNiziU Offi",
+      "thumbnail": "https://i.ytimg.com/vi/ruDo4Q0fULE/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/ruDo4Q0fULE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/ruDo4Q0fULE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/ruDo4Q0fULE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/ruDo4Q0fULE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/ruDo4Q0fULE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-18T02:00:24.000Z",
+      "url": "https://www.youtube.com/watch?v=ruDo4Q0fULE",
+      "fetchedAt": "2026-11-18T06:32:59.314Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-18T06:32:59.314Z",
+      "type": "teaser",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-5VKhff10ytA",
       "source": {
@@ -2834,247 +3074,6 @@
       "fetchedAt": "2026-11-14T17:46:40.398Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-14T17:46:40.398Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-Tsk6qZEa4KE",
-      "source": {
-        "platform": "youtube",
-        "videoId": "Tsk6qZEa4KE",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "#SourGrapes with #HEECHAN @DKBOFFICIAL 🍇",
-      "description": "#DKB #다크비 #희찬\n#NiziU #니쥬 #RIKU\n#NiziU_SourGrapes",
-      "thumbnail": "https://i.ytimg.com/vi/Tsk6qZEa4KE/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/Tsk6qZEa4KE/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/Tsk6qZEa4KE/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/Tsk6qZEa4KE/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/Tsk6qZEa4KE/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/Tsk6qZEa4KE/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-15T08:04:01.000Z",
-      "url": "https://www.youtube.com/watch?v=Tsk6qZEa4KE",
-      "fetchedAt": "2026-11-14T17:46:40.398Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T17:46:40.398Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-GCuXJYLHClE",
-      "source": {
-        "platform": "youtube",
-        "videoId": "GCuXJYLHClE",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "NiziU ROCK IN JAPAN FESTIVAL 2026 Behind",
-      "description": "NiziU ROCK IN JAPAN FESTIVAL 2026 Behind\n\nNiziU Official Homepage: https://niziu.com/\nNiziU Official YouTube: https://www.youtube.com/@NiziUOfficial\nNiziU Official Facebook: https://www.facebook.com/NiziUinfoofficial/\nNiziU Official X(Twitter): https://twitter.com/NiziU__official",
-      "thumbnail": "https://i.ytimg.com/vi/GCuXJYLHClE/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/GCuXJYLHClE/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/GCuXJYLHClE/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/GCuXJYLHClE/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/GCuXJYLHClE/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/GCuXJYLHClE/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-14T11:00:03.000Z",
-      "url": "https://www.youtube.com/watch?v=GCuXJYLHClE",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
-      "type": "other",
-      "category": "behind",
-      "subcategory": "making",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.95,
-        "ruleId": "making"
-      }
-    },
-    {
-      "id": "yt-WKYy57IKrSU",
-      "source": {
-        "platform": "youtube",
-        "videoId": "WKYy57IKrSU",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "#SourGrapes with #HYEONGSEOP ​⁠@TPSTOFFICIAL 🍇",
-      "description": "#TEMPEST #템페스트 #형섭\n#NiziU #니쥬 #MAYUKA\n#NiziU_SourGrapes",
-      "thumbnail": "https://i.ytimg.com/vi/WKYy57IKrSU/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/WKYy57IKrSU/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/WKYy57IKrSU/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/WKYy57IKrSU/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/WKYy57IKrSU/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/WKYy57IKrSU/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-14T10:19:30.000Z",
-      "url": "https://www.youtube.com/watch?v=WKYy57IKrSU",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-9UsA26nqFH8",
-      "source": {
-        "platform": "youtube",
-        "videoId": "9UsA26nqFH8",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "#SourGrapes with #BANGJEEMIN @izna_offcl 🍇",
-      "description": "#izna #이즈나 #방지민\n#NiziU #니쥬 #RIMA\n#NiziU_SourGrapes",
-      "thumbnail": "https://i.ytimg.com/vi/9UsA26nqFH8/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/9UsA26nqFH8/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/9UsA26nqFH8/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/9UsA26nqFH8/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/9UsA26nqFH8/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/9UsA26nqFH8/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-13T08:59:02.000Z",
-      "url": "https://www.youtube.com/watch?v=9UsA26nqFH8",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
       "type": "other",
       "category": "other",
       "classification": {
