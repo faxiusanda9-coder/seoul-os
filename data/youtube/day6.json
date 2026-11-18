@@ -4,8 +4,69 @@
   "uploadsPlaylistId": "UUp-pqXsizklX3ZHvLxXyhxw",
   "artistId": "day6",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-16T05:30:48.702Z",
+  "fetchedAt": "2026-11-18T20:10:40.080Z",
   "items": [
+    {
+      "id": "yt-p0YZrK7fuuw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "p0YZrK7fuuw",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "DAY6(데이식스) 5TH FANMEETING ＜EVERY DAY6, EVERY My Day＞ Making Film",
+      "description": "DAY6(데이식스) 5TH FANMEETING ＜EVERY DAY6, EVERY My Day＞ Making Film\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://w",
+      "thumbnail": "https://i.ytimg.com/vi/p0YZrK7fuuw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/p0YZrK7fuuw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/p0YZrK7fuuw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/p0YZrK7fuuw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/p0YZrK7fuuw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/p0YZrK7fuuw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-18T10:00:06.000Z",
+      "url": "https://www.youtube.com/watch?v=p0YZrK7fuuw",
+      "fetchedAt": "2026-11-18T20:10:40.080Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-18T20:10:40.080Z",
+      "type": "other",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
+    },
     {
       "id": "yt-fmK7ZgBqzAs",
       "source": {
@@ -2966,66 +3027,6 @@
         "method": "rule",
         "confidence": 0.86,
         "ruleId": "fan-message"
-      }
-    },
-    {
-      "id": "yt-PRGmm4kvlZw",
-      "source": {
-        "platform": "youtube",
-        "videoId": "PRGmm4kvlZw",
-        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "day6",
-        "name": "DAY6"
-      },
-      "title": "[DAY6 무리회] Teaser. DAY6가 왜이리 무리회 🤡",
-      "description": "[DAY6 무리회] Teaser. DAY6가 왜이리 무리회 🤡\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY6Official\nD",
-      "thumbnail": "https://i.ytimg.com/vi/PRGmm4kvlZw/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/PRGmm4kvlZw/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/PRGmm4kvlZw/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/PRGmm4kvlZw/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/PRGmm4kvlZw/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/PRGmm4kvlZw/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-21T12:00:01.000Z",
-      "url": "https://www.youtube.com/watch?v=PRGmm4kvlZw",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
-      "type": "teaser",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
       }
     }
   ]

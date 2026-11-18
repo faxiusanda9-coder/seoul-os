@@ -4,8 +4,134 @@
   "uploadsPlaylistId": "UUSskmnvIhEy3nSZxxVKTeIg",
   "artistId": "girlset",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-18T06:32:59.314Z",
+  "fetchedAt": "2026-11-18T20:10:40.080Z",
   "items": [
+    {
+      "id": "yt-xRVpVixmiCY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "xRVpVixmiCY",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "“young & dumb” choreography practice video (moving ver.) out now #GIRLSET #younganddumb",
+      "description": "Listen to “young & dumb”: https://girlset.lnk.to/YoungAndDumb\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.co",
+      "thumbnail": "https://i.ytimg.com/vi/xRVpVixmiCY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/xRVpVixmiCY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/xRVpVixmiCY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/xRVpVixmiCY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/xRVpVixmiCY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/xRVpVixmiCY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-18T17:16:07.000Z",
+      "url": "https://www.youtube.com/watch?v=xRVpVixmiCY",
+      "fetchedAt": "2026-11-18T20:10:40.080Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-18T20:10:40.080Z",
+      "type": "performance",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-KJ_jHKzEkSA",
+      "source": {
+        "platform": "youtube",
+        "videoId": "KJ_jHKzEkSA",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "GIRLSET \"young & dumb\" Choreography Practice Video (Moving Ver.)",
+      "description": "GIRLSET \"young & dumb\" Choreography Practice Video (Moving Ver.)\n\nListen to \"young & dumb\" on Spotify: https://girlset.lnk.to/younganddumb/spotify\n\nGIRLSET Official Website: https://girlset.com\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https:/",
+      "thumbnail": "https://i.ytimg.com/vi/KJ_jHKzEkSA/uhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/KJ_jHKzEkSA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/KJ_jHKzEkSA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/KJ_jHKzEkSA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/KJ_jHKzEkSA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/KJ_jHKzEkSA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "uhd",
+          "url": "https://i.ytimg.com/vi/KJ_jHKzEkSA/uhddefault.jpg",
+          "width": 3840,
+          "height": 2160
+        }
+      ],
+      "publishedAt": "2026-11-18T17:04:40.000Z",
+      "url": "https://www.youtube.com/watch?v=KJ_jHKzEkSA",
+      "fetchedAt": "2026-11-18T20:10:40.080Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-18T20:10:40.080Z",
+      "type": "performance",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-nuqiQ6ex8nQ",
       "source": {
@@ -2938,132 +3064,6 @@
       ],
       "publishedAt": "2026-09-18T16:08:38.000Z",
       "url": "https://www.youtube.com/watch?v=EEWoabbiqOU",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-oIXgHm1OVG4",
-      "source": {
-        "platform": "youtube",
-        "videoId": "oIXgHm1OVG4",
-        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "girlset",
-        "name": "GIRLSET"
-      },
-      "title": "“CHAT” U.S. promotion out now #GIRLSET #CHAT",
-      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/oIXgHm1OVG4/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/oIXgHm1OVG4/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/oIXgHm1OVG4/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/oIXgHm1OVG4/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/oIXgHm1OVG4/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/oIXgHm1OVG4/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-16T01:10:12.000Z",
-      "url": "https://www.youtube.com/watch?v=oIXgHm1OVG4",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-QplqNBL6KKI",
-      "source": {
-        "platform": "youtube",
-        "videoId": "QplqNBL6KKI",
-        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "girlset",
-        "name": "GIRLSET"
-      },
-      "title": "GIRLSET \"CHAT\" U.S. Promotion",
-      "description": "GIRLSET \"CHAT\" Spotify: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official Website: https://girlset.com\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://www.twitter.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/",
-      "thumbnail": "https://i.ytimg.com/vi/QplqNBL6KKI/uhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/QplqNBL6KKI/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/QplqNBL6KKI/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/QplqNBL6KKI/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/QplqNBL6KKI/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/QplqNBL6KKI/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "uhd",
-          "url": "https://i.ytimg.com/vi/QplqNBL6KKI/uhddefault.jpg",
-          "width": 3840,
-          "height": 2160
-        }
-      ],
-      "publishedAt": "2026-09-16T01:00:14.000Z",
-      "url": "https://www.youtube.com/watch?v=QplqNBL6KKI",
       "fetchedAt": "2026-11-14T05:33:34.635Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-14T05:33:34.635Z",

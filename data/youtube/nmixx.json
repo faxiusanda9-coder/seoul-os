@@ -4,8 +4,75 @@
   "uploadsPlaylistId": "UUnUAyD4t2LkvW68YrDh7fDg",
   "artistId": "nmixx",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-18T06:32:59.314Z",
+  "fetchedAt": "2026-11-18T20:10:40.080Z",
   "items": [
+    {
+      "id": "yt-9FoJ_cr0750",
+      "source": {
+        "platform": "youtube",
+        "videoId": "9FoJ_cr0750",
+        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nmixx",
+        "name": "NMIXX"
+      },
+      "title": "금일 기쁨 업무량 초과 ٩(ˊᗜˋ*)وᰔ | 2026 더팩트 뮤직 어워즈 비하인드 | Day MIXX",
+      "description": "금일 기쁨 업무량 초과 ٩(ˊᗜˋ*)وᰔ | 2026 더팩트 뮤직 어워즈 비하인드 | Day MIXX\n\nNMIXX Official YouTube ▶ https://www.youtube.com/c/NMIXXOfficial \nNMIXX Official X ▶ https://x.com/NMIXX_official\nNMIXX Official X(Members) ▶ https://x.com/WE_NMIXX\nNMIXX Official Instagram ▶ https://www.instagram.com/nmix",
+      "thumbnail": "https://i.ytimg.com/vi/9FoJ_cr0750/fhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/9FoJ_cr0750/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/9FoJ_cr0750/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/9FoJ_cr0750/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/9FoJ_cr0750/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/9FoJ_cr0750/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "fhd",
+          "url": "https://i.ytimg.com/vi/9FoJ_cr0750/fhddefault.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "publishedAt": "2026-11-18T09:00:29.000Z",
+      "url": "https://www.youtube.com/watch?v=9FoJ_cr0750",
+      "fetchedAt": "2026-11-18T20:10:40.080Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-18T20:10:40.080Z",
+      "type": "other",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
+    },
     {
       "id": "yt-FyaqX9yN5Ls",
       "source": {
@@ -3002,73 +3069,6 @@
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-DtaBPrlOkaM",
-      "source": {
-        "platform": "youtube",
-        "videoId": "DtaBPrlOkaM",
-        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nmixx",
-        "name": "NMIXX"
-      },
-      "title": "NMIXX(엔믹스) 6th EP \"Strange Muse\" Trailer Behind | Making MIXX",
-      "description": "NMIXX(엔믹스) 6th EP \"Strange Muse\" Trailer Behind | Making MIXX\n\nNMIXX Official YouTube ▶ https://www.youtube.com/c/NMIXXOfficial \nNMIXX Official X ▶ https://x.com/NMIXX_official\nNMIXX Official X(Members) ▶ https://x.com/WE_NMIXX\nNMIXX Official Instagram ▶ https://www.instagram.com",
-      "thumbnail": "https://i.ytimg.com/vi/DtaBPrlOkaM/fhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/DtaBPrlOkaM/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/DtaBPrlOkaM/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/DtaBPrlOkaM/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/DtaBPrlOkaM/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/DtaBPrlOkaM/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "fhd",
-          "url": "https://i.ytimg.com/vi/DtaBPrlOkaM/fhddefault.jpg",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "publishedAt": "2026-10-25T09:00:31.000Z",
-      "url": "https://www.youtube.com/watch?v=DtaBPrlOkaM",
-      "fetchedAt": "2026-11-09T12:58:30.685Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-09T12:58:30.685Z",
-      "type": "teaser",
-      "category": "behind",
-      "subcategory": "making",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.95,
-        "ruleId": "making"
       }
     }
   ]
