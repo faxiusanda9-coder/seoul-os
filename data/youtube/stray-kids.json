@@ -4,8 +4,129 @@
   "uploadsPlaylistId": "UU9rMiEjNaCSsebs31MRDCRA",
   "artistId": "stray-kids",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-18T20:10:40.080Z",
+  "fetchedAt": "2026-11-19T20:12:36.009Z",
   "items": [
+    {
+      "id": "yt-5SVTu_VXYog",
+      "source": {
+        "platform": "youtube",
+        "videoId": "5SVTu_VXYog",
+        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "stray-kids",
+        "name": "Stray Kids"
+      },
+      "title": "Just One 10 SECONDS #StrayKids #스트레이키즈 #필릭스 #Felix #YouMakeStrayKidsStay",
+      "description": "Just One 10 SECONDS #StrayKids #스트레이키즈 #필릭스 #Felix #YouMakeStrayKidsStay \n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" now➡️\nhttps:/",
+      "thumbnail": "https://i.ytimg.com/vi/5SVTu_VXYog/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/5SVTu_VXYog/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/5SVTu_VXYog/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/5SVTu_VXYog/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/5SVTu_VXYog/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/5SVTu_VXYog/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-19T12:00:04.000Z",
+      "url": "https://www.youtube.com/watch?v=5SVTu_VXYog",
+      "fetchedAt": "2026-11-19T20:12:36.009Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-19T20:12:36.009Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-EK7sbGeBmJM",
+      "source": {
+        "platform": "youtube",
+        "videoId": "EK7sbGeBmJM",
+        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "stray-kids",
+        "name": "Stray Kids"
+      },
+      "title": "I.N \"NO RETURN\" MAKING FILM",
+      "description": "I.N(아이엔) \"NO RETURN\" MAKING FILM \n\n✨ English, Japanese, Chinese, Spanish, Indonesian & Thai subtitles are available!\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to",
+      "thumbnail": "https://i.ytimg.com/vi/EK7sbGeBmJM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/EK7sbGeBmJM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/EK7sbGeBmJM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/EK7sbGeBmJM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/EK7sbGeBmJM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/EK7sbGeBmJM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-19T11:00:01.000Z",
+      "url": "https://www.youtube.com/watch?v=EK7sbGeBmJM",
+      "fetchedAt": "2026-11-19T20:12:36.009Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-19T20:12:36.009Z",
+      "type": "other",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
+    },
     {
       "id": "yt-MJ1Vq5prNLo",
       "source": {
@@ -899,9 +1020,9 @@
       ],
       "publishedAt": "2026-11-04T11:00:04.000Z",
       "url": "https://www.youtube.com/watch?v=cfxxSsojp6A",
-      "fetchedAt": "2026-11-04T12:52:33.548Z",
+      "fetchedAt": "2026-11-19T20:12:36.009Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-04T12:52:33.548Z",
+      "lastValidatedAt": "2026-11-19T20:12:36.009Z",
       "type": "other",
       "category": "variety",
       "subcategory": "series",
@@ -960,9 +1081,9 @@
       ],
       "publishedAt": "2026-11-04T09:00:12.000Z",
       "url": "https://www.youtube.com/watch?v=fs61GhQuuvM",
-      "fetchedAt": "2026-11-04T12:52:33.548Z",
+      "fetchedAt": "2026-11-19T20:12:36.009Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-04T12:52:33.548Z",
+      "lastValidatedAt": "2026-11-19T20:12:36.009Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1802,9 +1923,9 @@
       ],
       "publishedAt": "2026-10-20T11:00:15.000Z",
       "url": "https://www.youtube.com/watch?v=vkShP2XlP0w",
-      "fetchedAt": "2026-11-04T12:52:33.548Z",
+      "fetchedAt": "2026-11-19T20:12:36.009Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-04T12:52:33.548Z",
+      "lastValidatedAt": "2026-11-19T20:12:36.009Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2897,126 +3018,6 @@
       ],
       "publishedAt": "2026-09-27T07:21:33.000Z",
       "url": "https://www.youtube.com/watch?v=xm7Og_qs0GA",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-gRYaIEcikWI",
-      "source": {
-        "platform": "youtube",
-        "videoId": "gRYaIEcikWI",
-        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "stray-kids",
-        "name": "Stray Kids"
-      },
-      "title": "어제에 이어 오늘도 큰 환호와 함성으로 맞아줘서 고마워요! 🥰",
-      "description": "어제에 이어 오늘도 큰 환호와 함성으로 맞아줘서 고마워요! 🥰\nThank you for all the love and cheers tonight! Another night to remember 🩷\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"Thi",
-      "thumbnail": "https://i.ytimg.com/vi/gRYaIEcikWI/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/gRYaIEcikWI/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/gRYaIEcikWI/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/gRYaIEcikWI/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/gRYaIEcikWI/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/gRYaIEcikWI/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-27T07:20:52.000Z",
-      "url": "https://www.youtube.com/watch?v=gRYaIEcikWI",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-L8YHH_Gm7Ew",
-      "source": {
-        "platform": "youtube",
-        "videoId": "L8YHH_Gm7Ew",
-        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "stray-kids",
-        "name": "Stray Kids"
-      },
-      "title": "어제에 이어 오늘도 큰 환호와 함성으로 맞아줘서 고마워요! 🥰",
-      "description": "어제에 이어 오늘도 큰 환호와 함성으로 맞아줘서 고마워요! 🥰\nThank you for all the love and cheers tonight! Another night to remember 🩷\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"Thi",
-      "thumbnail": "https://i.ytimg.com/vi/L8YHH_Gm7Ew/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/L8YHH_Gm7Ew/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/L8YHH_Gm7Ew/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/L8YHH_Gm7Ew/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/L8YHH_Gm7Ew/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/L8YHH_Gm7Ew/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-27T07:20:18.000Z",
-      "url": "https://www.youtube.com/watch?v=L8YHH_Gm7Ew",
       "fetchedAt": "2026-11-14T05:33:34.635Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-14T05:33:34.635Z",
