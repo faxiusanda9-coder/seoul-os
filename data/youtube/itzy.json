@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUDhM2k2Cua-JdobAh5moMFg",
   "artistId": "itzy",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-18T20:10:40.080Z",
+  "fetchedAt": "2026-11-19T06:34:50.378Z",
   "items": [
+    {
+      "id": "yt-A3Mn9-xhi4o",
+      "source": {
+        "platform": "youtube",
+        "videoId": "A3Mn9-xhi4o",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "더 가까이와🌹🧲 ˎˊ- #ITZY #CHAERYEONG #채령 #Chaeryeong_Lovesick #LovesickChallenge #Shorts",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/A3Mn9-xhi4o/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/A3Mn9-xhi4o/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/A3Mn9-xhi4o/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/A3Mn9-xhi4o/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/A3Mn9-xhi4o/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/A3Mn9-xhi4o/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-19T05:00:05.000Z",
+      "url": "https://www.youtube.com/watch?v=A3Mn9-xhi4o",
+      "fetchedAt": "2026-11-19T06:34:50.378Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-19T06:34:50.378Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-HbyjkAdBego",
       "source": {
@@ -3034,66 +3094,6 @@
         "method": "rule",
         "confidence": 0.9,
         "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt-xxcwImv6U0o",
-      "source": {
-        "platform": "youtube",
-        "videoId": "xxcwImv6U0o",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "채령을 향한 Lovesick은 영원할 건가 보다..🫧 #ITZY #CHAERYEONG #Chaeryeong_Lovesick #Chaeryeong_Lovesick_POPUP",
-      "description": "💗 채령 ‘Lovesick’ POP-UP STORE\n📍 롯데백화점 잠실점 2F 키네틱 스테이지\n🗓️ ~ 2026.11.16 (MON)\n\n#ITZY #CHAERYEONG\n#Chaeryeong_Lovesick\n#Chaeryeong_Lovesick_POPUP",
-      "thumbnail": "https://i.ytimg.com/vi/xxcwImv6U0o/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/xxcwImv6U0o/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/xxcwImv6U0o/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/xxcwImv6U0o/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/xxcwImv6U0o/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/xxcwImv6U0o/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-11-10T10:06:13.000Z",
-      "url": "https://www.youtube.com/watch?v=xxcwImv6U0o",
-      "fetchedAt": "2026-11-10T12:18:17.427Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-10T12:18:17.427Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
       }
     }
   ]
