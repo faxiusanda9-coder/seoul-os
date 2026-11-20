@@ -4,8 +4,128 @@
   "uploadsPlaylistId": "UUzgxx_DM2Dcb9Y1spb9mUJA",
   "artistId": "twice",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-19T20:12:36.009Z",
+  "fetchedAt": "2026-11-20T06:22:05.379Z",
   "items": [
+    {
+      "id": "yt-uhza_wdueVg",
+      "source": {
+        "platform": "youtube",
+        "videoId": "uhza_wdueVg",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "BABY ANGEL spotted! 👼 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL #CGV #KPOPLIVE #LIVEPOP",
+      "description": "BABY ANGEL spotted! 👼\n\n🖥️Listen NA-sty🖥️\nNAYEON.lnk.to/NAsty \n\n#TWICE #트와이스 #NAYEON #나연 \n#NA_sty #BABY_ANGEL #CGV #KPOPLIVE #LIVEPOP",
+      "thumbnail": "https://i.ytimg.com/vi/uhza_wdueVg/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/uhza_wdueVg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/uhza_wdueVg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/uhza_wdueVg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/uhza_wdueVg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/uhza_wdueVg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-20T06:00:29.000Z",
+      "url": "https://www.youtube.com/watch?v=uhza_wdueVg",
+      "fetchedAt": "2026-11-20T06:22:05.379Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-20T06:22:05.379Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt--CDxpxm7vhw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "-CDxpxm7vhw",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "BABY ANGEL OUT NOW🩵 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+      "description": "BABY ANGEL HAS ARRIVED🩵\n\n🖥️Listen NA-sty🖥️\nNAYEON.lnk.to/NAsty \n\n#TWICE #트와이스 #NAYEON #나연 \n#NA_sty #BABY_ANGEL",
+      "thumbnail": "https://i.ytimg.com/vi/-CDxpxm7vhw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/-CDxpxm7vhw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/-CDxpxm7vhw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/-CDxpxm7vhw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/-CDxpxm7vhw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/-CDxpxm7vhw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-20T05:30:12.000Z",
+      "url": "https://www.youtube.com/watch?v=-CDxpxm7vhw",
+      "fetchedAt": "2026-11-20T06:22:05.379Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-20T06:22:05.379Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-y5e15Gjb6eY",
       "source": {
@@ -2897,126 +3017,6 @@
       ],
       "publishedAt": "2026-10-07T10:00:34.000Z",
       "url": "https://www.youtube.com/watch?v=GTSNOMtXMsA",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-nRy5Nzf45fE",
-      "source": {
-        "platform": "youtube",
-        "videoId": "nRy5Nzf45fE",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "TWICE Special Vinyl ＜THIS IS FOR＞ WORLD TOUR FINALE in SEOUL - LIVE #MINA",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/nRy5Nzf45fE/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/nRy5Nzf45fE/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/nRy5Nzf45fE/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/nRy5Nzf45fE/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/nRy5Nzf45fE/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/nRy5Nzf45fE/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-07T09:00:18.000Z",
-      "url": "https://www.youtube.com/watch?v=nRy5Nzf45fE",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-r6YmwMysYZo",
-      "source": {
-        "platform": "youtube",
-        "videoId": "r6YmwMysYZo",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "TWICE Special Vinyl ＜THIS IS FOR＞ WORLD TOUR FINALE in SEOUL - LIVE #JIHYO",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/r6YmwMysYZo/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/r6YmwMysYZo/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/r6YmwMysYZo/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/r6YmwMysYZo/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/r6YmwMysYZo/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/r6YmwMysYZo/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-06T09:00:11.000Z",
-      "url": "https://www.youtube.com/watch?v=r6YmwMysYZo",
       "fetchedAt": "2026-11-14T05:33:34.635Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-14T05:33:34.635Z",
