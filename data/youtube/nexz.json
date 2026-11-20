@@ -4,8 +4,69 @@
   "uploadsPlaylistId": "UU-o9yrZxu5Ru-DVGhnmeTug",
   "artistId": "nexz",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-19T20:12:36.009Z",
+  "fetchedAt": "2026-11-20T19:46:08.251Z",
   "items": [
+    {
+      "id": "yt-7T3_LgiNecY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "7T3_LgiNecY",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "Hellmate Challenge 🧡 with #武田創世 さん (#Lienel) | #SOGEON",
+      "description": "#NEXZ #SOGEON  \n#Hellmate #NEXZ_Hellmate\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
+      "thumbnail": "https://i.ytimg.com/vi/7T3_LgiNecY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/7T3_LgiNecY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/7T3_LgiNecY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/7T3_LgiNecY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/7T3_LgiNecY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/7T3_LgiNecY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-20T12:00:03.000Z",
+      "url": "https://www.youtube.com/watch?v=7T3_LgiNecY",
+      "fetchedAt": "2026-11-20T19:46:08.251Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-20T19:46:08.251Z",
+      "type": "other",
+      "category": "variety",
+      "subcategory": "series",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.9,
+        "ruleId": "variety-series"
+      }
+    },
     {
       "id": "yt-VPxw7JM3cPc",
       "source": {
@@ -2394,9 +2455,9 @@
       ],
       "publishedAt": "2026-11-05T12:00:21.000Z",
       "url": "https://www.youtube.com/watch?v=2quetSE3gwo",
-      "fetchedAt": "2026-11-05T12:57:29.787Z",
+      "fetchedAt": "2026-11-20T19:46:08.251Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-05T12:57:29.787Z",
+      "lastValidatedAt": "2026-11-20T19:46:08.251Z",
       "type": "other",
       "category": "variety",
       "subcategory": "series",
@@ -2455,9 +2516,9 @@
       ],
       "publishedAt": "2026-11-05T11:30:17.000Z",
       "url": "https://www.youtube.com/watch?v=uzggm-RAwbs",
-      "fetchedAt": "2026-11-05T12:57:29.787Z",
+      "fetchedAt": "2026-11-20T19:46:08.251Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-05T12:57:29.787Z",
+      "lastValidatedAt": "2026-11-20T19:46:08.251Z",
       "type": "other",
       "category": "variety",
       "subcategory": "series",
@@ -2516,9 +2577,9 @@
       ],
       "publishedAt": "2026-11-05T11:00:03.000Z",
       "url": "https://www.youtube.com/watch?v=Pcs2mngixj4",
-      "fetchedAt": "2026-11-05T12:57:29.787Z",
+      "fetchedAt": "2026-11-20T19:46:08.251Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-05T12:57:29.787Z",
+      "lastValidatedAt": "2026-11-20T19:46:08.251Z",
       "type": "other",
       "category": "behind",
       "subcategory": "making",
@@ -2577,9 +2638,9 @@
       ],
       "publishedAt": "2026-11-05T10:00:20.000Z",
       "url": "https://www.youtube.com/watch?v=_X9b3kVjQQo",
-      "fetchedAt": "2026-11-05T12:57:29.787Z",
+      "fetchedAt": "2026-11-20T19:46:08.251Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-05T12:57:29.787Z",
+      "lastValidatedAt": "2026-11-20T19:46:08.251Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2940,66 +3001,6 @@
       "fetchedAt": "2026-11-14T17:46:40.398Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-14T17:46:40.398Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-sTM0DGerbgY",
-      "source": {
-        "platform": "youtube",
-        "videoId": "sTM0DGerbgY",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "@BamBamOfficial_1a #BamBam 선배님과 하지하지마🖐️ | #TOMOYA #YU #GOT7 #뱀뱀",
-      "description": "#NEXZ #TOMOYA #YU\n#GOT7 #뱀뱀\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
-      "thumbnail": "https://i.ytimg.com/vi/sTM0DGerbgY/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/sTM0DGerbgY/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/sTM0DGerbgY/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/sTM0DGerbgY/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/sTM0DGerbgY/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/sTM0DGerbgY/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-29T13:00:39.000Z",
-      "url": "https://www.youtube.com/watch?v=sTM0DGerbgY",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
       "type": "other",
       "category": "other",
       "classification": {

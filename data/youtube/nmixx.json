@@ -4,8 +4,75 @@
   "uploadsPlaylistId": "UUnUAyD4t2LkvW68YrDh7fDg",
   "artistId": "nmixx",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-19T20:12:36.009Z",
+  "fetchedAt": "2026-11-20T19:46:08.251Z",
   "items": [
+    {
+      "id": "yt-bdhXaqcABlM",
+      "source": {
+        "platform": "youtube",
+        "videoId": "bdhXaqcABlM",
+        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nmixx",
+        "name": "NMIXX"
+      },
+      "title": "NMIXX(엔믹스) \"Kerosene\" Recording Behind | Recording MIXX",
+      "description": "NMIXX(엔믹스) \"Kerosene\" Recording Behind | Recording MIXX\n\nNMIXX Official YouTube ▶ https://www.youtube.com/c/NMIXXOfficial \nNMIXX Official X ▶ https://x.com/NMIXX_official\nNMIXX Official X(Members) ▶ https://x.com/WE_NMIXX\nNMIXX Official Instagram ▶ https://www.instagram.com/nmixx",
+      "thumbnail": "https://i.ytimg.com/vi/bdhXaqcABlM/fhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/bdhXaqcABlM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/bdhXaqcABlM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/bdhXaqcABlM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/bdhXaqcABlM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/bdhXaqcABlM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "fhd",
+          "url": "https://i.ytimg.com/vi/bdhXaqcABlM/fhddefault.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "publishedAt": "2026-11-20T09:00:39.000Z",
+      "url": "https://www.youtube.com/watch?v=bdhXaqcABlM",
+      "fetchedAt": "2026-11-20T19:46:08.251Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-20T19:46:08.251Z",
+      "type": "other",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
+    },
     {
       "id": "yt-9FoJ_cr0750",
       "source": {
@@ -3000,66 +3067,6 @@
       ],
       "publishedAt": "2026-10-25T11:00:26.000Z",
       "url": "https://www.youtube.com/watch?v=-EZnijC8s-M",
-      "fetchedAt": "2026-11-06T00:52:45.796Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-06T00:52:45.796Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-Hye2Oj6P5xc",
-      "source": {
-        "platform": "youtube",
-        "videoId": "Hye2Oj6P5xc",
-        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nmixx",
-        "name": "NMIXX"
-      },
-      "title": "#CUTIESTREET #佐野愛花 위한 긴 소원을 빌게 ❤️➴₊⊹ #NMIXX #BAE #긴소원_BirthdayWish",
-      "description": "#CUTIESTREET #佐野愛花 위한 긴 소원을 빌게 ❤️➴₊⊹ #NMIXX #BAE #긴소원_BirthdayWish \n\nNMIXX Official YouTube ▶ https://www.youtube.com/c/NMIXXOfficial\nNMIXX Official X ▶ https://x.com/NMIXX_official\nNMIXX Official X(Members) ▶ https://x.com/WE_NMIXX\nNMIXX Official Instagram ▶ https://www.instagra",
-      "thumbnail": "https://i.ytimg.com/vi/Hye2Oj6P5xc/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/Hye2Oj6P5xc/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/Hye2Oj6P5xc/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/Hye2Oj6P5xc/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/Hye2Oj6P5xc/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/Hye2Oj6P5xc/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-25T10:00:30.000Z",
-      "url": "https://www.youtube.com/watch?v=Hye2Oj6P5xc",
       "fetchedAt": "2026-11-06T00:52:45.796Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-06T00:52:45.796Z",

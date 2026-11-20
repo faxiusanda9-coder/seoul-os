@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUHp2q2i85qt_9nn2H7AvGOw",
   "artistId": "niziu",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-20T06:22:05.379Z",
+  "fetchedAt": "2026-11-20T19:46:08.251Z",
   "items": [
+    {
+      "id": "yt-aMvNR1Gax2U",
+      "source": {
+        "platform": "youtube",
+        "videoId": "aMvNR1Gax2U",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "NiziU「Happy day」from NiziU Live with U 2026 “NEW EvoNUtion”#NiziU #니쥬#NEW_EvoNUtion #Who_U_NiziU_Fes",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/aMvNR1Gax2U/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/aMvNR1Gax2U/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/aMvNR1Gax2U/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/aMvNR1Gax2U/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/aMvNR1Gax2U/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/aMvNR1Gax2U/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-20T10:00:21.000Z",
+      "url": "https://www.youtube.com/watch?v=aMvNR1Gax2U",
+      "fetchedAt": "2026-11-20T19:46:08.251Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-20T19:46:08.251Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-z3FjFHvlqZg",
       "source": {
@@ -2001,9 +2061,9 @@
       ],
       "publishedAt": "2026-11-05T11:00:05.000Z",
       "url": "https://www.youtube.com/watch?v=mO4cBW9niss",
-      "fetchedAt": "2026-11-05T12:57:29.787Z",
+      "fetchedAt": "2026-11-20T19:46:08.251Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-05T12:57:29.787Z",
+      "lastValidatedAt": "2026-11-20T19:46:08.251Z",
       "type": "other",
       "category": "behind",
       "subcategory": "making",
@@ -3014,66 +3074,6 @@
         "method": "rule",
         "confidence": 0.95,
         "ruleId": "making"
-      }
-    },
-    {
-      "id": "yt-GryQQOlwNYQ",
-      "source": {
-        "platform": "youtube",
-        "videoId": "GryQQOlwNYQ",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "#SourGrapes with #MINJU ​⁠@ILLIT_official 🍇",
-      "description": "#ILLIT #아일릿 #민주\n#NiziU #니쥬 #MIIHI\n#NiziU_SourGrapes",
-      "thumbnail": "https://i.ytimg.com/vi/GryQQOlwNYQ/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/GryQQOlwNYQ/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/GryQQOlwNYQ/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/GryQQOlwNYQ/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/GryQQOlwNYQ/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/GryQQOlwNYQ/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-19T07:00:21.000Z",
-      "url": "https://www.youtube.com/watch?v=GryQQOlwNYQ",
-      "fetchedAt": "2026-11-18T20:10:40.080Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-18T20:10:40.080Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
       }
     }
   ]

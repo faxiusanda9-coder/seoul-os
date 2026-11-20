@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UU9rMiEjNaCSsebs31MRDCRA",
   "artistId": "stray-kids",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-19T20:12:36.009Z",
+  "fetchedAt": "2026-11-20T19:46:08.251Z",
   "items": [
+    {
+      "id": "yt-7XD8xQxiGUg",
+      "source": {
+        "platform": "youtube",
+        "videoId": "7XD8xQxiGUg",
+        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "stray-kids",
+        "name": "Stray Kids"
+      },
+      "title": "𝖍𝖔𝖑𝖞? 𝖒𝖔𝖑𝖞😆 #StrayKids #스트레이키즈 #리노 #LeeKnow #YouMakeStrayKidsStay",
+      "description": "𝖍𝖔𝖑𝖞? 𝖒𝖔𝖑𝖞😆 #StrayKids #스트레이키즈 #리노 #LeeKnow #YouMakeStrayKidsStay \n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" now➡️\nhttps",
+      "thumbnail": "https://i.ytimg.com/vi/7XD8xQxiGUg/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/7XD8xQxiGUg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/7XD8xQxiGUg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/7XD8xQxiGUg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/7XD8xQxiGUg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/7XD8xQxiGUg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-20T08:59:55.000Z",
+      "url": "https://www.youtube.com/watch?v=7XD8xQxiGUg",
+      "fetchedAt": "2026-11-20T19:46:08.251Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-20T19:46:08.251Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-5SVTu_VXYog",
       "source": {
@@ -1863,9 +1923,9 @@
       ],
       "publishedAt": "2026-10-21T11:00:01.000Z",
       "url": "https://www.youtube.com/watch?v=ozPMUapJ8d0",
-      "fetchedAt": "2026-11-05T12:57:29.787Z",
+      "fetchedAt": "2026-11-20T19:46:08.251Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-05T12:57:29.787Z",
+      "lastValidatedAt": "2026-11-20T19:46:08.251Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2958,66 +3018,6 @@
       ],
       "publishedAt": "2026-09-27T08:00:03.000Z",
       "url": "https://www.youtube.com/watch?v=dWGF-mWhrUw",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-xm7Og_qs0GA",
-      "source": {
-        "platform": "youtube",
-        "videoId": "xm7Og_qs0GA",
-        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "stray-kids",
-        "name": "Stray Kids"
-      },
-      "title": "어제에 이어 오늘도 큰 환호와 함성으로 맞아줘서 고마워요! 🥰",
-      "description": "어제에 이어 오늘도 큰 환호와 함성으로 맞아줘서 고마워요! 🥰\nThank you for all the love and cheers tonight! Another night to remember 🩷\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"Thi",
-      "thumbnail": "https://i.ytimg.com/vi/xm7Og_qs0GA/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/xm7Og_qs0GA/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/xm7Og_qs0GA/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/xm7Og_qs0GA/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/xm7Og_qs0GA/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/xm7Og_qs0GA/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-27T07:21:33.000Z",
-      "url": "https://www.youtube.com/watch?v=xm7Og_qs0GA",
       "fetchedAt": "2026-11-14T05:33:34.635Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-14T05:33:34.635Z",
