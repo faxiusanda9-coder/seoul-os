@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUmq9jjpHA69PwAwlA0DwOsg",
   "artistId": "kickflip",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-20T19:46:08.251Z",
+  "fetchedAt": "2026-11-21T18:51:34.464Z",
   "items": [
+    {
+      "id": "yt-OyO_tCu_Mno",
+      "source": {
+        "platform": "youtube",
+        "videoId": "OyO_tCu_Mno",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "🙏",
+      "description": "#KickFlip #킥플립\n#주왕 #Juwang",
+      "thumbnail": "https://i.ytimg.com/vi/OyO_tCu_Mno/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/OyO_tCu_Mno/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/OyO_tCu_Mno/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/OyO_tCu_Mno/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/OyO_tCu_Mno/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/OyO_tCu_Mno/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-21T09:00:04.000Z",
+      "url": "https://www.youtube.com/watch?v=OyO_tCu_Mno",
+      "fetchedAt": "2026-11-21T18:51:34.464Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-21T18:51:34.464Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-yPm5dYoO4tw",
       "source": {
@@ -2364,9 +2424,9 @@
       ],
       "publishedAt": "2026-11-06T11:00:16.000Z",
       "url": "https://www.youtube.com/watch?v=3hlRRjlwWcQ",
-      "fetchedAt": "2026-11-06T12:53:14.308Z",
+      "fetchedAt": "2026-11-21T18:51:34.464Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-06T12:53:14.308Z",
+      "lastValidatedAt": "2026-11-21T18:51:34.464Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2430,9 +2490,9 @@
       ],
       "publishedAt": "2026-11-06T11:00:12.000Z",
       "url": "https://www.youtube.com/watch?v=bYSS4dw_PKY",
-      "fetchedAt": "2026-11-06T12:53:14.308Z",
+      "fetchedAt": "2026-11-21T18:51:34.464Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-06T12:53:14.308Z",
+      "lastValidatedAt": "2026-11-21T18:51:34.464Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2490,9 +2550,9 @@
       ],
       "publishedAt": "2026-11-06T09:00:12.000Z",
       "url": "https://www.youtube.com/watch?v=iDUiLETeMd0",
-      "fetchedAt": "2026-11-06T12:53:14.308Z",
+      "fetchedAt": "2026-11-21T18:51:34.464Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-06T12:53:14.308Z",
+      "lastValidatedAt": "2026-11-21T18:51:34.464Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2977,66 +3037,6 @@
       ],
       "publishedAt": "2026-10-30T11:00:14.000Z",
       "url": "https://www.youtube.com/watch?v=BjPCfZ6HnH4",
-      "fetchedAt": "2026-11-14T17:46:40.398Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T17:46:40.398Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-G-kvEhsrt7Y",
-      "source": {
-        "platform": "youtube",
-        "videoId": "G-kvEhsrt7Y",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "나 홀로 마당에",
-      "description": "#KickFlip #킥플립",
-      "thumbnail": "https://i.ytimg.com/vi/G-kvEhsrt7Y/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/G-kvEhsrt7Y/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/G-kvEhsrt7Y/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/G-kvEhsrt7Y/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/G-kvEhsrt7Y/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/G-kvEhsrt7Y/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-30T11:00:12.000Z",
-      "url": "https://www.youtube.com/watch?v=G-kvEhsrt7Y",
       "fetchedAt": "2026-11-14T17:46:40.398Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-14T17:46:40.398Z",
