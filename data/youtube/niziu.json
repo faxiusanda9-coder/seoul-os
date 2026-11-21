@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUHp2q2i85qt_9nn2H7AvGOw",
   "artistId": "niziu",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-20T19:46:08.251Z",
+  "fetchedAt": "2026-11-21T06:12:25.451Z",
   "items": [
+    {
+      "id": "yt-XoSFO7M63cs",
+      "source": {
+        "platform": "youtube",
+        "videoId": "XoSFO7M63cs",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "🎁 NiziUからリリースのお知らせ 💌 #NiziU #ニジュー #니쥬 #WithU#NiziU_JollyJolly",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/XoSFO7M63cs/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/XoSFO7M63cs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/XoSFO7M63cs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/XoSFO7M63cs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/XoSFO7M63cs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/XoSFO7M63cs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-21T03:19:25.000Z",
+      "url": "https://www.youtube.com/watch?v=XoSFO7M63cs",
+      "fetchedAt": "2026-11-21T06:12:25.451Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-21T06:12:25.451Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-aMvNR1Gax2U",
       "source": {
@@ -3006,67 +3066,6 @@
       "fetchedAt": "2026-11-19T20:12:36.009Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-19T20:12:36.009Z",
-      "type": "other",
-      "category": "behind",
-      "subcategory": "making",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.95,
-        "ruleId": "making"
-      }
-    },
-    {
-      "id": "yt-frFVqM-pviU",
-      "source": {
-        "platform": "youtube",
-        "videoId": "frFVqM-pviU",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "NiziU INKIGAYO LIVE in TOKYO Behind",
-      "description": "NiziU INKIGAYO LIVE in TOKYO Behind\n\nNiziU Official Homepage: https://niziu.com/\nNiziU Official YouTube: https://www.youtube.com/@NiziUOfficial\nNiziU Official Facebook: https://www.facebook.com/NiziUinfoofficial/\nNiziU Official X(Twitter): https://twitter.com/NiziU__official\nNizi",
-      "thumbnail": "https://i.ytimg.com/vi/frFVqM-pviU/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/frFVqM-pviU/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/frFVqM-pviU/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/frFVqM-pviU/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/frFVqM-pviU/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/frFVqM-pviU/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-19T09:00:11.000Z",
-      "url": "https://www.youtube.com/watch?v=frFVqM-pviU",
-      "fetchedAt": "2026-11-18T20:10:40.080Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-18T20:10:40.080Z",
       "type": "other",
       "category": "behind",
       "subcategory": "making",

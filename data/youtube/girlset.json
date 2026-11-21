@@ -4,7 +4,7 @@
   "uploadsPlaylistId": "UUSskmnvIhEy3nSZxxVKTeIg",
   "artistId": "girlset",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-20T19:46:08.251Z",
+  "fetchedAt": "2026-11-21T06:12:25.451Z",
   "items": [
     {
       "id": "yt-rLiH0oKx5a0",
@@ -1229,9 +1229,9 @@
       ],
       "publishedAt": "2026-11-05T18:13:21.000Z",
       "url": "https://www.youtube.com/watch?v=hBfOBe61ZPw",
-      "fetchedAt": "2026-11-06T00:52:45.796Z",
+      "fetchedAt": "2026-11-21T06:12:25.451Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-06T00:52:45.796Z",
+      "lastValidatedAt": "2026-11-21T06:12:25.451Z",
       "type": "other",
       "category": "other",
       "classification": {

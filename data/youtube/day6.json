@@ -4,8 +4,69 @@
   "uploadsPlaylistId": "UUp-pqXsizklX3ZHvLxXyhxw",
   "artistId": "day6",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-20T19:46:08.251Z",
+  "fetchedAt": "2026-11-21T06:12:25.451Z",
   "items": [
+    {
+      "id": "yt-rDKi36BKJoo",
+      "source": {
+        "platform": "youtube",
+        "videoId": "rDKi36BKJoo",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[데식이들] Young K x 2026 KGMA 비하인드",
+      "description": "[데식이들] Young K x 2026 KGMA 비하인드\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY6Official\nDAY6 ",
+      "thumbnail": "https://i.ytimg.com/vi/rDKi36BKJoo/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/rDKi36BKJoo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/rDKi36BKJoo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/rDKi36BKJoo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/rDKi36BKJoo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/rDKi36BKJoo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-21T03:00:08.000Z",
+      "url": "https://www.youtube.com/watch?v=rDKi36BKJoo",
+      "fetchedAt": "2026-11-21T06:12:25.451Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-21T06:12:25.451Z",
+      "type": "other",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
+    },
     {
       "id": "yt-p0YZrK7fuuw",
       "source": {
@@ -2956,67 +3017,6 @@
       ],
       "publishedAt": "2026-09-22T10:00:09.000Z",
       "url": "https://www.youtube.com/watch?v=3UPp5y3XGNI",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
-      "type": "other",
-      "category": "fan",
-      "subcategory": "fan-content",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.86,
-        "ruleId": "fan-message"
-      }
-    },
-    {
-      "id": "yt-qJUfN7l9oOg",
-      "source": {
-        "platform": "youtube",
-        "videoId": "qJUfN7l9oOg",
-        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "day6",
-        "name": "DAY6"
-      },
-      "title": "[LIVE] 꿈의 버스｜DAY6(데이식스) 10th Anniversary Tour ＜The DECADE＞ FINALE in SEOUL",
-      "description": "[LIVE] 꿈의 버스｜DAY6(데이식스) 10th Anniversary Tour ＜The DECADE＞ FINALE in SEOUL\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter",
-      "thumbnail": "https://i.ytimg.com/vi/qJUfN7l9oOg/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/qJUfN7l9oOg/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/qJUfN7l9oOg/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/qJUfN7l9oOg/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/qJUfN7l9oOg/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/qJUfN7l9oOg/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-22T10:00:05.000Z",
-      "url": "https://www.youtube.com/watch?v=qJUfN7l9oOg",
       "fetchedAt": "2026-11-14T05:33:34.635Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-14T05:33:34.635Z",

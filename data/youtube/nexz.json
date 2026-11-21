@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UU-o9yrZxu5Ru-DVGhnmeTug",
   "artistId": "nexz",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-20T19:46:08.251Z",
+  "fetchedAt": "2026-11-21T06:12:25.451Z",
   "items": [
+    {
+      "id": "yt-Nd0uoObIOE4",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Nd0uoObIOE4",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "파티에 초대받지 못하면 삐가 되겠어요 🤡 | #TOMOYA #YU",
+      "description": "#NEXZ #TOMOYA #YU \n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
+      "thumbnail": "https://i.ytimg.com/vi/Nd0uoObIOE4/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Nd0uoObIOE4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Nd0uoObIOE4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Nd0uoObIOE4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Nd0uoObIOE4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Nd0uoObIOE4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-21T05:00:20.000Z",
+      "url": "https://www.youtube.com/watch?v=Nd0uoObIOE4",
+      "fetchedAt": "2026-11-21T06:12:25.451Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-21T06:12:25.451Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-7T3_LgiNecY",
       "source": {
@@ -2938,66 +2998,6 @@
       ],
       "publishedAt": "2026-10-30T11:00:35.000Z",
       "url": "https://www.youtube.com/watch?v=AK0OXKdnFNg",
-      "fetchedAt": "2026-11-14T17:46:40.398Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T17:46:40.398Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-TNlihAQ8vZU",
-      "source": {
-        "platform": "youtube",
-        "videoId": "TNlihAQ8vZU",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "𝖕𝖆𝖗𝖙𝖞-𝖆𝖗𝖙𝖞 | #SOGEON",
-      "description": "#NEXZ #SOGEON\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
-      "thumbnail": "https://i.ytimg.com/vi/TNlihAQ8vZU/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/TNlihAQ8vZU/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/TNlihAQ8vZU/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/TNlihAQ8vZU/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/TNlihAQ8vZU/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/TNlihAQ8vZU/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-30T09:00:12.000Z",
-      "url": "https://www.youtube.com/watch?v=TNlihAQ8vZU",
       "fetchedAt": "2026-11-14T17:46:40.398Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-14T17:46:40.398Z",
