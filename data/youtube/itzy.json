@@ -4,8 +4,255 @@
   "uploadsPlaylistId": "UUDhM2k2Cua-JdobAh5moMFg",
   "artistId": "itzy",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-22T05:45:36.883Z",
+  "fetchedAt": "2026-11-22T19:12:48.991Z",
   "items": [
+    {
+      "id": "yt-vWc7WcUBwiU",
+      "source": {
+        "platform": "youtube",
+        "videoId": "vWc7WcUBwiU",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "#미아 님과 #LovesickChallenge R-R-R-R Replay🔄 #ITZY #CHAERYEONG #BabyDONTCry #Mia #Chaeryeong_Lovesick",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/vWc7WcUBwiU/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/vWc7WcUBwiU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/vWc7WcUBwiU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/vWc7WcUBwiU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/vWc7WcUBwiU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/vWc7WcUBwiU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-22T12:30:14.000Z",
+      "url": "https://www.youtube.com/watch?v=vWc7WcUBwiU",
+      "fetchedAt": "2026-11-22T19:12:48.991Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-22T19:12:48.991Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-CtBOsOVHcGo",
+      "source": {
+        "platform": "youtube",
+        "videoId": "CtBOsOVHcGo",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "기대해 🌹𓂃 𓈒𓏸⋆꙳ #ITZY #CHAERYEONG #채령 #기대해",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/CtBOsOVHcGo/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/CtBOsOVHcGo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/CtBOsOVHcGo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/CtBOsOVHcGo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/CtBOsOVHcGo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/CtBOsOVHcGo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-22T11:08:49.000Z",
+      "url": "https://www.youtube.com/watch?v=CtBOsOVHcGo",
+      "fetchedAt": "2026-11-22T19:12:48.991Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-22T19:12:48.991Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-u-5wcOZkgS4",
+      "source": {
+        "platform": "youtube",
+        "videoId": "u-5wcOZkgS4",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "☃︎⋆˚ Winter #LovesickChallenge 에 𝐅𝐑𝐄𝐄𝐙𝐄! ❄️ #ITZY #CHAERYEONG #채령 #Chaeryeong_Lovesick #shorts",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/u-5wcOZkgS4/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/u-5wcOZkgS4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/u-5wcOZkgS4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/u-5wcOZkgS4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/u-5wcOZkgS4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/u-5wcOZkgS4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-22T09:15:35.000Z",
+      "url": "https://www.youtube.com/watch?v=u-5wcOZkgS4",
+      "fetchedAt": "2026-11-22T19:12:48.991Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-22T19:12:48.991Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-Gf15OdrFj8M",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Gf15OdrFj8M",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "CHAERYEONG “Lovesick” Dance Practice (Winter Ver.) (4K)",
+      "description": "CHAERYEONG “Lovesick” Dance Practice (Winter Ver.) (4K)\n\nCHAERYEONG 'Lovesick'\nhttp://CHAERYEONG.lnk.to/Lovesick\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOffici",
+      "thumbnail": "https://i.ytimg.com/vi/Gf15OdrFj8M/fhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Gf15OdrFj8M/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Gf15OdrFj8M/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Gf15OdrFj8M/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Gf15OdrFj8M/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Gf15OdrFj8M/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "fhd",
+          "url": "https://i.ytimg.com/vi/Gf15OdrFj8M/fhddefault.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "publishedAt": "2026-11-22T09:00:04.000Z",
+      "url": "https://www.youtube.com/watch?v=Gf15OdrFj8M",
+      "fetchedAt": "2026-11-22T19:12:48.991Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-22T19:12:48.991Z",
+      "type": "performance",
+      "category": "music",
+      "subcategory": "performance-video",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.91,
+        "ruleId": "music-performance"
+      }
+    },
     {
       "id": "yt-H95SQqf3IaA",
       "source": {
@@ -2804,253 +3051,6 @@
       ],
       "publishedAt": "2026-11-14T13:00:30.000Z",
       "url": "https://www.youtube.com/watch?v=1VMUy4BOdfg",
-      "fetchedAt": "2026-11-14T17:46:40.398Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T17:46:40.398Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-iZyNmVWFe_A",
-      "source": {
-        "platform": "youtube",
-        "videoId": "iZyNmVWFe_A",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "추구미 정반대의 에어팟이 바뀌었을 때 💙↔️🌙 #ITZY #CHAERYEONG #채령 #Chaeryeong_Lovesick #shorts",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/iZyNmVWFe_A/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/iZyNmVWFe_A/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/iZyNmVWFe_A/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/iZyNmVWFe_A/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/iZyNmVWFe_A/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/iZyNmVWFe_A/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-11-14T12:00:15.000Z",
-      "url": "https://www.youtube.com/watch?v=iZyNmVWFe_A",
-      "fetchedAt": "2026-11-14T17:46:40.398Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T17:46:40.398Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-blkJjO2QoIs",
-      "source": {
-        "platform": "youtube",
-        "videoId": "blkJjO2QoIs",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "CHAERYEONG “Lovesick” Dance Practice (Shirt Ver.) (4K)",
-      "description": "CHAERYEONG “Lovesick” Dance Practice (Shirt Ver.) (4K)\n\nCHAERYEONG 'Lovesick'\nhttp://CHAERYEONG.lnk.to/Lovesick\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOfficia",
-      "thumbnail": "https://i.ytimg.com/vi/blkJjO2QoIs/fhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/blkJjO2QoIs/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/blkJjO2QoIs/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/blkJjO2QoIs/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/blkJjO2QoIs/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/blkJjO2QoIs/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "fhd",
-          "url": "https://i.ytimg.com/vi/blkJjO2QoIs/fhddefault.jpg",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "publishedAt": "2026-11-14T11:00:10.000Z",
-      "url": "https://www.youtube.com/watch?v=blkJjO2QoIs",
-      "fetchedAt": "2026-11-14T17:46:40.398Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T17:46:40.398Z",
-      "type": "performance",
-      "category": "music",
-      "subcategory": "performance-video",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.91,
-        "ruleId": "music-performance"
-      }
-    },
-    {
-      "id": "yt-0u8l3pmgTe4",
-      "source": {
-        "platform": "youtube",
-        "videoId": "0u8l3pmgTe4",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "TAKE 2, 공일즈의 #LovesickChallenge ♾️🤍#ITZY #RYUJIN #CHAERYEONG #Chaeryeong_Lovesick",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/0u8l3pmgTe4/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/0u8l3pmgTe4/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/0u8l3pmgTe4/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/0u8l3pmgTe4/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/0u8l3pmgTe4/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/0u8l3pmgTe4/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-11-14T10:00:11.000Z",
-      "url": "https://www.youtube.com/watch?v=0u8l3pmgTe4",
-      "fetchedAt": "2026-11-14T17:46:40.398Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T17:46:40.398Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-e-KXbRhlqFE",
-      "source": {
-        "platform": "youtube",
-        "videoId": "e-KXbRhlqFE",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "령곤의 #LovesickChallenge 커져 두근거림이 ॱ˚ʚ♥ɞ˚ॱ #ITZY #YEJI #CHAERYEONG #Chaeryeong_Lovesick #Shorts",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/e-KXbRhlqFE/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/e-KXbRhlqFE/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/e-KXbRhlqFE/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/e-KXbRhlqFE/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/e-KXbRhlqFE/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/e-KXbRhlqFE/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-11-14T09:00:02.000Z",
-      "url": "https://www.youtube.com/watch?v=e-KXbRhlqFE",
       "fetchedAt": "2026-11-14T17:46:40.398Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-14T17:46:40.398Z",
