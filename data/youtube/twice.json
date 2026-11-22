@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUzgxx_DM2Dcb9Y1spb9mUJA",
   "artistId": "twice",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-21T18:51:34.464Z",
+  "fetchedAt": "2026-11-22T05:45:36.883Z",
   "items": [
+    {
+      "id": "yt-9M1smlAiFMg",
+      "source": {
+        "platform": "youtube",
+        "videoId": "9M1smlAiFMg",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "🌠Glowing ANGEL🌠 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+      "description": "🌠Glowing ANGEL🌠\n\n🖥️Listen NA-sty🖥️\nNAYEON.lnk.to/NAsty \n\n#TWICE #트와이스 #NAYEON #나연 \n#NA_sty #BABY_ANGEL",
+      "thumbnail": "https://i.ytimg.com/vi/9M1smlAiFMg/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/9M1smlAiFMg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/9M1smlAiFMg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/9M1smlAiFMg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/9M1smlAiFMg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/9M1smlAiFMg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-22T05:00:14.000Z",
+      "url": "https://www.youtube.com/watch?v=9M1smlAiFMg",
+      "fetchedAt": "2026-11-22T05:45:36.883Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-22T05:45:36.883Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-SSG5sOT0mKs",
       "source": {
@@ -1862,9 +1922,9 @@
       ],
       "publishedAt": "2026-10-23T04:01:28.000Z",
       "url": "https://www.youtube.com/watch?v=Llxr_FUhbqU",
-      "fetchedAt": "2026-11-07T04:45:35.217Z",
+      "fetchedAt": "2026-11-22T05:45:36.883Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-07T04:45:35.217Z",
+      "lastValidatedAt": "2026-11-22T05:45:36.883Z",
       "type": "other",
       "category": "variety",
       "subcategory": "series",
@@ -1923,9 +1983,9 @@
       ],
       "publishedAt": "2026-10-23T04:00:30.000Z",
       "url": "https://www.youtube.com/watch?v=sAuOClNi58g",
-      "fetchedAt": "2026-11-07T04:45:35.217Z",
+      "fetchedAt": "2026-11-22T05:45:36.883Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-07T04:45:35.217Z",
+      "lastValidatedAt": "2026-11-22T05:45:36.883Z",
       "type": "other",
       "category": "variety",
       "subcategory": "series",
@@ -2965,67 +3025,6 @@
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-jQh3dRdplPw",
-      "source": {
-        "platform": "youtube",
-        "videoId": "jQh3dRdplPw",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "TWICE 2027 Season's Greetings [Spotless] Behind",
-      "description": "TWICE 2027 Season's Greetings [Spotless] Behind\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.twitter.com/JYPETWICE \nTWICE Off",
-      "thumbnail": "https://i.ytimg.com/vi/jQh3dRdplPw/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/jQh3dRdplPw/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/jQh3dRdplPw/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/jQh3dRdplPw/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/jQh3dRdplPw/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/jQh3dRdplPw/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-12T10:00:06.000Z",
-      "url": "https://www.youtube.com/watch?v=jQh3dRdplPw",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
-      "type": "other",
-      "category": "behind",
-      "subcategory": "making",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.95,
-        "ruleId": "making"
       }
     }
   ]

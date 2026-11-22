@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUSskmnvIhEy3nSZxxVKTeIg",
   "artistId": "girlset",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-21T06:12:25.451Z",
+  "fetchedAt": "2026-11-22T05:45:36.883Z",
   "items": [
+    {
+      "id": "yt-jRIKnQZteew",
+      "source": {
+        "platform": "youtube",
+        "videoId": "jRIKnQZteew",
+        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "girlset",
+        "name": "GIRLSET"
+      },
+      "title": "living young & dumb #GIRLSET #younganddumb",
+      "description": "Listen to “young & dumb”: https://girlset.lnk.to/YoungAndDumb\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.co",
+      "thumbnail": "https://i.ytimg.com/vi/jRIKnQZteew/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/jRIKnQZteew/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/jRIKnQZteew/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/jRIKnQZteew/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/jRIKnQZteew/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/jRIKnQZteew/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-21T22:06:28.000Z",
+      "url": "https://www.youtube.com/watch?v=jRIKnQZteew",
+      "fetchedAt": "2026-11-22T05:45:36.883Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-22T05:45:36.883Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-rLiH0oKx5a0",
       "source": {
@@ -1109,9 +1169,9 @@
       ],
       "publishedAt": "2026-11-06T20:26:58.000Z",
       "url": "https://www.youtube.com/watch?v=YTFoOhKl75A",
-      "fetchedAt": "2026-11-07T00:48:41.383Z",
+      "fetchedAt": "2026-11-22T05:45:36.883Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-07T00:48:41.383Z",
+      "lastValidatedAt": "2026-11-22T05:45:36.883Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1169,9 +1229,9 @@
       ],
       "publishedAt": "2026-11-06T17:05:54.000Z",
       "url": "https://www.youtube.com/watch?v=vHt4Ja4ugcI",
-      "fetchedAt": "2026-11-07T00:48:41.383Z",
+      "fetchedAt": "2026-11-22T05:45:36.883Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-07T00:48:41.383Z",
+      "lastValidatedAt": "2026-11-22T05:45:36.883Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2382,9 +2442,9 @@
       ],
       "publishedAt": "2026-10-22T16:11:42.000Z",
       "url": "https://www.youtube.com/watch?v=c8ihXqVOYQE",
-      "fetchedAt": "2026-11-07T00:48:41.383Z",
+      "fetchedAt": "2026-11-22T05:45:36.883Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-07T00:48:41.383Z",
+      "lastValidatedAt": "2026-11-22T05:45:36.883Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -3013,67 +3073,6 @@
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-Qzdl4O077lo",
-      "source": {
-        "platform": "youtube",
-        "videoId": "Qzdl4O077lo",
-        "channelId": "UCSskmnvIhEy3nSZxxVKTeIg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "girlset",
-        "name": "GIRLSET"
-      },
-      "title": "yappy ver. visualizer out now, with a hint of what’s coming this halloween 👀📞 #GIRLSET #CHAT",
-      "description": "Listen to “CHAT”: https://girlset.lnk.to/CHAT/Spotify\n\nGIRLSET Official YouTube: https://www.youtube.com/@GIRLSET\nGIRLSET Official X: https://x.com/GIRLSETofficial\nGIRLSET Official Instagram: https://www.instagram.com/GIRLSET\nGIRLSET Official TikTok: https://www.tiktok.com/@GIRLS",
-      "thumbnail": "https://i.ytimg.com/vi/Qzdl4O077lo/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/Qzdl4O077lo/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/Qzdl4O077lo/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/Qzdl4O077lo/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/Qzdl4O077lo/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/Qzdl4O077lo/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-19T16:09:56.000Z",
-      "url": "https://www.youtube.com/watch?v=Qzdl4O077lo",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
-      "type": "other",
-      "category": "music",
-      "subcategory": "performance-video",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.91,
-        "ruleId": "music-performance"
       }
     }
   ]
