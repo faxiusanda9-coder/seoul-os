@@ -4,8 +4,69 @@
   "uploadsPlaylistId": "UUp-pqXsizklX3ZHvLxXyhxw",
   "artistId": "day6",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-23T06:31:43.347Z",
+  "fetchedAt": "2026-11-23T23:35:15.951Z",
   "items": [
+    {
+      "id": "yt-X7JS2j56D3A",
+      "source": {
+        "platform": "youtube",
+        "videoId": "X7JS2j56D3A",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[LIVE] Intro + 망겜 + 도와줘요 Rock&Roll | DAY6(데이식스) 5TH FANMEETING ＜EVERY DAY6, EVERY My Day＞",
+      "description": "[LIVE] Intro + 망겜 + 도와줘요 Rock&Roll | DAY6(데이식스) 5TH FANMEETING ＜EVERY DAY6, EVERY My Day＞\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 O",
+      "thumbnail": "https://i.ytimg.com/vi/X7JS2j56D3A/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/X7JS2j56D3A/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/X7JS2j56D3A/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/X7JS2j56D3A/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/X7JS2j56D3A/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/X7JS2j56D3A/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-23T10:00:01.000Z",
+      "url": "https://www.youtube.com/watch?v=X7JS2j56D3A",
+      "fetchedAt": "2026-11-23T23:35:15.951Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-23T23:35:15.951Z",
+      "type": "other",
+      "category": "fan",
+      "subcategory": "fan-content",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.86,
+        "ruleId": "fan-message"
+      }
+    },
     {
       "id": "yt-rDKi36BKJoo",
       "source": {
@@ -2966,67 +3027,6 @@
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-3UPp5y3XGNI",
-      "source": {
-        "platform": "youtube",
-        "videoId": "3UPp5y3XGNI",
-        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "day6",
-        "name": "DAY6"
-      },
-      "title": "[LIVE] INSIDE OUT｜DAY6(데이식스) 10th Anniversary Tour ＜The DECADE＞ FINALE in SEOUL",
-      "description": "[LIVE] INSIDE OUT｜DAY6(데이식스) 10th Anniversary Tour ＜The DECADE＞ FINALE in SEOUL\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Tw",
-      "thumbnail": "https://i.ytimg.com/vi/3UPp5y3XGNI/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/3UPp5y3XGNI/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/3UPp5y3XGNI/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/3UPp5y3XGNI/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/3UPp5y3XGNI/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/3UPp5y3XGNI/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-22T10:00:09.000Z",
-      "url": "https://www.youtube.com/watch?v=3UPp5y3XGNI",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
-      "type": "other",
-      "category": "fan",
-      "subcategory": "fan-content",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.86,
-        "ruleId": "fan-message"
       }
     }
   ]

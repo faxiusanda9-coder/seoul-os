@@ -4,8 +4,128 @@
   "uploadsPlaylistId": "UUzgxx_DM2Dcb9Y1spb9mUJA",
   "artistId": "twice",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-23T06:31:43.347Z",
+  "fetchedAt": "2026-11-23T23:35:15.951Z",
   "items": [
+    {
+      "id": "yt-iASC_MUgUtc",
+      "source": {
+        "platform": "youtube",
+        "videoId": "iASC_MUgUtc",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "BABY ANGEL at MAMA 🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+      "description": "BABY ANGEL at MAMA 🪽\n\n🖥️Listen NA-sty🖥️\nNAYEON.lnk.to/NAsty \n\n#TWICE #트와이스 #NAYEON #나연 \n#NA_sty #BABY_ANGEL",
+      "thumbnail": "https://i.ytimg.com/vi/iASC_MUgUtc/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/iASC_MUgUtc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/iASC_MUgUtc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/iASC_MUgUtc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/iASC_MUgUtc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/iASC_MUgUtc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-23T11:00:21.000Z",
+      "url": "https://www.youtube.com/watch?v=iASC_MUgUtc",
+      "fetchedAt": "2026-11-23T23:35:15.951Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-23T23:35:15.951Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-cTH3TsdReeo",
+      "source": {
+        "platform": "youtube",
+        "videoId": "cTH3TsdReeo",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "I know I’m a DREAM🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL #Shorts",
+      "description": "I know I’m a DREAM🪽\n\n🖥️Listen NA-sty🖥️\nNAYEON.lnk.to/NAsty \n\n#TWICE #트와이스 #NAYEON #나연 \n#NA_sty #BABY_ANGEL",
+      "thumbnail": "https://i.ytimg.com/vi/cTH3TsdReeo/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/cTH3TsdReeo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/cTH3TsdReeo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/cTH3TsdReeo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/cTH3TsdReeo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/cTH3TsdReeo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-23T07:03:45.000Z",
+      "url": "https://www.youtube.com/watch?v=cTH3TsdReeo",
+      "fetchedAt": "2026-11-23T23:35:15.951Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-23T23:35:15.951Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-uIR0WEbB-z8",
       "source": {
@@ -2903,127 +3023,6 @@
         "method": "rule",
         "confidence": 0.92,
         "ruleId": "livestream"
-      }
-    },
-    {
-      "id": "yt-qcTMapoI-OM",
-      "source": {
-        "platform": "youtube",
-        "videoId": "qcTMapoI-OM",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "TWICE 11th Anniversary MD Shoot Behind Teaser",
-      "description": "TWICE 11th Anniversary MD Shoot Behind Teaser\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.twitter.com/JYPETWICE \nTWICE Offic",
-      "thumbnail": "https://i.ytimg.com/vi/qcTMapoI-OM/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/qcTMapoI-OM/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/qcTMapoI-OM/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/qcTMapoI-OM/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/qcTMapoI-OM/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/qcTMapoI-OM/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-16T09:00:11.000Z",
-      "url": "https://www.youtube.com/watch?v=qcTMapoI-OM",
-      "fetchedAt": "2026-11-15T18:37:32.878Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-15T18:37:32.878Z",
-      "type": "teaser",
-      "category": "behind",
-      "subcategory": "making",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.95,
-        "ruleId": "making"
-      }
-    },
-    {
-      "id": "yt-mD3oHeiWtVc",
-      "source": {
-        "platform": "youtube",
-        "videoId": "mD3oHeiWtVc",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "TWICE Special Vinyl ＜THIS IS FOR＞  WORLD TOUR FINALE in SEOUL - LIVE : D-1",
-      "description": "TWICE Special Vinyl ＜THIS IS FOR＞  WORLD TOUR FINALE in SEOUL - LIVE : D-1\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.twitt",
-      "thumbnail": "https://i.ytimg.com/vi/mD3oHeiWtVc/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/mD3oHeiWtVc/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/mD3oHeiWtVc/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/mD3oHeiWtVc/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/mD3oHeiWtVc/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/mD3oHeiWtVc/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-15T09:00:07.000Z",
-      "url": "https://www.youtube.com/watch?v=mD3oHeiWtVc",
-      "fetchedAt": "2026-11-14T17:46:40.398Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T17:46:40.398Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
       }
     }
   ]

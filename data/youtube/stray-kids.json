@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UU9rMiEjNaCSsebs31MRDCRA",
   "artistId": "stray-kids",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-22T19:12:48.991Z",
+  "fetchedAt": "2026-11-23T23:35:15.951Z",
   "items": [
+    {
+      "id": "yt-x68u7U9y1tg",
+      "source": {
+        "platform": "youtube",
+        "videoId": "x68u7U9y1tg",
+        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "stray-kids",
+        "name": "Stray Kids"
+      },
+      "title": "🐷🐰.｡oO( 우리 🐶 쿵푸 잘하죠 ) #StrayKids #스트레이키즈 #창빈 #Changbin #승민 #Seungmin #YouMakeStrayKidsStay",
+      "description": "🐷🐰.｡oO( 우리 🐶 쿵푸 잘하죠 ) #StrayKids #스트레이키즈 #창빈 #Changbin #승민 #Seungmin #YouMakeStrayKidsStay\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Rem",
+      "thumbnail": "https://i.ytimg.com/vi/x68u7U9y1tg/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/x68u7U9y1tg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/x68u7U9y1tg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/x68u7U9y1tg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/x68u7U9y1tg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/x68u7U9y1tg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-23T08:59:37.000Z",
+      "url": "https://www.youtube.com/watch?v=x68u7U9y1tg",
+      "fetchedAt": "2026-11-23T23:35:15.951Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-23T23:35:15.951Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-7XD8xQxiGUg",
       "source": {
@@ -960,9 +1020,9 @@
       ],
       "publishedAt": "2026-11-08T06:00:04.000Z",
       "url": "https://www.youtube.com/watch?v=TfixaYSUSNY",
-      "fetchedAt": "2026-11-08T12:39:23.467Z",
+      "fetchedAt": "2026-11-23T23:35:15.951Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-08T12:39:23.467Z",
+      "lastValidatedAt": "2026-11-23T23:35:15.951Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2958,66 +3018,6 @@
       ],
       "publishedAt": "2026-09-28T13:00:03.000Z",
       "url": "https://www.youtube.com/watch?v=cZKD5hh2wKE",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-dWGF-mWhrUw",
-      "source": {
-        "platform": "youtube",
-        "videoId": "dWGF-mWhrUw",
-        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "stray-kids",
-        "name": "Stray Kids"
-      },
-      "title": "108배도 하고 하체운동도 하고 #StrayKids #스트레이키즈 #리노 #LeeKnow #kNOw맘대로 #ThekNOwWay #YouMakeStrayKidsStay",
-      "description": "108배도 하고 하체운동도 하고 #StrayKids #스트레이키즈 #리노 #LeeKnow #kNOw맘대로 #ThekNOwWay #YouMakeStrayKidsStay  \n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Re",
-      "thumbnail": "https://i.ytimg.com/vi/dWGF-mWhrUw/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/dWGF-mWhrUw/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/dWGF-mWhrUw/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/dWGF-mWhrUw/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/dWGF-mWhrUw/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/dWGF-mWhrUw/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-27T08:00:03.000Z",
-      "url": "https://www.youtube.com/watch?v=dWGF-mWhrUw",
       "fetchedAt": "2026-11-14T05:33:34.635Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-14T05:33:34.635Z",

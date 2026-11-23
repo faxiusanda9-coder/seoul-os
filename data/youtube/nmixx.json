@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUnUAyD4t2LkvW68YrDh7fDg",
   "artistId": "nmixx",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-21T18:51:34.464Z",
+  "fetchedAt": "2026-11-23T23:35:15.951Z",
   "items": [
+    {
+      "id": "yt-ReSZ6J2oIeU",
+      "source": {
+        "platform": "youtube",
+        "videoId": "ReSZ6J2oIeU",
+        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nmixx",
+        "name": "NMIXX"
+      },
+      "title": "POV : 이 나이에 NMIXX 콘서트 간다고 했을 때 #NMIXX #엔믹스 #NMIXX_ZEROFRONTIER #NMIXX_ZEROFRONTIER_FINALE",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/ReSZ6J2oIeU/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/ReSZ6J2oIeU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/ReSZ6J2oIeU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/ReSZ6J2oIeU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/ReSZ6J2oIeU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/ReSZ6J2oIeU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-23T11:00:33.000Z",
+      "url": "https://www.youtube.com/watch?v=ReSZ6J2oIeU",
+      "fetchedAt": "2026-11-23T23:35:15.951Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-23T23:35:15.951Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-bdhXaqcABlM",
       "source": {
@@ -3007,66 +3067,6 @@
       ],
       "publishedAt": "2026-10-26T04:00:24.000Z",
       "url": "https://www.youtube.com/watch?v=gG7wP6bGnoY",
-      "fetchedAt": "2026-11-21T06:12:25.451Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-21T06:12:25.451Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt--EZnijC8s-M",
-      "source": {
-        "platform": "youtube",
-        "videoId": "-EZnijC8s-M",
-        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nmixx",
-        "name": "NMIXX"
-      },
-      "title": "당신의 💗를 ᴘɪᴄᴋ ᴜᴘ! #NMIXX #HAEWON #BAE #긴소원_BirthdayWish",
-      "description": "당신의 💗를 ᴘɪᴄᴋ ᴜᴘ! #NMIXX #HAEWON #BAE #긴소원_BirthdayWish \n\nNMIXX Official YouTube ▶ https://www.youtube.com/c/NMIXXOfficial\nNMIXX Official X ▶ https://x.com/NMIXX_official\nNMIXX Official X(Members) ▶ https://x.com/WE_NMIXX\nNMIXX Official Instagram ▶ https://www.instagram.com/nmixx_",
-      "thumbnail": "https://i.ytimg.com/vi/-EZnijC8s-M/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/-EZnijC8s-M/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/-EZnijC8s-M/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/-EZnijC8s-M/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/-EZnijC8s-M/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/-EZnijC8s-M/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-25T11:00:26.000Z",
-      "url": "https://www.youtube.com/watch?v=-EZnijC8s-M",
       "fetchedAt": "2026-11-21T06:12:25.451Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-21T06:12:25.451Z",
