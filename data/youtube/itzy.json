@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUDhM2k2Cua-JdobAh5moMFg",
   "artistId": "itzy",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-22T19:12:48.991Z",
+  "fetchedAt": "2026-11-23T06:31:43.347Z",
   "items": [
+    {
+      "id": "yt-nrbRqhq6RiU",
+      "source": {
+        "platform": "youtube",
+        "videoId": "nrbRqhq6RiU",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "이번 주도 힘내🌼 월요팅❤️‍🔥 #ITZY #MIDZY #CHAERYEONG #YUNA #채령 #유나 #WayToGo #힘내 #Shorts",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/nrbRqhq6RiU/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/nrbRqhq6RiU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/nrbRqhq6RiU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/nrbRqhq6RiU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/nrbRqhq6RiU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/nrbRqhq6RiU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-23T03:00:05.000Z",
+      "url": "https://www.youtube.com/watch?v=nrbRqhq6RiU",
+      "fetchedAt": "2026-11-23T06:31:43.347Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-23T06:31:43.347Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-vWc7WcUBwiU",
       "source": {
@@ -2994,66 +3054,6 @@
       "fetchedAt": "2026-11-15T05:31:26.310Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-15T05:31:26.310Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-1VMUy4BOdfg",
-      "source": {
-        "platform": "youtube",
-        "videoId": "1VMUy4BOdfg",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "Lovesick한 #원희 님을 체포하겠어 ❤️🚨 #ITZY #CHAERYEONG #ILLIT #WONHEE #LovesickChallenge @ILLIT_official",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/1VMUy4BOdfg/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/1VMUy4BOdfg/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/1VMUy4BOdfg/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/1VMUy4BOdfg/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/1VMUy4BOdfg/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/1VMUy4BOdfg/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-11-14T13:00:30.000Z",
-      "url": "https://www.youtube.com/watch?v=1VMUy4BOdfg",
-      "fetchedAt": "2026-11-14T17:46:40.398Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T17:46:40.398Z",
       "type": "other",
       "category": "other",
       "classification": {

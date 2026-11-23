@@ -4,8 +4,128 @@
   "uploadsPlaylistId": "UUHp2q2i85qt_9nn2H7AvGOw",
   "artistId": "niziu",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-22T19:12:48.991Z",
+  "fetchedAt": "2026-11-23T06:31:43.347Z",
   "items": [
+    {
+      "id": "yt-Vg6G_CDAXIs",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Vg6G_CDAXIs",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "What u doing?? #RIKU #RIMA#NiziU #WithU#Who_U_NiziU_Fes",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/Vg6G_CDAXIs/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Vg6G_CDAXIs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Vg6G_CDAXIs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Vg6G_CDAXIs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Vg6G_CDAXIs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Vg6G_CDAXIs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-23T05:00:13.000Z",
+      "url": "https://www.youtube.com/watch?v=Vg6G_CDAXIs",
+      "fetchedAt": "2026-11-23T06:31:43.347Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-23T06:31:43.347Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-Xk-8wAjSqRE",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Xk-8wAjSqRE",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "きゅるきゅるんなプレゼントはいかがですか？#NiziU #ニジュー #니쥬 #WithU#NiziU_JollyJolly",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/Xk-8wAjSqRE/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Xk-8wAjSqRE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Xk-8wAjSqRE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Xk-8wAjSqRE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Xk-8wAjSqRE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Xk-8wAjSqRE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-23T03:00:36.000Z",
+      "url": "https://www.youtube.com/watch?v=Xk-8wAjSqRE",
+      "fetchedAt": "2026-11-23T06:31:43.347Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-23T06:31:43.347Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-ze8FjjJSYuM",
       "source": {
@@ -2940,126 +3060,6 @@
       "fetchedAt": "2026-11-22T05:45:36.883Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-22T05:45:36.883Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-tBeuMlunOz4",
-      "source": {
-        "platform": "youtube",
-        "videoId": "tBeuMlunOz4",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "besties don't need words💞",
-      "description": "#RIMA #NINA\n#NiziU #니쥬\n#SourGrapes\n#NiziU_SourGrapes",
-      "thumbnail": "https://i.ytimg.com/vi/tBeuMlunOz4/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/tBeuMlunOz4/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/tBeuMlunOz4/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/tBeuMlunOz4/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/tBeuMlunOz4/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/tBeuMlunOz4/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-22T07:30:19.000Z",
-      "url": "https://www.youtube.com/watch?v=tBeuMlunOz4",
-      "fetchedAt": "2026-11-21T18:51:34.464Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-21T18:51:34.464Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-wllZfw63LWY",
-      "source": {
-        "platform": "youtube",
-        "videoId": "wllZfw63LWY",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "고민 고민하지마 Girl☝️",
-      "description": "#MAYA\n#NiziU #니쥬\n#SourGrapes\n#NiziU_SourGrapes",
-      "thumbnail": "https://i.ytimg.com/vi/wllZfw63LWY/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/wllZfw63LWY/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/wllZfw63LWY/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/wllZfw63LWY/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/wllZfw63LWY/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/wllZfw63LWY/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-22T07:20:27.000Z",
-      "url": "https://www.youtube.com/watch?v=wllZfw63LWY",
-      "fetchedAt": "2026-11-21T18:51:34.464Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-21T18:51:34.464Z",
       "type": "other",
       "category": "other",
       "classification": {

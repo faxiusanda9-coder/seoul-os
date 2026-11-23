@@ -4,8 +4,128 @@
   "uploadsPlaylistId": "UUzgxx_DM2Dcb9Y1spb9mUJA",
   "artistId": "twice",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-22T19:12:48.991Z",
+  "fetchedAt": "2026-11-23T06:31:43.347Z",
   "items": [
+    {
+      "id": "yt-uIR0WEbB-z8",
+      "source": {
+        "platform": "youtube",
+        "videoId": "uIR0WEbB-z8",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "☀️☁️ #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+      "description": "☀️☁️\n\n🖥️Listen NA-sty🖥️\nNAYEON.lnk.to/NAsty \n\n#TWICE #트와이스 #NAYEON #나연 \n#NA_sty #BABY_ANGEL",
+      "thumbnail": "https://i.ytimg.com/vi/uIR0WEbB-z8/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/uIR0WEbB-z8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/uIR0WEbB-z8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/uIR0WEbB-z8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/uIR0WEbB-z8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/uIR0WEbB-z8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-23T06:00:37.000Z",
+      "url": "https://www.youtube.com/watch?v=uIR0WEbB-z8",
+      "fetchedAt": "2026-11-23T06:31:43.347Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-23T06:31:43.347Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-x5CR_pCtLdI",
+      "source": {
+        "platform": "youtube",
+        "videoId": "x5CR_pCtLdI",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "How she do it like that? #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL #Shorts",
+      "description": "How she do it like that?\n\n🖥️Listen NA-sty🖥️\nNAYEON.lnk.to/NAsty \n\n#TWICE #트와이스 #NAYEON #나연 \n#NA_sty #BABY_ANGEL",
+      "thumbnail": "https://i.ytimg.com/vi/x5CR_pCtLdI/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/x5CR_pCtLdI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/x5CR_pCtLdI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/x5CR_pCtLdI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/x5CR_pCtLdI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/x5CR_pCtLdI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-23T05:00:20.000Z",
+      "url": "https://www.youtube.com/watch?v=x5CR_pCtLdI",
+      "fetchedAt": "2026-11-23T06:31:43.347Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-23T06:31:43.347Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-09mbqA7I94Q",
       "source": {
@@ -1982,9 +2102,9 @@
       ],
       "publishedAt": "2026-10-23T13:00:04.000Z",
       "url": "https://www.youtube.com/watch?v=z7afHJ5I0Ws",
-      "fetchedAt": "2026-11-08T00:48:42.261Z",
+      "fetchedAt": "2026-11-23T06:31:43.347Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-08T00:48:42.261Z",
+      "lastValidatedAt": "2026-11-23T06:31:43.347Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2042,9 +2162,9 @@
       ],
       "publishedAt": "2026-10-23T13:00:02.000Z",
       "url": "https://www.youtube.com/watch?v=hwr7DS_mHwY",
-      "fetchedAt": "2026-11-08T00:48:42.261Z",
+      "fetchedAt": "2026-11-23T06:31:43.347Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-08T00:48:42.261Z",
+      "lastValidatedAt": "2026-11-23T06:31:43.347Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2898,126 +3018,6 @@
       "fetchedAt": "2026-11-14T17:46:40.398Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-14T17:46:40.398Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-u7IK-YomePs",
-      "source": {
-        "platform": "youtube",
-        "videoId": "u7IK-YomePs",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "Introducing..🍭 MYODETTE🐧DUPNYANGEE😸 SONCHAETTY🐯TZUKUMI🦌 #TWICE #트와이스 #TDOONGZ #트둥즈",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/u7IK-YomePs/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/u7IK-YomePs/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/u7IK-YomePs/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/u7IK-YomePs/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/u7IK-YomePs/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/u7IK-YomePs/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-15T05:00:08.000Z",
-      "url": "https://www.youtube.com/watch?v=u7IK-YomePs",
-      "fetchedAt": "2026-11-14T17:46:40.398Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T17:46:40.398Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-U7cZw1XoNtw",
-      "source": {
-        "platform": "youtube",
-        "videoId": "U7cZw1XoNtw",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "TWICE Special Vinyl ＜THIS IS FOR＞  WORLD TOUR FINALE in SEOUL - LIVE : D-2",
-      "description": "TWICE Special Vinyl ＜THIS IS FOR＞  WORLD TOUR FINALE in SEOUL - LIVE : D-2\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.twitt",
-      "thumbnail": "https://i.ytimg.com/vi/U7cZw1XoNtw/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/U7cZw1XoNtw/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/U7cZw1XoNtw/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/U7cZw1XoNtw/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/U7cZw1XoNtw/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/U7cZw1XoNtw/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-14T09:00:28.000Z",
-      "url": "https://www.youtube.com/watch?v=U7cZw1XoNtw",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
       "type": "other",
       "category": "other",
       "classification": {

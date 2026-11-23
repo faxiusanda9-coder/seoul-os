@@ -4,7 +4,7 @@
   "uploadsPlaylistId": "UUp-pqXsizklX3ZHvLxXyhxw",
   "artistId": "day6",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-21T18:51:34.464Z",
+  "fetchedAt": "2026-11-23T06:31:43.347Z",
   "items": [
     {
       "id": "yt-rDKi36BKJoo",
@@ -238,9 +238,9 @@
       ],
       "publishedAt": "2026-11-07T14:08:59.000Z",
       "url": "https://www.youtube.com/watch?v=Ckjr4pc4nZw",
-      "fetchedAt": "2026-11-08T00:48:42.261Z",
+      "fetchedAt": "2026-11-23T06:31:43.347Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-08T00:48:42.261Z",
+      "lastValidatedAt": "2026-11-23T06:31:43.347Z",
       "type": "other",
       "category": "other",
       "classification": {
