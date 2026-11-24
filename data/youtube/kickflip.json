@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUmq9jjpHA69PwAwlA0DwOsg",
   "artistId": "kickflip",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-24T09:00:20.717Z",
+  "fetchedAt": "2026-11-24T22:04:29.375Z",
   "items": [
+    {
+      "id": "yt-P2oAcj7rU-E",
+      "source": {
+        "platform": "youtube",
+        "videoId": "P2oAcj7rU-E",
+        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "kickflip",
+        "name": "KickFlip"
+      },
+      "title": "In this town, everybody 💢💢💢💢💢",
+      "description": "#KickFlip #킥플립\n#Donghwa #Donghyeon",
+      "thumbnail": "https://i.ytimg.com/vi/P2oAcj7rU-E/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/P2oAcj7rU-E/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/P2oAcj7rU-E/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/P2oAcj7rU-E/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/P2oAcj7rU-E/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/P2oAcj7rU-E/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-24T10:00:10.000Z",
+      "url": "https://www.youtube.com/watch?v=P2oAcj7rU-E",
+      "fetchedAt": "2026-11-24T22:04:29.375Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-24T22:04:29.375Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-vOJp9T9FQCc",
       "source": {
@@ -2251,9 +2311,9 @@
       ],
       "publishedAt": "2026-11-09T11:00:35.000Z",
       "url": "https://www.youtube.com/watch?v=5tHxQlF-9TY",
-      "fetchedAt": "2026-11-09T12:58:30.685Z",
+      "fetchedAt": "2026-11-24T22:04:29.375Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-09T12:58:30.685Z",
+      "lastValidatedAt": "2026-11-24T22:04:29.375Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2311,9 +2371,9 @@
       ],
       "publishedAt": "2026-11-09T10:00:10.000Z",
       "url": "https://www.youtube.com/watch?v=lAckBamrbhc",
-      "fetchedAt": "2026-11-09T12:58:30.685Z",
+      "fetchedAt": "2026-11-24T22:04:29.375Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-09T12:58:30.685Z",
+      "lastValidatedAt": "2026-11-24T22:04:29.375Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2988,66 +3048,6 @@
         "method": "rule",
         "confidence": 0.95,
         "ruleId": "making"
-      }
-    },
-    {
-      "id": "yt-mGVJplWoOhM",
-      "source": {
-        "platform": "youtube",
-        "videoId": "mGVJplWoOhM",
-        "channelId": "UCmq9jjpHA69PwAwlA0DwOsg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "kickflip",
-        "name": "KickFlip"
-      },
-      "title": "뭘 해도 #ivy 님은 아름다울 거니까 🤍",
-      "description": "#KickFlip\n#KICKOFFTHEWALL_Pt1\n#미완성 #Puzzle_Piece\n\n@ivyivyivy0710",
-      "thumbnail": "https://i.ytimg.com/vi/mGVJplWoOhM/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/mGVJplWoOhM/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/mGVJplWoOhM/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/mGVJplWoOhM/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/mGVJplWoOhM/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/mGVJplWoOhM/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-11-01T10:00:25.000Z",
-      "url": "https://www.youtube.com/watch?v=mGVJplWoOhM",
-      "fetchedAt": "2026-11-16T21:46:03.973Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-16T21:46:03.973Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
       }
     }
   ]

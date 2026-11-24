@@ -4,7 +4,7 @@
   "uploadsPlaylistId": "UUO9GhtdQcCRf67GIdSQ0HNQ",
   "artistId": "xdinary-heroes",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-24T09:00:20.717Z",
+  "fetchedAt": "2026-11-24T22:04:29.375Z",
   "items": [
     {
       "id": "yt-orIokDPJ9es",
@@ -538,9 +538,9 @@
       ],
       "publishedAt": "2026-11-09T09:00:31.000Z",
       "url": "https://www.youtube.com/watch?v=CX5ZF8RzW3U",
-      "fetchedAt": "2026-11-09T12:58:30.685Z",
+      "fetchedAt": "2026-11-24T22:04:29.375Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-09T12:58:30.685Z",
+      "lastValidatedAt": "2026-11-24T22:04:29.375Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2285,9 +2285,9 @@
       ],
       "publishedAt": "2026-10-25T08:00:26.000Z",
       "url": "https://www.youtube.com/watch?v=A4ee-6iXOq0",
-      "fetchedAt": "2026-11-09T12:58:30.685Z",
+      "fetchedAt": "2026-11-24T22:04:29.375Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-09T12:58:30.685Z",
+      "lastValidatedAt": "2026-11-24T22:04:29.375Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2345,9 +2345,9 @@
       ],
       "publishedAt": "2026-10-25T07:00:31.000Z",
       "url": "https://www.youtube.com/watch?v=t1zbub3oZhw",
-      "fetchedAt": "2026-11-09T12:58:30.685Z",
+      "fetchedAt": "2026-11-24T22:04:29.375Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-09T12:58:30.685Z",
+      "lastValidatedAt": "2026-11-24T22:04:29.375Z",
       "type": "other",
       "category": "other",
       "classification": {

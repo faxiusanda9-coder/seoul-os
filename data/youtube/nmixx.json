@@ -4,7 +4,7 @@
   "uploadsPlaylistId": "UUnUAyD4t2LkvW68YrDh7fDg",
   "artistId": "nmixx",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-23T23:35:15.951Z",
+  "fetchedAt": "2026-11-24T22:04:29.375Z",
   "items": [
     {
       "id": "yt-ReSZ6J2oIeU",
@@ -862,9 +862,9 @@
       ],
       "publishedAt": "2026-11-09T11:00:20.000Z",
       "url": "https://www.youtube.com/watch?v=wk_KNLjprSg",
-      "fetchedAt": "2026-11-09T12:58:30.685Z",
+      "fetchedAt": "2026-11-24T22:04:29.375Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-09T12:58:30.685Z",
+      "lastValidatedAt": "2026-11-24T22:04:29.375Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -928,9 +928,9 @@
       ],
       "publishedAt": "2026-11-09T09:00:10.000Z",
       "url": "https://www.youtube.com/watch?v=yiXhwYIcdOI",
-      "fetchedAt": "2026-11-09T12:58:30.685Z",
+      "fetchedAt": "2026-11-24T22:04:29.375Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-09T12:58:30.685Z",
+      "lastValidatedAt": "2026-11-24T22:04:29.375Z",
       "type": "other",
       "category": "other",
       "classification": {

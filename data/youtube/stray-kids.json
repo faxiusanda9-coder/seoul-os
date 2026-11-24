@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UU9rMiEjNaCSsebs31MRDCRA",
   "artistId": "stray-kids",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-24T09:00:20.717Z",
+  "fetchedAt": "2026-11-24T22:04:29.375Z",
   "items": [
+    {
+      "id": "yt-eEmR__QN86k",
+      "source": {
+        "platform": "youtube",
+        "videoId": "eEmR__QN86k",
+        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "stray-kids",
+        "name": "Stray Kids"
+      },
+      "title": "°:•.🐠*.•🪸.•:°🥽 #StrayKids #스트레이키즈 #필릭스 #Felix #YouMakeStrayKidsStay",
+      "description": "°:•.🐠*.•🪸.•:°🥽 #StrayKids #스트레이키즈 #필릭스 #Felix #YouMakeStrayKidsStay \n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" now➡️\nhttps://S",
+      "thumbnail": "https://i.ytimg.com/vi/eEmR__QN86k/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/eEmR__QN86k/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/eEmR__QN86k/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/eEmR__QN86k/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/eEmR__QN86k/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/eEmR__QN86k/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-24T11:00:55.000Z",
+      "url": "https://www.youtube.com/watch?v=eEmR__QN86k",
+      "fetchedAt": "2026-11-24T22:04:29.375Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-24T22:04:29.375Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-x68u7U9y1tg",
       "source": {
@@ -1742,9 +1802,9 @@
       ],
       "publishedAt": "2026-10-25T10:21:14.000Z",
       "url": "https://www.youtube.com/watch?v=ayY8LdHyZJ4",
-      "fetchedAt": "2026-11-09T12:58:30.685Z",
+      "fetchedAt": "2026-11-24T22:04:29.375Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-09T12:58:30.685Z",
+      "lastValidatedAt": "2026-11-24T22:04:29.375Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1802,9 +1862,9 @@
       ],
       "publishedAt": "2026-10-25T06:25:19.000Z",
       "url": "https://www.youtube.com/watch?v=jz7noDYUPbk",
-      "fetchedAt": "2026-11-09T12:58:30.685Z",
+      "fetchedAt": "2026-11-24T22:04:29.375Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-09T12:58:30.685Z",
+      "lastValidatedAt": "2026-11-24T22:04:29.375Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2967,66 +3027,6 @@
         "method": "rule",
         "confidence": 0.9,
         "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt-cZKD5hh2wKE",
-      "source": {
-        "platform": "youtube",
-        "videoId": "cZKD5hh2wKE",
-        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "stray-kids",
-        "name": "Stray Kids"
-      },
-      "title": "#STRAYCITY in #MexicoCity Recap✨ 함께 만들어 낸 열기 가득한 현장❤️‍🔥 #StrayKids #스트레이키즈 #YouMakeStrayKidsStay",
-      "description": "#STRAYCITY in #MexicoCity Recap✨ 함께 만들어 낸 열기 가득한 현장❤️‍🔥 #StrayKids #스트레이키즈 #YouMakeStrayKidsStay  \n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (Th",
-      "thumbnail": "https://i.ytimg.com/vi/cZKD5hh2wKE/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/cZKD5hh2wKE/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/cZKD5hh2wKE/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/cZKD5hh2wKE/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/cZKD5hh2wKE/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/cZKD5hh2wKE/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-28T13:00:03.000Z",
-      "url": "https://www.youtube.com/watch?v=cZKD5hh2wKE",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
       }
     }
   ]

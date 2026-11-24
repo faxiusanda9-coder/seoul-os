@@ -4,8 +4,188 @@
   "uploadsPlaylistId": "UUHp2q2i85qt_9nn2H7AvGOw",
   "artistId": "niziu",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-24T09:00:20.717Z",
+  "fetchedAt": "2026-11-24T22:04:29.375Z",
   "items": [
+    {
+      "id": "yt-uCXDxjH8kFw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "uCXDxjH8kFw",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "はむたちもおどれるﾊﾑﾖ #MAYA #MAYUKA #NiziU#はむにぎり #NiziU_JollyJolly",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/uCXDxjH8kFw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/uCXDxjH8kFw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/uCXDxjH8kFw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/uCXDxjH8kFw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/uCXDxjH8kFw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/uCXDxjH8kFw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-24T12:00:31.000Z",
+      "url": "https://www.youtube.com/watch?v=uCXDxjH8kFw",
+      "fetchedAt": "2026-11-24T22:04:29.375Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-24T22:04:29.375Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-ZON36nJm8Cc",
+      "source": {
+        "platform": "youtube",
+        "videoId": "ZON36nJm8Cc",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "Jolly Jolly time ˖ ☃︎ ❅*॰°🎀#MAYA #AYAKA #NiziU #WithU#NiziU_JollyJolly",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/ZON36nJm8Cc/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/ZON36nJm8Cc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/ZON36nJm8Cc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/ZON36nJm8Cc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/ZON36nJm8Cc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/ZON36nJm8Cc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-24T10:00:18.000Z",
+      "url": "https://www.youtube.com/watch?v=ZON36nJm8Cc",
+      "fetchedAt": "2026-11-24T22:04:29.375Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-24T22:04:29.375Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-zysdw_v5tkM",
+      "source": {
+        "platform": "youtube",
+        "videoId": "zysdw_v5tkM",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "Jolly Jolly time ˖ ☃︎ ❅*॰°🎀#RIMA #MIIHI #NiziU #WithU#NiziU_JollyJolly",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/zysdw_v5tkM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/zysdw_v5tkM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/zysdw_v5tkM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/zysdw_v5tkM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/zysdw_v5tkM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/zysdw_v5tkM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-24T10:00:02.000Z",
+      "url": "https://www.youtube.com/watch?v=zysdw_v5tkM",
+      "fetchedAt": "2026-11-24T22:04:29.375Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-24T22:04:29.375Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-wfNvV5QNTPQ",
       "source": {
@@ -2355,9 +2535,9 @@
       ],
       "publishedAt": "2026-11-09T10:04:58.000Z",
       "url": "https://www.youtube.com/watch?v=esK-gk3fc_s",
-      "fetchedAt": "2026-11-09T12:58:30.685Z",
+      "fetchedAt": "2026-11-24T22:04:29.375Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-09T12:58:30.685Z",
+      "lastValidatedAt": "2026-11-24T22:04:29.375Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2852,200 +3032,6 @@
       "fetchedAt": "2026-11-14T17:46:40.398Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-14T17:46:40.398Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-q8UdAzQsdK8",
-      "source": {
-        "platform": "youtube",
-        "videoId": "q8UdAzQsdK8",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "NiziU(니쥬) \"Sour Grapes\" Music Show Behind #1",
-      "description": "NiziU(니쥬) \"Sour Grapes\" Music Show Behind #1 \n\nNiziU(니쥬) Korea 1st Mini Album \"Sour Grapes\"\n2026.09.28 MON 6PM (KST) Release\n\n🎧 https://niziu.lnk.to/SourGrapes\n\nNiziU Official Homepage: https://niziu.com/\nNiziU Official YouTube:    / @niziuofficial  \nNiziU Official Facebook:   /",
-      "thumbnail": "https://i.ytimg.com/vi/q8UdAzQsdK8/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/q8UdAzQsdK8/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/q8UdAzQsdK8/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/q8UdAzQsdK8/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/q8UdAzQsdK8/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/q8UdAzQsdK8/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-29T11:00:52.000Z",
-      "url": "https://www.youtube.com/watch?v=q8UdAzQsdK8",
-      "fetchedAt": "2026-11-13T19:22:41.860Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-13T19:22:41.860Z",
-      "type": "other",
-      "category": "behind",
-      "subcategory": "making",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.95,
-        "ruleId": "making"
-      }
-    },
-    {
-      "id": "yt-EBEe7Vfb7o8",
-      "source": {
-        "platform": "youtube",
-        "videoId": "EBEe7Vfb7o8",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "NiziU(니쥬) \"Sour Grapes\" Highlight Medley Behind",
-      "description": "NiziU(니쥬) \"Sour Grapes\" Highlight Medley Behind\n\nNiziU(니쥬) Korea 1st Mini Album \"Sour Grapes\"\n2026.09.28 MON 6PM (KST) Release\n\n🎧 https://niziu.lnk.to/SourGrapes\n\nNiziU Official Homepage: https://niziu.com/\nNiziU Official YouTube:    / @niziuofficial  \nNiziU Official Facebook:  ",
-      "thumbnail": "https://i.ytimg.com/vi/EBEe7Vfb7o8/uhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/EBEe7Vfb7o8/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/EBEe7Vfb7o8/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/EBEe7Vfb7o8/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/EBEe7Vfb7o8/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/EBEe7Vfb7o8/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "uhd",
-          "url": "https://i.ytimg.com/vi/EBEe7Vfb7o8/uhddefault.jpg",
-          "width": 3840,
-          "height": 2160
-        }
-      ],
-      "publishedAt": "2026-10-27T11:00:50.000Z",
-      "url": "https://www.youtube.com/watch?v=EBEe7Vfb7o8",
-      "fetchedAt": "2026-11-11T19:23:29.321Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
-      "type": "teaser",
-      "category": "behind",
-      "subcategory": "making",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.95,
-        "ruleId": "making"
-      }
-    },
-    {
-      "id": "yt-PGQYFhzmr0s",
-      "source": {
-        "platform": "youtube",
-        "videoId": "PGQYFhzmr0s",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "[#NiziU_BDay]What's in RIKU's bag ?",
-      "description": "[#NiziU_BDay]What's in RIKU's bag ? \n\nNiziU Official Homepage: https://niziu.com/\nNiziU Official YouTube: https://www.youtube.com/@NiziUOfficial\nNiziU Official Facebook: https://www.facebook.com/NiziUinfoofficial/\nNiziU Official X(Twitter): https://twitter.com/NiziU__official\nNiz",
-      "thumbnail": "https://i.ytimg.com/vi/PGQYFhzmr0s/fhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/PGQYFhzmr0s/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/PGQYFhzmr0s/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/PGQYFhzmr0s/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/PGQYFhzmr0s/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/PGQYFhzmr0s/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "fhd",
-          "url": "https://i.ytimg.com/vi/PGQYFhzmr0s/fhddefault.jpg",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "publishedAt": "2026-10-26T12:00:25.000Z",
-      "url": "https://www.youtube.com/watch?v=PGQYFhzmr0s",
-      "fetchedAt": "2026-11-11T05:19:23.022Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-11T05:19:23.022Z",
       "type": "other",
       "category": "other",
       "classification": {

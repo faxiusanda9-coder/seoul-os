@@ -4,8 +4,128 @@
   "uploadsPlaylistId": "UU-o9yrZxu5Ru-DVGhnmeTug",
   "artistId": "nexz",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-23T23:35:15.951Z",
+  "fetchedAt": "2026-11-24T22:04:29.375Z",
   "items": [
+    {
+      "id": "yt-U7W7EEfXRUc",
+      "source": {
+        "platform": "youtube",
+        "videoId": "U7W7EEfXRUc",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "(약속이야)و✧🤙 | #NEXZ",
+      "description": "#NEXZ\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
+      "thumbnail": "https://i.ytimg.com/vi/U7W7EEfXRUc/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/U7W7EEfXRUc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/U7W7EEfXRUc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/U7W7EEfXRUc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/U7W7EEfXRUc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/U7W7EEfXRUc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-24T13:00:26.000Z",
+      "url": "https://www.youtube.com/watch?v=U7W7EEfXRUc",
+      "fetchedAt": "2026-11-24T22:04:29.375Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-24T22:04:29.375Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-YDr26d-mlJA",
+      "source": {
+        "platform": "youtube",
+        "videoId": "YDr26d-mlJA",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "🅰🅱🅲 ♪ | #TOMOYA #YU #SEITA",
+      "description": "#NEXZ #TOMOYA #YU #SEITA\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
+      "thumbnail": "https://i.ytimg.com/vi/YDr26d-mlJA/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/YDr26d-mlJA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/YDr26d-mlJA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/YDr26d-mlJA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/YDr26d-mlJA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/YDr26d-mlJA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-24T10:00:22.000Z",
+      "url": "https://www.youtube.com/watch?v=YDr26d-mlJA",
+      "fetchedAt": "2026-11-24T22:04:29.375Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-24T22:04:29.375Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-JKOaJY0e0M0",
       "source": {
@@ -2347,9 +2467,9 @@
       ],
       "publishedAt": "2026-11-09T11:00:01.000Z",
       "url": "https://www.youtube.com/watch?v=Sm0ojasJkZg",
-      "fetchedAt": "2026-11-09T12:58:30.685Z",
+      "fetchedAt": "2026-11-24T22:04:29.375Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-09T12:58:30.685Z",
+      "lastValidatedAt": "2026-11-24T22:04:29.375Z",
       "type": "other",
       "category": "behind",
       "subcategory": "making",
@@ -2408,9 +2528,9 @@
       ],
       "publishedAt": "2026-11-09T10:00:02.000Z",
       "url": "https://www.youtube.com/watch?v=wH3JToQClMc",
-      "fetchedAt": "2026-11-09T12:58:30.685Z",
+      "fetchedAt": "2026-11-24T22:04:29.375Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-09T12:58:30.685Z",
+      "lastValidatedAt": "2026-11-24T22:04:29.375Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2468,9 +2588,9 @@
       ],
       "publishedAt": "2026-11-09T09:00:16.000Z",
       "url": "https://www.youtube.com/watch?v=1UZtCvg-sIA",
-      "fetchedAt": "2026-11-09T12:58:30.685Z",
+      "fetchedAt": "2026-11-24T22:04:29.375Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-09T12:58:30.685Z",
+      "lastValidatedAt": "2026-11-24T22:04:29.375Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2528,9 +2648,9 @@
       ],
       "publishedAt": "2026-11-08T14:14:59.000Z",
       "url": "https://www.youtube.com/watch?v=ykkIXBdQbW0",
-      "fetchedAt": "2026-11-09T12:58:30.685Z",
+      "fetchedAt": "2026-11-24T22:04:29.375Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-09T12:58:30.685Z",
+      "lastValidatedAt": "2026-11-24T22:04:29.375Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2887,127 +3007,6 @@
         "method": "rule",
         "confidence": 0.9,
         "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt-Pcs2mngixj4",
-      "source": {
-        "platform": "youtube",
-        "videoId": "Pcs2mngixj4",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "[NEX.Zip] #60 STRAYCITY BOGOTÁ 비하인드",
-      "description": "[NEX.Zip] #60 STRAYCITY BOGOTÁ 비하인드\n\nNEXZ Official Website: https://nexz.jype.com\nNEXZ Official YouTube: https://www.youtube.com/@NEXZ_official\nNEXZ Official Facebook: https://www.facebook.com/realnexz\nNEXZ Official X: https://twitter.com/NEXZ_official\nNEXZ Official Instagram: ht",
-      "thumbnail": "https://i.ytimg.com/vi/Pcs2mngixj4/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/Pcs2mngixj4/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/Pcs2mngixj4/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/Pcs2mngixj4/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/Pcs2mngixj4/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/Pcs2mngixj4/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-11-05T11:00:03.000Z",
-      "url": "https://www.youtube.com/watch?v=Pcs2mngixj4",
-      "fetchedAt": "2026-11-20T19:46:08.251Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-20T19:46:08.251Z",
-      "type": "other",
-      "category": "behind",
-      "subcategory": "making",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.95,
-        "ruleId": "making"
-      }
-    },
-    {
-      "id": "yt-_X9b3kVjQQo",
-      "source": {
-        "platform": "youtube",
-        "videoId": "_X9b3kVjQQo",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "is that what YU GEON tell | #YU #SOGEON",
-      "description": "#NEXZ #YU #SOGEON\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
-      "thumbnail": "https://i.ytimg.com/vi/_X9b3kVjQQo/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/_X9b3kVjQQo/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/_X9b3kVjQQo/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/_X9b3kVjQQo/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/_X9b3kVjQQo/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/_X9b3kVjQQo/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-11-05T10:00:20.000Z",
-      "url": "https://www.youtube.com/watch?v=_X9b3kVjQQo",
-      "fetchedAt": "2026-11-20T19:46:08.251Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-20T19:46:08.251Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
       }
     }
   ]
