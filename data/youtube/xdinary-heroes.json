@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUO9GhtdQcCRf67GIdSQ0HNQ",
   "artistId": "xdinary-heroes",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-23T23:35:15.951Z",
+  "fetchedAt": "2026-11-24T09:00:20.717Z",
   "items": [
+    {
+      "id": "yt-orIokDPJ9es",
+      "source": {
+        "platform": "youtube",
+        "videoId": "orIokDPJ9es",
+        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "xdinary-heroes",
+        "name": "Xdinary Heroes"
+      },
+      "title": "🌀✌️",
+      "description": "🌀✌️\n\n#XdinaryHeroes #엑스디너리히어로즈\n#WE_ARE_ALL_HEROES",
+      "thumbnail": "https://i.ytimg.com/vi/orIokDPJ9es/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/orIokDPJ9es/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/orIokDPJ9es/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/orIokDPJ9es/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/orIokDPJ9es/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/orIokDPJ9es/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-24T08:00:04.000Z",
+      "url": "https://www.youtube.com/watch?v=orIokDPJ9es",
+      "fetchedAt": "2026-11-24T09:00:20.717Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-24T09:00:20.717Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-GS6ygolTHiU",
       "source": {
@@ -2345,9 +2405,9 @@
       ],
       "publishedAt": "2026-10-25T04:00:19.000Z",
       "url": "https://www.youtube.com/watch?v=RTU-QoZuqOQ",
-      "fetchedAt": "2026-11-09T04:57:14.282Z",
+      "fetchedAt": "2026-11-24T09:00:20.717Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-09T04:57:14.282Z",
+      "lastValidatedAt": "2026-11-24T09:00:20.717Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2405,9 +2465,9 @@
       ],
       "publishedAt": "2026-10-25T03:00:26.000Z",
       "url": "https://www.youtube.com/watch?v=6TrBm4Hue58",
-      "fetchedAt": "2026-11-09T04:57:14.282Z",
+      "fetchedAt": "2026-11-24T09:00:20.717Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-09T04:57:14.282Z",
+      "lastValidatedAt": "2026-11-24T09:00:20.717Z",
       "type": "other",
       "category": "behind",
       "subcategory": "making",
@@ -2956,67 +3016,6 @@
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-CsxOIaTIEGw",
-      "source": {
-        "platform": "youtube",
-        "videoId": "CsxOIaTIEGw",
-        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "xdinary-heroes",
-        "name": "Xdinary Heroes"
-      },
-      "title": "[Xdinary Heroes : Xtra Files] Ep.97 Jungsu SSG Landers First Pitch Behind",
-      "description": "[Xdinary Heroes : Xtra Files] Ep.97 Jungsu SSG Landers First Pitch Behind\n\nListen to Xdinary Heroes \"Obsessed with Youth\"\nhttp://Xdinaryheroes.lnk.to/IMPULSE\n\nXdinary Heroes Official YouTube: https://www.youtube.com/c/xdinaryheroesofficial\nXdinary Heroes Official Facebook: https:",
-      "thumbnail": "https://i.ytimg.com/vi/CsxOIaTIEGw/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/CsxOIaTIEGw/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/CsxOIaTIEGw/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/CsxOIaTIEGw/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/CsxOIaTIEGw/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/CsxOIaTIEGw/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-22T09:00:05.000Z",
-      "url": "https://www.youtube.com/watch?v=CsxOIaTIEGw",
-      "fetchedAt": "2026-11-21T18:51:34.464Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-21T18:51:34.464Z",
-      "type": "other",
-      "category": "behind",
-      "subcategory": "making",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.95,
-        "ruleId": "making"
       }
     }
   ]

@@ -4,8 +4,69 @@
   "uploadsPlaylistId": "UUp-pqXsizklX3ZHvLxXyhxw",
   "artistId": "day6",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-23T23:35:15.951Z",
+  "fetchedAt": "2026-11-24T09:00:20.717Z",
   "items": [
+    {
+      "id": "yt-mFHeXIbxhIM",
+      "source": {
+        "platform": "youtube",
+        "videoId": "mFHeXIbxhIM",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[데식이들] 원필 x PARK JINYOUNG [CODE#] IN SEOUL 비하인드",
+      "description": "[데식이들] 원필 x PARK JINYOUNG [CODE#] IN SEOUL 비하인드\n\nListen to 원필(WONPIL) \"Unpiltered\"\nhttps://wonpil.lnk.to/Unpiltered\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter",
+      "thumbnail": "https://i.ytimg.com/vi/mFHeXIbxhIM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/mFHeXIbxhIM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/mFHeXIbxhIM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/mFHeXIbxhIM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/mFHeXIbxhIM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/mFHeXIbxhIM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-24T09:00:13.000Z",
+      "url": "https://www.youtube.com/watch?v=mFHeXIbxhIM",
+      "fetchedAt": "2026-11-24T09:00:20.717Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-24T09:00:20.717Z",
+      "type": "other",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
+    },
     {
       "id": "yt-X7JS2j56D3A",
       "source": {
@@ -2967,66 +3028,6 @@
         "method": "rule",
         "confidence": 0.86,
         "ruleId": "fan-message"
-      }
-    },
-    {
-      "id": "yt-JtEfz_qSRGk",
-      "source": {
-        "platform": "youtube",
-        "videoId": "JtEfz_qSRGk",
-        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "day6",
-        "name": "DAY6"
-      },
-      "title": "Young K Solo Tour 〈YOUNGEST〉 | Spot Video",
-      "description": "Young K Solo Tour 〈YOUNGEST〉 | Spot Video\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.com/DAY6Offi",
-      "thumbnail": "https://i.ytimg.com/vi/JtEfz_qSRGk/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/JtEfz_qSRGk/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/JtEfz_qSRGk/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/JtEfz_qSRGk/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/JtEfz_qSRGk/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/JtEfz_qSRGk/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-22T13:00:06.000Z",
-      "url": "https://www.youtube.com/watch?v=JtEfz_qSRGk",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
       }
     }
   ]

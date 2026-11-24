@@ -4,8 +4,248 @@
   "uploadsPlaylistId": "UUzgxx_DM2Dcb9Y1spb9mUJA",
   "artistId": "twice",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-23T23:35:15.951Z",
+  "fetchedAt": "2026-11-24T09:00:20.717Z",
   "items": [
+    {
+      "id": "yt-z784zh5ZZfM",
+      "source": {
+        "platform": "youtube",
+        "videoId": "z784zh5ZZfM",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "BABY ANGEL💜👸 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+      "description": "BABY ANGEL💜👸\n\n🖥️Listen NA-sty🖥️\nNAYEON.lnk.to/NAsty \n\n#TWICE #트와이스 #NAYEON #나연 \n#NA_sty #BABY_ANGEL",
+      "thumbnail": "https://i.ytimg.com/vi/z784zh5ZZfM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/z784zh5ZZfM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/z784zh5ZZfM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/z784zh5ZZfM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/z784zh5ZZfM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/z784zh5ZZfM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-24T08:00:13.000Z",
+      "url": "https://www.youtube.com/watch?v=z784zh5ZZfM",
+      "fetchedAt": "2026-11-24T09:00:20.717Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-24T09:00:20.717Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-BiWpVljSsL0",
+      "source": {
+        "platform": "youtube",
+        "videoId": "BiWpVljSsL0",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "Look like an Angel? #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+      "description": "Look like an Angel?\n\n🖥️Listen NA-sty🖥️\nNAYEON.lnk.to/NAsty \n\n#TWICE #트와이스 #NAYEON #나연 \n#NA_sty #BABY_ANGEL",
+      "thumbnail": "https://i.ytimg.com/vi/BiWpVljSsL0/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/BiWpVljSsL0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/BiWpVljSsL0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/BiWpVljSsL0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/BiWpVljSsL0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/BiWpVljSsL0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-24T07:00:06.000Z",
+      "url": "https://www.youtube.com/watch?v=BiWpVljSsL0",
+      "fetchedAt": "2026-11-24T09:00:20.717Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-24T09:00:20.717Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-aQPb-CTuqA0",
+      "source": {
+        "platform": "youtube",
+        "videoId": "aQPb-CTuqA0",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "FIT  CHECK! 🪄 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+      "description": "FIT  CHECK! 🪄\n\n🖥️Listen NA-sty🖥️\nNAYEON.lnk.to/NAsty \n\n#TWICE #트와이스 #NAYEON #나연 \n#NA_sty #BABY_ANGEL",
+      "thumbnail": "https://i.ytimg.com/vi/aQPb-CTuqA0/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/aQPb-CTuqA0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/aQPb-CTuqA0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/aQPb-CTuqA0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/aQPb-CTuqA0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/aQPb-CTuqA0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-24T06:02:29.000Z",
+      "url": "https://www.youtube.com/watch?v=aQPb-CTuqA0",
+      "fetchedAt": "2026-11-24T09:00:20.717Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-24T09:00:20.717Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-hONQL8WyqGs",
+      "source": {
+        "platform": "youtube",
+        "videoId": "hONQL8WyqGs",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "Guide for the ANGEL HANDS 🫲🫱 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+      "description": "Guide for the ANGEL HANDS 🫲🫱\n\n🖥️Listen NA-sty🖥️\nNAYEON.lnk.to/NAsty \n\n#TWICE #트와이스 #NAYEON #나연 \n#NA_sty #BABY_ANGEL",
+      "thumbnail": "https://i.ytimg.com/vi/hONQL8WyqGs/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/hONQL8WyqGs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/hONQL8WyqGs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/hONQL8WyqGs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/hONQL8WyqGs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/hONQL8WyqGs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-24T05:00:01.000Z",
+      "url": "https://www.youtube.com/watch?v=hONQL8WyqGs",
+      "fetchedAt": "2026-11-24T09:00:20.717Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-24T09:00:20.717Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-iASC_MUgUtc",
       "source": {
@@ -2775,254 +3015,6 @@
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-VUHTHzgrAqA",
-      "source": {
-        "platform": "youtube",
-        "videoId": "VUHTHzgrAqA",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "Bo Peep Bo Peep 🐾🩷 #ONCE #원스 #TWICE #트와이스 #TWICE_11th_Anniversary",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/VUHTHzgrAqA/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/VUHTHzgrAqA/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/VUHTHzgrAqA/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/VUHTHzgrAqA/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/VUHTHzgrAqA/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/VUHTHzgrAqA/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-20T04:00:29.000Z",
-      "url": "https://www.youtube.com/watch?v=VUHTHzgrAqA",
-      "fetchedAt": "2026-11-19T06:34:50.378Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-19T06:34:50.378Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-ZJsLly1SlVM",
-      "source": {
-        "platform": "youtube",
-        "videoId": "ZJsLly1SlVM",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "When TWICE is ALL TOGETHER! 🍭 #ONCE #원스 #TWICE #트와이스 #TWICE_11th_Anniversary",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/ZJsLly1SlVM/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/ZJsLly1SlVM/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/ZJsLly1SlVM/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/ZJsLly1SlVM/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/ZJsLly1SlVM/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/ZJsLly1SlVM/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-20T03:00:21.000Z",
-      "url": "https://www.youtube.com/watch?v=ZJsLly1SlVM",
-      "fetchedAt": "2026-11-19T06:34:50.378Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-19T06:34:50.378Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-FqLWN-GWtC0",
-      "source": {
-        "platform": "youtube",
-        "videoId": "FqLWN-GWtC0",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "TWICE 11TH ANNIVERSARY🍭❤️ #ONCE #원스 #TWICE #트와이스  #TWICE_11th_Anniversary",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/FqLWN-GWtC0/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/FqLWN-GWtC0/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/FqLWN-GWtC0/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/FqLWN-GWtC0/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/FqLWN-GWtC0/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/FqLWN-GWtC0/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-19T15:00:13.000Z",
-      "url": "https://www.youtube.com/watch?v=FqLWN-GWtC0",
-      "fetchedAt": "2026-11-19T06:34:50.378Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-19T06:34:50.378Z",
-      "type": "other",
-      "category": "fan",
-      "subcategory": "fan-content",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.86,
-        "ruleId": "fan-message"
-      }
-    },
-    {
-      "id": "yt-jcmVRR_BnZU",
-      "source": {
-        "platform": "youtube",
-        "videoId": "jcmVRR_BnZU",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "TWICE 11th ANNIVERSARY YouTube Live🎡",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/jcmVRR_BnZU/fhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/jcmVRR_BnZU/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/jcmVRR_BnZU/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/jcmVRR_BnZU/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/jcmVRR_BnZU/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/jcmVRR_BnZU/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "fhd",
-          "url": "https://i.ytimg.com/vi/jcmVRR_BnZU/fhddefault.jpg",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "publishedAt": "2026-10-17T11:33:11.000Z",
-      "url": "https://www.youtube.com/watch?v=jcmVRR_BnZU",
-      "fetchedAt": "2026-11-16T21:46:03.973Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-16T21:46:03.973Z",
-      "type": "other",
-      "category": "live",
-      "subcategory": "livestream",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.92,
-        "ruleId": "livestream"
       }
     }
   ]

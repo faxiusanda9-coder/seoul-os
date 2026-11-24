@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUHp2q2i85qt_9nn2H7AvGOw",
   "artistId": "niziu",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-23T23:35:15.951Z",
+  "fetchedAt": "2026-11-24T09:00:20.717Z",
   "items": [
+    {
+      "id": "yt-wfNvV5QNTPQ",
+      "source": {
+        "platform": "youtube",
+        "videoId": "wfNvV5QNTPQ",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "“Thank? U!” HYOGO!! ❄︎꙳#NiziU #WithU#NiziU_tour #LivewithU2026_2027 #Who_U_NiziU_Fes",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/wfNvV5QNTPQ/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/wfNvV5QNTPQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/wfNvV5QNTPQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/wfNvV5QNTPQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/wfNvV5QNTPQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/wfNvV5QNTPQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-24T03:00:16.000Z",
+      "url": "https://www.youtube.com/watch?v=wfNvV5QNTPQ",
+      "fetchedAt": "2026-11-24T09:00:20.717Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-24T09:00:20.717Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-95uESvBwlJw",
       "source": {
@@ -2992,67 +3052,6 @@
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-OEbCrRofS4o",
-      "source": {
-        "platform": "youtube",
-        "videoId": "OEbCrRofS4o",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "RIKU \"UNTITLED VOL.08”Behind the Scenes 📰 🎥#RIKU #NiziU #NiziU_BDay #HappyRIKUday",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/OEbCrRofS4o/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/OEbCrRofS4o/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/OEbCrRofS4o/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/OEbCrRofS4o/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/OEbCrRofS4o/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/OEbCrRofS4o/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-26T09:00:23.000Z",
-      "url": "https://www.youtube.com/watch?v=OEbCrRofS4o",
-      "fetchedAt": "2026-11-11T05:19:23.022Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-11T05:19:23.022Z",
-      "type": "other",
-      "category": "behind",
-      "subcategory": "making",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.95,
-        "ruleId": "making"
       }
     }
   ]
