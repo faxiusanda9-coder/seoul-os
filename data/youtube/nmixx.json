@@ -4,8 +4,75 @@
   "uploadsPlaylistId": "UUnUAyD4t2LkvW68YrDh7fDg",
   "artistId": "nmixx",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-24T22:04:29.375Z",
+  "fetchedAt": "2026-11-25T21:20:26.149Z",
   "items": [
+    {
+      "id": "yt-9H56b4Dg56Y",
+      "source": {
+        "platform": "youtube",
+        "videoId": "9H56b4Dg56Y",
+        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nmixx",
+        "name": "NMIXX"
+      },
+      "title": "설윤의 짧지만 알찬 하루⭐ | NMIXX 설윤 휴식 브이로그 | MIXX Log",
+      "description": "설윤의 짧지만 알찬 하루⭐ | NMIXX 설윤 휴식 브이로그 | MIXX Log\n\nNMIXX Official YouTube ▶ https://www.youtube.com/c/NMIXXOfficial \nNMIXX Official X ▶ https://x.com/NMIXX_official\nNMIXX Official X(Members) ▶ https://x.com/WE_NMIXX\nNMIXX Official Instagram ▶ https://www.instagram.com/nmixx_official/ ",
+      "thumbnail": "https://i.ytimg.com/vi/9H56b4Dg56Y/fhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/9H56b4Dg56Y/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/9H56b4Dg56Y/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/9H56b4Dg56Y/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/9H56b4Dg56Y/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/9H56b4Dg56Y/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "fhd",
+          "url": "https://i.ytimg.com/vi/9H56b4Dg56Y/fhddefault.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "publishedAt": "2026-11-25T09:00:36.000Z",
+      "url": "https://www.youtube.com/watch?v=9H56b4Dg56Y",
+      "fetchedAt": "2026-11-25T21:20:26.149Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-25T21:20:26.149Z",
+      "type": "other",
+      "category": "variety",
+      "subcategory": "series",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.9,
+        "ruleId": "variety-series"
+      }
+    },
     {
       "id": "yt-ReSZ6J2oIeU",
       "source": {
@@ -802,9 +869,9 @@
       ],
       "publishedAt": "2026-11-10T11:00:22.000Z",
       "url": "https://www.youtube.com/watch?v=HAdh8UcPkcQ",
-      "fetchedAt": "2026-11-10T12:18:17.427Z",
+      "fetchedAt": "2026-11-25T21:20:26.149Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-10T12:18:17.427Z",
+      "lastValidatedAt": "2026-11-25T21:20:26.149Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -3007,66 +3074,6 @@
       ],
       "publishedAt": "2026-10-26T05:00:02.000Z",
       "url": "https://www.youtube.com/watch?v=akRD8RLWjRw",
-      "fetchedAt": "2026-11-21T06:12:25.451Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-21T06:12:25.451Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-gG7wP6bGnoY",
-      "source": {
-        "platform": "youtube",
-        "videoId": "gG7wP6bGnoY",
-        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nmixx",
-        "name": "NMIXX"
-      },
-      "title": "#SUNGHANBIN 위한 긴 소원을 빌게 🪽˖♡ ⁺#NMIXX #KYUJIN #긴소원_BirthdayWish",
-      "description": "#SUNGHANBIN 위한 긴 소원을 빌게 🪽˖♡ ⁺#NMIXX #KYUJIN #긴소원_BirthdayWish \n\nNMIXX Official YouTube ▶ https://www.youtube.com/c/NMIXXOfficial\nNMIXX Official X ▶ https://x.com/NMIXX_official\nNMIXX Official X(Members) ▶ https://x.com/WE_NMIXX\nNMIXX Official Instagram ▶ https://www.instagram.co",
-      "thumbnail": "https://i.ytimg.com/vi/gG7wP6bGnoY/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/gG7wP6bGnoY/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/gG7wP6bGnoY/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/gG7wP6bGnoY/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/gG7wP6bGnoY/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/gG7wP6bGnoY/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-26T04:00:24.000Z",
-      "url": "https://www.youtube.com/watch?v=gG7wP6bGnoY",
       "fetchedAt": "2026-11-21T06:12:25.451Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-21T06:12:25.451Z",
