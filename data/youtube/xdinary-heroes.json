@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUO9GhtdQcCRf67GIdSQ0HNQ",
   "artistId": "xdinary-heroes",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-25T21:20:26.149Z",
+  "fetchedAt": "2026-11-26T07:28:35.103Z",
   "items": [
+    {
+      "id": "yt-JRLaX_2murM",
+      "source": {
+        "platform": "youtube",
+        "videoId": "JRLaX_2murM",
+        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "xdinary-heroes",
+        "name": "Xdinary Heroes"
+      },
+      "title": "𝗽𝗮𝘄 𝗽𝗮𝘄🐱🐾",
+      "description": "𝗽𝗮𝘄 𝗽𝗮𝘄🐱🐾\n\n#XdinaryHeroes #엑스디너리히어로즈\n#WE_ARE_ALL_HEROES",
+      "thumbnail": "https://i.ytimg.com/vi/JRLaX_2murM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/JRLaX_2murM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/JRLaX_2murM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/JRLaX_2murM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/JRLaX_2murM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/JRLaX_2murM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-26T07:00:37.000Z",
+      "url": "https://www.youtube.com/watch?v=JRLaX_2murM",
+      "fetchedAt": "2026-11-26T07:28:35.103Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-26T07:28:35.103Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-HI6mdd4si1U",
       "source": {
@@ -2104,9 +2164,9 @@
       ],
       "publishedAt": "2026-10-27T04:00:17.000Z",
       "url": "https://www.youtube.com/watch?v=wOmP3jNWjJ8",
-      "fetchedAt": "2026-11-11T05:19:23.022Z",
+      "fetchedAt": "2026-11-26T07:28:35.103Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-11T05:19:23.022Z",
+      "lastValidatedAt": "2026-11-26T07:28:35.103Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2164,9 +2224,9 @@
       ],
       "publishedAt": "2026-10-26T09:00:04.000Z",
       "url": "https://www.youtube.com/watch?v=Dc2q2epEhZE",
-      "fetchedAt": "2026-11-11T05:19:23.022Z",
+      "fetchedAt": "2026-11-26T07:28:35.103Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-11T05:19:23.022Z",
+      "lastValidatedAt": "2026-11-26T07:28:35.103Z",
       "type": "other",
       "category": "stage",
       "subcategory": "live-stage",
@@ -2225,9 +2285,9 @@
       ],
       "publishedAt": "2026-10-26T08:00:01.000Z",
       "url": "https://www.youtube.com/watch?v=ttohkfRmnZI",
-      "fetchedAt": "2026-11-11T05:19:23.022Z",
+      "fetchedAt": "2026-11-26T07:28:35.103Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-11T05:19:23.022Z",
+      "lastValidatedAt": "2026-11-26T07:28:35.103Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2947,66 +3007,6 @@
       ],
       "publishedAt": "2026-10-23T06:00:19.000Z",
       "url": "https://www.youtube.com/watch?v=NloQobH4_hI",
-      "fetchedAt": "2026-11-22T19:12:48.991Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-22T19:12:48.991Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-yoRHnYaD9Tk",
-      "source": {
-        "platform": "youtube",
-        "videoId": "yoRHnYaD9Tk",
-        "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "xdinary-heroes",
-        "name": "Xdinary Heroes"
-      },
-      "title": "(쾅!) 여기 밴드부 짱이 누구야❗️",
-      "description": "(쾅!) 여기 밴드부 짱이 누구야❗\n\n#XdinaryHeroes #엑스디너리히어로즈\n#Obsessed_with_Youth",
-      "thumbnail": "https://i.ytimg.com/vi/yoRHnYaD9Tk/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/yoRHnYaD9Tk/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/yoRHnYaD9Tk/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/yoRHnYaD9Tk/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/yoRHnYaD9Tk/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/yoRHnYaD9Tk/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-23T05:00:38.000Z",
-      "url": "https://www.youtube.com/watch?v=yoRHnYaD9Tk",
       "fetchedAt": "2026-11-22T19:12:48.991Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-22T19:12:48.991Z",

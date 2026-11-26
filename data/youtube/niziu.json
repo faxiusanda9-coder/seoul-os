@@ -4,8 +4,128 @@
   "uploadsPlaylistId": "UUHp2q2i85qt_9nn2H7AvGOw",
   "artistId": "niziu",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-25T21:20:26.149Z",
+  "fetchedAt": "2026-11-26T07:28:35.103Z",
   "items": [
+    {
+      "id": "yt-OHWqxtA-jZU",
+      "source": {
+        "platform": "youtube",
+        "videoId": "OHWqxtA-jZU",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "お昼休みにもJolly Jolly ᐠ( ᐢ ᵕ ᐢ )ᐟ #MIIHI #RIMA#NiziU #WithU#NiziU_JollyJolly",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/OHWqxtA-jZU/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/OHWqxtA-jZU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/OHWqxtA-jZU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/OHWqxtA-jZU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/OHWqxtA-jZU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/OHWqxtA-jZU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-26T03:00:14.000Z",
+      "url": "https://www.youtube.com/watch?v=OHWqxtA-jZU",
+      "fetchedAt": "2026-11-26T07:28:35.103Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-26T07:28:35.103Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-Y_MvZw8yJrM",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Y_MvZw8yJrM",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "お昼休みにもJolly Jolly ᐠ( ᐢ ᵕ ᐢ )ᐟ #MAKO #AYAKA#NiziU #WithU#NiziU_JollyJolly",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/Y_MvZw8yJrM/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Y_MvZw8yJrM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Y_MvZw8yJrM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Y_MvZw8yJrM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Y_MvZw8yJrM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Y_MvZw8yJrM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-26T03:00:01.000Z",
+      "url": "https://www.youtube.com/watch?v=Y_MvZw8yJrM",
+      "fetchedAt": "2026-11-26T07:28:35.103Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-26T07:28:35.103Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-mjjqbF79kJo",
       "source": {
@@ -2910,127 +3030,6 @@
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-hsiAzpuN7Dk",
-      "source": {
-        "platform": "youtube",
-        "videoId": "hsiAzpuN7Dk",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "🐰🫶#RIMA#NiziU",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/hsiAzpuN7Dk/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/hsiAzpuN7Dk/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/hsiAzpuN7Dk/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/hsiAzpuN7Dk/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/hsiAzpuN7Dk/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/hsiAzpuN7Dk/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-11-06T10:00:13.000Z",
-      "url": "https://www.youtube.com/watch?v=hsiAzpuN7Dk",
-      "fetchedAt": "2026-11-21T18:51:34.464Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-21T18:51:34.464Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-mO4cBW9niss",
-      "source": {
-        "platform": "youtube",
-        "videoId": "mO4cBW9niss",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "NiziU(니쥬) \"Lullaby\" Track Video Behind",
-      "description": "NiziU(니쥬) \"Lullaby\" Track Video Behind\n\nNiziU(니쥬) Korea 1st Mini Album \"Sour Grapes\"\n2026.09.28 MON 6PM (KST) Release\n\n🎧 https://niziu.lnk.to/SourGrapes\n\nNiziU Official Homepage: https://niziu.com/\nNiziU Official YouTube:    / @niziuofficial  \nNiziU Official Facebook:   / niziui",
-      "thumbnail": "https://i.ytimg.com/vi/mO4cBW9niss/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/mO4cBW9niss/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/mO4cBW9niss/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/mO4cBW9niss/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/mO4cBW9niss/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/mO4cBW9niss/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-11-05T11:00:05.000Z",
-      "url": "https://www.youtube.com/watch?v=mO4cBW9niss",
-      "fetchedAt": "2026-11-20T19:46:08.251Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-20T19:46:08.251Z",
-      "type": "other",
-      "category": "behind",
-      "subcategory": "making",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.95,
-        "ruleId": "making"
       }
     }
   ]
