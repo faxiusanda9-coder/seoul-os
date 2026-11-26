@@ -4,8 +4,130 @@
   "uploadsPlaylistId": "UU9rMiEjNaCSsebs31MRDCRA",
   "artistId": "stray-kids",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-26T07:28:35.103Z",
+  "fetchedAt": "2026-11-26T21:07:30.028Z",
   "items": [
+    {
+      "id": "yt-XzxkfeU_cVg",
+      "source": {
+        "platform": "youtube",
+        "videoId": "XzxkfeU_cVg",
+        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "stray-kids",
+        "name": "Stray Kids"
+      },
+      "title": "상황극 중독자 #StrayKids #방찬 #아이엔 #스키즈코드 #SKZCODE #랜덤여행 #RANDOM_Trip #YouMakeStrayKidsStay",
+      "description": "상황극 중독자 #StrayKids #방찬 #아이엔 #스키즈코드 #SKZCODE #랜덤여행 #RANDOM_Trip #YouMakeStrayKidsStay \n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" n",
+      "thumbnail": "https://i.ytimg.com/vi/XzxkfeU_cVg/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/XzxkfeU_cVg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/XzxkfeU_cVg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/XzxkfeU_cVg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/XzxkfeU_cVg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/XzxkfeU_cVg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-26T11:30:15.000Z",
+      "url": "https://www.youtube.com/watch?v=XzxkfeU_cVg",
+      "fetchedAt": "2026-11-26T21:07:30.028Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-26T21:07:30.028Z",
+      "type": "other",
+      "category": "variety",
+      "subcategory": "series",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.9,
+        "ruleId": "variety-series"
+      }
+    },
+    {
+      "id": "yt-Fuln7IeZgZc",
+      "source": {
+        "platform": "youtube",
+        "videoId": "Fuln7IeZgZc",
+        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "stray-kids",
+        "name": "Stray Kids"
+      },
+      "title": "랜덤 여행 (RANDOM Trip) #1｜[SKZ CODE] Ep.106",
+      "description": "랜덤 여행 (RANDOM Trip) #1｜[SKZ CODE(스키즈 코드)] Ep.106\n\n✨ English, Japanese, Chinese, Spanish, Indonesian & Thai subtitles are available!\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REM",
+      "thumbnail": "https://i.ytimg.com/vi/Fuln7IeZgZc/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/Fuln7IeZgZc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/Fuln7IeZgZc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/Fuln7IeZgZc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/Fuln7IeZgZc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/Fuln7IeZgZc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-26T11:00:05.000Z",
+      "url": "https://www.youtube.com/watch?v=Fuln7IeZgZc",
+      "fetchedAt": "2026-11-26T21:07:30.028Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-26T21:07:30.028Z",
+      "type": "other",
+      "category": "variety",
+      "subcategory": "series",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.9,
+        "ruleId": "variety-series"
+      }
+    },
     {
       "id": "yt-eEmR__QN86k",
       "source": {
@@ -959,9 +1081,9 @@
       ],
       "publishedAt": "2026-11-11T10:59:56.000Z",
       "url": "https://www.youtube.com/watch?v=xQsgLrkVpLE",
-      "fetchedAt": "2026-11-11T19:23:29.321Z",
+      "fetchedAt": "2026-11-26T21:07:30.028Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
+      "lastValidatedAt": "2026-11-26T21:07:30.028Z",
       "type": "other",
       "category": "variety",
       "subcategory": "series",
@@ -1020,9 +1142,9 @@
       ],
       "publishedAt": "2026-11-11T10:00:25.000Z",
       "url": "https://www.youtube.com/watch?v=3JHJYqsWAEg",
-      "fetchedAt": "2026-11-11T19:23:29.321Z",
+      "fetchedAt": "2026-11-26T21:07:30.028Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
+      "lastValidatedAt": "2026-11-26T21:07:30.028Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1622,9 +1744,9 @@
       ],
       "publishedAt": "2026-10-27T11:00:02.000Z",
       "url": "https://www.youtube.com/watch?v=CFZlNE_EQc8",
-      "fetchedAt": "2026-11-11T19:23:29.321Z",
+      "fetchedAt": "2026-11-26T21:07:30.028Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
+      "lastValidatedAt": "2026-11-26T21:07:30.028Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2895,128 +3017,6 @@
       ],
       "publishedAt": "2026-10-02T05:00:02.000Z",
       "url": "https://www.youtube.com/watch?v=xu5IZXodAOM",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt-YrgmwBU8f_U",
-      "source": {
-        "platform": "youtube",
-        "videoId": "YrgmwBU8f_U",
-        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "stray-kids",
-        "name": "Stray Kids"
-      },
-      "title": "K-발라더 이용복 (K-Balladeer Lee Yongbok) #2｜[SKZ CODE] Ep.105",
-      "description": "K-발라더 이용복 (K-Balladeer Lee Yongbok) #2｜[SKZ CODE(스키즈 코드)] Ep.105\n\n✨ English, Japanese, Chinese, Spanish, Indonesian & Thai subtitles are available!\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids",
-      "thumbnail": "https://i.ytimg.com/vi/YrgmwBU8f_U/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/YrgmwBU8f_U/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/YrgmwBU8f_U/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/YrgmwBU8f_U/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/YrgmwBU8f_U/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/YrgmwBU8f_U/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-01T10:59:58.000Z",
-      "url": "https://www.youtube.com/watch?v=YrgmwBU8f_U",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt-xLw1XyrE-xg",
-      "source": {
-        "platform": "youtube",
-        "videoId": "xLw1XyrE-xg",
-        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "stray-kids",
-        "name": "Stray Kids"
-      },
-      "title": "[Stray Kids : SKZ-TALKER GO! Season 6] Ep.01 SEOUL",
-      "description": "[Stray Kids(스트레이 키즈) : SKZ-TALKER GO! Season 6 (슼즈토커 고! 시즌 6)] Ep.01 SEOUL\n\n✨ English, Japanese, Chinese, Spanish, Indonesian & Thai subtitles are available!\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://",
-      "thumbnail": "https://i.ytimg.com/vi/xLw1XyrE-xg/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/xLw1XyrE-xg/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/xLw1XyrE-xg/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/xLw1XyrE-xg/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/xLw1XyrE-xg/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/xLw1XyrE-xg/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-30T11:01:49.000Z",
-      "url": "https://www.youtube.com/watch?v=xLw1XyrE-xg",
       "fetchedAt": "2026-11-14T05:33:34.635Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-14T05:33:34.635Z",

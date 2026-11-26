@@ -4,8 +4,69 @@
   "uploadsPlaylistId": "UUp-pqXsizklX3ZHvLxXyhxw",
   "artistId": "day6",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-25T21:20:26.149Z",
+  "fetchedAt": "2026-11-26T21:07:30.028Z",
   "items": [
+    {
+      "id": "yt-LW2mS3giXe0",
+      "source": {
+        "platform": "youtube",
+        "videoId": "LW2mS3giXe0",
+        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "day6",
+        "name": "DAY6"
+      },
+      "title": "[LIVE] 나만 슬픈 엔딩 + 널 제외한 나의 뇌 + 아 왜 | DAY6(데이식스) 5TH FANMEETING ＜EVERY DAY6, EVERY My Day＞",
+      "description": "[LIVE] 나만 슬픈 엔딩 + 널 제외한 나의 뇌 + 아 왜 | DAY6(데이식스) 5TH FANMEETING ＜EVERY DAY6, EVERY My Day＞\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 O",
+      "thumbnail": "https://i.ytimg.com/vi/LW2mS3giXe0/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/LW2mS3giXe0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/LW2mS3giXe0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/LW2mS3giXe0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/LW2mS3giXe0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/LW2mS3giXe0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-26T10:00:04.000Z",
+      "url": "https://www.youtube.com/watch?v=LW2mS3giXe0",
+      "fetchedAt": "2026-11-26T21:07:30.028Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-26T21:07:30.028Z",
+      "type": "other",
+      "category": "fan",
+      "subcategory": "fan-content",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.86,
+        "ruleId": "fan-message"
+      }
+    },
     {
       "id": "yt-sREdDHoTn4M",
       "source": {
@@ -847,9 +908,9 @@
       ],
       "publishedAt": "2026-10-27T11:05:57.000Z",
       "url": "https://www.youtube.com/watch?v=bPus2GI7Nhg",
-      "fetchedAt": "2026-11-11T19:23:29.321Z",
+      "fetchedAt": "2026-11-26T21:07:30.028Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
+      "lastValidatedAt": "2026-11-26T21:07:30.028Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -907,9 +968,9 @@
       ],
       "publishedAt": "2026-10-27T11:05:30.000Z",
       "url": "https://www.youtube.com/watch?v=V9RG0rKIPgA",
-      "fetchedAt": "2026-11-11T19:23:29.321Z",
+      "fetchedAt": "2026-11-26T21:07:30.028Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
+      "lastValidatedAt": "2026-11-26T21:07:30.028Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -967,9 +1028,9 @@
       ],
       "publishedAt": "2026-10-27T11:05:13.000Z",
       "url": "https://www.youtube.com/watch?v=OVNbSp1XSUQ",
-      "fetchedAt": "2026-11-11T19:23:29.321Z",
+      "fetchedAt": "2026-11-26T21:07:30.028Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
+      "lastValidatedAt": "2026-11-26T21:07:30.028Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1027,9 +1088,9 @@
       ],
       "publishedAt": "2026-10-27T11:00:10.000Z",
       "url": "https://www.youtube.com/watch?v=sT4-RgWeMgo",
-      "fetchedAt": "2026-11-11T19:23:29.321Z",
+      "fetchedAt": "2026-11-26T21:07:30.028Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
+      "lastValidatedAt": "2026-11-26T21:07:30.028Z",
       "type": "other",
       "category": "fan",
       "subcategory": "fan-content",
@@ -1088,9 +1149,9 @@
       ],
       "publishedAt": "2026-10-27T11:00:07.000Z",
       "url": "https://www.youtube.com/watch?v=VP2NdNKLtus",
-      "fetchedAt": "2026-11-11T19:23:29.321Z",
+      "fetchedAt": "2026-11-26T21:07:30.028Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
+      "lastValidatedAt": "2026-11-26T21:07:30.028Z",
       "type": "other",
       "category": "fan",
       "subcategory": "fan-content",
@@ -1149,9 +1210,9 @@
       ],
       "publishedAt": "2026-10-27T10:00:02.000Z",
       "url": "https://www.youtube.com/watch?v=rFSw1sengjs",
-      "fetchedAt": "2026-11-11T19:23:29.321Z",
+      "fetchedAt": "2026-11-26T21:07:30.028Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
+      "lastValidatedAt": "2026-11-26T21:07:30.028Z",
       "type": "other",
       "category": "fan",
       "subcategory": "fan-content",
@@ -2967,67 +3028,6 @@
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-0qJhdPUM9H0",
-      "source": {
-        "platform": "youtube",
-        "videoId": "0qJhdPUM9H0",
-        "channelId": "UCp-pqXsizklX3ZHvLxXyhxw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "day6",
-        "name": "DAY6"
-      },
-      "title": "[DAY6 VLOG] 강영현 브이로그 in 상하이 | 왕홍 케이 상하이에 등장 ₊*ෆ🐱ෆ*₊",
-      "description": "[DAY6 VLOG] 강영현 브이로그 in 상하이 | 왕홍 케이 상하이에 등장 ₊*ෆ🐱ෆ*₊\n\nListen to Young K \"YOUNGEST\"\nhttps://youngk.lnk.to/YOUNGEST\n\nDAY6 Official YouTube: http://www.youtube.com/c/DAY6Official\nDAY6 Official Facebook: http://www.facebook.com/DAY6Official\nDAY6 Official Twitter: http://www.twitter.c",
-      "thumbnail": "https://i.ytimg.com/vi/0qJhdPUM9H0/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/0qJhdPUM9H0/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/0qJhdPUM9H0/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/0qJhdPUM9H0/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/0qJhdPUM9H0/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/0qJhdPUM9H0/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-09-24T09:00:08.000Z",
-      "url": "https://www.youtube.com/watch?v=0qJhdPUM9H0",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
       }
     }
   ]

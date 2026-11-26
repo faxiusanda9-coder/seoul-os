@@ -4,8 +4,129 @@
   "uploadsPlaylistId": "UU-o9yrZxu5Ru-DVGhnmeTug",
   "artistId": "nexz",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-26T07:28:35.103Z",
+  "fetchedAt": "2026-11-26T21:07:30.028Z",
   "items": [
+    {
+      "id": "yt-HScT0pPpp_M",
+      "source": {
+        "platform": "youtube",
+        "videoId": "HScT0pPpp_M",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "NEXZ(넥스지) 1ST ASIA TOUR \"SAUCIN’ THE WORLD\" MD + VCR Shooting Behind The Scenes",
+      "description": "NEXZ(넥스지) 1ST ASIA TOUR \"SAUCIN’ THE WORLD\" MD + VCR Shooting Behind The Scenes\n\nNEXZ Official Website: https://nexz.jype.com\nNEXZ Official YouTube: https://www.youtube.com/@NEXZ_official\nNEXZ Official Facebook: https://www.facebook.com/realnexz\nNEXZ Official X: https://twitter.c",
+      "thumbnail": "https://i.ytimg.com/vi/HScT0pPpp_M/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/HScT0pPpp_M/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/HScT0pPpp_M/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/HScT0pPpp_M/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/HScT0pPpp_M/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/HScT0pPpp_M/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-26T11:00:03.000Z",
+      "url": "https://www.youtube.com/watch?v=HScT0pPpp_M",
+      "fetchedAt": "2026-11-26T21:07:30.028Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-26T21:07:30.028Z",
+      "type": "other",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
+    },
+    {
+      "id": "yt-AMiE0DrZ0Ws",
+      "source": {
+        "platform": "youtube",
+        "videoId": "AMiE0DrZ0Ws",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "이것저것 다 This & That | #NEXZ",
+      "description": "#NEXZ\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
+      "thumbnail": "https://i.ytimg.com/vi/AMiE0DrZ0Ws/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/AMiE0DrZ0Ws/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/AMiE0DrZ0Ws/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/AMiE0DrZ0Ws/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/AMiE0DrZ0Ws/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/AMiE0DrZ0Ws/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-26T09:00:30.000Z",
+      "url": "https://www.youtube.com/watch?v=AMiE0DrZ0Ws",
+      "fetchedAt": "2026-11-26T21:07:30.028Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-26T21:07:30.028Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-U7W7EEfXRUc",
       "source": {
@@ -1864,9 +1985,9 @@
       ],
       "publishedAt": "2026-11-11T12:30:25.000Z",
       "url": "https://www.youtube.com/watch?v=maWAZyRBljQ",
-      "fetchedAt": "2026-11-11T19:23:29.321Z",
+      "fetchedAt": "2026-11-26T21:07:30.028Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
+      "lastValidatedAt": "2026-11-26T21:07:30.028Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1924,9 +2045,9 @@
       ],
       "publishedAt": "2026-11-11T12:00:01.000Z",
       "url": "https://www.youtube.com/watch?v=kKNRA7jKhv0",
-      "fetchedAt": "2026-11-11T19:23:29.321Z",
+      "fetchedAt": "2026-11-26T21:07:30.028Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
+      "lastValidatedAt": "2026-11-26T21:07:30.028Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1984,9 +2105,9 @@
       ],
       "publishedAt": "2026-11-11T11:30:37.000Z",
       "url": "https://www.youtube.com/watch?v=r3oY5XVQN8Y",
-      "fetchedAt": "2026-11-11T19:23:29.321Z",
+      "fetchedAt": "2026-11-26T21:07:30.028Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
+      "lastValidatedAt": "2026-11-26T21:07:30.028Z",
       "type": "other",
       "category": "variety",
       "subcategory": "series",
@@ -2045,9 +2166,9 @@
       ],
       "publishedAt": "2026-11-11T11:30:34.000Z",
       "url": "https://www.youtube.com/watch?v=hjjdlxVFLrg",
-      "fetchedAt": "2026-11-11T19:23:29.321Z",
+      "fetchedAt": "2026-11-26T21:07:30.028Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-11T19:23:29.321Z",
+      "lastValidatedAt": "2026-11-26T21:07:30.028Z",
       "type": "other",
       "category": "variety",
       "subcategory": "series",
@@ -2885,128 +3006,6 @@
         "method": "fallback",
         "confidence": 0,
         "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-2quetSE3gwo",
-      "source": {
-        "platform": "youtube",
-        "videoId": "2quetSE3gwo",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "Hellmate Challenge 💚 with #遠藤彩加里 さん (#juicejuice) | #YUKI",
-      "description": "#NEXZ #YUKI  \n#Hellmate #NEXZ_Hellmate \n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
-      "thumbnail": "https://i.ytimg.com/vi/2quetSE3gwo/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/2quetSE3gwo/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/2quetSE3gwo/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/2quetSE3gwo/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/2quetSE3gwo/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/2quetSE3gwo/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-11-05T12:00:21.000Z",
-      "url": "https://www.youtube.com/watch?v=2quetSE3gwo",
-      "fetchedAt": "2026-11-20T19:46:08.251Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-20T19:46:08.251Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt-uzggm-RAwbs",
-      "source": {
-        "platform": "youtube",
-        "videoId": "uzggm-RAwbs",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "SAUCIN’ Challenge 🥫 with #EIKU さん (#ONENONLY) | #HARU",
-      "description": "#NEXZ #HARU  \n#SAUCIN #NEXZ_SAUCIN\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
-      "thumbnail": "https://i.ytimg.com/vi/uzggm-RAwbs/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/uzggm-RAwbs/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/uzggm-RAwbs/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/uzggm-RAwbs/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/uzggm-RAwbs/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/uzggm-RAwbs/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-11-05T11:30:17.000Z",
-      "url": "https://www.youtube.com/watch?v=uzggm-RAwbs",
-      "fetchedAt": "2026-11-20T19:46:08.251Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-20T19:46:08.251Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
       }
     }
   ]
