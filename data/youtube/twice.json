@@ -4,8 +4,188 @@
   "uploadsPlaylistId": "UUzgxx_DM2Dcb9Y1spb9mUJA",
   "artistId": "twice",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-26T21:07:30.028Z",
+  "fetchedAt": "2026-11-27T07:25:42.436Z",
   "items": [
+    {
+      "id": "yt-7b663Du90Jc",
+      "source": {
+        "platform": "youtube",
+        "videoId": "7b663Du90Jc",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "Poses for ANGELS ✌️ #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+      "description": "Poses for ANGELS ✌️\n\n🖥️Listen NA-sty🖥️\nNAYEON.lnk.to/NAsty \n\n#TWICE #트와이스 #NAYEON #나연 \n#NA_sty #BABY_ANGEL",
+      "thumbnail": "https://i.ytimg.com/vi/7b663Du90Jc/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/7b663Du90Jc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/7b663Du90Jc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/7b663Du90Jc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/7b663Du90Jc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/7b663Du90Jc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-27T06:00:32.000Z",
+      "url": "https://www.youtube.com/watch?v=7b663Du90Jc",
+      "fetchedAt": "2026-11-27T07:25:42.436Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-27T07:25:42.436Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-e0i0_gOG5R0",
+      "source": {
+        "platform": "youtube",
+        "videoId": "e0i0_gOG5R0",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "CAPTIVATED ✨ #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+      "description": "CAPTIVATED ✨\n\n🖥️Listen NA-sty🖥️\nNAYEON.lnk.to/NAsty \n\n#TWICE #트와이스 #NAYEON #나연 \n#NA_sty #BABY_ANGEL",
+      "thumbnail": "https://i.ytimg.com/vi/e0i0_gOG5R0/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/e0i0_gOG5R0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/e0i0_gOG5R0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/e0i0_gOG5R0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/e0i0_gOG5R0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/e0i0_gOG5R0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-27T05:00:20.000Z",
+      "url": "https://www.youtube.com/watch?v=e0i0_gOG5R0",
+      "fetchedAt": "2026-11-27T07:25:42.436Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-27T07:25:42.436Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-V5vA3xDy7Uw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "V5vA3xDy7Uw",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "Office life is quite hard.. 🗂️📑 TWICE #트와이스 #NAYEON #나연 #NA_sty #BOY",
+      "description": "Office life is quite hard.. 🗂️📑\n\n🖥️Listen NA-sty🖥️\nNAYEON.lnk.to/NAsty \n\nTWICE #트와이스 #NAYEON #나연 \n#NA_sty #BOY",
+      "thumbnail": "https://i.ytimg.com/vi/V5vA3xDy7Uw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/V5vA3xDy7Uw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/V5vA3xDy7Uw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/V5vA3xDy7Uw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/V5vA3xDy7Uw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/V5vA3xDy7Uw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-27T04:00:36.000Z",
+      "url": "https://www.youtube.com/watch?v=V5vA3xDy7Uw",
+      "fetchedAt": "2026-11-27T07:25:42.436Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-27T07:25:42.436Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-UBagWPXMv2M",
       "source": {
@@ -1855,9 +2035,9 @@
       ],
       "publishedAt": "2026-11-12T06:00:09.000Z",
       "url": "https://www.youtube.com/watch?v=9kmlL58l4QM",
-      "fetchedAt": "2026-11-12T06:23:35.446Z",
+      "fetchedAt": "2026-11-27T07:25:42.436Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-12T06:23:35.446Z",
+      "lastValidatedAt": "2026-11-27T07:25:42.436Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1915,9 +2095,9 @@
       ],
       "publishedAt": "2026-11-12T05:30:35.000Z",
       "url": "https://www.youtube.com/watch?v=zDpIVCu_2o4",
-      "fetchedAt": "2026-11-12T06:23:35.446Z",
+      "fetchedAt": "2026-11-27T07:25:42.436Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-12T06:23:35.446Z",
+      "lastValidatedAt": "2026-11-27T07:25:42.436Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -1975,9 +2155,9 @@
       ],
       "publishedAt": "2026-11-12T05:00:06.000Z",
       "url": "https://www.youtube.com/watch?v=Mm-qZVRc-Bw",
-      "fetchedAt": "2026-11-12T06:23:35.446Z",
+      "fetchedAt": "2026-11-27T07:25:42.436Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-12T06:23:35.446Z",
+      "lastValidatedAt": "2026-11-27T07:25:42.436Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2824,187 +3004,6 @@
       "fetchedAt": "2026-11-26T21:07:30.028Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-26T21:07:30.028Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt-z7afHJ5I0Ws",
-      "source": {
-        "platform": "youtube",
-        "videoId": "z7afHJ5I0Ws",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "NAYEON SINGLE “NA-sty” CAPTIVATED MODE: ON",
-      "description": "NAYEON SINGLE “NA-sty” CAPTIVATED MODE: ON \n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.twitter.com/JYPETWICE \nTWICE Officia",
-      "thumbnail": "https://i.ytimg.com/vi/z7afHJ5I0Ws/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/z7afHJ5I0Ws/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/z7afHJ5I0Ws/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/z7afHJ5I0Ws/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/z7afHJ5I0Ws/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/z7afHJ5I0Ws/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-23T13:00:04.000Z",
-      "url": "https://www.youtube.com/watch?v=z7afHJ5I0Ws",
-      "fetchedAt": "2026-11-23T06:31:43.347Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-23T06:31:43.347Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-hwr7DS_mHwY",
-      "source": {
-        "platform": "youtube",
-        "videoId": "hwr7DS_mHwY",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "NAYEON SINGLE “NA-sty” CAPTIVATED MODE: ON #TWICE #트와이스 #NAYEON #나연 #NA_sty",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/hwr7DS_mHwY/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/hwr7DS_mHwY/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/hwr7DS_mHwY/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/hwr7DS_mHwY/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/hwr7DS_mHwY/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/hwr7DS_mHwY/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-23T13:00:02.000Z",
-      "url": "https://www.youtube.com/watch?v=hwr7DS_mHwY",
-      "fetchedAt": "2026-11-23T06:31:43.347Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-23T06:31:43.347Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-Llxr_FUhbqU",
-      "source": {
-        "platform": "youtube",
-        "videoId": "Llxr_FUhbqU",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "트둥의 숲 TDOONG's Crossing EP.01 Highlight #2 #TWICE #트와이스 #TWICEREALITY #TIMETOTWICE #TTT",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/Llxr_FUhbqU/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/Llxr_FUhbqU/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/Llxr_FUhbqU/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/Llxr_FUhbqU/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/Llxr_FUhbqU/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/Llxr_FUhbqU/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-23T04:01:28.000Z",
-      "url": "https://www.youtube.com/watch?v=Llxr_FUhbqU",
-      "fetchedAt": "2026-11-22T05:45:36.883Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-22T05:45:36.883Z",
       "type": "other",
       "category": "variety",
       "subcategory": "series",

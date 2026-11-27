@@ -4,7 +4,7 @@
   "uploadsPlaylistId": "UUHp2q2i85qt_9nn2H7AvGOw",
   "artistId": "niziu",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-26T21:07:30.028Z",
+  "fetchedAt": "2026-11-27T07:25:42.436Z",
   "items": [
     {
       "id": "yt-JzxT4BDplH8",
@@ -2902,9 +2902,9 @@
       ],
       "publishedAt": "2026-11-12T03:00:24.000Z",
       "url": "https://www.youtube.com/watch?v=QrH-e_sp_gw",
-      "fetchedAt": "2026-11-12T06:23:35.446Z",
+      "fetchedAt": "2026-11-27T07:25:42.436Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-12T06:23:35.446Z",
+      "lastValidatedAt": "2026-11-27T07:25:42.436Z",
       "type": "other",
       "category": "other",
       "classification": {
