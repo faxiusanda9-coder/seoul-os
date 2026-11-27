@@ -4,7 +4,7 @@
   "uploadsPlaylistId": "UUBpzJvEhkemwMOkYLq9yUsA",
   "artistId": "2pm",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-17T20:37:40.249Z",
+  "fetchedAt": "2026-11-27T20:51:09.730Z",
   "items": [
     {
       "id": "yt--2A2tDKqBxc",
@@ -115,9 +115,9 @@
       ],
       "publishedAt": "2026-11-12T09:00:32.000Z",
       "url": "https://www.youtube.com/watch?v=ni6qzfqKyTg",
-      "fetchedAt": "2026-11-12T19:41:04.309Z",
+      "fetchedAt": "2026-11-27T20:51:09.730Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-12T19:41:04.309Z",
+      "lastValidatedAt": "2026-11-27T20:51:09.730Z",
       "type": "other",
       "category": "other",
       "classification": {

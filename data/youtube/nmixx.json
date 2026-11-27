@@ -4,8 +4,69 @@
   "uploadsPlaylistId": "UUnUAyD4t2LkvW68YrDh7fDg",
   "artistId": "nmixx",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-26T21:07:30.028Z",
+  "fetchedAt": "2026-11-27T20:51:09.730Z",
   "items": [
+    {
+      "id": "yt-eEhPJafbXqw",
+      "source": {
+        "platform": "youtube",
+        "videoId": "eEhPJafbXqw",
+        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nmixx",
+        "name": "NMIXX"
+      },
+      "title": "NMIXX(엔믹스) “RudE TaLK & 너는 달 (Sing to the Moon) (LILY, HAEWON)” Recording Behind | Recording MIXX",
+      "description": "NMIXX(엔믹스) “RudE TaLK & 너는 달 (Sing to the Moon) (LILY, HAEWON)” Recording Behind | Recording MIXX\n\nNMIXX Official YouTube ▶ https://www.youtube.com/c/NMIXXOfficial \nNMIXX Official X ▶ https://x.com/NMIXX_official\nNMIXX Official X(Members) ▶ https://x.com/WE_NMIXX\nNMIXX Official I",
+      "thumbnail": "https://i.ytimg.com/vi/eEhPJafbXqw/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/eEhPJafbXqw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/eEhPJafbXqw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/eEhPJafbXqw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/eEhPJafbXqw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/eEhPJafbXqw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-27T09:00:38.000Z",
+      "url": "https://www.youtube.com/watch?v=eEhPJafbXqw",
+      "fetchedAt": "2026-11-27T20:51:09.730Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-27T20:51:09.730Z",
+      "type": "other",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
+    },
     {
       "id": "yt-9H56b4Dg56Y",
       "source": {
@@ -748,9 +809,9 @@
       ],
       "publishedAt": "2026-11-12T11:00:37.000Z",
       "url": "https://www.youtube.com/watch?v=8wIIfJx_y2w",
-      "fetchedAt": "2026-11-12T19:41:04.309Z",
+      "fetchedAt": "2026-11-27T20:51:09.730Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-12T19:41:04.309Z",
+      "lastValidatedAt": "2026-11-27T20:51:09.730Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2460,9 +2521,9 @@
       ],
       "publishedAt": "2026-10-28T09:00:21.000Z",
       "url": "https://www.youtube.com/watch?v=8VhblKF8o4M",
-      "fetchedAt": "2026-11-12T19:41:04.309Z",
+      "fetchedAt": "2026-11-27T20:51:09.730Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-12T19:41:04.309Z",
+      "lastValidatedAt": "2026-11-27T20:51:09.730Z",
       "type": "other",
       "category": "behind",
       "subcategory": "making",
@@ -3014,66 +3075,6 @@
       ],
       "publishedAt": "2026-10-26T12:00:24.000Z",
       "url": "https://www.youtube.com/watch?v=q54eVSaVuBU",
-      "fetchedAt": "2026-11-21T06:12:25.451Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-21T06:12:25.451Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-akRD8RLWjRw",
-      "source": {
-        "platform": "youtube",
-        "videoId": "akRD8RLWjRw",
-        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nmixx",
-        "name": "NMIXX"
-      },
-      "title": "#이은결 위한 긴 소원을 빌게 🪄 #NMIXX #HAEWON #긴소원_BirthdayWish",
-      "description": "#이은결 위한 긴 소원을 빌게 🪄 #NMIXX #HAEWON #긴소원_BirthdayWish \n\nNMIXX Official YouTube ▶ https://www.youtube.com/c/NMIXXOfficial\nNMIXX Official X ▶ https://x.com/NMIXX_official\nNMIXX Official X(Members) ▶ https://x.com/WE_NMIXX\nNMIXX Official Instagram ▶ https://www.instagram.com/nmixx_of",
-      "thumbnail": "https://i.ytimg.com/vi/akRD8RLWjRw/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/akRD8RLWjRw/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/akRD8RLWjRw/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/akRD8RLWjRw/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/akRD8RLWjRw/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/akRD8RLWjRw/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-26T05:00:02.000Z",
-      "url": "https://www.youtube.com/watch?v=akRD8RLWjRw",
       "fetchedAt": "2026-11-21T06:12:25.451Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-21T06:12:25.451Z",

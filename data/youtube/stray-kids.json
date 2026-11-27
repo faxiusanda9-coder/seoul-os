@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UU9rMiEjNaCSsebs31MRDCRA",
   "artistId": "stray-kids",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-27T07:25:42.436Z",
+  "fetchedAt": "2026-11-27T20:51:09.730Z",
   "items": [
+    {
+      "id": "yt-S2ru4KUJgRg",
+      "source": {
+        "platform": "youtube",
+        "videoId": "S2ru4KUJgRg",
+        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "stray-kids",
+        "name": "Stray Kids"
+      },
+      "title": "Count to 티격태격 #StrayKids #스트레이키즈 #현진 #Hyunjin #승민 #Seungmin #YouMakeStrayKidsStay",
+      "description": "Count to 티격태격 #StrayKids #스트레이키즈 #현진 #Hyunjin #승민 #Seungmin #YouMakeStrayKidsStay \n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" now➡",
+      "thumbnail": "https://i.ytimg.com/vi/S2ru4KUJgRg/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/S2ru4KUJgRg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/S2ru4KUJgRg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/S2ru4KUJgRg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/S2ru4KUJgRg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/S2ru4KUJgRg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-27T10:59:18.000Z",
+      "url": "https://www.youtube.com/watch?v=S2ru4KUJgRg",
+      "fetchedAt": "2026-11-27T20:51:09.730Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-27T20:51:09.730Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-CMl4zudk9W4",
       "source": {
@@ -1081,9 +1141,9 @@
       ],
       "publishedAt": "2026-11-12T10:59:56.000Z",
       "url": "https://www.youtube.com/watch?v=6gAzcj3zDi0",
-      "fetchedAt": "2026-11-12T19:41:04.309Z",
+      "fetchedAt": "2026-11-27T20:51:09.730Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-12T19:41:04.309Z",
+      "lastValidatedAt": "2026-11-27T20:51:09.730Z",
       "type": "other",
       "category": "variety",
       "subcategory": "series",
@@ -1684,9 +1744,9 @@
       ],
       "publishedAt": "2026-10-28T11:01:02.000Z",
       "url": "https://www.youtube.com/watch?v=iDbB16wFG98",
-      "fetchedAt": "2026-11-12T19:41:04.309Z",
+      "fetchedAt": "2026-11-27T20:51:09.730Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-12T19:41:04.309Z",
+      "lastValidatedAt": "2026-11-27T20:51:09.730Z",
       "type": "other",
       "category": "variety",
       "subcategory": "series",
@@ -1745,9 +1805,9 @@
       ],
       "publishedAt": "2026-10-28T09:00:06.000Z",
       "url": "https://www.youtube.com/watch?v=-ehbW2WIOBw",
-      "fetchedAt": "2026-11-12T19:41:04.309Z",
+      "fetchedAt": "2026-11-27T20:51:09.730Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-12T19:41:04.309Z",
+      "lastValidatedAt": "2026-11-27T20:51:09.730Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2958,66 +3018,6 @@
       ],
       "publishedAt": "2026-10-03T09:09:03.000Z",
       "url": "https://www.youtube.com/watch?v=Vtsrj3YvYB0",
-      "fetchedAt": "2026-11-14T05:33:34.635Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-14T05:33:34.635Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-6k8qzF3EiwQ",
-      "source": {
-        "platform": "youtube",
-        "videoId": "6k8qzF3EiwQ",
-        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "stray-kids",
-        "name": "Stray Kids"
-      },
-      "title": "1003",
-      "description": "1003\n\nListen to \"THIS & THAT\" now🚚\nhttp://stray-kids.lnk.to/THISANDTHAT\n\nListen to \"This & That (This Remixes)\" now⬅️\nhttps://stray-kids.lnk.to/THIS_REMIXES\n\nListen to \"This & That (That Remixes)\" now➡️\nhttps://Stray-Kids.lnk.to/THAT_REMIXES \n\nStray Kids \"THIS & THAT\"\niTunes & A",
-      "thumbnail": "https://i.ytimg.com/vi/6k8qzF3EiwQ/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/6k8qzF3EiwQ/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/6k8qzF3EiwQ/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/6k8qzF3EiwQ/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/6k8qzF3EiwQ/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/6k8qzF3EiwQ/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-03T07:45:39.000Z",
-      "url": "https://www.youtube.com/watch?v=6k8qzF3EiwQ",
       "fetchedAt": "2026-11-14T05:33:34.635Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-14T05:33:34.635Z",

@@ -4,8 +4,75 @@
   "uploadsPlaylistId": "UUDhM2k2Cua-JdobAh5moMFg",
   "artistId": "itzy",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-26T21:07:30.028Z",
+  "fetchedAt": "2026-11-27T20:51:09.730Z",
   "items": [
+    {
+      "id": "yt-c0ft5iPAQPM",
+      "source": {
+        "platform": "youtube",
+        "videoId": "c0ft5iPAQPM",
+        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "itzy",
+        "name": "ITZY"
+      },
+      "title": "럽식 4일 l CHAERYEONG \"Lovesick\" BEHIND #1",
+      "description": "럽식 4일 l CHAERYEONG \"Lovesick\" BEHIND #1 \n\nCHAERYEONG 'Lovesick'\nhttp://CHAERYEONG.lnk.to/Lovesick\n\n[ITZY Official]\n▶ https://www.youtube.com/c/ITZY\n▶ https://www.instagram.com/itzy.all.in.us\n▶ https://www.tiktok.com/@itzyofficial\n▶ http://www.twitter.com/ITZYOfficial\n▶ http://www",
+      "thumbnail": "https://i.ytimg.com/vi/c0ft5iPAQPM/fhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/c0ft5iPAQPM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/c0ft5iPAQPM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/c0ft5iPAQPM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/c0ft5iPAQPM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/c0ft5iPAQPM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "fhd",
+          "url": "https://i.ytimg.com/vi/c0ft5iPAQPM/fhddefault.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "publishedAt": "2026-11-27T09:59:58.000Z",
+      "url": "https://www.youtube.com/watch?v=c0ft5iPAQPM",
+      "fetchedAt": "2026-11-27T20:51:09.730Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-27T20:51:09.730Z",
+      "type": "other",
+      "category": "behind",
+      "subcategory": "making",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.95,
+        "ruleId": "making"
+      }
+    },
     {
       "id": "yt-0o6xmNwixcY",
       "source": {
@@ -3008,66 +3075,6 @@
       "fetchedAt": "2026-11-17T20:37:40.249Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-17T20:37:40.249Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-BtezaVOJcww",
-      "source": {
-        "platform": "youtube",
-        "videoId": "BtezaVOJcww",
-        "channelId": "UCDhM2k2Cua-JdobAh5moMFg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "itzy",
-        "name": "ITZY"
-      },
-      "title": "온 세상이 다 🖤🍓🍬🐰 ⋰˚✩ #ITZY #CHAERYEONG #채령 #Chaeryeong_Lovesick #Shorts",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/BtezaVOJcww/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/BtezaVOJcww/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/BtezaVOJcww/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/BtezaVOJcww/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/BtezaVOJcww/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/BtezaVOJcww/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-11-17T03:01:19.000Z",
-      "url": "https://www.youtube.com/watch?v=BtezaVOJcww",
-      "fetchedAt": "2026-11-17T07:08:42.426Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-17T07:08:42.426Z",
       "type": "other",
       "category": "other",
       "classification": {

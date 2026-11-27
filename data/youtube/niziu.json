@@ -4,8 +4,255 @@
   "uploadsPlaylistId": "UUHp2q2i85qt_9nn2H7AvGOw",
   "artistId": "niziu",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-27T07:25:42.436Z",
+  "fetchedAt": "2026-11-27T20:51:09.730Z",
   "items": [
+    {
+      "id": "yt-I6Kx9fRtJRE",
+      "source": {
+        "platform": "youtube",
+        "videoId": "I6Kx9fRtJRE",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "NiziU ESCAPE🔓 EP.2",
+      "description": "NiziU ESCAPE🔓 EP.2\n\nNiziU Official Homepage: https://niziu.com/\nNiziU Official YouTube: https://www.youtube.com/@NiziUOfficial\nNiziU Official Facebook: https://www.facebook.com/NiziUinfoofficial/\nNiziU Official X(Twitter): https://twitter.com/NiziU__official\nNiziU Official Insta",
+      "thumbnail": "https://i.ytimg.com/vi/I6Kx9fRtJRE/fhddefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/I6Kx9fRtJRE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/I6Kx9fRtJRE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/I6Kx9fRtJRE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/I6Kx9fRtJRE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/I6Kx9fRtJRE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "quality": "fhd",
+          "url": "https://i.ytimg.com/vi/I6Kx9fRtJRE/fhddefault.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "publishedAt": "2026-11-27T11:00:30.000Z",
+      "url": "https://www.youtube.com/watch?v=I6Kx9fRtJRE",
+      "fetchedAt": "2026-11-27T20:51:09.730Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-27T20:51:09.730Z",
+      "type": "other",
+      "category": "variety",
+      "subcategory": "series",
+      "classification": {
+        "method": "rule",
+        "confidence": 0.9,
+        "ruleId": "variety-series"
+      }
+    },
+    {
+      "id": "yt-A-mLWnzVX38",
+      "source": {
+        "platform": "youtube",
+        "videoId": "A-mLWnzVX38",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "“Jolly Jolly”with #juicejuice #林仁愛 さん🎄💚@juicejuice  #NINA #NiziU #NiziU_JollyJolly",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/A-mLWnzVX38/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/A-mLWnzVX38/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/A-mLWnzVX38/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/A-mLWnzVX38/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/A-mLWnzVX38/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/A-mLWnzVX38/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-27T10:00:39.000Z",
+      "url": "https://www.youtube.com/watch?v=A-mLWnzVX38",
+      "fetchedAt": "2026-11-27T20:51:09.730Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-27T20:51:09.730Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-5MMsvjTrxtk",
+      "source": {
+        "platform": "youtube",
+        "videoId": "5MMsvjTrxtk",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "♥️( ᴗ ̫ ᴗ ).｡oO( ｼﾞｮﾘｼﾞｮﾘｯ )🤍#MAKO#RIKU#NiziU #WithU#NiziU_JollyJolly",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/5MMsvjTrxtk/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/5MMsvjTrxtk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/5MMsvjTrxtk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/5MMsvjTrxtk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/5MMsvjTrxtk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/5MMsvjTrxtk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-27T09:00:00.000Z",
+      "url": "https://www.youtube.com/watch?v=5MMsvjTrxtk",
+      "fetchedAt": "2026-11-27T20:51:09.730Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-27T20:51:09.730Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-mCbigc9OrQo",
+      "source": {
+        "platform": "youtube",
+        "videoId": "mCbigc9OrQo",
+        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "niziu",
+        "name": "NiziU"
+      },
+      "title": "♥️( ᴗ ̫ ᴗ ).｡oO( ｼﾞｮﾘｼﾞｮﾘｯ )🤍#RIMA#MIIHI#NiziU #WithU#NiziU_JollyJolly",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/mCbigc9OrQo/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/mCbigc9OrQo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/mCbigc9OrQo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/mCbigc9OrQo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/mCbigc9OrQo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/mCbigc9OrQo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-27T08:00:01.000Z",
+      "url": "https://www.youtube.com/watch?v=mCbigc9OrQo",
+      "fetchedAt": "2026-11-27T20:51:09.730Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-27T20:51:09.730Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-JzxT4BDplH8",
       "source": {
@@ -2650,9 +2897,9 @@
       ],
       "publishedAt": "2026-11-12T12:30:20.000Z",
       "url": "https://www.youtube.com/watch?v=o4BpRkiK05I",
-      "fetchedAt": "2026-11-12T19:41:04.309Z",
+      "fetchedAt": "2026-11-27T20:51:09.730Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-12T19:41:04.309Z",
+      "lastValidatedAt": "2026-11-27T20:51:09.730Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2716,9 +2963,9 @@
       ],
       "publishedAt": "2026-11-12T11:30:22.000Z",
       "url": "https://www.youtube.com/watch?v=LB8pNDYCj1k",
-      "fetchedAt": "2026-11-12T19:41:04.309Z",
+      "fetchedAt": "2026-11-27T20:51:09.730Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-12T19:41:04.309Z",
+      "lastValidatedAt": "2026-11-27T20:51:09.730Z",
       "type": "teaser",
       "category": "other",
       "classification": {
@@ -2776,255 +3023,9 @@
       ],
       "publishedAt": "2026-11-12T11:00:35.000Z",
       "url": "https://www.youtube.com/watch?v=JGV6hGiPjcU",
-      "fetchedAt": "2026-11-12T19:41:04.309Z",
+      "fetchedAt": "2026-11-27T20:51:09.730Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-12T19:41:04.309Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-gBGI6qJDmTo",
-      "source": {
-        "platform": "youtube",
-        "videoId": "gBGI6qJDmTo",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "[#NiziU_BDay] \"UNTITLED VOL.09” Visual Teaser",
-      "description": "[#NiziU_BDay] \"UNTITLED VOL.09” Visual Teaser\n\nNiziU Official Homepage: https://niziu.com/\nNiziU Official YouTube: https://www.youtube.com/@NiziUOfficial\nNiziU Official Facebook: https://www.facebook.com/NiziUinfoofficial/\nNiziU Official X(Twitter): https://twitter.com/NiziU__off",
-      "thumbnail": "https://i.ytimg.com/vi/gBGI6qJDmTo/fhddefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/gBGI6qJDmTo/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/gBGI6qJDmTo/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/gBGI6qJDmTo/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/gBGI6qJDmTo/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/gBGI6qJDmTo/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "quality": "fhd",
-          "url": "https://i.ytimg.com/vi/gBGI6qJDmTo/fhddefault.jpg",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "publishedAt": "2026-11-12T09:00:37.000Z",
-      "url": "https://www.youtube.com/watch?v=gBGI6qJDmTo",
-      "fetchedAt": "2026-11-12T19:41:04.309Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-12T19:41:04.309Z",
-      "type": "teaser",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-QrH-e_sp_gw",
-      "source": {
-        "platform": "youtube",
-        "videoId": "QrH-e_sp_gw",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "NiziU Live with U 2026-2027 “Who? U! NiziU Fes.” is coming ౽🛷❄︎",
-      "description": "⛄特設サイト\nhttps://niziu.com/s/n123/page/livewithu2026_2027\n\n#NiziU #ニジュー #니쥬 #WithU\n#NiziU_tour #LivewithU2026_2027 #Who_U_NiziU_Fes",
-      "thumbnail": "https://i.ytimg.com/vi/QrH-e_sp_gw/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/QrH-e_sp_gw/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/QrH-e_sp_gw/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/QrH-e_sp_gw/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/QrH-e_sp_gw/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/QrH-e_sp_gw/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-11-12T03:00:24.000Z",
-      "url": "https://www.youtube.com/watch?v=QrH-e_sp_gw",
-      "fetchedAt": "2026-11-27T07:25:42.436Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-27T07:25:42.436Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-esJjXJ3JyPQ",
-      "source": {
-        "platform": "youtube",
-        "videoId": "esJjXJ3JyPQ",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "🤧🤧#MAKO #MIIHI#NiziU #니쥬 #WithU",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/esJjXJ3JyPQ/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/esJjXJ3JyPQ/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/esJjXJ3JyPQ/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/esJjXJ3JyPQ/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/esJjXJ3JyPQ/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/esJjXJ3JyPQ/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-11-11T14:52:05.000Z",
-      "url": "https://www.youtube.com/watch?v=esJjXJ3JyPQ",
-      "fetchedAt": "2026-11-26T21:07:30.028Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-26T21:07:30.028Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-j3oJi7loeos",
-      "source": {
-        "platform": "youtube",
-        "videoId": "j3oJi7loeos",
-        "channelId": "UCHp2q2i85qt_9nn2H7AvGOw",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "niziu",
-        "name": "NiziU"
-      },
-      "title": "🫶ＬＯＶＥ🫶#AYAKA #MAYUKA#NiziU #니쥬 #WithU",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/j3oJi7loeos/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/j3oJi7loeos/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/j3oJi7loeos/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/j3oJi7loeos/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/j3oJi7loeos/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/j3oJi7loeos/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-11-11T14:51:52.000Z",
-      "url": "https://www.youtube.com/watch?v=j3oJi7loeos",
-      "fetchedAt": "2026-11-26T21:07:30.028Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-26T21:07:30.028Z",
+      "lastValidatedAt": "2026-11-27T20:51:09.730Z",
       "type": "other",
       "category": "other",
       "classification": {

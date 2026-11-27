@@ -4,8 +4,128 @@
   "uploadsPlaylistId": "UUzgxx_DM2Dcb9Y1spb9mUJA",
   "artistId": "twice",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-27T07:25:42.436Z",
+  "fetchedAt": "2026-11-27T20:51:09.730Z",
   "items": [
+    {
+      "id": "yt-FJYniENKZvY",
+      "source": {
+        "platform": "youtube",
+        "videoId": "FJYniENKZvY",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "With BABY ANGEL #김재원 👼🪽#TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL #KIMJAEWON",
+      "description": "With BABY ANGEL #김재원 👼🪽\n\n🖥️Listen NA-sty🖥️\nNAYEON.lnk.to/NAsty\n\n#TWICE #트와이스 #NAYEON #나연 \n#NA_sty #BABY_ANGEL #KIMJAEWON",
+      "thumbnail": "https://i.ytimg.com/vi/FJYniENKZvY/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/FJYniENKZvY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/FJYniENKZvY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/FJYniENKZvY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/FJYniENKZvY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/FJYniENKZvY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-27T12:00:39.000Z",
+      "url": "https://www.youtube.com/watch?v=FJYniENKZvY",
+      "fetchedAt": "2026-11-27T20:51:09.730Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-27T20:51:09.730Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-CLQ8pHtsp6M",
+      "source": {
+        "platform": "youtube",
+        "videoId": "CLQ8pHtsp6M",
+        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "twice",
+        "name": "TWICE"
+      },
+      "title": "🌬️💨🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+      "description": "🌬️💨🪽\n\n🖥️Listen NA-sty🖥️\nNAYEON.lnk.to/NAsty \n\n#TWICE #트와이스 #NAYEON #나연 \n#NA_sty #BABY_ANGEL",
+      "thumbnail": "https://i.ytimg.com/vi/CLQ8pHtsp6M/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/CLQ8pHtsp6M/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/CLQ8pHtsp6M/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/CLQ8pHtsp6M/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/CLQ8pHtsp6M/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/CLQ8pHtsp6M/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-27T09:00:04.000Z",
+      "url": "https://www.youtube.com/watch?v=CLQ8pHtsp6M",
+      "fetchedAt": "2026-11-27T20:51:09.730Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-27T20:51:09.730Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-7b663Du90Jc",
       "source": {
@@ -1975,9 +2095,9 @@
       ],
       "publishedAt": "2026-11-12T06:30:20.000Z",
       "url": "https://www.youtube.com/watch?v=l0IOElkRH6I",
-      "fetchedAt": "2026-11-12T19:41:04.309Z",
+      "fetchedAt": "2026-11-27T20:51:09.730Z",
       "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-12T19:41:04.309Z",
+      "lastValidatedAt": "2026-11-27T20:51:09.730Z",
       "type": "other",
       "category": "other",
       "classification": {
@@ -2879,128 +2999,6 @@
       ],
       "publishedAt": "2026-10-27T09:31:27.000Z",
       "url": "https://www.youtube.com/watch?v=k6WpDXC5T-I",
-      "fetchedAt": "2026-11-26T21:07:30.028Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-26T21:07:30.028Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt-C1Ei0KlI5vs",
-      "source": {
-        "platform": "youtube",
-        "videoId": "C1Ei0KlI5vs",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "트둥의 숲 TDOONG's crossing EP.02 Highlight #1 #TWICE #트와이스#TWICEREALITY #TIMETOTWICE #TTT",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/C1Ei0KlI5vs/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/C1Ei0KlI5vs/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/C1Ei0KlI5vs/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/C1Ei0KlI5vs/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/C1Ei0KlI5vs/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/C1Ei0KlI5vs/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-27T09:30:12.000Z",
-      "url": "https://www.youtube.com/watch?v=C1Ei0KlI5vs",
-      "fetchedAt": "2026-11-26T21:07:30.028Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-26T21:07:30.028Z",
-      "type": "other",
-      "category": "variety",
-      "subcategory": "series",
-      "classification": {
-        "method": "rule",
-        "confidence": 0.9,
-        "ruleId": "variety-series"
-      }
-    },
-    {
-      "id": "yt-Zb4TqCg65ZM",
-      "source": {
-        "platform": "youtube",
-        "videoId": "Zb4TqCg65ZM",
-        "channelId": "UCzgxx_DM2Dcb9Y1spb9mUJA",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "twice",
-        "name": "TWICE"
-      },
-      "title": "[TIME TO TWICE] 트둥의 숲 TDOONG's Crossing EP.02",
-      "description": "[TIME TO TWICE] 트둥의 숲 TDOONG's Crossing EP.02\n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official X(Twitter): http://www.twitter.com/JYPETWICE \nTWICE Offic",
-      "thumbnail": "https://i.ytimg.com/vi/Zb4TqCg65ZM/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/Zb4TqCg65ZM/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/Zb4TqCg65ZM/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/Zb4TqCg65ZM/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/Zb4TqCg65ZM/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/Zb4TqCg65ZM/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-27T09:00:02.000Z",
-      "url": "https://www.youtube.com/watch?v=Zb4TqCg65ZM",
       "fetchedAt": "2026-11-26T21:07:30.028Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-26T21:07:30.028Z",
