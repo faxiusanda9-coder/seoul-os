@@ -4,8 +4,128 @@
   "uploadsPlaylistId": "UU-o9yrZxu5Ru-DVGhnmeTug",
   "artistId": "nexz",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-27T20:51:09.730Z",
+  "fetchedAt": "2026-11-28T06:55:59.005Z",
   "items": [
+    {
+      "id": "yt-LIwcfBuwpWg",
+      "source": {
+        "platform": "youtube",
+        "videoId": "LIwcfBuwpWg",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "#ベストアーティスト2026 この後16時からスタート✨ NEX2Yのみなさん、準備はいいですか？！ | #NEXZ",
+      "description": "#NEXZ\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
+      "thumbnail": "https://i.ytimg.com/vi/LIwcfBuwpWg/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/LIwcfBuwpWg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/LIwcfBuwpWg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/LIwcfBuwpWg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/LIwcfBuwpWg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/LIwcfBuwpWg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-28T05:00:16.000Z",
+      "url": "https://www.youtube.com/watch?v=LIwcfBuwpWg",
+      "fetchedAt": "2026-11-28T06:55:59.005Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-28T06:55:59.005Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
+    {
+      "id": "yt-f_GuMt55vTQ",
+      "source": {
+        "platform": "youtube",
+        "videoId": "f_GuMt55vTQ",
+        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nexz",
+        "name": "NEXZ"
+      },
+      "title": "#ベストアーティスト2026 D-day❤️ 「SAUCIN'」 日本のテレビで初披露！ | #NEXZ",
+      "description": "#NEXZ\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
+      "thumbnail": "https://i.ytimg.com/vi/f_GuMt55vTQ/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/f_GuMt55vTQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/f_GuMt55vTQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/f_GuMt55vTQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/f_GuMt55vTQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/f_GuMt55vTQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-28T03:00:38.000Z",
+      "url": "https://www.youtube.com/watch?v=f_GuMt55vTQ",
+      "fetchedAt": "2026-11-28T06:55:59.005Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-28T06:55:59.005Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-07awksxcXGQ",
       "source": {
@@ -2892,114 +3012,6 @@
       "fetchedAt": "2026-11-23T23:35:15.951Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-23T23:35:15.951Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-q2IJ5dgL6f4",
-      "source": {
-        "platform": "youtube",
-        "videoId": "q2IJ5dgL6f4",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "Click일지도...? NEXZ일지도...? 유난희(ㅋㅋ) 일지도? | #NEXZ",
-      "description": "#NEXZ  \n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
-      "thumbnail": "https://i.ytimg.com/vi/q2IJ5dgL6f4/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/q2IJ5dgL6f4/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/q2IJ5dgL6f4/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/q2IJ5dgL6f4/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/q2IJ5dgL6f4/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/q2IJ5dgL6f4/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-11-08T05:00:36.000Z",
-      "url": "https://www.youtube.com/watch?v=q2IJ5dgL6f4",
-      "fetchedAt": "2026-11-23T23:35:15.951Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-23T23:35:15.951Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-kMUt9F6vN3M",
-      "source": {
-        "platform": "youtube",
-        "videoId": "kMUt9F6vN3M",
-        "channelId": "UC-o9yrZxu5Ru-DVGhnmeTug",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nexz",
-        "name": "NEXZ"
-      },
-      "title": "오빠 맞다, 반박 안 받음. | #TOMOYA #SOGEON #YUKI",
-      "description": "#NEXZ #TOMOYA #SOGEON #YUKI\n\nCopyrights 2026 ⓒJYP Entertainment／Sony Music Labels Inc.",
-      "thumbnail": "https://i.ytimg.com/vi/kMUt9F6vN3M/hqdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/kMUt9F6vN3M/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/kMUt9F6vN3M/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/kMUt9F6vN3M/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        }
-      ],
-      "publishedAt": "2026-11-07T13:00:19.000Z",
-      "url": "https://www.youtube.com/watch?v=kMUt9F6vN3M",
-      "fetchedAt": "2026-11-23T06:31:43.347Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-23T06:31:43.347Z",
       "type": "other",
       "category": "other",
       "classification": {

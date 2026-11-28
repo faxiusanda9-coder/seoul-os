@@ -4,8 +4,68 @@
   "uploadsPlaylistId": "UUnUAyD4t2LkvW68YrDh7fDg",
   "artistId": "nmixx",
   "syncStatus": "ok",
-  "fetchedAt": "2026-11-27T20:51:09.730Z",
+  "fetchedAt": "2026-11-28T06:55:59.005Z",
   "items": [
+    {
+      "id": "yt--DShVKBbXZk",
+      "source": {
+        "platform": "youtube",
+        "videoId": "-DShVKBbXZk",
+        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+        "verification": "official-channel"
+      },
+      "artist": {
+        "id": "nmixx",
+        "name": "NMIXX"
+      },
+      "title": "엔써 브이로그 by 쮸멍이 🐬 #NMIXX #엔믹스 #ZEROFRONTIER #NMIXX_ZEROFRONTIER #NMIXX_ZEROFRONTIER_FINALE",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/-DShVKBbXZk/maxresdefault.jpg",
+      "thumbnails": [
+        {
+          "quality": "default",
+          "url": "https://i.ytimg.com/vi/-DShVKBbXZk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        {
+          "quality": "medium",
+          "url": "https://i.ytimg.com/vi/-DShVKBbXZk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "quality": "high",
+          "url": "https://i.ytimg.com/vi/-DShVKBbXZk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "quality": "standard",
+          "url": "https://i.ytimg.com/vi/-DShVKBbXZk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "quality": "maxres",
+          "url": "https://i.ytimg.com/vi/-DShVKBbXZk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "publishedAt": "2026-11-28T06:00:35.000Z",
+      "url": "https://www.youtube.com/watch?v=-DShVKBbXZk",
+      "fetchedAt": "2026-11-28T06:55:59.005Z",
+      "availabilityStatus": "public",
+      "lastValidatedAt": "2026-11-28T06:55:59.005Z",
+      "type": "other",
+      "category": "other",
+      "classification": {
+        "method": "fallback",
+        "confidence": 0,
+        "ruleId": "insufficient-evidence"
+      }
+    },
     {
       "id": "yt-eEhPJafbXqw",
       "source": {
@@ -3018,66 +3078,6 @@
       "fetchedAt": "2026-11-26T07:28:35.103Z",
       "availabilityStatus": "public",
       "lastValidatedAt": "2026-11-26T07:28:35.103Z",
-      "type": "other",
-      "category": "other",
-      "classification": {
-        "method": "fallback",
-        "confidence": 0,
-        "ruleId": "insufficient-evidence"
-      }
-    },
-    {
-      "id": "yt-q54eVSaVuBU",
-      "source": {
-        "platform": "youtube",
-        "videoId": "q54eVSaVuBU",
-        "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
-        "verification": "official-channel"
-      },
-      "artist": {
-        "id": "nmixx",
-        "name": "NMIXX"
-      },
-      "title": "베스트 아오즈 이름 대기 🐻‍❄️💦🐰💢 #NMIXX #HAEWON #SULLYOON #긴소원_BirthdayWish",
-      "description": "베스트 아오즈 이름 대기 🐻‍❄️💦🐰💢 #NMIXX #HAEWON #SULLYOON #긴소원_BirthdayWish \n\nNMIXX Official YouTube ▶ https://www.youtube.com/c/NMIXXOfficial\nNMIXX Official X ▶ https://x.com/NMIXX_official\nNMIXX Official X(Members) ▶ https://x.com/WE_NMIXX\nNMIXX Official Instagram ▶ https://www.instag",
-      "thumbnail": "https://i.ytimg.com/vi/q54eVSaVuBU/maxresdefault.jpg",
-      "thumbnails": [
-        {
-          "quality": "default",
-          "url": "https://i.ytimg.com/vi/q54eVSaVuBU/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        {
-          "quality": "medium",
-          "url": "https://i.ytimg.com/vi/q54eVSaVuBU/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "quality": "high",
-          "url": "https://i.ytimg.com/vi/q54eVSaVuBU/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        {
-          "quality": "standard",
-          "url": "https://i.ytimg.com/vi/q54eVSaVuBU/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        {
-          "quality": "maxres",
-          "url": "https://i.ytimg.com/vi/q54eVSaVuBU/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "publishedAt": "2026-10-26T12:00:24.000Z",
-      "url": "https://www.youtube.com/watch?v=q54eVSaVuBU",
-      "fetchedAt": "2026-11-21T06:12:25.451Z",
-      "availabilityStatus": "public",
-      "lastValidatedAt": "2026-11-21T06:12:25.451Z",
       "type": "other",
       "category": "other",
       "classification": {
